@@ -26,11 +26,11 @@ def main() -> None:
 
 def save_file(url: str, package_name: str, version: str) -> None:
     driver.get(url)
+
     download_link: str = driver.find_element(
-        By.XPATH, '//*[@id="maincontent"]/table/tbody/tr[4]/td/a[3]'
+        By.XPATH, "//*[text()='View All']"
     ).get_attribute("href")
 
-    driver.get(download_link)
     filename = package_name + "-" + version + ".aar"
     try:
         urllib.request.urlretrieve(
@@ -46,11 +46,19 @@ def save_file(url: str, package_name: str, version: str) -> None:
 
 def extract_all_versions_of(url: str) -> None:
     driver.get(url)
-    versions = driver.find_elements(By.CLASS_NAME, "vbtn")
-    package_name: str = url.split('/')[-1]
 
-    for version in versions:
-        save_file(f"{url}/{version}", package_name, version)
+    tab_anchors: List[WebElement] = driver.find_element(
+        By.CLASS_NAME, "tabs").find_elements(By.TAG_NAME, "a")
+    tab_links = [str(tab.get_attribute("href")) for tab in tab_anchors]
+
+    for tab in tab_links:
+        driver.get(tab)
+        versions = driver.find_elements(By.CLASS_NAME, "vbtn")
+        version_strs = [str(v.text) for v in versions]
+        package_name: str = url.split('/')[-1]
+
+        for version in version_strs:
+            save_file(f"{url}/{version}", package_name, version)
 
 
 def extract_page(tag: str, n_page: int) -> None:
