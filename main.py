@@ -17,6 +17,49 @@ driver = uc.Chrome(options=options, user_data_dir="/tmp/uc/profile")
 download_path = "/home/ikolomiko/libsec/new_libs/"
 
 
+class Library:
+    def __init__(self) -> None:
+        self.artifact_id = ""
+        self.group_id = ""
+
+        self.version = ""
+        self.repo = ""
+        self.usages = 0
+        self.date = ""
+
+    def __init__(self, row: WebElement) -> None:
+        self.artifact_id = ""
+        self.group_id = ""
+
+        cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
+
+        self.version = str(cols[-5].text)
+        self.repo = str(cols[-3].text)
+        self.usages = int(cols[-2].text)
+        self.date = str(cols[-1].text)
+
+    def __init__(self, row: WebElement, artifact_id: str, group_id: str) -> None:
+        self.artifact_id = artifact_id
+        self.group_id = group_id
+
+        cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
+
+        self.version = str(cols[-5].text)
+        self.repo = str(cols[-3].text)
+        self.usages = int(cols[-2].text)
+        self.date = str(cols[-1].text)
+
+    def __str__(self) -> str:
+        return (
+            f"Artifact id: {self.artifact_id}\n"
+            f"Group id: {self.group_id}\n"
+            f"Version: {self.version}\n"
+            f"Repo: {self.repo}\n"
+            f"Usages: {self.usages}\n"
+            f"Date: {self.date}\n"
+        )
+
+
 def main() -> None:
     tag = "ads"
     for i in range(1, 3):
@@ -35,15 +78,15 @@ def get_download_base_url(url: str, version: str):
     return download_link.removesuffix(version)
 
 
-def save_file(base_url: str, package_name: str, version: str) -> None:
+def save_file(base_url: str, artifact_id: str, version: str) -> None:
     base_url = base_url + version + "/"
-    filename = package_name + "-" + version + ".aar"
+    filename = artifact_id + "-" + version + ".aar"
     try:
         urllib.request.urlretrieve(
             base_url + filename, download_path + filename)
     except:
         try:
-            filename = package_name + "-" + version + ".jar"
+            filename = artifact_id + "-" + version + ".jar"
             urllib.request.urlretrieve(
                 base_url + filename, download_path + filename)
         except:
@@ -59,16 +102,26 @@ def extract_all_versions_of(url: str) -> None:
 
     for tab in tab_links:
         driver.get(tab)
-        versions = driver.find_elements(By.CLASS_NAME, "vbtn")
-        version_strs = [str(v.text) for v in versions]
-        package_name: str = url.split('/')[-1]
+
+        artifact_id: str = url.split('/')[-1]
+        group_id: str = url.split('/')[-2]
+        rows = driver.find_elements(By.XPATH,
+                                    '//*[@id="snippets"]/div/div/div/table/tbody/tr')
+        libraries = [Library(row, artifact_id, group_id) for row in rows]
+
         base_url: str = None
 
-        for version in version_strs:
+        for lib in libraries:
             if base_url == None:
-                base_url = get_download_base_url(url, version)
+                base_url = get_download_base_url(url, lib.version)
 
-            save_file(base_url, package_name, version)
+            save_file(base_url, lib.artifact_id, lib.version)
+
+            """ Debug code ahead
+            print(lib)
+            print("-----------------------------------------")
+
+            """
 
 
 def extract_page(tag: str, n_page: int) -> None:
