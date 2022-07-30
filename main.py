@@ -8,24 +8,30 @@ from undetected_chromedriver.webelement import WebElement
 import urllib.request
 import urllib.parse
 
+import json
+from tinydb import table, TinyDB, Query
+from tinydb.database import Document, Table
+
 options = uc.ChromeOptions()
 options.add_argument(
     "--no-first-run --no-service-autorun --password-store=basic")
-driver = uc.Chrome(options=options, user_data_dir="/tmp/uc/profile")
+driver = uc.Chrome(options=options, user_data_dir="/Users/betul/Desktop/libsec-scraper/profile",use_subprocess=True)
 
 # must end with a forward slash (/)
-download_path = "/home/ikolomiko/libsec/new_libs/"
+download_path = "/Users/betul/Desktop/libsec-scraper/libs"
 
+database = TinyDB('db.json')
+table_libraries = database.table('libraries')
 
 class Library:
     def __init__(self) -> None:
         self.artifact_id = ""
         self.group_id = ""
-
         self.version = ""
         self.repo = ""
         self.usages = 0
         self.date = ""
+        self.id = ""
 
     def __init__(self, row: WebElement) -> None:
         self.artifact_id = ""
@@ -37,6 +43,7 @@ class Library:
         self.repo = str(cols[-3].text)
         self.usages = int(cols[-2].text)
         self.date = str(cols[-1].text)
+        self.id = str(self.repo+"."+self.group_id+"."+self.artifact_id+"."+self.version)
 
     def __init__(self, row: WebElement, artifact_id: str, group_id: str) -> None:
         self.artifact_id = artifact_id
@@ -48,6 +55,7 @@ class Library:
         self.repo = str(cols[-3].text)
         self.usages = int(cols[-2].text)
         self.date = str(cols[-1].text)
+        self.id = str(self.repo+"."+self.group_id+"."+self.artifact_id+"."+self.version)
 
     def __str__(self) -> str:
         return (
@@ -58,6 +66,7 @@ class Library:
             f"Usages: {self.usages}\n"
             f"Date: {self.date}\n"
         )
+
 
 
 def main() -> None:
@@ -78,20 +87,29 @@ def get_download_base_url(url: str, version: str):
     return download_link.removesuffix(version)
 
 
-def save_file(base_url: str, artifact_id: str, version: str) -> None:
+def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> None:
     base_url = base_url + version + "/"
     filename = artifact_id + "-" + version + ".aar"
     try:
         urllib.request.urlretrieve(
             base_url + filename, download_path + filename)
+        saveLib(lib)
     except:
         try:
             filename = artifact_id + "-" + version + ".jar"
             urllib.request.urlretrieve(
                 base_url + filename, download_path + filename)
+            saveLib(lib)
         except:
             print("JAR Bulunamadı:", base_url + filename)
 
+
+def saveLib(lib: Library):
+    print(lib.__dict__)
+    print(lib.id)
+    Libraries = Query()
+    database.upsert(table.Document(lib.__dict__, lib.id), Libraries.id == lib.id)
+   
 
 def extract_all_versions_of(url: str) -> None:
     driver.get(url)
@@ -109,13 +127,14 @@ def extract_all_versions_of(url: str) -> None:
                                     '//*[@id="snippets"]/div/div/div/table/tbody/tr')
         libraries = [Library(row, artifact_id, group_id) for row in rows]
 
+  
         base_url: str = None
 
         for lib in libraries:
             if base_url == None:
                 base_url = get_download_base_url(url, lib.version)
 
-            save_file(base_url, lib.artifact_id, lib.version)
+            save_file(base_url, lib.artifact_id, lib.version, lib)
 
             """ Debug code ahead
             print(lib)
@@ -148,5 +167,11 @@ def extract_page(tag: str, n_page: int) -> None:
         exit(1)
 
 
+
+class StringIdClassTable(Table):
+    document_id_class = str
+        
 if __name__ == "__main__":
+    TinyDB.table_class = StringIdClassTable
     main()
+   
