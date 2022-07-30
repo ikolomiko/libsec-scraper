@@ -7,7 +7,6 @@ import undetected_chromedriver as uc
 from undetected_chromedriver.webelement import WebElement
 import urllib.request
 import urllib.parse
-
 import json
 from tinydb import table, TinyDB, Query
 from tinydb.database import Document, Table
@@ -19,6 +18,8 @@ driver = uc.Chrome(options=options, user_data_dir="/Users/betul/Desktop/libsec-s
 
 # must end with a forward slash (/)
 download_path = "/Users/betul/Desktop/libsec-scraper/libs"
+
+keywords_file = open("keywords.txt", "r").readlines()
 
 database = TinyDB('db.json')
 table_libraries = database.table('libraries')
@@ -70,11 +71,11 @@ class Library:
 
 
 def main() -> None:
-    tag = "ads"
-    for i in range(1, 3):
-        extract_page(tag, i)
-    driver.quit()
-    print("done")
+    for item in keywords_file:
+        for i in range(1, 51):
+            extract_page(item.strip(), i)
+        driver.quit()
+        print("done")
 
 
 def get_download_base_url(url: str, version: str):
@@ -174,4 +175,4 @@ class StringIdClassTable(Table):
 if __name__ == "__main__":
     TinyDB.table_class = StringIdClassTable
     main()
-   
+  
