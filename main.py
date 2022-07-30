@@ -12,6 +12,7 @@ options = uc.ChromeOptions()
 options.add_argument(
     "--no-first-run --no-service-autorun --password-store=basic")
 driver = uc.Chrome(options=options, user_data_dir="/tmp/uc/profile")
+
 # must end with a forward slash (/)
 download_path = "/home/ikolomiko/libsec/new_libs/"
 
@@ -24,24 +25,29 @@ def main() -> None:
     print("done")
 
 
-def save_file(url: str, package_name: str, version: str) -> None:
-    driver.get(url)
+def get_download_base_url(url: str, version: str):
+    driver.get(f"{url}/{version}")
 
     download_link: str = driver.find_element(
         By.XPATH, "//*[text()='View All']"
     ).get_attribute("href")
 
+    return download_link.removesuffix(version)
+
+
+def save_file(base_url: str, package_name: str, version: str) -> None:
+    base_url = base_url + version + "/"
     filename = package_name + "-" + version + ".aar"
     try:
         urllib.request.urlretrieve(
-            download_link + "/" + filename, download_path + filename)
+            base_url + filename, download_path + filename)
     except:
         try:
             filename = package_name + "-" + version + ".jar"
             urllib.request.urlretrieve(
-                download_link + "/" + filename, download_path + filename)
+                base_url + filename, download_path + filename)
         except:
-            print("JAR Bulunamadı:", download_link + "/" + filename)
+            print("JAR Bulunamadı:", base_url + filename)
 
 
 def extract_all_versions_of(url: str) -> None:
@@ -56,9 +62,13 @@ def extract_all_versions_of(url: str) -> None:
         versions = driver.find_elements(By.CLASS_NAME, "vbtn")
         version_strs = [str(v.text) for v in versions]
         package_name: str = url.split('/')[-1]
+        base_url: str = None
 
         for version in version_strs:
-            save_file(f"{url}/{version}", package_name, version)
+            if base_url == None:
+                base_url = get_download_base_url(url, version)
+
+            save_file(base_url, package_name, version)
 
 
 def extract_page(tag: str, n_page: int) -> None:
