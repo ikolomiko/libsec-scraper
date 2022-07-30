@@ -14,10 +14,10 @@ from tinydb.database import Document, Table
 options = uc.ChromeOptions()
 options.add_argument(
     "--no-first-run --no-service-autorun --password-store=basic")
-driver = uc.Chrome(options=options, user_data_dir="/Users/betul/Desktop/libsec-scraper/profile",use_subprocess=True)
+driver = uc.Chrome(options=options, user_data_dir="./profile",use_subprocess=True)
 
 # must end with a forward slash (/)
-download_path = "/Users/betul/Desktop/libsec-scraper/libs"
+download_path = "./libs/"
 
 keywords_file = open("keywords.txt", "r").readlines()
 
