@@ -33,10 +33,12 @@ class Library:
         self.usages = 0
         self.date = ""
         self.id = ""
+        self.tag = ""
 
-    def __init__(self, row: WebElement) -> None:
+    def __init__(self, row: WebElement, tag: str) -> None:
         self.artifact_id = ""
         self.group_id = ""
+        self.tag = tag
 
         cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
 
@@ -46,9 +48,10 @@ class Library:
         self.date = str(cols[-1].text)
         self.id = str(self.repo+"."+self.group_id+"."+self.artifact_id+"."+self.version)
 
-    def __init__(self, row: WebElement, artifact_id: str, group_id: str) -> None:
+    def __init__(self, row: WebElement, artifact_id: str, group_id: str, tag: str) -> None:
         self.artifact_id = artifact_id
         self.group_id = group_id
+        self.tag = tag
 
         cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
 
@@ -112,7 +115,7 @@ def saveLib(lib: Library):
     database.upsert(table.Document(lib.__dict__, lib.id), Libraries.id == lib.id)
    
 
-def extract_all_versions_of(url: str) -> None:
+def extract_all_versions_of(url: str, tag: str) -> None:
     driver.get(url)
 
     tab_anchors: List[WebElement] = driver.find_element(
@@ -126,7 +129,7 @@ def extract_all_versions_of(url: str) -> None:
         group_id: str = url.split('/')[-2]
         rows = driver.find_elements(By.XPATH,
                                     '//*[@id="snippets"]/div/div/div/table/tbody/tr')
-        libraries = [Library(row, artifact_id, group_id) for row in rows]
+        libraries = [Library(row, artifact_id, group_id, tag) for row in rows]
 
   
         base_url: str = None
@@ -160,7 +163,7 @@ def extract_page(tag: str, n_page: int) -> None:
 
         for url in urls:
             print(url)
-            extract_all_versions_of(url)
+            extract_all_versions_of(url, tag)
 
     except Exception as e:
         print("error", e)
