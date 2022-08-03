@@ -14,15 +14,15 @@ from tinydb.database import Document, Table
 options = uc.ChromeOptions()
 options.add_argument(
     "--no-first-run --no-service-autorun --password-store=basic")
-driver = uc.Chrome(options=options, user_data_dir="./profile",use_subprocess=True)
+driver = uc.Chrome(
+    options=options, user_data_dir="./profile", use_subprocess=True)
 
 # must end with a forward slash (/)
 download_path = "./libs/"
 
-keywords_file = open("keywords.txt", "r").readlines()
-
 database = TinyDB('db.json')
 table_libraries = database.table('libraries')
+
 
 class Library:
     def __init__(self) -> None:
@@ -46,7 +46,8 @@ class Library:
         self.repo = str(cols[-3].text)
         self.usages = int(cols[-2].text)
         self.date = str(cols[-1].text)
-        self.id = str(self.repo+"."+self.group_id+"."+self.artifact_id+"."+self.version)
+        self.id = str(self.group_id + "+" +
+                      self.artifact_id + "+" + self.version)
 
     def __init__(self, row: WebElement, artifact_id: str, group_id: str, tag: str) -> None:
         self.artifact_id = artifact_id
@@ -59,7 +60,8 @@ class Library:
         self.repo = str(cols[-3].text)
         self.usages = int(cols[-2].text)
         self.date = str(cols[-1].text)
-        self.id = str(self.repo+"."+self.group_id+"."+self.artifact_id+"."+self.version)
+        self.id = str(self.group_id + "+" +
+                      self.artifact_id + "+" + self.version)
 
     def __str__(self) -> str:
         return (
@@ -72,8 +74,9 @@ class Library:
         )
 
 
-
 def main() -> None:
+    keywords_file = open("keywords.txt", "r").readlines()
+
     for item in keywords_file:
         for i in range(1, 51):
             extract_page(item.strip(), i)
@@ -96,24 +99,25 @@ def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> No
     filename = artifact_id + "-" + version + ".aar"
     try:
         urllib.request.urlretrieve(
-            base_url + filename, download_path + filename)
-        saveLib(lib)
-    except:
+            base_url + filename, download_path + lib.id + ".aar")
+        save_to_db(lib)
+    except Exception as e:
+        print("Error:", e)
         try:
             filename = artifact_id + "-" + version + ".jar"
             urllib.request.urlretrieve(
-                base_url + filename, download_path + filename)
-            saveLib(lib)
+                base_url + filename, download_path + lib.id + ".jar")
+            save_to_db(lib)
         except:
             print("JAR Bulunamadı:", base_url + filename)
 
 
-def saveLib(lib: Library):
-    print(lib.__dict__)
+def save_to_db(lib: Library):
+    print(dict(lib))
     print(lib.id)
     Libraries = Query()
-    database.upsert(table.Document(lib.__dict__, lib.id), Libraries.id == lib.id)
-   
+    database.upsert(table.Document(dict(lib), lib.id), Libraries.id == lib.id)
+
 
 def extract_all_versions_of(url: str, tag: str) -> None:
     driver.get(url)
@@ -131,7 +135,6 @@ def extract_all_versions_of(url: str, tag: str) -> None:
                                     '//*[@id="snippets"]/div/div/div/table/tbody/tr')
         libraries = [Library(row, artifact_id, group_id, tag) for row in rows]
 
-  
         base_url: str = None
 
         for lib in libraries:
@@ -171,11 +174,10 @@ def extract_page(tag: str, n_page: int) -> None:
         exit(1)
 
 
-
 class StringIdClassTable(Table):
     document_id_class = str
-        
+
+
 if __name__ == "__main__":
     TinyDB.table_class = StringIdClassTable
     main()
-  
