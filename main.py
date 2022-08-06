@@ -176,8 +176,6 @@ def extract_page(tag: str, n_page: int) -> None:
     except Exception as e:
         print("error", e)
         print(traceback.format_exc())
-        driver.quit()
-        exit(1)
 
 
 class StringIdClassTable(Table):
