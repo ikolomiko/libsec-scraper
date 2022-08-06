@@ -10,6 +10,7 @@ import urllib.parse
 import json
 from tinydb import table, TinyDB, Query
 from tinydb.database import Document, Table
+import traceback
 
 options = uc.ChromeOptions()
 options.add_argument(
@@ -78,10 +79,14 @@ def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
     for item in keywords_file:
-        for i in range(1, 51):
-            extract_page(item.strip(), i)
-        driver.quit()
-        print("done")
+        try:
+            for i in range(1, 51):
+                extract_page(item.strip(), i)
+        except:
+            pass
+    
+    driver.quit()
+    print("done")
 
 
 def get_download_base_url(url: str, version: str):
@@ -170,6 +175,7 @@ def extract_page(tag: str, n_page: int) -> None:
 
     except Exception as e:
         print("error", e)
+        print(traceback.format_exc())
         driver.quit()
         exit(1)
 
