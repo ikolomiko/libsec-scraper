@@ -113,10 +113,10 @@ def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> No
 
 
 def save_to_db(lib: Library):
-    print(dict(lib))
+    print(vars(lib))
     print(lib.id)
     Libraries = Query()
-    database.upsert(table.Document(dict(lib), lib.id), Libraries.id == lib.id)
+    database.upsert(table.Document(vars(lib), lib.id), Libraries.id == lib.id)
 
 
 def extract_all_versions_of(url: str, tag: str) -> None:
