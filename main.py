@@ -7,9 +7,8 @@ import undetected_chromedriver as uc
 from undetected_chromedriver.webelement import WebElement
 import urllib.request
 import urllib.parse
-import json
 from tinydb import table, TinyDB, Query
-from tinydb.database import Document, Table
+from tinydb.database import Table
 import traceback
 
 options = uc.ChromeOptions()
@@ -35,8 +34,9 @@ class Library:
         self.date = ""
         self.id = ""
         self.tag = ""
+        self.base_url = ""
 
-    def __init__(self, row: WebElement, tag: str) -> None:
+    def __init__(self, row: WebElement, tag: str, url: str = "") -> None:
         self.artifact_id = ""
         self.group_id = ""
         self.tag = tag
@@ -49,8 +49,9 @@ class Library:
         self.date = str(cols[-1].text)
         self.id = str(self.group_id + "+" +
                       self.artifact_id + "+" + self.version)
+        self.base_url = url
 
-    def __init__(self, row: WebElement, artifact_id: str, group_id: str, tag: str) -> None:
+    def __init__(self, row: WebElement, artifact_id: str, group_id: str, tag: str, url: str = "") -> None:
         self.artifact_id = artifact_id
         self.group_id = group_id
         self.tag = tag
@@ -63,6 +64,7 @@ class Library:
         self.date = str(cols[-1].text)
         self.id = str(self.group_id + "+" +
                       self.artifact_id + "+" + self.version)
+        self.base_url = url
 
     def __str__(self) -> str:
         return (
@@ -72,6 +74,7 @@ class Library:
             f"Repo: {self.repo}\n"
             f"Usages: {self.usages}\n"
             f"Date: {self.date}\n"
+            f"URL: {self.base_url}"
         )
 
 
@@ -79,10 +82,12 @@ def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
     for item in keywords_file:
+        print(item)
         try:
             for i in range(1, 51):
                 extract_page(item.strip(), i)
         except:
+            print(traceback.format_exc())
             pass
     
     driver.quit()
@@ -105,14 +110,12 @@ def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> No
     try:
         urllib.request.urlretrieve(
             base_url + filename, download_path + lib.id + ".aar")
-        save_to_db(lib)
     except Exception as e:
         print("Error:", e)
         try:
             filename = artifact_id + "-" + version + ".jar"
             urllib.request.urlretrieve(
                 base_url + filename, download_path + lib.id + ".jar")
-            save_to_db(lib)
         except:
             print("JAR Bulunamadı:", base_url + filename)
 
@@ -143,10 +146,16 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         base_url: str = None
 
         for lib in libraries:
+            q = Query()
+            if len(database.search(q.id == lib.id)) > 0:
+                continue
+
             if base_url == None:
                 base_url = get_download_base_url(url, lib.version)
 
-            save_file(base_url, lib.artifact_id, lib.version, lib)
+            #save_file(base_url, lib.artifact_id, lib.version, lib)
+            lib.base_url = base_url
+            save_to_db(lib)
 
             """ Debug code ahead
             print(lib)
@@ -157,25 +166,19 @@ def extract_all_versions_of(url: str, tag: str) -> None:
 
 def extract_page(tag: str, n_page: int) -> None:
     base_url = f"https://mvnrepository.com/search?q={tag}&p={n_page}&c=android"
-    try:
-        driver.get(base_url)
-        libraries: List[WebElement] = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CLASS_NAME, "im-title"))
-        )
-        driver.execute_script("window.stop();")
-        urls: List[str] = []
-        for lib in libraries:
-            lib_link: WebElement = lib.find_elements(By.TAG_NAME, "a")[0]
-            url: str = lib_link.get_attribute("href")
-            urls.append(url)
-
-        for url in urls:
-            print(url)
-            extract_all_versions_of(url, tag)
-
-    except Exception as e:
-        print("error", e)
-        print(traceback.format_exc())
+    driver.get(base_url)
+    libraries: List[WebElement] = WebDriverWait(driver, 5).until(
+        EC.presence_of_all_elements_located((By.CLASS_NAME, "im-title"))
+    )
+    driver.execute_script("window.stop();")
+    urls: List[str] = []
+    for lib in libraries:
+        lib_link: WebElement = lib.find_elements(By.TAG_NAME, "a")[0]
+        url: str = lib_link.get_attribute("href")
+        urls.append(url)
+    for url in urls:
+        print(url)
+        extract_all_versions_of(url, tag)
 
 
 class StringIdClassTable(Table):
