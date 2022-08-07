@@ -78,6 +78,12 @@ class Library:
         )
 
 
+def remove_suffix(text: str, suffix: str):
+    if suffix and text.endswith(suffix):
+        return text[:-len(suffix)]
+    return text
+
+
 def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
@@ -88,8 +94,7 @@ def main() -> None:
                 extract_page(item.strip(), i)
         except:
             print(traceback.format_exc())
-            pass
-    
+
     driver.quit()
     print("done")
 
@@ -101,7 +106,7 @@ def get_download_base_url(url: str, version: str):
         By.XPATH, "//*[text()='View All']"
     ).get_attribute("href")
 
-    return download_link.removesuffix(version)
+    return remove_suffix(download_link, version)
 
 
 def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> None:
