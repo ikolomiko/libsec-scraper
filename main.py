@@ -89,6 +89,9 @@ def main() -> None:
 
     for item in keywords_file:
         print(item)
+        if item.startswith("#"):
+            continue
+        
         try:
             for i in range(1, 51):
                 extract_page(item.strip(), i)
