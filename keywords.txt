@@ -1,240 +1,551 @@
-2D Engines
-3D Engines
-9-Patch
-Action Bars
-Activities
-ADB
-Advertisements
-Analytics
-Animations
-ANR
-AOP
-API
-APK
-APT
-Architecture
-Audio
-Autocomplete
-Background Processing
-Backward Compatibility
-Badges
-Bar Codes
-Benchmarking
-Bitmaps
-Bluetooth
-Blur Effects
-Bread Crumbs
-BRMS
-Browser Extensions
-Build Systems
-Bundles
-Buttons
-Caching
-Camera
-Canvas
-Cards
-Carousels
-Changelog
-Checkboxes
-Cloud Storages
-Color Analysis
-Color Pickers
-Colors
-Comet/Push
-Compass Sensors
-Conferences
-Content Providers
-Continuous Integration
-Crash Reports
-Credit Cards
-Credits
-CSV
-Curl/Flip Effects
-Data Binding
-Data Generators
-Data Structures
-Database
-Database Browsers
-Date &amp; Time Pickers
-Debugging
-Decompilers
-Deep Links
-Dependency Injections
-Design
-Design Patterns
-Dex
-Dialogs
-Distributed Computing
-Distribution Platforms
-Download Managers
-Drawables
-Emoji
-Emulators
-EPUB
-Equalizers &amp; Visualizations
-Event Buses
-Exception Handling
-Face Recognition
-Feedback &amp; Ratings
-File System
-File/Directory Choosers
-Fingerprint
-Floating Action Buttons
-Fonts
-Forms
-Fragments
-FRP
-FSM
-Functional Programming
-Gamepads
-Games
-Geocaching
-Gestures
-GIF
-Glow Pad Views
-Gradle Plugins
-Graphics
-Grid Views
-Highlighting
-HTML
-HTTP Mocking
-Icons
-IDE
-IDE Plugins
-Image Croppers
-Image Loaders
-Image Pickers
-Image Processing
-Image Views
-Instrumentation
-Intents
-Job Schedulers
-JSON
-Keyboard
-Kotlin
-Layouts
-Library Demos
-List View Sections
-List Views
-Localization
-Location
-Lock Patterns
-Logcat
-Logging
-Mails
-Maps
-Markdown
-Mathematics
-Maven Plugins
-MBaaS
-Media
-Menus
-Messaging
-MIME
-Mobile Web Frameworks
-Native Image Processing
-Navigation
-NDK
-Networking
-NFC
-NoSQL
-Number Pickers
-OAuth
-Object Mocking
-OCR Engines
-OpenGL
-ORM
-Other Pickers
-Parallax List Views
-Parcelables
-Particle Systems
-Password Inputs
-PDF
-Permissions
-Physics Engines
-Platforms
-Plugin Frameworks
-Preferences
-Progress Indicators
-ProGuard
-Properties
-Protocol Buffer
-Pull To Refresh
-Purchases
-Push/Pull Notifications
-QR Codes
-Quick Return
-Radio Buttons
-Range Bars
-Ratings
-Recycler Views
-Resources
-REST
-Ripple Effects
-RSS
-Screenshots
-Scripting
-Scroll Views
-SDK
-Search Inputs
-Security
-Sensors
-Services
-Showcase Views
-Signatures
-Sliding Panels
-Snackbars
-SOAP
-Social Networks
-Spannable
-Spinners
-Splash Screens
-SSH
-Static Analysis Tools
-Status Bars
-Styling
-SVG
-System
-Tags
-Task Managers
-TDD &amp; BDD
-Template Engines
-Testing
-Testing Tools
-Text Formatting
-Text Views
-Text Watchers
-Text-to-Speech
-Toasts
-Toolkits For Other PL
-Tools
-Tooltips
-Trainings
-TV
-Twitter
-Updaters
-USB
-User Stories
-Utils
-Validation
-Video
-View Adapters
-View Pagers
-Views
-Watch Face
-Wearable Data Layer
-Wearables
-Weather
-Web Tools
-Web Views
-WebRTC
-WebSockets
-Wheel Widgets
-Wi-Fi
-Widgets
-Windows
-Wizards
-XML
-XMPP
-YAML
-ZIP Codes
+2d engines
+3d engines
+9-patch
+action bars
+activities
+adb
+advertisements
+analytics
+animations
+anr
+aop
+api
+apk
+apt
+architecture
+audio
+autocomplete
+background processing
+backward compatibility
+badges
+bar codes
+benchmarking
+bitmaps
+bluetooth
+blur effects
+bread crumbs
+brms
+browser extensions
+build systems
+bundles
+buttons
+caching
+camera
+canvas
+cards
+carousels
+changelog
+checkboxes
+cloud storages
+color analysis
+color pickers
+colors
+comet/push
+compass sensors
+conferences
+content providers
+continuous integration
+crash reports
+credit cards
+credits
+csv
+curl/flip effects
+data binding
+data generators
+data structures
+database
+database browsers
+date &amp; time pickers
+debugging
+decompilers
+deep links
+dependency injections
+design
+design patterns
+dex
+dialogs
+distributed computing
+distribution platforms
+download managers
+drawables
+emoji
+emulators
+epub
+equalizers &amp; visualizations
+event buses
+exception handling
+face recognition
+feedback &amp; ratings
+file system
+file/directory choosers
+fingerprint
+floating action buttons
+fonts
+forms
+fragments
+frp
+fsm
+functional programming
+gamepads
+games
+geocaching
+gestures
+gif
+glow pad views
+graphics
+grid views
+highlighting
+html
+http mocking
+icons
+ide
+ide plugins
+image croppers
+image loaders
+image pickers
+image processing
+image views
+instrumentation
+intents
+job schedulers
+json
+keyboard
+kotlin
+layouts
+library demos
+list view sections
+list views
+localization
+location
+lock patterns
+logcat
+logging
+mails
+maps
+markdown
+mathematics
+maven plugins
+mbaas
+media
+menus
+messaging
+mime
+mobile web frameworks
+native image processing
+navigation
+ndk
+networking
+nfc
+nosql
+number pickers
+oauth
+object mocking
+ocr engines
+opengl
+orm
+other pickers
+parallax list views
+parcelables
+particle systems
+password inputs
+pdf
+permissions
+physics engines
+plugin frameworks
+preferences
+progress indicators
+proguard
+properties
+protocol buffer
+pull to refresh
+purchases
+push/pull notifications
+qr codes
+quick return
+radio buttons
+range bars
+ratings
+recycler views
+resources
+rest
+ripple effects
+rss
+screenshots
+scripting
+scroll views
+search inputs
+security
+sensors
+services
+showcase views
+signatures
+sliding panels
+snackbars
+soap
+social networks
+spannable
+spinners
+splash screens
+ssh
+static analysis tools
+status bars
+styling
+svg
+system
+task managers
+tdd &amp; bdd
+template engines
+testing tools
+text formatting
+text views
+text watchers
+text-to-speech
+toasts
+toolkits for other pl
+tools
+tooltips
+trainings
+tv
+twitter
+updaters
+usb
+user stories
+utils
+validation
+video
+view adapters
+view pagers
+views
+watch face
+wearable data layer
+wearables
+weather
+web tools
+web views
+webrtc
+websockets
+wheel widgets
+wi-fi
+widgets
+windows
+wizards
+xml
+xmpp
+zip codes
+accumulo  
+actor 
+admin 
+ajax
+akka  
+algorithms 
+amazon
+amqp 
+analyzer
+angular 
+ant
+application
+arangodb  
+assembly 
+assets 
+atlassian
+aws 
+azure  
+barcode  
+base64 
+bazel 
+beans
+bigdata 
+binary
+binding
+bitcoin
+bom  
+bpm  
+browser 
+bundle 
+business  
+captcha
+cardinality  
+catalog  
+charts  
+clojure  
+cloudfront  
+code-coverage 
+collections  
+collector  
+communication  
+comparison 
+compiler  
+compression 
+computer-vision  
+concurrent  
+context  
+coordination 
+coreos  
+couchdb  
+crud  
+cryptography  
+csharp  
+css  
+dao  
+dashboard  
+data  
+db4o  
+decoder 
+deep-learning  
+defect  
+deployment
+description  
+designer  
+desktop  
+diagram  
+digitalocean  
+disk  
+disruptor 
+distribution  
+dns  
+document 
+dom  
+dropwizard  
+dynamodb  
+ec2  
+eclipse  
+effect  
+ejb  
+elasticsearch  
+embedded  
+emr  
+esb  
+etcd  
+event 
+eventbus  
+exception  
+execution  
+experimental  
+file-system  
+format  
+ftp  
+generator  
+geo  
+github  
+graphviz  
+grpc  
+gwt 
+h2database  
+hamcrest  
+health  
+hsql  
+htmlunit  
+i18n  
+image  
+imap  
+installer 
+integration  
+interface 
+ios 
+iot 
+jca  
+jdbc  
+jms  
+jmx 
+jsf  
+junit  
+jvm  
+kerberos  
+kernel  
+ktor  
+kubernetes  
+lambda  
+linkedin  
+listener  
+loader  
+log4j  
+logback  
+lombok  
+lucene  
+macos  
+macro  
+managment  
+mapreduce  
+markov  
+micronaut  
+mock  
+mocking  
+model  
+module  
+monitor  
+monitoring  
+music  
+mustache  
+native  
+network  
+nexus  
+nifi  
+nlp  
+notification  
+off-heap  
+office  
+oracle  
+packaging  
+parquet  
+parser  
+path  
+pattern  
+payments  
+persistence  
+physics  
+plugin 
+pojo  
+portal  
+portlet  
+process  
+provider  
+push  
+quality  
+quarkus  
+queue  
+rabbitmq  
+random  
+rdf  
+rds  
+react  
+reader  
+recognition  
+reference  
+regexp  
+registry  
+reporter  
+repository 
+request  
+rule-engine 
+s3  
+scalajs  
+scheduling  
+scm  
+sdk  
+selenium  
+server  
+shell  
+smtp  
+soa  
+socket  
+spatial  
+spdy  
+sql  
+sqlite  
+ssl  
+standard  
+stats  
+stm  
+streaming  
+structures  
+support  
+swt  
+syndication  
+syslog  
+system  
+tags  
+task  
+telephony  
+telnet  
+tensorflow  
+timeseries  
+tts  
+tvos  
+unix  
+url  
+uuid  
+vector  
+voip  
+watchos  
+webassembly  
+webdav  
+webgl  
+websocket  
+widget  
+wildfly  
+workflow  
+writer  
+yaml  
+yarn
+apache
+build
+build-system
+camel
+client clojure
+example
+extension
+config
+io
+gradle
+jboss
+npm
+ads
+library
+webapp
+testing
+service
+spring
+platform
+starter
+rlang
+http
+scala
+maven
+cran
+cloud
+accessibility
+account
+affect
+battery
+app
+settings
+bookmarks
+cost
+money
+development
+software
+alarm
+display
+hardware
+control
+message
+personal
+info
+phone
+call
+screenlock
+social
+status
+sync
+clock
+dictionary
+voicemail
+wallpaper
+contacts
+sensor
+sms
+configuration
+network state
+user info
+read media
+storage
+activity recognition
+calendar
+call log
+nearby devices
+microphone
+read media aural
+read media visual
+accessibility feature
+access
+app info
+device alarm
+social info
+user dictionary
+system clock
+socialmedia
+mobile
+
+
+
+
