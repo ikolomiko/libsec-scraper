@@ -7,7 +7,7 @@ import undetected_chromedriver as uc
 from undetected_chromedriver.webelement import WebElement
 import urllib.request
 import urllib.parse
-from tinydb import table, TinyDB, Query
+from tinydb import table, TinyDB
 from tinydb.database import Table
 import traceback
 
@@ -21,7 +21,7 @@ driver = uc.Chrome(
 download_path = "./libs/"
 
 database = TinyDB('db.json')
-table_libraries = database.table('libraries')
+all_ids: set = None
 
 
 class Library:
@@ -87,13 +87,17 @@ def remove_suffix(text: str, suffix: str):
 def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
+    global all_ids
+    all_ids = {str(item['id']) for item in database.all()}
+
     for item in keywords_file:
         print(item)
         if item.startswith("#"):
             continue
-        
+
         try:
             for i in range(1, 51):
+                print(f"Page: {i}")
                 extract_page(item.strip(), i)
         except:
             print(traceback.format_exc())
@@ -131,8 +135,8 @@ def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> No
 def save_to_db(lib: Library):
     print(vars(lib))
     print(lib.id)
-    Libraries = Query()
-    database.upsert(table.Document(vars(lib), lib.id), Libraries.id == lib.id)
+    all_ids.add(lib.id)
+    database.insert(table.Document(vars(lib), lib.id))
 
 
 def extract_all_versions_of(url: str, tag: str) -> None:
@@ -154,8 +158,7 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         base_url: str = None
 
         for lib in libraries:
-            q = Query()
-            if len(database.search(q.id == lib.id)) > 0:
+            if lib.id in all_ids:
                 continue
 
             if base_url == None:
@@ -164,12 +167,6 @@ def extract_all_versions_of(url: str, tag: str) -> None:
             #save_file(base_url, lib.artifact_id, lib.version, lib)
             lib.base_url = base_url
             save_to_db(lib)
-
-            """ Debug code ahead
-            print(lib)
-            print("-----------------------------------------")
-
-            """
 
 
 def extract_page(tag: str, n_page: int) -> None:
