@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-from typing import List
+from typing import List, Set
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
 from undetected_chromedriver.webelement import WebElement
-import urllib.request
-import urllib.parse
 from tinydb import table, TinyDB
 from tinydb.database import Table
 import traceback
+import re
 
 options = uc.ChromeOptions()
 options.add_argument(
@@ -21,7 +20,7 @@ driver = uc.Chrome(
 download_path = "./libs/"
 
 database = TinyDB('db.json')
-all_ids: set = None
+all_ids: Set[str] = None
 
 
 class Library:
@@ -84,6 +83,11 @@ def remove_suffix(text: str, suffix: str):
     return text
 
 
+def extract_num(text: str) -> int:
+    r = re.search("\((\d+)\)", text)
+    return int(r.group()[1:-1])
+
+
 def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
@@ -116,22 +120,6 @@ def get_download_base_url(url: str, version: str):
     return remove_suffix(download_link, version)
 
 
-def save_file(base_url: str, artifact_id: str, version: str, lib: Library) -> None:
-    base_url = base_url + version + "/"
-    filename = artifact_id + "-" + version + ".aar"
-    try:
-        urllib.request.urlretrieve(
-            base_url + filename, download_path + lib.id + ".aar")
-    except Exception as e:
-        print("Error:", e)
-        try:
-            filename = artifact_id + "-" + version + ".jar"
-            urllib.request.urlretrieve(
-                base_url + filename, download_path + lib.id + ".jar")
-        except:
-            print("JAR Bulunamadı:", base_url + filename)
-
-
 def save_to_db(lib: Library):
     print(vars(lib))
     print(lib.id)
@@ -146,15 +134,22 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         By.CLASS_NAME, "tabs").find_elements(By.TAG_NAME, "a")
     tab_links = [str(tab.get_attribute("href")) for tab in tab_anchors]
 
+    artifact_id: str = url.split('/')[-1]
+    group_id: str = url.split('/')[-2]
+
+    n_versions = sum([extract_num(tab.text) for tab in tab_anchors])
+    n_matches = sum(
+        [1 for id in all_ids if id.startswith(f"{group_id}+{artifact_id}+")])
+
+    if n_versions == n_matches:
+        return
+
     for tab in tab_links:
         driver.get(tab)
 
-        artifact_id: str = url.split('/')[-1]
-        group_id: str = url.split('/')[-2]
         rows = driver.find_elements(By.XPATH,
                                     '//*[@id="snippets"]/div/div/div/table/tbody/tr')
         libraries = [Library(row, artifact_id, group_id, tag) for row in rows]
-
         base_url: str = None
 
         for lib in libraries:
@@ -164,7 +159,6 @@ def extract_all_versions_of(url: str, tag: str) -> None:
             if base_url == None:
                 base_url = get_download_base_url(url, lib.version)
 
-            #save_file(base_url, lib.artifact_id, lib.version, lib)
             lib.base_url = base_url
             save_to_db(lib)
 
