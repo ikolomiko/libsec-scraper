@@ -76,174 +76,169 @@
 #exception handling
 #face recognition
 feedback & ratings
-file system
-file/directory choosers
+file
+system
+file/directory chooser
 fingerprint
-floating action buttons
-fonts
-forms
-fragments
+fab
+font
+form
+fragment
 frp
 fsm
-functional programming
-gamepads
-games
+gamepad
+game
 geocaching
-gestures
+gesture
 gif
-glow pad views
-graphics
-grid views
+glow pad
+graphic
+grid
+view
 highlighting
 html
-http mocking
-icons
+http
+icon
 ide
-ide plugins
-image croppers
-image loaders
-image pickers
-image processing
-image views
+plugin
+image
+cropper
+loader
 instrumentation
-intents
-job schedulers
+intent
+job scheduler
 json
 keyboard
 kotlin
-layouts
-library demos
-list view sections
-list views
+layout
+library
+demo
+listview
 localization
 location
-lock patterns
+lock
 logcat
 logging
-mails
-maps
+mail
+map
 markdown
-mathematics
-maven plugins
+mathematic
+maven
 mbaas
 media
-menus
+menu
 messaging
 mime
-mobile web frameworks
-native image processing
+web
+native
 navigation
 ndk
 networking
 nfc
 nosql
-number pickers
 oauth
-object mocking
-ocr engines
+ocr
 opengl
 orm
-other pickers
-parallax list views
-parcelables
-particle systems
-password inputs
+parallax
+parcelable
+password
 pdf
-permissions
-physics engines
-plugin frameworks
-preferences
-progress indicators
+permission
+physics
+preference
+progress
 proguard
 properties
-protocol buffer
-pull to refresh
-purchases
-push/pull notifications
-qr codes
+protocol
+pull
+purchase
+push
+notification
+qr
 quick return
-radio buttons
-range bars
-ratings
-recycler views
-resources
+radio
+range bar
+recycler
+resource
 rest
-ripple effects
+ripple
 rss
-screenshots
+screenshot
 scripting
-scroll views
-search inputs
+scroll
+search
 security
-sensors
-services
-showcase views
-signatures
-sliding panels
-snackbars
+sensor
+service
+showcase
+signature
+sliding
+snackbar
 soap
-social networks
+social
 spannable
-spinners
-splash screens
+spinner
+splash
 ssh
-static analysis tools
-status bars
+static
+statusbar
 styling
 svg
 system
-task managers
-tdd &amp; bdd
-template engines
-testing tools
-text formatting
-text views
-text watchers
-text-to-speech
-toasts
-toolkits for other pl
-tools
-tooltips
-trainings
+task
+tdd
+bdd
+template
+testing
+text
+format
+watcher
+tts
+speech
+toast
+tooltip
+training
 tv
 twitter
-updaters
+facebook
+instagram
+linkedin
+updater
 usb
-user stories
-utils
+user
+story
+util
 validation
 video
-view adapters
-view pagers
-views
-watch face
-wearable data layer
-wearables
+adapter
+pager
+watch
+wifi
+wearable
 weather
-web tools
-web views
 webrtc
-websockets
-wheel widgets
-wi-fi
-widgets
+websocket
+wheel
+widget
 windows
+linux
+macos
 wizards
 xml
 xmpp
-zip codes
+zip
 accumulo  
 actor 
 admin 
 ajax
 akka  
-algorithms 
+algorithm
 amazon
 amqp 
 analyzer
 angular 
 ant
-application
 arangodb  
 assembly 
 assets 
@@ -266,17 +261,18 @@ business
 captcha
 cardinality  
 catalog  
-charts  
+chart
 clojure  
 cloudfront  
-code-coverage 
-collections  
+coverage
+collection
 collector  
 communication  
 comparison 
 compiler  
 compression 
-computer-vision  
+computer
+vision
 concurrent  
 context  
 coordination 
@@ -288,13 +284,11 @@ csharp
 css  
 dao  
 dashboard  
-data  
-db4o  
+db4o
 decoder 
 deep-learning  
 defect  
 deployment
-description  
 designer  
 desktop  
 diagram  
@@ -308,7 +302,8 @@ dom
 dropwizard  
 dynamodb  
 ec2  
-eclipse  
+eclipse
+intellij
 effect  
 ejb  
 elasticsearch  
@@ -320,13 +315,11 @@ event
 eventbus  
 exception  
 execution  
-experimental  
-file-system  
-format  
-ftp  
-generator  
+experimental
+ftp
 geo  
-github  
+github
+bitbucket
 graphviz  
 grpc  
 gwt 
@@ -335,8 +328,8 @@ hamcrest
 health  
 hsql  
 htmlunit  
-i18n  
-image  
+i18n
+l10n
 imap  
 installer 
 integration  
@@ -354,17 +347,14 @@ kerberos
 kernel  
 ktor  
 kubernetes  
-lambda  
-linkedin  
+lambda
 listener  
 loader  
 log4j  
 logback  
 lombok  
-lucene  
-macos  
-macro  
-managment  
+lucene
+macro
 mapreduce  
 markov  
 micronaut  
@@ -375,31 +365,25 @@ module
 monitor  
 monitoring  
 music  
-mustache  
-native  
+mustache
 network  
 nexus  
 nifi  
-nlp  
-notification  
-off-heap  
+nlp
+heap
 office  
 oracle  
 packaging  
 parquet  
 parser  
-path  
-pattern  
+path
 payments  
-persistence  
-physics  
-plugin 
+persistence
 pojo  
 portal  
 portlet  
 process  
-provider  
-push  
+provider
 quality  
 quarkus  
 queue  
@@ -408,15 +392,14 @@ random
 rdf  
 rds  
 react  
-reader  
-recognition  
+reader
 reference  
 regexp  
 registry  
 reporter  
 repository 
 request  
-rule-engine 
+rule
 s3  
 scalajs  
 scheduling  
@@ -432,8 +415,7 @@ spatial
 spdy  
 sql  
 sqlite  
-ssl  
-standard  
+ssl
 stats  
 stm  
 streaming  
@@ -441,15 +423,12 @@ structures
 support  
 swt  
 syndication  
-syslog  
-system  
-tags  
-task  
+syslog
+tags
 telephony  
 telnet  
 tensorflow  
-timeseries  
-tts  
+timeseries
 tvos  
 unix  
 url  
@@ -459,9 +438,7 @@ voip
 watchos  
 webassembly  
 webdav  
-webgl  
-websocket  
-widget  
+webgl
 wildfly  
 workflow  
 writer  
@@ -469,9 +446,8 @@ yaml
 yarn
 apache
 build
-build-system
 camel
-client clojure
+client
 example
 extension
 config
@@ -482,22 +458,16 @@ npm
 ads
 library
 webapp
-testing
-service
 spring
 platform
 starter
 rlang
-http
 scala
-maven
 cran
-cloud
 accessibility
 account
 affect
 battery
-app
 settings
 bookmarks
 cost
@@ -510,11 +480,9 @@ hardware
 control
 message
 personal
-info
 phone
 call
 screenlock
-social
 status
 sync
 clock
@@ -522,26 +490,13 @@ dictionary
 voicemail
 wallpaper
 contacts
-sensor
 sms
 configuration
-network state
-user info
-read media
-storage
-activity recognition
 calendar
-call log
-nearby devices
+nearby
 microphone
-read media aural
-read media visual
-accessibility feature
+visual
 access
-app info
-device alarm
-social info
-user dictionary
-system clock
 socialmedia
 mobile
+reflection
