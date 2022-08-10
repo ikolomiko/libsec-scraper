@@ -3,11 +3,11 @@ from typing import Set
 from tinydb import TinyDB
 from tinydb.database import Table
 
-database = TinyDB('db.json')
-
-
 def main():
-    all = database.all()
+    all = TinyDB('db.json').all()
+    for item in TinyDB('db2.json').all():
+        all.append(item)
+    
     unique_ids: Set[str] = {
         f"{item['group_id']}+{item['artifact_id']}" for item in all}
     print("No of all libs (all versions included):",len(all))

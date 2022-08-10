@@ -19,7 +19,7 @@ driver = uc.Chrome(
 # must end with a forward slash (/)
 download_path = "./libs/"
 
-database = TinyDB('db.json')
+database = TinyDB('db2.json')
 all_ids: Set[str] = None
 
 
@@ -92,7 +92,9 @@ def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
     global all_ids
-    all_ids = {str(item['id']) for item in database.all()}
+    all_ids = {str(item['id']) for item in TinyDB('db.json').all()}
+    for item in database.all():
+        all_ids.add(str(item['id']))
 
     for item in keywords_file:
         print(item)
@@ -127,6 +129,10 @@ def save_to_db(lib: Library):
     database.insert(table.Document(vars(lib), lib.id))
 
 
+def save_to_db_multi(libs: List[table.Document]):
+    database.insert_multiple(libs)
+
+
 def extract_all_versions_of(url: str, tag: str) -> None:
     driver.get(url)
 
@@ -138,8 +144,12 @@ def extract_all_versions_of(url: str, tag: str) -> None:
     group_id: str = url.split('/')[-2]
 
     n_versions = sum([extract_num(tab.text) for tab in tab_anchors])
-    n_matches = sum(
-        [1 for id in all_ids if id.startswith(f"{group_id}+{artifact_id}+")])
+    n_matches = 0
+    for id in all_ids:
+        if id.startswith(f"{group_id}+{artifact_id}+"):
+            n_matches += 1
+
+    print(n_versions, n_matches)
 
     if n_versions == n_matches:
         return
@@ -152,6 +162,8 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         libraries = [Library(row, artifact_id, group_id, tag) for row in rows]
         base_url: str = None
 
+        items_to_save: List[table.Document] = []
+
         for lib in libraries:
             if lib.id in all_ids:
                 continue
@@ -160,7 +172,11 @@ def extract_all_versions_of(url: str, tag: str) -> None:
                 base_url = get_download_base_url(url, lib.version)
 
             lib.base_url = base_url
-            save_to_db(lib)
+            print(lib.id, lib.tag, sep="\t")
+            all_ids.add(lib.id)
+            items_to_save.append(table.Document(vars(lib), lib.id))
+
+        save_to_db_multi(items_to_save)
 
 
 def extract_page(tag: str, n_page: int) -> None:
