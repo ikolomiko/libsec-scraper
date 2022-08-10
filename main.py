@@ -20,7 +20,7 @@ driver = uc.Chrome(
 download_path = "./libs/"
 
 database = TinyDB('db2.json')
-all_ids: Set[str] = None
+all_ids: Set[str] = set()
 
 
 class Library:
@@ -91,8 +91,8 @@ def extract_num(text: str) -> int:
 def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
-    global all_ids
-    all_ids = {str(item['id']) for item in TinyDB('db.json').all()}
+    for item in TinyDB('db.json').all():
+        all_ids.add(str(item['id']))
     for item in database.all():
         all_ids.add(str(item['id']))
 
@@ -173,9 +173,8 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         items_to_save: List[table.Document] = []
 
         for lib in libraries:
-            if n_matches != 0:
-                if lib.id in all_ids:
-                    continue
+            if lib.id in all_ids:
+                continue
 
             if base_url == None:
                 base_url = get_download_base_url(url, lib.version)
@@ -185,7 +184,11 @@ def extract_all_versions_of(url: str, tag: str) -> None:
             all_ids.add(lib.id)
             items_to_save.append(table.Document(vars(lib), lib.id))
 
-        save_to_db_multi(items_to_save)
+        try:
+            save_to_db_multi(items_to_save)
+        except Exception as e:
+            print("Couldn't save to db", e)
+            print(traceback.format_exc())
 
 
 def extract_page(tag: str, n_page: int) -> None:
