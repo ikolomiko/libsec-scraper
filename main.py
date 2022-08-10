@@ -154,11 +154,19 @@ def extract_all_versions_of(url: str, tag: str) -> None:
     if n_versions == n_matches:
         return
 
+    n_versions = 0
+
     for tab in tab_links:
         driver.get(tab)
 
         rows = driver.find_elements(By.XPATH,
                                     '//*[@id="snippets"]/div/div/div/table/tbody/tr')
+
+        n_versions += len(rows)
+        if n_versions == n_matches:
+            print("Quick return")
+            return
+
         libraries = [Library(row, artifact_id, group_id, tag) for row in rows]
         base_url: str = None
 
