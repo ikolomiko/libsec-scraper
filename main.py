@@ -173,8 +173,9 @@ def extract_all_versions_of(url: str, tag: str) -> None:
         items_to_save: List[table.Document] = []
 
         for lib in libraries:
-            if lib.id in all_ids:
-                continue
+            if n_matches != 0:
+                if lib.id in all_ids:
+                    continue
 
             if base_url == None:
                 base_url = get_download_base_url(url, lib.version)
