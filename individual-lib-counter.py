@@ -4,9 +4,10 @@ from tinydb import TinyDB
 from tinydb.database import Table
 
 def main():
-    all = TinyDB('db.json').all()
-    for item in TinyDB('db2.json').all():
-        all.append(item)
+    dbs = ["db.json", "db2.json", "db3.json"]
+    all = [] 
+    for db in dbs:
+        all.extend(TinyDB(db).all())
     
     unique_ids: Set[str] = {
         f"{item['group_id']}+{item['artifact_id']}" for item in all}
