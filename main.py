@@ -19,7 +19,8 @@ driver = uc.Chrome(
 # must end with a forward slash (/)
 download_path = "./libs/"
 
-database = TinyDB('db2.json')
+old_dbs = ["db.json", "db2.json"]
+database = TinyDB('db3.json')
 all_ids: Set[str] = set()
 
 
@@ -91,8 +92,9 @@ def extract_num(text: str) -> int:
 def main() -> None:
     keywords_file = open("keywords.txt", "r").readlines()
 
-    for item in TinyDB('db.json').all():
-        all_ids.add(str(item['id']))
+    for db in old_dbs:
+        for item in TinyDB(db).all():
+            all_ids.add(str(item['id']))
     for item in database.all():
         all_ids.add(str(item['id']))
 
