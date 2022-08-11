@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 import urllib.request
 import urllib.parse
 from tinydb import TinyDB
@@ -6,10 +7,11 @@ from tinydb.database import Table
 import traceback
 
 # This script is intended to be used on the server to download all libraries saved in the database
+USAGE = "Usage: python3 libsec-downloader.py <file 1> <file 2> <... file n>"
+# <file n>: n-th json database file
 
 # must end with a forward slash (/)
 download_path = "./libs/"
-database = TinyDB('db.json')
 
 
 class Library:
@@ -57,11 +59,21 @@ def save_file(lib: Library) -> None:
 
 
 def main() -> None:
-    for lib in database.all():
+    if len(sys.argv) < 2:
+        print(USAGE)
+        return
+
+    for db in sys.argv[1:]:
         try:
-            lib = Library(lib)
-            print(lib)
-            save_file(lib)
+            database = TinyDB(db)
+            for lib in database.all():
+                try:
+                    lib = Library(lib)
+                    print(lib)
+                    save_file(lib)
+                except Exception as e:
+                    print(e)
+                    print(traceback.format_exc())
         except Exception as e:
             print(e)
             print(traceback.format_exc())
