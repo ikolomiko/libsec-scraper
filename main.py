@@ -19,8 +19,8 @@ driver = uc.Chrome(
 # must end with a forward slash (/)
 download_path = "./libs/"
 
-old_dbs = ["db.json", "db2.json", "db3.json", "db4.json", "db5.json", "db6.json", "db7.json"]
-database = TinyDB('db8.json')
+old_dbs = ["db.json", "db2.json", "db3.json", "db4.json", "db5.json", "db6.json", "db7.json", "db8.json"]
+database = TinyDB('db9.json')
 all_ids: Set[str] = set()
 
 
