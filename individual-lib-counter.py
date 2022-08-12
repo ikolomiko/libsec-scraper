@@ -4,7 +4,7 @@ from tinydb import TinyDB
 from tinydb.database import Table
 
 def main():
-    dbs = ["db.json", "db2.json", "db3.json", "db4.json", "db5.json", "db6.json", "db7.json"]
+    dbs = ["db.json", "db2.json", "db3.json", "db4.json", "db5.json", "db6.json", "db7.json", "db8.json"]
     all = [] 
     for db in dbs:
         all.extend(TinyDB(db).all())
