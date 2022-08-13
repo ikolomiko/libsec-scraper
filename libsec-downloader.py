@@ -47,13 +47,13 @@ def save_file(lib: Library) -> None:
     filename = lib.artifact_id + "-" + lib.version + ".aar"
     try:
         urllib.request.urlretrieve(
-            lib.base_url + filename, download_path + lib.id + ".aar")
+            lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".aar")
     except Exception as e:
         print("Error:", e)
         try:
             filename = lib.artifact_id + "-" + lib.version + ".jar"
             urllib.request.urlretrieve(
-                lib.base_url + filename, download_path + lib.id + ".jar")
+                lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".jar")
         except:
             print("JAR Bulunamadı:", lib.base_url + filename)
 
