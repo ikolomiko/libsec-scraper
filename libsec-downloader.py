@@ -49,13 +49,13 @@ def save_file(lib: Library) -> None:
         urllib.request.urlretrieve(
             lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".aar")
     except Exception as e:
-        print("Error:", e)
+        print("AAR bulunamadı: ", e)
         try:
             filename = lib.artifact_id + "-" + lib.version + ".jar"
             urllib.request.urlretrieve(
                 lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".jar")
         except:
-            print("JAR Bulunamadı:", lib.base_url + filename)
+            print("JAR Bulunamadı: ", lib.base_url + filename)
 
 
 def main() -> None:
@@ -69,8 +69,8 @@ def main() -> None:
             for lib in database.all():
                 try:
                     lib = Library(lib)
-                    print(lib)
                     save_file(lib)
+                    print("Kütüphane indirildi: " + lib.id)
                 except Exception as e:
                     print(e)
                     print(traceback.format_exc())
