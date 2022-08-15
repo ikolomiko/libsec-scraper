@@ -56,6 +56,7 @@ def save_file(lib: Library) -> None:
                 lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".jar")
         except:
             print("JAR Bulunamadı: ", lib.base_url + filename)
+            print(lib.repo)
 
 
 def main() -> None:
