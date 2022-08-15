@@ -43,20 +43,23 @@ class Library:
         )
 
 
-def save_file(lib: Library) -> None:
+def save_file(lib: Library) -> bool:
     filename = lib.artifact_id + "-" + lib.version + ".aar"
     try:
         urllib.request.urlretrieve(
             lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".aar")
+        return True
     except Exception as e:
         print("AAR bulunamadı: ", e)
         try:
             filename = lib.artifact_id + "-" + lib.version + ".jar"
             urllib.request.urlretrieve(
                 lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".jar")
+            return True
         except:
             print("JAR Bulunamadı: ", lib.base_url + filename)
             print(lib.repo)
+            return False
 
 
 def main() -> None:
@@ -64,17 +67,27 @@ def main() -> None:
         print(USAGE)
         return
 
+
     for db in sys.argv[1:]:
+        index = 0
+        n_downloaded = 0
         try:
             database = TinyDB(db)
+            n_all = len(database.all())
             for lib in database.all():
+                index += 1
                 try:
                     lib = Library(lib)
-                    save_file(lib)
-                    print("Kütüphane indirildi: " + lib.id)
+                    if save_file(lib):
+                        n_downloaded += 1
+                        print("Kütüphane indirildi: " + lib.id)
+
                 except Exception as e:
                     print(e)
                     print(traceback.format_exc())
+
+                print(f"{index}/{n_all} kütüphane denendi")
+                print(f"{n_downloaded} tanesi indirilebildi, {index-n_downloaded} tanesi hata verdi")
         except Exception as e:
             print(e)
             print(traceback.format_exc())
