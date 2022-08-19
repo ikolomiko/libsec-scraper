@@ -1,5 +1,12 @@
 <ivysettings>
     <resolvers>
+        <chain name="public-chain" returnFirst="true">
+            <resolver ref="mavenorg-aar"/>
+            <resolver ref="public"/>
+            <resolver ref="google-android-aar"/>
+            <resolver ref="google-android-jar"/>
+        </chain>
+
         <url name="google-android-aar" m2compatible="true">
             <artifact pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
         </url>

@@ -29,17 +29,7 @@
 
     <resolvers>
         <!-- Public / Online repositories -->
-        <url name="google-android-aar" m2compatible="true">
-            <artifact pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="google-android-jar" m2compatible="true">
-            <artifact pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="mavenorg-aar" m2compatible="true">
-            <artifact pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <ibiblio name="public" m2compatible="true"/>
-        <!-- This one is basically maven.org -->
+        <include url="./ivy-public.xml"/>
 
         <!-- Input file repository - offline -->
         <filesystem name="tmp-aar">
@@ -66,10 +56,7 @@
             <resolver ref="shared"/>
             <resolver ref="tmp-aar"/>
             <resolver ref="tmp-jar"/>
-            <resolver ref="mavenorg-aar"/>
-            <resolver ref="public"/>
-            <resolver ref="google-android-aar"/>
-            <resolver ref="google-android-jar"/>
+            <resolver ref="public-chain"/>
         </chain>
 
         <!-- Default chain -->
