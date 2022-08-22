@@ -1,5 +1,706 @@
 <ivysettings>
     <resolvers>
+        <url name="google-android-aar" m2compatible="true">
+            <artifact pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="google-android-jar" m2compatible="true">
+            <artifact pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="mavenorg-aar" m2compatible="true">
+            <artifact pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <ibiblio name="public" m2compatible="true"/>
+        <url name="Central-aar" m2compatible="true">
+            <artifact pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Central-jar" m2compatible="true">
+            <artifact pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="JCenter-aar" m2compatible="true">
+            <artifact pattern="https://jcenter.bintray.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="JCenter-jar" m2compatible="true">
+            <artifact pattern="https://jcenter.bintray.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Google-aar" m2compatible="true">
+            <artifact pattern="https://maven.google.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Google-jar" m2compatible="true">
+            <artifact pattern="https://maven.google.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Lib Release-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Lib Release-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Mulesoft-aar" m2compatible="true">
+            <artifact pattern="https://repository.mulesoft.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Mulesoft-jar" m2compatible="true">
+            <artifact pattern="https://repository.mulesoft.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Gradle Releases-aar" m2compatible="true">
+            <artifact pattern="https://repo.gradle.org/gradle/libs-releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Gradle Releases-jar" m2compatible="true">
+            <artifact pattern="https://repo.gradle.org/gradle/libs-releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Liferay Public-aar" m2compatible="true">
+            <artifact pattern="https://repository.liferay.com/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Liferay Public-jar" m2compatible="true">
+            <artifact pattern="https://repository.liferay.com/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Imgly-aar" m2compatible="true">
+            <artifact pattern="https://artifactory.img.ly/artifactory/imgly/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Imgly-jar" m2compatible="true">
+            <artifact pattern="https://artifactory.img.ly/artifactory/imgly/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Scanbot-aar" m2compatible="true">
+            <artifact pattern="https://nexus.scanbot.io/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Scanbot-jar" m2compatible="true">
+            <artifact pattern="https://nexus.scanbot.io/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="SurfStudio-aar" m2compatible="true">
+            <artifact pattern="https://artifactory.surfstudio.ru/artifactory/libs-release-local/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="SurfStudio-jar" m2compatible="true">
+            <artifact pattern="https://artifactory.surfstudio.ru/artifactory/libs-release-local/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Lib M-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-milestone/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Lib M-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-milestone/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Aliyun-aar" m2compatible="true">
+            <artifact pattern="http://maven.aliyun.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Aliyun-jar" m2compatible="true">
+            <artifact pattern="http://maven.aliyun.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="PentahoOmni-aar" m2compatible="true">
+            <artifact pattern="https://nexus.pentaho.org/content/groups/omni/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="PentahoOmni-jar" m2compatible="true">
+            <artifact pattern="https://nexus.pentaho.org/content/groups/omni/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="SciJava Public-aar" m2compatible="true">
+            <artifact pattern="https://maven.scijava.org/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="SciJava Public-jar" m2compatible="true">
+            <artifact pattern="https://maven.scijava.org/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Kakao-aar" m2compatible="true">
+            <artifact pattern="https://devrepo.kakao.com/nexus/content/groups/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Kakao-jar" m2compatible="true">
+            <artifact pattern="https://devrepo.kakao.com/nexus/content/groups/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Couchbase-aar" m2compatible="true">
+            <artifact pattern="https://files.couchbase.com/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Couchbase-jar" m2compatible="true">
+            <artifact pattern="https://files.couchbase.com/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Igexin-aar" m2compatible="true">
+            <artifact pattern="http://mvn.gt.igexin.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Igexin-jar" m2compatible="true">
+            <artifact pattern="http://mvn.gt.igexin.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Yahoo-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/yahoo/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Yahoo-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/yahoo/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Compose-aar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/public/p/compose/dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Compose-jar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/public/p/compose/dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Instabug-aar" m2compatible="true">
+            <artifact pattern="https://sdks.instabug.com/nexus/repository/instabug-cp/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Instabug-jar" m2compatible="true">
+            <artifact pattern="https://sdks.instabug.com/nexus/repository/instabug-cp/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="PuNative-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/pubnative/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="PuNative-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/pubnative/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="IronSrcAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/ironsource-mobile/android-adapters/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="IronSrcAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/ironsource-mobile/android-adapters/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Sumsub-aar" m2compatible="true">
+            <artifact pattern="https://maven.sumsub.com/repository/maven-public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Sumsub-jar" m2compatible="true">
+            <artifact pattern="https://maven.sumsub.com/repository/maven-public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="InLocoMedia-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/inlocomedia/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="InLocoMedia-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/inlocomedia/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="WSO2 Dist-aar" m2compatible="true">
+            <artifact pattern="http://dist.wso2.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="WSO2 Dist-jar" m2compatible="true">
+            <artifact pattern="http://dist.wso2.org/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Pushe-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/pushe/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Pushe-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/pushe/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Realm-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/realm/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Realm-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/realm/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="CometchatCallTeam-aar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/call-team/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="CometchatCallTeam-jar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/call-team/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="NewsDog-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/newsdog/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="NewsDog-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/newsdog/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Embrace-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/embrace-io/mvn-public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Embrace-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/embrace-io/mvn-public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Huawei-aar" m2compatible="true">
+            <artifact pattern="https://developer.huawei.com/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Huawei-jar" m2compatible="true">
+            <artifact pattern="https://developer.huawei.com/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="MobileAds-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/mobile-ads-adapters-android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="MobileAds-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/mobile-ads-adapters-android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="AppLovin SDKs-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/applovin/Android-Adapter-SDKs/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="AppLovin SDKs-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/applovin/Android-Adapter-SDKs/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="AutonomX-aar" m2compatible="true">
+            <artifact pattern="http://artifact.autonomx.io/artifactory/libs-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="AutonomX-jar" m2compatible="true">
+            <artifact pattern="http://artifact.autonomx.io/artifactory/libs-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="NBT-Adison-OW-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nbt/adison-offerwall/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="NBT-Adison-OW-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nbt/adison-offerwall/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="IotIgnite-aar" m2compatible="true">
+            <artifact pattern="https://repo.iot-ignite.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="IotIgnite-jar" m2compatible="true">
+            <artifact pattern="https://repo.iot-ignite.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Datadog-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/datadog/datadog-maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Datadog-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/datadog/datadog-maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Twilio-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/twilio/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Twilio-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/twilio/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Bugtags-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bugtags/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Bugtags-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bugtags/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Novoda-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/novoda/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Novoda-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/novoda/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Wire Release-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/wire-android/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Wire Release-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/wire-android/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Data2Viz Dev-aar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Data2Viz Dev-jar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Tensorflow-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/tensorflow/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Tensorflow-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/tensorflow/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="WSO2 Releases-aar" m2compatible="true">
+            <artifact pattern="https://maven.wso2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="WSO2 Releases-jar" m2compatible="true">
+            <artifact pattern="https://maven.wso2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="CometchatAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="CometchatAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Peer5-aar" m2compatible="true">
+            <artifact pattern="https://sdk.peer5.com/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Peer5-jar" m2compatible="true">
+            <artifact pattern="https://sdk.peer5.com/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-shortroid-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/shortroid/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-shortroid-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/shortroid/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="ICM-aar" m2compatible="true">
+            <artifact pattern="http://maven.icm.edu.pl/artifactory/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="ICM-jar" m2compatible="true">
+            <artifact pattern="http://maven.icm.edu.pl/artifactory/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Membrane SOA-aar" m2compatible="true">
+            <artifact pattern="https://repository.membrane-soa.org/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Membrane SOA-jar" m2compatible="true">
+            <artifact pattern="https://repository.membrane-soa.org/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="AppLovin AA-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/applovin/Android-Adapters/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="AppLovin AA-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/applovin/Android-Adapters/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="DashJInterface-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/dash/DashJInterface/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="DashJInterface-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/dash/DashJInterface/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="ImageJ Public-aar" m2compatible="true">
+            <artifact pattern="http://maven.imagej.net/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="ImageJ Public-jar" m2compatible="true">
+            <artifact pattern="http://maven.imagej.net/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-instagram-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/instagram/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-instagram-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/instagram/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="TrayisAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/trayis/android_lib/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="TrayisAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/trayis/android_lib/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Jitpack-aar" m2compatible="true">
+            <artifact pattern="https://jitpack.io/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Jitpack-jar" m2compatible="true">
+            <artifact pattern="https://jitpack.io/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="SchibstedSpain-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/schibstedspain/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="SchibstedSpain-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/schibstedspain/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Microblink-aar" m2compatible="true">
+            <artifact pattern="https://maven.microblink.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Microblink-jar" m2compatible="true">
+            <artifact pattern="https://maven.microblink.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="LivotovLabs-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/livotovlabs/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="LivotovLabs-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/livotovlabs/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="SmartSoft-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/smartnsoft/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="SmartSoft-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/smartnsoft/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Swirlds-aar" m2compatible="true">
+            <artifact pattern="https://art.swirlds.com/artifactory/swirlds/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Swirlds-jar" m2compatible="true">
+            <artifact pattern="https://art.swirlds.com/artifactory/swirlds/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Naver-aar" m2compatible="true">
+            <artifact pattern="https://naver.jfrog.io/artifactory/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Naver-jar" m2compatible="true">
+            <artifact pattern="https://naver.jfrog.io/artifactory/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Onfido-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/onfido/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Onfido-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/onfido/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Bilibili-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bilibili/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Bilibili-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bilibili/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Data2Viz-aar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Data2Viz-jar" m2compatible="true">
+            <artifact pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="IndoorAtlasBT-aar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="IndoorAtlasBT-jar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-operations-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/operations/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-operations-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/operations/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="OpenID-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/openid/net.openid/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="OpenID-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/openid/net.openid/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="WebRTC-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/webrtc/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="WebRTC-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/webrtc/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="CometchatAndroid-team-aar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="CometchatAndroid-team-jar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Exoplayer-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/exoplayer/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Exoplayer-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/google/exoplayer/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="JCenter-dev-pinco-aar" m2compatible="true">
+            <artifact pattern="https://jcenter.bintray.com/dev/pinco/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="JCenter-dev-pinco-jar" m2compatible="true">
+            <artifact pattern="https://jcenter.bintray.com/dev/pinco/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Algolia-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/algolia/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Algolia-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/algolia/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="UrbanAirshipAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/urbanairship/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="UrbanAirshipAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/urbanairship/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="CometchatAndroid-sdk-aar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="CometchatAndroid-sdk-jar" m2compatible="true">
+            <artifact pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="NanorepSearch-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/search/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="NanorepSearch-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/search/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="WSO2 Public-aar" m2compatible="true">
+            <artifact pattern="https://maven.wso2.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="WSO2 Public-jar" m2compatible="true">
+            <artifact pattern="https://maven.wso2.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="NanorepDevCore-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/devcore/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="NanorepDevCore-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/devcore/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Worldline-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/worldline-spain/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Worldline-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/worldline-spain/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="MS OpenTech-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/msopentech/Maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="MS OpenTech-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/msopentech/Maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="EsriAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/esri/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="EsriAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/esri/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Trifork-aar" m2compatible="true">
+            <artifact pattern="https://nexus.trifork.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Trifork-jar" m2compatible="true">
+            <artifact pattern="https://nexus.trifork.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Grails Core-aar" m2compatible="true">
+            <artifact pattern="https://repo.grails.org/grails/core/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Grails Core-jar" m2compatible="true">
+            <artifact pattern="https://repo.grails.org/grails/core/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Snowplow-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/snowplow/snowplow-maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Snowplow-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/snowplow/snowplow-maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Fidesmo-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/fidesmo/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Fidesmo-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/fidesmo/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="OpenKM-aar" m2compatible="true">
+            <artifact pattern="http://maven.openkm.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="OpenKM-jar" m2compatible="true">
+            <artifact pattern="http://maven.openkm.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-fuel-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/fuel/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-fuel-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/fuel/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Jumpmind-aar" m2compatible="true">
+            <artifact pattern="http://maven.jumpmind.com/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Jumpmind-jar" m2compatible="true">
+            <artifact pattern="http://maven.jumpmind.com/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="GuardianAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/guardian/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="GuardianAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/guardian/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Codewaves-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/codewaves/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Codewaves-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/codewaves/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="GroundTruth-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/groundtruth/pubsvcs/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="GroundTruth-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/groundtruth/pubsvcs/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="NanorepCore-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/core/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="NanorepCore-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/nanorep/core/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-chartizate-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/chartizate/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-chartizate-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/chartizate/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="AlphaCephei-aar" m2compatible="true">
+            <artifact pattern="https://alphacephei.com/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="AlphaCephei-jar" m2compatible="true">
+            <artifact pattern="https://alphacephei.com/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Bluecabin-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bluecabin/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Bluecabin-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/bluecabin/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Publit-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/publitio/publitio-android-sdk/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Publit-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/publitio/publitio-android-sdk/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Empyr-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/empyrnetwork/empyrnetwork/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Empyr-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/empyrnetwork/empyrnetwork/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Kotlin EAP-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/kotlin/kotlin-eap/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Kotlin EAP-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/kotlin/kotlin-eap/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="ApolloGraphAndroid-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/apollographql/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="ApolloGraphAndroid-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/apollographql/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="MopubSDK-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/mopub/mopub-android-sdk/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="MopubSDK-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/mopub/mopub-android-sdk/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Clevertap-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/clevertap/Maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Clevertap-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/clevertap/Maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Redhat EA-aar" m2compatible="true">
+            <artifact pattern="https://maven.repository.redhat.com/earlyaccess/all/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Redhat EA-jar" m2compatible="true">
+            <artifact pattern="https://maven.repository.redhat.com/earlyaccess/all/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Epam RP-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/epam/reportportal/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Epam RP-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/epam/reportportal/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Kotlin Dev-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/kotlin/kotlin-dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Kotlin Dev-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/kotlin/kotlin-dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Plugins-sqlite4a-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/sqlite4a/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Plugins-sqlite4a-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/plugins-release/sqlite4a/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Gradle Plugins-aar" m2compatible="true">
+            <artifact pattern="https://plugins.gradle.org/m2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Gradle Plugins-jar" m2compatible="true">
+            <artifact pattern="https://plugins.gradle.org/m2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Snplow-aar" m2compatible="true">
+            <artifact pattern="http://maven.snplow.com/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Snplow-jar" m2compatible="true">
+            <artifact pattern="http://maven.snplow.com/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Atlassian 3rd-P Old-aar" m2compatible="true">
+            <artifact pattern="https://maven.atlassian.com/3rdparty/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Atlassian 3rd-P Old-jar" m2compatible="true">
+            <artifact pattern="https://maven.atlassian.com/3rdparty/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Spring Lib Release-permission-aar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-release/permission/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Spring Lib Release-permission-jar" m2compatible="true">
+            <artifact pattern="https://repo.spring.io/libs-release/permission/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Geomajas-aar" m2compatible="true">
+            <artifact pattern="http://maven.geomajas.org/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Geomajas-jar" m2compatible="true">
+            <artifact pattern="http://maven.geomajas.org/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Agora-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/agora/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Agora-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/agora/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Alfresco 3rdParty-aar" m2compatible="true">
+            <artifact pattern="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Alfresco 3rdParty-jar" m2compatible="true">
+            <artifact pattern="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Erudika-aar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/erudika/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Erudika-jar" m2compatible="true">
+            <artifact pattern="https://dl.bintray.com/erudika/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Sofia2-aar" m2compatible="true">
+            <artifact pattern="http://sofia2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Sofia2-jar" m2compatible="true">
+            <artifact pattern="http://sofia2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+        <url name="Bytedance-aar" m2compatible="true">
+            <artifact pattern="https://artifact.bytedance.com/repository/AwemeOpenSDK/[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        </url>
+        <url name="Bytedance-jar" m2compatible="true">
+            <artifact pattern="https://artifact.bytedance.com/repository/AwemeOpenSDK/[organization]/[module]/[revision]/[module]-[revision].jar"/>
+        </url>
+
         <chain name="public-chain" returnFirst="true">
             <resolver ref="mavenorg-aar"/>
             <resolver ref="public"/>
@@ -236,930 +937,5 @@
             <resolver ref="Bytedance-aar"/>
             <resolver ref="Bytedance-jar"/>
         </chain>
-        <url name="google-android-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="google-android-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.google.com/dl/android/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="mavenorg-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <ibiblio name="public" m2compatible="true"/>
-        <url name="Central-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Central-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo1.maven.org/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="JCenter-aar" m2compatible="true">
-            <artifact
-                    pattern="https://jcenter.bintray.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="JCenter-jar" m2compatible="true">
-            <artifact
-                    pattern="https://jcenter.bintray.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Google-aar" m2compatible="true">
-            <artifact pattern="https://maven.google.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Google-jar" m2compatible="true">
-            <artifact pattern="https://maven.google.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Lib Release-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Lib Release-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Mulesoft-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.mulesoft.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Mulesoft-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.mulesoft.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Gradle Releases-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.gradle.org/gradle/libs-releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Gradle Releases-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.gradle.org/gradle/libs-releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Liferay Public-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.liferay.com/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Liferay Public-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.liferay.com/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Imgly-aar" m2compatible="true">
-            <artifact
-                    pattern="https://artifactory.img.ly/artifactory/imgly/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Imgly-jar" m2compatible="true">
-            <artifact
-                    pattern="https://artifactory.img.ly/artifactory/imgly/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Scanbot-aar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.scanbot.io/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Scanbot-jar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.scanbot.io/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="SurfStudio-aar" m2compatible="true">
-            <artifact
-                    pattern="https://artifactory.surfstudio.ru/artifactory/libs-release-local/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="SurfStudio-jar" m2compatible="true">
-            <artifact
-                    pattern="https://artifactory.surfstudio.ru/artifactory/libs-release-local/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Lib M-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-milestone/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Lib M-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-milestone/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Aliyun-aar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.aliyun.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Aliyun-jar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.aliyun.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="PentahoOmni-aar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.pentaho.org/content/groups/omni/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="PentahoOmni-jar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.pentaho.org/content/groups/omni/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="SciJava Public-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.scijava.org/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="SciJava Public-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.scijava.org/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Kakao-aar" m2compatible="true">
-            <artifact
-                    pattern="https://devrepo.kakao.com/nexus/content/groups/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Kakao-jar" m2compatible="true">
-            <artifact
-                    pattern="https://devrepo.kakao.com/nexus/content/groups/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Couchbase-aar" m2compatible="true">
-            <artifact
-                    pattern="https://files.couchbase.com/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Couchbase-jar" m2compatible="true">
-            <artifact
-                    pattern="https://files.couchbase.com/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Igexin-aar" m2compatible="true">
-            <artifact
-                    pattern="http://mvn.gt.igexin.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Igexin-jar" m2compatible="true">
-            <artifact
-                    pattern="http://mvn.gt.igexin.com/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Yahoo-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/yahoo/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Yahoo-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/yahoo/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Compose-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/public/p/compose/dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Compose-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/public/p/compose/dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Instabug-aar" m2compatible="true">
-            <artifact
-                    pattern="https://sdks.instabug.com/nexus/repository/instabug-cp/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Instabug-jar" m2compatible="true">
-            <artifact
-                    pattern="https://sdks.instabug.com/nexus/repository/instabug-cp/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="PuNative-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/pubnative/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="PuNative-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/pubnative/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="IronSrcAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/ironsource-mobile/android-adapters/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="IronSrcAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/ironsource-mobile/android-adapters/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Sumsub-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.sumsub.com/repository/maven-public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Sumsub-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.sumsub.com/repository/maven-public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="InLocoMedia-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/inlocomedia/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="InLocoMedia-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/inlocomedia/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="WSO2 Dist-aar" m2compatible="true">
-            <artifact
-                    pattern="http://dist.wso2.org/maven2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="WSO2 Dist-jar" m2compatible="true">
-            <artifact
-                    pattern="http://dist.wso2.org/maven2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Pushe-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/pushe/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Pushe-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/pushe/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Realm-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/realm/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Realm-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/realm/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="CometchatCallTeam-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/call-team/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="CometchatCallTeam-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/call-team/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="NewsDog-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/newsdog/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="NewsDog-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/newsdog/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Embrace-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/embrace-io/mvn-public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Embrace-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/embrace-io/mvn-public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Huawei-aar" m2compatible="true">
-            <artifact
-                    pattern="https://developer.huawei.com/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Huawei-jar" m2compatible="true">
-            <artifact
-                    pattern="https://developer.huawei.com/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="MobileAds-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/mobile-ads-adapters-android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="MobileAds-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/mobile-ads-adapters-android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="AppLovin SDKs-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/applovin/Android-Adapter-SDKs/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="AppLovin SDKs-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/applovin/Android-Adapter-SDKs/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="AutonomX-aar" m2compatible="true">
-            <artifact
-                    pattern="http://artifact.autonomx.io/artifactory/libs-release/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="AutonomX-jar" m2compatible="true">
-            <artifact
-                    pattern="http://artifact.autonomx.io/artifactory/libs-release/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="NBT-Adison-OW-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nbt/adison-offerwall/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="NBT-Adison-OW-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nbt/adison-offerwall/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="IotIgnite-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.iot-ignite.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="IotIgnite-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.iot-ignite.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Datadog-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/datadog/datadog-maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Datadog-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/datadog/datadog-maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Twilio-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/twilio/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Twilio-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/twilio/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Bugtags-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bugtags/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Bugtags-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bugtags/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Novoda-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/novoda/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Novoda-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/novoda/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Wire Release-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/wire-android/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Wire Release-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/wire-android/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Data2Viz Dev-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Data2Viz Dev-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Tensorflow-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/tensorflow/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Tensorflow-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/tensorflow/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="WSO2 Releases-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.wso2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="WSO2 Releases-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.wso2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="CometchatAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="CometchatAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Peer5-aar" m2compatible="true">
-            <artifact
-                    pattern="https://sdk.peer5.com/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Peer5-jar" m2compatible="true">
-            <artifact
-                    pattern="https://sdk.peer5.com/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-shortroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/shortroid/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-shortroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/shortroid/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="ICM-aar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.icm.edu.pl/artifactory/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="ICM-jar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.icm.edu.pl/artifactory/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Membrane SOA-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.membrane-soa.org/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Membrane SOA-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repository.membrane-soa.org/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="AppLovin AA-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/applovin/Android-Adapters/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="AppLovin AA-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/applovin/Android-Adapters/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="DashJInterface-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/dash/DashJInterface/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="DashJInterface-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/dash/DashJInterface/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="ImageJ Public-aar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.imagej.net/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="ImageJ Public-jar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.imagej.net/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-instagram-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/instagram/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-instagram-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/instagram/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="TrayisAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/trayis/android_lib/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="TrayisAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/trayis/android_lib/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Jitpack-aar" m2compatible="true">
-            <artifact pattern="https://jitpack.io/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Jitpack-jar" m2compatible="true">
-            <artifact pattern="https://jitpack.io/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="SchibstedSpain-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/schibstedspain/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="SchibstedSpain-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/schibstedspain/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Microblink-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.microblink.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Microblink-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.microblink.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="LivotovLabs-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/livotovlabs/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="LivotovLabs-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/livotovlabs/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="SmartSoft-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/smartnsoft/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="SmartSoft-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/smartnsoft/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Swirlds-aar" m2compatible="true">
-            <artifact
-                    pattern="https://art.swirlds.com/artifactory/swirlds/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Swirlds-jar" m2compatible="true">
-            <artifact
-                    pattern="https://art.swirlds.com/artifactory/swirlds/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Naver-aar" m2compatible="true">
-            <artifact
-                    pattern="https://naver.jfrog.io/artifactory/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Naver-jar" m2compatible="true">
-            <artifact
-                    pattern="https://naver.jfrog.io/artifactory/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Onfido-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/onfido/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Onfido-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/onfido/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Bilibili-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bilibili/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Bilibili-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bilibili/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Data2Viz-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Data2Viz-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="IndoorAtlasBT-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="IndoorAtlasBT-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-operations-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/operations/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-operations-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/operations/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="OpenID-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/openid/net.openid/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="OpenID-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/openid/net.openid/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="WebRTC-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/webrtc/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="WebRTC-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/webrtc/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="CometchatAndroid-team-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="CometchatAndroid-team-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Exoplayer-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/exoplayer/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Exoplayer-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/google/exoplayer/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="JCenter-dev-pinco-aar" m2compatible="true">
-            <artifact
-                    pattern="https://jcenter.bintray.com/dev/pinco/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="JCenter-dev-pinco-jar" m2compatible="true">
-            <artifact
-                    pattern="https://jcenter.bintray.com/dev/pinco/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Algolia-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/algolia/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Algolia-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/algolia/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="UrbanAirshipAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/urbanairship/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="UrbanAirshipAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/urbanairship/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="CometchatAndroid-sdk-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="CometchatAndroid-sdk-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="NanorepSearch-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/search/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="NanorepSearch-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/search/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="WSO2 Public-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.wso2.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="WSO2 Public-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.wso2.org/nexus/content/repositories/public/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="NanorepDevCore-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/devcore/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="NanorepDevCore-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/devcore/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Worldline-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/worldline-spain/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Worldline-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/worldline-spain/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="MS OpenTech-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/msopentech/Maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="MS OpenTech-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/msopentech/Maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="EsriAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/esri/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="EsriAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/esri/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Trifork-aar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.trifork.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Trifork-jar" m2compatible="true">
-            <artifact
-                    pattern="https://nexus.trifork.com/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Grails Core-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.grails.org/grails/core/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Grails Core-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.grails.org/grails/core/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Snowplow-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/snowplow/snowplow-maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Snowplow-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/snowplow/snowplow-maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Fidesmo-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/fidesmo/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Fidesmo-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/fidesmo/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="OpenKM-aar" m2compatible="true">
-            <artifact pattern="http://maven.openkm.com/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="OpenKM-jar" m2compatible="true">
-            <artifact pattern="http://maven.openkm.com/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-fuel-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/fuel/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-fuel-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/fuel/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Jumpmind-aar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.jumpmind.com/repo/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Jumpmind-jar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.jumpmind.com/repo/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="GuardianAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/guardian/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="GuardianAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/guardian/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Codewaves-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/codewaves/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Codewaves-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/codewaves/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="GroundTruth-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/groundtruth/pubsvcs/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="GroundTruth-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/groundtruth/pubsvcs/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="NanorepCore-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/core/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="NanorepCore-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/nanorep/core/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-chartizate-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/chartizate/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-chartizate-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/chartizate/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="AlphaCephei-aar" m2compatible="true">
-            <artifact
-                    pattern="https://alphacephei.com/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="AlphaCephei-jar" m2compatible="true">
-            <artifact
-                    pattern="https://alphacephei.com/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Bluecabin-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bluecabin/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Bluecabin-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/bluecabin/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Publit-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/publitio/publitio-android-sdk/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Publit-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/publitio/publitio-android-sdk/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Empyr-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/empyrnetwork/empyrnetwork/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Empyr-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/empyrnetwork/empyrnetwork/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Kotlin EAP-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/kotlin/kotlin-eap/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Kotlin EAP-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/kotlin/kotlin-eap/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="ApolloGraphAndroid-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/apollographql/android/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="ApolloGraphAndroid-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/apollographql/android/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="MopubSDK-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/mopub/mopub-android-sdk/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="MopubSDK-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/mopub/mopub-android-sdk/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Clevertap-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/clevertap/Maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Clevertap-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/clevertap/Maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Redhat EA-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.repository.redhat.com/earlyaccess/all/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Redhat EA-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.repository.redhat.com/earlyaccess/all/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Epam RP-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/epam/reportportal/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Epam RP-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/epam/reportportal/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Kotlin Dev-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/kotlin/kotlin-dev/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Kotlin Dev-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/kotlin/kotlin-dev/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Plugins-sqlite4a-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/sqlite4a/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Plugins-sqlite4a-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/plugins-release/sqlite4a/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Gradle Plugins-aar" m2compatible="true">
-            <artifact
-                    pattern="https://plugins.gradle.org/m2/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Gradle Plugins-jar" m2compatible="true">
-            <artifact
-                    pattern="https://plugins.gradle.org/m2/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Snplow-aar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.snplow.com/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Snplow-jar" m2compatible="true">
-            <artifact
-                    pattern="http://maven.snplow.com/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Atlassian 3rd-P Old-aar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.atlassian.com/3rdparty/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Atlassian 3rd-P Old-jar" m2compatible="true">
-            <artifact
-                    pattern="https://maven.atlassian.com/3rdparty/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Spring Lib Release-permission-aar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-release/permission/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Spring Lib Release-permission-jar" m2compatible="true">
-            <artifact
-                    pattern="https://repo.spring.io/libs-release/permission/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Geomajas-aar" m2compatible="true">
-            <artifact pattern="http://maven.geomajas.org/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Geomajas-jar" m2compatible="true">
-            <artifact pattern="http://maven.geomajas.org/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Agora-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/agora/maven/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Agora-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/agora/maven/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Alfresco 3rdParty-aar" m2compatible="true">
-            <artifact
-                    pattern="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Alfresco 3rdParty-jar" m2compatible="true">
-            <artifact
-                    pattern="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Erudika-aar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/erudika/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Erudika-jar" m2compatible="true">
-            <artifact
-                    pattern="https://dl.bintray.com/erudika/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Sofia2-aar" m2compatible="true">
-            <artifact
-                    pattern="http://sofia2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Sofia2-jar" m2compatible="true">
-            <artifact
-                    pattern="http://sofia2.org/nexus/content/repositories/releases/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
-        <url name="Bytedance-aar" m2compatible="true">
-            <artifact
-                    pattern="https://artifact.bytedance.com/repository/AwemeOpenSDK/[organization]/[module]/[revision]/[module]-[revision].aar"/>
-        </url>
-        <url name="Bytedance-jar" m2compatible="true">
-            <artifact
-                    pattern="https://artifact.bytedance.com/repository/AwemeOpenSDK/[organization]/[module]/[revision]/[module]-[revision].jar"/>
-        </url>
     </resolvers>
 </ivysettings>

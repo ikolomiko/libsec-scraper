@@ -17,6 +17,9 @@
    under the License.
 -->
 <ivysettings>
+    <!-- Public / Online repositories -->
+    <include url="./ivy-public.xml"/>
+
     <settings defaultResolver="default"/>
 
     <property name="ivy.shared.default.root" value="${ivy.default.ivy.user.dir}/shared" override="false"/>
@@ -28,9 +31,6 @@
     <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" override="false"/>
 
     <resolvers>
-        <!-- Public / Online repositories -->
-        <include url="./ivy-public.xml"/>
-
         <!-- Input file repository - offline -->
         <filesystem name="tmp-aar">
             <artifact pattern="/tmp/libsec/[organization]+[module]+[revision].aar"/>
