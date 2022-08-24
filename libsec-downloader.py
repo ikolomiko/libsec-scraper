@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import sys
+from tkinter.tix import Tree
 import urllib.request
 import urllib.parse
 from tinydb import TinyDB
 from tinydb.database import Table
 import traceback
+from pathlib import Path
+import shutil
 
 # This script is intended to be used on the server to download all libraries saved in the database
 USAGE = "Usage: python3 libsec-downloader.py <file 1> <file 2> <... file n>"
@@ -45,17 +48,20 @@ class Library:
 
 # Saves library from the scraped repository
 def save_file(lib: Library) -> bool:
+    dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+
     filename = lib.artifact_id + "-" + lib.version + ".aar"
     try:
         urllib.request.urlretrieve(
-            lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".aar")
+            lib.base_url + lib.version + "/" + filename, dest_dir + lib.version + ".aar")
         return True
     except Exception as e:
         print("AAR bulunamadı: ", e)
         try:
             filename = lib.artifact_id + "-" + lib.version + ".jar"
             urllib.request.urlretrieve(
-                lib.base_url + lib.version + "/" + filename, download_path + lib.id + ".jar")
+                lib.base_url + lib.version + "/" + filename, dest_dir + lib.version + ".jar")
             return True
         except:
             print("JAR Bulunamadı: ", lib.base_url + filename)
@@ -63,25 +69,46 @@ def save_file(lib: Library) -> bool:
             return False
 
 # Saves library from given repository
+
+
 def save_file(lib: Library, repo_url: str) -> bool:
+    dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+
     if repo_url[-1] != "/":
         repo_url = repo_url + "/"
 
     url = repo_url + lib.id.replace('+', '/') + \
         lib.artifact_id + "-" + lib.version + ".aar"
     try:
-        urllib.request.urlretrieve(url, download_path + lib.id + ".aar")
+        urllib.request.urlretrieve(url, dest_dir + lib.version + ".aar")
         return True
     except Exception as e:
         print("AAR bulunamadı: ", e)
         try:
             url = url[:-4] + ".jar"
-            urllib.request.urlretrieve(url, download_path + lib.id + ".jar")
+            urllib.request.urlretrieve(url, dest_dir + lib.version + ".jar")
             return True
         except Exception as er:
             print("JAR Bulunamadı: ", er, url)
             print(lib.repo)
             return False
+
+
+def copy_from_cache(lib: Library) -> bool:
+    dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+
+    cache_lib = Path(download_path + lib.id + ".aar")
+    if cache_lib.is_file():
+        shutil.copy(str(cache_lib), dest_dir + lib.version + ".aar")
+        return True
+    cache_lib = Path(download_path + lib.id + ".jar")
+    if cache_lib.is_file():
+        shutil.copy(str(cache_lib), dest_dir + lib.version + ".jar")
+        return True
+
+    return False
 
 
 def main() -> None:
@@ -102,6 +129,11 @@ def main() -> None:
                 index += 1
                 try:
                     lib = Library(lib)
+                    if copy_from_cache(lib):
+                        n_downloaded += 1
+                        print("Kütüphane cache'ten kopyalandı: "+ lib.id)
+                        continue
+
                     if save_file(lib):
                         n_downloaded += 1
                         print("Kütüphane indirildi: " + lib.id)
