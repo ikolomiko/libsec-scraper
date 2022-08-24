@@ -17,6 +17,42 @@ USAGE = "Usage: python3 libsec-downloader.py <file 1> <file 2> <... file n>"
 download_path = "./libs/"
 
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+def color(text: str, color: bcolors) -> str:
+    return str(color) + str(text) + str(bcolors.ENDC)
+
+
+def error(text: str):
+    print(color(text, bcolors.FAIL))
+
+
+def warn(text: str):
+    print(color(text, bcolors.WARNING))
+
+
+def info1(text: str):
+    print(color(text, bcolors.OKBLUE))
+
+
+def info2(text: str):
+    print(color(text, bcolors.OKCYAN))
+
+
+def success(text: str):
+    print(color(text, bcolors.OKGREEN))
+
+
 class Library:
     def __init__(self, d: dict = None) -> None:
         self.artifact_id = ""
@@ -57,14 +93,15 @@ def save_file(lib: Library) -> bool:
             lib.base_url + lib.version + "/" + filename, dest_dir + lib.version + ".aar")
         return True
     except Exception as e:
-        print("AAR bulunamadı: ", e)
+        warn("AAR bulunamadı: " + str(e))
         try:
             filename = lib.artifact_id + "-" + lib.version + ".jar"
             urllib.request.urlretrieve(
                 lib.base_url + lib.version + "/" + filename, dest_dir + lib.version + ".jar")
             return True
-        except:
-            print("JAR Bulunamadı: ", lib.base_url + filename)
+        except Exception as er:
+            error("JAR Bulunamadı: " + str(er))
+            print(lib.base_url + filename)
             print(lib.repo)
             return False
 
@@ -83,13 +120,14 @@ def save_file_from_repo(lib: Library, repo_url: str) -> bool:
         urllib.request.urlretrieve(url, dest_dir + lib.version + ".aar")
         return True
     except Exception as e:
-        print("AAR bulunamadı: ", e)
+        warn("AAR bulunamadı: " + str(e))
         try:
             url = url[:-4] + ".jar"
             urllib.request.urlretrieve(url, dest_dir + lib.version + ".jar")
             return True
         except Exception as er:
-            print("JAR Bulunamadı: ", er, url)
+            error("JAR Bulunamadı: " + str(er))
+            print(url)
             print(repo_url)
             return False
 
@@ -112,7 +150,7 @@ def copy_from_cache(lib: Library) -> bool:
 
 def main() -> None:
     if len(sys.argv) < 2:
-        print(USAGE)
+        info1(USAGE)
         return
 
     repos = [line.split(',')[2].strip()
@@ -130,30 +168,30 @@ def main() -> None:
                     lib = Library(lib)
                     if copy_from_cache(lib):
                         n_downloaded += 1
-                        print("Kütüphane cache'ten kopyalandı: " + lib.id)
+                        info2("Kütüphane cache'ten kopyalandı: " + lib.id)
                         continue
 
                     if save_file(lib):
                         n_downloaded += 1
-                        print("Kütüphane indirildi: " + lib.id)
+                        success("Kütüphane indirildi: " + lib.id)
                     else:
-                        print(lib.id + " için diğer repolar deneniyor")
+                        info1(lib.id + " için diğer repolar deneniyor")
                         for repo in repos:
                             if save_file_from_repo(lib, repo):
                                 n_downloaded += 1
-                                print("Kütüphane indirildi: " + lib.id)
+                                success("Kütüphane indirildi: " + lib.id)
                                 break
 
                 except Exception as e:
-                    print(e)
-                    print(traceback.format_exc())
+                    error(e)
+                    error(traceback.format_exc())
 
-                print(f"{index}/{n_all} kütüphane denendi")
-                print(
+                info1(f"{index}/{n_all} kütüphane denendi")
+                info1(
                     f"{n_downloaded} tanesi indirilebildi, {index-n_downloaded} tanesi hata verdi")
         except Exception as e:
-            print(e)
-            print(traceback.format_exc())
+            error(e)
+            error(traceback.format_exc())
 
 
 class StringIdClassTable(Table):
