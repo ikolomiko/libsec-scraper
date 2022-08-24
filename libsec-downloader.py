@@ -68,10 +68,9 @@ def save_file(lib: Library) -> bool:
             print(lib.repo)
             return False
 
+
 # Saves library from given repository
-
-
-def save_file(lib: Library, repo_url: str) -> bool:
+def save_file_from_repo(lib: Library, repo_url: str) -> bool:
     dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
     Path(dest_dir).mkdir(parents=True, exist_ok=True)
 
@@ -131,7 +130,7 @@ def main() -> None:
                     lib = Library(lib)
                     if copy_from_cache(lib):
                         n_downloaded += 1
-                        print("Kütüphane cache'ten kopyalandı: "+ lib.id)
+                        print("Kütüphane cache'ten kopyalandı: " + lib.id)
                         continue
 
                     if save_file(lib):
@@ -140,7 +139,7 @@ def main() -> None:
                     else:
                         print(lib.id + " için diğer repolar deneniyor")
                         for repo in repos:
-                            if save_file(lib, repo):
+                            if save_file_from_repo(lib, repo):
                                 n_downloaded += 1
                                 print("Kütüphane indirildi: " + lib.id)
                                 break

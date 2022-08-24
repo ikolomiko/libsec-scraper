@@ -22,23 +22,15 @@
 
     <settings defaultResolver="default"/>
 
-    <property name="ivy.shared.default.root" value="${ivy.default.ivy.user.dir}/shared" override="false"/>
+    <property name="ivy.shared.default.root" value="/tmp/ivycache/shared" override="true"/>
     <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" override="false"/>
     <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" override="false"/>
 
-    <property name="ivy.local.default.root" value="${ivy.default.ivy.user.dir}/local" override="false"/>
+    <property name="ivy.local.default.root" value="/tmp/ivycache/local" override="true"/>
     <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" override="false"/>
     <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" override="false"/>
 
     <resolvers>
-        <!-- Input file repository - offline -->
-        <filesystem name="tmp-aar">
-            <artifact pattern="/tmp/libsec/[organization]+[module]+[revision].aar"/>
-        </filesystem>
-        <filesystem name="tmp-jar">
-            <artifact pattern="/tmp/libsec/[organization]+[module]+[revision].jar"/>
-        </filesystem>
-
         <!-- Shared (offline) repositories -->
         <filesystem name="shared">
             <ivy pattern="${ivy.shared.default.root}/${ivy.shared.default.ivy.pattern}" />
@@ -49,13 +41,14 @@
         <filesystem name="local">
             <ivy pattern="${ivy.local.default.root}/${ivy.local.default.ivy.pattern}" />
             <artifact pattern="${ivy.local.default.root}/${ivy.local.default.artifact.pattern}" />
+            <!-- Type the absolute path of the libs directory below -->
+            <artifact pattern="/tmp/libsec/[organization]+[module]+[revision].aar"/>
+            <artifact pattern="/tmp/libsec/[organization]+[module]+[revision].jar"/>
         </filesystem>
 
         <!-- Main lookup chain -->
-        <chain name="main" returnFirst="true">
+        <chain name="main" dual="true">
             <resolver ref="shared"/>
-            <resolver ref="tmp-aar"/>
-            <resolver ref="tmp-jar"/>
             <resolver ref="public-chain"/>
         </chain>
 
