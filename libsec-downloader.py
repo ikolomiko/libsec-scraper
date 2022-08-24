@@ -78,7 +78,7 @@ def save_file_from_repo(lib: Library, repo_url: str) -> bool:
         repo_url = repo_url + "/"
 
     url = repo_url + lib.id.replace('+', '/') + \
-        lib.artifact_id + "-" + lib.version + ".aar"
+        + "/" + lib.artifact_id + "-" + lib.version + ".aar"
     try:
         urllib.request.urlretrieve(url, dest_dir + lib.version + ".aar")
         return True
