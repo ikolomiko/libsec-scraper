@@ -43,6 +43,7 @@ class Library:
         )
 
 
+# Saves library from the scraped repository
 def save_file(lib: Library) -> bool:
     filename = lib.artifact_id + "-" + lib.version + ".aar"
     try:
@@ -61,12 +62,35 @@ def save_file(lib: Library) -> bool:
             print(lib.repo)
             return False
 
+# Saves library from given repository
+def save_file(lib: Library, repo_url: str) -> bool:
+    if repo_url[-1] != "/":
+        repo_url = repo_url + "/"
+
+    url = repo_url + lib.id.replace('+', '/') + \
+        lib.artifact_id + "-" + lib.version + ".aar"
+    try:
+        urllib.request.urlretrieve(url, download_path + lib.id + ".aar")
+        return True
+    except Exception as e:
+        print("AAR bulunamadı: ", e)
+        try:
+            url = url[:-4] + ".jar"
+            urllib.request.urlretrieve(url, download_path + lib.id + ".jar")
+            return True
+        except Exception as er:
+            print("JAR Bulunamadı: ", er, url)
+            print(lib.repo)
+            return False
+
 
 def main() -> None:
     if len(sys.argv) < 2:
         print(USAGE)
         return
 
+    repos = [line.split(',')[2].strip()
+             for line in open("repo_stats.csv", "r").readlines()]
 
     for db in sys.argv[1:]:
         index = 0
@@ -81,13 +105,21 @@ def main() -> None:
                     if save_file(lib):
                         n_downloaded += 1
                         print("Kütüphane indirildi: " + lib.id)
+                    else:
+                        print(lib.id + " için diğer repolar deneniyor")
+                        for repo in repos:
+                            if save_file(lib, repo):
+                                n_downloaded += 1
+                                print("Kütüphane indirildi: " + lib.id)
+                                break
 
                 except Exception as e:
                     print(e)
                     print(traceback.format_exc())
 
                 print(f"{index}/{n_all} kütüphane denendi")
-                print(f"{n_downloaded} tanesi indirilebildi, {index-n_downloaded} tanesi hata verdi")
+                print(
+                    f"{n_downloaded} tanesi indirilebildi, {index-n_downloaded} tanesi hata verdi")
         except Exception as e:
             print(e)
             print(traceback.format_exc())
