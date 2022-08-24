@@ -14,7 +14,7 @@ USAGE = "Usage: python3 libsec-downloader.py <file 1> <file 2> <... file n>"
 # <file n>: n-th json database file
 
 # must end with a forward slash (/)
-download_path = "./libs/"
+download_path = "./updated-libs/"
 
 
 class bcolors:
@@ -135,16 +135,16 @@ def save_file_from_repo(lib: Library, repo_url: str) -> bool:
 def copy_from_cache(lib: Library) -> bool:
     dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
     Path(dest_dir).mkdir(parents=True, exist_ok=True)
-    
+
     if Path(dest_dir + lib.version + ".aar").is_file() or \
-        Path(dest_dir + lib.version + ".jar").is_file():
+            Path(dest_dir + lib.version + ".jar").is_file():
         return True
 
-    cache_lib = Path(download_path + lib.id + ".aar")
+    cache_lib = Path("./libs/" + lib.id + ".aar")
     if cache_lib.is_file():
         shutil.copy(str(cache_lib), dest_dir + lib.version + ".aar")
         return True
-    cache_lib = Path(download_path + lib.id + ".jar")
+    cache_lib = Path("./libs/" + lib.id + ".jar")
     if cache_lib.is_file():
         shutil.copy(str(cache_lib), dest_dir + lib.version + ".jar")
         return True
