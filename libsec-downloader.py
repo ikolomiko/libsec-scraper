@@ -135,6 +135,10 @@ def save_file_from_repo(lib: Library, repo_url: str) -> bool:
 def copy_from_cache(lib: Library) -> bool:
     dest_dir = download_path + lib.group_id + "+" + lib.artifact_id + "/"
     Path(dest_dir).mkdir(parents=True, exist_ok=True)
+    
+    if Path(dest_dir + lib.version + ".aar").is_file() or \
+        Path(dest_dir + lib.version + ".jar").is_file():
+        return True
 
     cache_lib = Path(download_path + lib.id + ".aar")
     if cache_lib.is_file():
