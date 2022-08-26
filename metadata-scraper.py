@@ -59,7 +59,7 @@ def download_metadata_xml(lib_id: str, repo: Repo) -> str:
 
 def parse_versions(xml: str) -> List[str]:
     soup = BeautifulSoup(xml, features="xml")
-    return [v.text for v in soup.versioning.versions]
+    return [v.text for v in soup.versioning.versions if v and v.text]
 
 
 def find_lib(id: str, all_libs: Iterable[Library]) -> Library:
