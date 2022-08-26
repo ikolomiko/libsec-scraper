@@ -9,6 +9,7 @@ from tinydb import table, TinyDB
 from tinydb.database import Table
 import traceback
 import re
+from library import Library
 
 options = uc.ChromeOptions()
 options.add_argument(
@@ -19,63 +20,10 @@ driver = uc.Chrome(
 # must end with a forward slash (/)
 download_path = "./libs/"
 
-old_dbs = ["db.json", "db2.json", "db3.json", "db4.json", "db5.json", "db6.json", "db7.json", "db8.json"]
+old_dbs = ["db.json", "db2.json", "db3.json", "db4.json",
+           "db5.json", "db6.json", "db7.json", "db8.json"]
 database = TinyDB('db9.json')
 all_ids: Set[str] = set()
-
-
-class Library:
-    def __init__(self) -> None:
-        self.artifact_id = ""
-        self.group_id = ""
-        self.version = ""
-        self.repo = ""
-        self.usages = 0
-        self.date = ""
-        self.id = ""
-        self.tag = ""
-        self.base_url = ""
-
-    def __init__(self, row: WebElement, tag: str, url: str = "") -> None:
-        self.artifact_id = ""
-        self.group_id = ""
-        self.tag = tag
-
-        cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
-
-        self.version = str(cols[-5].text)
-        self.repo = str(cols[-3].text)
-        self.usages = int(cols[-2].text)
-        self.date = str(cols[-1].text)
-        self.id = str(self.group_id + "+" +
-                      self.artifact_id + "+" + self.version)
-        self.base_url = url
-
-    def __init__(self, row: WebElement, artifact_id: str, group_id: str, tag: str, url: str = "") -> None:
-        self.artifact_id = artifact_id
-        self.group_id = group_id
-        self.tag = tag
-
-        cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
-
-        self.version = str(cols[-5].text)
-        self.repo = str(cols[-3].text)
-        self.usages = int(cols[-2].text)
-        self.date = str(cols[-1].text)
-        self.id = str(self.group_id + "+" +
-                      self.artifact_id + "+" + self.version)
-        self.base_url = url
-
-    def __str__(self) -> str:
-        return (
-            f"Artifact id: {self.artifact_id}\n"
-            f"Group id: {self.group_id}\n"
-            f"Version: {self.version}\n"
-            f"Repo: {self.repo}\n"
-            f"Usages: {self.usages}\n"
-            f"Date: {self.date}\n"
-            f"URL: {self.base_url}"
-        )
 
 
 def remove_suffix(text: str, suffix: str):
