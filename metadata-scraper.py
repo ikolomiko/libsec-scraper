@@ -100,6 +100,7 @@ def scrape_all() -> List[LibMetadata]:
     for id in lib_ids:
         index += 1
         print(f"{index}/{len(lib_ids)}")
+        print(id)
 
         tag = find_tag(id, all_libs)
         group_id, artifact_id = id.split("+")
