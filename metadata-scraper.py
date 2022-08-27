@@ -48,7 +48,7 @@ def get_all_repos() -> List[Repo]:
 
 
 def download_metadata_xml(lib_id: str, repo: Repo) -> str:
-    url = repo.base_url + lib_id.replace("+", "/") + "/maven-metadata.xml"
+    url = repo.base_url + lib_id.replace("+", "/").replace(".", "/") + "/maven-metadata.xml"
     try:
         response = urllib.request.urlopen(url, timeout=10)
         result = str(response.read().decode('utf-8'))
@@ -58,8 +58,11 @@ def download_metadata_xml(lib_id: str, repo: Repo) -> str:
 
 
 def parse_versions(xml: str) -> List[str]:
-    soup = BeautifulSoup(xml, features="xml")
-    return [v.text for v in soup.versioning.versions if v and v.text]
+    try:
+        soup = BeautifulSoup(xml, features="xml")
+        return [v.text for v in soup.find_all("version") if v and v.text]
+    except:
+        return None
 
 
 def find_lib(id: str, all_libs: Iterable[Library]) -> Library:
