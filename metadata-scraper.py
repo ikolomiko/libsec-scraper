@@ -87,6 +87,15 @@ def find_tag(id: str, all_libs: Iterable[Library]) -> str:
     return "not found"
 
 
+def write_all(ls: List[str], path: str) -> None:
+    try:
+        with open(path, "a") as file:
+            for line in ls:
+                file.write(line + "\n")
+    except Exception as e:
+        print(e)
+
+
 def scrape_all() -> List[LibMetadata]:
     all_libs = get_all_libs()
     all_repos = get_all_repos()
@@ -94,6 +103,7 @@ def scrape_all() -> List[LibMetadata]:
     all_metadata: List[LibMetadata] = []
     index = 0
     hits, misses = 0, 0
+    not_found: List[str] = []
 
     for id, repos in lib_ids_and_repos.items():
         index += 1
@@ -148,10 +158,12 @@ def scrape_all() -> List[LibMetadata]:
             success(id + " added to db")
             hits += 1
         else:
-            error(id + " cannot found")
+            error(id + " not found")
+            not_found.append(id)
             misses += 1
 
     info1(f"{hits} libs found, {misses} libs cannot found")
+    write_all(not_found, "not_found.txt")
 
     return all_metadata
 
