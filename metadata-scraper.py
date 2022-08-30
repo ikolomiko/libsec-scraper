@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-from nntplib import ArticleInfo
-from typing import Iterable, List, Set
+from collections import defaultdict
+from typing import Dict, Iterable, List, Set
 from metadata import LibMetadata, Repo, Version
 from tinydb import TinyDB, table
 from tinydb.database import Table
 from library import Library
-import json
 from bs4 import BeautifulSoup
 import urllib.request
+from log import success, error, info1
 
 
 def get_all_libs() -> Set[Library]:
@@ -22,33 +22,36 @@ def get_all_libs() -> Set[Library]:
     return all_libs
 
 
-# "groupid+artifactid"
-def get_all_library_ids(all_libs: Set[Library]) -> Set[str]:
-    ids: Set[str] = set()
+# "groupid+artifactid" : {repo1, repo2, ...}
+def get_all_library_ids_and_repos(all_libs: Set[Library], all_repos: Dict[str, Repo]) -> Dict[str, Set[Repo]]:
+    ids: Dict[str, Set[Repo]] = defaultdict(set)
 
     for lib in all_libs:
-        ids.add(lib.group_id+"+"+lib.artifact_id)
+        id = lib.group_id + "+" + lib.artifact_id
+        if lib.repo in all_repos.keys():
+            ids[id].add(all_repos[lib.repo])
 
     print("Lib ids:", len(ids))
     return ids
 
 
-def get_all_repos() -> List[Repo]:
-    repos: List[Repo] = []
+def get_all_repos() -> Dict[str, Repo]:
+    repos: Dict[Repo] = dict()
     with open("repo_stats.csv") as file:
         for line in file.readlines():
             (name, _, url) = line.strip().split(",")
             repo = Repo()
             repo.name = name
             repo.base_url = url
-            repos.append(repo)
+            repos[name] = repo
 
     print("Repos:", len(repos))
     return repos
 
 
 def download_metadata_xml(lib_id: str, repo: Repo) -> str:
-    url = repo.base_url + lib_id.replace("+", "/").replace(".", "/") + "/maven-metadata.xml"
+    url = repo.base_url + \
+        lib_id.replace("+", "/").replace(".", "/") + "/maven-metadata.xml"
     try:
         response = urllib.request.urlopen(url, timeout=10)
         result = str(response.read().decode('utf-8'))
@@ -75,6 +78,7 @@ def find_lib(id: str, all_libs: Iterable[Library]) -> Library:
 
     return lib
 
+
 def find_tag(id: str, all_libs: Iterable[Library]) -> str:
     lib = find_lib(id, all_libs)
     if lib:
@@ -82,28 +86,19 @@ def find_tag(id: str, all_libs: Iterable[Library]) -> str:
 
     return "not found"
 
-def is_from_pentaho(id: str, all_libs: Iterable[Library]):
-    for lib in all_libs:
-        if lib.group_id + "+" + lib.artifact_id == id:
-            if lib.repo == "PentahoOmni":
-                return True
-
 
 def scrape_all() -> List[LibMetadata]:
     all_libs = get_all_libs()
-    lib_ids = get_all_library_ids(all_libs)
-    repos = get_all_repos()
+    all_repos = get_all_repos()
+    lib_ids_and_repos = get_all_library_ids_and_repos(all_libs, all_repos)
     all_metadata: List[LibMetadata] = []
     index = 0
+    hits, misses = 0, 0
 
-    repo_pentaho = Repo()
-    repo_pentaho.base_url = "https://nexus.pentaho.org/content/groups/omni/"
-    repo_pentaho.name = "PentahoOmni"
-
-    for id in lib_ids:
+    for id, repos in lib_ids_and_repos.items():
         index += 1
-        print(f"{index}/{len(lib_ids)}")
-        print(id)
+        print(f"{index}/{len(lib_ids_and_repos)}")
+        info1(id)
 
         tag = find_tag(id, all_libs)
         group_id, artifact_id = id.split("+")
@@ -115,10 +110,13 @@ def scrape_all() -> List[LibMetadata]:
         metadata.tag = tag
 
         ind2 = 0
-        additional = [repo_pentaho] if is_from_pentaho(id, all_libs) else []
-        for repo in additional + repos:
+        reposs = repos
+        if len(reposs) == 0:
+            reposs = all_repos.values()
+
+        for repo in reposs:
             ind2 += 1
-            print(f"r{ind2}/{len(repos) + len(additional)}")
+            print(f"r{ind2}/{len(reposs)}")
             xml = download_metadata_xml(id, repo)
             if not xml:
                 continue
@@ -147,6 +145,13 @@ def scrape_all() -> List[LibMetadata]:
 
         if metadata.repos:
             all_metadata.append(metadata)
+            success(id + " added to db")
+            hits += 1
+        else:
+            error(id + " cannot found")
+            misses += 1
+
+    info1(f"{hits} libs found, {misses} libs cannot found")
 
     return all_metadata
 
@@ -154,10 +159,12 @@ def scrape_all() -> List[LibMetadata]:
 def main() -> None:
     all_metadata = scrape_all()
     print("Libs: " + len(all_metadata))
-    
+
     db = TinyDB("unified-metadata.json")
     for metadata in all_metadata:
         db.upsert(table.Document(vars(metadata), metadata.id))
+
+    success("done")
 
 
 class StringIdClassTable(Table):
