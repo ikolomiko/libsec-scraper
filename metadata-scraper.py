@@ -158,7 +158,7 @@ def scrape_all() -> List[LibMetadata]:
 
 def main() -> None:
     all_metadata = scrape_all()
-    print("Libs: " + len(all_metadata))
+    print("Libs: " + str(len(all_metadata)))
 
     db = TinyDB("unified-metadata.json")
     for metadata in all_metadata:
