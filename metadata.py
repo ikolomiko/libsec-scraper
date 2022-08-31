@@ -1,3 +1,4 @@
+from tokenize import group
 from typing import List
 
 
@@ -15,7 +16,7 @@ class Version:
                 setattr(self, key, value)
 
     def __eq__(self, __o: object) -> bool:
-        return self.version == __o.version
+        return isinstance(__o, Version) and self.version == __o.version
 
     def __ne__(self, __o: object) -> bool:
         return not self.__eq__(__o)
@@ -38,13 +39,17 @@ class Repo:
                     setattr(self, key, value)
 
     def __eq__(self, __o: object) -> bool:
-        return self.base_url == __o.base_url
+        return isinstance(__o, Repo) and self.base_url == __o.base_url
 
     def __ne__(self, __o: object) -> bool:
         return not self.__eq__(__o)
 
     def __hash__(self) -> int:
         return hash(self.base_url)
+
+    def serialize(self) -> dict:
+        return dict(name=self.name, base_url=self.base_url,
+                    versions=[vars(v) for v in self.versions])
 
 
 class LibMetadata:
@@ -63,10 +68,14 @@ class LibMetadata:
                     setattr(self, key, value)
 
     def __eq__(self, __o: object) -> bool:
-        return self.id == __o.id
+        return isinstance(__o, LibMetadata) and self.id == __o.id
 
     def __ne__(self, __o: object) -> bool:
         return not self.__eq__(__o)
 
     def __hash__(self) -> int:
         return hash(self.id)
+
+    def serialize(self) -> dict:
+        return dict(id=self.id, artifact_id=self.artifact_id, group_id=self.group_id,
+                    tag=self.tag, repos=[r.serialize() for r in self.repos])
