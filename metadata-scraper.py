@@ -15,9 +15,9 @@ from threading import Thread
 
 def get_all_libs() -> Set[Library]:
     all_libs: Set[Library] = set()
-    # db_files = ["db.json", "db2.json", "db3.json", "db4.json",
-    #            "db5.json", "db6.json", "db7.json", "db8.json", "db9.json"]
-    db_files = ["db9.json"]
+    db_files = ["db.json", "db2.json", "db3.json", "db4.json",
+                "db5.json", "db6.json", "db7.json", "db8.json", "db9.json"]
+    #db_files = ["db9.json"]
 
     for file in db_files:
         for item in TinyDB(file):
