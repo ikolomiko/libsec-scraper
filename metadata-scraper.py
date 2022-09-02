@@ -253,7 +253,7 @@ def scrape_from_all_repos(lib_ids: Iterable[str], all_libs: Iterable[Library], a
 
 
 def save_metadata(metadata: LibMetadata) -> None:
-    dest_dir = "./updated-libs/" + metadata.id
+    dest_dir = "./libdata/" + metadata.id
     Path(dest_dir).mkdir(parents=True, exist_ok=True)
     data = json.dumps(metadata.serialize(), indent=4)
     with open(dest_dir + "/metadata.json", 'w') as file:
