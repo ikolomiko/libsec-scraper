@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 from collections import defaultdict
+import json
+from pathlib import Path
 import sys
 from time import sleep
 from typing import Dict, Iterable, List, Set, Tuple
 from metadata import LibMetadata, Repo, Version
-from tinydb import TinyDB, table
+from tinydb import TinyDB
 from tinydb.database import Table
 from library import Library
 from bs4 import BeautifulSoup
@@ -94,7 +96,7 @@ def find_tag(id: str, all_libs: Iterable[Library]) -> str:
 
 def write_all(ls: List[str], path: str) -> None:
     try:
-        with open(path, "a") as file:
+        with open(path, "w") as file:
             for line in ls:
                 file.write(line + "\n")
     except Exception as e:
@@ -214,8 +216,8 @@ def scrape_from_all_repos(lib_ids: Iterable[str], all_libs: Iterable[Library], a
         results = [None] * len(all_repos)
 
         for i, (_, r) in enumerate(all_repos.items()):
-            threads[i] = Thread(target=create_repo, args=(
-                id, r, all_libs, results, i))
+            threads[i] = Thread(target=create_repo,
+                                args=(id, r, all_libs, results, i))
             threads[i].start()
 
         done = False
@@ -250,6 +252,14 @@ def scrape_from_all_repos(lib_ids: Iterable[str], all_libs: Iterable[Library], a
     return all_metadata
 
 
+def save_metadata(metadata: LibMetadata) -> None:
+    dest_dir = "./updated-libs/" + metadata.id
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+    data = json.dumps(metadata.serialize(), indent=4)
+    with open(dest_dir + "/metadata.json", 'w') as file:
+        file.write(data)
+
+
 def main() -> None:
     if len(sys.argv) < 2 or sys.argv[1] not in ["all", "first-only", "second-only"]:
         print("Usage: ./metadata-scraper.py [all | first-only | second-only]")
@@ -259,14 +269,13 @@ def main() -> None:
 
     all_libs = get_all_libs()
     all_repos = get_all_repos()
-    db = TinyDB("unified-metadata.json")
     not_found = []
 
     if mode in ["all", "first-only"]:
         all_metadata, not_found = scrape_all(all_libs, all_repos)
         print("Libs: " + str(len(all_metadata)))
         for metadata in all_metadata:
-            db.upsert(table.Document(metadata.serialize(), metadata.id))
+            save_metadata(metadata)
 
     if mode == "second-only":
         try:
@@ -279,8 +288,9 @@ def main() -> None:
 
     if mode in ["all", "second-only"]:
         retry = scrape_from_all_repos(not_found, all_libs, all_repos)
+        print("Retry libs: " + str(len(retry)))
         for metadata in retry:
-            db.upsert(table.Document(metadata.serialize(), metadata.id))
+            save_metadata(metadata)
 
     success("done")
 
