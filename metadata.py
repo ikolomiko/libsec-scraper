@@ -51,6 +51,11 @@ class Repo:
         return dict(name=self.name, base_url=self.base_url,
                     versions=[vars(v) for v in self.versions])
 
+    def get_version(self, version: str) -> Version:
+        for v in self.versions:
+            if v.version == version:
+                return v
+
 
 class LibMetadata:
     def __init__(self, d: dict = None) -> None:
@@ -79,3 +84,8 @@ class LibMetadata:
     def serialize(self) -> dict:
         return dict(id=self.id, artifact_id=self.artifact_id, group_id=self.group_id,
                     tag=self.tag, repos=[r.serialize() for r in self.repos])
+
+    def get_repo(self, repo_name: str) -> Repo:
+        for repo in self.repos:
+            if repo.name == repo_name:
+                return repo
