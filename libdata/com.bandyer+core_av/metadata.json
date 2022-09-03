@@ -9,14 +9,6 @@
             "base_url": "https://repo.gradle.org/gradle/libs-releases/",
             "versions": [
                 {
-                    "version": "2.3.5",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "1.0.0",
                     "usages": 1,
                     "date": "Dec 04, 2019",
@@ -26,6 +18,38 @@
                 },
                 {
                     "version": "1.0.1",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.10",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.11",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.12",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.13",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",
@@ -90,38 +114,6 @@
                 },
                 {
                     "version": "1.0.9",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.10",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.11",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.12",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.13",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",
@@ -337,70 +329,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "1.5.2",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.3",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.4",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.5",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.6",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.7",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.8",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.9",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "1.5.10",
                     "usages": 1,
                     "date": "Dec 04, 2019",
@@ -466,6 +394,70 @@
                 },
                 {
                     "version": "1.5.18",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.2",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.3",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.4",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.5",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.6",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.7",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.8",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.9",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",
@@ -575,14 +567,6 @@
             "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
             "versions": [
                 {
-                    "version": "2.3.5",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "1.0.0",
                     "usages": 1,
                     "date": "Dec 04, 2019",
@@ -592,6 +576,38 @@
                 },
                 {
                     "version": "1.0.1",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.10",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.11",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.12",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.13",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",
@@ -656,38 +672,6 @@
                 },
                 {
                     "version": "1.0.9",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.10",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.11",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.12",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.0.13",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",
@@ -903,70 +887,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "1.5.2",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.3",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.4",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.5",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.6",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.7",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.8",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "1.5.9",
-                    "usages": 1,
-                    "date": "Dec 04, 2019",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "1.5.10",
                     "usages": 1,
                     "date": "Dec 04, 2019",
@@ -1032,6 +952,70 @@
                 },
                 {
                     "version": "1.5.18",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.2",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.3",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.4",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.5",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.6",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.7",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.8",
+                    "usages": 1,
+                    "date": "Dec 04, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.5.9",
                     "usages": 1,
                     "date": "Dec 04, 2019",
                     "filetype": "",

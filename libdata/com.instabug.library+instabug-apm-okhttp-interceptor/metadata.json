@@ -9,31 +9,7 @@
             "base_url": "https://sdks.instabug.com/nexus/repository/instabug-cp/",
             "versions": [
                 {
-                    "version": "9.1.8.2-internal",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "9.1.8.3-internal",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "10.1.1.0",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.1.1.1-custom",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -73,6 +49,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "10.1.1.1-custom",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "10.1.1.2-custom",
                     "usages": 0,
                     "date": "Jun 10, 2021",
@@ -105,6 +89,22 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "10.13.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.2.0.0-alpha.1",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "10.3.0.0",
                     "usages": 0,
                     "date": "Jun 10, 2021",
@@ -114,14 +114,6 @@
                 },
                 {
                     "version": "10.4.3.0",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.4.4.0-alpha.1",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -145,15 +137,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "10.4.4.0-alpha.2",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.4.4.0-alpha.3",
+                    "version": "10.4.3.4",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -177,15 +161,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "10.2.0.0-alpha.1",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.4.3.4",
+                    "version": "10.4.3.5",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -201,14 +177,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "10.4.3.5",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "10.4.3.6",
                     "usages": 0,
                     "date": "Jun 10, 2021",
@@ -217,7 +185,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "10.7.0.0-custom.1",
+                    "version": "10.4.4.0-alpha.1",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -225,7 +193,23 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "10.13.0",
+                    "version": "10.4.4.0-alpha.2",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.4.4.0-alpha.3",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.7.0.0-custom.1",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -279,6 +263,22 @@
                     "filetype": "",
                     "downloaded": false,
                     "applied_analyzes": []
+                },
+                {
+                    "version": "9.1.8.2-internal",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "9.1.8.3-internal",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
                 }
             ]
         },
@@ -320,6 +320,78 @@
                 },
                 {
                     "version": "10.1.1",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.10.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.10.1",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.11.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.11.1",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.12.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.12.1",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.12.2",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.12.3",
+                    "usages": 0,
+                    "date": "Jun 10, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "10.13.0",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",
@@ -464,78 +536,6 @@
                 },
                 {
                     "version": "10.9.1",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.10.0",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.10.1",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.11.0",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.11.1",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.12.0",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.12.1",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.12.2",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.12.3",
-                    "usages": 0,
-                    "date": "Jun 10, 2021",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "10.13.0",
                     "usages": 0,
                     "date": "Jun 10, 2021",
                     "filetype": "",

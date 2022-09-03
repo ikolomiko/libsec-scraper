@@ -9,14 +9,6 @@
             "base_url": "https://repo.gradle.org/gradle/libs-releases/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -97,7 +89,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -105,7 +97,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -145,6 +137,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -169,14 +169,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -186,70 +178,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -321,6 +249,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -337,6 +329,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -346,14 +346,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -367,14 +359,6 @@
             "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -455,7 +439,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -463,7 +447,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -503,6 +487,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -527,14 +519,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -544,70 +528,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -679,6 +599,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -695,6 +679,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -704,14 +696,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -725,14 +709,6 @@
             "base_url": "https://maven.scijava.org/content/repositories/public/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -813,7 +789,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -821,7 +797,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -861,6 +837,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -885,14 +869,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -902,70 +878,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1037,6 +949,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1053,6 +1029,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1062,14 +1046,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1083,14 +1059,6 @@
             "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1171,7 +1139,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1179,7 +1147,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1219,6 +1187,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1243,14 +1219,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1260,70 +1228,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1395,6 +1299,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1411,6 +1379,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1420,14 +1396,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1441,14 +1409,6 @@
             "base_url": "http://maven.imagej.net/content/repositories/public/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1529,7 +1489,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1537,7 +1497,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1577,6 +1537,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1601,14 +1569,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1618,70 +1578,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1753,6 +1649,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1769,6 +1729,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1778,14 +1746,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1799,14 +1759,6 @@
             "base_url": "https://repo.grails.org/grails/core/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1887,7 +1839,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1895,7 +1847,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -1935,6 +1887,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1959,14 +1919,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -1976,70 +1928,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -2111,6 +1999,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2127,6 +2079,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2136,14 +2096,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -2157,14 +2109,6 @@
             "base_url": "https://plugins.gradle.org/m2/",
             "versions": [
                 {
-                    "version": "3.22.0",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.11.0r119",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2245,7 +2189,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129h1",
+                    "version": "3.13.0r129-test",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -2253,7 +2197,7 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.13.0r129-test",
+                    "version": "3.13.0r129h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -2293,6 +2237,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.0r139-static-ffmpeg-beta",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.17.0r139h1",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2317,14 +2269,6 @@
                     "applied_analyzes": []
                 },
                 {
-                    "version": "3.17.0r139-static-ffmpeg-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
                     "version": "3.17.6r141-open",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2334,70 +2278,6 @@
                 },
                 {
                     "version": "3.17.6r141-realme-beta",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta2",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta3",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta4",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta5",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta6",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta7",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta8",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.17.6r141-realme-beta9",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
@@ -2469,6 +2349,70 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.17.6r141-realme-beta2",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta3",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta4",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta5",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta6",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta7",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta8",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.17.6r141-realme-beta9",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.20.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2485,6 +2429,14 @@
                     "applied_analyzes": []
                 },
                 {
+                    "version": "3.22.0",
+                    "usages": 0,
+                    "date": "Nov 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
                     "version": "3.22.0-beta",
                     "usages": 0,
                     "date": "Nov 30, 2020",
@@ -2494,14 +2446,6 @@
                 },
                 {
                     "version": "3.22.0-rc.15",
-                    "usages": 0,
-                    "date": "Nov 30, 2020",
-                    "filetype": "",
-                    "downloaded": false,
-                    "applied_analyzes": []
-                },
-                {
-                    "version": "3.22.0",
                     "usages": 0,
                     "date": "Nov 30, 2020",
                     "filetype": "",
