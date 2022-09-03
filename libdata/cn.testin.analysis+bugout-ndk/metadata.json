@@ -1,0 +1,22 @@
+{
+    "id": "cn.testin.analysis+bugout-ndk",
+    "artifact_id": "bugout-ndk",
+    "group_id": "cn.testin.analysis",
+    "tag": "color analysis",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "1.0.0-beta",
+                    "usages": 0,
+                    "date": "Sep 19, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

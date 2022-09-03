@@ -1,0 +1,30 @@
+{
+    "id": "com.ticketmaster.voltron+discoveryshared",
+    "artifact_id": "discoveryshared",
+    "group_id": "com.ticketmaster.voltron",
+    "tag": "event",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.0.7",
+                    "usages": 1,
+                    "date": "Oct 23, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.8",
+                    "usages": 1,
+                    "date": "Oct 23, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

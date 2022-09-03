@@ -1,0 +1,22 @@
+{
+    "id": "com.dancecrane.shadow.dynamic+manager-multi-loader-ext",
+    "artifact_id": "manager-multi-loader-ext",
+    "group_id": "com.dancecrane.shadow.dynamic",
+    "tag": "loader",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "2.1.2",
+                    "usages": 0,
+                    "date": "Nov 21, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

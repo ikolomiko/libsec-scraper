@@ -1,0 +1,30 @@
+{
+    "id": "io.github.ackeecz+updatechecker-status-resolver",
+    "artifact_id": "updatechecker-status-resolver",
+    "group_id": "io.github.ackeecz",
+    "tag": "user",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "3.0.0",
+                    "usages": 2,
+                    "date": "Jun 28, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0.1",
+                    "usages": 2,
+                    "date": "Jun 28, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

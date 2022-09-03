@@ -1,0 +1,64 @@
+{
+    "id": "cn.ymex+log.L",
+    "artifact_id": "log.L",
+    "group_id": "cn.ymex",
+    "tag": "logging",
+    "repos": [
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 2,
+                    "date": "Sep 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "SciJava Public",
+            "base_url": "https://maven.scijava.org/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 2,
+                    "date": "Sep 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "ImageJ Public",
+            "base_url": "http://maven.imagej.net/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 2,
+                    "date": "Sep 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Jitpack",
+            "base_url": "https://jitpack.io/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 2,
+                    "date": "Sep 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

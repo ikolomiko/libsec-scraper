@@ -1,0 +1,30 @@
+{
+    "id": "com.htc.example+app",
+    "artifact_id": "app",
+    "group_id": "com.htc.example",
+    "tag": "example",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Mar 02, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Mar 02, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,822 @@
+{
+    "id": "com.bihe0832.android+lib-notification",
+    "artifact_id": "lib-notification",
+    "group_id": "com.bihe0832.android",
+    "tag": "notification",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "4.1.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.1.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.1.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.1.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.1",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.3.1",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.5.5",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.5.6",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.6.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.6.5",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.7.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.7.15",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.7.17",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.8.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.8.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.8.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.10.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.11.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.1",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.5",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.13",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.14",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.12.15",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.13",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.16",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.17",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.20",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.13.22",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.6",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.8",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.16",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.17",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.14.18",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.8",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.10",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.11",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.12",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.14",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.5",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.6",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.8",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.9",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.10",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.11",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.12",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.13",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.14",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.15",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.16",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.16.17",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.17.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.18.1",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.18.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.18.5",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.4",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.9",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.10",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.19.11",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.3",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.8",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.9",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.22",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.29",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.32",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.33",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.46",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.48",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.49",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.51",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.56",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.20.57",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.21.10",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.22.25",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.22.27",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.22.29",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.22.30",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.23.1",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.0",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.6",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.7",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.8",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.9",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.2.2",
+                    "usages": 19,
+                    "date": "Jul 08, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

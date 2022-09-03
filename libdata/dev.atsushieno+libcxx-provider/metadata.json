@@ -1,0 +1,46 @@
+{
+    "id": "dev.atsushieno+libcxx-provider",
+    "artifact_id": "libcxx-provider",
+    "group_id": "dev.atsushieno",
+    "tag": "apk",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "21.4.7075529",
+                    "usages": 0,
+                    "date": "Jun 14, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.7171670",
+                    "usages": 0,
+                    "date": "Jun 14, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "23.2.8568313",
+                    "usages": 0,
+                    "date": "Jun 14, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "24.0.8215888",
+                    "usages": 0,
+                    "date": "Jun 14, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

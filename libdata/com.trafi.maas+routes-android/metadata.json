@@ -1,0 +1,30 @@
+{
+    "id": "com.trafi.maas+routes-android",
+    "artifact_id": "routes-android",
+    "group_id": "com.trafi.maas",
+    "tag": "service",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.1.0-dev01",
+                    "usages": 1,
+                    "date": "Nov 19, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.1.0-dev02",
+                    "usages": 1,
+                    "date": "Nov 19, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

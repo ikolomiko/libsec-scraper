@@ -1,0 +1,60 @@
+{
+    "id": "com.linkedin.testbutler+test-butler-api",
+    "artifact_id": "test-butler-api",
+    "group_id": "com.linkedin.testbutler",
+    "tag": "linkedin",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "2.2.1",
+                    "usages": 1,
+                    "date": "Nov 20, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "2.0.2",
+                    "usages": 1,
+                    "date": "Nov 20, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.1.0",
+                    "usages": 1,
+                    "date": "Nov 20, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.1.1",
+                    "usages": 1,
+                    "date": "Nov 20, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.2.1",
+                    "usages": 1,
+                    "date": "Nov 20, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

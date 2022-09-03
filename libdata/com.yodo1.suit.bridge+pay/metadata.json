@@ -1,0 +1,30 @@
+{
+    "id": "com.yodo1.suit.bridge+pay",
+    "artifact_id": "pay",
+    "group_id": "com.yodo1.suit.bridge",
+    "tag": "payments",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "6.1.2.3",
+                    "usages": 0,
+                    "date": "Jul 22, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "6.1.4.0",
+                    "usages": 0,
+                    "date": "Jul 22, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

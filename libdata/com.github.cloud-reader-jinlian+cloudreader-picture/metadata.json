@@ -1,0 +1,36 @@
+{
+    "id": "com.github.cloud-reader-jinlian+cloudreader-picture",
+    "artifact_id": "cloudreader-picture",
+    "group_id": "com.github.cloud-reader-jinlian",
+    "tag": "reader",
+    "repos": [
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "v1.0.0",
+                    "usages": 1,
+                    "date": "Mar 23, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Jitpack",
+            "base_url": "https://jitpack.io/",
+            "versions": [
+                {
+                    "version": "v1.0.0",
+                    "usages": 1,
+                    "date": "Mar 23, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

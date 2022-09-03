@@ -1,0 +1,666 @@
+{
+    "id": "embsunev.com.adslib+adslib",
+    "artifact_id": "adslib",
+    "group_id": "embsunev.com.adslib",
+    "tag": "ads",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "SciJava Public",
+            "base_url": "https://maven.scijava.org/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "ImageJ Public",
+            "base_url": "http://maven.imagej.net/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.b",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.c",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.4.9.8.e",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.5.2a",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.0.0-demo1",
+                    "usages": 1,
+                    "date": "Jan 24, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

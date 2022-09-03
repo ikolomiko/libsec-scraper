@@ -1,0 +1,52 @@
+{
+    "id": "com.ben.mvp.libs+libs",
+    "artifact_id": "libs",
+    "group_id": "com.ben.mvp.libs",
+    "tag": "progress",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Aug 22, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Aug 22, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Aug 22, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Aug 22, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

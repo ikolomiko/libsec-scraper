@@ -1,0 +1,22 @@
+{
+    "id": "cn.com.analysys+analysys_push",
+    "artifact_id": "analysys_push",
+    "group_id": "cn.com.analysys",
+    "tag": "comet/push",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "4.3.8",
+                    "usages": 1,
+                    "date": "Dec 21, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

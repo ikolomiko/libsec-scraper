@@ -1,0 +1,22 @@
+{
+    "id": "me.proton.core+push-dagger",
+    "artifact_id": "push-dagger",
+    "group_id": "me.proton.core",
+    "tag": "comet/push",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "8.5.0",
+                    "usages": 1,
+                    "date": "Jul 15, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}
