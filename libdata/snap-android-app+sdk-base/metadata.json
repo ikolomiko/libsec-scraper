@@ -1,0 +1,22 @@
+{
+    "id": "snap-android-app+sdk-base",
+    "artifact_id": "sdk-base",
+    "group_id": "snap-android-app",
+    "tag": "sdk",
+    "repos": [
+        {
+            "name": "Scanbot",
+            "base_url": "https://nexus.scanbot.io/nexus/content/repositories/releases/",
+            "versions": [
+                {
+                    "version": "unspecified",
+                    "usages": 1,
+                    "date": "Jun 11, 2015",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

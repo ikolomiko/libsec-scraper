@@ -1,0 +1,36 @@
+{
+    "id": "fr.jserv.qr-auth+clientBackend",
+    "artifact_id": "clientBackend",
+    "group_id": "fr.jserv.qr-auth",
+    "tag": "qr",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.5.0",
+                    "usages": 0,
+                    "date": "Oct 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.5.0",
+                    "usages": 0,
+                    "date": "Oct 11, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

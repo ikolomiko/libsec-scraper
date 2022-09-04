@@ -1,0 +1,50 @@
+{
+    "id": "com.tenclouds+fluid-bottom-navigation",
+    "artifact_id": "fluid-bottom-navigation",
+    "group_id": "com.tenclouds",
+    "tag": "navigation",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.1",
+                    "usages": 0,
+                    "date": "Jul 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.1",
+                    "usages": 0,
+                    "date": "Jul 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.1",
+                    "usages": 0,
+                    "date": "Jul 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

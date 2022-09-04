@@ -1,0 +1,22 @@
+{
+    "id": "dev.testify+testify",
+    "artifact_id": "testify",
+    "group_id": "dev.testify",
+    "tag": "instrumentation",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "2.0.0-alpha01",
+                    "usages": 1,
+                    "date": "Jun 06, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

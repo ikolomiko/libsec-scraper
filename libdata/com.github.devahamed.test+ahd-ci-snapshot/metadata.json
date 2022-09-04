@@ -1,0 +1,30 @@
+{
+    "id": "com.github.devahamed.test+ahd-ci-snapshot",
+    "artifact_id": "ahd-ci-snapshot",
+    "group_id": "com.github.devahamed.test",
+    "tag": "integration",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.2.0",
+                    "usages": 0,
+                    "date": "Feb 12, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0",
+                    "usages": 0,
+                    "date": "Feb 12, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

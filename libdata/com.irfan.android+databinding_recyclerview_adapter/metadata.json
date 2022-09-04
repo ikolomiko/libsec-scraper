@@ -1,0 +1,36 @@
+{
+    "id": "com.irfan.android+databinding_recyclerview_adapter",
+    "artifact_id": "databinding_recyclerview_adapter",
+    "group_id": "com.irfan.android",
+    "tag": "binding",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Jan 07, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Jan 07, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

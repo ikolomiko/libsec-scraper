@@ -1,0 +1,64 @@
+{
+    "id": "com.github.thekhaeng+material-design-color",
+    "artifact_id": "material-design-color",
+    "group_id": "com.github.thekhaeng",
+    "tag": "xml",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "usages": 0,
+                    "date": "May 14, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "usages": 0,
+                    "date": "May 14, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "usages": 0,
+                    "date": "May 14, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "usages": 0,
+                    "date": "May 14, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

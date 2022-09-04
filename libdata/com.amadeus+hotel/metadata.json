@@ -1,0 +1,22 @@
+{
+    "id": "com.amadeus+hotel",
+    "artifact_id": "hotel",
+    "group_id": "com.amadeus",
+    "tag": "service",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.0.3",
+                    "usages": 1,
+                    "date": "Apr 13, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

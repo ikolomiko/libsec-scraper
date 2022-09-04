@@ -1,0 +1,782 @@
+{
+    "id": "com.pyamsoft.pydroid+loader",
+    "artifact_id": "loader",
+    "group_id": "com.pyamsoft.pydroid",
+    "tag": "loader",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "18.0.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.5",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "18.1.7",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.0.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.0.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.0.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.1.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.1.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.2.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.2.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.2.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.3.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.3.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.3.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.3.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "19.4.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.0.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.0.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.1.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.10.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.4.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.5.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.5",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.7",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.8",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.6.9",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.7.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.8.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.8.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.8.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.8.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.8.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.9.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "20.9.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.5",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.7",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.0.8",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.1.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.1.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.2.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.3.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "21.3.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.0.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.0.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.0.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.0.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.0.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.7",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.1.8",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.5",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.7",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.8",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.2.9",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.3.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.5",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.4.6",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.5.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.5.2",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.5.3",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.5.4",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.6.0",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "22.6.1",
+                    "usages": 1,
+                    "date": "Dec 11, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

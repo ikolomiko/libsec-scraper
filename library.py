@@ -1,6 +1,7 @@
 from typing import List
 from undetected_chromedriver.webelement import WebElement
 from selenium.webdriver.common.by import By
+from metadata import LibMetadata, Repo, Version
 
 
 class Library():
@@ -48,7 +49,28 @@ class Library():
         )
 
     def __eq__(self, __o: object) -> bool:
-        return self.id == __o.id
+        return isinstance(__o, Library) and self.id == __o.id
+
+    def __ne__(self, __o: object) -> bool:
+        return not self.__eq__(__o)
+
+    def __hash__(self) -> int:
+        return hash(self.id)
+
+
+class MultiRepoLibrary:
+    def __init__(self, libmetadata: LibMetadata, repo: Repo, version: Version) -> None:
+        self.artifact_id = libmetadata.artifact_id
+        self.group_id = libmetadata.group_id
+        self.version = version.version
+        self.date = version.version
+        self.usages = version.usages
+        self.tag = libmetadata.tag
+        self.id = libmetadata.id + "+" + version.version
+        self.repos: List[Repo] = [repo]
+
+    def __eq__(self, __o: object) -> bool:
+        return isinstance(__o, MultiRepoLibrary) and self.id == __o.id
 
     def __ne__(self, __o: object) -> bool:
         return not self.__eq__(__o)

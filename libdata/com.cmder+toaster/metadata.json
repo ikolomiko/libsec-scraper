@@ -1,0 +1,36 @@
+{
+    "id": "com.cmder+toaster",
+    "artifact_id": "toaster",
+    "group_id": "com.cmder",
+    "tag": "toast",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "May 14, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "May 14, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

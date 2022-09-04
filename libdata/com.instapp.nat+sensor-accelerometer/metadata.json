@@ -1,0 +1,22 @@
+{
+    "id": "com.instapp.nat+sensor-accelerometer",
+    "artifact_id": "sensor-accelerometer",
+    "group_id": "com.instapp.nat",
+    "tag": "sensor",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "usages": 1,
+                    "date": "Feb 10, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

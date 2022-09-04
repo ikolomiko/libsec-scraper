@@ -1,0 +1,36 @@
+{
+    "id": "com.perity.utils+model",
+    "artifact_id": "model",
+    "group_id": "com.perity.utils",
+    "tag": "model",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Sep 20, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Sep 20, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

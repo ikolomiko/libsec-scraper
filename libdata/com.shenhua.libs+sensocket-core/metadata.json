@@ -1,0 +1,64 @@
+{
+    "id": "com.shenhua.libs+sensocket-core",
+    "artifact_id": "sensocket-core",
+    "group_id": "com.shenhua.libs",
+    "tag": "socket",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 2,
+                    "date": "Apr 11, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 2,
+                    "date": "Apr 11, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 2,
+                    "date": "Apr 11, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 2,
+                    "date": "Apr 11, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

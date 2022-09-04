@@ -1,0 +1,36 @@
+{
+    "id": "com.jindan.network+JDNetWork",
+    "artifact_id": "JDNetWork",
+    "group_id": "com.jindan.network",
+    "tag": "network",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "usages": 0,
+                    "date": "Jul 23, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "usages": 0,
+                    "date": "Jul 23, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

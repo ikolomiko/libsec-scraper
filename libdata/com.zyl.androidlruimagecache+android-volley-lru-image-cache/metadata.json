@@ -1,0 +1,50 @@
+{
+    "id": "com.zyl.androidlruimagecache+android-volley-lru-image-cache",
+    "artifact_id": "android-volley-lru-image-cache",
+    "group_id": "com.zyl.androidlruimagecache",
+    "tag": "image",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 1,
+                    "date": "May 31, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 1,
+                    "date": "May 31, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 1,
+                    "date": "May 31, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

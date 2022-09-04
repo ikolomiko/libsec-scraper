@@ -1,0 +1,52 @@
+{
+    "id": "com.tuya.smart+tuyasmart-download",
+    "artifact_id": "tuyasmart-download",
+    "group_id": "com.tuya.smart",
+    "tag": "download managers",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "3.20.0r149-rc.2",
+                    "usages": 7,
+                    "date": "Dec 29, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.2",
+                    "usages": 7,
+                    "date": "Dec 29, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "3.20.0r149-rc.2",
+                    "usages": 7,
+                    "date": "Dec 29, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.2",
+                    "usages": 7,
+                    "date": "Dec 29, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

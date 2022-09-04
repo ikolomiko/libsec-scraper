@@ -1,0 +1,30 @@
+{
+    "id": "cn.testin.analysis+testin-ab",
+    "artifact_id": "testin-ab",
+    "group_id": "cn.testin.analysis",
+    "tag": "color analysis",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "4.2.4",
+                    "usages": 0,
+                    "date": "Aug 31, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.5",
+                    "usages": 0,
+                    "date": "Aug 31, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

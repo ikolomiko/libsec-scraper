@@ -1,0 +1,30 @@
+{
+    "id": "dev.datlag.flower-core+flower-android",
+    "artifact_id": "flower-android",
+    "group_id": "dev.datlag.flower-core",
+    "tag": "request",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "3.0.0-beta01",
+                    "usages": 1,
+                    "date": "Aug 10, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0.0-beta02",
+                    "usages": 1,
+                    "date": "Aug 10, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "io.rollout+rox",
+    "artifact_id": "rox",
+    "group_id": "io.rollout",
+    "tag": "continuous integration",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.0.29",
+                    "usages": 0,
+                    "date": "Jun 14, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.31",
+                    "usages": 0,
+                    "date": "Jun 14, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

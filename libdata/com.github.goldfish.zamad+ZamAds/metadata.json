@@ -1,0 +1,36 @@
+{
+    "id": "com.github.goldfish.zamad+ZamAds",
+    "artifact_id": "ZamAds",
+    "group_id": "com.github.goldfish.zamad",
+    "tag": "control",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Apr 03, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Apr 03, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

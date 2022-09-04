@@ -1,0 +1,74 @@
+{
+    "id": "com.deftmove.heart+heart-test-helpers",
+    "artifact_id": "heart-test-helpers",
+    "group_id": "com.deftmove.heart",
+    "tag": "testing",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.2.2-alpha08",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2.3",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.2.2-alpha08",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2.3",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.2.2-alpha08",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2.3",
+                    "usages": 11,
+                    "date": "Apr 09, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

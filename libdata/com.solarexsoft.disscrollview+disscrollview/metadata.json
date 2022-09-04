@@ -1,0 +1,36 @@
+{
+    "id": "com.solarexsoft.disscrollview+disscrollview",
+    "artifact_id": "disscrollview",
+    "group_id": "com.solarexsoft.disscrollview",
+    "tag": "parallax",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "May 04, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "May 04, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "com.ckbs.system.opencv_test1+dp2px",
+    "artifact_id": "dp2px",
+    "group_id": "com.ckbs.system.opencv_test1",
+    "tag": "system",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jun 19, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jun 19, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

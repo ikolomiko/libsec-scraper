@@ -1,0 +1,718 @@
+{
+    "id": "com.bunder.suppersdk+bunder",
+    "artifact_id": "bunder",
+    "group_id": "com.bunder.suppersdk",
+    "tag": "game",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0Alpha",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0_beta",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2_biometric",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.a.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.1.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-Alpha105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-beta105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0Alpha",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0_beta",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2_biometric",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.a.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.1.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-Alpha105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-beta105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0Alpha",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0_beta",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2_biometric",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.a.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.1.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-Alpha105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-beta105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0Alpha",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0_beta",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2_biometric",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.a.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.1.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-Alpha105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-beta105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0Alpha",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.0_beta",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.2_biometric",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.6.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.0",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.1",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.2",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.0.3",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.a.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.0.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.1.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-Alpha105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "ip.2.5.2.as-beta105",
+                    "usages": 0,
+                    "date": "Dec 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "top.ftas+patchsdk",
+    "artifact_id": "patchsdk",
+    "group_id": "top.ftas",
+    "tag": "9-patch",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.2.7.1",
+                    "usages": 0,
+                    "date": "Mar 09, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

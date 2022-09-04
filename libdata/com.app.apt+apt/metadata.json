@@ -1,0 +1,22 @@
+{
+    "id": "com.app.apt+apt",
+    "artifact_id": "apt",
+    "group_id": "com.app.apt",
+    "tag": "apt",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.0",
+                    "usages": 0,
+                    "date": "Jul 10, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

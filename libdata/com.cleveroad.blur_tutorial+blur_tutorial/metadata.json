@@ -1,0 +1,36 @@
+{
+    "id": "com.cleveroad.blur_tutorial+blur_tutorial",
+    "artifact_id": "blur_tutorial",
+    "group_id": "com.cleveroad.blur_tutorial",
+    "tag": "blur effects",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Oct 15, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Oct 15, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

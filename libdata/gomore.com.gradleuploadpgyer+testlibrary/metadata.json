@@ -1,0 +1,50 @@
+{
+    "id": "gomore.com.gradleuploadpgyer+testlibrary",
+    "artifact_id": "testlibrary",
+    "group_id": "gomore.com.gradleuploadpgyer",
+    "tag": "demo",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "unspecified",
+                    "usages": 0,
+                    "date": "Feb 17, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "unspecified",
+                    "usages": 0,
+                    "date": "Feb 17, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "unspecified",
+                    "usages": 0,
+                    "date": "Feb 17, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

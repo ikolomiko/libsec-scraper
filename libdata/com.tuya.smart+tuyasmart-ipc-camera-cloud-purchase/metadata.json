@@ -1,0 +1,36 @@
+{
+    "id": "com.tuya.smart+tuyasmart-ipc-camera-cloud-purchase",
+    "artifact_id": "tuyasmart-ipc-camera-cloud-purchase",
+    "group_id": "com.tuya.smart",
+    "tag": "camera",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "3.20.0r149-sdk-rc.1",
+                    "usages": 1,
+                    "date": "Nov 10, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "3.20.0r149-sdk-rc.1",
+                    "usages": 1,
+                    "date": "Nov 10, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

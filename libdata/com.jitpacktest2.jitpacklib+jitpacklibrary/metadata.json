@@ -1,0 +1,22 @@
+{
+    "id": "com.jitpacktest2.jitpacklib+jitpacklibrary",
+    "artifact_id": "jitpacklibrary",
+    "group_id": "com.jitpacktest2.jitpacklib",
+    "tag": "gradle",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Jan 15, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

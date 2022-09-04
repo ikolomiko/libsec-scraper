@@ -1,0 +1,30 @@
+{
+    "id": "io.github.vvb2060.ndk+boringssl",
+    "artifact_id": "boringssl",
+    "group_id": "io.github.vvb2060.ndk",
+    "tag": "ndk",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "2.1",
+                    "usages": 1,
+                    "date": "Apr 27, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0",
+                    "usages": 1,
+                    "date": "Apr 27, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "com.moligy+arms",
+    "artifact_id": "arms",
+    "group_id": "com.moligy",
+    "tag": "architecture",
+    "repos": [
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Aug 26, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Aug 26, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": "ru.sarmatin.mobble+nav",
+    "artifact_id": "nav",
+    "group_id": "ru.sarmatin.mobble",
+    "tag": "integration",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 0,
+                    "date": "Jun 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 0,
+                    "date": "Jun 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 0,
+                    "date": "Jun 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.2.0",
+                    "usages": 0,
+                    "date": "Jun 30, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

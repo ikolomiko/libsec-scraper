@@ -1,0 +1,36 @@
+{
+    "id": "com.material-masked-edit-text+material-masked-edit-text",
+    "artifact_id": "material-masked-edit-text",
+    "group_id": "com.material-masked-edit-text",
+    "tag": "text",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.2.0",
+                    "usages": 0,
+                    "date": "Aug 01, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.2.0",
+                    "usages": 0,
+                    "date": "Aug 01, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

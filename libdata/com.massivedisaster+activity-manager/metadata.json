@@ -1,0 +1,36 @@
+{
+    "id": "com.massivedisaster+activity-manager",
+    "artifact_id": "activity-manager",
+    "group_id": "com.massivedisaster",
+    "tag": "activities",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Apr 25, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Apr 25, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

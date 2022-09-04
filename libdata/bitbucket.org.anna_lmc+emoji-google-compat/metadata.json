@@ -1,0 +1,36 @@
+{
+    "id": "bitbucket.org.anna_lmc+emoji-google-compat",
+    "artifact_id": "emoji-google-compat",
+    "group_id": "bitbucket.org.anna_lmc",
+    "tag": "backward compatibility",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "May 29, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "May 29, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

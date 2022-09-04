@@ -1,0 +1,36 @@
+{
+    "id": "com.ydevelop+rv-adapter-kotlin",
+    "artifact_id": "rv-adapter-kotlin",
+    "group_id": "com.ydevelop",
+    "tag": "adapter",
+    "repos": [
+        {
+            "name": "SciJava Public",
+            "base_url": "https://maven.scijava.org/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "0.0.4",
+                    "usages": 0,
+                    "date": "Jul 17, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "ImageJ Public",
+            "base_url": "http://maven.imagej.net/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "0.0.4",
+                    "usages": 0,
+                    "date": "Jul 17, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

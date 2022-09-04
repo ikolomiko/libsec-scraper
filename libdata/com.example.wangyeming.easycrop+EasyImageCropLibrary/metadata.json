@@ -1,0 +1,36 @@
+{
+    "id": "com.example.wangyeming.easycrop+EasyImageCropLibrary",
+    "artifact_id": "EasyImageCropLibrary",
+    "group_id": "com.example.wangyeming.easycrop",
+    "tag": "example",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Jun 13, 2015",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Jun 13, 2015",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

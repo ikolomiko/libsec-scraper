@@ -1,0 +1,36 @@
+{
+    "id": "com.jcminarro+properdroid",
+    "artifact_id": "properdroid",
+    "group_id": "com.jcminarro",
+    "tag": "build systems",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Mar 13, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Mar 13, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

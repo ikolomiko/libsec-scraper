@@ -1,0 +1,64 @@
+{
+    "id": "cn.lollypop.android+base",
+    "artifact_id": "base",
+    "group_id": "cn.lollypop.android",
+    "tag": "bluetooth",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.3",
+                    "usages": 2,
+                    "date": "Oct 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.3",
+                    "usages": 2,
+                    "date": "Oct 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "0.0.3",
+                    "usages": 2,
+                    "date": "Oct 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.0.3",
+                    "usages": 2,
+                    "date": "Oct 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

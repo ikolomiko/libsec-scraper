@@ -1,0 +1,36 @@
+{
+    "id": "com.kevalpatel2106+simple-rxbus",
+    "artifact_id": "simple-rxbus",
+    "group_id": "com.kevalpatel2106",
+    "tag": "event",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jul 06, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jul 06, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

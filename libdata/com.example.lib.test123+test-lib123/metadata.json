@@ -1,0 +1,52 @@
+{
+    "id": "com.example.lib.test123+test-lib123",
+    "artifact_id": "test-lib123",
+    "group_id": "com.example.lib.test123",
+    "tag": "testing",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Feb 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2",
+                    "usages": 0,
+                    "date": "Feb 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Feb 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2",
+                    "usages": 0,
+                    "date": "Feb 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

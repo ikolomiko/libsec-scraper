@@ -1,0 +1,74 @@
+{
+    "id": "xyz.belvi.validator+luhn",
+    "artifact_id": "luhn",
+    "group_id": "xyz.belvi.validator",
+    "tag": "validation",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "2.1.3",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.1.4",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "2.1.3",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.1.4",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "2.1.3",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "2.1.4",
+                    "usages": 0,
+                    "date": "Oct 16, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

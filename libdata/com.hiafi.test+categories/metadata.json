@@ -1,0 +1,30 @@
+{
+    "id": "com.hiafi.test+categories",
+    "artifact_id": "categories",
+    "group_id": "com.hiafi.test",
+    "tag": "testing",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 0,
+                    "date": "Feb 28, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.2",
+                    "usages": 0,
+                    "date": "Feb 28, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

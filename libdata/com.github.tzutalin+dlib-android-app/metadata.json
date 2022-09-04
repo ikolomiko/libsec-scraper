@@ -1,0 +1,36 @@
+{
+    "id": "com.github.tzutalin+dlib-android-app",
+    "artifact_id": "dlib-android-app",
+    "group_id": "com.github.tzutalin",
+    "tag": "demo",
+    "repos": [
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "usages": 0,
+                    "date": "Aug 05, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Jitpack",
+            "base_url": "https://jitpack.io/",
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "usages": 0,
+                    "date": "Aug 05, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

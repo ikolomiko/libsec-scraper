@@ -1,0 +1,50 @@
+{
+    "id": "com.baidu.mtasdk+baidu-mta-android-studio-library",
+    "artifact_id": "baidu-mta-android-studio-library",
+    "group_id": "com.baidu.mtasdk",
+    "tag": "color analysis",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 0,
+                    "date": "Mar 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 0,
+                    "date": "Mar 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 0,
+                    "date": "Mar 30, 2016",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

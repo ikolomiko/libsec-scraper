@@ -1,0 +1,68 @@
+{
+    "id": "com.tuya.smart+tuyasmart-ipc-camera-doorbellpanel",
+    "artifact_id": "tuyasmart-ipc-camera-doorbellpanel",
+    "group_id": "com.tuya.smart",
+    "tag": "camera",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "3.17.6r141-open",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.20.0r149-sdk-rc.4",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.9",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "3.17.6r141-open",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.20.0r149-sdk-rc.4",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.9",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

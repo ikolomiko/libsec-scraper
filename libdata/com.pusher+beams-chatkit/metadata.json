@@ -1,0 +1,36 @@
+{
+    "id": "com.pusher+beams-chatkit",
+    "artifact_id": "beams-chatkit",
+    "group_id": "com.pusher",
+    "tag": "comet/push",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "usages": 1,
+                    "date": "Nov 29, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "usages": 1,
+                    "date": "Nov 29, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "com.tencent.test_jg+mylibrary",
+    "artifact_id": "mylibrary",
+    "group_id": "com.tencent.test_jg",
+    "tag": "testing",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.1-beta",
+                    "usages": 0,
+                    "date": "Jul 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.1-beta",
+                    "usages": 0,
+                    "date": "Jul 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

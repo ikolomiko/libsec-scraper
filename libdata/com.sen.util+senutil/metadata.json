@@ -1,0 +1,36 @@
+{
+    "id": "com.sen.util+senutil",
+    "artifact_id": "senutil",
+    "group_id": "com.sen.util",
+    "tag": "util",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.2",
+                    "usages": 0,
+                    "date": "Apr 02, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.2",
+                    "usages": 0,
+                    "date": "Apr 02, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

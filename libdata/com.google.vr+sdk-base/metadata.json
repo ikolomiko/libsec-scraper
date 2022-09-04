@@ -1,0 +1,798 @@
+{
+    "id": "com.google.vr+sdk-base",
+    "artifact_id": "sdk-base",
+    "group_id": "com.google.vr",
+    "tag": "sdk",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.10.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.100.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.101.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.120.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.130.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.140.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.150.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.160.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.170.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.180.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.190.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.20.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.30.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.40.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.1",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.70.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.80.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.10.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.100.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.101.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.120.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.130.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.140.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.150.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.160.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.170.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.180.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.190.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.20.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.30.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.40.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.1",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.70.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.80.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.10.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.100.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.101.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.120.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.130.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.140.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.150.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.160.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.170.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.180.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.190.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.20.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.30.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.40.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.1",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.70.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.80.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Grails Core",
+            "base_url": "https://repo.grails.org/grails/core/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.10.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.100.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.101.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.120.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.130.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.140.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.150.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.160.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.170.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.180.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.190.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.20.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.30.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.40.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.1",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.70.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.80.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.10.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.100.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.101.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.120.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.130.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.140.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.150.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.160.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.170.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.180.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.190.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.20.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.30.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.40.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.60.1",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.70.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.80.0",
+                    "usages": 2,
+                    "date": "Nov 07, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

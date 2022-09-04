@@ -1,0 +1,52 @@
+{
+    "id": "com.andrew.social.login+social-login-core",
+    "artifact_id": "social-login-core",
+    "group_id": "com.andrew.social.login",
+    "tag": "social",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 10,
+                    "date": "Sep 18, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.1-alpha",
+                    "usages": 10,
+                    "date": "Sep 18, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 10,
+                    "date": "Sep 18, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.0.1-alpha",
+                    "usages": 10,
+                    "date": "Sep 18, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

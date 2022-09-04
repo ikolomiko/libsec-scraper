@@ -1,0 +1,52 @@
+{
+    "id": "net.r00we+uploadservice",
+    "artifact_id": "uploadservice",
+    "group_id": "net.r00we",
+    "tag": "background processing",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "4.2.3",
+                    "usages": 0,
+                    "date": "Feb 27, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.4",
+                    "usages": 0,
+                    "date": "Feb 27, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "4.2.3",
+                    "usages": 0,
+                    "date": "Feb 27, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.2.4",
+                    "usages": 0,
+                    "date": "Feb 27, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

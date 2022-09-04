@@ -1,0 +1,84 @@
+{
+    "id": "com.tuya.smart+tuyasmart-ipc-camera-panel-base",
+    "artifact_id": "tuyasmart-ipc-camera-panel-base",
+    "group_id": "com.tuya.smart",
+    "tag": "camera",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "3.17.6r141-open",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.20.0r149-sdk-rc.5",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-Bizbundle-1-rc.5",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.4",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "3.17.6r141-open",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.20.0r149-sdk-rc.5",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-Bizbundle-1-rc.5",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.22.0-rc.4",
+                    "usages": 1,
+                    "date": "Aug 24, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

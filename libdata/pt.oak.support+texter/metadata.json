@@ -1,0 +1,36 @@
+{
+    "id": "pt.oak.support+texter",
+    "artifact_id": "texter",
+    "group_id": "pt.oak.support",
+    "tag": "text",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Dec 18, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Dec 18, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "id": "com.wms+logger",
+    "artifact_id": "logger",
+    "group_id": "com.wms",
+    "tag": "logging",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.9",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.0",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.1",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.9",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.0",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.1",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.0.9",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.0",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.1",
+                    "usages": 1,
+                    "date": "Jul 30, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "cn.imtianx.andlib+filtermenu",
+    "artifact_id": "filtermenu",
+    "group_id": "cn.imtianx.andlib",
+    "tag": "menu",
+    "repos": [
+        {
+            "name": "SciJava Public",
+            "base_url": "https://maven.scijava.org/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "May 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "ImageJ Public",
+            "base_url": "http://maven.imagej.net/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "May 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

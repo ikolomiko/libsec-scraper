@@ -1,0 +1,36 @@
+{
+    "id": "cn.yc+YCAudioPlayerLib",
+    "artifact_id": "YCAudioPlayerLib",
+    "group_id": "cn.yc",
+    "tag": "audio",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jan 26, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jan 26, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

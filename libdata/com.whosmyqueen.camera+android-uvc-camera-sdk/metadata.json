@@ -1,0 +1,52 @@
+{
+    "id": "com.whosmyqueen.camera+android-uvc-camera-sdk",
+    "artifact_id": "android-uvc-camera-sdk",
+    "group_id": "com.whosmyqueen.camera",
+    "tag": "camera",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 1,
+                    "date": "Oct 26, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2.1.20200414",
+                    "usages": 1,
+                    "date": "Oct 26, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 1,
+                    "date": "Oct 26, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.2.1.20200414",
+                    "usages": 1,
+                    "date": "Oct 26, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

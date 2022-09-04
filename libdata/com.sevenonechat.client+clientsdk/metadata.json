@@ -1,0 +1,36 @@
+{
+    "id": "com.sevenonechat.client+clientsdk",
+    "artifact_id": "clientsdk",
+    "group_id": "com.sevenonechat.client",
+    "tag": "client",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Feb 26, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "usages": 0,
+                    "date": "Feb 26, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

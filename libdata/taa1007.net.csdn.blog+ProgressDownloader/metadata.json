@@ -1,0 +1,36 @@
+{
+    "id": "taa1007.net.csdn.blog+ProgressDownloader",
+    "artifact_id": "ProgressDownloader",
+    "group_id": "taa1007.net.csdn.blog",
+    "tag": "progress",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.0",
+                    "usages": 0,
+                    "date": "Mar 09, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "0.0.0",
+                    "usages": 0,
+                    "date": "Mar 09, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

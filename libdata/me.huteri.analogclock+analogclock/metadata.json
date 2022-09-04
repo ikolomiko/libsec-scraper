@@ -1,0 +1,36 @@
+{
+    "id": "me.huteri.analogclock+analogclock",
+    "artifact_id": "analogclock",
+    "group_id": "me.huteri.analogclock",
+    "tag": "data binding",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Mar 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.0.1",
+                    "usages": 0,
+                    "date": "Mar 16, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

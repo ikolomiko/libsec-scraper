@@ -1,0 +1,22 @@
+{
+    "id": "by.shostko+mock-data-source",
+    "artifact_id": "mock-data-source",
+    "group_id": "by.shostko",
+    "tag": "mock",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "0.2.1",
+                    "usages": 0,
+                    "date": "May 23, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

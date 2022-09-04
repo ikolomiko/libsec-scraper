@@ -1,0 +1,36 @@
+{
+    "id": "com.u1aryz+colorpicker-preference-compat",
+    "artifact_id": "colorpicker-preference-compat",
+    "group_id": "com.u1aryz",
+    "tag": "backward compatibility",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "usages": 0,
+                    "date": "Jun 10, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

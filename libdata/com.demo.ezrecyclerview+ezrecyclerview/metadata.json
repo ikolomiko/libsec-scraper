@@ -1,0 +1,36 @@
+{
+    "id": "com.demo.ezrecyclerview+ezrecyclerview",
+    "artifact_id": "ezrecyclerview",
+    "group_id": "com.demo.ezrecyclerview",
+    "tag": "example",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "v1.0.0",
+                    "usages": 0,
+                    "date": "Mar 03, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "v1.0.0",
+                    "usages": 0,
+                    "date": "Mar 03, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "com.amazon.alexa.aace+custom-domain",
+    "artifact_id": "custom-domain",
+    "group_id": "com.amazon.alexa.aace",
+    "tag": "amazon",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "4.0",
+                    "usages": 0,
+                    "date": "May 28, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.1",
+                    "usages": 0,
+                    "date": "May 28, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

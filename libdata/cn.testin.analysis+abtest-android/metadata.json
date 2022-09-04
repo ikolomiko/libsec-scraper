@@ -1,0 +1,22 @@
+{
+    "id": "cn.testin.analysis+abtest-android",
+    "artifact_id": "abtest-android",
+    "group_id": "cn.testin.analysis",
+    "tag": "color analysis",
+    "repos": [
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "4.1.5",
+                    "usages": 0,
+                    "date": "Nov 03, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

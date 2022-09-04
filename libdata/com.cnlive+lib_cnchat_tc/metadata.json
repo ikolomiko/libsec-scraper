@@ -1,0 +1,74 @@
+{
+    "id": "com.cnlive+lib_cnchat_tc",
+    "artifact_id": "lib_cnchat_tc",
+    "group_id": "com.cnlive",
+    "tag": "util",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "3.0",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0.1",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "3.0",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0.1",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "3.0",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "3.0.1",
+                    "usages": 0,
+                    "date": "Dec 21, 2017",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

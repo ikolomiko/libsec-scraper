@@ -1,0 +1,30 @@
+{
+    "id": "com.braintreepayments.api+paypal-data-collector",
+    "artifact_id": "paypal-data-collector",
+    "group_id": "com.braintreepayments.api",
+    "tag": "collector",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "4.14.0",
+                    "usages": 4,
+                    "date": "Aug 10, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "4.15.0",
+                    "usages": 4,
+                    "date": "Aug 10, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

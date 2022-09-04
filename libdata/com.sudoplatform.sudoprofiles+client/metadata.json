@@ -1,0 +1,30 @@
+{
+    "id": "com.sudoplatform.sudoprofiles+client",
+    "artifact_id": "client",
+    "group_id": "com.sudoplatform.sudoprofiles",
+    "tag": "client",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "1.7.0",
+                    "usages": 1,
+                    "date": "Apr 14, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.7.1",
+                    "usages": 1,
+                    "date": "Apr 14, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "io.github.panpf.tools4a+tools4a-service",
+    "artifact_id": "tools4a-service",
+    "group_id": "io.github.panpf.tools4a",
+    "tag": "service",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "usages": 2,
+                    "date": "Oct 02, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "1.0.0-rc03",
+                    "usages": 2,
+                    "date": "Oct 02, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

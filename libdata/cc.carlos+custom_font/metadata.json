@@ -1,0 +1,36 @@
+{
+    "id": "cc.carlos+custom_font",
+    "artifact_id": "custom_font",
+    "group_id": "cc.carlos",
+    "tag": "font",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jun 02, 2015",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Liferay Public",
+            "base_url": "https://repository.liferay.com/nexus/content/repositories/public/",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "usages": 0,
+                    "date": "Jun 02, 2015",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

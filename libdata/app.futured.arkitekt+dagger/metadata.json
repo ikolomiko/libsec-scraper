@@ -1,0 +1,38 @@
+{
+    "id": "app.futured.arkitekt+dagger",
+    "artifact_id": "dagger",
+    "group_id": "app.futured.arkitekt",
+    "tag": "integration",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "5.0.0",
+                    "usages": 1,
+                    "date": "Dec 14, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.1.0",
+                    "usages": 1,
+                    "date": "Dec 14, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "5.2.0",
+                    "usages": 1,
+                    "date": "Dec 14, 2021",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

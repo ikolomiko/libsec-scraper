@@ -1,0 +1,22 @@
+{
+    "id": "com.helian.app.push+Push",
+    "artifact_id": "Push",
+    "group_id": "com.helian.app.push",
+    "tag": "comet/push",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.0.0.1",
+                    "usages": 0,
+                    "date": "Sep 12, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

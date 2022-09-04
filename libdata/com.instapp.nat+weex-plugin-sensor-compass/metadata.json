@@ -1,0 +1,36 @@
+{
+    "id": "com.instapp.nat+weex-plugin-sensor-compass",
+    "artifact_id": "weex-plugin-sensor-compass",
+    "group_id": "com.instapp.nat",
+    "tag": "compass sensors",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.0.0-alpha",
+                    "usages": 0,
+                    "date": "Feb 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.0.0-alpha",
+                    "usages": 0,
+                    "date": "Feb 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

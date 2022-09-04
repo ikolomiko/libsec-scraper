@@ -1,0 +1,3374 @@
+{
+    "id": "ru.surfstudio.android+mvp-widget",
+    "artifact_id": "mvp-widget",
+    "group_id": "ru.surfstudio.android",
+    "tag": "widget",
+    "repos": [
+        {
+            "name": "SurfStudio",
+            "base_url": "https://artifactory.surfstudio.ru/artifactory/libs-release-local/",
+            "versions": [
+                {
+                    "version": "0.2.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.1-BZN-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.1-TWIM-0.0.0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.2.2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-8-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-APAY-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-BZN-1.0.1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-BZN-1.0.2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-BZN-1.0.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-5.2.9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MAGNIT-5.3.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-10-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-11-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-12-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-13-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-14-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-15-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-16-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-17-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-18-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-19-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-20-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-21-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-22-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-23-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-24-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-25-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-8-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MDK-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MEGAFON-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MEGAFON-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MEGAFON-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MEGAFON-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-MEGAFON-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-SBI-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-TWIM-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-TWIM-1.0.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-TWIM-1.0.0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0-TWIM-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0MEGAFON220181121.133709-1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.3.0MEGAFON220181121.141042-2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-1.0.4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-10-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-11-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-12-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-13-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-14-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-15-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-16-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-8-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-BZN-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-10-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-11-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LAD-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LRNAND-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-LRNAND-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-MDK-0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-MDK-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-P-Food-0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-PFD-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-PFD-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-PFD-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-10-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-11-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-12-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-13-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-14-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-15-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-16-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-17-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-18-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-19-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-20-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-21-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-22-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-23-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-24-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-25-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-26-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-27-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-28-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-29-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-30-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-31-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-32-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-33-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-8-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SBI-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-1-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-2-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-3-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-4-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-5-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-6-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-7-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-8-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-UNI-9-SNAPSHOT",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-alpha.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.4.0-alpha.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-LRT.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-LRT.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-TRI.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-BZN.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-LAD.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-LAD.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-LAD.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-LAD.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-MDK.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-MDK.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-MDK.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-SBI.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-SBI.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-SBI.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-SBI.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.0-UNI.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-REN.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-REN.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-REN.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-REN.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-REN.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-SBI.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-SBI.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-SBI.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.1-SBI.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-LABAND.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.10-TRI.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.12-TRI.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-BET.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-FID.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-LABAND.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-LABAND.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-LABAND.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-LABAND.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-LRNAND.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-REN.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-REN.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-REN.26",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-REN.27",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-REN.28",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.19",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.21",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.22",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.23",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.26",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.27",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.28",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-RIV.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-SBI.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-SBI.21",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-TRI.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-UNI.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-UNI.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-UNI.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-UNI.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.15-UNI.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-BET.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-BET.21",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-BET.22",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-BET.23",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-LRNAND.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.16-LRNAND.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.17-USMALL.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.17-USMALL.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.17-USMALL.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-BET.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-BET.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-LABAND.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-SBI.22",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-SBI.23",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-SBI.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-SBI.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.18-TRI.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-IRG.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-LRNAND.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-LRNAND.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-LRNAND.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.2-REN.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-BZN.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-BZN.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-BZN.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-BZN.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-FID.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-IRG.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-IRG.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRNAND.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRNAND.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRNAND.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRT.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRT.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRT.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-LRT.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.19",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.21",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-REN.22",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-SBI.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-UNI.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-UNI.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-UNI.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.3-UNI.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-BZN.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-BZN.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-IRG.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-IRG.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-IRG.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-LAD.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-LRNAND.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-LRNAND.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-MAGNIT.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-MAGNIT.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-MAGNIT.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-REN.23",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-SBI.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-SBI.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-SBI.19",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-SBI.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.4-UNI.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-LAD.5",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-TRI.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.5-UNI.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.6",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.10",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.13",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.14",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.15",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.18",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.19",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.20",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-BZN.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-MDK.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-TRI.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.7-TRI.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.8",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.9",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.0-alpha.9-LABAND.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.0",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.0-CIS.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.26",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.27",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.28",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.29",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BET.30",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BZN.21",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BZN.22",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BZN.23",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.1-BZN.24",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.5.1-alpha.2-BET.31",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-BET.32",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-BET.33",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-BZN.25",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-CIS.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-INF.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-INF.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-INF.3",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-LABAND.16",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-LABAND.17",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-LRNAND.11",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-MLO.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-MLO.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-SBI.27",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.6.0-alpha.1-UNI-NEW.1",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-202-BET.34",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-219-SBI.28",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-224",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-225",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-226",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-227",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-228",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BET.35",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BZN.26",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BZN.27",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BZN.28",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BZN.29",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-BZN.30",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-INF.4",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "0.7.0-UNI-NEW.2",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                },
+                {
+                    "version": "TEST_DEPLOY12",
+                    "usages": 3,
+                    "date": "May 30, 2022",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

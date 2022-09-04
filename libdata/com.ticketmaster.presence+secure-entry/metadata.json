@@ -1,0 +1,22 @@
+{
+    "id": "com.ticketmaster.presence+secure-entry",
+    "artifact_id": "secure-entry",
+    "group_id": "com.ticketmaster.presence",
+    "tag": "security",
+    "repos": [
+        {
+            "name": "Central",
+            "base_url": "https://repo1.maven.org/maven2/",
+            "versions": [
+                {
+                    "version": "1.2.3",
+                    "usages": 0,
+                    "date": "Jun 17, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

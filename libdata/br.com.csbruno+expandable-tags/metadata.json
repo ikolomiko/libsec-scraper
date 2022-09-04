@@ -1,0 +1,36 @@
+{
+    "id": "br.com.csbruno+expandable-tags",
+    "artifact_id": "expandable-tags",
+    "group_id": "br.com.csbruno",
+    "tag": "tags",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.1",
+                    "usages": 0,
+                    "date": "Jul 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.1",
+                    "usages": 0,
+                    "date": "Jul 20, 2018",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "org.wso2.solutions.identity+security-token-service",
+    "artifact_id": "security-token-service",
+    "group_id": "org.wso2.solutions.identity",
+    "tag": "security",
+    "repos": [
+        {
+            "name": "WSO2 Dist",
+            "base_url": "http://dist.wso2.org/maven2/",
+            "versions": [
+                {
+                    "version": "1.0-beta",
+                    "usages": 0,
+                    "date": "Dec 18, 2010",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

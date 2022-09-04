@@ -1,0 +1,50 @@
+{
+    "id": "com.sontrantech.opengl+egloo",
+    "artifact_id": "egloo",
+    "group_id": "com.sontrantech.opengl",
+    "tag": "opengl",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "0.5.3-noandroidx-rc1",
+                    "usages": 1,
+                    "date": "Oct 02, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "0.5.3-noandroidx-rc1",
+                    "usages": 1,
+                    "date": "Oct 02, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "Gradle Plugins",
+            "base_url": "https://plugins.gradle.org/m2/",
+            "versions": [
+                {
+                    "version": "0.5.3-noandroidx-rc1",
+                    "usages": 1,
+                    "date": "Oct 02, 2020",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}

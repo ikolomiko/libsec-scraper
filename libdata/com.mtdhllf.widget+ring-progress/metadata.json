@@ -1,0 +1,36 @@
+{
+    "id": "com.mtdhllf.widget+ring-progress",
+    "artifact_id": "ring-progress",
+    "group_id": "com.mtdhllf.widget",
+    "tag": "progress",
+    "repos": [
+        {
+            "name": "Gradle Releases",
+            "base_url": "https://repo.gradle.org/gradle/libs-releases/",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "usages": 0,
+                    "date": "Jun 15, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        },
+        {
+            "name": "AutonomX",
+            "base_url": "http://artifact.autonomx.io/artifactory/libs-release/",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "usages": 0,
+                    "date": "Jun 15, 2019",
+                    "filetype": "",
+                    "downloaded": false,
+                    "applied_analyzes": []
+                }
+            ]
+        }
+    ]
+}
