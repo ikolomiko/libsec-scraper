@@ -1,40 +1,42 @@
 from typing import List
-from undetected_chromedriver.webelement import WebElement
-from selenium.webdriver.common.by import By
+#from undetected_chromedriver.webelement import WebElement
+#from selenium.webdriver.common.by import By
 from metadata import LibMetadata, Repo, Version
 
 
 class Library():
-    def __init__(self, row: WebElement = None, artifact_id: str = "", group_id: str = "", tag: str = "", url: str = "", d: dict = None) -> None:
-        if row != None:
-            self.artifact_id = artifact_id
-            self.group_id = group_id
-            self.tag = tag
+    def __init__(self, 
+    #row: WebElement = None, 
+    artifact_id: str = "", group_id: str = "", tag: str = "", url: str = "", d: dict = None) -> None:
+        # if row != None:
+        #     self.artifact_id = artifact_id
+        #     self.group_id = group_id
+        #     self.tag = tag
 
-            cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
+        #     cols: List[WebElement] = row.find_elements(By.TAG_NAME, "td")
 
-            self.version = str(cols[-5].text)
-            self.repo = str(cols[-3].text)
-            self.usages = int(cols[-2].text)
-            self.date = str(cols[-1].text)
-            self.id = str(self.group_id + "+" +
-                          self.artifact_id + "+" + self.version)
-            self.base_url = url
+        #     self.version = str(cols[-5].text)
+        #     self.repo = str(cols[-3].text)
+        #     self.usages = int(cols[-2].text)
+        #     self.date = str(cols[-1].text)
+        #     self.id = str(self.group_id + "+" +
+        #                   self.artifact_id + "+" + self.version)
+        #     self.base_url = url
 
-        else:
-            self.artifact_id = ""
-            self.group_id = ""
-            self.version = ""
-            self.repo = ""
-            self.usages = 0
-            self.date = ""
-            self.id = ""
-            self.tag = ""
-            self.base_url = ""
-
-            if d != None:
-                for key, value in d.items():
-                    setattr(self, key, value)
+        # else:
+        self.artifact_id = artifact_id
+        self.group_id = group_id
+        self.version = ""
+        self.repo = ""
+        self.usages = 0
+        self.date = ""
+        self.id = ""
+        self.tag = tag
+        self.base_url = url
+        
+        if d != None:
+            for key, value in d.items():
+                setattr(self, key, value)
 
     def __str__(self) -> str:
         return (
