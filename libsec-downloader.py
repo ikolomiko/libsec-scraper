@@ -10,7 +10,7 @@ import urllib.parse
 from pathlib import Path
 import shutil
 from metadata import LibMetadata
-from library import Library
+from library import Library, MultiRepoLibrary
 from log import info1, info2, warn, error, success, log
 from packaging.version import parse as parse_version
 
@@ -79,8 +79,8 @@ def copy_from_cache(lib: Library) -> str:
 
 
 # Default key for downloading libs: most used one + first 2 versions + last 2 versions
-def default_key(all_versions: Iterable[Library]) -> Set[Library]:
-    result: Set[Library] = set()
+def default_key(all_versions: Iterable[MultiRepoLibrary]) -> Set[MultiRepoLibrary]:
+    result: Set[MultiRepoLibrary] = set()
     result.add(sorted(all_versions, key=lambda x: x.usages)[-1])
     result |= set(
         sorted(all_versions, key=lambda x: parse_version(x.version))[:2])
@@ -90,37 +90,45 @@ def default_key(all_versions: Iterable[Library]) -> Set[Library]:
 
 
 def download_versions(lib: LibMetadata,
-                      key: Callable[[List[Library]], Set[Library]] = default_key) -> None:
+                      key: Callable[[List[MultiRepoLibrary]], Set[MultiRepoLibrary]] = default_key) -> None:
 
-    all_versions: Set[Library] = set()
+    all_versions: List[MultiRepoLibrary] = []
     for repo in lib.repos:
         for v in repo.versions:
-            l = Library(d={
-                "artifact_id": lib.artifact_id,
-                "group_id": lib.group_id,
-                "version": v.version,
-                "repo": repo.name,
-                "usages": v.usages,
-                "date": v.date,
-                "id": lib.id + "+" + v.version,
-                "tag": lib.tag,
-                "base_url": repo.base_url
-            })
-            all_versions.add(l)
+            l = MultiRepoLibrary(lib, repo, v)
+            if l in all_versions:
+                index = all_versions.index(l)
+                all_versions[index].repos.append(repo)
+            else:
+                all_versions.append(l)
 
     selected = key(all_versions)
-    for item in selected:
-        ext = copy_from_cache(item)
-        if ext == None:
-            ext = download_file(item)
+    for multi_repo_lib in selected:
+        ext = copy_from_cache(multi_repo_lib)
+        for repo in multi_repo_lib.repos:
+            single_repo_lib = Library(d={
+                "artifact_id": multi_repo_lib.artifact_id,
+                "group_id": multi_repo_lib.group_id,
+                "version": multi_repo_lib.version,
+                "usages": multi_repo_lib.usages,
+                "date": multi_repo_lib.date,
+                "id": multi_repo_lib.id,
+                "tag": multi_repo_lib.tag,
+                "repo": repo.name,
+                "base_url": repo.base_url
+            })
 
-        v = lib.get_repo(item.repo).get_version(item.version)
-        if ext == None:
-            v.downloaded = False
-            v.filetype = "error"
-        else:
-            v.downloaded = True
-            v.filetype = ext
+            if ext == None:
+                ext = download_file(single_repo_lib)
+
+            v = lib.get_repo(repo.name).get_version(single_repo_lib.version)
+            if ext == None:
+                v.downloaded = False
+                v.filetype = "error"
+            else:
+                v.downloaded = True
+                v.filetype = ext
+                break
 
 
 def save_library(metadata_dir: str) -> None:
