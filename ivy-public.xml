@@ -1,0 +1,699 @@
+<ivysettings>
+    <resolvers>
+        <ibiblio name="google-android-aar" m2compatible="true" root="https://dl.google.com/dl/android/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar"/>
+        <ibiblio name="google-android-jar" m2compatible="true" root="https://dl.google.com/dl/android/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+        <ibiblio name="mavenorg-aar" m2compatible="true" root="https://repo1.maven.org/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="mavenorg-jar" m2compatible="true" />
+
+        <ibiblio name="Central-aar" m2compatible="true" root="https://repo1.maven.org/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Central-jar" m2compatible="true" root="https://repo1.maven.org/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="JCenter-aar" m2compatible="true" root="https://jcenter.bintray.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="JCenter-jar" m2compatible="true" root="https://jcenter.bintray.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Google-aar" m2compatible="true" root="https://maven.google.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Google-jar" m2compatible="true" root="https://maven.google.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Lib Release-aar" m2compatible="true" root="https://repo.spring.io/libs-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Lib Release-jar" m2compatible="true" root="https://repo.spring.io/libs-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Mulesoft-aar" m2compatible="true" root="https://repository.mulesoft.org/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Mulesoft-jar" m2compatible="true" root="https://repository.mulesoft.org/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Gradle Releases-aar" m2compatible="true" root="https://repo.gradle.org/gradle/libs-releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Gradle Releases-jar" m2compatible="true" root="https://repo.gradle.org/gradle/libs-releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Liferay Public-aar" m2compatible="true" root="https://repository.liferay.com/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Liferay Public-jar" m2compatible="true" root="https://repository.liferay.com/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Imgly-aar" m2compatible="true" root="https://artifactory.img.ly/artifactory/imgly/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Imgly-jar" m2compatible="true" root="https://artifactory.img.ly/artifactory/imgly/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Scanbot-aar" m2compatible="true" root="https://nexus.scanbot.io/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Scanbot-jar" m2compatible="true" root="https://nexus.scanbot.io/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="SurfStudio-aar" m2compatible="true" root="https://artifactory.surfstudio.ru/artifactory/libs-release-local/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="SurfStudio-jar" m2compatible="true" root="https://artifactory.surfstudio.ru/artifactory/libs-release-local/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Lib M-aar" m2compatible="true" root="https://repo.spring.io/libs-milestone/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Lib M-jar" m2compatible="true" root="https://repo.spring.io/libs-milestone/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <!-- <ibiblio name="PentahoOmni-aar" m2compatible="true" root="https://nexus.pentaho.org/content/groups/omni/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="PentahoOmni-jar" m2compatible="true" root="https://nexus.pentaho.org/content/groups/omni/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+-->
+        <ibiblio name="Aliyun-aar" m2compatible="true" root="http://maven.aliyun.com/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Aliyun-jar" m2compatible="true" root="http://maven.aliyun.com/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="SciJava Public-aar" m2compatible="true" root="https://maven.scijava.org/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="SciJava Public-jar" m2compatible="true" root="https://maven.scijava.org/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Kakao-aar" m2compatible="true" root="https://devrepo.kakao.com/nexus/content/groups/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Kakao-jar" m2compatible="true" root="https://devrepo.kakao.com/nexus/content/groups/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Couchbase-aar" m2compatible="true" root="https://files.couchbase.com/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Couchbase-jar" m2compatible="true" root="https://files.couchbase.com/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Igexin-aar" m2compatible="true" root="http://mvn.gt.igexin.com/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Igexin-jar" m2compatible="true" root="http://mvn.gt.igexin.com/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Yahoo-aar" m2compatible="true" root="https://dl.bintray.com/yahoo/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Yahoo-jar" m2compatible="true" root="https://dl.bintray.com/yahoo/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Compose-aar" m2compatible="true" root="https://maven.pkg.jetbrains.space/public/p/compose/dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Compose-jar" m2compatible="true" root="https://maven.pkg.jetbrains.space/public/p/compose/dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Instabug-aar" m2compatible="true" root="https://sdks.instabug.com/nexus/repository/instabug-cp/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Instabug-jar" m2compatible="true" root="https://sdks.instabug.com/nexus/repository/instabug-cp/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="PuNative-aar" m2compatible="true" root="https://dl.bintray.com/pubnative/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="PuNative-jar" m2compatible="true" root="https://dl.bintray.com/pubnative/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="IronSrcAndroid-aar" m2compatible="true" root="https://dl.bintray.com/ironsource-mobile/android-adapters/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="IronSrcAndroid-jar" m2compatible="true" root="https://dl.bintray.com/ironsource-mobile/android-adapters/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Sumsub-aar" m2compatible="true" root="https://maven.sumsub.com/repository/maven-public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Sumsub-jar" m2compatible="true" root="https://maven.sumsub.com/repository/maven-public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="InLocoMedia-aar" m2compatible="true" root="https://dl.bintray.com/inlocomedia/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="InLocoMedia-jar" m2compatible="true" root="https://dl.bintray.com/inlocomedia/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="WSO2 Dist-aar" m2compatible="true" root="http://dist.wso2.org/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="WSO2 Dist-jar" m2compatible="true" root="http://dist.wso2.org/maven2/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Pushe-aar" m2compatible="true" root="https://dl.bintray.com/pushe/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Pushe-jar" m2compatible="true" root="https://dl.bintray.com/pushe/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Realm-aar" m2compatible="true" root="https://dl.bintray.com/realm/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Realm-jar" m2compatible="true" root="https://dl.bintray.com/realm/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="CometchatCallTeam-aar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/call-team/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="CometchatCallTeam-jar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/call-team/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="NewsDog-aar" m2compatible="true" root="https://dl.bintray.com/newsdog/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="NewsDog-jar" m2compatible="true" root="https://dl.bintray.com/newsdog/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Embrace-aar" m2compatible="true" root="https://dl.bintray.com/embrace-io/mvn-public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Embrace-jar" m2compatible="true" root="https://dl.bintray.com/embrace-io/mvn-public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Huawei-aar" m2compatible="true" root="https://developer.huawei.com/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Huawei-jar" m2compatible="true" root="https://developer.huawei.com/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="MobileAds-aar" m2compatible="true" root="https://dl.bintray.com/google/mobile-ads-adapters-android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="MobileAds-jar" m2compatible="true" root="https://dl.bintray.com/google/mobile-ads-adapters-android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="AppLovin SDKs-aar" m2compatible="true" root="https://dl.bintray.com/applovin/Android-Adapter-SDKs/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="AppLovin SDKs-jar" m2compatible="true" root="https://dl.bintray.com/applovin/Android-Adapter-SDKs/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="AutonomX-aar" m2compatible="true" root="http://artifact.autonomx.io/artifactory/libs-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="AutonomX-jar" m2compatible="true" root="http://artifact.autonomx.io/artifactory/libs-release/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="NBT-Adison-OW-aar" m2compatible="true" root="https://dl.bintray.com/nbt/adison-offerwall/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="NBT-Adison-OW-jar" m2compatible="true" root="https://dl.bintray.com/nbt/adison-offerwall/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="IotIgnite-aar" m2compatible="true" root="https://repo.iot-ignite.com/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="IotIgnite-jar" m2compatible="true" root="https://repo.iot-ignite.com/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Datadog-aar" m2compatible="true" root="https://dl.bintray.com/datadog/datadog-maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Datadog-jar" m2compatible="true" root="https://dl.bintray.com/datadog/datadog-maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Twilio-aar" m2compatible="true" root="https://dl.bintray.com/twilio/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Twilio-jar" m2compatible="true" root="https://dl.bintray.com/twilio/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Bugtags-aar" m2compatible="true" root="https://dl.bintray.com/bugtags/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Bugtags-jar" m2compatible="true" root="https://dl.bintray.com/bugtags/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Novoda-aar" m2compatible="true" root="https://dl.bintray.com/novoda/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Novoda-jar" m2compatible="true" root="https://dl.bintray.com/novoda/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Wire Release-aar" m2compatible="true" root="https://dl.bintray.com/wire-android/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Wire Release-jar" m2compatible="true" root="https://dl.bintray.com/wire-android/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Data2Viz Dev-aar" m2compatible="true" root="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Data2Viz Dev-jar" m2compatible="true" root="https://maven.pkg.jetbrains.space/data2viz/p/maven/dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Tensorflow-aar" m2compatible="true" root="https://dl.bintray.com/google/tensorflow/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Tensorflow-jar" m2compatible="true" root="https://dl.bintray.com/google/tensorflow/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="WSO2 Releases-aar" m2compatible="true" root="https://maven.wso2.org/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="WSO2 Releases-jar" m2compatible="true" root="https://maven.wso2.org/nexus/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="CometchatAndroid-aar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="CometchatAndroid-jar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Peer5-aar" m2compatible="true" root="https://sdk.peer5.com/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Peer5-jar" m2compatible="true" root="https://sdk.peer5.com/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/shortroid/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/shortroid/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="ICM-aar" m2compatible="true" root="http://maven.icm.edu.pl/artifactory/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="ICM-jar" m2compatible="true" root="http://maven.icm.edu.pl/artifactory/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Membrane SOA-aar" m2compatible="true" root="https://repository.membrane-soa.org/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Membrane SOA-jar" m2compatible="true" root="https://repository.membrane-soa.org/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="AppLovin AA-aar" m2compatible="true" root="https://dl.bintray.com/applovin/Android-Adapters/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="AppLovin AA-jar" m2compatible="true" root="https://dl.bintray.com/applovin/Android-Adapters/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="DashJInterface-aar" m2compatible="true" root="https://dl.bintray.com/dash/DashJInterface/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="DashJInterface-jar" m2compatible="true" root="https://dl.bintray.com/dash/DashJInterface/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="ImageJ Public-aar" m2compatible="true" root="http://maven.imagej.net/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="ImageJ Public-jar" m2compatible="true" root="http://maven.imagej.net/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/instagram/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/instagram/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="TrayisAndroid-aar" m2compatible="true" root="https://dl.bintray.com/trayis/android_lib/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="TrayisAndroid-jar" m2compatible="true" root="https://dl.bintray.com/trayis/android_lib/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Jitpack-aar" m2compatible="true" root="https://jitpack.io/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Jitpack-jar" m2compatible="true" root="https://jitpack.io/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="SchibstedSpain-aar" m2compatible="true" root="https://dl.bintray.com/schibstedspain/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="SchibstedSpain-jar" m2compatible="true" root="https://dl.bintray.com/schibstedspain/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Microblink-aar" m2compatible="true" root="https://maven.microblink.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Microblink-jar" m2compatible="true" root="https://maven.microblink.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="LivotovLabs-aar" m2compatible="true" root="https://dl.bintray.com/livotovlabs/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="LivotovLabs-jar" m2compatible="true" root="https://dl.bintray.com/livotovlabs/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Smart-Soft-aar" m2compatible="true" root="https://dl.bintray.com/smartnsoft/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Smart-Soft-jar" m2compatible="true" root="https://dl.bintray.com/smartnsoft/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Swirlds-aar" m2compatible="true" root="https://art.swirlds.com/artifactory/swirlds/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Swirlds-jar" m2compatible="true" root="https://art.swirlds.com/artifactory/swirlds/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Naver-aar" m2compatible="true" root="https://naver.jfrog.io/artifactory/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Naver-jar" m2compatible="true" root="https://naver.jfrog.io/artifactory/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Onfido-aar" m2compatible="true" root="https://dl.bintray.com/onfido/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Onfido-jar" m2compatible="true" root="https://dl.bintray.com/onfido/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Bilibili-aar" m2compatible="true" root="https://dl.bintray.com/bilibili/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Bilibili-jar" m2compatible="true" root="https://dl.bintray.com/bilibili/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Data2Viz-aar" m2compatible="true" root="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Data2Viz-jar" m2compatible="true" root="https://maven.pkg.jetbrains.space/data2viz/p/maven/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="IndoorAtlasBT-aar" m2compatible="true" root="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="IndoorAtlasBT-jar" m2compatible="true" root="https://dl.cloudsmith.io/public/indooratlas/mvn-public/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/operations/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/operations/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="OpenID-aar" m2compatible="true" root="https://dl.bintray.com/openid/net.openid/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="OpenID-jar" m2compatible="true" root="https://dl.bintray.com/openid/net.openid/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="WebRTC-aar" m2compatible="true" root="https://dl.bintray.com/google/webrtc/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="WebRTC-jar" m2compatible="true" root="https://dl.bintray.com/google/webrtc/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="CometchatAndroid-aar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="CometchatAndroid-jar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-team/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Exoplayer-aar" m2compatible="true" root="https://dl.bintray.com/google/exoplayer/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Exoplayer-jar" m2compatible="true" root="https://dl.bintray.com/google/exoplayer/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="JCenter-aar" m2compatible="true" root="https://jcenter.bintray.com/dev/pinco" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="JCenter-jar" m2compatible="true" root="https://jcenter.bintray.com/dev/pinco" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Algolia-aar" m2compatible="true" root="https://dl.bintray.com/algolia/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Algolia-jar" m2compatible="true" root="https://dl.bintray.com/algolia/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="UrbanAirshipAndroid-aar" m2compatible="true" root="https://dl.bintray.com/urbanairship/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="UrbanAirshipAndroid-jar" m2compatible="true" root="https://dl.bintray.com/urbanairship/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="CometchatAndroid-aar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="CometchatAndroid-jar" m2compatible="true" root="https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android-sdk/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="NanorepSearch-aar" m2compatible="true" root="https://dl.bintray.com/nanorep/search/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="NanorepSearch-jar" m2compatible="true" root="https://dl.bintray.com/nanorep/search/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="WSO2 Public-aar" m2compatible="true" root="https://maven.wso2.org/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="WSO2 Public-jar" m2compatible="true" root="https://maven.wso2.org/nexus/content/repositories/public/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="NanorepDevCore-aar" m2compatible="true" root="https://dl.bintray.com/nanorep/devcore/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="NanorepDevCore-jar" m2compatible="true" root="https://dl.bintray.com/nanorep/devcore/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Worldline-aar" m2compatible="true" root="https://dl.bintray.com/worldline-spain/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Worldline-jar" m2compatible="true" root="https://dl.bintray.com/worldline-spain/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="MS OpenTech-aar" m2compatible="true" root="https://dl.bintray.com/msopentech/Maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="MS OpenTech-jar" m2compatible="true" root="https://dl.bintray.com/msopentech/Maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="EsriAndroid-aar" m2compatible="true" root="https://dl.bintray.com/esri/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="EsriAndroid-jar" m2compatible="true" root="https://dl.bintray.com/esri/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Trifork-aar" m2compatible="true" root="https://nexus.trifork.com/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Trifork-jar" m2compatible="true" root="https://nexus.trifork.com/content/repositories/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Grails Core-aar" m2compatible="true" root="https://repo.grails.org/grails/core/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Grails Core-jar" m2compatible="true" root="https://repo.grails.org/grails/core/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Snowplow-aar" m2compatible="true" root="https://dl.bintray.com/snowplow/snowplow-maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Snowplow-jar" m2compatible="true" root="https://dl.bintray.com/snowplow/snowplow-maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Fidesmo-aar" m2compatible="true" root="https://dl.bintray.com/fidesmo/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Fidesmo-jar" m2compatible="true" root="https://dl.bintray.com/fidesmo/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="OpenKM-aar" m2compatible="true" root="http://maven.openkm.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="OpenKM-jar" m2compatible="true" root="http://maven.openkm.com/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/fuel/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/fuel/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Jumpmind-aar" m2compatible="true" root="http://maven.jumpmind.com/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Jumpmind-jar" m2compatible="true" root="http://maven.jumpmind.com/repo/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="GuardianAndroid-aar" m2compatible="true" root="https://dl.bintray.com/guardian/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="GuardianAndroid-jar" m2compatible="true" root="https://dl.bintray.com/guardian/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Codewaves-aar" m2compatible="true" root="https://dl.bintray.com/codewaves/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Codewaves-jar" m2compatible="true" root="https://dl.bintray.com/codewaves/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="GroundTruth-aar" m2compatible="true" root="https://dl.bintray.com/groundtruth/pubsvcs/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="GroundTruth-jar" m2compatible="true" root="https://dl.bintray.com/groundtruth/pubsvcs/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="NanorepCore-aar" m2compatible="true" root="https://dl.bintray.com/nanorep/core/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="NanorepCore-jar" m2compatible="true" root="https://dl.bintray.com/nanorep/core/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/chartizate/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/chartizate/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="AlphaCephei-aar" m2compatible="true" root="https://alphacephei.com/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="AlphaCephei-jar" m2compatible="true" root="https://alphacephei.com/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Bluecabin-aar" m2compatible="true" root="https://dl.bintray.com/bluecabin/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Bluecabin-jar" m2compatible="true" root="https://dl.bintray.com/bluecabin/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Publit-aar" m2compatible="true" root="https://dl.bintray.com/publitio/publitio-android-sdk/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Publit-jar" m2compatible="true" root="https://dl.bintray.com/publitio/publitio-android-sdk/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Empyr-aar" m2compatible="true" root="https://dl.bintray.com/empyrnetwork/empyrnetwork/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Empyr-jar" m2compatible="true" root="https://dl.bintray.com/empyrnetwork/empyrnetwork/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Kotlin EAP-aar" m2compatible="true" root="https://dl.bintray.com/kotlin/kotlin-eap/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Kotlin EAP-jar" m2compatible="true" root="https://dl.bintray.com/kotlin/kotlin-eap/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="ApolloGraphAndroid-aar" m2compatible="true" root="https://dl.bintray.com/apollographql/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="ApolloGraphAndroid-jar" m2compatible="true" root="https://dl.bintray.com/apollographql/android/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="MopubSDK-aar" m2compatible="true" root="https://dl.bintray.com/mopub/mopub-android-sdk/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="MopubSDK-jar" m2compatible="true" root="https://dl.bintray.com/mopub/mopub-android-sdk/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Clevertap-aar" m2compatible="true" root="https://dl.bintray.com/clevertap/Maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Clevertap-jar" m2compatible="true" root="https://dl.bintray.com/clevertap/Maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/smartdevicelink/bintray-" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/smartdevicelink/bintray-" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Redhat EA-aar" m2compatible="true" root="https://maven.repository.redhat.com/earlyaccess/all/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Redhat EA-jar" m2compatible="true" root="https://maven.repository.redhat.com/earlyaccess/all/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Epam RP-aar" m2compatible="true" root="https://dl.bintray.com/epam/reportportal/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Epam RP-jar" m2compatible="true" root="https://dl.bintray.com/epam/reportportal/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Kotlin Dev-aar" m2compatible="true" root="https://dl.bintray.com/kotlin/kotlin-dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Kotlin Dev-jar" m2compatible="true" root="https://dl.bintray.com/kotlin/kotlin-dev/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Plugins-aar" m2compatible="true" root="https://repo.spring.io/plugins-release/sqlite4a/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Plugins-jar" m2compatible="true" root="https://repo.spring.io/plugins-release/sqlite4a/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Gradle Plugins-aar" m2compatible="true" root="https://plugins.gradle.org/m2/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Gradle Plugins-jar" m2compatible="true" root="https://plugins.gradle.org/m2/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Snplow-aar" m2compatible="true" root="http://maven.snplow.com/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Snplow-jar" m2compatible="true" root="http://maven.snplow.com/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Atlassian 3rd-P Old-aar" m2compatible="true" root="https://maven.atlassian.com/3rdparty/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Atlassian 3rd-P Old-jar" m2compatible="true" root="https://maven.atlassian.com/3rdparty/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Spring Lib Release-aar" m2compatible="true" root="https://repo.spring.io/libs-release/permission/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Spring Lib Release-jar" m2compatible="true" root="https://repo.spring.io/libs-release/permission/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Agora-aar" m2compatible="true" root="https://dl.bintray.com/agora/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Agora-jar" m2compatible="true" root="https://dl.bintray.com/agora/maven/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Alfresco 3rdParty-aar" m2compatible="true" root="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Alfresco 3rdParty-jar" m2compatible="true" root="https://artifacts.alfresco.com/nexus/content/repositories/thirdparty/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Erudika-aar" m2compatible="true" root="https://dl.bintray.com/erudika/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Erudika-jar" m2compatible="true" root="https://dl.bintray.com/erudika/releases/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <ibiblio name="Bytedance-aar" m2compatible="true" root="https://artifact.bytedance.com/repository/AwemeOpenSDK/" pattern="[organization]/[module]/[revision]/[module]-[revision].aar" />
+        <ibiblio name="Bytedance-jar" m2compatible="true" root="https://artifact.bytedance.com/repository/AwemeOpenSDK/" pattern="[organization]/[module]/[revision]/[module]-[revision].[ext]" />
+
+        <chain name="public-chain" returnFirst="true">
+            <resolver ref="mavenorg-aar"/>
+            <resolver ref="mavenorg-jar"/>
+            <resolver ref="google-android-aar"/>
+            <resolver ref="google-android-jar"/>
+
+            <resolver ref="Central-aar"/>
+            <resolver ref="Central-jar"/>
+
+            <resolver ref="JCenter-aar"/>
+            <resolver ref="JCenter-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="Google-aar"/>
+            <resolver ref="Google-jar"/>
+
+            <resolver ref="Spring Lib Release-aar"/>
+            <resolver ref="Spring Lib Release-jar"/>
+
+            <resolver ref="Mulesoft-aar"/>
+            <resolver ref="Mulesoft-jar"/>
+
+            <resolver ref="Gradle Releases-aar"/>
+            <resolver ref="Gradle Releases-jar"/>
+
+            <resolver ref="Liferay Public-aar"/>
+            <resolver ref="Liferay Public-jar"/>
+
+            <resolver ref="Imgly-aar"/>
+            <resolver ref="Imgly-jar"/>
+
+            <resolver ref="Scanbot-aar"/>
+            <resolver ref="Scanbot-jar"/>
+
+            <resolver ref="SurfStudio-aar"/>
+            <resolver ref="SurfStudio-jar"/>
+
+            <resolver ref="Spring Lib M-aar"/>
+            <resolver ref="Spring Lib M-jar"/>
+
+            <!-- <resolver ref="PentahoOmni-aar"/>
+            <resolver ref="PentahoOmni-jar"/>
+-->
+            <resolver ref="Aliyun-aar"/>
+            <resolver ref="Aliyun-jar"/>
+
+            <resolver ref="SciJava Public-aar"/>
+            <resolver ref="SciJava Public-jar"/>
+
+            <resolver ref="Kakao-aar"/>
+            <resolver ref="Kakao-jar"/>
+
+            <resolver ref="Couchbase-aar"/>
+            <resolver ref="Couchbase-jar"/>
+
+            <resolver ref="Igexin-aar"/>
+            <resolver ref="Igexin-jar"/>
+
+            <resolver ref="Yahoo-aar"/>
+            <resolver ref="Yahoo-jar"/>
+
+            <resolver ref="Compose-aar"/>
+            <resolver ref="Compose-jar"/>
+
+            <resolver ref="Instabug-aar"/>
+            <resolver ref="Instabug-jar"/>
+
+            <resolver ref="PuNative-aar"/>
+            <resolver ref="PuNative-jar"/>
+
+            <resolver ref="IronSrcAndroid-aar"/>
+            <resolver ref="IronSrcAndroid-jar"/>
+
+            <resolver ref="Sumsub-aar"/>
+            <resolver ref="Sumsub-jar"/>
+
+            <resolver ref="InLocoMedia-aar"/>
+            <resolver ref="InLocoMedia-jar"/>
+
+            <resolver ref="WSO2 Dist-aar"/>
+            <resolver ref="WSO2 Dist-jar"/>
+
+            <resolver ref="Pushe-aar"/>
+            <resolver ref="Pushe-jar"/>
+
+            <resolver ref="Realm-aar"/>
+            <resolver ref="Realm-jar"/>
+
+            <resolver ref="CometchatCallTeam-aar"/>
+            <resolver ref="CometchatCallTeam-jar"/>
+
+            <resolver ref="NewsDog-aar"/>
+            <resolver ref="NewsDog-jar"/>
+
+            <resolver ref="Embrace-aar"/>
+            <resolver ref="Embrace-jar"/>
+
+            <resolver ref="Huawei-aar"/>
+            <resolver ref="Huawei-jar"/>
+
+            <resolver ref="MobileAds-aar"/>
+            <resolver ref="MobileAds-jar"/>
+
+            <resolver ref="AppLovin SDKs-aar"/>
+            <resolver ref="AppLovin SDKs-jar"/>
+
+            <resolver ref="AutonomX-aar"/>
+            <resolver ref="AutonomX-jar"/>
+
+            <resolver ref="NBT-Adison-OW-aar"/>
+            <resolver ref="NBT-Adison-OW-jar"/>
+
+            <resolver ref="IotIgnite-aar"/>
+            <resolver ref="IotIgnite-jar"/>
+
+            <resolver ref="Datadog-aar"/>
+            <resolver ref="Datadog-jar"/>
+
+            <resolver ref="Twilio-aar"/>
+            <resolver ref="Twilio-jar"/>
+
+            <resolver ref="Bugtags-aar"/>
+            <resolver ref="Bugtags-jar"/>
+
+            <resolver ref="Novoda-aar"/>
+            <resolver ref="Novoda-jar"/>
+
+            <resolver ref="Wire Release-aar"/>
+            <resolver ref="Wire Release-jar"/>
+
+            <resolver ref="Data2Viz Dev-aar"/>
+            <resolver ref="Data2Viz Dev-jar"/>
+
+            <resolver ref="Tensorflow-aar"/>
+            <resolver ref="Tensorflow-jar"/>
+
+            <resolver ref="WSO2 Releases-aar"/>
+            <resolver ref="WSO2 Releases-jar"/>
+
+            <resolver ref="CometchatAndroid-aar"/>
+            <resolver ref="CometchatAndroid-jar"/>
+
+            <resolver ref="Peer5-aar"/>
+            <resolver ref="Peer5-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="ICM-aar"/>
+            <resolver ref="ICM-jar"/>
+
+            <resolver ref="Membrane SOA-aar"/>
+            <resolver ref="Membrane SOA-jar"/>
+
+            <resolver ref="AppLovin AA-aar"/>
+            <resolver ref="AppLovin AA-jar"/>
+
+            <resolver ref="DashJInterface-aar"/>
+            <resolver ref="DashJInterface-jar"/>
+
+            <resolver ref="ImageJ Public-aar"/>
+            <resolver ref="ImageJ Public-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="TrayisAndroid-aar"/>
+            <resolver ref="TrayisAndroid-jar"/>
+
+            <resolver ref="Jitpack-aar"/>
+            <resolver ref="Jitpack-jar"/>
+
+            <resolver ref="SchibstedSpain-aar"/>
+            <resolver ref="SchibstedSpain-jar"/>
+
+            <resolver ref="Microblink-aar"/>
+            <resolver ref="Microblink-jar"/>
+
+            <resolver ref="LivotovLabs-aar"/>
+            <resolver ref="LivotovLabs-jar"/>
+
+            <resolver ref="Smart-Soft-aar"/>
+            <resolver ref="Smart-Soft-jar"/>
+
+            <resolver ref="Swirlds-aar"/>
+            <resolver ref="Swirlds-jar"/>
+
+            <resolver ref="Naver-aar"/>
+            <resolver ref="Naver-jar"/>
+
+            <resolver ref="Onfido-aar"/>
+            <resolver ref="Onfido-jar"/>
+
+            <resolver ref="Bilibili-aar"/>
+            <resolver ref="Bilibili-jar"/>
+
+            <resolver ref="Data2Viz-aar"/>
+            <resolver ref="Data2Viz-jar"/>
+
+            <resolver ref="IndoorAtlasBT-aar"/>
+            <resolver ref="IndoorAtlasBT-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="OpenID-aar"/>
+            <resolver ref="OpenID-jar"/>
+
+            <resolver ref="WebRTC-aar"/>
+            <resolver ref="WebRTC-jar"/>
+
+            <resolver ref="CometchatAndroid-aar"/>
+            <resolver ref="CometchatAndroid-jar"/>
+
+            <resolver ref="Exoplayer-aar"/>
+            <resolver ref="Exoplayer-jar"/>
+
+            <resolver ref="JCenter-aar"/>
+            <resolver ref="JCenter-jar"/>
+
+            <resolver ref="Algolia-aar"/>
+            <resolver ref="Algolia-jar"/>
+
+            <resolver ref="UrbanAirshipAndroid-aar"/>
+            <resolver ref="UrbanAirshipAndroid-jar"/>
+
+            <resolver ref="CometchatAndroid-aar"/>
+            <resolver ref="CometchatAndroid-jar"/>
+
+            <resolver ref="NanorepSearch-aar"/>
+            <resolver ref="NanorepSearch-jar"/>
+
+            <resolver ref="WSO2 Public-aar"/>
+            <resolver ref="WSO2 Public-jar"/>
+
+            <resolver ref="NanorepDevCore-aar"/>
+            <resolver ref="NanorepDevCore-jar"/>
+
+            <resolver ref="Worldline-aar"/>
+            <resolver ref="Worldline-jar"/>
+
+            <resolver ref="MS OpenTech-aar"/>
+            <resolver ref="MS OpenTech-jar"/>
+
+            <resolver ref="EsriAndroid-aar"/>
+            <resolver ref="EsriAndroid-jar"/>
+
+            <resolver ref="Trifork-aar"/>
+            <resolver ref="Trifork-jar"/>
+
+            <resolver ref="Grails Core-aar"/>
+            <resolver ref="Grails Core-jar"/>
+
+            <resolver ref="Snowplow-aar"/>
+            <resolver ref="Snowplow-jar"/>
+
+            <resolver ref="Fidesmo-aar"/>
+            <resolver ref="Fidesmo-jar"/>
+
+            <resolver ref="OpenKM-aar"/>
+            <resolver ref="OpenKM-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="Jumpmind-aar"/>
+            <resolver ref="Jumpmind-jar"/>
+
+            <resolver ref="GuardianAndroid-aar"/>
+            <resolver ref="GuardianAndroid-jar"/>
+
+            <resolver ref="Codewaves-aar"/>
+            <resolver ref="Codewaves-jar"/>
+
+            <resolver ref="GroundTruth-aar"/>
+            <resolver ref="GroundTruth-jar"/>
+
+            <resolver ref="NanorepCore-aar"/>
+            <resolver ref="NanorepCore-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="AlphaCephei-aar"/>
+            <resolver ref="AlphaCephei-jar"/>
+
+            <resolver ref="Bluecabin-aar"/>
+            <resolver ref="Bluecabin-jar"/>
+
+            <resolver ref="Publit-aar"/>
+            <resolver ref="Publit-jar"/>
+
+            <resolver ref="Empyr-aar"/>
+            <resolver ref="Empyr-jar"/>
+
+            <resolver ref="Kotlin EAP-aar"/>
+            <resolver ref="Kotlin EAP-jar"/>
+
+            <resolver ref="ApolloGraphAndroid-aar"/>
+            <resolver ref="ApolloGraphAndroid-jar"/>
+
+            <resolver ref="MopubSDK-aar"/>
+            <resolver ref="MopubSDK-jar"/>
+
+            <resolver ref="Clevertap-aar"/>
+            <resolver ref="Clevertap-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="Redhat EA-aar"/>
+            <resolver ref="Redhat EA-jar"/>
+
+            <resolver ref="Epam RP-aar"/>
+            <resolver ref="Epam RP-jar"/>
+
+            <resolver ref="Kotlin Dev-aar"/>
+            <resolver ref="Kotlin Dev-jar"/>
+
+            <resolver ref="Spring Plugins-aar"/>
+            <resolver ref="Spring Plugins-jar"/>
+
+            <resolver ref="Gradle Plugins-aar"/>
+            <resolver ref="Gradle Plugins-jar"/>
+
+            <resolver ref="Snplow-aar"/>
+            <resolver ref="Snplow-jar"/>
+
+            <resolver ref="Atlassian 3rd-P Old-aar"/>
+            <resolver ref="Atlassian 3rd-P Old-jar"/>
+
+            <resolver ref="Spring Lib Release-aar"/>
+            <resolver ref="Spring Lib Release-jar"/>
+
+            <resolver ref="Agora-aar"/>
+            <resolver ref="Agora-jar"/>
+
+            <resolver ref="Alfresco 3rdParty-aar"/>
+            <resolver ref="Alfresco 3rdParty-jar"/>
+
+            <resolver ref="Erudika-aar"/>
+            <resolver ref="Erudika-jar"/>
+
+            <resolver ref="Bytedance-aar"/>
+            <resolver ref="Bytedance-jar"/>
+        </chain>
+    </resolvers>
+</ivysettings>
