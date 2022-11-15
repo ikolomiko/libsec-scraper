@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.braintreepayments</groupId>
+  <artifactId>popup-bridge</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>popup-bridge</name>
+  <description>PopupBridge is an Android library that allows WebViews to open popup windows in a browser and send data back to the WebView.</description>
+  <url>https://github.com/braintree/popup-bridge-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devs</id>
+      <name>Braintree Payments</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:braintree/popup-bridge-android.git</connection>
+    <developerConnection>scm:git@github.com:braintree/popup-bridge-android.git</developerConnection>
+    <url>scm:git@github.com:braintree/popup-bridge-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.braintreepayments</groupId>
+      <artifactId>browser-switch</artifactId>
+      <version>0.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

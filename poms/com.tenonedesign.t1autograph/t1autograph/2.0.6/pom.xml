@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tenonedesign.t1autograph</groupId>
+  <artifactId>t1autograph</artifactId>
+  <version>2.0.6</version>
+  <packaging>aar</packaging>
+  <name>T1Autograph</name>
+  <description>Simple, standards-based signature capture for Android</description>
+  <url>https://tenonedesign.com/t1autograph</url>
+  <licenses>
+    <license/>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tenonedesign</id>
+      <name>Ten One Design LLC</name>
+      <url>https://tenonedesign.com</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/tenonedesign</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-parcelize-runtime</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+  </dependencies>
+</project>

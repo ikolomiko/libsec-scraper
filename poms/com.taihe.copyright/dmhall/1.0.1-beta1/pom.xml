@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.taihe.copyright</groupId>
+  <artifactId>dmhall</artifactId>
+  <version>1.0.1-beta1</version>
+  <packaging>aar</packaging>
+  <name>dmhall </name>
+  <description>Provide all function of DMH,include base data services and music player</description>
+  <url>http://192.168.5.103/root/dmh_sdk_android</url>
+  <developers>
+    <developer>
+      <id>soli</id>
+      <name>soli</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://192.168.5.103/root/dmh_sdk_android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.taihe.copyright</groupId>
+      <artifactId>dmhcore</artifactId>
+      <version>1.0.1-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.taihe.copyright</groupId>
+      <artifactId>dmhplayer</artifactId>
+      <version>1.0.1-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

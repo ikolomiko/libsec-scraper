@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.geniussports</groupId>
+  <artifactId>geniussports-widgets-loader</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>SportsGenius</name>
+  <description>A library that integraties Genius Sports webview into native Android</description>
+  <url>https://gitlab.betgenius.net/ux/geniusbet-mobile-development/smarstream-android-integration</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>betgenius</id>
+      <name>Geniusbet mobile development</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.betgenius.net/ux/geniusbet-mobile-development/smarstream-android-integration.git</connection>
+    <developerConnection>https://gitlab.betgenius.net/ux/geniusbet-mobile-development/smarstream-android-integration.git</developerConnection>
+    <url>https://gitlab.betgenius.net/ux/geniusbet-mobile-development/smarstream-android-integration</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.opg.sdk</groupId>
+  <artifactId>opgsdk_lite</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>opgsdk_lite</name>
+  <description>The OnePoint Global Mobile App SDK allows you to build your own research capabilities into mobile applications. Built for Android you can integrate the OnePoint Global research capability and start getting feedback from your users..</description>
+  <url>https://github.com/OnePointGlobal/OnePoint-Global-Mobile-App-SDK-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dinesh</id>
+      <name>Dinesh Golla</name>
+      <email>dinesh.golla@onepointglobal.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/OnePointGlobal/OnePoint-Global-Mobile-App-SDK-Android.git</connection>
+    <developerConnection>https://github.com/OnePointGlobal/OnePoint-Global-Mobile-App-SDK-Android.git</developerConnection>
+    <url>https://github.com/OnePointGlobal/OnePoint-Global-Mobile-App-SDK-Android</url>
+  </scm>
+</project>

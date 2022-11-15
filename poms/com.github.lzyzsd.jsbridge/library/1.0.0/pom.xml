@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lzyzsd.jsbridge</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android JsBridge, Java and JavaScript communication bridge</name>
+  <url>https://github.com/lzyzsd/JsBridge</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lzyzsd</id>
+      <name>Bruce Lee</name>
+      <email>bruceinpeking@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lzyzsd/JsBridge.git</connection>
+    <developerConnection>https://github.com/lzyzsd/JsBridge.git</developerConnection>
+    <url>https://github.com/lzyzsd/JsBridge</url>
+  </scm>
+</project>

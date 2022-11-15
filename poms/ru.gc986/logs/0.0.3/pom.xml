@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.gc986</groupId>
+  <artifactId>logs</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>logs</name>
+  <description>Log helper</description>
+  <url>https://github.com/gc986/logs</url>
+  <licenses>
+    <license>
+      <name>AGPL-V3</name>
+      <url>https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gc986</id>
+      <name>Igor Yazovcev</name>
+      <email>gc986@list.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gc986/logs</connection>
+    <developerConnection>https://github.com/gc986/logs</developerConnection>
+    <url>https://github.com/gc986/logs</url>
+  </scm>
+</project>

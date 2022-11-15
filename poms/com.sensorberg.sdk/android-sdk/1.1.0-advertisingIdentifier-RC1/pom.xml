@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sensorberg.sdk</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>1.1.0-advertisingIdentifier-RC1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.sensorberg.android</groupId>
+      <artifactId>networkstate</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>8.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android</artifactId>
+      <version>0.79.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.danlew</groupId>
+      <artifactId>android.joda</artifactId>
+      <version>2.7.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sensorberg.android</groupId>
+      <artifactId>okvolley</artifactId>
+      <version>1.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sensorberg.android</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

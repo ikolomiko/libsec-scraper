@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.finixpayments.android</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>sdk</name>
+  <description>An Android SDK that allows users to tokenize credit card numbers</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>finixpayments</id>
+      <name>Finix</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/finix-payments/android-sdk.git</connection>
+    <developerConnection>https://github.com/finix-payments/android-sdk.git</developerConnection>
+    <url></url>
+  </scm>
+</project>

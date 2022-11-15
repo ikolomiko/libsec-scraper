@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lugeek</groupId>
+  <artifactId>extclassmapper</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>ExtClassMapper</name>
+  <description>String-Class Mapping for Android in building process.</description>
+  <url>https://github.com/lugeek/ExtClassMapper/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lugeek</id>
+      <name>Lugeek</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/lugeek/ExtClassMapper.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/lugeek/ExtClassMapper.git</developerConnection>
+    <url>https://github.com/lugeek/ExtClassMapper/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.lugeek</groupId>
+      <artifactId>extclassmapper-annotations</artifactId>
+      <version>0.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

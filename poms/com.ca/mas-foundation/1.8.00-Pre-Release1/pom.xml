@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ca</groupId>
+  <artifactId>mas-foundation</artifactId>
+  <version>1.8.00-Pre-Release1</version>
+  <packaging>aar</packaging>
+  <name>CA Mobile App Services</name>
+  <url>'https://www.ca.com/us/developers/mas.html'</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/CAAPIM/Android-MAS-SDK/blob/develop/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>'https://github.com/CAAPIM/Android-MAS-SDK.git'</connection>
+    <developerConnection>'https://github.com/CAAPIM/Android-MAS-SDK.git'</developerConnection>
+    <url>'https://www.ca.com/us/developers/mas.html'</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nimbusds</groupId>
+      <artifactId>nimbus-jose-jwt</artifactId>
+      <version>5.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>28.0.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
