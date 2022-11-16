@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.xuzhiyong017</groupId>
+  <artifactId>fix-memory-lib</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>fix-memory-lib</name>
+  <description>fix huawei or honor phone memory leak lib</description>
+  <url>https://github.com/xuzhiyong017/FixHWMemoryLeakPlugin</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bluesea</id>
+      <name>bluesea</name>
+      <email>18971269648@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xuzhiyong017/FixHWMemoryLeakPlugin.git</connection>
+    <developerConnection>https://github.com/xuzhiyong017/FixHWMemoryLeakPlugin.git</developerConnection>
+    <url>https://github.com/xuzhiyong017/FixHWMemoryLeakPlugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

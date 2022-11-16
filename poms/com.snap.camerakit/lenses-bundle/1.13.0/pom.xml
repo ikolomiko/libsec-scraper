@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snap.camerakit</groupId>
+  <artifactId>lenses-bundle</artifactId>
+  <version>1.13.0</version>
+  <packaging>aar</packaging>
+  <name>CameraKit (Lenses Bundle)</name>
+  <description>Small collection of lenses that can be bundled into apps for offline-first use.</description>
+  <url>https://snapkit.com/camera-kit</url>
+  <licenses>
+    <license>
+      <name>Snap License</name>
+      <url>https://github.com/Snapchat/camera-kit-reference/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snap</id>
+      <name>Snap, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Snapchat/camera-kit-reference.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Snapchat/camera-kit-reference.git</developerConnection>
+    <url>https://github.com/Snapchat/camera-kit-reference</url>
+  </scm>
+  <dependencies/>
+</project>

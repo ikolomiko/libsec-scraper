@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mytechia</groupId>
+  <artifactId>robobo-emotion</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Robobo-HRI-Emotion-Module</name>
+  <description>Robobo Emotion Module</description>
+  <url>https://bitbucket.org/mytechia/robobo-hri-emotion-module</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>luisllamas</id>
+      <name>Luis Felipe Llamas Luaces</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:mytechia/robobo-hri-emotion-module.git</connection>
+    <developerConnection>git@bitbucket.org:mytechia/robobo-hri-emotion-module.git</developerConnection>
+    <url>https://bitbucket.org/mytechia/robobo-hri-emotion-module.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>robobo-framework</artifactId>
+      <version>1.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>robobo-remote-control</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>opencv</artifactId>
+      <version>3.1.0-r2-my</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

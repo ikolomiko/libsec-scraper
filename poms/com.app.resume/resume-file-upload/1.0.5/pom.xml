@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.app.resume</groupId>
+  <artifactId>resume-file-upload</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Umesh Kumar</name>
+  <description>A library for finding out whether someone is on the list or the nice list</description>
+  <url>https://github.com/umeshbsa/android-library-publish-maven-jcenter</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bsaumesh</id>
+      <name>Umesh Kumar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/umeshbsa/android-library-publish-maven-jcenter.git</connection>
+    <url>https://github.com/umeshbsa/android-library-publish-maven-jcenter</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.gleap</groupId>
+  <artifactId>gleap-android-sdk</artifactId>
+  <version>7.0.34</version>
+  <packaging>aar</packaging>
+  <name>gleap-android-sdk</name>
+  <description>Know exactly why and how a bug happened. Get reports with screenshots, live action replays and all of the important metadata every time.</description>
+  <url>https://github.com/GleapSDK/Android-SDK</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/GleapSDK/Android-SDK/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mondbaer</id>
+      <name>Niklas Fessler</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:GleapSDK/Android-SDK.git</connection>
+    <developerConnection>scm:git@github.com:GleapSDK/Android-SDK.git</developerConnection>
+    <url>https://github.com/GleapSDK/Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

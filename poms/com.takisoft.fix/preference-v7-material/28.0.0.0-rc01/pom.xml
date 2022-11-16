@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.takisoft.fix</groupId>
+  <artifactId>preference-v7-material</artifactId>
+  <version>28.0.0.0-rc01</version>
+  <packaging>aar</packaging>
+  <name>Preference v7 - Fix with Material Components</name>
+  <description>Android Support Library Preference v7 is full of bugs. This library tries to overcome some of the basic problems. The original Support Library files are under Apache 2.0, the fixes are unlicensed.</description>
+  <url>https://github.com/Gericop/Android-Support-Preference-V7-Fix</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gericop</id>
+      <name>Gergely Kőrössy</name>
+      <email>korossyg@takisoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Gericop/Android-Support-Preference-V7-Fix.git</connection>
+    <developerConnection>https://github.com/Gericop/Android-Support-Preference-V7-Fix.git</developerConnection>
+    <url>https://github.com/Gericop/Android-Support-Preference-V7-Fix</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.takisoft.fix</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>28.0.0.0-rc01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>28.0.0-rc01</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xyz.vinesh</groupId>
+  <artifactId>creditcardview</artifactId>
+  <version>1.1.6</version>
+  <packaging>aar</packaging>
+  <name>creditcardview</name>
+  <description>A Credit or Debit card view for Android</description>
+  <url>https://github.com/VineshRaju/CreditCardView</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vineshraju</id>
+      <name>Vinesh Raju</name>
+      <email>vineshraju@rocketmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/VineshRaju/CreditCardView.git</connection>
+    <developerConnection>https://github.com/VineshRaju/CreditCardView.git</developerConnection>
+    <url>https://github.com/VineshRaju/CreditCardView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.earthyan.codescanner</groupId>
+  <artifactId>codescanner</artifactId>
+  <version>0.0.5</version>
+  <packaging>aar</packaging>
+  <name>CodeScanner</name>
+  <description>CodeScanner is an scanner to get information of images, include bar Code scan and QR code scan . Base on google ZXing scan.</description>
+  <url>https://github.com/yan493483722</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yan493483722</id>
+      <name>zi.yan</name>
+      <email>493483722@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yan493483722</connection>
+    <developerConnection>https://github.com/yan493483722</developerConnection>
+    <url>https://github.com/yan493483722</url>
+  </scm>
+</project>

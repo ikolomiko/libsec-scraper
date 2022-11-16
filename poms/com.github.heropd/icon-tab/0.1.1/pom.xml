@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.heropd</groupId>
+  <artifactId>icon-tab</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>IconTab</name>
+  <description>icon tab for android</description>
+  <url>https://github.com/HeroPD/PersonalTab</url>
+  <licenses>
+    <license>
+      <name>The BSD 2-Clause License</name>
+      <url>http://opensource.org/licenses/BSD-2-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>heropd</id>
+      <name>Munkhuu E</name>
+      <email>munkhuu0825@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HeroPD/PersonalTab.git</connection>
+    <developerConnection>https://github.com/HeroPD/PersonalTab.git</developerConnection>
+    <url>https://github.com/HeroPD/PersonalTab</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

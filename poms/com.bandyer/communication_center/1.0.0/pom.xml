@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bandyer</groupId>
+  <artifactId>communication_center</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android-CommunicationCenter</name>
+  <description>This library is the Bandyer's communication center for android.</description>
+  <url>https://github.com/Bandyer/Android-CommunicationCenter</url>
+  <licenses>
+    <license>
+      <name>Unlicense</name>
+      <url>https://github.com/Bandyer/Android-CommunicationCenter/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>krispetrov</id>
+      <name>Bandyer Srl</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Bandyer/Android-CommunicationCenter.git</connection>
+    <developerConnection>https://github.com/Bandyer/Android-CommunicationCenter.git</developerConnection>
+    <url>https://github.com/Bandyer/Android-CommunicationCenter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.41</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bandyer</groupId>
+      <artifactId>core_av</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>socket.io-client</artifactId>
+          <groupId>com.bandyer</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.bandyer</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>1.0.9</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

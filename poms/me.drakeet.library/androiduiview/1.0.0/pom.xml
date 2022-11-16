@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.drakeet.library</groupId>
+  <artifactId>androiduiview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AndroidUIView Library</name>
+  <description>It's a very simple custom views library according UIButton in iOS, all of the views can be automatically set a pressed effect to a button with a simple background image without writing a selector.xml</description>
+  <url>https://github.com/drakeet/AndroidUIView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drakeet</id>
+      <name>drakeet</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:drakeet/AndroidUIView.git</connection>
+    <developerConnection>scm:git@github.com:drakeet/AndroidUIView.git</developerConnection>
+    <url>https://github.com/drakeet/AndroidUIView</url>
+  </scm>
+</project>

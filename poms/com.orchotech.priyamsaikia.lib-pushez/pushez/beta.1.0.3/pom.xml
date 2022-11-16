@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.orchotech.priyamsaikia.lib-pushez</groupId>
+  <artifactId>pushez</artifactId>
+  <version>beta.1.0.3</version>
+  <packaging>aar</packaging>
+  <name>A library that makes it very easy to use Google Cloud Messaging on Android Apps.</name>
+  <url>https://github.com/saikiapriyam/lib_pushez</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>priyamsaikia</id>
+      <name>Priyam Saikia</name>
+      <email>orchotech@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/saikiapriyam/lib_pushez.git</connection>
+    <developerConnection>https://github.com/saikiapriyam/lib_pushez.git</developerConnection>
+    <url>https://github.com/saikiapriyam/lib_pushez</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-measurement</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

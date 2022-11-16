@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.antonzorin.dotted-progressbar</groupId>
+  <artifactId>dottedprogressbar</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>Dotted ProgressBar</name>
+  <description>Animated customizable progress bar, made of dots on Android</description>
+  <url>https://github.com/AntonZorin/dotted-progressbar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>azimuth256</id>
+      <name>Anton Zorin</name>
+      <email>anton256@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AntonZorin/dotted-progressbar.git</connection>
+    <developerConnection>https://github.com/AntonZorin/dotted-progressbar.git</developerConnection>
+    <url>https://github.com/AntonZorin/dotted-progressbar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

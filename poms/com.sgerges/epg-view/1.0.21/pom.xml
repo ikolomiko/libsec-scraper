@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sgerges</groupId>
+  <artifactId>epg-view</artifactId>
+  <version>1.0.21</version>
+  <packaging>aar</packaging>
+  <name>epg-view</name>
+  <description>Android View Library to display Electronic Program Guide (EPG) on an efficient way for Android Mobiles and Tablets</description>
+  <url>https://github.com/simonkarmy/Android-EPGView</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simonkarmy</id>
+      <name>Simon Karmy</name>
+      <email>simonkarmy2004@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/simonkarmy/Android-EPGView.git</connection>
+    <developerConnection>https://github.com/simonkarmy/Android-EPGView.git</developerConnection>
+    <url>https://github.com/simonkarmy/Android-EPGView</url>
+  </scm>
+</project>

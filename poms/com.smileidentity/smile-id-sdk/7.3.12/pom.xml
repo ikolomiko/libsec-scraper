@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.smileidentity</groupId>
+  <artifactId>smile-id-sdk</artifactId>
+  <version>7.3.12</version>
+  <packaging>aar</packaging>
+  <name>smile-id-sdk</name>
+  <description>The Official Smile Identity Android SDK</description>
+  <url>https://www.smileidentity.com</url>
+  <licenses>
+    <license>
+      <name>Smile Identity Terms of Use</name>
+      <url>https://www.smileidentity.com</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>japhet</id>
+      <name>Japhet Ndhlovu</name>
+      <url>https://www.smileidentity.com</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://www.smileidentity.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-mlkit-face-detection</artifactId>
+      <version>16.1.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.3.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.0.0-beta2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>31.0.1-jre</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.smileidentity</groupId>
+      <artifactId>netjava</artifactId>
+      <version>0.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

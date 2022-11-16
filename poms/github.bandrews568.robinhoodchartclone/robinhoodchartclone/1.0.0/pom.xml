@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>github.bandrews568.robinhoodchartclone</groupId>
+  <artifactId>robinhoodchartclone</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>robinhoodchartclone</name>
+  <description>Android view clone of the sparkline chart from the Robinhood app</description>
+  <url>https://github.com/bandrews568/Robinhood-Chart-Clone</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bandrews568</id>
+      <name>Brandon Andrews</name>
+      <email>bandrews568@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bandrews568/Robinhood-Chart-Clone.git</connection>
+    <developerConnection>https://github.com/bandrews568/Robinhood-Chart-Clone.git</developerConnection>
+    <url>https://github.com/bandrews568/Robinhood-Chart-Clone</url>
+  </scm>
+</project>

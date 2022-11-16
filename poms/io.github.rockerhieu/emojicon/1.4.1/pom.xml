@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.rockerhieu</groupId>
+  <artifactId>emojicon</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>Emojicon Library for Android</name>
+  <description>A library to show emoji in TextView, EditText (like WhatsApp) for Android</description>
+  <url>http://rockerhieu.github.io/emojicon</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rockerhieu</id>
+      <name>Hieu Rocker</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:rockerhieu/emojicon.git</connection>
+    <developerConnection>scm:git@github.com:rockerhieu/emojicon.git</developerConnection>
+    <url>https://github.com/rockerhieu/emojicon</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

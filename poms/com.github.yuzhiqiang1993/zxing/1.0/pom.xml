@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yuzhiqiang1993</groupId>
+  <artifactId>zxing</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>yuzhiqiang1993/zxing</name>
+  <description>基于Google zxing的一个简化版的二维码扫描</description>
+  <url>http://blog.csdn.net/yuzhiqiang_1993/article/details/52805057</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>yuzhiqiang1993</id>
+      <name>喻志强</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yuzhiqiang1993/zxing.git</connection>
+    <developerConnection>scm:git://github.com/yuzhiqiang1993/zxing.git</developerConnection>
+    <url>git://github.com/yuzhiqiang1993/zxing.git</url>
+  </scm>
+</project>

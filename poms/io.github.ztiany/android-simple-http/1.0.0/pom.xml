@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ztiany</groupId>
+  <artifactId>android-simple-http</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>android-simple-http</name>
+  <description>android architecture practice</description>
+  <url>https://github.com/Ztiany/android-architecture-practice</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Ztiany</id>
+      <name>Alien</name>
+      <url>https://github.com/Ztiany/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Ztiany/android-architecture-practice.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Ztiany/android-architecture-practice.git</developerConnection>
+    <url>https://github.com/Ztiany/android-architecture-practice</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

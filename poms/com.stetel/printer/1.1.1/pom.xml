@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stetel</groupId>
+  <artifactId>printer</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>printer</name>
+  <description>An easy to use - fully featured logging library for Android</description>
+  <url>https://github.com/stetel/printer</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:github.com/stetel/printer.git</connection>
+    <developerConnection>scm:git:github.com/stetel/printer.git</developerConnection>
+    <url>https://github.com/stetel/printer.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>kazikal</id>
+      <name>Lorenzo Lombardo</name>
+      <email>l.lombardo@stetel.com</email>
+      <organization>Stetel Srl</organization>
+      <organizationUrl>http://www.stetel.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-core-utils</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

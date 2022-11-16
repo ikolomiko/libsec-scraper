@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jimmytai.library</groupId>
+  <artifactId>jimmytai-utilities</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This utilities library include HTTP client, local network, image tool, wheel view, sector progress view, wave progress view.</name>
+  <url>https://bitbucket.org/JimmyTai/jimmytai-utilities</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jimmytai0315</id>
+      <name>Jimmy Tai</name>
+      <email>jimmytai0315@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/JimmyTai/jimmytai-utilities.git</connection>
+    <developerConnection>https://bitbucket.org/JimmyTai/jimmytai-utilities.git</developerConnection>
+    <url>https://bitbucket.org/JimmyTai/jimmytai-utilities</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

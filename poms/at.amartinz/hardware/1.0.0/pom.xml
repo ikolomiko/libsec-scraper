@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.amartinz</groupId>
+  <artifactId>hardware</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>hardware-library</name>
+  <description>Get information about the device, its hardware and software</description>
+  <url>https://github.com/Evisceration/HardwareLibrary</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>evisceration</id>
+      <name>Alexander Martinz</name>
+      <email>eviscerationls@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Evisceration/HardwareLibrary.git</connection>
+    <developerConnection>git@github.com:Evisceration/HardwareLibrary.git</developerConnection>
+    <url>https://github.com/Evisceration/HardwareLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.hugo</groupId>
+      <artifactId>hugo-annotations</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Evisceration</groupId>
+      <artifactId>ExecutionLibrary</artifactId>
+      <version>master-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hanwook</groupId>
+  <artifactId>qrcode</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>androidUiAlertView</name>
+  <description>A View control with a high profile IOS Alert</description>
+  <url>https://github.com/hanswook/scanQRCode</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hans</id>
+      <name>hans</name>
+      <email>hxxx1992@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hanswook/scanQRCode.git</connection>
+    <developerConnection>https://github.com/hanswook/scanQRCode.git</developerConnection>
+    <url>https://github.com/hanswook/scanQRCode</url>
+  </scm>
+</project>

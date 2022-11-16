@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.rongcloud.sdk</groupId>
+  <artifactId>im_location</artifactId>
+  <version>5.1.3</version>
+  <packaging>aar</packaging>
+  <name>release</name>
+  <description>a rongcloud sdk</description>
+  <url>https://www.rongcloud.cn</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rongcloud_developer</id>
+      <name>rongcloud</name>
+      <email>rongcloud@rongcloud.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rongcloud</connection>
+    <developerConnection>https://github.com/rongcloud</developerConnection>
+    <url>https://www.rongcloud.cn</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>cn.rongcloud.sdk</groupId>
+      <artifactId>im_libcore</artifactId>
+      <version>5.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

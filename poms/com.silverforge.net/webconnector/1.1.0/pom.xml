@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.silverforge.net</groupId>
+  <artifactId>webconnector</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>WebConnector is a lightweight http/https client for Android devs</name>
+  <url>https://bitbucket.org/silverforge/lotterystats</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>silverforge</id>
+      <name>Janos Murvai-Gaal</name>
+      <email>janos.murvaigaal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@bitbucket.org:silverforge/lotterystats.git</connection>
+    <developerConnection>git@bitbucket.org:silverforge/lotterystats.git</developerConnection>
+    <url>https://bitbucket.org/silverforge/lotterystats</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.androidannotations</groupId>
+      <artifactId>androidannotations-api</artifactId>
+      <version>3.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.rholder</groupId>
+      <artifactId>guava-retrying</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.14</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

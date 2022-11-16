@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>energy.octopus</groupId>
+  <artifactId>tesla-android-auth</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>tesla-android-auth</name>
+  <description>Android library for Tesla Authentication based on Tesla JSON API (Unofficial)</description>
+  <url>https://github.com/octopus-energy/TeslaAndroidAuth</url>
+  <licenses>
+    <license>
+      <name>GPL-3.0 License</name>
+      <url>https://github.com/octopus-energy/TeslaAndroidAuth/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nrobi144</id>
+      <name>Róbert Nagy</name>
+      <email>robert.nagy.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/octopus-energy/TeslaAndroidAuth.git</connection>
+    <developerConnection>scm:git:ssh://github.com/octopus-energy/TeslaAndroidAuth.git</developerConnection>
+    <url>https://github.com/octopus-energy/TeslaAndroidAuth/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.1.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.1.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-util</artifactId>
+      <version>1.1.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.12.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-android</artifactId>
+      <version>1.6.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-serialization</artifactId>
+      <version>1.6.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-logging</artifactId>
+      <version>1.6.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-ktx</artifactId>
+      <version>2.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-compose</artifactId>
+      <version>2.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.noveogroup.android</groupId>
+  <artifactId>highlightify</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>Highlightify</name>
+  <description>Add pressed state to text color and drawables from runtime</description>
+  <url>https://github.com/noveogroup/Highlightify</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RomanZhilich</id>
+      <name>Roman Zhilich</name>
+      <url>https://github.com/RomanZhilich</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:noveogroup/Highlightify.git</connection>
+    <developerConnection>scm:git@github.com:noveogroup/Highlightify.git</developerConnection>
+    <url>https://github.com/noveogroup/Highlightify</url>
+  </scm>
+</project>

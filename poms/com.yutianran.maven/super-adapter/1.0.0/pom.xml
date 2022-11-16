@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yutianran.maven</groupId>
+  <artifactId>super-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>super-adapter</name>
+  <url>https://github.com/fishyer/SuperAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yutianran</id>
+      <name>yutianran</name>
+      <email>yutianran@aliyun.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fishyer/SuperAdapter.git</connection>
+    <developerConnection>https://github.com/fishyer/SuperAdapter.git</developerConnection>
+    <url>https://github.com/fishyer/SuperAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.paymaya</groupId>
+  <artifactId>sdk-android</artifactId>
+  <version>0.6.0</version>
+  <packaging>aar</packaging>
+  <name>PayMaya SDK Android</name>
+  <description>The PayMaya Android SDK allows your app to accept payments from your customers using any MasterCard and Visa card (credit, debit, or prepaid).</description>
+  <url>https://github.com/PayMaya/PayMaya-Android-SDK</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>paymaya</id>
+      <name>PayMaya Philippines, Inc.</name>
+      <email>ssfrancisco@voyagerinnovation.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/PayMaya/PayMaya-Android-SDK.git</connection>
+    <developerConnection>https://github.com/PayMaya/PayMaya-Android-SDK.git</developerConnection>
+    <url>https://github.com/PayMaya/PayMaya-Android-SDK</url>
+  </scm>
+</project>

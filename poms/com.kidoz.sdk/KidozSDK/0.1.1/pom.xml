@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kidoz.sdk</groupId>
+  <artifactId>KidozSDK</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>kidoz-sdk</name>
+  <description>Kidoz children content sdk</description>
+  <developers>
+    <developer>
+      <id>eugine</id>
+      <name>Kidoz</name>
+      <email>evgeny@kidoz.net</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>7.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

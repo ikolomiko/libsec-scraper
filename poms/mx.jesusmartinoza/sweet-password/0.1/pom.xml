@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.jesusmartinoza</groupId>
+  <artifactId>sweet-password</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>Sweet Password</name>
+  <description>A customizable EditText with a switchable eye which shows or hides the password</description>
+  <url>https://github.com/jesusmartinoza/Sweet-Password</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jesusmartinoza</id>
+      <name>Jesús Alberto Martínez Mendoza</name>
+      <email>jesusmartinoza@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jesusmartinoza/Sweet-Password.git</connection>
+    <developerConnection>https://github.com/jesusmartinoza/Sweet-Password.git</developerConnection>
+    <url>https://github.com/jesusmartinoza/Sweet-Password</url>
+  </scm>
+</project>

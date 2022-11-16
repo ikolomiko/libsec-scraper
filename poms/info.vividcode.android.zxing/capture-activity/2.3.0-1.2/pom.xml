@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>info.vividcode.android.zxing</groupId>
+  <artifactId>capture-activity</artifactId>
+  <version>2.3.0-1.2</version>
+  <packaging>aar</packaging>
+  <name>android-lib-ZXingCaptureActivity</name>
+  <description>Library for Android applications, which provides Activity to read barcode</description>
+  <url>https://github.com/nobuoka/android-lib-ZXingCaptureActivity</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nobuoka</id>
+      <name>NOBUOKA Yu</name>
+      <email>nobuoka+dev@vividcode.info</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:nobuoka/android-lib-ZXingCaptureActivity.git</connection>
+    <developerConnection>scm:git@github.com:nobuoka/android-lib-ZXingCaptureActivity.git</developerConnection>
+    <url>scm:git@github.com:nobuoka/android-lib-ZXingCaptureActivity.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.tus.android.client</groupId>
+  <artifactId>tus-android-client</artifactId>
+  <version>0.1.6</version>
+  <packaging>aar</packaging>
+  <name>tus-android-client</name>
+  <description>Android client for tus, the resumable file uploading protocol.</description>
+  <url>http://tus.io</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>acconut</id>
+      <name>Marius Kleidl</name>
+      <email>marius@transloadit.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tus/tus-android-client</connection>
+    <developerConnection>https://github.com/tus/tus-android-client</developerConnection>
+    <url>https://github.com/tus/tus-android-client</url>
+  </scm>
+</project>

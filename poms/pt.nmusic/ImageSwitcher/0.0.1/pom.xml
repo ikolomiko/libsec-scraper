@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pt.nmusic</groupId>
+  <artifactId>ImageSwitcher</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>ImageSwitcher</name>
+  <description>An Android library allowing for easy, configuration-less, touch view switching.</description>
+  <url>https://github.com/Mithrandir21/ImageSwitcher</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3</name>
+      <url>http://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mithrandir21</id>
+      <name>Bahram Malaekeh</name>
+      <email>bahram.malaekeh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Mithrandir21/ImageSwitcher.git</connection>
+    <developerConnection>https://github.com/Mithrandir21/ImageSwitcher.git</developerConnection>
+    <url>https://github.com/Mithrandir21/ImageSwitcher</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>0.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

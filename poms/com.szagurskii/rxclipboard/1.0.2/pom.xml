@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.szagurskii</groupId>
+  <artifactId>rxclipboard</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>RxClipboard</name>
+  <description>RxJava binding APIs for Android's clipboard.</description>
+  <url>https://github.com/zsavely/RxClipboard</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zsavely</id>
+      <name>Savelii Zagurskii</name>
+      <email>saveliyzagurskiy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zsavely/RxClipboard.git</connection>
+    <developerConnection>https://github.com/zsavely/RxClipboard.git</developerConnection>
+    <url>https://github.com/zsavely/RxClipboard</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

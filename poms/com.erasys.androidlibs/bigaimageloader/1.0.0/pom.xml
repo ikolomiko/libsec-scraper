@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.erasys.androidlibs</groupId>
+  <artifactId>bigaimageloader</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>bigaimageloader</name>
+  <description>An image loader based on Glide library</description>
+  <developers>
+    <developer>
+      <id>afin</id>
+      <name>afin</name>
+      <email>afin.andianto@erasysconsulting.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

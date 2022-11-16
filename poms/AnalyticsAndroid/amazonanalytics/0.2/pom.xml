@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AnalyticsAndroid</groupId>
+  <artifactId>amazonanalytics</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>com.hanekedesign.amazonanalytics</name>
+  <description>Android Analytics Library - Amazon Analytics</description>
+  <url>https://github.com/hanekedesign/HDAnalytics.git</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hanekedesign</id>
+      <name>Haneke Design</name>
+      <email>admin@hanekedesign.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hanekedesign/HDAnalytics.git</connection>
+    <developerConnection>https://github.com/hanekedesign/HDAnalytics.git</developerConnection>
+    <url>https://github.com/hanekedesign/HDAnalytics.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-mobileanalytics</artifactId>
+      <version>2.3.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>multidex</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>AnalyticsAndroid</groupId>
+      <artifactId>hdanalytics</artifactId>
+      <version>unspecified</version>
+      <classifier>release</classifier>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

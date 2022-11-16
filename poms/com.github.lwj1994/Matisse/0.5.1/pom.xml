@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lwj1994</groupId>
+  <artifactId>Matisse</artifactId>
+  <version>0.5.1</version>
+  <packaging>aar</packaging>
+  <name>lwj1994/Matisse</name>
+  <description>:fireworks: A well-designed local image and video selector for Android</description>
+  <url>https://github.com/lwj1994/Matisse</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lwj1994</id>
+      <name>wenchieh</name>
+      <email>alwjlola@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/lwj1994/Matisse.git</connection>
+    <developerConnection>scm:git://github.com/lwj1994/Matisse.git</developerConnection>
+    <url>git://github.com/lwj1994/Matisse.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>it.sephiroth.android.library.imagezoom</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

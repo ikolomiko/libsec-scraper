@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.medy</groupId>
+  <artifactId>retrofitwrapper</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>retrofitwrapper</name>
+  <description>A wrapper for Retrofit web service library.</description>
+  <url>https://medyp@bitbucket.org/medyp/webserviceretrofit.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>manish</id>
+      <name>Manish Kumar</name>
+      <email>manishkumarsaharan@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://medyp@bitbucket.org/medyp/webserviceretrofit.git</connection>
+    <developerConnection>https://medyp@bitbucket.org/medyp/webserviceretrofit.git</developerConnection>
+    <url>https://medyp@bitbucket.org/medyp/webserviceretrofit.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

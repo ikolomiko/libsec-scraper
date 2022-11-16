@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.box</groupId>
+  <artifactId>box-android-sdk</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>Box Android SDK</name>
+  <description>Box Android SDK</description>
+  <url>https://github.com/box/box-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt </url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>androidbox</id>
+      <name>Box Android Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:box/box-android-sdk.git</connection>
+    <url>https://github.com/box/box-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.eclipsesource.minimal-json</groupId>
+      <artifactId>minimal-json</artifactId>
+      <version>0.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kevalpatel2106</groupId>
+  <artifactId>passcodeview</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>PasscodeView</name>
+  <description>PasscodeView is an Android Library to easily and securely authenticate user with PIN code or using the fingerprint scanner.</description>
+  <url>https://github.com/kevalpatel2106/PasscodeView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevalpatel2106</id>
+      <name>Keval Patel</name>
+      <email>kevalpatel2106@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kevalpatel2106/PasscodeView.git</connection>
+    <developerConnection>https://github.com/kevalpatel2106/PasscodeView.git</developerConnection>
+    <url>https://github.com/kevalpatel2106/PasscodeView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

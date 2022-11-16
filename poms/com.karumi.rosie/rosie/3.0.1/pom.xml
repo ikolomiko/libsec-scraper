@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.karumi.rosie</groupId>
+  <artifactId>rosie</artifactId>
+  <version>3.0.1</version>
+  <packaging>aar</packaging>
+  <name>rosie</name>
+  <description>Rosie is an Android framework to create applications following the principles of Clean Architecture.</description>
+  <url>https://github.com/karumi/rosie</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>karumi</id>
+      <name>Karumi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:karumi/rosie</connection>
+    <developerConnection>scm:git@github.com:karumi/rosie</developerConnection>
+    <url>https://github.com/karumi/rosie</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.birbit</groupId>
+      <artifactId>android-priority-jobqueue</artifactId>
+      <version>1.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

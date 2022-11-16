@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.magora-systems.android</groupId>
+  <artifactId>material-toolbar-spinner</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Material Toolbar Spinner</name>
+  <description>A wrapper for for a Spinner to show it in the Toolbar in material style uniformly among Android versions</description>
+  <url>https://github.com/Magora-Android/material-toolbar-spinner</url>
+  <organization>
+    <name>Magora Systems</name>
+    <url>http://magora-systems.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/Magora-Android/material-toolbar-spinner/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Stanislav Borzenko</name>
+      <email>borzenko@magora.systems</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Magora-Android/material-toolbar-spinner.git</connection>
+    <developerConnection>https://github.com/Magora-Android/material-toolbar-spinner.git</developerConnection>
+    <url>https://github.com/Magora-Android/material-toolbar-spinner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

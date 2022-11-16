@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.devahamed.test</groupId>
+  <artifactId>ahd-ci-snapshot</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>Snapshot Push</name>
+  <description>A library to demonstrate the CI integration with the git integration</description>
+  <url>https://github.com/DevAhamed/CITutorial</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DevAhamed</id>
+      <name>Riyaz Ahamed</name>
+      <email>dev.ahamed@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DevAhamed/CITutorial.git</connection>
+    <developerConnection>https://github.com/DevAhamed/CITutorial.git</developerConnection>
+    <url>https://github.com/DevAhamed/CITutorial.git</url>
+  </scm>
+</project>

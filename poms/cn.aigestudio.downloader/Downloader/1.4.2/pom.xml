@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.aigestudio.downloader</groupId>
+  <artifactId>Downloader</artifactId>
+  <version>1.4.2</version>
+  <packaging>aar</packaging>
+  <name>A useful Downloader for Andorid implement multi thread and break-point download</name>
+  <url>https://github.com/AigeStudio/MultiThreadDownloader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aigestudio</id>
+      <name>Aige</name>
+      <email>aigestudio@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AigeStudio/MultiThreadDownloader.git</connection>
+    <developerConnection>https://github.com/AigeStudio/MultiThreadDownloader.git</developerConnection>
+    <url>https://github.com/AigeStudio/MultiThreadDownloader</url>
+  </scm>
+</project>

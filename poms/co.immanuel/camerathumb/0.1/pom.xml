@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.immanuel</groupId>
+  <artifactId>camerathumb</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>camerathumb</name>
+  <description>Camera captures images and displays thumbnail at bottom and stays on the same screen</description>
+  <url>https://github.com/immi5556/Android-Camera-Thumbnail</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>immanuel</id>
+      <name>Immanuel Raj</name>
+      <email>raj@immanuel.co</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/immi5556/Android-Camera-Thumbnail.git</connection>
+    <developerConnection>https://github.com/immi5556/Android-Camera-Thumbnail.git</developerConnection>
+    <url>https://github.com/immi5556/Android-Camera-Thumbnail</url>
+  </scm>
+</project>

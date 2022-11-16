@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.rubintry.widget</groupId>
+  <artifactId>dialog</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>dialog</name>
+  <description>AndroidUiWidget🍉 is a rich UI widget library，it can greatly improve your development efficiency.🍉</description>
+  <url>https://github.com/RubinTry/AndroidUiWidget.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rubintry</id>
+      <name>Rubintry NAME</name>
+      <email>13857769302@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:RubinTry/AndroidUiWidget.git</connection>
+    <developerConnection>git@github.com:RubinTry/AndroidUiWidget.git</developerConnection>
+    <url>https://github.com/RubinTry/AndroidUiWidget.git</url>
+  </scm>
+</project>

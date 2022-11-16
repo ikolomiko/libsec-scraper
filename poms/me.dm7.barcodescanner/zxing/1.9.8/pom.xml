@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.dm7.barcodescanner</groupId>
+  <artifactId>zxing</artifactId>
+  <version>1.9.8</version>
+  <packaging>aar</packaging>
+  <name>ZXing Scanner View</name>
+  <description>An android library project which contains the zxing barcode scanner view</description>
+  <url>https://github.com/dm77/barcodescanner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dm77</id>
+      <name>Dushyanth Maguluru</name>
+      <email>dushyanth.maguluru@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:dm77/barcodescanner.git</connection>
+    <developerConnection>scm:git@github.com:dm77/barcodescanner.git</developerConnection>
+    <url>scm:git@github.com:dm77/barcodescanner.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.dm7.barcodescanner</groupId>
+      <artifactId>core</artifactId>
+      <version>1.9.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

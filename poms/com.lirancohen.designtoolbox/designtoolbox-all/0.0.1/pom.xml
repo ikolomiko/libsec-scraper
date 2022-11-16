@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lirancohen.designtoolbox</groupId>
+  <artifactId>designtoolbox-all</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>designtoolbox-all</name>
+  <description>A collection of handy widgets and ui assets for rapid deployment of android applications</description>
+  <url>https://cohen_liran@bitbucket.org/cohen_liran/design-toolbox</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lirancr</id>
+      <name>Liran Cohen</name>
+      <email>lirancr@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://cohen_liran@bitbucket.org/cohen_liran/design-toolbox.git</connection>
+    <developerConnection>https://cohen_liran@bitbucket.org/cohen_liran/design-toolbox.git</developerConnection>
+    <url>https://cohen_liran@bitbucket.org/cohen_liran/design-toolbox</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lirancohen.designtoolbox</groupId>
+      <artifactId>designtoolbox-styleable-dialog</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lirancohen.designtoolbox</groupId>
+      <artifactId>designtoolbox-selection-toggle-array-adapter</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lirancohen.designtoolbox</groupId>
+      <artifactId>designtoolbox-picker</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lirancohen.designtoolbox</groupId>
+      <artifactId>designtoolbox-referenced-pager-adapter</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.cleverpumpkin</groupId>
+  <artifactId>crunchycalendar</artifactId>
+  <version>2.2.0</version>
+  <packaging>aar</packaging>
+  <name>CrunchyCalendar</name>
+  <description>Light, powerful and easy to use Calendar Widget with a number of features out of the box</description>
+  <url>https://github.com/CleverPumpkin/CrunchyCalendar</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alexsurinov</id>
+      <name>Alexander Surinov</name>
+      <organization>clverpumpkin</organization>
+    </developer>
+    <developer>
+      <id>Limanskaya</id>
+      <name>Anastasiya Stroganova</name>
+      <organization>clverpumpkin</organization>
+    </developer>
+    <developer>
+      <id>itolianezzz</id>
+      <name>Anatoly Shulipov</name>
+      <organization>clverpumpkin</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CleverPumpkin/CrunchyCalendar.git</connection>
+    <developerConnection>https://github.com/CleverPumpkin/CrunchyCalendar.git</developerConnection>
+    <url>https://github.com/CleverPumpkin/CrunchyCalendar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

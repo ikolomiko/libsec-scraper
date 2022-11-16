@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.testpress</groupId>
+  <artifactId>MPAndroidChart</artifactId>
+  <version>2.1.6</version>
+  <name>testpress/MPAndroidChart</name>
+  <description>A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</description>
+  <url>https://github.com/testpress/MPAndroidChart</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>testpress</id>
+      <name>Testpress</name>
+      <email>support@testpress.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/testpress/MPAndroidChart.git</connection>
+    <developerConnection>scm:git://github.com/testpress/MPAndroidChart.git</developerConnection>
+    <url>git://github.com/testpress/MPAndroidChart.git</url>
+  </scm>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kokaba.rxfirebase</groupId>
+  <artifactId>database</artifactId>
+  <version>0.1.0-alpha</version>
+  <packaging>aar</packaging>
+  <name>RxFirebase</name>
+  <description>Simple Rx wrapper for firebase database</description>
+  <url>https://github.com/Lovrenc/RxFirebase</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lovrenc</id>
+      <name>Lovrenc Gregorcic</name>
+      <email>lovro.gregorcic+jcentral@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lovrenc/RxFirebase.git</connection>
+    <developerConnection>https://github.com/Lovrenc/RxFirebase.git</developerConnection>
+    <url>https://github.com/Lovrenc/RxFirebase</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-database</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.naivor</groupId>
+  <artifactId>loadmore</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>LoadMoreHelper</name>
+  <description>A Helper for ListView and RecyclerView when there  need a loading next page solution</description>
+  <url>https://github.com/naivor/LoadMoreHelper</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>naivor</id>
+      <name>naivor</name>
+      <email>naivortang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/naivor/LoadMoreHelper.git</connection>
+    <url>https://github.com/naivor/LoadMoreHelper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.naivor</groupId>
+      <artifactId>adapter</artifactId>
+      <version>1.0.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

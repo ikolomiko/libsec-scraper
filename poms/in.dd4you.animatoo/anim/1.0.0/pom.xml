@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.dd4you.animatoo</groupId>
+  <artifactId>anim</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>animatoo</name>
+  <description>Create Library to Add Animation Effect in Activity, Fragment , ViewPager, ViewPager2</description>
+  <url>https://github.com/DD4You/DDAnimatoo</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dd4you</id>
+      <name>Vinay Singh</name>
+      <email>info@dd4you.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DD4You/DDAnimatoo.git</connection>
+    <developerConnection>https://github.com/DD4You/DDAnimatoo.git</developerConnection>
+    <url>https://github.com/DD4You/DDAnimatoo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager2</groupId>
+      <artifactId>viewpager2</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

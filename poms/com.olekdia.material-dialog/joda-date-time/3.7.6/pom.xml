@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olekdia.material-dialog</groupId>
+  <artifactId>joda-date-time</artifactId>
+  <version>3.7.6</version>
+  <packaging>aar</packaging>
+  <name>MaterialDialogDateTime</name>
+  <description>Material Dialog with date time picker</description>
+  <url>https://gitlab.com/olekdia/common/libraries/material-dialog-date-time</url>
+  <organization>
+    <name>olekdia</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olekdia</id>
+      <name>Oleksandr Albul</name>
+      <email>abdula.ua@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/olekdia/common/libraries/material-dialog-date-time.git</connection>
+    <developerConnection>https://gitlab.com/olekdia/common/libraries/material-dialog-date-time.git</developerConnection>
+    <url>https://gitlab.com/olekdia/common/libraries/material-dialog-date-time</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>multiplatform-common-jvm</artifactId>
+      <version>0.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>android-common</artifactId>
+      <version>3.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia.material-dialog</groupId>
+      <artifactId>core</artifactId>
+      <version>3.7.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>joda-date-time-picker</artifactId>
+      <version>0.7.3</version>
+    </dependency>
+  </dependencies>
+</project>

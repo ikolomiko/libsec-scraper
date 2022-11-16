@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.songyao1987</groupId>
+  <artifactId>MinesecToolKit</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>MinesecToolKit</name>
+  <description>For Minesec development use only</description>
+  <url>https://github.com/songyao1987/MinesecToolKit</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ericsong</id>
+      <name>ericsong</name>
+      <email>413142768@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/songyao1987/MinesecToolKit.git</connection>
+    <developerConnection>scm:git@github.com:songyao1987/MinesecToolKit.git</developerConnection>
+    <url>https://github.com/songyao1987/MinesecToolKit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.25</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

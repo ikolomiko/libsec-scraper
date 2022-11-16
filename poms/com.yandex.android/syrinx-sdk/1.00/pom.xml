@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <groupId>com.yandex.android</groupId>
+  <artifactId>syrinx-sdk</artifactId>
+  <version>1.00</version>
+  <packaging>aar</packaging>
+  <name>Syrinx Mobile SDK for Android</name>
+  <description>Yandex.Syrinx is a library for mobile apps that allows exchanging information by using audio signals.</description>
+  <url>https://tech.yandex.com/syrinx</url>
+  <licenses>
+    <license>
+      <name>Terms of Use of Yandex.Syrinx SDK</name>
+      <url>https://tech.yandex.com/syrinx/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Yandex</name>
+      <url>https://tech.yandex.com/syrinx/</url>
+      <roles>
+        <role>Developer</role>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

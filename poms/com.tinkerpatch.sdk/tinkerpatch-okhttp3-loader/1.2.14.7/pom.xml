@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tinkerpatch.sdk</groupId>
+  <artifactId>tinkerpatch-okhttp3-loader</artifactId>
+  <version>1.2.14.7</version>
+  <packaging>aar</packaging>
+  <name>tinkerpatch-okhttp3-loader</name>
+  <description>TinkerPatch server client for tencent tinker hot patch</description>
+  <url>https://github.com/TinkerPatch/tinkerpatch-sdk</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simsun</id>
+      <name>Shengjie Sun</name>
+      <email>sunsj1231@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TinkerPatch/tinkerpatch-sdk.git</connection>
+    <developerConnection>https://github.com/TinkerPatch/tinkerpatch-sdk.git</developerConnection>
+    <url>https://github.com/TinkerPatch/tinkerpatch-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tinkerpatch.sdk</groupId>
+      <artifactId>tinkerpatch-android-sdk</artifactId>
+      <version>1.2.14.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.antibytes.kmock</groupId>
+  <artifactId>kmock-android</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>KMock Runtime</name>
+  <description>KMock - a Mock Generator for Kotlin (Multiplatform).</description>
+  <url>https://github.com/bitPogo/kmock</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bitPogo</id>
+      <name>bitPogo</name>
+      <email>bitpogo@antibytes.tech</email>
+      <url>https://github.com/bitPogo</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/bitPogo/kmock.git</connection>
+    <developerConnection>scm:git://github.com/bitPogo/kmock.git</developerConnection>
+    <url>git://github.com/bitPogo/kmock.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>atomicfu-jvm</artifactId>
+      <version>0.17.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>co.touchlab</groupId>
+      <artifactId>stately-iso-collections-jvm</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

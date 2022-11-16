@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.shediao.crashsdk</groupId>
+  <artifactId>test2</artifactId>
+  <version>1.0.9.3</version>
+  <packaging>aar</packaging>
+
+  <name>crashsdk</name>
+  <description>Android Crash Log</description>
+  <url>http://github.com/shediao/crashsdk</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>shediao</name>
+      <email>xushediao1987@163.com</email>
+      <organization>Sonatype</organization>
+      <organizationUrl>http://www.sonatype.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/shediao/crashsdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com:shediao/crashsdk.git</developerConnection>
+    <url>http://github.com/shediao/crashsdk/tree/master</url>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.4.3</version>
+        <extensions>true</extensions>         
+        <configuration>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jcharlesworth</groupId>
+  <artifactId>jsontextview</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>JsonTextView</name>
+  <description>Simple view for displaying JSON text</description>
+  <url>https://github.com/jcharlesworthuk/JsonTextView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jcharlesworthuk</id>
+      <name>James Charlesworth</name>
+      <email>jamesjohncharlesworth@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jcharlesworthuk/JsonTextView.git</connection>
+    <developerConnection>https://github.com/jcharlesworthuk/JsonTextView.git</developerConnection>
+    <url>https://github.com/jcharlesworthuk/JsonTextView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

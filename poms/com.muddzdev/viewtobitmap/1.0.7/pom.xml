@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.muddzdev</groupId>
+  <artifactId>viewtobitmap</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>com.muddzdev:viewtobitmap</name>
+  <description>An Android library that makes it very easy and very quick to save any View or ViewGroup as an image to the gallery</description>
+  <url>https://github.com/Muuddz/ViewToBitmap</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>muddz</id>
+      <name>Muddii Walid</name>
+      <email>Aux-cc@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Muuddz/ViewToBitmap.git</connection>
+    <developerConnection>https://github.com/Muuddz/ViewToBitmap.git</developerConnection>
+    <url>https://github.com/Muuddz/ViewToBitmap</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

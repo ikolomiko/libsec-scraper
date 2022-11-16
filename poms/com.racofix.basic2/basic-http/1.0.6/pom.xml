@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.racofix.basic2</groupId>
+  <artifactId>basic-http</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>android architecture componts</name>
+  <url>https://github.com/meikoz/Basic2</url>
+  <licenses>
+    <license>
+      <name>The Apache software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>meikoz</id>
+      <name>meikoz</name>
+      <email>zhoujinlongdev@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/meikoz/Basic2.git</connection>
+    <developerConnection>https://github.com/meikoz/Basic2.git</developerConnection>
+    <url>https://github.com/meikoz/Basic2</url>
+  </scm>
+</project>

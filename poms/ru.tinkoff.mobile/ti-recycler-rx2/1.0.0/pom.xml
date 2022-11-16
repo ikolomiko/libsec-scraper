@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.tinkoff.mobile</groupId>
+  <artifactId>ti-recycler-rx2</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>project ':ti-recycler-rx2'</name>
+  <description>Library which allows you to build screens with RecyclerView faster</description>
+  <url>https://github.com/tinkoff-mobile-tech/TiRecycler</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/tinkoff-mobile-tech/TiRecycler/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tcs</id>
+      <name>Tinkoff Credit Systems</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tinkoff-mobile-tech/TiRecycler.git</connection>
+    <developerConnection>scm:git@github.com:tinkoff-mobile-tech/TiRecycler.git</developerConnection>
+    <url>https://github.com/tinkoff-mobile-tech/TiRecycler</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ru.tinkoff.mobile</groupId>
+      <artifactId>ti-recycler</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.rxrelay2</groupId>
+      <artifactId>rxrelay</artifactId>
+      <version>2.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.l4digital</groupId>
+  <artifactId>fastscroll</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>FastScroll</name>
+  <description>A ListView-like FastScroller for Android’s RecyclerView.</description>
+  <url>https://github.com/L4Digital/FastScroll</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Randy Webster</name>
+      <email>randy@randr0id.com</email>
+      <organization>L4Digital</organization>
+      <organizationUrl>https://github.com/L4Digital</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/L4Digital/FastScroll.git</connection>
+    <developerConnection>scm:git:ssh://github.com:L4Digital/FastScroll.git</developerConnection>
+    <url>https://github.com/L4Digital/FastScroll/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>1.1.3</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.skot.libraries.sk-map</groupId>
+  <artifactId>viewlegacy_mapbox-android</artifactId>
+  <version>0.0.10-beta01_1.1.11</version>
+  <packaging>aar</packaging>
+  <name>viewlegacy_mapbox</name>
+  <description>viewlegacy_mapbox module for SK-Map skot library</description>
+  <url>https://github.com/skot-framework/sk-map</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sgueniot</id>
+      <name>Sylvain Guéniot</name>
+      <email>sylvain.gueniot@gmail.com</email>
+    </developer>
+    <developer>
+      <id>MathieuScotet</id>
+      <name>Mathieu Scotet</name>
+      <email>mscotet.lmit@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/skot-framework/sk-map.git</connection>
+    <developerConnection>scm:git:ssh://github.com/skot-framework/sk-map.git</developerConnection>
+    <url>https://github.com/skot-framework/sk-map/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.maps</groupId>
+      <artifactId>android</artifactId>
+      <version>10.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>7.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tech.skot</groupId>
+      <artifactId>viewlegacy-android</artifactId>
+      <version>1.1.11</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>tech.skot.libraries.sk-map</groupId>
+      <artifactId>viewmodel-android</artifactId>
+      <version>0.0.10-beta01_1.1.11</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

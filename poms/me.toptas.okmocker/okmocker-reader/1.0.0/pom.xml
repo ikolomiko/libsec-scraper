@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.toptas.okmocker</groupId>
+  <artifactId>okmocker-reader</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>okmocker-reader</name>
+  <description>Mock OkHttp responses at Interceptor level</description>
+  <url>https://github.com/faruktoptas/okmocker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>faruktoptas</id>
+      <name>Faruk Toptas</name>
+      <email>faruktoptas@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/faruktoptas/okmocker</connection>
+    <developerConnection>https://github.com/faruktoptas/okmocker</developerConnection>
+    <url>https://github.com/faruktoptas/okmocker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.71</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

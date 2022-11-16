@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pushwoosh</groupId>
+  <artifactId>pushwoosh-experimental</artifactId>
+  <version>6.6.1</version>
+  <name>Pushwoosh Experimental</name>
+  <description>Pushwoosh Experimental</description>
+  <url>https://www.pushwoosh.com/</url>
+  <licenses>
+    <license>
+      <name>Pushwoosh License</name>
+      <url>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Vitaly Romanychev</name>
+      <email>vromanychev@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Nikolay Galizin</name>
+      <email>ngalizin@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Aleksandr Evstefeev</name>
+      <email>aevstefeev@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Anton Kaizer</name>
+      <email>akaizer@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Max Konev</name>
+      <email>max@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Dmitry Malugin</name>
+      <email>diman@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Blinov Alexander</name>
+      <email>xanderblinov@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Shmakov Yuri</name>
+      <email>senneco@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Savin Mikhail</name>
+      <email>savinmike.u@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Pushwoosh/pushwoosh-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:Pushwoosh/pushwoosh-android-sdk.git</developerConnection>
+    <url>git@github.com:Pushwoosh/pushwoosh-android-sdk.git</url>
+  </scm>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.pushwoosh</groupId>
+      <artifactId>pushwoosh</artifactId>
+      <version>6.6.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.charlex.settings</groupId>
+  <artifactId>settings-datastore</artifactId>
+  <version>1.0.0-rc05</version>
+  <packaging>aar</packaging>
+  <name>settings-datastore</name>
+  <description>A simplified use of SharedPreferences and Preferences DataStore.</description>
+  <url>https://github.com/ch4rl3x/settings</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ch4rl3x</id>
+      <name>Alexander Karkossa</name>
+      <email>alexander.karkossa@googlemail.com</email>
+    </developer>
+    <developer>
+      <id>kalinjul</id>
+      <name>Julian Kalinowski</name>
+      <email>j@kalinowski.email</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/ch4rl3x/settings.git</connection>
+    <developerConnection>scm:git:ssh://github.com/ch4rl3x/settings.git</developerConnection>
+    <url>https://github.com/ch4rl3x/settings/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.31</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.5.31</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.datastore</groupId>
+      <artifactId>datastore-preferences</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

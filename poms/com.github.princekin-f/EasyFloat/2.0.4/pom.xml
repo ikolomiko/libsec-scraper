@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.princekin-f</groupId>
+  <artifactId>EasyFloat</artifactId>
+  <version>2.0.4</version>
+  <packaging>aar</packaging>
+  <name>princekin-f/EasyFloat</name>
+  <description>🔥 EasyFloat：浮窗从未如此简单（Android可拖拽悬浮窗口，支持页面过滤、自定义动画，可设置单页面浮窗、前台浮窗、全局浮窗，浮窗权限按需自动申请...）</description>
+  <url>https://github.com/princekin-f/EasyFloat</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>princekin-f</id>
+      <name>刘振峰</name>
+      <email>princekin.ff@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/princekin-f/EasyFloat.git</connection>
+    <developerConnection>scm:git://github.com/princekin-f/EasyFloat.git</developerConnection>
+    <url>git://github.com/princekin-f/EasyFloat.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

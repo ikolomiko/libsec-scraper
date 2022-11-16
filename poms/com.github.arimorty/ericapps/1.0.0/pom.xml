@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.arimorty</groupId>
+  <artifactId>ericapps</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Ericapps</name>
+  <description>An implementation of a floating search box with search suggestions</description>
+  <url>https://github.com/arimorty/floatingsearchview</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>johndoe</id>
+      <name>johndoe</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/arimorty/floatingsearchview</connection>
+    <developerConnection>scm:hg:https://github.com/arimorty/floatingsearchview</developerConnection>
+    <url>https://github.com/arimorty/floatingsearchview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

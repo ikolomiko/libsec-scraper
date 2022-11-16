@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.polok.pincodepicker</groupId>
+  <artifactId>pincodepicker</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>PinCodePicker</name>
+  <description>PinCodePicker was created for Android platform as a view which allows to take passwords/codes or some other sensitive data from end user in easy way, so developers can focus on the core functionalities of their application!</description>
+  <url>https://github.com/polok/PinCodePicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marcinpolak</id>
+      <name>Marcin Polak</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:polok/PinCodePicker.git</connection>
+    <developerConnection>scm:git@github.com:polok/PinCodePicker.git</developerConnection>
+    <url>https://github.com/polok/PinCodePicker.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

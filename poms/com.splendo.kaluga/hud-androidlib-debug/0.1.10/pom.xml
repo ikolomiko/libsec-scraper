@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.splendo.kaluga</groupId>
+  <artifactId>hud-androidlib-debug</artifactId>
+  <version>0.1.10</version>
+  <packaging>aar</packaging>
+  <name>hud</name>
+  <description>Collection of Kotlin Flow based libraries</description>
+  <url>https://github.com/splendo/kaluga</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>splendo</id>
+      <name>Splendo BV</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/splendo/kaluga</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.4.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core-jvm</artifactId>
+      <version>1.4.2-native-mt</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.splendo.kaluga</groupId>
+      <artifactId>architecture-androidlib-debug</artifactId>
+      <version>0.1.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.splendo.kaluga</groupId>
+      <artifactId>base-androidlib-debug</artifactId>
+      <version>0.1.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.4.2-native-mt</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

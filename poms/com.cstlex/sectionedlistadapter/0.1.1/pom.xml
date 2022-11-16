@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cstlex</groupId>
+  <artifactId>sectionedlistadapter</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>SectionedListAdapter</name>
+  <description>Android Multiple Sectioned ListView Adapter</description>
+  <url>https://github.com/cstlex/Sectioned-ListView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cstlex</id>
+      <name>Sittiphol Phanvilai</name>
+      <email>sittiphol@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cstlex/Sectioned-ListView.git</connection>
+    <developerConnection>https://github.com/cstlex/Sectioned-ListView.git</developerConnection>
+    <url>https://github.com/cstlex/Sectioned-ListView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

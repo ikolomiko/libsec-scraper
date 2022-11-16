@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sohrab</groupId>
+  <artifactId>obd-reader</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>obd-reader</name>
+  <description>Android OBD-II Reader library that read standard PIDs values (Mode 01)</description>
+  <url>https://github.com/md-sohrab-alam/android-obd-reader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>md-sohrab-alam</id>
+      <name>Sohrab Alam</name>
+      <email>iamsohrabalam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/md-sohrab-alam/android-obd-reader.git</connection>
+    <developerConnection>https://github.com/md-sohrab-alam/android-obd-reader.git</developerConnection>
+    <url>https://github.com/md-sohrab-alam/android-obd-reader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

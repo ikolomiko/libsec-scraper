@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pqpo</groupId>
+  <artifactId>SmartCropper</artifactId>
+  <version>2.1.4</version>
+  <packaging>aar</packaging>
+  <name>pqpo/SmartCropper</name>
+  <description>🔥 A library for cropping image in a smart way that can identify the border and correct the cropped image.    智能图片裁剪框架。自动识别边框，手动调节选区，使用透视变换裁剪并矫正选区；适用于身份证，名片，文档等照片的裁剪。</description>
+  <url>https://pqpo.me/2017/09/11/opencv-border-recognition/</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>pqpo</id>
+      <name>Linmin Qiu</name>
+      <email>pqponet@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/pqpo/SmartCropper.git</connection>
+    <developerConnection>scm:git://github.com/pqpo/SmartCropper.git</developerConnection>
+    <url>git://github.com/pqpo/SmartCropper.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite</artifactId>
+      <version>1.13.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

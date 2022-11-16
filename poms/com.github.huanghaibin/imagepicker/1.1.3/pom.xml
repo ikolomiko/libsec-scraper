@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.huanghaibin</groupId>
+  <artifactId>imagepicker</artifactId>
+  <version>1.1.3</version>
+  <packaging>aar</packaging>
+  <name>imagepicker</name>
+  <description>An Image picker for Android.</description>
+  <url>https://github.com/huanghaibin-dev/ImagePicker</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>huanghaibin-dev</id>
+      <name>huanghaibin</name>
+      <email>huanghaibin_dev@163.com</email>
+      <url>https://github.com/MiracleTimes-Dev</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:huanghaibin-dev/ImagePicker.git</connection>
+    <developerConnection>scm:git@github.com:huanghaibin-dev/ImagePicker.git</developerConnection>
+    <url>https://github.com/huanghaibin-dev/ImagePicker</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/huanghaibin-dev/ImagePicker/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>pub.devrel</groupId>
+      <artifactId>easypermissions</artifactId>
+      <version>0.1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.thanatosx.widgets</groupId>
+      <artifactId>previewer</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

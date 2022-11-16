@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nononsenseapps</groupId>
+  <artifactId>filepicker</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>NoNonsense FilePicker library</name>
+  <description>An extendable Android file/directory-picker you can include in your app</description>
+  <url>https://github.com/spacecowboy/NoNonsense-FilePicker</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License Version 3</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>neckbeard</id>
+      <name>Jonas Kalderstam</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:spacecowboy/NoNonsense-FilePicker.git</connection>
+    <developerConnection>scm:git@github.com:spacecowboy/NoNonsense-FilePicker.git</developerConnection>
+    <url>https://github.com/spacecowboy/NoNonsense-FilePicker</url>
+  </scm>
+</project>

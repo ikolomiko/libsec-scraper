@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flybits.concierge</groupId>
+  <artifactId>smart-rewards</artifactId>
+  <version>3.6.0-alpha3</version>
+  <packaging>aar</packaging>
+  <name>smart-rewards</name>
+  <description>This is the official production build of the Android Concierge SDK. The concierge SDK is used as a layout wrapper around the Flybits SDKs. The exposed views that are part of this sdk implement the Flybits functionality.</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.61</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.31</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.flybits.v3</groupId>
+      <artifactId>concierge</artifactId>
+      <version>3.6.0-alpha3</version>
+    </dependency>
+  </dependencies>
+</project>

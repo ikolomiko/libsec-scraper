@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dyhdyh.smartpay</groupId>
+  <artifactId>smartpay-adapter-rxjava2</artifactId>
+  <version>1.0.0-beta4</version>
+  <packaging>aar</packaging>
+  <name>高扩展性、高自由度的Android聚合支付SDK</name>
+  <url>https://github.com/dengyuhan/SmartPay</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dengyuhan</id>
+      <name>dengyuhan</name>
+      <email>22309946@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dengyuhan/SmartPay.git</connection>
+    <developerConnection>https://github.com/dengyuhan/SmartPay.git</developerConnection>
+    <url>https://github.com/dengyuhan/SmartPay</url>
+  </scm>
+</project>

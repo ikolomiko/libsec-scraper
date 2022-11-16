@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yuzhiqiang1993</groupId>
+  <artifactId>zxing</artifactId>
+  <version>2.2.9</version>
+  <packaging>aar</packaging>
+  <name>yuzhiqiang1993/zxing</name>
+  <description>基于zxing的扫一扫，优化了扫描二维码速度，集成最新版本的jar包（zxing-core.jar 3.3.3），集成简单，速度快，可配置颜色，还有闪光灯，解析二维码图片，生成二维码等功能</description>
+  <url>http://blog.csdn.net/yuzhiqiang_1993/article/details/78292004</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yuzhiqiang1993</id>
+      <name>喻志强</name>
+      <email>zhiqiang.yu.xeon@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yuzhiqiang1993/zxing.git</connection>
+    <developerConnection>scm:git://github.com/yuzhiqiang1993/zxing.git</developerConnection>
+    <url>git://github.com/yuzhiqiang1993/zxing.git</url>
+  </scm>
+</project>

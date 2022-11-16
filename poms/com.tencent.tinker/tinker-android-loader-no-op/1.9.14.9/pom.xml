@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.tinker</groupId>
+  <artifactId>tinker-android-loader-no-op</artifactId>
+  <version>1.9.14.9</version>
+  <packaging>aar</packaging>
+  <name>Tinker Android Loader</name>
+  <description>tinker</description>
+  <url>https://github.com/Tencent/tinker</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Tencent/tinker.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>tinker-android-anno-support</artifactId>
+      <version>1.9.14.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.jamiepatel.pusherchat</groupId>
+  <artifactId>BulpLiveChatSDK</artifactId>
+  <version>0.8.0</version>
+  <packaging>aar</packaging>
+  <name>BulpLiveChatSDK</name>
+  <description>Chat testing</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mkahfi</id>
+      <name>Muhammad Kahfi</name>
+      <email>kahfi.muhammad.7@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pusher</groupId>
+      <artifactId>pusher-java-client</artifactId>
+      <version>0.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-measurement</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

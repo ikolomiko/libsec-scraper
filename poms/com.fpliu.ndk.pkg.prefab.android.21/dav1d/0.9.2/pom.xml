@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>dav1d</artifactId>
+    <version>0.9.2</version>
+    <packaging>aar</packaging>
+
+    <name>dav1d</name>
+    <description>AV1 decoder targeted to be small and fast</description>
+    <url>https://code.videolan.org/videolan/dav1d.git</url>
+
+    <scm>
+        <connection>scm:git:https://code.videolan.org/videolan/dav1d.git</connection>
+        <developerConnection>scm:git:https://code.videolan.org/videolan/dav1d.git</developerConnection>
+        <url>https://code.videolan.org/videolan/dav1d.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>VideoLAN and dav1d authors</name>
+            <email>unknow</email>
+            <organization>dav1d</organization>
+            <organizationUrl>https://code.videolan.org/videolan/dav1d.git</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>BSD-2-Clause</name>
+            <url>https://code.videolan.org/videolan/dav1d/-/raw/master/COPYING</url>
+        </license>
+    </licenses>
+</project>

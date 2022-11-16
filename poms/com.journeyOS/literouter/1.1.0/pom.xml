@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.journeyOS</groupId>
+  <artifactId>literouter</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>LiteRouter</name>
+  <description>A concise di library which can avoid check null when want to invoke a implementation by interface</description>
+  <url>https://bitbucket.org/solo_heart/literouter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>git@bitbucket.org:solo_heart/literouter.git</connection>
+    <developerConnection>git@bitbucket.org:solo_heart/literouter.git</developerConnection>
+    <url>https://bitbucket.org/solo_heart/literouter</url>
+  </scm>
+</project>

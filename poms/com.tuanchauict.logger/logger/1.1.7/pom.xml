@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tuanchauict.logger</groupId>
+  <artifactId>logger</artifactId>
+  <version>1.1.7</version>
+  <packaging>aar</packaging>
+  <name>Simple, pretty and powerful logger for single file or all project for android</name>
+  <url>https://github.com/tuanchauict/logger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tuanchauict</id>
+      <name>Tuan Chau</name>
+      <email>tuanchauict@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tuanchauict/logger.git</connection>
+    <developerConnection>https://github.com/tuanchauict/logger.git</developerConnection>
+    <url>https://github.com/tuanchauict/logger</url>
+  </scm>
+</project>

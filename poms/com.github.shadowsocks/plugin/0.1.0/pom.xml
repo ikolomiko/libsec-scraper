@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.shadowsocks</groupId>
+  <artifactId>plugin</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Shadowsocks Plugin</name>
+  <description>Shadowsocks Plugin</description>
+  <url>https://github.com/shadowsocks/shadowsocks-android</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madeye</id>
+      <name>Max Lv</name>
+      <url>https://github.com/madeye</url>
+    </developer>
+    <developer>
+      <id>Mygod</id>
+      <name>Mygod Studio</name>
+      <url>https://github.com/Mygod</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/shadowsocks/shadowsocks-android.git</connection>
+    <developerConnection>scm:git:git@github.com:shadowsocks/shadowsocks-android.git</developerConnection>
+    <url>https://github.com/shadowsocks/shadowsocks-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v14</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.takisoft.fix</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>27.0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.2.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

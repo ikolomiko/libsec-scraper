@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bakhtiyor.gradients</groupId>
+  <artifactId>gradients</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>gradients</name>
+  <description>A curated collection of splendid gradients made in Kotlin</description>
+  <url>https://github.com/bakhtiyork/gradients</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bakhtiyork</id>
+      <name>Baktiyor Khodjaev</name>
+      <email>opensource@bakhtiyor.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bakhtiyork/gradients.git</connection>
+    <developerConnection>https://github.com/bakhtiyork/gradients.git</developerConnection>
+    <url>https://github.com/bakhtiyork/gradients</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.71</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

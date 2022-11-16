@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ph.com.juan.lazy.openweather</groupId>
+  <artifactId>openweather</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Open Weather Library</name>
+  <description>This library provides the help to use openweather.org api calls using android</description>
+  <url>https://github.com/wwwdotphilip/OpenWeatherApp</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wwwdotphilip</id>
+      <name>John Philip Agustino</name>
+      <email>wwwdotphilip@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wwwdotphilip/OpenWeatherApp.git</connection>
+    <developerConnection>https://github.com/wwwdotphilip/OpenWeatherApp.git</developerConnection>
+    <url>https://github.com/wwwdotphilip/OpenWeatherApp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

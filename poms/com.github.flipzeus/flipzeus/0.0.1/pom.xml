@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.flipzeus</groupId>
+  <artifactId>flipzeus</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>FlipZeus</name>
+  <description>Flip an image all you want</description>
+  <url>https://github.com/aulisius/flip-zeus</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>[aulisius, eddierock1994]</id>
+      <name>[Md Faizaan, Edwin Samuel Jonathan]</name>
+      <email>[aulisius7@gmail.com, eddierock1994@gmail.com]</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/aulisius/flip-zeus</connection>
+    <developerConnection>https://github.com/aulisius/flip-zeus</developerConnection>
+    <url>https://github.com/aulisius/flip-zeus</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shrikantkale.anuj</groupId>
+  <artifactId>ToastLibrary</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>ToastLibrary</name>
+  <description>Toast Library</description>
+  <url>https://github.com/Tapasya99/ToastLibrary-Android-SDK</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/Tapasya99/ToastLibrary-Android-SDK/master/LICENSE</url>
+      <distribution>ToastLibrary Android-SDK</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tapasya99</id>
+      <name>Tapasya</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Tapasya99/ToastLibrary-Android-SDK</connection>
+    <developerConnection>scm:git:https://github.com/Tapasya99/ToastLibrary-Android-SDK</developerConnection>
+    <url>https://github.com/Tapasya99/ToastLibrary-Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

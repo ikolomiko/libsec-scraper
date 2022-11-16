@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bitsparlour</groupId>
+  <artifactId>linearchart</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>linearchart</name>
+  <description>An android library for drawing linear chart.</description>
+  <url>https://github.com/khurram18/LinearChart</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>khurram</id>
+      <name>Khurram Shehzad</name>
+      <email>khurram.pak522@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/khurram18/LinearChart.git</connection>
+    <developerConnection>https://github.com/khurram18/LinearChart.git</developerConnection>
+    <url>https://github.com/khurram18/LinearChart</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

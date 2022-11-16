@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.xujiaji</groupId>
+  <artifactId>happy-bubble</artifactId>
+  <version>1.2.4</version>
+  <packaging>aar</packaging>
+  <name>HappyBubble</name>
+  <description>💭BubbleLayout随意变化的气泡布局、消息对话框，可定制颜色，背景、弧度、尖角弧度、边框等等。BubbleDialog气泡弹窗根据点击View的位置定位它的弹窗位置，BubbleDialog可定制方向等！(BubbleLayout changes freely,BubbleDialog click on the location of View positioning its location,BubbleDialog can be customized directions.)</description>
+  <url>https://github.com/xujiaji/HappyBubble</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>xujiaji</name>
+      <email>jiajixu@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xujiaji/HappyBubble.git</connection>
+    <developerConnection>git@github.com:xujiaji/HappyBubble.git</developerConnection>
+    <url>https://github.com/xujiaji/HappyBubble</url>
+  </scm>
+  <dependencies/>
+</project>

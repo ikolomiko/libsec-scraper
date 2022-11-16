@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cab404</groupId>
+  <artifactId>chumroll</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>chumroll</name>
+  <description>lightweight and easy to use dynamic adapter</description>
+  <url>https://github.com/cab404/chumroll</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cab404</id>
+      <name>cab404</name>
+      <email>me@cab404.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cab404/chumroll.git</connection>
+    <developerConnection>https://github.com/cab404/chumroll.git</developerConnection>
+    <url>https://github.com/cab404/chumroll</url>
+  </scm>
+</project>

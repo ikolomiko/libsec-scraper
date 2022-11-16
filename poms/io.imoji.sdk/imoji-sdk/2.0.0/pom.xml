@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.imoji.sdk</groupId>
+  <artifactId>imoji-sdk</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>io.imoji.sdk:imoji-sdk</name>
+  <description>Integrate millions of stickers into your Android application</description>
+  <url>https://imoji.io/developers</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/imojiengineering/imoji-android-sdk/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Sajjad Tabib</name>
+      <email>sajjad@imojiapp.com</email>
+      <url>https://github.com/stabib</url>
+      <organization>org.apache.maven.model.Organization@6d2b4f0</organization>
+      <organizationUrl>https://imoji.io</organizationUrl>
+    </developer>
+    <developer>
+      <name>Nima Khoshini</name>
+      <email>nima@imojiapp.com</email>
+      <url>https://github.com/nkhoshini</url>
+      <organization>org.apache.maven.model.Organization@5ccff2e9</organization>
+      <organizationUrl>https://imoji.io</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:imojiengineering/imoji-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:imojiengineering/imoji-android-sdk.git</developerConnection>
+    <url>git@github.com:imojiengineering/imoji-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

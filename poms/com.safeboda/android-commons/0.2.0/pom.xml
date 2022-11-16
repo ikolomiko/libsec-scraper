@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.safeboda</groupId>
+  <artifactId>android-commons</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>android-commons</name>
+  <description>The aim of this library is to content the commons services, providers, API clients, ... for both Android applications. This library must not contain anything related with the presentation layer of Android (base activities, base fragments, custom views ...)</description>
+  <url>https://github.com/SafeBoda/android-commons</url>
+  <licenses>
+    <license>
+      <name>SafeBoda License</name>
+      <url>https://github.com/SafeBoda/paystackex/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alaash-sb</id>
+      <name>Alaa AlShammmaa</name>
+      <email>alaa@safeboda.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/SafeBoda/android-commons.git</connection>
+    <developerConnection>scm:git:ssh://github.com/SafeBoda/android-commons.git</developerConnection>
+    <url>https://github.com/SafeBoda/android-commons/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.clevertap.android</groupId>
+      <artifactId>clevertap-android-sdk</artifactId>
+      <version>4.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.appsflyer</groupId>
+      <artifactId>af-android-sdk</artifactId>
+      <version>5.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-analytics</artifactId>
+      <version>17.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amplitude</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>2.23.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

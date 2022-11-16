@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.justai.aimybox</groupId>
+  <artifactId>google-cloud-speechkit</artifactId>
+  <version>0.15.3</version>
+  <packaging>aar</packaging>
+  <name>Aimybox GoogleCloudSpeechkit</name>
+  <description>A part of Aimybox Android SDK</description>
+  <url>https://github.com/aimybox/aimybox-android-sdk</url>
+  <organization>
+    <name>Aimybox</name>
+    <url>https://aimybox.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>morfeusys</id>
+      <name>Dmitriy Chechyotkin</name>
+      <email>morfeusys@gmail.com</email>
+      <organization>Aimybox</organization>
+      <organizationUrl>https://aimybox.com</organizationUrl>
+      <roles>
+        <role>Project-Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>lambdatamer</id>
+      <name>Alexander Sirota</name>
+      <email>lambdatamer@gmail.com</email>
+      <organization>Aimybox</organization>
+      <organizationUrl>https://aimybox.com</organizationUrl>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com/aimybox/aimybox-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com/aimybox/aimybox-android-sdk.git</developerConnection>
+    <url>https://github.com/aimybox/aimybox-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.justai.aimybox</groupId>
+      <artifactId>core</artifactId>
+      <version>0.15.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-speech</artifactId>
+      <version>1.22.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-texttospeech</artifactId>
+      <version>0.117.0-beta</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-okhttp</artifactId>
+      <version>1.35.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

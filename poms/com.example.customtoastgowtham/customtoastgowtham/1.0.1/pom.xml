@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.customtoastgowtham</groupId>
+  <artifactId>customtoastgowtham</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>customtoastgowtham</name>
+  <description>my test v1.0.1</description>
+  <url>https://github.com/jgowtham8/CustomToastGowtham</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jgowtham8</id>
+      <name>Gowthaman Jeevanandam</name>
+      <email>jgowtham8@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jgowtham8/CustomToastGowtham</connection>
+    <developerConnection>https://github.com/jgowtham8/CustomToastGowtham</developerConnection>
+    <url>https://github.com/jgowtham8/CustomToastGowtham</url>
+  </scm>
+</project>

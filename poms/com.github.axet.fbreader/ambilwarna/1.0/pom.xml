@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.axet.fbreader</groupId>
+  <artifactId>ambilwarna</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Android FBReader Library</name>
+  <description>Clone of https://code.google.com/p/android-color-picker/</description>
+  <url>https://gitlab.com/axet/android-fbreader-library</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0, January 2004</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>axet</id>
+      <name>Alexey Kuznetsov</name>
+      <email>axet@me.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitlab.com/axet/android-fbreader-library</connection>
+    <developerConnection>scm:git:https://gitlab.com/axet/android-fbreader-library</developerConnection>
+    <url>https://gitlab.com/axet/android-fbreader-library</url>
+  </scm>
+</project>

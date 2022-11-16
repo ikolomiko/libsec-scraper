@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ceram1.droid</groupId>
+  <artifactId>globalcontext</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android Global Context</name>
+  <description>This library exports application context to everywhere. No static init(Context) method.</description>
+  <url>https://github.com/ceram1/Android-Global-Context</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ceram1</id>
+      <name>DongYun Kang</name>
+      <email>ceram1000@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:ceram1/Android-Global-Context.git</connection>
+    <developerConnection>scm:git:git@github.com:ceram1/Android-Global-Context.git</developerConnection>
+    <url>https://github.com/ceram1/Android-Global-Context</url>
+  </scm>
+</project>

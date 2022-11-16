@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simsun.yasp</groupId>
+  <artifactId>yasp</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>yasp</name>
+  <description>Yet Another Shared Preference</description>
+  <url>https://github.com/simpleton/Yasp</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simsun</id>
+      <name>Shengjie Sun</name>
+      <email>sunsj1231@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/simpleton/Yasp.git</connection>
+    <developerConnection>https://github.com/simpleton/Yasp.git</developerConnection>
+    <url>https://github.com/simpleton/Yasp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.simsun.yasp</groupId>
+      <artifactId>leveldb</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.simsun.yasp</groupId>
+      <artifactId>leveldb-api</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

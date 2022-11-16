@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.cafecode</groupId>
+  <artifactId>sample_lib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Smple Lib</name>
+  <description>This is a sample lib for publishing open source project to nexus.</description>
+  <url>https://github.com/nuxzero/sample-android-publish-lib</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nux</id>
+      <name>NATTHAWUT HAMETHULIN</name>
+      <email>natthawut1991@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/nuxzero/sample-android-publish-lib.git</connection>
+    <developerConnection>scm:git:git://github.com/nuxzero/sample-android-publish-lib.git</developerConnection>
+    <url>https://github.com/nuxzero/sample-android-publish-lib</url>
+  </scm>
+</project>

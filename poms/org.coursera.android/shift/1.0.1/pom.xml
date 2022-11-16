@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.coursera.android</groupId>
+  <artifactId>shift</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Shift</name>
+  <description>Shift is a development tool that allows you to modify variables and run blocks of code while your Android application is running.</description>
+  <url>https://github.com/coursera/shift</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stanleyfung</id>
+      <name>Stanley Fung</name>
+      <email>stanleyfung94@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/coursera/shift</connection>
+    <developerConnection>https://github.com/coursera/shift</developerConnection>
+    <url>https://github.com/coursera/shift</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.snappydb</groupId>
+      <artifactId>snappydb-lib</artifactId>
+      <version>0.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.esotericsoftware.kryo</groupId>
+      <artifactId>kryo</artifactId>
+      <version>2.24.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

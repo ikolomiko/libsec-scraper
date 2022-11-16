@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.rtchina</groupId>
+  <artifactId>test-lib</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>TestLib</name>
+  <description>An Android test lib for debugging</description>
+  <url>https://github.com/rtchina/android-lib-test</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rtchina</id>
+      <name>Rodrigo China</name>
+      <email>rodrigo.china@tenda.digital</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rtchina/android-lib-test.git</connection>
+    <developerConnection>https://github.com/rtchina/android-lib-test.git</developerConnection>
+    <url>https://github.com/rtchina/android-lib-test</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.zego</groupId>
+  <artifactId>zim</artifactId>
+  <version>2.3.1</version>
+  <packaging>aar</packaging>
+  <name>-zego-zim</name>
+  <description>ZEGO Instant Messaging (ZIM) is a real-time communication and interaction product, providing developers with full-platform interaction, massive concurrency, ultra-low latency, message must reach communication services, helping to create large live broadcast, chat room and other scenes</description>
+  <url>https://github.com/zegolibrary/zim</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>developer@zego.im</id>
+      <name>developer@zego.im</name>
+      <email>developer@zego.im</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:zegolibrary/zim.git</connection>
+    <developerConnection>scm:git:ssh://github.com/zegolibrary/zim.git</developerConnection>
+    <url>https://github.com/zegolibrary/zim/tree/main</url>
+  </scm>
+  <dependencies/>
+</project>

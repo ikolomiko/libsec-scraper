@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.onetrust.mobile</groupId>
+  <artifactId>onetrust_adobe_extension</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>OneTrust-Adobe-Extension</name>
+  <description>An Adobe Launch extension that will collect consent records for mobile users. The extension monitors the Adobe Launch Privacy Status flag and submits consent to OneTrust whenever this value changes.</description>
+  <url>https://github.com/kmjones87/OT_ADB_EXT_ANDROID</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>OneTrust</id>
+      <name>OneTrust</name>
+      <email>support@onetrust.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kmjones87/OT_ADB_EXT_ANDROID.git</connection>
+    <developerConnection>https://github.com/kmjones87/OT_ADB_EXT_ANDROID.git</developerConnection>
+    <url>https://github.com/kmjones87/OT_ADB_EXT_ANDROID</url>
+  </scm>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.facephi</groupId>
+  <artifactId>phingers-widget</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+
+<name>FacePhi sdk onboarding flutter</name>
+    <description>
+        Flutter library
+    </description>
+    <url>https://www.facephi.com/</url>
+
+   <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+  <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>facephi</id>
+            <name>fapcehi</name>
+            <email>facephi@facephi</email>
+            <organization>Facephi</organization>
+            <organizationUrl>http://www.facephi.com/</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>   
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/central-packages/central-packages.git</connection>
+        <developerConnection>scm:git:git://github.com/central-packages/central-packages.git</developerConnection>
+        <url>github.com/central-packages/central-packages</url>
+        <tag>HEAD</tag>
+    </scm>
+
+  <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>androidx.multidex</groupId>
+      <artifactId>multidex</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facephi.phingers.android</groupId>
+      <artifactId>phingers-camera</artifactId>
+      <version>7.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facephi.phingers.android</groupId>
+      <artifactId>phingers-core</artifactId>
+      <version>7.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+  </dependencies>
+</project>

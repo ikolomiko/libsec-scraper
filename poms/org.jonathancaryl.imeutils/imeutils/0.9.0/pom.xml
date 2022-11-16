@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jonathancaryl.imeutils</groupId>
+  <artifactId>imeutils</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>imeutils</name>
+  <description>Easily show/hide the Android soft keyboard</description>
+  <url>https://github.com/jonathan-caryl/ImeUtils</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jonathan-caryl</id>
+      <name>Jonathan Caryl</name>
+      <email>github@jonathancaryl.co.uk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jonathan-caryl/ImeUtils.git</connection>
+    <developerConnection>https://github.com/jonathan-caryl/ImeUtils.git</developerConnection>
+    <url>https://github.com/jonathan-caryl/ImeUtils</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

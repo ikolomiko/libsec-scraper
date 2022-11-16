@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.moraisigor</groupId>
+  <artifactId>slidingdrawer</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <name>SlidingDrawer</name>
+  <description>SlidingDrawer hides content out of the screen and allows the user to drag a handle to bring the content on screen.</description>
+  <url>https://github.com/MoraisIgor/SlidingDrawer</url>
+  <licenses>
+    <license>
+      <name>Apache Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MoraisIgor</id>
+      <name>Igor Morais</name>
+      <email>igor.morais@hollowsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MoraisIgor/SlidingDrawer.git</connection>
+    <developerConnection>https://github.com/MoraisIgor/SlidingDrawer.git</developerConnection>
+    <url>https://github.com/MoraisIgor/SlidingDrawer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

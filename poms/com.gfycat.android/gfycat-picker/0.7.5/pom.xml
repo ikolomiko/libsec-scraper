@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gfycat.android</groupId>
+  <artifactId>gfycat-picker</artifactId>
+  <version>0.7.5</version>
+  <packaging>aar</packaging>
+  <name>Gfycat SDK</name>
+  <description>Android client for gfycat.com</description>
+  <url>https://github.com/gfycat/gfycat-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.gfycat.android</groupId>
+      <artifactId>gfycat-core</artifactId>
+      <version>0.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gfycat.android</groupId>
+      <artifactId>gfycat-common</artifactId>
+      <version>0.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gfycat.android</groupId>
+      <artifactId>gfycat-webp-player</artifactId>
+      <version>0.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gfycat.android</groupId>
+      <artifactId>gfycat-gif-player</artifactId>
+      <version>0.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gfycat.android</groupId>
+      <artifactId>gfycat-player-api</artifactId>
+      <version>0.7.5</version>
+    </dependency>
+  </dependencies>
+</project>

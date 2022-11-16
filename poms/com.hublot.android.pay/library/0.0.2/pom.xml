@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hublot.android.pay</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>pay 封装的常用，可公用的 pay 库</description>
+  <url>https://github.com/luyuanwu/pay</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pay</id>
+      <name>pay</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/luyuanwu/pay</connection>
+    <developerConnection>https://github.com/luyuanwu/pay</developerConnection>
+    <url>https://github.com/luyuanwu/pay</url>
+  </scm>
+</project>

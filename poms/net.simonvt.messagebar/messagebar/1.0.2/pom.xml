@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.simonvt.messagebar</groupId>
+  <artifactId>messagebar</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>MessageBar</name>
+  <description>An alternative to the android Toast class, as seen in the GMail app.</description>
+  <url>https://github.com/SimonVT/MessageBar</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simonvt</id>
+      <name>Simon Vig Therkildsen</name>
+      <email>simonvt@gmail.com</email>
+      <url>http://simonvt.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/SimonVT/MessageBar/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/SimonVT/MessageBar.git</connection>
+    <developerConnection>scm:git:git@github.com:SimonVT/MessageBar.git</developerConnection>
+    <url>http://github.com/SimonVT/MessageBar/</url>
+  </scm>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ir.metrix.push</groupId>
+  <artifactId>metrix</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Metrix</name>
+  <url>https://metrix.ir</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <organization>
+    <name>Metrix</name>
+    <url>https://metrix.ir</url>
+  </organization>
+  <developers>
+    <developer>
+      <organization>Metrix</organization>
+      <organizationUrl>https://metrix.ir</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/metrixorg/MetrixSDK-AndroidSample</connection>
+    <developerConnection>https://github.com/metrixorg/MetrixSDK-AndroidSample</developerConnection>
+    <url>https://metrix.ir</url>
+  </scm>
+  <description>PushMetrix Android library</description>
+  <dependencies>
+    <dependency>
+      <groupId>ir.metrix</groupId>
+      <artifactId>metrix</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ir.metrix</groupId>
+      <artifactId>notification</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

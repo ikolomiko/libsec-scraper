@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.justinangel</groupId>
+  <artifactId>hijckr</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Hijckr</name>
+  <description>Reroute Android\'s XML Tags from one class to another.</description>
+  <url>https://github.com/JustinAngel/Hijckr</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JustinAngel</id>
+      <name>Justin Angel</name>
+      <email>J@JustinAngel.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JustinAngel/Hijckr.git</connection>
+    <developerConnection>https://github.com/JustinAngel/Hijckr.git</developerConnection>
+    <url>https://github.com/JustinAngel/Hijckr</url>
+  </scm>
+</project>

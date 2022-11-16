@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.swrve.sdk.android</groupId>
+  <artifactId>swrve-common</artifactId>
+  <version>4.9.0</version>
+  <packaging>aar</packaging>
+  <name>SwrveSDKCommon</name>
+  <description>SwrveSDKCommon is the common module to be used with SwrveSDK</description>
+  <url>https://github.com/Swrve/swrve-android-sdk</url>
+  <scm>
+    <url>scm:git@github.com:Swrve/swrve-android-sdk.git</url>
+    <connection>scm:git@github.com:Swrve/swrve-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:Swrve/swrve-android-sdk.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdkdev</id>
+      <name>Swrve SDK Developer</name>
+    </developer>
+  </developers>
+</project>

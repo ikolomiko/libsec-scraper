@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.groupon.android.feature-adapter</groupId>
+  <artifactId>feature-adapter-group</artifactId>
+  <version>1.0.12</version>
+  <packaging>aar</packaging>
+  <name>Feature adapter group</name>
+  <description>'ViewGroups to align view holders horizontally'</description>
+  <url>https://github.com/groupon/FeatureAdapter.git</url>
+  <licenses>
+    <license>
+      <name>Apache V2</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Groupon</id>
+      <name>Groupon</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/groupon/FeatureAdapter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/groupon/FeatureAdapter.git </developerConnection>
+    <url>https://github.com/groupon/FeatureAdapter.git </url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.groupon.android.feature-adapter</groupId>
+      <artifactId>feature-adapter</artifactId>
+      <version>1.0.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.2.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.rxbinding</groupId>
+      <artifactId>rxbinding</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.polyv.test</groupId>
+  <artifactId>polyvSDKSocket</artifactId>
+  <version>1.4.0-alpha1</version>
+  <packaging>aar</packaging>
+  <name>polyvSDKSocket</name>
+  <description>polyv android polyvSocket</description>
+  <url>https://github.com/polyv/polyv-android-liveScene-sdk-demo.git</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://jenkins-ci.org/license/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ysh</id>
+      <name>ysh</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/polyv/polyv-android-liveScene-sdk-demo.git</connection>
+    <developerConnection>https://github.com/polyv/polyv-android-liveScene-sdk-demo.git</developerConnection>
+    <url>https://github.com/polyv/polyv-android-liveScene-sdk-demo.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.socket</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>1.0.0</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.polyv.test</groupId>
+      <artifactId>polyvSDKFoundation</artifactId>
+      <version>1.4.0-alpha1</version>
+      <scope>api</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.flepsik</groupId>
+  <artifactId>progress-ring-view</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>progress-ring-view</name>
+  <description>A simple lib to create a ring-like progress view with corner edges</description>
+  <url>https://github.com/Flepsik/ProgressRingView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fleps</id>
+      <name>Bogdanov Philipp</name>
+      <email>Flepsik@mail.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Flepsik/ProgressRingView.git</connection>
+    <developerConnection>https://github.com/Flepsik/ProgressRingView.git</developerConnection>
+    <url>https://github.com/Flepsik/ProgressRingView</url>
+  </scm>
+</project>

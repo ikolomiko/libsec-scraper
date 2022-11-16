@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snappydb</groupId>
+  <artifactId>snappydb-lib</artifactId>
+  <version>0.4.0</version>
+  <packaging>aar</packaging>
+  <name>SnappyDB</name>
+  <description>A fast and lightweight key/value database for Android</description>
+  <url>https://github.com/nhachicha/SnappyDB</url>
+  <inceptionYear>2013</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nhachicha</id>
+      <name>Nabil Hachicha</name>
+      <email>nabil.hachicha@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/nhachicha/SnappyDB.git</connection>
+    <developerConnection>scm:git:https://git@github.com/nhachicha/SnappyDB.git</developerConnection>
+    <url>https://github.com/nhachicha/SnappyDB</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.esotericsoftware.kryo</groupId>
+      <artifactId>kryo</artifactId>
+      <version>2.24.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

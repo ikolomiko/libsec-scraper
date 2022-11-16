@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.aflak.libraries</groupId>
+  <artifactId>ezsocket</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>EZSocket</name>
+  <description>Simple class for TCP/IP Socket communications</description>
+  <url>https://github.com/omaflak/EZSocket</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omaflak</id>
+      <name>Omar Aflak</name>
+      <email>aflakomar@hotmail.fr</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/omaflak/EZSocket</connection>
+    <developerConnection>https://github.com/omaflak/EZSocket</developerConnection>
+    <url>https://github.com/omaflak/EZSocket</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.6.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

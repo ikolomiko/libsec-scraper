@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbase</groupId>
+  <artifactId>floatingactionbutton</artifactId>
+  <version>1.10.1</version>
+  <packaging>aar</packaging>
+  <name>FloatingActionButton</name>
+  <description>Floating Action Button for Android based on Material Design specification</description>
+  <url>https://github.com/futuresimple/android-floating-action-button</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/futuresimple/android-floating-action-button/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chalup</id>
+      <name>Jerzy Chalupski</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/futuresimple/android-floating-action-button.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/futuresimple/android-floating-action-button.git</developerConnection>
+    <url>https://github.com/futuresimple/android-floating-action-button</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

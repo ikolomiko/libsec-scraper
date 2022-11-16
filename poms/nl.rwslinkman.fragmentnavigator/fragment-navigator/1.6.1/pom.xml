@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.rwslinkman.fragmentnavigator</groupId>
+  <artifactId>fragment-navigator</artifactId>
+  <version>1.6.1</version>
+  <packaging>aar</packaging>
+  <name>fragment-navigator</name>
+  <description>Simple Android navigation library to navigate between fragments in one Activity</description>
+  <url>https://github.com/rwslinkman/fragment-navigator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rwslinkman</id>
+      <name>Rick Slinkman</name>
+      <email>rw.slinkman@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rwslinkman/fragment-navigator.git</connection>
+    <developerConnection>https://github.com/rwslinkman/fragment-navigator.git</developerConnection>
+    <url>https://github.com/rwslinkman/fragment-navigator</url>
+  </scm>
+</project>

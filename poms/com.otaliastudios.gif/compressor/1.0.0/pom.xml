@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.otaliastudios.gif</groupId>
+  <artifactId>compressor</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>GIFCompressor</name>
+  <description>Compresses your GIFs into lightweight MP4 video using fast, hardware accelerated encoders. Supports cropping, rotation, GIF concatenation and much more.</description>
+  <url>https://github.com/natario1/GIFCompressor</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>natario</id>
+      <name>Mattia Iavarione</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/natario1/GIFCompressor.git</connection>
+    <url>https://github.com/natario1/GIFCompressor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.otaliastudios.opengl</groupId>
+      <artifactId>egloo</artifactId>
+      <version>0.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

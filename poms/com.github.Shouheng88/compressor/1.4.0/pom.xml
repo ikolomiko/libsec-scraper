@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Shouheng88</groupId>
+  <artifactId>compressor</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>EasyCompressor</name>
+  <description>Android UIX</description>
+  <url>https://github.com/Shouheng88/EasyCompressor</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ShouHeng</name>
+      <email>shouheng2015@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Shouheng88/EasyCompressor.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Shouheng88/EasyCompressor.git</developerConnection>
+    <url>https://github.com/Shouheng88/EasyCompressor</url>
+  </scm>
+</project>

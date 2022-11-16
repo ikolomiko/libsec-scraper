@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getout-tlv.brigand</groupId>
+  <artifactId>Brigand</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Brigand</name>
+  <description>Opportunistic bastard of communication libraries</description>
+  <url>https://stevenkaras.github.io/brigand</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stevenkaras</id>
+      <name>Steven Karas</name>
+      <email>steven.karas@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:stevenkaras/brigand.git</connection>
+    <developerConnection>scm:git@github.com:stevenkaras/brigand.git</developerConnection>
+    <url>scm:git@github.com:stevenkaras/brigand.git</url>
+  </scm>
+</project>

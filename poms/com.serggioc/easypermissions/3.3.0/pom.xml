@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.serggioc</groupId>
+  <artifactId>easypermissions</artifactId>
+  <version>3.3.0</version>
+  <packaging>aar</packaging>
+  <name>easypermissions</name>
+  <description>A wrapper library for basic Android system permissions logic in Kotlin; original from google samples.</description>
+  <url>https://github.com/SerggioC/easypermissions</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>serggioc</id>
+      <name>Sergio Cruz</name>
+      <email>sergiocrz@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SerggioC/easypermissions.git</connection>
+    <developerConnection>https://github.com/SerggioC/easypermissions.git</developerConnection>
+    <url>https://github.com/SerggioC/easypermissions</url>
+  </scm>
+</project>

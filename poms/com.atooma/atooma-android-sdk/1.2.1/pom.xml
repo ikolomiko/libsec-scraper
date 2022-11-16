@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.atooma</groupId>
+  <artifactId>atooma-android-sdk</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Atooma Android SDK</name>
+  <description>Atooma Software Development Kit allows you to write your own modules for Atooma app</description>
+  <url>https://github.com/atooma/atooma-android-sdk</url>
+  <licenses>
+    <license>
+      <name>LGPL V3</name>
+      <url>https://www.gnu.org/licenses/lgpl.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>monossido</id>
+      <name>Lorenzo Braghetto</name>
+      <email>l.braghetto@atooma.com</email>
+      <organization>org.apache.maven.model.Organization@46e190ed</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:atooma/atooma-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:atooma/atooma-android-sdk.git</developerConnection>
+    <url>https://github.com/atooma/atooma-android-sdk.git</url>
+  </scm>
+</project>

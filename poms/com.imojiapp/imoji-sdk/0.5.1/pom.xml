@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.imojiapp</groupId>
+  <artifactId>imoji-sdk</artifactId>
+  <version>0.5.1</version>
+  <packaging>aar</packaging>
+  <name>com.imojiapp:imoji-sdk</name>
+  <description>Integrate millions of stickers into your Android application</description>
+  <url>http://imoji.io/sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/imojiengineering/imoji-android-sdk/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Sajjad Tabib</name>
+      <email>sajjad@imojiapp.com</email>
+      <organization>org.apache.maven.model.Organization@6ce02cf4</organization>
+      <organizationUrl>http://imoji.io</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:imojiengineering/imoji-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:imojiengineering/imoji-android-sdk.git</developerConnection>
+    <url>git@github.com:imojiengineering/imoji-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.koushikdutta.ion</groupId>
+      <artifactId>ion</artifactId>
+      <version>2.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

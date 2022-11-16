@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mikepenz</groupId>
+  <artifactId>iconics-views</artifactId>
+  <version>5.3.4</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mikepenz</groupId>
+      <artifactId>iconics-core</artifactId>
+      <version>5.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>Android-Iconics Library</name>
+  <description>Android-Iconics Library</description>
+  <url>https://github.com/mikepenz/Android-Iconics</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikepenz</id>
+      <name>Mike Penz</name>
+      <email>mikepenz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/mikepenz/Android-Iconics</url>
+    <connection>scm:git@github.com:mikepenz/Android-Iconics.git</connection>
+    <developerConnection>scm:git@github.com:mikepenz/Android-Iconics.git</developerConnection>
+  </scm>
+</project>

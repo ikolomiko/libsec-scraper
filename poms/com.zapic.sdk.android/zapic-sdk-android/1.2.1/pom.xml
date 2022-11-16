@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zapic.sdk.android</groupId>
+  <artifactId>zapic-sdk-android</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-utils</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <description>The Zapic SDK for Android is an open-source project that allows game developers to integrate with the Zapic platform from a game written in Kotlin or Java for Android.</description>
+  <name>Zapic SDK for Android</name>
+  <url>https://www.zapic.com</url>
+  <inceptionYear>2017</inceptionYear>
+  <organization>
+    <name>Zapic, Inc.</name>
+    <url>https://www.zapic.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/ZapicInc/Zapic-SDK-Android/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>seniorquico</id>
+      <name>Kyle Dodson</name>
+      <email>kyle@zapic.com</email>
+      <url>https://github.com/seniorquico</url>
+      <organization>Zapic, Inc.</organization>
+      <organizationUrl>https://www.zapic.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/ZapicInc/Zapic-SDK-Android</url>
+    <connection>scm:git:git://github.com/ZapicInc/Zapic-SDK-Android.git</connection>
+    <developerConnection>scm:git:git@github.com:ZapicInc/Zapic-SDK-Android.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/ZapicInc/Zapic-SDK-Android/issues</url>
+  </issueManagement>
+</project>

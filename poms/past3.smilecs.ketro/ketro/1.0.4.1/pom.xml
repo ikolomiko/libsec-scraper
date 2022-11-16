@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>past3.smilecs.ketro</groupId>
+  <artifactId>ketro</artifactId>
+  <version>1.0.4.1</version>
+  <packaging>aar</packaging>
+  <name>Ketro</name>
+  <description>Retrofit response wrapper written in Kotlin used to easily wrap REST API response to LiveData and also propagate errors to the calling component</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>smilecs</id>
+      <name>Smile Egbai</name>
+      <email>mumene@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/smilecs/ketro.git</connection>
+    <developerConnection>https://github.com/smilecs/ketro.git</developerConnection>
+    <url></url>
+  </scm>
+</project>

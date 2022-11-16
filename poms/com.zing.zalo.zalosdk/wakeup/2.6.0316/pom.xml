@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zing.zalo.zalosdk</groupId>
+  <artifactId>wakeup</artifactId>
+  <version>2.6.0316</version>
+  <packaging>aar</packaging>
+  <name>wakeup</name>
+  <description>ZaloSDK wakeup module</description>
+  <url>https://g2git.zing.vn/liemvu/zalosdk-android</url>
+  <licenses>
+    <license>
+      <name>LGPL-3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liemvu</id>
+      <name>Liem Vo</name>
+      <email>liemvouy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://g2git.zing.vn/liemvu/zalosdk-android.git</connection>
+    <developerConnection>https://g2git.zing.vn/liemvu/zalosdk-android.git</developerConnection>
+    <url>https://g2git.zing.vn/liemvu/zalosdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.zing.zalo.zalosdk</groupId>
+      <artifactId>core</artifactId>
+      <version>2.6.0316</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zing.zalo.zalosdk</groupId>
+      <artifactId>analytics</artifactId>
+      <version>2.6.0316</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

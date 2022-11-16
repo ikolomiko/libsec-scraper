@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.iot.explorer</groupId>
+  <artifactId>explorer-device-rtc</artifactId>
+  <version>3.3.9</version>
+  <packaging>aar</packaging>
+  <name>explorer device rtc</name>
+  <description>Explorer Device RTC library</description>
+  <url>https://github.com/tencentyun/iot-device-java/tree/master/explorer/explorer-device-android</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/iot-device-java/blob/master/explorer/explorer-device-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_archurtan</id>
+      <name>Tencent archurtan</name>
+      <email>archurtan@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/iot-device-java.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/iot-device-java.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/iot-device-java.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.liteav</groupId>
+      <artifactId>LiteAVSDK_TRTC</artifactId>
+      <version>9.2.10641</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.71828</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.73</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.iot.explorer</groupId>
+      <artifactId>explorer-device-android</artifactId>
+      <version>3.3.9</version>
+    </dependency>
+  </dependencies>
+</project>

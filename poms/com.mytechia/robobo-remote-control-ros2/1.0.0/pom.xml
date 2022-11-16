@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mytechia</groupId>
+  <artifactId>robobo-remote-control-ros2</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Robobo-Remote-Control-ROS2</name>
+  <description>Robobo Remote Control Module ROS 2.</description>
+  <url>https://github.com/mintforpeople/robobo-remote-control-ros2</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>luisllamas</id>
+      <name>Luis Felipe Llamas Luaces</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:mintforpeople/robobo-remote-control-ros2.git</connection>
+    <developerConnection>git@github.com:mintforpeople/robobo-remote-control-ros2.git</developerConnection>
+    <url>https://github.com/mintforpeople/robobo-remote-control-ros2.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>robobo-framework</artifactId>
+      <version>1.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>robobo-remote-control</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.android_core</groupId>
+      <artifactId>android_10</artifactId>
+      <version>0.3.3</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>junit</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>xml-apis</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.google.code.findbugs</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

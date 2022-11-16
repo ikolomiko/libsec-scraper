@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.douglasjunior</groupId>
+  <artifactId>android-simple-tooltip</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>douglasjunior/android-simple-tooltip</name>
+  <description>A simple library based on PopupWindow to create Tooltips on Android. 💚</description>
+  <url>https://github.com/douglasjunior/android-simple-tooltip</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>douglasjunior</id>
+      <name>Douglas Nassif Roma Junior</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/douglasjunior/android-simple-tooltip.git</connection>
+    <developerConnection>scm:git://github.com/douglasjunior/android-simple-tooltip.git</developerConnection>
+    <url>git://github.com/douglasjunior/android-simple-tooltip.git</url>
+  </scm>
+</project>

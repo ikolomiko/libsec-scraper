@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.jzvd</groupId>
+  <artifactId>jiaozivideoplayer</artifactId>
+  <version>6.0.0</version>
+  <packaging>aar</packaging>
+  <name>jiaozivideoplayer</name>
+  <description>android videoplayer videoview 安卓视频播放器 全屏 播放器列表全屏 仿今日头条UI</description>
+  <url>https://github.com/lipangit/jiaozivideoplayer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Nathen</id>
+      <name>Nathen</name>
+      <email>821537155@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lipangit/jiaozivideoplayer</connection>
+    <developerConnection>https://github.com/lipangit/jiaozivideoplayer</developerConnection>
+    <url>https://github.com/lipangit/jiaozivideoplayer</url>
+  </scm>
+</project>

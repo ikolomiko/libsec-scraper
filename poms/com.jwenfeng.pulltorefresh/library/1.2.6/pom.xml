@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jwenfeng.pulltorefresh</groupId>
+  <artifactId>library</artifactId>
+  <version>1.2.6</version>
+  <packaging>aar</packaging>
+  <name>This is a pull-to-refresh framework for android</name>
+  <url>https://github.com/823546371/PullToRefresh</url>
+  <licenses>
+    <license>
+      <name>This is a pull-to-refresh framework for android</name>
+      <url>https://github.com/823546371/PullToRefresh</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jwenfeng</id>
+      <name>jwenfeng</name>
+      <email>823546371@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/823546371/PullToRefresh.git</connection>
+    <developerConnection>https://github.com/823546371/PullToRefresh.git</developerConnection>
+    <url>https://github.com/823546371/PullToRefresh</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

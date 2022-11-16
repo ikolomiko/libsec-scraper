@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eventflit</groupId>
+  <artifactId>pushnotifications</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>'Push Notifications Android'</name>
+  <description>Eventflit Push Notifications for Android</description>
+  <url>https://github.com/eventflit/push-notifications-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>'https://raw.githubusercontent.com/eventflit/push-notifications-android/master/LICENSE.md'</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>erickponce</id>
+      <name>Erick Ponce</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:eventflit/push-notifications-android.git</connection>
+    <developerConnection>scm:git@github.com:eventflit/push-notifications-android.git</developerConnection>
+    <url>https://github.com/eventflit/push-notifications-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>firebase-jobdispatcher</artifactId>
+      <version>0.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.2.30</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hwangjr.proguard</groupId>
+  <artifactId>proguardconfig</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ProguardConfig</name>
+  <description>Proguard Configurations For Android Developer.</description>
+  <url>https://github.com/AndroidKnife/proguard-config</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hwangjr</id>
+      <name>HwangJR</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/AndroidKnife/proguard-config.git</connection>
+    <developerConnection>scm:git:git://github.com/AndroidKnife/proguard-config.git</developerConnection>
+    <url>https://github.com/AndroidKnife/proguard-config</url>
+  </scm>
+</project>

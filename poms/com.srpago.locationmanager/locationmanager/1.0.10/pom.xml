@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.srpago.locationmanager</groupId>
+  <artifactId>locationmanager</artifactId>
+  <version>1.0.10</version>
+  <packaging>aar</packaging>
+  <name>locationmanager</name>
+  <description>Location Manager library for Sr. Pago SDK.</description>
+  <url>https://github.com/srpago/android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>srpagodev</id>
+      <name>Sr. Pago Development</name>
+      <email>jaroussells@srpago.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/srpago/android.git</connection>
+    <developerConnection>https://github.com/srpago/android.git</developerConnection>
+    <url>https://github.com/srpago/android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>appcompat-v7</artifactId>
+      <groupId>com.android.support</groupId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>play-services-gcm</artifactId>
+      <groupId>com.google.android.gms</groupId>
+      <version>16.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>play-services-location</artifactId>
+      <groupId>com.google.android.gms</groupId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

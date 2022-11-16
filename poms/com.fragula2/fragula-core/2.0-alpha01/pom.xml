@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fragula2</groupId>
+  <artifactId>fragula-core</artifactId>
+  <version>2.0-alpha01</version>
+  <packaging>aar</packaging>
+  <name>fragula-core</name>
+  <description>Fragula is a swipe-back extension for navigation component library for Android.</description>
+  <url>https://github.com/massivemadness/Fragula</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>https://github.com/massivemadness/Fragula/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>massivemadness</id>
+      <name>Dmitry Rubtsov</name>
+      <email>dm.mironov01@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/massivemadness/Fragula.git</connection>
+    <developerConnection>scm:git:ssh://github.com/massivemadness/Fragula.git</developerConnection>
+    <url>https://github.com/massivemadness/Fragula/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager2</groupId>
+      <artifactId>viewpager2</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-fragment-ktx</artifactId>
+      <version>2.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

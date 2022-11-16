@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.bluzwang</groupId>
+  <artifactId>aopcache</artifactId>
+  <version>0.9.7</version>
+  <packaging>aar</packaging>
+  <name>AopCache</name>
+  <description>A aop-cache library for rx android;</description>
+  <url>https://github.com/bluzwong/aop-cache</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bluzwong</id>
+      <name>zj Wong</name>
+      <email>brucewangzhijie@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bluzwong/aop-cache.git</connection>
+    <developerConnection>https://github.com/bluzwong/aop-cache.git</developerConnection>
+    <url>https://github.com/bluzwong/aop-cache</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.paperdb</groupId>
+      <artifactId>paperdb</artifactId>
+      <version>0.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.14</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

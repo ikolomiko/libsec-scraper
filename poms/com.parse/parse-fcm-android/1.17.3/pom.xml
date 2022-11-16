@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.parse</groupId>
+  <artifactId>parse-fcm-android</artifactId>
+  <version>1.17.3</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>15.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>firebase-jobdispatcher</artifactId>
+      <version>0.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse</groupId>
+      <artifactId>parse-android</artifactId>
+      <version>1.17.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <description>Parse Android FCM support.</description>
+  <name>Parse-Android</name>
+  <url>https://github.com/parse-community/Parse-SDK-Android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/parse-community/Parse-SDK-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:parse-community/Parse-SDK-Android.git</connection>
+    <developerConnection>scm:git@github.com:parse-community/Parse-SDK-Android.git</developerConnection>
+    <url>https://github.com/parse-community/Parse-SDK-Android</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>parse</id>
+      <name>Parse</name>
+    </developer>
+  </developers>
+</project>

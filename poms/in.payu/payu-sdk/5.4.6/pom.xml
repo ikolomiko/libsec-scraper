@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.payu</groupId>
+  <artifactId>payu-sdk</artifactId>
+  <version>5.4.6</version>
+  <packaging>aar</packaging>
+  <name>payu-sdk</name>
+  <description>Android sdk for PayU India payment gateways</description>
+  <url>https://github.com/payu-intrepos/Android-SDK</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mobile_payu</id>
+      <name>PayU Mobile</name>
+      <email>payumoneyapp@payumoney.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/payu-intrepos/Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>paymentparamhelper</artifactId>
+      <groupId>in.payu</groupId>
+      <version>[1.8.0,1.9.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>payu-crash-logger</artifactId>
+      <groupId>in.payu</groupId>
+      <version>[1.0.4,1.1.0)</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

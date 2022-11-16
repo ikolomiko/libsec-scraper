@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bennyhuo.tieguanyin</groupId>
+  <artifactId>runtime</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>tieguanyin</name>
+  <description>An Activity &amp; Fragment builder to make it easier and safer to start a new page.</description>
+  <url>https://github.com/bennyhuo/TieGuanYin</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/bennyhuo/TieGuanYin/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bennyhuo</id>
+      <name>Benny Huo</name>
+      <url>https://github.com/bennyhuo/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/bennyhuo/TieGuanYin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:bennyhuo/TieGuanYin.git</developerConnection>
+    <url>https://github.com/bennyhuo/TieGuanYin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.bennyhuo.tieguanyin</groupId>
+      <artifactId>annotations</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

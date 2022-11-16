@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lsurvila.utils.animatedexpandablelistview</groupId>
+    <artifactId>library</artifactId>
+    <version>0.2</version>
+    <packaging>aar</packaging>
+    <name>animated-expandable-list-view</name>
+    <description>An extendable, flexible ExpandableListView widget that supports animations.</description>
+    <url>https://github.com/lsurvila/AnimatedExpandableListView</url>
+    <inceptionYear>2014</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>liudas.survila</id>
+            <name>Liudas Survila</name>
+            <email>liudas.survila@gmail.com</email>
+            <url>https://github.com/lsurvila</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git@github.com:lsurvila/AnimatedExpandableListView.git</connection>
+        <developerConnection>scm:git:git@github.com:lsurvila/AnimatedExpandableListView.git</developerConnection>
+        <url>https://github.com/lsurvila/AnimatedExpandableListView</url>
+    </scm>
+</project>

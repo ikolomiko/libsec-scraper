@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.movile</groupId>
+  <artifactId>creditcardguide</artifactId>
+  <version>1.2-beta</version>
+  <packaging>aar</packaging>
+  <name>movile-creditcardview</name>
+  <description>A real life simulation of a Credit Card (CreditCardView)</description>
+  <url>https://github.com/Movile/CreditCardView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Movile/CreditCardView/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>felipe-silvestre-movile</id>
+      <name>Felipe Silvestre</name>
+      <email>felipe.silvestre@movile.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Movile/CreditCardView.git</connection>
+    <developerConnection>https://github.com/Movile/CreditCardView.git</developerConnection>
+    <url>https://github.com/Movile/CreditCardView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

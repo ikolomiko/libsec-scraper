@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dou361.pay</groupId>
+  <artifactId>jjdxm-pay</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>jjdxm-pay</name>
+  <description>this is a pay library of the application</description>
+  <url>https://github.com/jjdxmashl/jjdxm_pay</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jjdxmashl</id>
+      <name>jjdxmashl</name>
+      <email>316988670@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jjdxmashl/jjdxm_pay.git</connection>
+    <developerConnection>https://github.com/jjdxmashl/jjdxm_pay.git</developerConnection>
+    <url>https://github.com/jjdxmashl/jjdxm_pay</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.dou361.alipay</groupId>
+      <artifactId>jjdxm-alipay</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.dou361.wechat</groupId>
+      <artifactId>jjdxm-wechat</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

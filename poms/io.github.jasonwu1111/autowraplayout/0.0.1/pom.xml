@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.jasonwu1111</groupId>
+  <artifactId>autowraplayout</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AutoWrapLayout</name>
+  <description>A awesome layout widget for wraping multiple items tidily.</description>
+  <url>https://github.com/JasonWu1111/AutoWrapLayout</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jasonwu</id>
+      <name>jasonwu</name>
+      <email>jasonwu19960210@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:JasonWu1111/AutoWrapLayout.git</connection>
+    <developerConnection>scm:git:https://github.com/JasonWu1111/AutoWrapLayout.git</developerConnection>
+    <url>https://github.com/JasonWu1111/AutoWrapLayout/tree/main</url>
+  </scm>
+</project>

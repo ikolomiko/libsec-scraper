@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.j2eecn.app</groupId>
+  <artifactId>fw</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>multi-format 1D/2D barcode image processing use zxing.</name>
+  <url>https://git.oschina.net/crazycodeboy/ScanProj</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>you id</id>
+      <name>your name</name>
+      <email>your email</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.oschina.net/crazycodeboy/ScanProj.git</connection>
+    <developerConnection>https://git.oschina.net/crazycodeboy/ScanProj.git</developerConnection>
+    <url>https://git.oschina.net/crazycodeboy/ScanProj</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>animated-vector-drawable</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.0-alpha7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.liferay.mobile</groupId>
+      <artifactId>liferay-screens</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>7.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.umeng.analytics</groupId>
+      <artifactId>analytics</artifactId>
+      <version>6.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.hdodenhof</groupId>
+      <artifactId>circleimageview</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

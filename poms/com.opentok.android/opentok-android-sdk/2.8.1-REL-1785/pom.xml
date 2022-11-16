@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.opentok.android</groupId>
+  <artifactId>opentok-android-sdk</artifactId>
+  <version>2.8.1-REL-1785</version>
+  <packaging>aar</packaging>
+  <name>OpenTok Android SDK</name>
+  <description>The Vonage Video API Android SDK lets you use Vonage Video API-powered video sessions in apps you build for Android devices.</description>
+  <url>https://tokbox.com/developer/sdks/android/</url>
+  <licenses>
+    <license>
+      <name>Software Development Kit (SDK) License Agreement</name>
+      <url>https://tokbox.com/support/sdk_license</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/opentok/native-sdk-src</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>TokBox Clients</name>
+      <email>tokbox.clients@vonage.com</email>
+    </developer>
+  </developers>
+</project>

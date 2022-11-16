@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.badoo.mobile</groupId>
+  <artifactId>android-weak-handler</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Android Weak Handler</name>
+  <description>Memory safer implementation of android Handler</description>
+  <url>http://github.com/badoo/android-weak-handler</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zloy</id>
+      <name>Dmytro Voronkevych</name>
+      <email>dmytro.voronkevych@corp.badoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:http://github.com/badoo/android-weak-handler/</connection>
+    <developerConnection>scm:git:http://github.com/badoo/android-weak-handler/</developerConnection>
+    <url>http://github.com/badoo/android-weak-handler</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

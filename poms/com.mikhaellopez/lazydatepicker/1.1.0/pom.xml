@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mikhaellopez</groupId>
+  <artifactId>lazydatepicker</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>LazyDatePicker</name>
+  <description>This is an Android project to offer an alternative to the native Android Date Picker.</description>
+  <url>https://github.com/lopspower/LazyDatePicker</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikhael.lopez</id>
+      <name>Mikhael LOPEZ</name>
+      <email>lopez.mikhael@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/lopspower/LazyDatePicker</connection>
+    <developerConnection>scm:git:https://github.com/lopspower/LazyDatePicker</developerConnection>
+    <url>https://github.com/lopspower/LazyDatePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jakewharton.threetenabp</groupId>
+      <artifactId>threetenabp</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.zy654781296</groupId>
+  <artifactId>phone_base</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>phone_base</name>
+  <description>phone_base</description>
+  <url>https://github.com/zy654781296/phone_base</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>654781296@qq.com</id>
+      <name>zhangyin</name>
+      <email>654781296@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/zy654781296/phone_base.git</connection>
+    <developerConnection>scm:git:ssh://github.com/zy654781296/phone_base.git</developerConnection>
+    <url>https://github.com/zy654781296/phone_base/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>1.17.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.zhy</groupId>
+      <artifactId>okhttputils</artifactId>
+      <version>2.6.2</version>
+    </dependency>
+  </dependencies>
+</project>

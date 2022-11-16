@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dev.hieupt</groupId>
+  <artifactId>ucrop</artifactId>
+  <version>2.2.4</version>
+  <packaging>aar</packaging>
+  <name>uCropViewBox</name>
+  <description>Customize uCrop to support observe touch event</description>
+  <url>https://github.com/hieupham1993/uCropViewBox</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/quangctkm9207/multi-library-bintray/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hieupham1993</id>
+      <name>Hieu Pham</name>
+      <email>hieupham1993@live.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hieupham1993/uCropViewBox.git</connection>
+    <developerConnection>https://github.com/hieupham1993/uCropViewBox.git</developerConnection>
+    <url>https://github.com/hieupham1993/uCropViewBox</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.transition</groupId>
+      <artifactId>transition</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sinaukoding</groupId>
+  <artifactId>composeicon</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>composeicon</name>
+  <description>Icon library for jetpack compose</description>
+  <url>https://github.com/farhanroy/composeicon</url>
+  <licenses>
+    <license>
+      <name>License</name>
+      <url>https://github.com/jahirfiquitiva/test-library-maven-publish/blob/sample/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>farhanroy</id>
+      <name>Farhan Roy</name>
+      <email>farhanroy120@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/farhanroy/composeicon.git</connection>
+    <developerConnection>scm:git:ssh://github.com/farhanroy/composeicon.git</developerConnection>
+    <url>https://github.com/farhanroy/composeicon/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-tooling</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+  </dependencies>
+</project>

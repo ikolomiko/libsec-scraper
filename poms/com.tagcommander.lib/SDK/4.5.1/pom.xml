@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tagcommander.lib</groupId>
+  <artifactId>SDK</artifactId>
+  <version>4.5.1</version>
+  <packaging>aar</packaging>
+  <name>SDK</name>
+  <description>tagcommander android sdk</description>
+  <url>https://github.com/TagCommander/android/</url>
+  <licenses>
+    <license>
+      <name>Unlicense</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tagcommander</id>
+      <name>Tag Commander</name>
+      <email>mobile.tagcommander@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/TagCommander/Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/TagCommander/Android.git</developerConnection>
+    <url>https://github.com/TagCommander/android/tree/main</url>
+  </scm>
+</project>

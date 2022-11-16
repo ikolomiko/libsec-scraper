@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.appertise</groupId>
+  <artifactId>kiss</artifactId>
+  <version>1.0.10</version>
+  <packaging>aar</packaging>
+  <name>KISS</name>
+  <description>Dependency injection and for android made easy. Inject view, services, singletons, components and more using the K.I.S.S principle.</description>
+  <url>http://github.com/appertise/kiss</url>
+  <licenses>
+    <license>
+      <name>GPL-3.0</name>
+      <url>http://www.opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rrigoni</id>
+      <name>Ronaldo Rigoni</name>
+      <email>rrigoni@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>github.com/appertise/kiss</connection>
+    <developerConnection>github.com/appertise/kiss</developerConnection>
+    <url>http://github.com/appertise/kiss</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

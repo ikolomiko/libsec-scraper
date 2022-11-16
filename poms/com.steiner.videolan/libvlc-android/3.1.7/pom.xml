@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.steiner.videolan</groupId>
+  <artifactId>libvlc-android</artifactId>
+  <version>3.1.7</version>
+  <packaging>aar</packaging>
+  <name>LibVLC</name>
+  <description>LibVLC for Android, Android TV and ChromeOS</description>
+  <url>https://github.com/SteinerOk/libvlc-sdk-android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 2.0</name>
+      <url>https://opensource.org/licenses/gpl-2.0.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>VideoLan Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:ssh://git@github.com:SteinerOk/libvlc-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:SteinerOk/libvlc-sdk-android.git</developerConnection>
+    <url>https://github.com/SteinerOk/libvlc-sdk-android.git</url>
+  </scm>
+  <issueManagement>
+    <system>VideoLan Issues</system>
+    <url>https://trac.videolan.org/vlc</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

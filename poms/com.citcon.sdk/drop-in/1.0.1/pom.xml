@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.citcon.sdk</groupId>
+  <artifactId>drop-in</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>drop-in</name>
+  <description>Citcon mobile official Android SDK(UPI) Drop-In</description>
+  <url>https://github.com/Citcon/citcon_mobile_sdk_upi_android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>raymond.zhuang</id>
+      <name>Raymond Zhuang</name>
+      <email>raymond.zhuang@citcon-inc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Citcon/citcon_mobile_sdk_upi_android</connection>
+    <developerConnection>scm:git:ssh://github.com/Citcon/citcon_mobile_sdk_upi_android.git</developerConnection>
+    <url>https://github.com/Citcon/citcon_mobile_sdk_upi_android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.braintreepayments.api</groupId>
+      <artifactId>braintree</artifactId>
+      <version>3.17.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.citcon.sdk</groupId>
+      <artifactId>CardForm</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.braintreepayments.api</groupId>
+      <artifactId>three-d-secure</artifactId>
+      <version>3.17.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wallet</artifactId>
+      <version>19.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

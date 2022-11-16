@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nasket.library</groupId>
+  <artifactId>wdi3018</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>wdi3018</name>
+  <description>An USB to serial for wdi3018 Scanner for Android</description>
+  <url>https://gitlab.cokr.info/nasket/maven</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>visualizeq</id>
+      <name>Jakkapong Yuangtong</name>
+      <email>visualizeq@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.cokr.info/nasket/maven.git</connection>
+    <developerConnection>https://gitlab.cokr.info/nasket/maven.git</developerConnection>
+    <url>https://gitlab.cokr.info/nasket/maven</url>
+  </scm>
+</project>

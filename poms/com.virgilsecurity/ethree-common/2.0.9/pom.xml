@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.virgilsecurity</groupId>
+  <artifactId>ethree-common</artifactId>
+  <version>2.0.9</version>
+  <packaging>aar</packaging>
+  <name>Virgil E3Kit Kotlin Common</name>
+  <description>Virgil Security provides an SDK which symplifies work with Virgil services and presents easy to use API for adding security to any application. In a few simple steps you can setup user encryption with multidevice support.</description>
+  <url>https://www.virgilsecurity.com/</url>
+  <licenses>
+    <license>
+      <name>Virgil Security, Inc. license</name>
+      <url>https://github.com/VirgilSecurity/virgil-e3kit-kotlin/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BuddahLD</id>
+      <name>Danylo Oliinyk</name>
+      <email>doliinyk@virgilsecurity.com</email>
+      <organizationUrl>https://github.com/BuddahLD</organizationUrl>
+    </developer>
+    <developer>
+      <id>andrii-iakovenko</id>
+      <name>Andrii Iakovenko</name>
+      <email>andrii-iakovenko@gmail.com</email>
+      <organizationUrl>https://github.com/andrii-iakovenko</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/VirgilSecurity/virgil-e3kit-kotlin.git</connection>
+    <developerConnection>scm:git:git@github.com:VirgilSecurity/virgil-e3kit-kotlin.git</developerConnection>
+    <url>https://github.com/VirgilSecurity/virgil-e3kit-kotlin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity.sdk</groupId>
+      <artifactId>sdk-android</artifactId>
+      <version>7.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity.sdk</groupId>
+      <artifactId>crypto-android</artifactId>
+      <version>7.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity</groupId>
+      <artifactId>pythia-android</artifactId>
+      <version>0.3.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity.crypto</groupId>
+      <artifactId>pythia-android</artifactId>
+      <version>0.15.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity</groupId>
+      <artifactId>ratchet-android</artifactId>
+      <version>0.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-runtime</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-ktx</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>null</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.virgilsecurity</groupId>
+      <artifactId>test-common</artifactId>
+      <version>0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

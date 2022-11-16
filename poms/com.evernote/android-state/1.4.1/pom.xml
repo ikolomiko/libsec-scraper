@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.evernote</groupId>
+  <artifactId>android-state</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>Android State</name>
+  <description>Android library to save object states into a bundle.</description>
+  <url>https://github.com/evernote/android-state</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Eclipse Public License - v 1.0</name>
+      <url>https://github.com/evernote/android-state/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rwondratschek</id>
+      <name>Ralf Wondratschek</name>
+      <email>rwondratschek@evernote.com</email>
+      <url>http://vrallev.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/evernote/android-state.git</connection>
+    <developerConnection>scm:git:git@github.com:evernote/android-state.git</developerConnection>
+    <url>https://github.com/evernote/android-state</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/evernote/android-state/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

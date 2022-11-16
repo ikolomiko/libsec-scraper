@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dyhdyh.compat.mmrc</groupId>
+  <artifactId>media-metadata-retriever-compat</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>MediaMetadataRetrieverCompat</name>
+  <description>多媒体元数据兼容方案 - 支持获取图片、视频、音频文件的媒体信息、视频缩略图</description>
+  <url>https://github.com/dengyuhan/MediaMetadataRetrieverCompat</url>
+  <developers>
+    <developer>
+      <id>dengyuhan</id>
+      <name>dengyuhan</name>
+      <email>22309946@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dengyuhan/MediaMetadataRetrieverCompat.git</connection>
+    <developerConnection>https://github.com/dengyuhan/MediaMetadataRetrieverCompat.git</developerConnection>
+    <url>https://github.com/dengyuhan/MediaMetadataRetrieverCompat</url>
+  </scm>
+</project>

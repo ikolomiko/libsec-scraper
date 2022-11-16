@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.droidkit</groupId>
+  <artifactId>pickers</artifactId>
+  <version>0.6</version>
+  <packaging>aar</packaging>
+  <name>DroidKit Pickers</name>
+  <description>DroidKit Pickers: Various pickers for Android</description>
+  <url>https://github.com/actorapp/droidkit-pickers</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ex3ndr</id>
+      <name>Stepan Korshakov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:actorapp/droidkit-pickers.git</connection>
+    <developerConnection>scm:git@github.com:actorapp/droidkit-pickers.git</developerConnection>
+    <url>scm:git@github.com:actorapp/droidkit-pickers.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.droidkit</groupId>
+      <artifactId>progress</artifactId>
+      <version>0.4+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>5.0.89</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

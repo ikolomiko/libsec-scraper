@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dmytrodanylyk.android-process-button</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Android Process Buttons</name>
+  <description>Android button which can indicate progress.</description>
+  <url>https://github.com/dmytrodanylyk/android-process-button</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/dmytrodanylyk/android-process-button/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dmytrodanylyk</id>
+      <name>Dmytro Danylyk</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:dmytrodanylyk/android-process-button.git</connection>
+    <developerConnection>scm:git@github.com:dmytrodanylyk/android-process-button.git</developerConnection>
+    <url>https://github.com/dmytrodanylyk/android-process-button</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

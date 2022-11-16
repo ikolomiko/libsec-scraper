@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.sunitsdk</groupId>
+  <artifactId>mopub</artifactId>
+  <version>5.14.0.1</version>
+  <packaging>aar</packaging>
+  <name>mopub</name>
+  <description>SAN Mediation Adapter for Mopub</description>
+  <url>https://github.com/sunitsdk/SanSdkSample</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AStar</id>
+      <name>changjx</name>
+      <email>changjx1209@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/sunitsdk/SanSdkSample.git</connection>
+    <developerConnection>scm:git:ssh://github.com/sunitsdk/SanSdkSample.git</developerConnection>
+    <url>https://github.com/sunitsdk/SanSdkSample/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>io.github.sunitsdk</groupId>
+      <artifactId>san-sdk</artifactId>
+      <version>3.1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>mopub-sdk</artifactId>
+      <version>5.14.0</version>
+    </dependency>
+  </dependencies>
+</project>

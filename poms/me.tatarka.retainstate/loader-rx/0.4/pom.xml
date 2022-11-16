@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.tatarka.retainstate</groupId>
+  <artifactId>loader-rx</artifactId>
+  <version>0.4</version>
+  <packaging>aar</packaging>
+  <name>loader-rx</name>
+  <description>A dead simple way to retain some state thought configuration changes on Android</description>
+  <url>https://github.com/evant/retain-state</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>evant</id>
+      <name>Evan Tatarka</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/evantlemaddaluno/retain-state.git</connection>
+    <developerConnection>https://github.com/evantlemaddaluno/retain-state.git</developerConnection>
+    <url>https://github.com/evant/retain-state</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.tatarka.retainstate</groupId>
+      <artifactId>loader</artifactId>
+      <version>0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

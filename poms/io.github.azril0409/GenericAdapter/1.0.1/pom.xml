@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.azril0409</groupId>
+  <artifactId>GenericAdapter</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>GenericAdapter</name>
+  <description>GenericAdapter is an open source annotation framework for Android. It takes care of the Adapter of List.</description>
+  <url>https://github.com/azril0409/GenericAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>azril0409</id>
+      <name>TU TSUNG-TSE</name>
+      <email>azril0409@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/azril0409/GenericAdapter.git</connection>
+    <developerConnection>https://github.com/azril0409/GenericAdapter.git</developerConnection>
+    <url>https://github.com/azril0409/GenericAdapter</url>
+  </scm>
+</project>

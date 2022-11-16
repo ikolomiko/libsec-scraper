@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.i2cat.seg</groupId>
+  <artifactId>webrtcat4</artifactId>
+  <version>4.1.0</version>
+  <packaging>aar</packaging>
+  <name>webrtcat4</name>
+  <description>WebRTCat4 client reusable Android module.</description>
+  <url>https://github.com/seg-i2CAT/webrtcat4_android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/seg-i2CAT/webrtcat4_android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>seg-i2cat</id>
+      <name>SEG i2CAT</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/seg-i2CAT/webrtcat4_android.git</connection>
+    <developerConnection>https://github.com/seg-i2CAT/webrtcat4_android.git</developerConnection>
+    <url>https://github.com/seg-i2CAT/webrtcat4_android</url>
+  </scm>
+</project>

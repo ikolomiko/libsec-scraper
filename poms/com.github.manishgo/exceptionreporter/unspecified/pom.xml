@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.manishgo</groupId>
+  <artifactId>exceptionreporter</artifactId>
+  <version>unspecified</version>
+  <packaging>aar</packaging>
+  <name>com.github.manishgo:androidcrashreporter</name>
+  <description>Report crashes observed in Android Application through email with Logs captured at the time of crash</description>
+  <url>http://github.com/manishgo/AndroidCrashReporter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>manishgo</id>
+      <name>Manish Goyal</name>
+      <email>nishu9601@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/manishgo/AndroidCrashReporter.git</connection>
+    <developerConnection>https://github.com/manishgo/AndroidCrashReporter.git</developerConnection>
+    <url>http://github.com/manishgo/AndroidCrashReporter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

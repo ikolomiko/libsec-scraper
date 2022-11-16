@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.manneohlund</groupId>
+  <artifactId>smart-recycler-adapter-diffutil</artifactId>
+  <version>1.0.0-beta01</version>
+  <packaging>aar</packaging>
+  <name>SmartRecyclerAdapter DiffUtil</name>
+  <description>Diff util extension library for SmartRecyclerAdapter</description>
+  <url>https://manneohlund.github.io/smart-recycler-adapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>manneohlund</id>
+      <name>Manne Öhlund</name>
+      <email>manne.ohlund@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/manneohlund/smart-recycler-adapter</connection>
+    <developerConnection>https://github.com/manneohlund/smart-recycler-adapter</developerConnection>
+    <url>https://manneohlund.github.io/smart-recycler-adapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund</groupId>
+      <artifactId>smart-recycler-adapter</artifactId>
+      <version>5.0.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.3.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

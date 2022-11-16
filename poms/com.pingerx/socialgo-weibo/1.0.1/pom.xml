@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pingerx</groupId>
+  <artifactId>socialgo-weibo</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>social-android</name>
+  <url>https://github.com/pingerx/social-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pingerx</id>
+      <name>pingerx</name>
+      <email>xmpinger@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pingerx/social-android.git</connection>
+    <developerConnection>https://github.com/pingerx/social-android.git</developerConnection>
+    <url>https://github.com/pingerx/social-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sina.weibo.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>4.3.6</version>
+      <type>aar</type>
+      <classifier>openDefaultRelease</classifier>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

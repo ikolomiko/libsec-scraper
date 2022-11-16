@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amplitude</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>2.38.1</version>
+  <packaging>aar</packaging>
+  <name>android-sdk</name>
+  <description>Amplitude Android SDK</description>
+  <url>https://github.com/amplitude/Amplitude-Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amplitude_sdk_dev</id>
+      <name>Amplitude SDK Developers</name>
+      <email>sdk.dev@amplitude.com</email>
+      <organization>org.apache.maven.model.Organization@20e44f98</organization>
+      <organizationUrl>https://amplitude.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:http://github.com/amplitude/Amplitude-Android</connection>
+    <developerConnection>scm:git:git@github.com:amplitude/Amplitude-Android.git</developerConnection>
+    <url>https://github.com/amplitude/Amplitude-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amplitude</groupId>
+      <artifactId>analytics-connector</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.2.2</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

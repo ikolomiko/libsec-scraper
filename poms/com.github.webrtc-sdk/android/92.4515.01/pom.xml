@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.webrtc-sdk</groupId>
+  <artifactId>android</artifactId>
+  <version>92.4515.01</version>
+  <packaging>aar</packaging>
+  <name>webrtc-sdk/android</name>
+  <description>POM was created from install:install-file</description>
+  <url>https://github.com/webrtc-sdk/android</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>webrtc-sdk</id>
+      <name>WebRTC SDKs</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/webrtc-sdk/android.git</connection>
+    <developerConnection>scm:git://github.com/webrtc-sdk/android.git</developerConnection>
+    <url>git://github.com/webrtc-sdk/android.git</url>
+  </scm>
+</project>

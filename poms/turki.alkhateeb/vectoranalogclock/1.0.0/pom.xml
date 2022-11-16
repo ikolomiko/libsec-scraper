@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>turki.alkhateeb</groupId>
+  <artifactId>vectoranalogclock</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Vector Analog Clock View</name>
+  <description>A Simple Customizable VectorAnalogClock Android View</description>
+  <url>https://github.com/TurkiAlkhateeb/vector-analog-clock</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/TurkiAlkhateeb/vector-analog-clock/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>TurkiAlkhateeb</id>
+      <name>Turki Alkhateeb</name>
+      <email>turki.khateeb@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TurkiAlkhateeb/vector-analog-clock.git</connection>
+    <developerConnection>https://github.com/TurkiAlkhateeb/vector-analog-clock.git</developerConnection>
+    <url>https://github.com/TurkiAlkhateeb/vector-analog-clock</url>
+  </scm>
+</project>

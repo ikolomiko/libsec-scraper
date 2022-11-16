@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spinytech.ma</groupId>
+  <artifactId>macore</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>ModularizationArchitecture</name>
+  <description>A modularization architecture for Android program.</description>
+  <url>https://github.com/SpinyTech/ModularizationArchitecture</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>spiny</id>
+      <name>spiny</name>
+      <email>spiny.tech@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SpinyTech/ModularizationArchitecture.git</connection>
+    <developerConnection>https://github.com/SpinyTech/ModularizationArchitecture.git</developerConnection>
+    <url>https://github.com/SpinyTech/ModularizationArchitecture</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ticketmaster.purchase</groupId>
+  <artifactId>ticketmaster-purchase</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Ticketmaster-Purchase</name>
+  <description>This SDK comprises of Ticketmaster's one purchase experience</description>
+  <url>https://github.com/Ticketmaster/PurchaseSDK-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tmandroid</id>
+      <name>Ticketmaster Android</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ticketmaster/PurchaseSDK-Android.git</connection>
+    <developerConnection>scm:git@github.com:ticketmaster/PurchaseSDK-Android.git</developerConnection>
+    <url>https://github.com/Ticketmaster/PurchaseSDK-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>customtabs</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ticketmaster.voltron</groupId>
+      <artifactId>voltron-discovery</artifactId>
+      <version>0.0.22</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ticketmaster.voltron</groupId>
+      <artifactId>voltron-googleanalytics</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.9.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.4-2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

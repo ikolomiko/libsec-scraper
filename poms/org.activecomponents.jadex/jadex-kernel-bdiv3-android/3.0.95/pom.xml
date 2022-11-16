@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.activecomponents.jadex</groupId>
+  <artifactId>jadex-kernel-bdiv3-android</artifactId>
+  <version>3.0.95</version>
+  <packaging>aar</packaging>
+  <description>BDIV3 kernel for Jadex-Android.</description>
+  <name>jadex-kernel-bdiv3-android</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.activecomponents.jadex</groupId>
+      <artifactId>jadex-kernel-bdiv3</artifactId>
+      <version>3.0.95</version>
+    </dependency>
+    <dependency>
+      <groupId>org.activecomponents.jadex</groupId>
+      <artifactId>jadex-android-commons</artifactId>
+      <version>3.0.95</version>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>http://jadex.svn.sourceforge.net/viewvc/jadex/</url>
+  </scm>
+  <url>https://www.activecomponents.org</url>
+  <developers>
+    <developer>
+      <id>alex</id>
+      <name>Alexander Pokahr</name>
+      <email>pokahr@gmx.net</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>lars</id>
+      <name>Lars Braubach</name>
+      <email>braubach@gmx.net</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>kai</id>
+      <name>Kai Jander</name>
+      <email>kai.jander@googlemail.com</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>julian</id>
+      <name>Julian Kalinowski</name>
+      <email>kalinowski@informatik.uni-hamburg.de</email>
+      <organization>University of Hamburg</organization>
+      <organizationUrl>http://vsis-www.informatik.uni-hamburg.de/</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>GPL-3.0</name>
+      <url>https://gnu.org/licenses/gpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

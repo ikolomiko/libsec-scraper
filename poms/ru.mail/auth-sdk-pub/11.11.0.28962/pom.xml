@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <name>auth-sdk-pub</name>
+  <description>Mail.ru OAuth SDK Library</description>
+  <groupId>ru.mail</groupId>
+  <artifactId>auth-sdk-pub</artifactId>
+  <version>11.11.0.28962</version>
+  <packaging>aar</packaging>
+  <url>https://mail.ru</url>
+  <scm>
+<connection>https://github.com/mailru/mail-auth-sdk-android</connection>
+<url>https://github.com/mailru/mail-auth-sdk-android</url>
+<developerConnection>http://mail.ru</developerConnection>
+</scm>
+<licenses>
+<license>
+<name>MIT License</name>
+<url>https://opensource.org/licenses/MIT</url>
+</license>
+</licenses>
+	<developers>
+<developer>
+<id>android-auth-sdk</id>
+<name>Andrey Govorovsky</name>
+<email>a.govorovskiy@corp.mail.ru</email>
+</developer>
+</developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.browser</groupId>
+      <artifactId>browser</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

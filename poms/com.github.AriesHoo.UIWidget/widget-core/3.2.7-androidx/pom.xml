@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.AriesHoo.UIWidget</groupId>
+  <artifactId>widget-core</artifactId>
+  <version>3.2.7-androidx</version>
+  <packaging>aar</packaging>
+  <name>AriesHoo/UIWidget</name>
+  <description>一个集成UIAlertDialog、UIActionSheetDialog、UIProgressDialog、TitleBarView(自带沉浸式标题栏)、CollapsingTitleBarLayout、RadiusView(圆角及状态背景设置View解放shape文件)、KeyboardHelper(软键盘控制及遮挡控制类)、StatusViewHelper(状态栏沉浸帮助类)、NavigationViewHelper（导航栏沉浸式帮助类）、AlphaViewHelper(View透明度控制帮助类) 等项目常用UI库</description>
+  <url>https://github.com/AriesHoo/UIWidget</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AriesHoo</id>
+      <name>Aries Hoo</name>
+      <email>AriesHoo@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/AriesHoo/UIWidget.git</connection>
+    <developerConnection>scm:git://github.com/AriesHoo/UIWidget.git</developerConnection>
+    <url>git://github.com/AriesHoo/UIWidget.git</url>
+  </scm>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.toast.android</groupId>
+  <artifactId>toast-push-fcm</artifactId>
+  <version>0.13.0</version>
+  <packaging>aar</packaging>
+  <name>toast-push-fcm</name>
+  <description>TOAST Android Push SDK Firebase Cloud Messaging (FCM) Module</description>
+  <url>https://github.nhnent.com/TOASTCloud/toastcloud-android-sdk</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shhong</id>
+      <name>TOAST Client Team</name>
+      <email>shhong@nhnent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.nhnent.com/TOASTCloud/toastcloud-android-sdk.git</connection>
+    <developerConnection>https://github.nhnent.com/TOASTCloud/toastcloud-android-sdk.git</developerConnection>
+    <url>https://github.nhnent.com/TOASTCloud/toastcloud-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-push-core</artifactId>
+      <version>0.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-push-notification</artifactId>
+      <version>0.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-push-analytics</artifactId>
+      <version>0.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>17.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

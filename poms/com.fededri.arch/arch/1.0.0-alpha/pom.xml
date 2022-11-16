@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fededri.arch</groupId>
+  <artifactId>arch</artifactId>
+  <version>1.0.0-alpha</version>
+  <packaging>aar</packaging>
+  <name>arch</name>
+  <description>Android library to architecture your app following functional concepts, state management, ViewModels and coroutines</description>
+  <url>https://github.com/fededri/Arch</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fededri</id>
+      <name>Federico Miguel Angel Torres</name>
+      <email>federico.ma.torres@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fededri/Arch.git</connection>
+    <developerConnection>https://github.com/fededri/Arch.git</developerConnection>
+    <url>https://github.com/fededri/Arch</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-ktx</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.+</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

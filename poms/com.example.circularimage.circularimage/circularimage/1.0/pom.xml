@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.circularimage.circularimage</groupId>
+  <artifactId>circularimage</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Circularimage</name>
+  <description>Android Library to set any text's first letter into image view</description>
+  <url>https://github.com/atul-singh-bs/CircularImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>atulsinghbigstep</id>
+      <name>Atul Singh</name>
+      <email>atul.singh@bigsteptech.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/atul-singh-bs/CircularImageView.git</connection>
+    <developerConnection>https://github.com/atul-singh-bs/CircularImageView.git</developerConnection>
+    <url>https://github.com/atul-singh-bs/CircularImageView</url>
+  </scm>
+</project>

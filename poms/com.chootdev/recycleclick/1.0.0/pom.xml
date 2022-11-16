@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chootdev</groupId>
+  <artifactId>recycleclick</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>RecycleClick</name>
+  <description>Android recycler view not supports for onItemClickListner event. This library helps to wrap up and gain again the missing recycle view item click and item long click functions. This library is a project carried by Lakitha, give a visit https://github.com/LakithaRav</description>
+  <url>https://github.com/ChathuraHettiarachchi/RecycleClick</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ChathuraHettiarachchi</id>
+      <name>Chathura Hettiarachchi</name>
+      <email>chathura93@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ChathuraHettiarachchi/RecycleClick.git</connection>
+    <developerConnection>https://github.com/ChathuraHettiarachchi/RecycleClick.git</developerConnection>
+    <url>https://github.com/ChathuraHettiarachchi/RecycleClick</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.appcenter.reactnative</groupId>
+  <artifactId>appcenter-react-native</artifactId>
+  <version>4.4.5</version>
+  <packaging>aar</packaging>
+  <name>appcenter-react-native</name>
+  <description>AppCenter SDK for React Native Android</description>
+  <url>https://github.com/Microsoft/appcenter-sdk-react-native</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>microsoft</id>
+      <name>Microsoft</name>
+      <email>appcentersdk@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Microsoft/appcenter-sdk-react-native.git</connection>
+    <developerConnection>https://github.com/Microsoft/appcenter-sdk-react-native.git</developerConnection>
+    <url>https://github.com/Microsoft/appcenter-sdk-react-native</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.microsoft.appcenter</groupId>
+      <artifactId>appcenter</artifactId>
+      <version>4.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

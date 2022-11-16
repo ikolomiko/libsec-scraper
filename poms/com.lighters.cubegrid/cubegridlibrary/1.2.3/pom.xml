@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lighters.cubegrid</groupId>
+  <artifactId>cubegridlibrary</artifactId>
+  <version>1.2.3</version>
+  <packaging>aar</packaging>
+  <name>Cube Grid Animation For Android</name>
+  <url>https://github.com/david-wei/CubeGrid</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>david-wei</id>
+      <name>lighters</name>
+      <email>huangdiv5@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/david-wei/CubeGrid.git</connection>
+    <developerConnection>https://github.com/david-wei/CubeGrid.git</developerConnection>
+    <url>https://github.com/david-wei/CubeGrid</url>
+  </scm>
+</project>

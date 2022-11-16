@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tink</groupId>
+  <artifactId>link-payments</artifactId>
+  <version>0.14.6</version>
+  <packaging>aar</packaging>
+  <name>link-payments</name>
+  <description>A library for connecting your app to Tink</description>
+  <url>https://github.com/tink-ab/tink-link-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tink-ab</id>
+      <name>Tink AB</name>
+      <email>sdk-mobile@tink.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tink-ab/tink-link-android.git</connection>
+    <developerConnection>https://github.com/tink-ab/tink-link-android.git</developerConnection>
+    <url>https://github.com/tink-ab/tink-link-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tink</groupId>
+      <artifactId>link</artifactId>
+      <version>0.14.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger-android-support</artifactId>
+      <version>2.16</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger-android</artifactId>
+      <version>2.16</version>
+    </dependency>
+  </dependencies>
+</project>

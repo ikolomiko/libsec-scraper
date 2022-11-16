@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jpardogo.googleprogressbar</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>GoogleProgressBar Library</name>
+  <description>Android library to display progress like google does in some of his services.</description>
+  <url>https://github.com/jpardogo/GoogleProgressBar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jpardogo1</id>
+      <name>Javier Pardo</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jpardogo/GoogleProgressBar.git</connection>
+    <developerConnection>scm:git@github.com:jpardogo/GoogleProgressBar.git</developerConnection>
+    <url>https://github.com/jpardogo/GoogleProgressBar</url>
+  </scm>
+</project>

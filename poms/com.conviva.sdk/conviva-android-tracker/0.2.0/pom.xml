@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.conviva.sdk</groupId>
+  <artifactId>conviva-android-tracker</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>conviva-android-tracker</name>
+  <description>Conviva App Sensor SDK Library for Android</description>
+  <url>https://github.com/Conviva/conviva-android-tracker</url>
+  <licenses>
+    <license>
+      <name>Sdk License</name>
+      <url>https://github.com/Conviva/conviva-sdk-license/blob/main/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1</id>
+      <name>Sarath Ramachandra</name>
+      <email>sramachandra@conviva.com</email>
+    </developer>
+    <developer>
+      <id>2</id>
+      <name>Sandeep Madineni</name>
+      <email>smadinen@conviva.com</email>
+    </developer>
+    <developer>
+      <id>3</id>
+      <name>Rajesh Vengala</name>
+      <email>rkumar@conviva.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Conviva/conviva-android-tracker.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Conviva/conviva-android-tracker.git</developerConnection>
+    <url>https://github.com:Conviva/conviva-android-tracker/tree/main</url>
+  </scm>
+</project>

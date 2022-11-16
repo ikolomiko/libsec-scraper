@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.applozic.communication.message</groupId>
+  <artifactId>mobicomkit</artifactId>
+  <version>5.98</version>
+  <packaging>aar</packaging>
+  <name>mobicomkit</name>
+  <description>Applozic Communication Chat/Messaging library</description>
+  <developers>
+    <developer>
+      <id>devashish</id>
+      <name>Applozic</name>
+      <email>devashish.mamgain@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.applozic.mobiframework</groupId>
+      <artifactId>mobicommons</artifactId>
+      <version>5.98</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.2.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

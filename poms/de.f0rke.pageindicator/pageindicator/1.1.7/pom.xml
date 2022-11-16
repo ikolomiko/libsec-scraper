@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.f0rke.pageindicator</groupId>
+  <artifactId>pageindicator</artifactId>
+  <version>1.1.7</version>
+  <packaging>aar</packaging>
+  <name>pageindicator</name>
+  <description>A library providing a PageIndicator View for ViewPager on Android</description>
+  <url>https://github.com/f0rke/Android-PageIndicator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>f0rke</id>
+      <name>Moritz Koechig</name>
+      <email>the.forke@googlemail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/f0rke/Android-PageIndicator.git</connection>
+    <developerConnection>https://github.com/f0rke/Android-PageIndicator.git</developerConnection>
+    <url>https://github.com/f0rke/Android-PageIndicator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

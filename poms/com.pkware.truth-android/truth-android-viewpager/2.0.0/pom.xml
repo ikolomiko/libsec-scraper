@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pkware.truth-android</groupId>
+  <artifactId>truth-android-viewpager</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Truth for AndroidX ViewPager</name>
+  <description>A set of Truth subjects geared toward testing Android.</description>
+  <url>http://github.com/pkware/truth-android/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pkware</id>
+      <name>PKWARE, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/pkware/truth-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/pkware/truth-android.git</developerConnection>
+    <url>http://github.com/pkware/truth-android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pkware.truth-android</groupId>
+      <artifactId>truth-android</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager</groupId>
+      <artifactId>viewpager</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

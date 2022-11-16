@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.testfunction</groupId>
+  <artifactId>lumberjill</artifactId>
+  <version>0.8.5</version>
+  <packaging>aar</packaging>
+  <name>LumberJill</name>
+  <description>An Android logcat Utility class that formats log calls returning the file, class, method, and line numbers for both the log call itself as well as its caller.</description>
+  <url>https://github.com/lodlock/LumberJill</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lodlock</id>
+      <name>Brandon Andrews</name>
+      <email>iamhunted@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lodlock/LumberJill.git</connection>
+    <developerConnection>https://github.com/lodlock/LumberJill.git</developerConnection>
+    <url>https://github.com/lodlock/LumberJill</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

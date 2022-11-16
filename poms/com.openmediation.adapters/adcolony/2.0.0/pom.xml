@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.openmediation.adapters</groupId>
+  <artifactId>adcolony</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>AdColony Adapter</name>
+  <description>AdColony Adapter for OpenSource Mediation SDK</description>
+  <url>https://github.com/AdTiming/OpenMediation-Android/tree/master/adapter/adcolony</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AdTiming</id>
+      <name>AdTiming</name>
+      <email>lct@adtiming.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AdTiming/OpenMediation-Android.git</connection>
+    <developerConnection>https://github.com/AdTiming/OpenMediation-Android.git</developerConnection>
+    <url>https://github.com/AdTiming/OpenMediation-Android/tree/master/adapter/adcolony</url>
+  </scm>
+</project>

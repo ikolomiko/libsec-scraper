@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mctech.architecture.mvvm</groupId>
+  <artifactId>x-core-testing</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>MvvmArchitectureToolkit</name>
+  <description>This is only a personal implementation of MVVM architecture using the concept of "State Machine" to keep your screen components independently. It also has a concept of "interaction" defining exactly what the user can do on your screen turning the testing process extremely easier, because now, you are able to test the "state" of your system.</description>
+  <url>https://github.com/MayconCardoso/Mvvm-Architecture-Toolkit</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mayconcardoso</id>
+      <name>Maycon Cardoso</name>
+      <email>maycon.santos.cardoso@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MayconCardoso/Mvvm-Architecture-Toolkit</connection>
+    <developerConnection>https://github.com/MayconCardoso/Mvvm-Architecture-Toolkit</developerConnection>
+    <url>https://github.com/MayconCardoso/Mvvm-Architecture-Toolkit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-livedata-ktx</artifactId>
+      <version>2.3.0-alpha01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.11.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-test</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.arch.core</groupId>
+      <artifactId>core-testing</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

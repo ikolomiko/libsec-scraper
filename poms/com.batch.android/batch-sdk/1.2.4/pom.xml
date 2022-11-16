@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.batch.android</groupId>
+  <artifactId>batch-sdk</artifactId>
+  <version>1.2.4</version>
+  <packaging>aar</packaging>
+  <name>Batch.com Android SDK</name>
+  <description>Batch.com's Android SDK main artifact</description>
+  <url>https://batch.com</url>
+  <licenses>
+    <license>
+      <name>Copyright</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>batch-tech</id>
+      <name>Batch.com Tech</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/BatchLabs/android-sdk.git</connection>
+    <developerConnection>scm:git:https://github.com/BatchLabs/android-sdk.git</developerConnection>
+    <url>https://github.com/BatchLabs/android-sdk</url>
+  </scm>
+</project>

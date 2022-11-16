@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>is.hello</groupId>
+  <artifactId>buruberi-core</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>buruberi-core</name>
+  <description>Less flaky Bluetooth Low Energy for Android</description>
+  <url>https://github.com/hello/android-buruberi</url>
+  <scm>
+    <url>https://github.com/hello/android-buruberi</url>
+    <connection>scm:git:git@github.com:hello/android-buruberi.git</connection>
+    <developerConnection>scm:git:git@github.com:hello/android-buruberi.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>decarbonization</id>
+      <name>Kevin MacWhinnie</name>
+      <email>km@sayhello.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.14</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

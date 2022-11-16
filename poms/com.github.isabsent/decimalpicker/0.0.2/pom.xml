@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.isabsent</groupId>
+  <artifactId>decimalpicker</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>DecimalPicker</name>
+  <description>A custom button widget for creating a decimal number picker with increment and decrement</description>
+  <url>https://github.com/isabsent/DecimalPicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>isabsent</id>
+      <name>Lev Popovich</name>
+      <email>isabsent@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/isabsent/DecimalPicker.git</connection>
+    <developerConnection>https://github.com/isabsent/DecimalPicker.git</developerConnection>
+    <url>https://github.com/isabsent/DecimalPicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

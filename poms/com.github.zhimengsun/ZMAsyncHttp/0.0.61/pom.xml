@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zhimengsun</groupId>
+  <artifactId>ZMAsyncHttp</artifactId>
+  <version>0.0.61</version>
+  <packaging>aar</packaging>
+  <name>ZMAsyncHttp</name>
+  <description>It is an easy way to handle simple json (response string also) from http request which based on RxAndroid and OkHttp.</description>
+  <url>https://github.com/zhimengsun/ZMAsyncHttp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zhimeng</id>
+      <name>ZhimengSun</name>
+      <email>zhimengsun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zhimengsun/ZMAsyncHttp.git</connection>
+    <developerConnection>https://github.com/zhimengsun/ZMAsyncHttp.git</developerConnection>
+    <url>https://github.com/zhimengsun/ZMAsyncHttp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

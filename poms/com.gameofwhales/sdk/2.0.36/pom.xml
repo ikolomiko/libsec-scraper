@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gameofwhales</groupId>
+  <artifactId>sdk</artifactId>
+  <version>2.0.36</version>
+  <packaging>aar</packaging>
+  <name>Game of Whales: Android Native SDK</name>
+  <description>Game of Whales is a real-time monetization optimization platform, that provides sophisticated user analysis + campaign management in one easy-to-use, FREE platform</description>
+  <url>https://gameofwhales.com</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zendorx</id>
+      <name>Sachkov Denis</name>
+      <email>contactus@gameofwhales.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Game-of-whales/GOW-SDK-ANDROID.git</connection>
+    <developerConnection>https://github.com/Game-of-whales/GOW-SDK-ANDROID.git</developerConnection>
+    <url>https://gameofwhales.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-identity</artifactId>
+      <version>11.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

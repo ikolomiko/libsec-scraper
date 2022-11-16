@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hu.autsoft</groupId>
+  <artifactId>krate-moshi-reflect</artifactId>
+  <version>0.5.0</version>
+  <packaging>aar</packaging>
+  <name>krate-moshi-reflect</name>
+  <description>A Kotlin SharedPreferences wrapper</description>
+  <url>https://github.com/autsoft/krate</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zsmb13</id>
+      <name>Márton Braun</name>
+      <email>braun.marton@autsoft.hu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/autsoft/krate.git</connection>
+    <developerConnection>scm:git:ssh://github.com/autsoft/krate.git</developerConnection>
+    <url>https://github.com/autsoft/krate/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>hu.autsoft</groupId>
+      <artifactId>krate</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>hu.autsoft</groupId>
+      <artifactId>krate-moshi-core</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.9.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-kotlin</artifactId>
+      <version>1.9.3</version>
+    </dependency>
+  </dependencies>
+</project>

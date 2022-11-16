@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.vitess</groupId>
+  <artifactId>rxbus</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>RxBus</name>
+  <description>RxBus base on RxJava2 &amp; RxAndroid to achieve event bus.</description>
+  <url>https://github.com/ViTess/RxBus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vite</id>
+      <name>Vincent Tam</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ViTess/RxBus.git</connection>
+    <developerConnection>scm:git@github.com:ViTess/RxBus.git</developerConnection>
+    <url>https://github.com/ViTess/RxBus</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.vitess</groupId>
+      <artifactId>rxbus-annotations</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

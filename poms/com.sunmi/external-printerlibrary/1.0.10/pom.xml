@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sunmi</groupId>
+  <artifactId>external-printerlibrary</artifactId>
+  <version>1.0.10</version>
+  <packaging>aar</packaging>
+  <name>external-printerlibrary</name>
+  <description>interface to sunmi external print service</description>
+  <url>http://www.sunmi.com</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sunmi</id>
+      <name>kaltin</name>
+      <email>tiankunlong@sunmi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:git175010415/PrinterlibraryMaven.git</connection>
+    <developerConnection>scm:git:git@github.com:git175010415/PrinterlibraryMaven.git</developerConnection>
+    <url>https://github.com/git175010415/PrinterlibraryMaven/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

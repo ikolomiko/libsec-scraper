@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wiebe-elsinga.android.library</groupId>
+  <artifactId>socialurlshare</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>SocialURLShare</name>
+  <description>Android library for easy URL sharing to social channels.</description>
+  <url>https://github.com/welsinga/SocialURLShare</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>welsinga</id>
+      <name>Wiebe Elsinga</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:welsinga/SocialURLShare.git</connection>
+    <developerConnection>scm:git@github.com:welsinga/SocialURLShare.git</developerConnection>
+    <url>https://github.com/welsinga/SocialURLShare</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.jzvd</groupId>
+  <artifactId>jiaozivideoplayer</artifactId>
+  <version>7.7.0</version>
+  <packaging>aar</packaging>
+  <name>jiaozivideoplayer</name>
+  <description>android videoplayer videoview 安卓视频播放器 全屏 播放器列表全屏 仿今日头条UI</description>
+  <url>https://github.com/Jzvd/JiaoZiVideoPlayer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Nathen</id>
+      <name>Nathen</name>
+      <email>1066666651@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Jzvd/JiaoZiVideoPlayer</connection>
+    <developerConnection>https://github.com/Jzvd/JiaoZiVideoPlayer</developerConnection>
+    <url>https://github.com/Jzvd/JiaoZiVideoPlayer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.20</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

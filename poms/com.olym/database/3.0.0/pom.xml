@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olym</groupId>
+  <artifactId>database</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>mjt-basedb</name>
+  <url>https://lc254253229@bitbucket.org/lc254253229/maven</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lice</id>
+      <name>lice</name>
+      <email>lckid254253229@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://lc254253229@bitbucket.org/lc254253229/maven.git</connection>
+    <developerConnection>https://lc254253229@bitbucket.org/lc254253229/maven.git</developerConnection>
+    <url>https://lc254253229@bitbucket.org/lc254253229/maven</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-core</artifactId>
+      <version>4.48</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0-rc2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

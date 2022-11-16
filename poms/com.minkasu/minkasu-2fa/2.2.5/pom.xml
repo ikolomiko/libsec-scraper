@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.minkasu</groupId>
+  <artifactId>minkasu-2fa</artifactId>
+  <version>2.2.5</version>
+  <packaging>aar</packaging>
+  <name>minkasu-2fa</name>
+  <description>MinkasuPay’s lightweight and easy-to-integrate SDK enables frictionless biometric authentication for Net Banking, Debit &amp; Credit Card payments in merchant apps on Android devices.</description>
+  <url>https://minkasupay.com/in/merchants/</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url/>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Team MinkasuPay</name>
+      <email>support@minkasu.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/mk-it-admin/Minkasu2FA_SampleApp/tree/Android_v2.2.5</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.security</groupId>
+      <artifactId>security-crypto</artifactId>
+      <version>1.1.0-alpha02</version>
+    </dependency>
+  </dependencies>
+</project>

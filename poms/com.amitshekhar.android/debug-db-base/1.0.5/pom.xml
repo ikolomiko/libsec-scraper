@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amitshekhar.android</groupId>
+  <artifactId>debug-db-base</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Android Debug Database</name>
+  <description>Android Debug Database is a powerful library for debugging databases in Android applications</description>
+  <url>https://github.com/amitshekhariitbhu/Android-Debug-Database</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amitshekhariitbhu</id>
+      <name>Amit Shekhar</name>
+      <email>amit.shekhar.iitbhu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/amitshekhariitbhu/Android-Debug-Database.git</connection>
+    <developerConnection>https://github.com/amitshekhariitbhu/Android-Debug-Database.git</developerConnection>
+    <url>https://github.com/amitshekhariitbhu/Android-Debug-Database</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

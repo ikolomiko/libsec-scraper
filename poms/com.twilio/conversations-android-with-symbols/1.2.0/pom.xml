@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>conversations-android-with-symbols</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>Programmable Conversations Android SDK With Symbols</name>
+  <description>An Android library for text communications between participants using different channels (SMS, WhatsApp, Twilio Programmsble Chat etc). This version contains native symbols which could be used to symbolicate stack traces of native crashes using crashlytics or similar tools</description>
+  <url>https://www.twilio.com/docs/conversations</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:twilio/twilio-chat-demo-kotlin.git</connection>
+    <developerConnection>scm:git:ssh://github.com:twilio/twilio-chat-demo-kotlin.git</developerConnection>
+    <url>https://github.com/twilio/twilio-chat-demo-kotlin/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.getkeepsafe.relinker</groupId>
+      <artifactId>relinker</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.neovisionaries</groupId>
+      <artifactId>nv-websocket-client</artifactId>
+      <version>2.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

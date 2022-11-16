@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.instabug.library</groupId>
+  <artifactId>instabugcore</artifactId>
+  <version>1.7.3</version>
+  <packaging>aar</packaging>
+  <name>Instabug Core Library</name>
+  <description>Instabug Android SDK: In-App feedback for mobile apps!</description>
+  <url>https://instabug.com</url>
+  <organization>
+    <name>Instabug</name>
+    <url>https://instabug.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://instabug.com/terms</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>instabug</id>
+      <name>Instabug</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://instabug.com</connection>
+    <developerConnection>https://instabug.com</developerConnection>
+    <url>https://instabug.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>[21,)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>[6,)</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>[1,)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.mimecraft</groupId>
+      <artifactId>mimecraft</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.butterproject.torrentstream</groupId>
+  <artifactId>torrent-stream</artifactId>
+  <version>2.5.0</version>
+  <packaging>aar</packaging>
+  <name>Android torrent stream library</name>
+  <url>https://github.com/butterproject/TorrentStream-Android</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0, January 2004</name>
+      <url>http://www.apache.org/licenses/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>blazsolar</id>
+      <name>Blaz Solar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/butterproject/TorrentStream-Android.git</connection>
+    <developerConnection>https://github.com/butterproject/TorrentStream-Android.git</developerConnection>
+    <url>https://github.com/butterproject/TorrentStream-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent</artifactId>
+      <version>1.2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-arm</artifactId>
+      <version>1.2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-arm64</artifactId>
+      <version>1.2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-x86</artifactId>
+      <version>1.2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-x86_64</artifactId>
+      <version>1.2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.chiragm.sbn</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>StatusBarNotifier</name>
+  <description>A new way to display the android notifications in the status bar.</description>
+  <url>https://github.com/csoni111/StatusBarNotifier</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>csoni111</id>
+      <name>Chirag Maheshwari</name>
+      <email>csoni111@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/csoni111/StatusBarNotifier.git</connection>
+    <developerConnection>https://github.com/csoni111/StatusBarNotifier.git</developerConnection>
+    <url>https://github.com/csoni111/StatusBarNotifier</url>
+  </scm>
+</project>

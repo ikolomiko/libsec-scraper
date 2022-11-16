@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>soft-world.platformtech.mobile</groupId>
+  <artifactId>messagescenter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>API</name>
+  <description>A custom broadcast system on Android</description>
+  <url>https://github.com/PlatformTech/API</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>PlatformTech</id>
+      <name>PlatformTech</name>
+      <email>softworldlee@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/PlatformTech/API.git</connection>
+    <developerConnection>https://github.com/PlatformTech/API.git</developerConnection>
+    <url>https://github.com/PlatformTech/API</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.whamu2.network.macropus</groupId>
+  <artifactId>macropus</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>A use of rxjava2, okhttp3, retrofit2 second package network request tool</name>
+  <url>https://github.com/whamu2/android-learning</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>whamu22</id>
+      <name>whamu22</name>
+      <email>whamu2@live.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/whamu2/android-learning.git</connection>
+    <developerConnection>https://github.com/whamu2/android-learning.git</developerConnection>
+    <url>https://github.com/whamu2/android-learning</url>
+  </scm>
+</project>

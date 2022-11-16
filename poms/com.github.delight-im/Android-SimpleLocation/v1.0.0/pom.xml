@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.delight-im</groupId>
+  <artifactId>Android-SimpleLocation</artifactId>
+  <version>v1.0.0</version>
+  <packaging>aar</packaging>
+  <name>delight-im/Android-SimpleLocation</name>
+  <description>Utility class for easy access to the device location on Android</description>
+  <url>https://github.com/delight-im/Android-SimpleLocation</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>delight-im</id>
+      <name>delight.im</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/delight-im/Android-SimpleLocation.git</connection>
+    <developerConnection>scm:git://github.com/delight-im/Android-SimpleLocation.git</developerConnection>
+    <url>git://github.com/delight-im/Android-SimpleLocation.git</url>
+  </scm>
+</project>

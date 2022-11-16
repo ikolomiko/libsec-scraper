@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.Lemon</groupId>
+  <artifactId>guideview</artifactId>
+  <version>0.1.3</version>
+  <packaging>aar</packaging>
+  <name>GuideView</name>
+  <description>app luncher for guide user</description>
+  <url>https://github.com/llxdaxia/GuideView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Lemon</id>
+      <name>Lemon</name>
+      <email>daxiallx@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/llxdaxia/GuideView.git</connection>
+    <developerConnection>https://github.com/llxdaxia/GuideView.git</developerConnection>
+    <url>https://github.com/llxdaxia/GuideView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

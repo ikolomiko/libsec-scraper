@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.teachonmars.modules</groupId>
+  <artifactId>autoContext</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>AutoContext</name>
+  <description>Initialize statically any android class with application Context, by annotation process at compilation</description>
+  <url>https://github.com/TeachonMars/AutoContext</url>
+  <organization>
+    <name>teachonmars</name>
+    <url>https://teachonmars.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>benjaminVadon</id>
+      <name>Benjamin Vadon</name>
+      <email>development@teachonmars.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TeachonMars/AutoContext.git</connection>
+    <developerConnection>https://github.com/TeachonMars/AutoContext.git</developerConnection>
+    <url>https://github.com/TeachonMars/AutoContext</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.teachonmars.modules</groupId>
+      <artifactId>autoContext.annotation</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

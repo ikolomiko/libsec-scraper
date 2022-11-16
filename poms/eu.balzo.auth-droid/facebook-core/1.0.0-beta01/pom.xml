@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.balzo.auth-droid</groupId>
+  <artifactId>facebook-core</artifactId>
+  <version>1.0.0-beta01</version>
+  <packaging>aar</packaging>
+  <name>facebook-core</name>
+  <description>ForYouAndMe Android SDK</description>
+  <url>https://github.com/balzo-tech/auth-droid</url>
+  <licenses>
+    <license>
+      <name>ForYouAndMe Android SDK</name>
+      <url>https://github.com/balzo-tech/auth-droid</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>giacomo.balzo</id>
+      <name>Giacomo Parisi</name>
+      <email>giacomo@balzo.eu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/balzo-tech/auth-droid.git</connection>
+    <developerConnection>scm:git:ssh://github.com/balzo-tech/auth-droid.git</developerConnection>
+    <url>https://github.com/balzo-tech/auth-droid/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-login</artifactId>
+      <version>11.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.21</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+  </dependencies>
+</project>

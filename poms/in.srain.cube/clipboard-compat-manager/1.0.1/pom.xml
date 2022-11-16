@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.srain.cube</groupId>
+  <artifactId>clipboard-compat-manager</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Compatibility for ClipboardManager</name>
+  <description>Compatibility for ClipboardManager</description>
+  <url>https://github.com/liaohuqiu/android-ClipboardCompat</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liaohuqiu</id>
+      <name>liaohuqiu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/liaohuqiu/android-ClipboardCompat.git</connection>
+    <developerConnection>scm:https://github.com/liaohuqiu/android-ClipboardCompat.git</developerConnection>
+    <url>https://github.com/liaohuqiu/android-ClipboardCompat</url>
+  </scm>
+</project>

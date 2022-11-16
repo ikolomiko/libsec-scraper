@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>zstd</artifactId>
+    <version>1.5.2</version>
+    <packaging>aar</packaging>
+
+    <name>zstd</name>
+    <description>Zstandard is a real-time compression algorithm</description>
+    <url>https://facebook.github.io/zstd</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/facebook/zstd.git</connection>
+        <developerConnection>scm:git:https://github.com/facebook/zstd.git</developerConnection>
+        <url>https://github.com/facebook/zstd.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>zstd developers</name>
+            <email>unknow</email>
+            <organization>Facebook</organization>
+            <organizationUrl>https://github.com/facebook</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>BSD-3-Clause</name>
+            <url>https://raw.githubusercontent.com/facebook/zstd/master/LICENSE</url>
+        </license>
+        <license>
+            <name>GPL-2.0-or-later</name>
+            <url>https://raw.githubusercontent.com/facebook/zstd/dev/COPYING</url>
+        </license>
+    </licenses>
+</project>

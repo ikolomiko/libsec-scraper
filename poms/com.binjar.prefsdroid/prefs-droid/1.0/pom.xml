@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.binjar.prefsdroid</groupId>
+  <artifactId>prefs-droid</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>prefs-droid</name>
+  <description>An easy to use Shared Preference tools for android</description>
+  <url>https://github.com/binjar/prefs-droid</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>arifnislam</id>
+      <name>Arif Islam</name>
+      <email>arifnislam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/binjar/prefs-droid.git</connection>
+    <developerConnection>https://github.com/binjar/prefs-droid.git</developerConnection>
+    <url>https://github.com/binjar/prefs-droid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

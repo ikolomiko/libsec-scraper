@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eyeem.recyclerviewtools</groupId>
+  <artifactId>library</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>RecyclerView Tools Library</name>
+  <description>Collection of tools for RecyclerView. Includes headers, sections, pull to refresh, etc</description>
+  <url>https://github.com/eyeem/RecyclerViewTools</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ronaldoeyeem</id>
+      <name>Ronaldo Pace</name>
+      <email>ronaldo@eyeem.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/eyeem/RecyclerViewTools.git</connection>
+    <developerConnection>https://github.com/eyeem/RecyclerViewTools.git</developerConnection>
+    <url>https://github.com/eyeem/RecyclerViewTools</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

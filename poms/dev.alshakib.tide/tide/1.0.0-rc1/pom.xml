@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.alshakib.tide</groupId>
+  <artifactId>tide</artifactId>
+  <version>1.0.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>Tide</name>
+  <description>Tide is a modern Waveform Seek Bar library for Android written in Java.</description>
+  <url>https://github.com/AlShakib/Tide</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/AlShakib/Tide/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlShakib</id>
+      <name>Al Shakib</name>
+      <email>shakib@alshakib.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlShakib/Tide.git</connection>
+    <developerConnection>https://github.com/AlShakib/Tide.git</developerConnection>
+    <url>https://github.com/AlShakib/Tide/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

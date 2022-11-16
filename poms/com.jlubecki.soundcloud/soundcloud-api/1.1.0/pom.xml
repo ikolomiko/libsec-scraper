@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jlubecki.soundcloud</groupId>
+  <artifactId>soundcloud-api</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>A Java wrapper for the SoundCloud Web API, optimized for use with the Android SDK.</name>
+  <url>https://github.com/birdcage/soundcloud-web-api-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jacoblubecki</id>
+      <name>Jacob Lubecki</name>
+      <email>jacoblubecki@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/birdcage/soundcloud-web-api-android.git</connection>
+    <developerConnection>https://github.com/birdcage/soundcloud-web-api-android.git</developerConnection>
+    <url>https://github.com/birdcage/soundcloud-web-api-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>customtabs</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

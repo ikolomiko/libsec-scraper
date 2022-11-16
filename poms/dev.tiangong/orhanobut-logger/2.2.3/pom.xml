@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.tiangong</groupId>
+  <artifactId>orhanobut-logger</artifactId>
+  <version>2.2.3</version>
+  <packaging>aar</packaging>
+  <name>Logger</name>
+  <description>Simple, Pretty and Advanced Logger</description>
+  <url>https://github.com/FingerArt/logger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fingerart</id>
+      <name>FingerArt</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/FingerArt/logger.git</connection>
+    <developerConnection>scm:git@https://github.com/FingerArt/logger.git</developerConnection>
+    <url>https://github.com/FingerArt/logger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ChillingVan</groupId>
+  <artifactId>android-openGL-canvas</artifactId>
+  <version>v1.5.2.0</version>
+  <packaging>aar</packaging>
+  <name>ChillingVan/android-openGL-canvas</name>
+  <description>An Android library that provides views using openGL canvas to draw things on SurfaceView or TextureView.</description>
+  <url>https://github.com/ChillingVan/android-openGL-canvas</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ChillingVan</id>
+      <name></name>
+      <email>chillingvan@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/ChillingVan/android-openGL-canvas.git</connection>
+    <developerConnection>scm:git://github.com/ChillingVan/android-openGL-canvas.git</developerConnection>
+    <url>git://github.com/ChillingVan/android-openGL-canvas.git</url>
+  </scm>
+</project>

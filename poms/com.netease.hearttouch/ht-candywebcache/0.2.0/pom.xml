@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netease.hearttouch</groupId>
+  <artifactId>ht-candywebcache</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>A mobile web resource cache solution, android SDK.</name>
+  <url>https://github.com/NEYouFan/ht-candywebcache-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stone</id>
+      <name>stone</name>
+      <email>scu0843041105@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/NEYouFan/ht-candywebcache-android.git</connection>
+    <developerConnection>https://github.com/NEYouFan/ht-candywebcache-android.git</developerConnection>
+    <url>https://github.com/NEYouFan/ht-candywebcache-android</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.beardedhen</groupId>
+  <artifactId>bhfilebrowser</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>BHFileBrowser Library</name>
+  <description>A file chooser for Android applications using FontAwesome icons</description>
+  <url>https://github.com/Bearded-Hen/BHFileBrowser</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/Bearded-Hen/BHFileBrowser/blob/master/LICENSE.TXT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>beardedhen</id>
+      <name>Bearded-Hen</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Bearded-Hen/BHFileBrowser.git</connection>
+    <developerConnection>scm:git@github.com:Bearded-Hen/BHFileBrowser.git</developerConnection>
+    <url>https://github.com/Bearded-Hen/BHFileBrowser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.beardedhen</groupId>
+      <artifactId>androidbootstrap</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

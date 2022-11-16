@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.magnet.mmx</groupId>
+  <artifactId>magnet-mmx-client-android</artifactId>
+  <version>2.7.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.magnet.mmx.ext</groupId>
+      <artifactId>mmx-asmack-android-8</artifactId>
+      <version>4.0.7p3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.magnet.mmx</groupId>
+      <artifactId>mmx-common-api</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.magnet.max.android</groupId>
+      <artifactId>magnet-max-android-core</artifactId>
+      <version>2.7.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.magnet.mmx.ext</groupId>
+      <artifactId>mmx-dnsjava</artifactId>
+      <version>2.1.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

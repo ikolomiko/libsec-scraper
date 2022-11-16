@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.orangegangsters</groupId>
+  <artifactId>lollipin</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>LolliPin Library</name>
+  <description>A circular view pager, similar to the pager in GoogleFit. A view pager wrapped inside of a circular progress bar</description>
+  <url>https://github.com/OrangeGangsters/CircularBarPager</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/OrangeGangsters/CircularBarPager/blob/master/LICENSE</url>
+      <distribution>https://github.com/OrangeGangsters/CircularBarPager/blob/master/LICENSE</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olivierg13 &amp; stoyand</id>
+      <name>Olivier Goutay &amp; Stoyan Dimitrov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/OrangeGangsters/CircularBarPager.git</connection>
+    <developerConnection>https://github.com/OrangeGangsters/CircularBarPager.git</developerConnection>
+    <url>https://github.com/OrangeGangsters/CircularBarPager.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.traex.rippleeffect</groupId>
+      <artifactId>ripple</artifactId>
+      <version>1.2.3.2-OG</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.orangegangsters</groupId>
+      <artifactId>swipy</artifactId>
+      <version>1.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

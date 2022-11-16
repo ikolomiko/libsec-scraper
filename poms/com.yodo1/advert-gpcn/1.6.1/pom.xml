@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yodo1</groupId>
+  <artifactId>advert-gpcn</artifactId>
+  <version>1.6.1</version>
+  <packaging>aar</packaging>
+  <name>advert</name>
+  <description>A View control with a high profile IOS Alert</description>
+  <url>https://github.com/yodo1/advert</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yodo1</id>
+      <name>ads</name>
+      <email>dev@yodo1.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yodo1/advert.git</connection>
+    <developerConnection>https://github.com/yodo1/advert.git</developerConnection>
+    <url>https://github.com/yodo1/advert</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>pl.droidsonroids.gif</groupId>
+      <artifactId>android-gif-drawable</artifactId>
+      <version>1.2.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.androidquery</groupId>
+      <artifactId>androidquery</artifactId>
+      <version>0.26.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

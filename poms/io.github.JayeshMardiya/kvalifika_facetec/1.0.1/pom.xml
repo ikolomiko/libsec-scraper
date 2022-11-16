@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.JayeshMardiya</groupId>
+  <artifactId>kvalifika_facetec</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>kvalifika_facetec</name>
+  <description>sdk for facetec.arr integration</description>
+  <url>https://github.com/JayeshMardiya/kvalifika-android-facetec-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://github.com/JayeshMardiya/kvalifika-android-facetec-sdk/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JayeshMardiya</id>
+      <name>Jayesh Mardiya</name>
+      <email>mardiyajayesh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/JayeshMardiya/kvalifika-android-facetec-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/JayeshMardiya/kvalifika-android-facetec-sdk.git</developerConnection>
+    <url>https://github.com/JayeshMardiya/kvalifika-android-facetec-sdk/tree/main</url>
+  </scm>
+</project>

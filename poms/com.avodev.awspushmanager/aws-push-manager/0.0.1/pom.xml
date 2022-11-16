@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.avodev.awspushmanager</groupId>
+  <artifactId>aws-push-manager</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AWS PushManager</name>
+  <description>Amazon AWS SNS Push registration manager for Android</description>
+  <url>https://github.com/AVOdev/AWSPushManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Flitskikker</id>
+      <name>Martijn van Berkel (Flitskikker)</name>
+      <email>martijneinstein@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AVOdev/AWSPushManager.git</connection>
+    <developerConnection>https://github.com/AVOdev/AWSPushManager.git</developerConnection>
+    <url>https://github.com/AVOdev/AWSPushManager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-sns</artifactId>
+      <version>2.2.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-core</artifactId>
+      <version>2.2.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

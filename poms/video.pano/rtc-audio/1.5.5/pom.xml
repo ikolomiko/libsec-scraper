@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>video.pano</groupId>
+  <artifactId>rtc-audio</artifactId>
+  <version>1.5.5</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer</artifactId>
+      <version>2.13.3</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

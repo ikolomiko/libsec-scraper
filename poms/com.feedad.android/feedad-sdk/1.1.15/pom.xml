@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.feedad.android</groupId>
+  <artifactId>feedad-sdk</artifactId>
+  <version>1.1.15</version>
+  <packaging>aar</packaging>
+  <name>FeedAd Android SDK</name>
+  <description>The Android SDK for the advertisement technology from FeedAd</description>
+  <url>https://feedad.com</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://feedad.com/tos</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>feedad</id>
+      <name>FeedAd GmbH</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:couchfunk/feedad-android.git</connection>
+    <developerConnection>scm:git@bitbucket.org:couchfunk/feedad-android.git</developerConnection>
+    <url>https://bitbucket.org/couchfunk/feedad-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-lite</artifactId>
+      <version>3.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chesire</groupId>
+  <artifactId>lifecyklelog</artifactId>
+  <version>3.1.0</version>
+  <packaging>aar</packaging>
+  <name>lifecyklelog</name>
+  <description>Android library for logging out Activity and Fragment lifecycle methods.</description>
+  <url>https://chesire.github.io/LifecykleLog/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chesire</id>
+      <name>chesire</name>
+      <email>troy.rijkaard@chesire.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Chesire/LifecykleLog.git</connection>
+    <developerConnection>https://github.com/Chesire/LifecykleLog.git</developerConnection>
+    <url>https://chesire.github.io/LifecykleLog/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.chesire.lintrules</groupId>
+      <artifactId>lint-gradle</artifactId>
+      <version>1.2.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.mockk</groupId>
+      <artifactId>mockk</artifactId>
+      <version>1.10.3-jdk8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

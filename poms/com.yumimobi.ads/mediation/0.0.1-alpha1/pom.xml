@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yumimobi.ads</groupId>
+  <artifactId>mediation</artifactId>
+  <version>0.0.1-alpha1</version>
+  <packaging>aar</packaging>
+  <name>mediation</name>
+  <description>Yumi Mediation SDK</description>
+  <url>https://github.com/yumimobi/YumiMediationSDK-android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Zplay</id>
+      <name>Zplay Android Client</name>
+      <email>ad-client@zplay.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/yangfengbang/AntiAddictionSystem-Android2.git</connection>
+    <developerConnection>scm:git:ssh://github.com/yangfengbang/AntiAddictionSystem-Android2.git</developerConnection>
+    <url>https://github.com/yangfengbang/AntiAddictionSystem-Android2/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>16.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

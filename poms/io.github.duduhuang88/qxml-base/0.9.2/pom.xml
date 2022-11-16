@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.duduhuang88</groupId>
+  <artifactId>qxml-base</artifactId>
+  <version>0.9.2</version>
+  <packaging>aar</packaging>
+  <name>qxml-baseLib</name>
+  <description>base lib of qxml</description>
+  <url>https://github.com/duduhuang88/qxml</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>duduhuang88</name>
+      <email>yellorCoder@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/duduhuang88/qxml.git</connection>
+    <developerConnection>scm:git:github.com/duduhuang88/qxml.git</developerConnection>
+    <url>https://github.com/duduhuang88/qxml</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.duduhuang88</groupId>
+      <artifactId>constant</artifactId>
+      <version>0.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.duduhuang88</groupId>
+      <artifactId>qxml-annotations</artifactId>
+      <version>0.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

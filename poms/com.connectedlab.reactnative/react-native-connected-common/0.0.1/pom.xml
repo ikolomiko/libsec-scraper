@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.connectedlab.reactnative</groupId>
+  <artifactId>react-native-connected-common</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>React Native Connected Common</name>
+  <description>Library of commonly used classes for React Native by Connected Lab</description>
+  <url>https://github.com/connected-lab/react-native-connected-common</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>connected-lab</id>
+      <name>Connected Lab</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:connected-lab/react-native-connected-common.git</connection>
+    <developerConnection>scm:git@github.com:connected-lab/react-native-connected-common.git</developerConnection>
+    <url>https://github.com/connected-lab/react-native-connected-common</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.20.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

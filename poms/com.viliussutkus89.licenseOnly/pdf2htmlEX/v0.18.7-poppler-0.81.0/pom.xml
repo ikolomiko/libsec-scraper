@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>pdf2htmlEX</artifactId>
+  <version>v0.18.7-poppler-0.81.0</version>
+  <packaging>aar</packaging>
+  <name>pdf2htmlEX</name>
+  <description>Convert PDF to HTML without losing text or format</description>
+  <url>https://github.com/pdf2htmlEX/pdf2htmlEX</url>
+  <inceptionYear>2012</inceptionYear>
+  <licenses>
+    <license>
+      <name>pdf2htmlEX</name>
+      <url>https://github.com/pdf2htmlEX/pdf2htmlEX/blob/v0.18.7-poppler-0.81.0/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GPLv3-or-later</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Lu Wang</name>
+      <email>coolwanglu@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Aamir Adnan</name>
+      <email>s33k.n.d3str0y@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Chris Cinelli</name>
+      <email>chris@allestelle.com</email>
+    </developer>
+    <developer>
+      <name>Daniel Bonniot de Ruisselet</name>
+      <email>dbonniot@chemaxon.com</email>
+    </developer>
+    <developer>
+      <name>Denis Sablic</name>
+      <email>denis.sablic@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Duan Yao</name>
+      <email>duanyao@ustc.edu</email>
+    </developer>
+    <developer>
+      <name>filodej</name>
+      <email>philode@gmail.com</email>
+    </developer>
+    <developer>
+      <name>hasufell</name>
+      <email>julian.ospald@googlemail.com</email>
+    </developer>
+    <developer>
+      <name>Herbert Jones</name>
+      <email>herbert@mediafire.com</email>
+    </developer>
+    <developer>
+      <name>Hongliang Tian</name>
+      <email>tatetian@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Johannes Schauer</name>
+      <email>j.schauer@email.de</email>
+    </developer>
+    <developer>
+      <name>John Hewson</name>
+      <email>john@jahewson.com</email>
+    </developer>
+    <developer>
+      <name>Marc Sanfacon</name>
+      <email>marc.sanfacon@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Michele Redolfi</name>
+      <email>michele@tecnicaict.com</email>
+    </developer>
+    <developer>
+      <name>Mick Giles</name>
+      <email>mick@mickgiles.com</email>
+    </developer>
+    <developer>
+      <name>Ryan Morlok</name>
+      <email>ryan.morlok@morlok.com</email>
+    </developer>
+    <developer>
+      <name>Simon Chenard</name>
+      <email>chenard.simon@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Wanmin Liu</name>
+      <email>wanminliu@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Arthur Titeica</name>
+      <email>arthur.titeica@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Deepak Thukral</name>
+      <email>iapain@iapa.in</email>
+    </developer>
+    <developer>
+      <name>Jamie Ly</name>
+      <email>me@jamie.ly</email>
+    </developer>
+    <developer>
+      <name>Steven Lee</name>
+      <email>rubypdf@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pdf2htmlEX/pdf2htmlEX.git</connection>
+    <url>https://github.com/pdf2htmlEX/pdf2htmlEX</url>
+  </scm>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.echo.arlocation</groupId>
+  <artifactId>arcore-location</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>ARLocation</name>
+  <url>https://github.com/oo1993448102/ARLocation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>echozhou</id>
+      <name>Echo.Zhou</name>
+      <email>echozpppp@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/oo1993448102/ARLocation.git</connection>
+    <developerConnection>https://github.com/oo1993448102/ARLocation.git</developerConnection>
+    <url>https://github.com/oo1993448102/ARLocation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>15.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.ar.sceneform</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.ar.sceneform.ux</groupId>
+      <artifactId>sceneform-ux</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mopub</groupId>
+  <artifactId>mopub-sdk-native-static</artifactId>
+  <version>5.8.0</version>
+  <name>mopub-sdk-native-static</name>
+  <description>MoPub Android SDK - Native</description>
+  <licenses>
+    <license>
+      <name>MoPub SDK License Agreement</name>
+      <url>https://www.mopub.com/legal/sdk-license-agreement</url>
+    </license>
+  </licenses>
+  <url>https://developers.mopub.com/publishers/</url>
+  <scm>
+    <url>https://github.com/mopub/mopub-android-sdk</url>
+    <connection>scm:git:git://github.com/mopub/mopub-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mopub/mopub-android-sdk.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>mopub</id>
+      <name>MoPub (a division of Twitter, Inc.)</name>
+      <url>https://www.mopub.com</url>
+      <email>support@mopub.com</email>
+    </developer>
+  </developers>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>mopub-sdk-base</artifactId>
+      <version>5.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.osama-raddad</groupId>
+  <artifactId>FireCrasher</artifactId>
+  <version>v1.1</version>
+  <packaging>aar</packaging>
+  <name>firecrasher</name>
+  <description>a android crash handler</description>
+  <url>https://github.com/osama-raddad/FireCrasher</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>osama-raddad</id>
+      <name>osama raddad</name>
+      <email>osama.s.raddad@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/osama-raddad/FireCrasher.git</connection>
+    <developerConnection>https://github.com/osama-raddad/FireCrasher.git</developerConnection>
+    <url>https://github.com/osama-raddad/FireCrasher</url>
+  </scm>
+</project>

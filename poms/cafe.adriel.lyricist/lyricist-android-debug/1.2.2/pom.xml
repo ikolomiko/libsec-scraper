@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cafe.adriel.lyricist</groupId>
+  <artifactId>lyricist-android-debug</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>Lyricist</name>
+  <description>The missing I18N/L10N library for Jetpack Compose!</description>
+  <url>https://github.com/adrielcafe/lyricist</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adrielcafe</id>
+      <name>Adriel Cafe</name>
+      <url>https://github.com/adrielcafe/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:ssh://git@github.com/adrielcafe/lyricist.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/adrielcafe/lyricist.git</developerConnection>
+    <url>https://github.com/adrielcafe/lyricist</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

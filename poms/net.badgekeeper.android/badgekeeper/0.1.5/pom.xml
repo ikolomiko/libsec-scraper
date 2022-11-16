@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.badgekeeper.android</groupId>
+  <artifactId>badgekeeper</artifactId>
+  <version>0.1.5</version>
+  <packaging>aar</packaging>
+  <name>BadgeKeeper</name>
+  <description>Badge Keeper Achievement client library for Android OS.</description>
+  <url>https://badgekeeper.net</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>badgekeeper</id>
+      <name>Alexander Pukhov</name>
+      <email>services@badgekeeper.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/badgekeeper/BadgeKeeper-Android.git</connection>
+    <developerConnection>https://github.com/badgekeeper/BadgeKeeper-Android.git</developerConnection>
+    <url>https://badgekeeper.net</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android</artifactId>
+      <version>0.84.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.0.0-beta2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>adapter-rxjava</artifactId>
+      <version>2.0.0-beta2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.0.0-beta2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gutils</groupId>
+  <artifactId>GPatch</artifactId>
+  <version>unspecified</version>
+  <packaging>aar</packaging>
+  <name>android patch update</name>
+  <url>https://github.com/hyxf/bspatch</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hyxf</id>
+      <name>hyxf</name>
+      <email>1162584980@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hyxf/bspatch.git</connection>
+    <developerConnection>https://github.com/hyxf/bspatch.git</developerConnection>
+    <url>https://github.com/hyxf/bspatch</url>
+  </scm>
+</project>

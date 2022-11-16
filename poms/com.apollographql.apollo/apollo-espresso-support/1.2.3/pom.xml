@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apollographql.apollo</groupId>
+  <artifactId>apollo-espresso-support</artifactId>
+  <version>1.2.3</version>
+  <packaging>aar</packaging>
+  <name>MIT License</name>
+  <description>An Espresso Idling Resource for Apollo GraphQL Client.</description>
+  <url>http://www.opensource.org/licenses/mit-license.phpandroid/master/LICENSE</url>
+  <developers>
+    <developer>
+      <id>apollographql</id>
+      <name>Apollo</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/apollographql/apollo-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/apollographql/apollo-android.git</developerConnection>
+    <url>https://github.com/apollographql/apollo-android/</url>
+  </scm>
+<licenses><license><name>MIT License</name><url>https://raw.githubusercontent.com/apollographql/apollo-android/master/LICENSE</url></license></licenses></project>

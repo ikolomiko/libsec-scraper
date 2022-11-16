@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.lionas.androidthings.sensor</groupId>
+  <artifactId>mcp3008</artifactId>
+  <version>0.1b</version>
+  <packaging>aar</packaging>
+  <name>mcp3008</name>
+  <description>Analog to Digital Converter(MCP3008) Driver for Android Things</description>
+  <url>https://github.com/Lionas/mcp3008-driver</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lionas</id>
+      <name>Naoki Seto(@Lionas)</name>
+      <email>lionas.watanabe@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lionas/mcp3008-driver.git</connection>
+    <developerConnection>https://github.com/Lionas/mcp3008-driver.git</developerConnection>
+    <url>https://github.com/Lionas/mcp3008-driver</url>
+  </scm>
+</project>

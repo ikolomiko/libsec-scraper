@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>opus</artifactId>
+    <version>1.3.1</version>
+    <packaging>aar</packaging>
+
+    <name>opus</name>
+    <description>Audio codec</description>
+    <url>https://www.opus-codec.org</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/xiph/opus.git</connection>
+        <developerConnection>scm:git:https://github.com/xiph/opus.git</developerConnection>
+        <url>https://github.com/xiph/opus.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Jean-Marc Valin</name>
+            <email>jmvalin@jmvalin.ca</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+        <developer>
+            <name>Koen Vos</name>
+            <email>koenvos74@gmail.com</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+        <developer>
+            <name>Timothy Terriberry</name>
+            <email>tterribe@xiph.org</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+        <developer>
+            <name>Karsten Vandborg Sorensen</name>
+            <email>karsten.vandborg.sorensen@skype.net</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+        <developer>
+            <name>Soren Skak Jensen</name>
+            <email>ssjensen@gn.com</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+        <developer>
+            <name>Gregory Maxwell</name>
+            <email>greg@xiph.org</email>
+            <organization>opus</organization>
+            <organizationUrl>https://www.opus-codec.org</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>BSD-3-Clause</name>
+            <url>https://raw.githubusercontent.com/xiph/opus/master/COPYING</url>
+        </license>
+    </licenses>
+</project>

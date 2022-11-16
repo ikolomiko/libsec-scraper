@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.vmironov.jetpack</groupId>
+  <artifactId>jetpack-bindings-arguments</artifactId>
+  <version>0.10.2</version>
+  <packaging>aar</packaging>
+  <name>Jetpack Resource Bindings</name>
+  <description>A collection of useful extension methods for Android.</description>
+  <url>https://github.com/nsk-mironov/kotlin-jetpack</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nsk-mironov</id>
+      <name>Vladimir Mironov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/nsk-mironov/kotlin-jetpack.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/nsk-mironov/kotlin-jetpack.git</developerConnection>
+    <url>https://github.com/nsk-mironov/kotlin-jetpack.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.vmironov.jetpack</groupId>
+      <artifactId>jetpack-bundles</artifactId>
+      <version>0.10.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>0.13.1514</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.vmironov.jetpack</groupId>
+      <artifactId>jetpack-core</artifactId>
+      <version>0.10.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

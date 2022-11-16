@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.jsilval.snackinfo</groupId>
+  <artifactId>snackinfo</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>snackinfo</name>
+  <description>An Android Snackbar fork</description>
+  <url>https://gitlab.com/jsilval/snack-info</url>
+  <licenses>
+    <license>
+      <name>GPL 2.0</name>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jsilval</id>
+      <name>Jose Silva</name>
+      <email>jose.silva@linuxmail.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/jsilval/snack-info.git</connection>
+    <developerConnection>https://gitlab.com/jsilval/snack-info.git</developerConnection>
+    <url>https://gitlab.com/jsilval/snack-info</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

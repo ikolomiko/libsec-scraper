@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.manneohlund</groupId>
+  <artifactId>smart-recycler-adapter</artifactId>
+  <version>v5.0.0-rc01</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter-diffutil</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter-filter</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter-nestedadapter</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter-stickyheader</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>io.github.manneohlund.smart-recycler-adapter</groupId>
+      <artifactId>smart-recycler-adapter-viewevent</artifactId>
+      <version>v5.0.0-rc01</version>
+      <type>aar</type>
+    </dependency>
+  </dependencies>
+</project>

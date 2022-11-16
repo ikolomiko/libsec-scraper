@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.qingmei2.rximagepicker</groupId>
+  <artifactId>rximagepicker</artifactId>
+  <version>v0.4.0</version>
+  <packaging>aar</packaging>
+  <name>qingmei2/RxImagePicker</name>
+  <description>:rocket:RxJava2 and RxJava3 external support. Android flexible picture selector, provides the support for theme of Zhihu and WeChat (灵活的Android图片选择器，提供了知乎和微信主题的支持）.</description>
+  <url>https://github.com/qingmei2/RxImagePicker</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qingmei2</id>
+      <name>MeiQing</name>
+      <email>mq2553299@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/qingmei2/RxImagePicker.git</connection>
+    <developerConnection>scm:git://github.com/qingmei2/RxImagePicker.git</developerConnection>
+    <url>git://github.com/qingmei2/RxImagePicker.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.14.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

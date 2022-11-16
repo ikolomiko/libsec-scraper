@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.chivorns</groupId>
+  <artifactId>smartmaterialspinner</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>SmartMaterialSpinner</name>
+  <description>Provide with more customization for your spinner.</description>
+  <url>https://github.com/Chivorns/SmartMaterialSpinner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chivorns</id>
+      <name>Chivorn</name>
+      <email>chivorn@live.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Chivorns/SmartMaterialSpinner.git</connection>
+    <developerConnection>https://github.com/Chivorns/SmartMaterialSpinner.git</developerConnection>
+    <url>https://github.com/Chivorns/SmartMaterialSpinner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

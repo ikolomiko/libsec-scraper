@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.algolia.instantsearch-android</groupId>
+  <artifactId>voice</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>algolia</id>
+      <name>The Algolia Team</name>
+      <email>hey@algolia.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/algolia/instantsearch-android-voice.git</url>
+  </scm>
+  <description>Easily add Voice search to your Android apps</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

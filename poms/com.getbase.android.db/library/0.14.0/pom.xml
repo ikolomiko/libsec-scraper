@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbase.android.db</groupId>
+  <artifactId>library</artifactId>
+  <version>0.14.0</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>Common utilities for ContentProvider/ContentResolver/Cursor and other db-related Android stuff.</description>
+  <url>https://github.com/futuresimple/android-db-commons</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com//futuresimple/android-db-commons/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chalup</id>
+      <name>Jerzy Chalupski</name>
+      <email>jerzy.chalupski@gmail.com</email>
+    </developer>
+    <developer>
+      <id>partition</id>
+      <name>Mateusz Herych</name>
+      <email>heniek@getbase.com</email>
+    </developer>
+    <developer>
+      <id>ggajews</id>
+      <name>Grzegorz Gajewski</name>
+      <email>grzesiek@getbase.com</email>
+    </developer>
+    <developer>
+      <id>lmac012</id>
+      <name>Łukasz Maciończyk</name>
+      <email>lukasz.macionczyk@getbase.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/futuresimple/android-db-commons.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/futuresimple/android-db-commons.git</developerConnection>
+    <url>https://github.com/futuresimple/android-db-commons</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

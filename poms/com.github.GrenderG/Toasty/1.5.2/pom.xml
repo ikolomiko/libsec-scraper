@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.GrenderG</groupId>
+  <artifactId>Toasty</artifactId>
+  <version>1.5.2</version>
+  <packaging>aar</packaging>
+  <name>GrenderG/Toasty</name>
+  <description>The usual Toast, but with steroids 💪</description>
+  <url>https://github.com/GrenderG/Toasty</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License v3.0</name>
+      <url>https://api.github.com/licenses/lgpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>GrenderG</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/GrenderG/Toasty.git</connection>
+    <developerConnection>scm:git://github.com/GrenderG/Toasty.git</developerConnection>
+    <url>git://github.com/GrenderG/Toasty.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.vihtarb</groupId>
+  <artifactId>tooltip</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Tooltip</name>
+  <description>Tooltips library based on popup windows for android</description>
+  <url>https://bitbucket.org/ViHtarb/tooltip</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ViHtarb</id>
+      <name>Oleg Vashchenko</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:ViHtarb/tooltip.git</connection>
+    <developerConnection>scm:git@bitbucket.org:ViHtarb/tooltip.git</developerConnection>
+    <url>https://bitbucket.org/ViHtarb/tooltip.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

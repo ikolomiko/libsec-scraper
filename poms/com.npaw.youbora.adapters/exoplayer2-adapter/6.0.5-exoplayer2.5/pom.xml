@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.npaw.youbora.adapters</groupId>
+  <artifactId>exoplayer2-adapter</artifactId>
+  <version>6.0.5-exoplayer2.5</version>
+  <packaging>aar</packaging>
+  <name>Exoplayer2Adapter</name>
+  <description>Exoplayer2 Youbora adapter</description>
+  <url>https://bitbucket.org/npaw/exoplayer2-adapter-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jtreveset-nice</id>
+      <name>Joan Treveset</name>
+      <email>plugins@nicepeopleatwork.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/npaw/exoplayer2-adapter-android.git</connection>
+    <developerConnection>https://bitbucket.org/npaw/exoplayer2-adapter-android.git</developerConnection>
+    <url>https://bitbucket.org/npaw/exoplayer2-adapter-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.npaw.youbora</groupId>
+      <artifactId>youboralib</artifactId>
+      <version>6.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

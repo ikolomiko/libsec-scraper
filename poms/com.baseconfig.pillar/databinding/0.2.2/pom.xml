@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baseconfig.pillar</groupId>
+  <artifactId>databinding</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <name>databinding</name>
+  <description>Modular UI library implementing Material Design for Android</description>
+  <url>https://github.com/amirulzin/Pillar</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amirulzin</id>
+      <name>Amirul Zin</name>
+      <email>amirul.mdzin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/amirulzin/Pillar.git</connection>
+    <developerConnection>https://github.com/amirulzin/Pillar.git</developerConnection>
+    <url>https://github.com/amirulzin/Pillar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>2.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jcplay.sdk</groupId>
+  <artifactId>jcplay-core</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A Game Sdk For FishYoo</name>
+  <url>http://jcplaying.com</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yvon</id>
+      <name>yvonluo</name>
+      <email>free.yvonluo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://jcplaying.com</connection>
+    <developerConnection>http://jcplaying.com</developerConnection>
+    <url>http://jcplaying.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

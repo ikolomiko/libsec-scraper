@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bonnyfone</groupId>
+  <artifactId>brdcompat</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>org.bonnyfone.brdcompat</name>
+  <description>Backward compatible version (API 8+) of the standard BitmapRegionDecoder (API 11+)</description>
+  <url>https://github.com/bonnyfone/brdcompat</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bonnyfone</id>
+      <name>Stefano Bonetta</name>
+      <email>bonnyfone@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bonnyfone/brdcompat.git</connection>
+    <developerConnection>https://github.com/bonnyfone/brdcompat.git</developerConnection>
+    <url>https://github.com/bonnyfone/brdcompat</url>
+  </scm>
+</project>

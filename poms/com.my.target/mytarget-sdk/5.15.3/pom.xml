@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.my.target</groupId>
+  <artifactId>mytarget-sdk</artifactId>
+  <version>5.15.3</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer-core</artifactId>
+      <version>2.17.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer-hls</artifactId>
+      <version>2.17.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.my.tracker</groupId>
+      <artifactId>mytracker-sdk</artifactId>
+      <version>[3.0.0,3.1.0)</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>myTarget SDK</name>
+  <description>Android SDK of myTarget Advertising Network</description>
+  <url>https://target.my.com</url>
+  <scm>
+    <url>https://github.com/myTargetSDK/mytarget-android</url>
+    <connection>https://target.my.com</connection>
+    <developerConnection>https://target.my.com</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>GNU LGPL 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>myTarget</name>
+    </developer>
+  </developers>
+</project>

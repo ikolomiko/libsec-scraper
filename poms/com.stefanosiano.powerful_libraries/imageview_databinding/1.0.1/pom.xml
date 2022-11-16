@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stefanosiano.powerful_libraries</groupId>
+  <artifactId>imageview_databinding</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Powerful Image View</name>
+  <description>Adds Data Binding support to PowerfulImageView.</description>
+  <url>https://github.com/stefanosiano/PowerfulImageView</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stefanosiano</id>
+      <name>Stefano Siano</name>
+      <email>stefano.siano91@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/stefanosiano/PowerfulImageView.git</connection>
+    <developerConnection>https://github.com/stefanosiano/PowerfulImageView.git</developerConnection>
+    <url>https://github.com/stefanosiano/PowerfulImageView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stefanosiano.powerful_libraries</groupId>
+      <artifactId>imageview</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

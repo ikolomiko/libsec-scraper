@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.chetan-tuteja</groupId>
+  <artifactId>easy-binding</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>easy-binding</name>
+  <description>A Kotlin based library to reduce the Boilerplate code for ViewBinding in Android to bare necessity, to make it easy to use.</description>
+  <url>https://github.com/chetan-tuteja/easy-binding</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/chetan-tuteja/easy-binding/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chetan-tuteja</id>
+      <name>Chetan Tuteja</name>
+      <email>chetan.tuteja@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/chetan-tuteja/easy-binding.git</connection>
+    <developerConnection>scm:git:ssh://github.com/chetan-tuteja/easy-binding.git</developerConnection>
+    <url>https://github.com/chetan-tuteja/easy-binding/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>4.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

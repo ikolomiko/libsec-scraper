@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jksiezni.permissive</groupId>
+  <artifactId>permissive-testing</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>jksiezni/permissive</name>
+  <description>A lightweight Android library for permissions handling at runtime.</description>
+  <url>https://github.com/jksiezni/permissive</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jksiezni</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/jksiezni/permissive.git</connection>
+    <developerConnection>scm:git://github.com/jksiezni/permissive.git</developerConnection>
+    <url>git://github.com/jksiezni/permissive.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test.espresso</groupId>
+      <artifactId>espresso-core</artifactId>
+      <version>2.3-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.test.espresso</groupId>
+      <artifactId>espresso-intents</artifactId>
+      <version>2.3-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

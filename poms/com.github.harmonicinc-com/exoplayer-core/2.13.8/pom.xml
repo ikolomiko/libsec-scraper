@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.harmonicinc-com</groupId>
+  <artifactId>exoplayer-core</artifactId>
+  <version>2.13.8</version>
+  <packaging>aar</packaging>
+  <name>exoplayer-core</name>
+  <description>The ExoPlayer library core module.</description>
+  <url>https://github.com/harmonicinc-com/ExoPlayer</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>harmonicinc-jigsaw</id>
+      <name>Albert Cheung</name>
+      <email>albert.cheung@harmonicinc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/harmonicinc-com/ExoPlayer.git</connection>
+    <developerConnection>scm:git:ssh://github.com/harmonicinc-com/ExoPlayer.git</developerConnection>
+    <url>https://github.com/harmonicinc-com/ExoPlayer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.harmonicinc-com</groupId>
+      <artifactId>exoplayer-common</artifactId>
+      <version>2.13.8</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.harmonicinc-com</groupId>
+      <artifactId>exoplayer-extractor</artifactId>
+      <version>2.13.8</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ray.dev.library</groupId>
+  <artifactId>pretty_logger</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Let log be pretty</name>
+  <url>https://github.com/RayHuangDev/PrettyLogger</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rayhuang</id>
+      <name>ray</name>
+      <email>yoshi0422.htc@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RayHuangDev/PrettyLogger.git</connection>
+    <developerConnection>https://github.com/RayHuangDev/PrettyLogger.git</developerConnection>
+    <url>https://github.com/RayHuangDev/PrettyLogger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

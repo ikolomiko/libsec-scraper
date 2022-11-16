@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.panpf</groupId>
+  <artifactId>assembly-paged-list-adapter</artifactId>
+  <version>3.5.0-alpha03</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>me.panpf</groupId>
+      <artifactId>assembly-adapter</artifactId>
+      <version>3.5.0-alpha03</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.paging</groupId>
+      <artifactId>paging-runtime</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

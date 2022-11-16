@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.saantiaguilera</groupId>
+  <artifactId>Pomu</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>com.saantiaguilera:Pomu</name>
+  <description>Download resources on demand</description>
+  <url>https://github.com/saantiaguilera/android-api-resources_on_demand</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saantiaguilera</id>
+      <name>Santiago Aguilera</name>
+      <email>marquito.santi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/saantiaguilera/android-api-resources_on_demand.git</connection>
+    <developerConnection>https://github.com/saantiaguilera/android-api-resources_on_demand.git</developerConnection>
+    <url>https://github.com/saantiaguilera/android-api-resources_on_demand</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>0.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

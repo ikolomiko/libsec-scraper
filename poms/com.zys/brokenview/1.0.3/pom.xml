@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zys</groupId>
+  <artifactId>brokenview</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Glass-break effect for views</name>
+  <url>https://github.com/zhanyongsheng/BrokenView</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zhanyongsheng</id>
+      <name>zhanyongsheng</name>
+      <email>zhanys_7@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zhanyongsheng/BrokenView.git</connection>
+    <developerConnection>https://github.com/zhanyongsheng/BrokenView.git</developerConnection>
+    <url>https://github.com/zhanyongsheng/BrokenView</url>
+  </scm>
+</project>

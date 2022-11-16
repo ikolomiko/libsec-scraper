@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>androidx.glance</groupId>
+  <artifactId>glance-wear-tiles</artifactId>
+  <version>1.0.0-alpha03</version>
+  <packaging>aar</packaging>
+  <name>Glance for Wear Tiles</name>
+  <description>Glance allows developers to build layouts for Wear Tiles using a Jetpack Compose-style API.</description>
+  <url>https://developer.android.com/jetpack/androidx/releases/glance#1.0.0-alpha03</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>The Android Open Source Project</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://android.googlesource.com/platform/frameworks/support</connection>
+    <url>https://cs.android.com/androidx/platform/frameworks/support</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.glance</groupId>
+      <artifactId>glance</artifactId>
+      <version>[1.0.0-alpha03]</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.0-beta01</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-graphics</artifactId>
+      <version>1.1.0-beta01</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-unit</artifactId>
+      <version>1.1.0-beta01</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.wear.tiles</groupId>
+      <artifactId>tiles</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-guava</artifactId>
+      <version>1.5.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime</artifactId>
+      <version>2.3.1</version>
+      <scope>runtime</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.3.1</version>
+      <scope>runtime</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-service</artifactId>
+      <version>2.3.1</version>
+      <scope>runtime</scope>
+      <type>aar</type>
+    </dependency>
+  </dependencies>
+</project>

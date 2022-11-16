@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.suitalk.tools</groupId>
+  <artifactId>ipc-invoker-extension</artifactId>
+  <version>1.1.9</version>
+  <packaging>aar</packaging>
+  <name>A code generator gradle plugin for IPCInvoker, extends from ArbitraryGen.</name>
+  <url>https://github.com/AlbieLiang/IPCInvoker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>albieliang</id>
+      <name>Albie Liang</name>
+      <email>albieliang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlbieLiang/IPCInvoker.git</connection>
+    <developerConnection>https://github.com/AlbieLiang/IPCInvoker.git</developerConnection>
+    <url>https://github.com/AlbieLiang/IPCInvoker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>cc.suitalk.tools</groupId>
+      <artifactId>ipc-invoker-extension-annotation</artifactId>
+      <version>1.1.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.droidkit</groupId>
+  <artifactId>progress</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>DroidKit Progress</name>
+  <description>DroidKit Progress: Implementation of Progress bars from Material Design</description>
+  <url>https://github.com/actorapp/droidkit-progress</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ex3ndr</id>
+      <name>Stepan Korshakov</name>
+    </developer>
+    <developer>
+      <id>rayevg</id>
+      <name>Evgeny Avsievich</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:actorapp/droidkit-progress.git</connection>
+    <developerConnection>scm:git@github.com:actorapp/droidkit-progress.git</developerConnection>
+    <url>scm:git@github.com:actorapp/droidkit-progress.git</url>
+  </scm>
+</project>

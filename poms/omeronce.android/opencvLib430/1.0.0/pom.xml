@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>omeronce.android</groupId>
+  <artifactId>opencvLib430</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>opencvLib430</name>
+  <description>This library contains build of OpenCV 4.3.0 for an android application. The build is trimmed only for core, imgproc and imgcodecs modules so it smaller than the full build.Caution! as it with no IPP dependency performance might be slower on x86 and x86_64 devices, please check you app on these devices to see if performance fits to your use case</description>
+  <url>https://github.com/omeronce1994/NoIPPTrimmedOpenCV4.3.0</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omeronce1994</id>
+      <name>Omer Cohen</name>
+      <email>omeronce1994@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/omeronce1994/NoIPPTrimmedOpenCV4.3.0.git</connection>
+    <developerConnection>https://github.com/omeronce1994/NoIPPTrimmedOpenCV4.3.0.git</developerConnection>
+    <url>https://github.com/omeronce1994/NoIPPTrimmedOpenCV4.3.0</url>
+  </scm>
+</project>

@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>org.metafetish</groupId>
+  <artifactId>buttplug-server-bluetooth</artifactId>
+  <version>0.1.0-alpha1</version>
+  <packaging>aar</packaging>
+ 
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>24.1-android</version>
+    </dependency>
+    <dependency>
+      <groupId>org.metafetish</groupId>
+      <artifactId>buttplug-core</artifactId>
+      <version>0.1.0-alpha1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.metafetish</groupId>
+      <artifactId>buttplug-server</artifactId>
+      <version>0.1.0-alpha1</version>
+    </dependency>
+  </dependencies>
+</project>

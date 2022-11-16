@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ysq.android.utils</groupId>
+  <artifactId>baseframe</artifactId>
+  <version>1.1.8</version>
+  <packaging>aar</packaging>
+  <name>Log tool for android, Can setting log level and save to assign file</name>
+  <url>https://github.com/yshqing/BaseFrame</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xuehuayouling</id>
+      <name>Shengqing Yang</name>
+      <email>xuehuayouling@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yshqing/BaseFrame</connection>
+    <developerConnection>https://github.com/yshqing/BaseFrame.git</developerConnection>
+    <url>https://github.com/yshqing/BaseFrame</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>singletoast</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>androidlogger</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>crashlog</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>httputils</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>singleprogressdialog</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>tools</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ysq.android.utils</groupId>
+      <artifactId>choicedialogfragment</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

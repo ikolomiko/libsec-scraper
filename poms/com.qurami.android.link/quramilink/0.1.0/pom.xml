@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qurami.android.link</groupId>
+  <artifactId>quramilink</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>QuramiLink-Android</name>
+  <description>QuramiLink is a convenient class that you can use to open an office page of Qurami directly from your app.</description>
+  <url>https://github.com/qurami/QuramiLink-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qurami-robot</id>
+      <name>Qurami Robot</name>
+      <email>robot@qurami.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qurami/QuramiLink-Android.git</connection>
+    <developerConnection>https://github.com/qurami/QuramiLink-Android.git</developerConnection>
+    <url>https://github.com/qurami/QuramiLink-Android</url>
+  </scm>
+</project>

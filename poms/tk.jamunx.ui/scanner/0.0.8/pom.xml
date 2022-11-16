@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tk.jamunx.ui</groupId>
+  <artifactId>scanner</artifactId>
+  <version>0.0.8</version>
+  <packaging>aar</packaging>
+  <name>Scanner</name>
+  <description>Scanner is a collection of Beautiful Activity which help others to make there own Custom QR/Barcode Scanner. </description>
+  <url>https://github.com/Lib-Jamun/Scanner</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/Lib-Jamun/sCANNER/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lib-jamun</id>
+      <name>Jatin Sahgal</name>
+      <email>jatinsahgal50@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lib-Jamun/Scanner</connection>
+    <developerConnection>scm:git@github.com:lib-jamun/Scanner.git</developerConnection>
+    <url>scm:git@github.com:lib-jamun/Scanner.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-vision</artifactId>
+      <version>17.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v13</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

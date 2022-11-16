@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.gapowork.kienmaven</groupId>
+  <artifactId>kienmaven</artifactId>
+  <version>1.0.0-alpha01</version>
+  <packaging>aar</packaging>
+  <name>Kien Maven</name>
+  <description>A description of what my library does.</description>
+  <url>https://github.com/hantrungkien/publishmaven</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kienht</id>
+      <name>Kien Han Trung</name>
+      <url>https://github.com/hantrungkien</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/hantrungkien/publishmaven.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/hantrungkien/publishmaven.git</developerConnection>
+    <url>https://github.com/hantrungkien/publishmaven/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

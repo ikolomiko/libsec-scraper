@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.poole.android</groupId>
+  <artifactId>ScreenshotRule</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>ScreenshotRule</name>
+  <description>This is a JUnit tule for taking screenshots on Android devices/emulators</description>
+  <url>https://github.com/simonpoole/ScreenshotRule</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://raw.githubusercontent.com/simonpoole/ScreenshotRule/master/LICENCE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Square, Inc.</name>
+    </developer>
+    <developer>
+      <name>Simon Poole</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/simonpoole/ScreenshotRule.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.spoon</groupId>
+      <artifactId>spoon-client</artifactId>
+      <version>2.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>rules</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.ext</groupId>
+      <artifactId>junit</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

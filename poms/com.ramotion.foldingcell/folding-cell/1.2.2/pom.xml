@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ramotion.foldingcell</groupId>
+  <artifactId>folding-cell</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>Folding Cell for Android</name>
+  <description>FoldingCell is an expanding content cell inspired by folding paper material http://ramotion.com</description>
+  <url>https://github.com/Ramotion/folding-cell-android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>oleg-vasiliev</id>
+      <name>Oleg Vasiliev</name>
+      <email>oleg-vasiliev@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Ramotion/folding-cell-android.git</connection>
+    <developerConnection>scm:git@github.com:Ramotion/folding-cell-android.git</developerConnection>
+    <url>https://github.com/Ramotion/folding-cell-android</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.teleboy</groupId>
+  <artifactId>teleboy-utilities</artifactId>
+  <version>0.1.6</version>
+  <packaging>aar</packaging>
+  <name>teleboy-utilities</name>
+  <description>Utils SDK for Teleboy TV Android Applications</description>
+  <url>https://github.com/teleboy/teleboy-utilities</url>
+  <licenses>
+    <license>
+      <name>MIT License Copyright (c) 2021 Teleboy</name>
+      <url>https://github.com/teleboy/teleboy-utilities/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JackFlash3</id>
+      <name>Eyal Zisman</name>
+      <email>eyal.zisman@teleboy.ch</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/teleboy/teleboy-utilities.git</connection>
+    <developerConnection>scm:git:https://github.com/teleboy/teleboy-utilities.git</developerConnection>
+    <url>https://github.com/teleboy/teleboy-utilities/tree/master</url>
+  </scm>
+</project>

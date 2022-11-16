@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.frontback</groupId>
+  <artifactId>gpueffect</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>gpueffect</name>
+  <description>OpenGL filters for Android</description>
+  <url>https://github.com/Frntbac/GPUEffect</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Frntbac</id>
+      <name>Frontback</name>
+      <email>bm@frontback.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Frntbac/GPUEffect.git</connection>
+    <developerConnection>https://github.com/Frntbac/GPUEffect.git</developerConnection>
+    <url>https://github.com/Frntbac/GPUEffect</url>
+  </scm>
+</project>

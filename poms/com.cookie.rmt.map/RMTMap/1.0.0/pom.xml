@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cookie.rmt.map</groupId>
+  <artifactId>RMTMap</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android rmt map</name>
+  <url>https://coding.net/u/cookie666888/p/RMTMapSDK/git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cookie666888</id>
+      <name>cookie666888</name>
+      <email>cookiechen888@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@git.coding.net:cookie666888/RMTMapSDK.git</connection>
+    <developerConnection>git@git.coding.net:cookie666888/RMTMapSDK.git</developerConnection>
+    <url>https://coding.net/u/cookie666888/p/RMTMapSDK/git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

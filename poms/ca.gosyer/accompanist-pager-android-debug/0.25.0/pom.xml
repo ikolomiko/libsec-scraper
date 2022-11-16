@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ca.gosyer</groupId>
+  <artifactId>accompanist-pager-android-debug</artifactId>
+  <version>0.25.0</version>
+  <packaging>aar</packaging>
+  <name>Accompanist Pager layouts</name>
+  <description>Utilities for Jetpack Compose</description>
+  <url>https://github.com/Syer10/accompanist/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>syer10</id>
+      <name>Syer10</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Syer10/accompanist.git</connection>
+    <developerConnection>scm:git:git://github.com/Syer10/accompanist.git</developerConnection>
+    <url>https://github.com/Syer10/accompanist/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ca.gosyer</groupId>
+      <artifactId>accompanist-snapper-android-debug</artifactId>
+      <version>0.25.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-annotations-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.github.aakira</groupId>
+      <artifactId>napier-android-debug</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-annotations-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-annotations-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

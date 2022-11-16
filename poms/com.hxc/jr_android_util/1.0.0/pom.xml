@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hxc</groupId>
+  <artifactId>jr_android_util</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Anrdoid util</name>
+  <description>Android util library</description>
+  <url>https://github.com/Nick742037091</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nick742037091</id>
+      <name>nick huange</name>
+      <email>jcenterqq742037091@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Nick742037091/Utils.git</connection>
+    <developerConnection>https://github.com/Nick742037091/Utils.git</developerConnection>
+    <url>https://github.com/Nick742037091</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.0-alpha8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

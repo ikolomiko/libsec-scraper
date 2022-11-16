@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.deity.texttospeech</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Text To Speech For Android(Baidu)</name>
+  <url>https://github.com/MeDeity/LibBaiduTextToSpeech</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lastDeity</id>
+      <name>wenhua.feng</name>
+      <email>langrenbule@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MeDeity/LibBaiduTextToSpeech</connection>
+    <developerConnection>https://github.com/MeDeity/LibBaiduTextToSpeech</developerConnection>
+    <url>https://github.com/MeDeity/LibBaiduTextToSpeech</url>
+  </scm>
+</project>

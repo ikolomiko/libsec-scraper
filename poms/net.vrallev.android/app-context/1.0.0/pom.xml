@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.vrallev.android</groupId>
+  <artifactId>app-context</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>App-Context</name>
+  <description>Android library to get the application context.</description>
+  <url>https://github.com/vRallev/app-context</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License version 2.0</name>
+      <url>https://github.com/vrallev/app-context/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rwondratschek</id>
+      <name>Ralf Wondratschek</name>
+      <email>r.wondr@gmail.com</email>
+      <url>http://vrallev.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/vrallev/app-context.git</connection>
+    <developerConnection>scm:git:git@github.com:vrallev/app-context.git</developerConnection>
+    <url>https://github.com/vrallev/app-context</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/vrallev/app-context/issues</url>
+  </issueManagement>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fi.vtt.nubomedia</groupId>
+  <artifactId>webrtcpeer-android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>webrtcpeer-android</name>
+  <description>Android library for creating WebRTC connections.</description>
+  <url>https://github.com/nubomedia-vtt/webrtcpeer-android</url>
+  <licenses>
+    <license>
+      <name>The BSD 3-Clause License</name>
+      <url>https://github.com/nubomedia-vtt/webrtcpeer-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vvvilleh</id>
+      <name>Ville Valjus</name>
+      <email>ville.valjus@vtt.fi</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nubomedia-vtt/webrtcpeer-android.git</connection>
+    <developerConnection>https://github.com/nubomedia-vtt/webrtcpeer-android.git</developerConnection>
+    <url>https://github.com/nubomedia-vtt/webrtcpeer-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>fi.vtt.nubomedia</groupId>
+      <artifactId>utilities-android</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

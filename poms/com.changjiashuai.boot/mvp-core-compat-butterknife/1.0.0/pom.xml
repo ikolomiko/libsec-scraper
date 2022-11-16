@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.changjiashuai.boot</groupId>
+  <artifactId>mvp-core-compat-butterknife</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>mvp-core-compat-butterknife</name>
+  <url>https://github.com/changjiashuai/Boot.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>changjiashuai</id>
+      <name>changjiashuai</name>
+      <email>changjiashuai@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/changjiashuai/Boot.git</connection>
+    <developerConnection>https://github.com/changjiashuai/Boot.git</developerConnection>
+    <url>https://github.com/changjiashuai/Boot.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>Boot</groupId>
+      <artifactId>mvp-core-compat</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

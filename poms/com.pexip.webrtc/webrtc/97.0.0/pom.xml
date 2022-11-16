@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pexip.webrtc</groupId>
+  <artifactId>webrtc</artifactId>
+  <version>97.0.0</version>
+  <packaging>aar</packaging>
+  <name>webrtc</name>
+  <description>WebRTC binary built for Android</description>
+  <url>https://github.com/pexip/webrtc-android</url>
+  <licenses>
+    <license>
+      <name>The WebRTC Software License and Additional IP Rights Grant</name>
+      <url>https://webrtc.googlesource.com/src/+/8c6d88ff5c5d8d89b93e74935aa354d58ef3799f/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Dmitry Rymarev</name>
+      <email>dmitry@pexip.com</email>
+      <organization>Pexip</organization>
+      <organizationUrl>https://www.pexip.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Thomas Pettersen</name>
+      <email>thomas.pettersen@pexip.com</email>
+      <organization>Pexip</organization>
+      <organizationUrl>https://www.pexip.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/pexip/webrtc-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:pexip/webrtc-android.git</developerConnection>
+    <url>https://github.com/pexip/webrtc-android</url>
+  </scm>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.sonicdjgh</groupId>
+  <artifactId>native</artifactId>
+  <version>4.8.941</version>
+  <packaging>aar</packaging>
+  <name>native</name>
+  <description>Android Game Platform SDK</description>
+  <url>https://github.com/sonicdjgh/agp-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Sonic_DJ</id>
+      <name>SonicDJ</name>
+      <email>sonicdj1987@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/sonicdjgh/agp-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/sonicdjgh/agp-sdk.git</developerConnection>
+    <url>https://github.com/sonicdjgh/agp-sdk/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.sonicdjgh</groupId>
+      <artifactId>native</artifactId>
+      <version>4.8.941</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.feedhenry</groupId>
+  <artifactId>fh-android-sdk</artifactId>
+  <version>3.3.3</version>
+  <packaging>aar</packaging>
+  <name>Feedhenry Android SDK Library</name>
+  <description>Feedhenry Android SDK</description>
+  <url>http://feedhenry.org</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>feedhenry</id>
+      <name>Feedhenry</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:feedhenry/fh-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:feedhenry/fh-android-sdk.git</developerConnection>
+    <url>https://github.com/feedhenry/fh-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>multidex</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.loopj.android</groupId>
+      <artifactId>android-async-http</artifactId>
+      <version>1.4.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.aerogear</groupId>
+      <artifactId>aerogear-android-push</artifactId>
+      <version>4.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

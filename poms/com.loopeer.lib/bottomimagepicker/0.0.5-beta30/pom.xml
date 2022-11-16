@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.loopeer.lib</groupId>
+  <artifactId>bottomimagepicker</artifactId>
+  <version>0.0.5-beta30</version>
+  <packaging>aar</packaging>
+  <name>Bottom Image Picker</name>
+  <description>Bottom Image Picker</description>
+  <url>https://github.com/loopeer/ProjectDevelopModule</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>loopeer</id>
+      <name>loopeer</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/loopeer/ProjectDevelopModule.git</connection>
+    <developerConnection>scm:git:git@github.com/loopeer/ProjectDevelopModule.git</developerConnection>
+    <url>https://github.com/loopeer/ProjectDevelopModule.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>imagepipeline-okhttp</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

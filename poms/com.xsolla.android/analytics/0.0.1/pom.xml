@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xsolla.android</groupId>
+  <artifactId>analytics</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Xsolla Analytics SDK for Android</name>
+  <description>Xsolla Analytics SDK for Android is used to send custom data for analytics purposes</description>
+  <url>https://github.com/xsolla/store-android-sdk</url>
+  <organization>
+    <name>Xsolla</name>
+    <url>https://xsolla.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xsolla</id>
+      <name>Xsolla SDK Team</name>
+      <email>publisher-sdk@xsolla.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xsolla/store-android-sdk.git</connection>
+    <developerConnection>https://github.com/xsolla/store-android-sdk.git</developerConnection>
+    <url>https://github.com/xsolla/store-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-pubsub</artifactId>
+      <version>1.105.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-okhttp</artifactId>
+      <version>1.36.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pddstudio</groupId>
+  <artifactId>linode-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Linode-Android</name>
+  <description>An Android Library used to communicate with Linode's Server-API</description>
+  <url>https://github.com/AMQTech/linode-android-api</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pddstudio</id>
+      <name>Patrick J</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:AMQTech/linode-android-api.git</connection>
+    <developerConnection>scm:git@github.com:AMQTech/linode-android-api.git</developerConnection>
+    <url>https://github.com/AMQTech/linode-android-api</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

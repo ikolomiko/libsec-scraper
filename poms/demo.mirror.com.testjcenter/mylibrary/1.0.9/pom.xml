@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>demo.mirror.com.testjcenter</groupId>
+  <artifactId>mylibrary</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>A customizable FloatingActionButton on Android</name>
+  <url>http://118.190.90.144/zhangzhuang/TestDemo</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zz</id>
+      <name>18811427232</name>
+      <email>zhangzhaung@mirror-networks.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://118.190.90.144/zhangzhuang/TestDemo.git</connection>
+    <developerConnection>http://118.190.90.144/zhangzhuang/TestDemo.git</developerConnection>
+    <url>http://118.190.90.144/zhangzhuang/TestDemo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.1.54.android</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

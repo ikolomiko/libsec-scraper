@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>asia.ivity.android</groupId>
+  <artifactId>marqueeview</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>MarqueeView</name>
+  <description>Extensive library for customized marquee effect.</description>
+  <url>https://github.com/ened/Android-MarqueeView</url>
+  <organization>
+    <name>Ivity Asia</name>
+    <url>http://www.ivity.asia</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ened</id>
+      <name>Sebastian Roth</name>
+      <url>http://www.sebroth.com</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:ened/Android-MarqueeView.git</connection>
+    <developerConnection>git@github.com:ened/Android-MarqueeView.git</developerConnection>
+    <url>https://github.com/ened/Android-MarqueeView.git</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.opensource.oneclickaway.android.searchplaces</groupId>
+  <artifactId>place_autocomplete</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>PlaceAutocomplete</name>
+  <description>A powerful library that provides you with places search api</description>
+  <url>https://github.com/drabu/PlaceAutocomplete</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/Drabu/PlaceAutocomplete/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drabu</id>
+      <name>Burhan ud din Drabu</name>
+      <email>burhan.drabu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/drabu/PlaceAutocomplete</connection>
+    <developerConnection>https://github.com/drabu/PlaceAutocomplete</developerConnection>
+    <url>https://github.com/drabu/PlaceAutocomplete</url>
+  </scm>
+</project>

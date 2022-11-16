@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.telekom.smartcredentials</groupId>
+  <artifactId>persistentlogging</artifactId>
+  <version>6.4.0</version>
+  <packaging>aar</packaging>
+  <description>SmartCredentials is a programmer’s library, presenting a unified interface for various solutions and protocols used to authenticate, authorize and conduct any kind of transactions between a user or a user-facing app and services. It uses the abstraction of a credential, which can handily be made available to the user for choosing the right identity/ entitlement and authenticating themselves for appropriate security. On the ‘other end’ actual technological functions are structured in modules that can be ‘plugged’ in to the SmartCredentials core to extend and alter its behavior behind the unifying credentialing APIs.</description>
+  <name>Smart Credentials</name>
+  <url>https://github.com/telekom/SmartCredentials-SDK-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>axelnennker</id>
+      <name>Axel Nennker</name>
+      <email>Axel.Nennker@telekom.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/telekom/SmartCredentials-SDK-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.telekom.smartcredentials</groupId>
+      <artifactId>core</artifactId>
+      <version>6.4.0</version>
+    </dependency>
+  </dependencies>
+</project>

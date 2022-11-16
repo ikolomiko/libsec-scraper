@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.lemonlabs</groupId>
+  <artifactId>slidingdebugmenu</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Sliding Debug Menu</name>
+  <description>Android library that eases access to developer settings and device state</description>
+  <url>https://github.com/lemonlabs/slidingdebugmenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lemonlabs</id>
+      <name>Lemon Labs</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:lemonlabs/slidingdebugmenu.git</connection>
+    <developerConnection>scm:git@github.com:lemonlabs/slidingdebugmenu.git</developerConnection>
+    <url>https://github.com/lemonlabs/slidingdebugmenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>2.2.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jeremyfeinstein</groupId>
+      <artifactId>slidingmenu</artifactId>
+      <version>1.3.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>4.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>15.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

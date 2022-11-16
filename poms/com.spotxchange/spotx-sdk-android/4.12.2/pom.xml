@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spotxchange</groupId>
+  <artifactId>spotx-sdk-android</artifactId>
+  <version>4.12.2</version>
+  <packaging>aar</packaging>
+  <name>spotx-sdk-android</name>
+  <description>SpotX Mobile SDK for Android</description>
+  <url>https://www.spotx.tv</url>
+  <licenses>
+    <license>
+      <name>ZLIB</name>
+      <url>https://zlib.net/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>spotxmobile</id>
+      <name>Magnite Inc.</name>
+      <email>mobile-corporate@magnite.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/spotxmobile/spotx-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>play-services-base</artifactId>
+      <groupId>com.google.android.gms</groupId>
+      <version>16.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>play-services-ads</artifactId>
+      <groupId>com.google.android.gms</groupId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>exoplayer</artifactId>
+      <groupId>com.brightcove.player</groupId>
+      <version>4.13.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yandextaxitech</groupId>
+  <artifactId>binaryprefs</artifactId>
+  <version>0.9.9.9</version>
+  <packaging>aar</packaging>
+  <name>yandextaxitech/binaryprefs</name>
+  <description>Rapidly fast and lightweight re-implementation of SharedPreferences  which stores each preference in files separately, performs disk operations  via NIO with memory mapped byte buffers and works IPC (between processes).  Written from scratch.</description>
+  <url>https://github.com/yandextaxitech/binaryprefs</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yandextaxitech</id>
+      <name>Yandex Taxi Tech</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yandextaxitech/binaryprefs.git</connection>
+    <developerConnection>scm:git://github.com/yandextaxitech/binaryprefs.git</developerConnection>
+    <url>git://github.com/yandextaxitech/binaryprefs.git</url>
+  </scm>
+</project>

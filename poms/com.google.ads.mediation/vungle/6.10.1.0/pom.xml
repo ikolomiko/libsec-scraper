@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.ads.mediation</groupId>
+  <artifactId>vungle</artifactId>
+  <version>6.10.1.0</version>
+  <packaging>aar</packaging>
+  <name>Vungle mediation adapter for the Google Mobile Ads SDK</name>
+  <description>The Vungle mediation adapter is a library that handles communication between the Google Mobile Ads SDK and the Vungle SDK. It enables you to load ads from Vungle using the mediation feature in the Google Mobile Ads SDK.</description>
+  <url>https://developers.google.com/admob/android/mediation/vungle</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/googleads/googleads-mobile-android-mediation/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.vungle</groupId>
+      <artifactId>publisher-sdk-android</artifactId>
+      <version>6.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>20.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

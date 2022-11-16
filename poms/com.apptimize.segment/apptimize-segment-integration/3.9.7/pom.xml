@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apptimize.segment</groupId>
+  <artifactId>apptimize-segment-integration</artifactId>
+  <version>3.9.7</version>
+  <packaging>aar</packaging>
+  <name>Apptimize Segment Integration</name>
+  <description>Apptimize Integration for Segment Android Analytics</description>
+  <url>http://github.com/Apptimize/analytics-android-integration-apptimize/</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apptimize</id>
+      <name>Apptimize, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Apptimize/analytics-android-integration-apptimize.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Apptimize/analytics-android-integration-apptimize.git</developerConnection>
+    <url>https://github.com/Apptimize/analytics-android-integration-apptimize/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.apptimize</groupId>
+      <artifactId>apptimize-android</artifactId>
+      <version>3.9.7</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

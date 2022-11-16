@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netease.nimlib.flutter</groupId>
+  <artifactId>push</artifactId>
+  <version>8.6.5</version>
+  <packaging>aar</packaging>
+  <name>nim-android-sdk</name>
+  <description>push extension for nim library.</description>
+  <url>https://netease.im</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>neteaseim</id>
+      <name>neteaseim</name>
+      <email>ntes.im-1010@188.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:netease-im/NIM_Android_SDK.git</connection>
+    <developerConnection>git@github.com:netease-im/NIM_Android_SDK.git</developerConnection>
+    <url>https://github.com/netease-im/NIM_Android_SDK</url>
+  </scm>
+</project>

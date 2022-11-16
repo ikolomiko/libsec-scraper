@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Azure Notification Hubs Android Client SDK</name>
+  <description>Azure Notification Hubs Android Client SDK</description>
+  <url>https://github.com/Azure/azure-notificationhubs-android</url>
+  <organization>
+    <name>Microsoft Corporation</name>
+    <url>http://www.microsoft.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mpodwysocki</id>
+      <name>Matthew Podwysocki</name>
+      <email>matthewp@microsoft.com</email>
+      <url>https://github.com/mpodwysocki</url>
+      <organization>Microsoft Corporation</organization>
+      <organizationUrl>http://www.microsoft.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>scm:git:https://github.com/Azure/azure-notificationhubs-android</url>
+  </scm>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.azure</groupId>
+  <artifactId>notification-hubs-android-sdk</artifactId>
+  <version>0.4</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

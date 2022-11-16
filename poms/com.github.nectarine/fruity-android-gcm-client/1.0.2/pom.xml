@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nectarine</groupId>
+  <artifactId>fruity-android-gcm-client</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Fruity Android GCM Client</name>
+  <description>GCM Client which helps you to manage registration Id</description>
+  <url>https://github.com/nectarine/fruity-android-gcm</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Verion 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nectarine</id>
+      <name>Changyeop Kim</name>
+      <email>changyeopkim@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nectarine/fruity-android-gcm</connection>
+    <developerConnection>https://github.com/nectarine/fruity-android-gcm</developerConnection>
+    <url>https://github.com/nectarine/fruity-android-gcm</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

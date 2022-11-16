@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.juky</groupId>
+  <artifactId>squircleview</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>SquircleView</name>
+  <description>SquircleView is a library which provides you with Squircle views to use for buttons, views, etc.</description>
+  <url>https://github.com/Juky-App/SquircleView-Prerelease</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Juky-App/SquircleView-Prerelease/blob/main/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>juky</id>
+      <name>Juky</name>
+      <email>development@juky.app</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/Juky-App/SquircleView-Prerelease.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Juky-App/SquircleView-Prerelease.git</developerConnection>
+    <url>https://github.com/Juky-App/SquircleView-Prerelease</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

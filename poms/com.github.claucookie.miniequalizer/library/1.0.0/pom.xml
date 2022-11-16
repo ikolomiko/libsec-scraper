@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.claucookie.miniequalizer</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Mini Equalizer for Android</name>
+  <description>Equalizers related Library</description>
+  <url>https://github.com/claucookie/mini-equalizer-library-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>claucookie</id>
+      <name>Claudia Luque FernÃ¡ndez</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/claucookie/mini-equalizer-library-android</connection>
+    <developerConnection>scm:hg:https://github.com/claucookie/mini-equalizer-library-android</developerConnection>
+    <url>https://github.com/claucookie/mini-equalizer-library-android.git</url>
+  </scm>
+</project>

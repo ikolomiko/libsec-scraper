@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ninja.moneytisersdklibrary</groupId>
+  <artifactId>date-utils</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>DateUtils</name>
+  <description>A collections of methods to work with Date objects</description>
+  <url>https://github.com/Drorita/DateUtilsExample</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drorita</id>
+      <name>Dror Zrenchny</name>
+      <email>dror.zrenchny@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Drorita/DateUtilsExample.git</connection>
+    <developerConnection>https://github.com/Drorita/DateUtilsExample.git</developerConnection>
+    <url>https://github.com/Drorita/DateUtilsExample</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.android.filament</groupId>
+  <artifactId>gltfio-android</artifactId>
+  <version>1.4.4</version>
+  <packaging>aar</packaging>
+  <name>Filament glTF Loader</name>
+  <description>Real-time physically based rendering engine for Android.</description>
+  <url>https://github.com/google/filament</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>filament-team</id>
+      <name>Filament Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/google/filament.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/google/filament.git</developerConnection>
+    <url>https://github.com/google/filament</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.filament</groupId>
+      <artifactId>filament-android</artifactId>
+      <version>1.4.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pro.acuna</groupId>
+  <artifactId>imagebrowser</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>pro.acuna</groupId>
+      <artifactId>androdesign</artifactId>
+      <version>+</version>
+    </dependency>
+    <dependency>
+      <groupId>pro.acuna</groupId>
+      <artifactId>filedialog</artifactId>
+      <version>+</version>
+    </dependency>
+  </dependencies>
+  <description>ImageBrowser is a powerful images browser and picker for Android</description>
+  <name>ImageBrowser</name>
+  <url>https://github.com/acuna-public/ImageBrowser</url>
+  <licenses>
+    <license>
+      <name>General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>acuna</id>
+      <name>Anton Tikhomirov</name>
+      <email>acuna.public@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/acuna-public/ImageBrowser.git</url>
+  </scm>
+</project>

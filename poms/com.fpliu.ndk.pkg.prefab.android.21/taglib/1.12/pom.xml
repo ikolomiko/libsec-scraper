@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>taglib</artifactId>
+    <version>1.12</version>
+    <packaging>aar</packaging>
+
+    <name>taglib</name>
+    <description>Audio metadata library</description>
+    <url>https://taglib.org/</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/taglib/taglib.git</connection>
+        <developerConnection>scm:git:https://github.com/taglib/taglib.git</developerConnection>
+        <url>https://github.com/taglib/taglib.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Scott Wheeler</name>
+            <email>wheeler@kde.org</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Lukas Lalinsky</name>
+            <email>lalinsky@gmail.com</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Tsuda Kageyu</name>
+            <email>tsuda.kageyu@gmail.com</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Stephen F. Booth</name>
+            <email>me@sbooth.org</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Ismael Orenstein</name>
+            <email>orenstein@kde.org</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Allan Sandfeld Jensen</name>
+            <email>kde@carewolf.org</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Teemu Tervo</name>
+            <email>teemu.tervo@gmx.net</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Mathias Panzenböck</name>
+            <email>grosser.meister.morti@gmx.net</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Damien Plisson</name>
+            <email>damien78@audirvana.com</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+        <developer>
+            <name>Urs Fleisch</name>
+            <email>ufleisch@users.sourceforge.net</email>
+            <organization>taglib</organization>
+            <organizationUrl>https://taglib.org/</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>LGPL-2.1-or-later</name>
+            <url>https://raw.githubusercontent.com/taglib/taglib/master/COPYING.LGPL</url>
+        </license>
+        <license>
+            <name>MPL-1.1</name>
+            <url>https://raw.githubusercontent.com/taglib/taglib/master/COPYING.MPL</url>
+        </license>
+    </licenses>
+</project>

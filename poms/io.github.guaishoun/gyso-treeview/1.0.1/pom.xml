@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.guaishoun</groupId>
+  <artifactId>gyso-treeview</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>gyso-treeview</name>
+  <description>A custom tree view for Android, designed for easy drawing some tree nodes (e.g. think mind and tree nodes). Includes smoothly zoom, move, limit and center fix animation support, and allows easy extension so you can add your own child node's customs view and touch event detection.</description>
+  <url>https://github.com/guaishouN/android-thinkmap-treeview</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>GuaishouN</name>
+      <email>674149099@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:guaishouN/android-thinkmap-treeview.git</connection>
+    <developerConnection>scm:git@github.com:guaishouN/android-thinkmap-treeview.git</developerConnection>
+    <url>https://github.com/guaishouN/android-thinkmap-treeview</url>
+  </scm>
+</project>

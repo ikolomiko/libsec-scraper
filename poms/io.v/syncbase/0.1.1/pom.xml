@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.v</groupId>
+  <artifactId>syncbase</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Syncbase</name>
+  <description>Storage system with peer-to-peer, secure, offline data synchronization</description>
+  <url>https://github.com/vanadium/java</url>
+  <licenses>
+    <license>
+      <name>New BSD License</name>
+      <url>https://github.com/vanadium/java/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vanadium</id>
+      <name>The Vanadium Contributors</name>
+      <email>vanadium-discuss@v.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vanadium/java.git</connection>
+    <url>https://github.com/vanadium/java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.v</groupId>
+      <artifactId>vanadium-android</artifactId>
+      <version>2.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

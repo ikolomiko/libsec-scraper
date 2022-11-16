@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ivanshafran</groupId>
+  <artifactId>shared-preferences-mock</artifactId>
+  <version>1.2.4</version>
+  <packaging>aar</packaging>
+  <name>shared-preferences-mock</name>
+  <description>Shared preferences mock library</description>
+  <url>https://github.com/IvanShafran/shared-preferences-mock</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/IvanShafran/shared-preferences-mock/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>IvanShafran</id>
+      <name>Ivan Shafran</name>
+      <email>shafran.fun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/IvanShafran/shared-preferences-mock.git</connection>
+    <developerConnection>scm:git:ssh://github.com/IvanShafran/shared-preferences-mock.git</developerConnection>
+    <url>https://github.com/IvanShafran/shared-preferences-mock/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

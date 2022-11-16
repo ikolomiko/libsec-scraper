@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.mobitech</groupId>
+  <artifactId>analytics</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>MobitechAnalytics</name>
+  <description>Analytics infra</description>
+  <url>http://mobitech.io</url>
+  <licenses>
+    <license>
+      <name>Attribution-NonCommercial-NoDerivatives 4.0 International</name>
+      <url>http://creativecommons.org/licenses/by-nc-nd/4.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gal</id>
+      <name>Gal Levinsky</name>
+      <email>gal@mobitech.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.assembla.com/coupons-mobile.shopping.git</connection>
+    <developerConnection>https://git.assembla.com/coupons-mobile.shopping.git</developerConnection>
+    <url>http://mobitech.io</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.mobitech</groupId>
+      <artifactId>commonlibrary</artifactId>
+      <version>2.2.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.segment.analytics.android</groupId>
+      <artifactId>analytics-integration-google-analytics</artifactId>
+      <version>3.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.segment.analytics.android</groupId>
+      <artifactId>analytics-integration-mixpanel</artifactId>
+      <version>3.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.segment.analytics.android</groupId>
+      <artifactId>analytics</artifactId>
+      <version>3.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

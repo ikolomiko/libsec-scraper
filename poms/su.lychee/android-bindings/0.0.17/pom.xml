@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>su.lychee</groupId>
+  <artifactId>android-bindings</artifactId>
+  <version>0.0.17</version>
+  <packaging>aar</packaging>
+  <name>Android Bindings for Lychee</name>
+  <description>Bindings between Lychee Properties and Android Views</description>
+  <url>https://github.com/Miha-x64/Lychee</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/Miha-x64/Lychee/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Miha-x64</id>
+      <name>Mike</name>
+      <email>silizium@ok.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Miha-x64/Lychee.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Miha-x64/Lychee.git</developerConnection>
+    <url>https://github.com/Miha-x64/Lychee/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Miha-x64.Kotlin-MPP_Collection_utils</groupId>
+      <artifactId>Collection-utils-jvm</artifactId>
+      <version>1.0-alpha05</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>su.lychee</groupId>
+      <artifactId>properties</artifactId>
+      <version>0.0.17</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>su.lychee</groupId>
+      <artifactId>persistence</artifactId>
+      <version>0.0.17</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

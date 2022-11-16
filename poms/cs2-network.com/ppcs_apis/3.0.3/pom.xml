@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cs2-network.com</groupId>
+  <artifactId>ppcs_apis</artifactId>
+  <version>3.0.3</version>
+  <packaging>aar</packaging>
+  <name>ppcs_api</name>
+  <description>cs2 network P2P API Library</description>
+  <url>http://www.cs2-network.com/</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>CS2</id>
+      <name>CS2</name>
+      <email>charlie@cs2-network.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://www.cs2-network.com/</connection>
+    <developerConnection>http://www.cs2-network.com/</developerConnection>
+    <url>http://www.cs2-network.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

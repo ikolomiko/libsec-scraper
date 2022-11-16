@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.detu.android</groupId>
+  <artifactId>mylibrary</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://github.com/linglongxin24/SQLite</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight SQLite database framework</name>
+      <url>https://github.com/linglongxin24/SQLite</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>five</id>
+      <name>five</name>
+      <email>dww@detu.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/linglongxin24/SQLite.git</connection>
+    <developerConnection>https://github.com/linglongxin24/SQLite.git</developerConnection>
+    <url>https://github.com/linglongxin24/SQLite</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

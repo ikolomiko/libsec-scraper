@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.peppe130</groupId>
+  <artifactId>bouncing-dialogs</artifactId>
+  <version>0.0.9</version>
+  <packaging>aar</packaging>
+  <name>BouncingDialogs</name>
+  <description>Awesome Dialogs for Android</description>
+  <url>https://github.com/peppe130/BouncingDialogsApp</url>
+  <licenses>
+    <license>
+      <name>General Public License, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>peppe130</id>
+      <name>Giuseppe Montuoro</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:peppe130/BouncingDialogsApp.git</connection>
+    <developerConnection>scm:git@github.com:peppe130/BouncingDialogsApp.git</developerConnection>
+    <url>https://github.com/peppe130/BouncingDialogsApp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pnikosis</groupId>
+      <artifactId>materialish-progress</artifactId>
+      <version>1.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

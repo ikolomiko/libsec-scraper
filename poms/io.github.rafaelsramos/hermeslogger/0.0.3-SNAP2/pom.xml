@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.rafaelsramos</groupId>
+  <artifactId>hermeslogger</artifactId>
+  <version>0.0.3-SNAP2</version>
+  <packaging>aar</packaging>
+  <name>HermesLogger</name>
+  <description>Runtime information gathering system aimed at closing the gap between the technicalities and Testers/PAs</description>
+  <url>https://github.com/RafaelsRamos/HermesLogger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RafaelsRamos</id>
+      <name>Rafael da Silva Ramos</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:RafaelsRamos/HermesLogger.git</connection>
+    <developerConnection>scm:git@github.com:RafaelsRamos/HermesLogger</developerConnection>
+    <url>https://github.com/RafaelsRamos/HermesLogger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.rafaelsramos</groupId>
+      <artifactId>formatter</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

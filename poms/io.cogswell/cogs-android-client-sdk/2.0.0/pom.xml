@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.cogswell</groupId>
+  <artifactId>cogs-android-client-sdk</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Cogs Android Client SDK</name>
+  <url>https://cogswell.io/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>joeledwards</id>
+      <name>Joel Edwards</name>
+      <email>jedwards@aviatainc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cogswell-io/cogs-android-client-sdk</connection>
+    <developerConnection>https://github.com/cogswell-io/cogs-android-client-sdk</developerConnection>
+    <url>https://cogswell.io/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>multidex</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20160212</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.koushikdutta.async</groupId>
+      <artifactId>androidasync</artifactId>
+      <version>2.1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

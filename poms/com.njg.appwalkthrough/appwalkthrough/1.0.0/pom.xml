@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.njg.appwalkthrough</groupId>
+  <artifactId>appwalkthrough</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>appwalkthrough</name>
+  <description>A custom dialog that embeds any xml layout and shows it as an app walkthrough / demo</description>
+  <url>https://github.com/nathangnzls/AppWalkThrough</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>njg</id>
+      <name>Nathaniel J. Gonzales</name>
+      <email>nathanielgonzalesj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nathangnzls/AppWalkThrough.git</connection>
+    <developerConnection>https://github.com/nathangnzls/AppWalkThrough.git</developerConnection>
+    <url>https://github.com/nathangnzls/AppWalkThrough</url>
+  </scm>
+</project>

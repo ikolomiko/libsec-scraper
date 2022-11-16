@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aliyun.alink.linksdk</groupId>
+  <artifactId>public-channel-mobile</artifactId>
+  <version>1.2.3-rc1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.aliyun.iot.aep.sdk.external</groupId>
+      <artifactId>securityguard</artifactId>
+      <version>5.3.38</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.aliyun.ams</groupId>
+      <artifactId>alicloud-android-utdid</artifactId>
+      <version>1.1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.aliyun.iot.aep.sdk</groupId>
+      <artifactId>apiclient</artifactId>
+      <version>0.0.3</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>securityguard</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aliyun.alink.linksdk</groupId>
+      <artifactId>public-channel-core</artifactId>
+      <version>0.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.xiaomanzijia</groupId>
+  <artifactId>baidu_ocr_ui</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>baidu_ocr_ui</name>
+  <description>baidu ocr ui</description>
+  <url>https://github.com/xiaomanzijia/baidu_ocr_ui</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DailyPlan</id>
+      <name>DailyPlan</name>
+      <email>lovemyself752@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:xiaomanzijia/baidu_ocr_ui.git</connection>
+    <developerConnection>scm:git@github.com:xiaomanzijia/baidu_ocr_ui.git</developerConnection>
+    <url>https://github.com/xiaomanzijia/baidu_ocr_ui/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+  </dependencies>
+</project>

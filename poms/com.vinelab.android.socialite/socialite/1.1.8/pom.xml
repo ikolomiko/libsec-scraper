@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vinelab.android.socialite</groupId>
+  <artifactId>socialite</artifactId>
+  <version>1.1.8</version>
+  <packaging>aar</packaging>
+  <name>Socialite</name>
+  <description>Library providing social plugins such as login and sharing</description>
+  <url>https://github.com/Vinelab/socialite-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nabilsouk</id>
+      <name>Nabil Souk</name>
+      <email>nabil@vinelab.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Vinelab/socialite-android.git</connection>
+    <developerConnection>https://github.com/Vinelab/socialite-android.git</developerConnection>
+    <url>https://github.com/Vinelab/socialite-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-android-sdk</artifactId>
+      <version>4.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twitter.sdk.android</groupId>
+      <artifactId>twitter-core</artifactId>
+      <version>2.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twitter.sdk.android</groupId>
+      <artifactId>tweet-composer</artifactId>
+      <version>2.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

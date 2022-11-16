@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solarexsoft.solarexjson</groupId>
+  <artifactId>solarexjson</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>自制JSON解析框架</name>
+  <url>https://github.com/flyfire/SolarexJSONDemo</url>
+  <licenses>
+    <license>
+      <name>Massachusetts Institute of Technology</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>solarex</id>
+      <name>Solarex</name>
+      <email>rh.hou.work@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/flyfire/SolarexJSONDemo.git</connection>
+    <developerConnection>https://github.com/flyfire/SolarexJSONDemo.git</developerConnection>
+    <url>https://github.com/flyfire/SolarexJSONDemo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

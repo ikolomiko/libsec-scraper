@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jetlee</groupId>
+  <artifactId>FlowTagLayout</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>FlowTagLayout Android</name>
+  <description>High integrated development framework for Android applications.</description>
+  <url>https://github.com/jetLee92/FlowTagLayoutDemo</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/jetLee92/FlowTagLayoutDemo/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jetLee92</id>
+      <name>jet啟思</name>
+      <email>liqisi92@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:jetLee92/FlowTagLayoutDemo.git</connection>
+    <developerConnection>git@github.com:jetLee92/FlowTagLayoutDemo.git</developerConnection>
+    <url>https://github.com/jetLee92/FlowTagLayoutDemo</url>
+  </scm>
+</project>

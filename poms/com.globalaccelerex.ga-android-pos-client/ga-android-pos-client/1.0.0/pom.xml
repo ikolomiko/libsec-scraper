@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.globalaccelerex.ga-android-pos-client</groupId>
+  <artifactId>ga-android-pos-client</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ga-android-pos-client</name>
+  <description> A library to assist integration of Global Accelerex POS services to third party android applications.</description>
+  <url>https://github.com/global-accelerex/ga-android-pos-client</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Global Accelerex</id>
+      <name>Global Accelerex</name>
+      <email>developer@globalAccelerex.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://www.globalaccelerex.com/</connection>
+    <developerConnection>https://www.globalaccelerex.com/</developerConnection>
+    <url>https://github.com/global-accelerex/ga-android-pos-client</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quinn.hunter</groupId>
+  <artifactId>hunter-debug-library</artifactId>
+  <version>0.8.2</version>
+  <packaging>aar</packaging>
+  <name>hunter-debug-library</name>
+  <description>A fast, incremental, cocurrent framework to develop compile plugin for android project</description>
+  <url>https://github.com/Leaking/Hunter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Leaking</id>
+      <name>QuinnChen</name>
+      <email>chenhuazhaoao@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Leaking/Hunter.git</connection>
+    <developerConnection>https://github.com/Leaking/Hunter.git</developerConnection>
+    <url>https://github.com/Leaking/Hunter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

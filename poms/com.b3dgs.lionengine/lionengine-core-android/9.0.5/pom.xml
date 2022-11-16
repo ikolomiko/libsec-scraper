@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.b3dgs.lionengine</groupId>
+  <artifactId>lionengine-core-android</artifactId>
+  <version>9.0.5</version>
+  <packaging>aar</packaging>
+  <name>LionEngine Core Android</name>
+  <description>Java 2D Game Engine Android implementation</description>
+  <url>http://www.b3dgs.com</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License (GPL) version 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DjThunder</id>
+      <name>Pierre-Alexandre</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:b3dgs/lionengine-core-android.git</connection>
+    <developerConnection>scm:git:git@github.com:b3dgs/lionengine-core-android.git</developerConnection>
+    <url>https://github.com/b3dgs/lionengine-core-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.b3dgs.lionengine</groupId>
+      <artifactId>lionengine-core</artifactId>
+      <version>9.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

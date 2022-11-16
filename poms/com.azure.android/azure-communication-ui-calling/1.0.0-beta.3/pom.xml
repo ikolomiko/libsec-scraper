@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.azure.android</groupId>
+  <artifactId>azure-communication-ui-calling</artifactId>
+  <version>1.0.0-beta.3</version>
+  <packaging>aar</packaging>
+  <name>com.azure.android:azure-communication-ui-calling</name>
+  <description>Azure Communication Calling UI for Android.</description>
+  <url>https://github.com/Azure/communication-ui-library-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/Azure/communication-ui-library-android/blob/main/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Microsoft</id>
+      <name>Microsoft</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Azure/communication-ui-library-android.git</connection>
+    <developerConnection>scm:git:ssh:github.com:Azure/communication-ui-library-android.git</developerConnection>
+    <url>https://github.com/Azure/communication-ui-library-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.azure.android</groupId>
+      <artifactId>azure-communication-calling</artifactId>
+      <version>2.1.0-beta.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment-ktx</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-fragment-ktx</artifactId>
+      <version>2.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-ktx</artifactId>
+      <version>2.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.fluentui</groupId>
+      <artifactId>fluentui_others</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.fluentui</groupId>
+      <artifactId>fluentui_drawer</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.fluentui</groupId>
+      <artifactId>fluentui_persona</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.fluentui</groupId>
+      <artifactId>fluentui_transients</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

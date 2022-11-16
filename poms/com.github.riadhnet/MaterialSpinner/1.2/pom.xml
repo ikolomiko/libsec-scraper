@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.riadhnet</groupId>
+  <artifactId>MaterialSpinner</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>riadhnet/MaterialSpinner</name>
+  <description>Spinner with Material Design - Down to API 9</description>
+  <url>https://github.com/riadhnet/MaterialSpinner</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>riadhnet</id>
+      <name>Riadh Mezzi</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/riadhnet/MaterialSpinner.git</connection>
+    <developerConnection>scm:git://github.com/riadhnet/MaterialSpinner.git</developerConnection>
+    <url>git://github.com/riadhnet/MaterialSpinner.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>asia.kanopi.tools</groupId>
+  <artifactId>fingerscan</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>U.are.U 4500B reader</name>
+  <description>An Android library to connect to a U.are.U 4500B fingerprint scanner</description>
+  <url>https://github.com/smhodgson/uareu</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>smhodgson</id>
+      <name>Steven Hodgson</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/smhodgson/uareu.git</connection>
+    <url>https://github.com/smhodgson/uareu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

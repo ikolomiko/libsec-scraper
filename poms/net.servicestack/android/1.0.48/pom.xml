@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.servicestack</groupId>
+  <artifactId>android</artifactId>
+  <version>1.0.48</version>
+  <packaging>aar</packaging>
+  <name>ServiceStack.Android</name>
+  <description>A client library to call your ServiceStack webservices for Android clients.</description>
+  <url>https://github.com/ServiceStack/ServiceStack.Java</url>
+  <licenses>
+    <license>
+      <name>The BSD 3-Clause License</name>
+      <url>https://servicestack.net/bsd-license.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mythz</id>
+      <name>Demis Bellot</name>
+      <email>team@servicestack.net</email>
+    </developer>
+    <developer>
+      <id>layoric</id>
+      <name>Darren Reid</name>
+      <email>team@servicestack.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ServiceStack/ServiceStack.Java</connection>
+    <developerConnection>https://github.com/ServiceStack/ServiceStack.Java</developerConnection>
+    <url>https://github.com/ServiceStack/ServiceStack.Java</url>
+  </scm>
+</project>

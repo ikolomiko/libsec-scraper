@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nuvoex</groupId>
+  <artifactId>fileuploader</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Async File Uploader</name>
+  <description>A lightweight library for uploading files in background on Android</description>
+  <url>https://github.com/Nuvoex/async-file-uploader</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dilipvinu</id>
+      <name>Dilip Vinu</name>
+      <email>dilipvrk@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Nuvoex/async-file-uploader.git</connection>
+    <developerConnection>https://github.com/Nuvoex/async-file-uploader.git</developerConnection>
+    <url>https://github.com/Nuvoex/async-file-uploader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>firebase-jobdispatcher</artifactId>
+      <version>0.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

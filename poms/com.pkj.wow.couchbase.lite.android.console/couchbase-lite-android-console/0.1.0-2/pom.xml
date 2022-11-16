@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pkj.wow.couchbase.lite.android.console</groupId>
+  <artifactId>couchbase-lite-android-console</artifactId>
+  <version>0.1.0-2</version>
+  <packaging>aar</packaging>
+  <name>couchbase-lite-android-console</name>
+  <description>A console where we can debug local couch-base database and replicators</description>
+  <url>https://github.com/pkjvit/couchbase-lite-android-console</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pkjvit</id>
+      <name>Pankaj Jangid</name>
+      <email>pkjvit@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pkjvit/couchbase-lite-android-console.git</connection>
+    <developerConnection>https://github.com/pkjvit/couchbase-lite-android-console.git</developerConnection>
+    <url>https://github.com/pkjvit/couchbase-lite-android-console</url>
+  </scm>
+</project>

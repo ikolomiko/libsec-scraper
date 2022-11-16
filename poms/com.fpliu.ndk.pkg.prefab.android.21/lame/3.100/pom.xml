@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>lame</artifactId>
+    <version>3.100</version>
+    <packaging>aar</packaging>
+
+    <name>lame</name>
+    <description>High quality MPEG Audio Layer III (MP3) encoder</description>
+    <url>https://lame.sourceforge.io</url>
+
+    <scm>
+        <connection>scm:svn:https://svn.code.sf.net/p/lame/svn/trunk/lame</connection>
+        <developerConnection>scm:svn:https://svn.code.sf.net/p/lame/svn/trunk/lame</developerConnection>
+        <url>https://svn.code.sf.net/p/lame/svn/trunk/lame</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>lame developers</name>
+            <email>unknow</email>
+            <organization>lame</organization>
+            <organizationUrl>https://lame.sourceforge.io</organizationUrl>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>LGPL-2.0-or-later</name>
+            <url>http://svn.code.sf.net/p/lame/svn/trunk/lame/COPYING</url>
+        </license>
+    </licenses>
+</project>

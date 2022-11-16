@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shieldsquare.mobile_captcha_sdk</groupId>
+  <artifactId>mobile_captcha_sdk</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>mobile_captcha_sdk</name>
+  <description>A library to detect automated bot activity in android apps</description>
+  <url>https://www.shieldsquare.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software LIcense, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vivek@gboom</id>
+      <name>Vivek Rajendran</name>
+      <email>vivek@gboom.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://Vivek_Gboom@bitbucket.org/gboom-software/shieldsquare-android-sdk.git</connection>
+    <developerConnection>https://Vivek_Gboom@bitbucket.org/gboom-software/shieldsquare-android-sdk.git</developerConnection>
+    <url>https://www.shieldsquare.com/</url>
+  </scm>
+</project>

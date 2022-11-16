@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.ldralighieri.corbind</groupId>
+  <artifactId>corbind-viewpager</artifactId>
+  <version>1.5.4</version>
+  <packaging>aar</packaging>
+  <name>Corbind (viewpager)</name>
+  <description>Kotlin Coroutines binding APIs for Android UI widgets from the platform and support libraries.</description>
+  <url>https://github.com/LDRAlighieri/Corbind/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ldralighieri</id>
+      <name>Vladimir Raupov</name>
+      <url>https://github.com/LDRAlighieri/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/LDRAlighieri/Corbind.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/LDRAlighieri/Corbind.git</developerConnection>
+    <url>https://github.com/LDRAlighieri/Corbind/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ru.ldralighieri.corbind</groupId>
+      <artifactId>corbind</artifactId>
+      <version>1.5.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager</groupId>
+      <artifactId>viewpager</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.21</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

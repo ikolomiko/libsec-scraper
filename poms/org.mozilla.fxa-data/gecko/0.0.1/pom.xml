@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mozilla.fxa-data</groupId>
+  <artifactId>gecko</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>FirefoxData</name>
+  <description>The dependencies from Firefox for Android used in FirefoxData.</description>
+  <url>https://github.com/mcomella/FirefoxAccounts-android</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mcomella</id>
+      <name>Michael Comella</name>
+      <email>michael.l.comella@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mcomella/FirefoxAccounts-android.git</connection>
+    <developerConnection>https://github.com/mcomella/FirefoxAccounts-android.git</developerConnection>
+    <url>https://github.com/mcomella/FirefoxAccounts-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.mozilla.fxa-data</groupId>
+      <artifactId>thirdparty</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

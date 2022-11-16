@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mozilla.appservices.composites</groupId>
+  <artifactId>reference-browser</artifactId>
+  <version>0.11.5</version>
+  <packaging>aar</packaging>
+  <description>Composite of [fxaclient, logins, places]</description>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Mozilla Application Services</name>
+      <email>application-services@mozilla.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mozilla/application-services.git</connection>
+    <developerConnection>https://github.com/mozilla/application-services.git</developerConnection>
+    <url>https://github.com/mozilla/application-services</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.mozilla.fxaclient-withoutLib</groupId>
+      <artifactId>fxaclient-withoutLib</artifactId>
+      <version>0.11.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla.sync15-withoutLib</groupId>
+      <artifactId>logins-withoutLib</artifactId>
+      <version>0.11.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla.places-withoutLib</groupId>
+      <artifactId>places-withoutLib</artifactId>
+      <version>0.11.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

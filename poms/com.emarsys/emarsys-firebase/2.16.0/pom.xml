@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.emarsys</groupId>
+  <artifactId>emarsys-firebase</artifactId>
+  <version>2.16.0</version>
+  <packaging>aar</packaging>
+  <name>emarsys-firebase</name>
+  <description>emarsys-firebase module of the EmarsysSDK</description>
+  <url>https://github.com/emartech/android-emarsys-sdk</url>
+  <organization>
+    <name>Emarsys</name>
+    <url>https://emarsys.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Mozilla Public License 2.0</name>
+      <url>https://github.com/emartech/android-emarsys-sdk/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <organization>Emarsys</organization>
+      <organizationUrl>https://emarsys.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/emartech/android-emarsys-sdk.git</connection>
+    <developerConnection>scm:git:https://github.com/emartech/android-emarsys-sdk.git</developerConnection>
+    <url>https://github.com/emartech/android-emarsys-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>21.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+    <dependency>
+      <groupId>com.emarsys</groupId>
+      <artifactId>core-api</artifactId>
+      <version>2.16.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.emarsys</groupId>
+      <artifactId>core</artifactId>
+      <version>2.16.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.emarsys</groupId>
+      <artifactId>mobile-engage</artifactId>
+      <version>2.16.0</version>
+    </dependency>
+  </dependencies>
+</project>

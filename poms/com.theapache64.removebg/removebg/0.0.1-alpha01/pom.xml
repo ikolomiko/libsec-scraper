@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.theapache64.removebg</groupId>
+  <artifactId>removebg</artifactId>
+  <version>0.0.1-alpha01</version>
+  <packaging>aar</packaging>
+  <name>removebg</name>
+  <description>Remove.bg is a free service to remove the background of any photo. It works 100% automatically: You don't have to manually select the background/foreground layers to separate them - just select your image and instantly download the result image with the background removed!</description>
+  <url>https://github.com/theapache64/remove-bg</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>theapache64</id>
+      <name>theapache64</name>
+      <email>theapache64@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/theapache64/remove-bg.git</connection>
+    <developerConnection>https://github.com/theapache64/remove-bg.git</developerConnection>
+    <url>https://github.com/theapache64/remove-bg</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.theapache64.twinkill</groupId>
+      <artifactId>logger</artifactId>
+      <version>0.0.1-alpha04</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

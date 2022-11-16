@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gamesneox.defence</groupId>
+  <artifactId>defence</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Defence</name>
+  <description>Defensive-code tool for Java/Kotlin</description>
+  <url>https://github.com/games-neox/Defence</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/games-neox/Defence/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>games-neox</id>
+      <name>Games Neox</name>
+      <email>games.neox@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/games-neox/Defence.git</connection>
+    <developerConnection>https://github.com/games-neox/Defence.git</developerConnection>
+    <url>https://github.com/games-neox/Defence</url>
+  </scm>
+</project>

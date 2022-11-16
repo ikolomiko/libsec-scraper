@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.enricocid</groupId>
+  <artifactId>cbl</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>cbl</name>
+  <description>For color lovers! A simple but powerful Android color picker</description>
+  <url>https://github.com/enricocid/ColorBox-library</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 3.0</name>
+      <url>http://www.opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>enricocid</id>
+      <name>enrico</name>
+      <email>enrico2588@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/enricocid/ColorBox-library.git</connection>
+    <developerConnection>https://github.com/enricocid/ColorBox-library.git</developerConnection>
+    <url>https://github.com/enricocid/ColorBox-library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

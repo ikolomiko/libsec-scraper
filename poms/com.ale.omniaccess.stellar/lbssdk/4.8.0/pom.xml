@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ale.omniaccess.stellar</groupId>
+  <artifactId>lbssdk</artifactId>
+  <version>4.8.0</version>
+  <packaging>aar</packaging>
+  <name>com.ale.omniaccess.stellar:lbssdk</name>
+  <description>The most mature indoor positioning solution on the market, NAO SDK is compatible with OS Android and iPhone, which together comprise 80% of the mobile market. Highly accurate, easy to set up and scalable, NAO Campus leads the way in terms of cost-effective, indoor positioning services designed to be deployed on a wide-scale, multi-venue basis.</description>
+  <url>https://www.al-enterprise.com/</url>
+  <scm>
+    <url>https://www.al-enterprise.com/</url>
+    <connection>https://www.al-enterprise.com/</connection>
+  </scm>
+  <licenses>
+    <license>
+      <name>Pole Star</name>
+      <url>https://www.omniaccess-stellar-lbs.com/docs/misc/software-licence/nao-sdk-license/</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>Pole Star</name>
+    <url>https://www.al-enterprise.com/</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>polestar</id>
+      <name>Pole Star</name>
+      <email>support@polestar.eu</email>
+      <organization>al-enterprise</organization>
+      <organizationUrl>https://www.al-enterprise.com/</organizationUrl>
+      <timezone>UTC_OFFSET</timezone>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.4.2</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.4.0</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

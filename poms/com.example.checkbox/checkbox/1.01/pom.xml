@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.checkbox</groupId>
+  <artifactId>checkbox</artifactId>
+  <version>1.01</version>
+  <packaging>aar</packaging>
+  <name>This is a simple checkbox with cool animation for android by bigmercu.</name>
+  <url>https://github.com/Bigmercu/ACheckBox</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bigmercu</id>
+      <name>wallace</name>
+      <email>bigmercu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:Bigmercu/ACheckBox.git</connection>
+    <developerConnection>git@github.com:Bigmercu/ACheckBox.git</developerConnection>
+    <url>https://github.com/Bigmercu/ACheckBox</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

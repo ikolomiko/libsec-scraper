@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.darwinlouistoledo</groupId>
+  <artifactId>fonto</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Fonto</name>
+  <description>A simple library for applying custom font faces to view.</description>
+  <url>https://github.com/darwinlouistoledo/Fonto</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>darwinlouistoledo</id>
+      <name>Darwin Louis Toledo</name>
+      <email>darwinlouistoledo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/darwinlouistoledo/Fonto.git</connection>
+    <developerConnection>https://github.com/darwinlouistoledo/Fonto.git</developerConnection>
+    <url>https://github.com/darwinlouistoledo/Fonto</url>
+  </scm>
+</project>

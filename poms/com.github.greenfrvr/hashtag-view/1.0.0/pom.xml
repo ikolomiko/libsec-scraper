@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.greenfrvr</groupId>
+  <artifactId>hashtag-view</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>HashtagView</name>
+  <description>Fully customizable widget for representing data like hashtags collection and similiar.</description>
+  <url>https://bintray.com/greenfrvr/maven/hashtag-view</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>greenfrvr</id>
+      <name>Artsiom Grintsevich</name>
+      <email>greenfrvr.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/greenfrvr/hashtag-view.git</connection>
+    <developerConnection>https://github.com/greenfrvr/hashtag-view.git</developerConnection>
+    <url>https://bintray.com/greenfrvr/maven/hashtag-view</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava-collections</artifactId>
+      <version>r03</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

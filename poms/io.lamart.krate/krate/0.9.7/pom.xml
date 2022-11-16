@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.lamart.krate</groupId>
+  <artifactId>krate</artifactId>
+  <version>0.9.7</version>
+  <packaging>aar</packaging>
+  <name>Krate</name>
+  <description>Simple storage and network layer for Android.</description>
+  <url>https://github.com/Lamartio/Krate/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Lamartio</id>
+      <name>Danny Lamarti</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lamartio/Krate.git</connection>
+    <developerConnection>https://github.com/Lamartio/Krate.git</developerConnection>
+    <url>https://github.com/Lamartio/Krate/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxkotlin</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.21.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.robolectric</groupId>
+      <artifactId>robolectric</artifactId>
+      <version>3.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ogaclejapan.textprogressbar</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>TextProgressBar</name>
+  <description>A progress bar of text</description>
+  <url>https://bitbucket.org/ogaclejapan/textprogressbar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ogaclejapan</id>
+      <name>Masaki Ogata</name>
+      <email>ogaclejapan@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:ogaclejapan/textprogressbar.git</connection>
+    <developerConnection>scm:git@bitbucket.org:ogaclejapan/textprogressbar.git</developerConnection>
+    <url>https://bitbucket.org/ogaclejapan/textprogressbar</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://bitbucket.org/ogaclejapan/textprogressbar/issues</url>
+  </issueManagement>
+</project>

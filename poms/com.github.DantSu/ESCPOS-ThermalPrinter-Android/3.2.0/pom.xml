@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.DantSu</groupId>
+  <artifactId>ESCPOS-ThermalPrinter-Android</artifactId>
+  <version>3.2.0</version>
+  <packaging>aar</packaging>
+  <name>DantSu/ESCPOS-ThermalPrinter-Android</name>
+  <description>Useful library to help Android developpers to print with (Bluetooth, TCP, USB) ESC/POS thermal printer.</description>
+  <url>https://github.com/DantSu/ESCPOS-ThermalPrinter-Android</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DantSu</id>
+      <name>Franck Alary</name>
+      <email>franck@alary.pro</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/DantSu/ESCPOS-ThermalPrinter-Android.git</connection>
+    <developerConnection>scm:git://github.com/DantSu/ESCPOS-ThermalPrinter-Android.git</developerConnection>
+    <url>git://github.com/DantSu/ESCPOS-ThermalPrinter-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

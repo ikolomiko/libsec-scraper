@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tiancaicc.springfloatingactionmenu</groupId>
+  <artifactId>library</artifactId>
+  <version>unspecified</version>
+  <packaging>aar</packaging>
+  <name>A menu layout with FloatingActionButton</name>
+  <url>https://github.com/tiancaiCC/SpringFloatingActionMenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lsc</id>
+      <name>lusichong</name>
+      <email>stark_lu@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tiancaiCC/SpringFloatingActionMenu.git</connection>
+    <developerConnection>https://github.com/tiancaiCC/SpringFloatingActionMenu.git</developerConnection>
+    <url>https://github.com/tiancaiCC/SpringFloatingActionMenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.rebound</groupId>
+      <artifactId>rebound</artifactId>
+      <version>0.3.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.melnykov</groupId>
+      <artifactId>floatingactionbutton</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tumblr</groupId>
+      <artifactId>backboard</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.readystatesoftware.systembartint</groupId>
+      <artifactId>systembartint</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

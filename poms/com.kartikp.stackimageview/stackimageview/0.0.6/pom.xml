@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kartikp.stackimageview</groupId>
+  <artifactId>stackimageview</artifactId>
+  <version>0.0.6</version>
+  <packaging>aar</packaging>
+  <name>StackImageView</name>
+  <description>Add support for dynamically set font to the CountView text, Resolve CircularImageView and CountView border issue, Change naming convention, Add commnets to each functions.</description>
+  <url>https://github.com/KartikPrajapati/StackImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kartik</id>
+      <name>Kartik Prajapati</name>
+      <email>kartikp0109@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/KartikPrajapati/StackImageView.git</connection>
+    <developerConnection>https://github.com/KartikPrajapati/StackImageView.git</developerConnection>
+    <url>https://github.com/KartikPrajapati/StackImageView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.hdodenhof</groupId>
+      <artifactId>circleimageview</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

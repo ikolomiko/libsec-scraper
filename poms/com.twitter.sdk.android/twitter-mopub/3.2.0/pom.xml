@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twitter.sdk.android</groupId>
+  <artifactId>twitter-mopub</artifactId>
+  <version>3.2.0</version>
+  <packaging>aar</packaging>
+  <name>Twitter MoPub Android SDK</name>
+  <description/>
+  <url/>
+  <organization>
+    <name>Twitter</name>
+    <url>https://dev.twitter.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>TwitterKit Agreement</name>
+      <url>https://dev.twitter.com/overview/terms/twitterkit.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>mopub-sdk-native-static</artifactId>
+      <version>4.11.0</version>
+    </dependency>
+  </dependencies>
+</project>

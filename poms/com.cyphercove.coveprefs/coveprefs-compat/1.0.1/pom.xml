@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cyphercove.coveprefs</groupId>
+  <artifactId>coveprefs-compat</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>CovePrefs</name>
+  <description>A variety of Material preferences for Android, based on the AppCompat preference library</description>
+  <url>https://github.com/cyphercove/coveprefs</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cypherdare</id>
+      <name>Darren</name>
+      <email>contact@cyphercove.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cyphercove/coveprefs.git</connection>
+    <developerConnection>https://github.com/cyphercove/coveprefs.git</developerConnection>
+    <url>https://github.com/cyphercove/coveprefs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.cyphercove.coveprefs</groupId>
+      <artifactId>coveprefs</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v14</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

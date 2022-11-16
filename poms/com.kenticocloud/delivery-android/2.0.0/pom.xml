@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kenticocloud</groupId>
+  <artifactId>delivery-android</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>KenticoCloudDeliveryAndroid</name>
+  <description>Android SDK for Kentico Cloud Delivery API</description>
+  <url>https://kenticocloud.com/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Kentico/KenticoCloudDeliveryJavaRxSDK/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kentico_timothyf</id>
+      <name>Timothy Fenton</name>
+      <email>timothyf@kentico.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Kentico/KenticoCloudDeliveryJavaRxSDK.git</connection>
+    <developerConnection>https://github.com/Kentico/KenticoCloudDeliveryJavaRxSDK.git</developerConnection>
+    <url>https://kenticocloud.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amitshekhar.android</groupId>
+      <artifactId>rx2-android-networking</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kenticocloud</groupId>
+      <artifactId>delivery-core</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

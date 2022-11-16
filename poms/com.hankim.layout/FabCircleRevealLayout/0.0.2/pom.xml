@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hankim.layout</groupId>
+  <artifactId>FabCircleRevealLayout</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>FabCircleRevealLayout</name>
+  <description>A layout to transition between two views using a Floating Action Button as shown in many Material Design concepts</description>
+  <url>https://github.com/Jinhaihan/FabCircleRevealLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>HanKim</id>
+      <name>Jin Haihan</name>
+      <email>jinhaihan@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Jinhaihan/FabCircleRevealLayout.git</connection>
+    <developerConnection>https://github.com/Jinhaihan/FabCircleRevealLayout.git</developerConnection>
+    <url>https://github.com/Jinhaihan/FabCircleRevealLayout</url>
+  </scm>
+</project>

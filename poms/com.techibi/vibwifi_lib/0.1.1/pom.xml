@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.techibi</groupId>
+  <artifactId>vibwifi_lib</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>vibwifi</name>
+  <description>This Android library used to Scan Wifi single or multiple times and get connect the scaned wifi </description>
+  <url>https://github.com/Vibinreji/VibWifi</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vibinreji123</id>
+      <name>Vibin Reji</name>
+      <email>vibinreji123@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Vibinreji/VibWifi.git</connection>
+    <developerConnection>https://github.com/Vibinreji/VibWifi.git</developerConnection>
+    <url>https://github.com/Vibinreji/VibWifi</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

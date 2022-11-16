@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rongi.rotate-layout</groupId>
+  <artifactId>rotate-layout</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>rotate-layout</name>
+  <description>Custom layout that can rotate it's view</description>
+  <url>https://github.com/rongi/rotate-layout</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/rongi/rotate-layout/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nickes</id>
+      <name>nickes</name>
+      <email>rongi@users.noreply.github.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rongi/rotate-layout.git</connection>
+    <developerConnection>https://github.com/rongi/rotate-layout.git</developerConnection>
+    <url>https://github.com/rongi/rotate-layout</url>
+  </scm>
+</project>

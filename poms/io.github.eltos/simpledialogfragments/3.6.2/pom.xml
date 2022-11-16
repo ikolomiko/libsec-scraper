@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.eltos</groupId>
+  <artifactId>simpledialogfragments</artifactId>
+  <version>3.6.2</version>
+  <packaging>aar</packaging>
+  <name>SimpleDialogFragments</name>
+  <description>A collection of easy to use and extendable DialogFragment's for Android</description>
+  <url>https://github.com/eltos/SimpleDialogFragments</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>eltos</id>
+      <name>Philipp Niedermayer</name>
+      <email>eltos@outlook.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/eltos/SimpleDialogFragments.git</connection>
+    <developerConnection>scm:git:ssh://github.com/eltos/SimpleDialogFragments.git</developerConnection>
+    <url>https://github.com/eltos/SimpleDialogFragments</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alimuzaffar.lib</groupId>
+      <artifactId>pinentryedittext</artifactId>
+      <version>2.0.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

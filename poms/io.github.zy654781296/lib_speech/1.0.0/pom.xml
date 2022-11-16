@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.zy654781296</groupId>
+  <artifactId>lib_speech</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>lib_speech</name>
+  <description>lib_speech</description>
+  <url>https://github.com/zy654781296/lib_speech</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>654781296@qq.com</id>
+      <name>zhangyin</name>
+      <email>654781296@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/zy654781296/lib_speech.git</connection>
+    <developerConnection>scm:git:ssh://github.com/zy654781296/lib_speech.git</developerConnection>
+    <url>https://github.com/zy654781296/lib_speech/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.zy654781296</groupId>
+      <artifactId>phone_base</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+  </dependencies>
+</project>

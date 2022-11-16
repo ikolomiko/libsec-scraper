@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.authme</groupId>
+  <artifactId>authme-sdk-ui</artifactId>
+  <version>v1.3.0</version>
+  <packaging>aar</packaging>
+  <name>AuthMeSDK</name>
+  <description>authme sdk AuthMeSDK-UI</description>
+  <url>https://github.com/AuthMe01/AuthMe_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>authme</id>
+      <name>AuthMe-Team</name>
+      <email>dev@authme.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://AuthMe01/AuthMe_Android</connection>
+    <developerConnection>scm:git:ssh://AuthMe01/AuthMe_Android</developerConnection>
+    <url>https://github.com/AuthMe01/AuthMe_Android</url>
+  </scm>
+</project>

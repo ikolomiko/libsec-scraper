@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shuhart.hoveringcallback</groupId>
+  <artifactId>hoveringcallback</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>hoveringcallback</name>
+  <description>Drag &amp; drop item decorator for RecyclerView with support for highlighting hovered items.</description>
+  <url>https://github.com/shuhart/HoveringCallback</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shuhart</id>
+      <name>Redrick Shuhart</name>
+      <email>kornev.b@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/shuhart/HoveringCallback.git</connection>
+    <developerConnection>https://github.com/shuhart/HoveringCallback.git</developerConnection>
+    <url>https://github.com/shuhart/HoveringCallback</url>
+  </scm>
+</project>

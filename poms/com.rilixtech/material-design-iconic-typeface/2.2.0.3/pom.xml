@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rilixtech</groupId>
+  <artifactId>material-design-iconic-typeface</artifactId>
+  <version>2.2.0.3</version>
+  <packaging>aar</packaging>
+  <name>material-design-iconic-typeface</name>
+  <description>This is Material Design Iconic TypeFace for MaterialFancyButtons. Material Design Iconic Font is a full suite of material design icons (created and maintained by Google) for easy scalable vector graphics on websites.</description>
+  <url>https://github.com/joielechong/MaterialFancyButtons</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rilixtech</id>
+      <name>Joielechong</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/joielechong/MaterialFancyButtons.git</connection>
+    <developerConnection>https://github.com/joielechong/MaterialFancyButtons.git</developerConnection>
+    <url>https://github.com/joielechong/MaterialFancyButtons</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.rilixtech</groupId>
+      <artifactId>materialfancybuttons</artifactId>
+      <version>1.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

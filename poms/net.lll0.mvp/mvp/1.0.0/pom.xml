@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.lll0.mvp</groupId>
+  <artifactId>mvp</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://github.com/aalj/ApplicationModel</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight SQLite database framework</name>
+      <url>https://github.com/aalj/ApplicationModel</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aalj</id>
+      <name>aalj</name>
+      <email>dqliangjun@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/aalj/ApplicationModel.git</connection>
+    <developerConnection>https://github.com/aalj/ApplicationModel.git</developerConnection>
+    <url>https://github.com/aalj/ApplicationModel</url>
+  </scm>
+</project>

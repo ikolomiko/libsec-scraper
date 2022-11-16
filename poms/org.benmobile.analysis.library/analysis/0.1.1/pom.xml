@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.benmobile.analysis.library</groupId>
+  <artifactId>analysis</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>BenH5是Syknet开放平台基于BenPlugin安卓组件框架研发，旨在提供Android的HTML5混合开发解决方案,官网（http://benmobile.org）.BenH5统计模块.</name>
+  <url>https://github.com/yulanubs/BenH5</url>
+  <licenses>
+    <license>
+      <name>BenH5是Syknet开放平台基于BenPlugin安卓组件框架研发，旨在提供Android的HTML5混合开发解决方案,官网（http://benmobile.org）.BenH5统计模块。</name>
+      <url>https://github.com/yulanubs/BenH5</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yulanubs</id>
+      <name>Jekshow</name>
+      <email>yulanubs123@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yulanubs/BenH5.git</connection>
+    <developerConnection>https://github.com/yulanubs/BenH5.git</developerConnection>
+    <url>https://github.com/yulanubs/BenH5</url>
+  </scm>
+</project>

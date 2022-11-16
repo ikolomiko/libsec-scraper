@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.stephanenicolas.toothpick</groupId>
+  <artifactId>smoothie</artifactId>
+  <version>1.0.0-RC3</version>
+  <name>smoothie</name>
+  <description>'Toothpick package providing Android providers'</description>
+  <url>https://github.com/stephanenicolas/toothpick.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stephanenicolas</id>
+      <name>Stephane NICOLAS</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/stephanenicolas/toothpick.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/stephanenicolas/toothpick.git</developerConnection>
+    <url>https://github.com/stephanenicolas/toothpick.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>android</artifactId>
+      <version>4.1.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.stephanenicolas.toothpick</groupId>
+      <artifactId>toothpick</artifactId>
+      <version>1.0.0-RC3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.stephanenicolas.toothpick</groupId>
+      <artifactId>toothpick-testing</artifactId>
+      <version>1.0.0-RC3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>3.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.robolectric</groupId>
+      <artifactId>robolectric</artifactId>
+      <version>3.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

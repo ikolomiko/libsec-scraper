@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.couchbase.lite</groupId>
+  <artifactId>couchbase-lite-android-ee</artifactId>
+  <version>2.5.0</version>
+  <packaging>aar</packaging>
+  <description>Couchbase Lite is an embedded lightweight, document-oriented (NoSQL), syncable database engine.</description>
+  <name>com.couchbase.lite:couchbase-lite-android-ee</name>
+  <url>http://developer.couchbase.com/mobile/</url>
+  <licenses>
+    <license>
+      <name>Couchbase, Inc. Enterprise Edition License Agreement</name>
+      <url>https://info.couchbase.com/rs/302-GJY-034/images/2017-10-30_License_Agreement.pdf</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Couchbase Mobile</name>
+      <email>mobile@couchbase.com</email>
+      <organization>Couchbase</organization>
+      <organizationUrl>http://www.couchbase.com</organizationUrl>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/couchbase/couchbase-lite-android/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>https://github.com:couchbase/couchbase-lite-android.git</connection>
+    <developerConnection>https://github.com:couchbase/couchbase-lite-android.git</developerConnection>
+    <url>http://developer.couchbase.com/mobile/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.9.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apjoex</groupId>
+  <artifactId>nigeriamap</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>nigeriamap</name>
+  <description>A UI Android library for drawing the map of Nigeria</description>
+  <url>https://github.com/apjoex/NigeriaMap</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apjoex</id>
+      <name>Akinde-peters Joseph</name>
+      <email>apjoex@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/apjoex/NigeriaMap.git</connection>
+    <developerConnection>https://github.com/apjoex/NigeriaMap.git</developerConnection>
+    <url>https://github.com/apjoex/NigeriaMap</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sdsmdg.harjot</groupId>
+      <artifactId>vectormaster</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>flexbox</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

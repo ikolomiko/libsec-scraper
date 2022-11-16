@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rastoarpit</groupId>
+  <artifactId>paytunessdk</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>PayTunesSDK</name>
+  <description>A library to sign up user for caller tune ads</description>
+  <url>https://github.com/rastoarpit/PayTunesSDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rastoarpit</id>
+      <name>Arpit Rastogi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:rastoarpit/PayTunesSDK.git</connection>
+    <developerConnection>scm:git@github.com:rastoarpit/PayTunesSDK.git</developerConnection>
+    <url>https://github.com/rastoarpit/PayTunesSDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

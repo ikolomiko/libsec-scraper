@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.annypatel.databinding</groupId>
+  <artifactId>lint-checks</artifactId>
+  <version>1.0.0-alpha2</version>
+  <packaging>aar</packaging>
+  <name>Lint Checks</name>
+  <description>Lint Rules for Android Data Binding library</description>
+  <url>https://github.com/annypatel/databinding-lint/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>annypatel</id>
+      <name>Anny Patel</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/annypatel/databinding-lint.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/annypatel/databinding-lint.git</developerConnection>
+    <url>https://github.com/annypatel/databinding-lint/</url>
+  </scm>
+</project>

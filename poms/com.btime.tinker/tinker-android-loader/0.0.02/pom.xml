@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.btime.tinker</groupId>
+  <artifactId>tinker-android-loader</artifactId>
+  <version>0.0.02</version>
+  <packaging>aar</packaging>
+  <name>Tinker Android Loader</name>
+  <description>tinker</description>
+  <url>https://github.com/stake-zh/tinker</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>btime</id>
+      <name>btime, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/stake-zh/tinker.git</url>
+  </scm>
+</project>

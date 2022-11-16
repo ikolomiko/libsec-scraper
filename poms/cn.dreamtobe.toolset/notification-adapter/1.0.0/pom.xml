@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.dreamtobe.toolset</groupId>
+  <artifactId>notification-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>notification-adapter</name>
+  <description>get style on the notification panel on Android</description>
+  <url>https://github.com/Jacksgong/notification-adapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jacksgong</id>
+      <name>Jacks Gong</name>
+      <email>igzhenjie@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Jacksgong/notification-adapter.git</connection>
+    <developerConnection>scm:git@github.com:Jacksgong/notification-adapter.git</developerConnection>
+    <url>https://github.com/Jacksgong/notification-adapter</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Jacksgong/notification-adapter/issues</url>
+  </issueManagement>
+</project>

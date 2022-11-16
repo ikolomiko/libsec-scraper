@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.contedevel</groupId>
+  <artifactId>express</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>ExPress</name>
+  <description>Preference widgets library for Android 2.1+</description>
+  <url>https://github.com/aNNiMON/PaperStyleWidgets</url>
+  <licenses>
+    <license>
+      <name>The GNU License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ghostman2013</id>
+      <name>Denis Sologub</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://bitbucket.org/contedevel/express</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/contedevel/express</developerConnection>
+    <url>https://bitbucket.org/contedevel/express</url>
+  </scm>
+</project>

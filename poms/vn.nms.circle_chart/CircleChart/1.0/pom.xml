@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.nms.circle_chart</groupId>
+  <artifactId>CircleChart</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>CircleChart</name>
+  <description>"Custom circle chart"</description>
+  <url>https://github.com/minhnn2607/CircleChart</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>minhnn2607</id>
+      <name>"Minh Nguyen"</name>
+      <email>"minhnn2607@gmail.com"</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/minhnn2607/CircleChart.git</connection>
+    <developerConnection>https://github.com/minhnn2607/CircleChart.git</developerConnection>
+    <url>https://github.com/minhnn2607/CircleChart</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tuwien.ac.at</groupId>
+  <artifactId>mpmandroidlibrary</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>aar file of the mobile peer model android library</name>
+  <url>http://www.complang.tuwien.ac.at/eva/</url>
+  <licenses>
+    <license>
+      <name>GNU GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.de.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>e1026312</id>
+      <name>Peter Tillian</name>
+      <email>p.tillian@gmx.net</email>
+    </developer>
+    <developer>
+      <id>e1026309</id>
+      <name>Jörg Schoba</name>
+      <email>j-schoba@gmx.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://tillistinger@bitbucket.org/5ch0biw4n/mobilepeermodel-todo.git</connection>
+    <developerConnection>https://tillistinger@bitbucket.org/5ch0biw4n/mobilepeermodel-todo.git</developerConnection>
+    <url>http://www.complang.tuwien.ac.at/eva/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xpp3</artifactId>
+          <groupId>xpp3</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.2.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xpp3</artifactId>
+          <groupId>xpp3</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>tuwien.ac.at</groupId>
+      <artifactId>mobilepeermodel</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xpp3</artifactId>
+          <groupId>xpp3</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

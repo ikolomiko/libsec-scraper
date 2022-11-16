@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.hbmartin</groupId>
+  <artifactId>flipper-stetho-plugin</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Flipper Stetho Dropin Plugin</name>
+  <description>Drop in replacement for Stetho to expose dumper plugins in Flipper</description>
+  <url>https://github.com/hbmartin/flipper-plugin-stetho</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Harold Martin</name>
+      <url>https://github.com/hbmartin/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/hbmartin/flipper-plugin-stetho.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/hbmartin/flipper-plugin-stetho.git</developerConnection>
+    <url>https://github.com/hbmartin/flipper-plugin-stetho</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.flipper</groupId>
+      <artifactId>flipper</artifactId>
+      <version>0.87.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-cli</groupId>
+      <artifactId>commons-cli</artifactId>
+      <version>1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

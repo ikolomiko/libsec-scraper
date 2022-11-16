@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lassana</groupId>
+  <artifactId>circle-timer-widget</artifactId>
+  <version>v1.1.0</version>
+  <packaging>aar</packaging>
+  <name>lassana/circle-timer-widget</name>
+  <description>Round timer widget for Android.</description>
+  <url>https://github.com/lassana/circle-timer-widget</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD 2-Clause "Simplified" License</name>
+      <url>https://api.github.com/licenses/bsd-2-clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lassana</id>
+      <name>Mikalai Daronin</name>
+      <email>lassana.nd@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/lassana/circle-timer-widget.git</connection>
+    <developerConnection>scm:git://github.com/lassana/circle-timer-widget.git</developerConnection>
+    <url>git://github.com/lassana/circle-timer-widget.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

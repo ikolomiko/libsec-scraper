@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zzb</groupId>
+  <artifactId>videoprocessor</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>video For Android</name>
+  <description>The Android build the framework of the Http server.</description>
+  <url>https://github.com/Super-Bin/jcenter-videoprocessor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zzb</id>
+      <name>zzb</name>
+      <email>superbin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Super-Bin/jcenter-videoprocessor.git</connection>
+    <developerConnection>https://github.com/Super-Bin/jcenter-videoprocessor.git</developerConnection>
+    <url>https://github.com/Super-Bin/jcenter-videoprocessor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>16.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

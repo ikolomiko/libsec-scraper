@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.levi9.woody</groupId>
+  <artifactId>woody-logback</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>woody-logback</name>
+  <description>A Timber Tree for logging into logback</description>
+  <url>https://gitlab.levi9.com/l.major/woody/tree/master/woody-logback</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>major-laslo</id>
+      <name>Major Laslo</name>
+      <email>l.major@levi9.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.levi9.com/l.major/woody/tree/master/woody-logback</connection>
+    <developerConnection>https://gitlab.levi9.com/l.major/woody/tree/master/woody-logback</developerConnection>
+    <url>https://gitlab.levi9.com/l.major/woody/tree/master/woody-logback</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tony19</groupId>
+      <artifactId>logback-android-core</artifactId>
+      <version>1.1.1-6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tony19</groupId>
+      <artifactId>logback-android-classic</artifactId>
+      <version>1.1.1-6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>android</artifactId>
+          <groupId>com.google.android</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

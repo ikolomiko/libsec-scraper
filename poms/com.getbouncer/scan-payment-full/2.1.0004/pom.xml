@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbouncer</groupId>
+  <artifactId>scan-payment-full</artifactId>
+  <version>2.1.0004</version>
+  <packaging>aar</packaging>
+  <name>scan-payment-full</name>
+  <description>This library provides the framework for scanning payment cards</description>
+  <url>https://getbouncer.com</url>
+  <licenses>
+    <license>
+      <name>bouncer-free-1</name>
+      <url>https://github.com/getbouncer/cardscan-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>getbouncer</id>
+      <name>Bouncer Technologies</name>
+      <email>contact@getbouncer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/getbouncer/cardscan-android.git</connection>
+    <developerConnection>scm:git:https://github.com/getbouncer/cardscan-android.git</developerConnection>
+    <url>https://github.com/getbouncer/cardscan-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.getbouncer</groupId>
+      <artifactId>scan-framework</artifactId>
+      <version>2.1.0004</version>
+    </dependency>
+    <dependency>
+      <groupId>com.getbouncer</groupId>
+      <artifactId>scan-payment</artifactId>
+      <version>2.1.0004</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

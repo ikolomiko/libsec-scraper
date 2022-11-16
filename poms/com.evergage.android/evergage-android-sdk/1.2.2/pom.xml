@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.evergage.android</groupId>
+  <artifactId>evergage-android-sdk</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>Evergage Android SDK</name>
+  <description>For use by Evergage for Mobile Apps customers to Evergage-enable their native Android apps. See index.html in the javadoc.jar for the Integration Guide and additional info.</description>
+  <url>https://www.evergage.com/products/evergage-for-mobile-apps</url>
+  <inceptionYear>2016</inceptionYear>
+  <organization>
+    <name>Evergage, Inc.</name>
+    <url>https://www.evergage.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Evergage Terms of Service</name>
+      <url>https://www.evergage.com/evergage-terms-of-service</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Evergage Developers</name>
+      <email>dev-relations+android-sdk@evergage.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://www.evergage.com/products/evergage-for-mobile-apps</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.0.1</version>
+    </dependency>
+  </dependencies>
+</project>

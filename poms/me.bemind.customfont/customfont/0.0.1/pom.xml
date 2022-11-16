@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.bemind.customfont</groupId>
+  <artifactId>customfont</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>CustomFont</name>
+  <description>A simple library that let devs to apply custom font in android text</description>
+  <url>https://github.com/chemickypes/CustomFontText</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chemickypes</id>
+      <name>Angelo Moroni</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:chemickypes/CustomFontText.git</connection>
+    <developerConnection>scm:git@github.com:chemickypes/CustomFontText.git</developerConnection>
+    <url>https://github.com/chemickypes/CustomFontText</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

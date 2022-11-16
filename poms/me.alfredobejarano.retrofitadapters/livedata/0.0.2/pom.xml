@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.alfredobejarano.retrofitadapters</groupId>
+  <artifactId>livedata</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Retrofit LiveData Adapter</name>
+  <description>Adapter for Retrofit 2 that allows using LiveData objects instead of Call objects.</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alfredobejarano</id>
+      <name>Alfredo Bejarano</name>
+      <email>alfredocbejarano@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlfredoBejarano/Retrofit-LiveData-Adapter</connection>
+    <developerConnection>https://github.com/AlfredoBejarano/Retrofit-LiveData-Adapter</developerConnection>
+    <url></url>
+  </scm>
+</project>

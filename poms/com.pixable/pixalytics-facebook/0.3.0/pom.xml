@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pixable</groupId>
+  <artifactId>pixalytics-facebook</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>Pixalytics extension for Facebook Insights</name>
+  <url>https://github.com/pixable/pixalytics</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>espinchi</id>
+      <name>Pablo Pera</name>
+      <email>pablo.sx@gmail.com</email>
+    </developer>
+    <developer>
+      <id>rubenKid</id>
+      <name>Ruben Gomez</name>
+      <email>ruben@pixable.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pixable/pixalytics.git</connection>
+    <developerConnection>https://github.com/pixable/pixalytics.git</developerConnection>
+    <url>https://github.com/pixable/pixalytics</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-android-sdk</artifactId>
+      <version>3.23.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pixable</groupId>
+      <artifactId>pixalytics-core</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

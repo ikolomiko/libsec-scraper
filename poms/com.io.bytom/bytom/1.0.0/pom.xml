@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.io.bytom</groupId>
+  <artifactId>bytom</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>bytom_wallet</name>
+  <description>Bytom Android SDK</description>
+  <url>https://github.com/Bytom-Community/Bytom-Android-SDK</url>
+  <licenses>
+    <license>
+      <name>'The Apache Software License, Version 2.0'</name>
+      <url>'http://www.apache.org/licenses/LICENSE-2.0.txt'</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hwj</id>
+      <name>bytom</name>
+      <email>hhuee@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Bytom-Community/Bytom-Android-SDK.git</connection>
+    <developerConnection>https://github.com/Bytom-Community/Bytom-Android-SDK.git</developerConnection>
+    <url>https://github.com/Bytom-Community/Bytom-Android-SDK</url>
+  </scm>
+</project>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.risesoftware.utils</groupId>
+  <artifactId>RSUtils</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>RSUtils</name>
+  <description>An Android library with basic utilities such as :
+- Logging
+- Timed logging
+- Network utilities
+- Parcelable utilities</description>
+  <url>git@bitbucket.org:risesoftware/rsutils.git</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Rise Software</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@bitbucket.org:risesoftware/rsutils.git</connection>
+    <url>http://www.risesoftware.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-places</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.danlew</groupId>
+      <artifactId>android.joda</artifactId>
+      <version>2.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

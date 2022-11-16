@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alviere.android</groupId>
+  <artifactId>alcamera</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Alcamera</name>
+  <description>The Alviere mobile camera.</description>
+  <url>https://github.com/Alviere/alcamera</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>Commercial</name>
+      <distribution>repo</distribution>
+      <comments>By downloading or using all Alviere SDKs, You agree to the Alviere Master Services Agreement and acknowledge that such terms govern Your use of and access to all SDKs.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Alviere</id>
+      <name>Alviere</name>
+      <url>https://github.com/Alviere</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Alviere/alcamera.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Alviere/alcamera.git</developerConnection>
+    <url>https://github.com/Alviere/alcamera</url>
+  </scm>
+</project>

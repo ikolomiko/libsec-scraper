@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wallacehub.utils</groupId>
+  <artifactId>WHUtils</artifactId>
+  <version>0.2.7</version>
+  <packaging>aar</packaging>
+  <name>WHUtils</name>
+  <description>An Android library with basic utilities such as :
+- Logging
+- Timed logging
+- Network utilities
+- Parcelable utilities</description>
+  <url>git@bitbucket.org:wallacehub/whutils.git</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Wallace Hub Software</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@bitbucket.org:wallacehub/whutils.git</connection>
+    <url>http://www.wallacehub.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment-ktx</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment-testing</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.danlew</groupId>
+      <artifactId>android.joda</artifactId>
+      <version>2.9.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.gemingsong</groupId>
+  <artifactId>openlibrary</artifactId>
+  <version>1.01.001</version>
+  <packaging>aar</packaging>
+  <name>openlibrary</name>
+  <description>open library</description>
+  <url>https://git.n.xiaomi.com/mitv_androidbsp/mitv_open_library</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stf.Ge    #èªè¡å¡«åå¼åèid</id>
+      <name>gemingsong   #èªè¡å¡«åå¼åèå§å</name>
+      <email>star734@163.com   #èªè¡å¡«åå¼åèé®ç®±</email>
+      <url>https://git.n.xiaomi.com/mitv_androidbsp/mitv_open_library</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git.n.xiaomi.com:mitv_androidbsp/mitv_open_library.git</connection>
+    <developerConnection>scm:git@git.n.xiaomi.com:mitv_androidbsp/mitv_open_library.git</developerConnection>
+    <url>https://git.n.xiaomi.com/mitv_androidbsp/mitv_open_library</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://git.n.xiaomi.com/mitv_androidbsp/mitv_open_library</url>
+  </issueManagement>
+  <dependencies/>
+</project>

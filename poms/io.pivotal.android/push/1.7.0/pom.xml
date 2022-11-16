@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.pivotal.android</groupId>
+  <artifactId>push</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <name>Push client SDK for Android</name>
+  <description>A comprehensive SDK for receiving and sending Push Notification through Pivotal Cloud Foundry's Push API</description>
+  <url>https://github.com/cfmobile/push-android</url>
+  <licenses>
+    <license>
+      <name>Pivotal Software License</name>
+      <url>https://github.com/cfmobile/push-android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cf-push-notifications</id>
+      <name>PCF Push Nofitications</name>
+      <email>cf-push-notifications@poivotal.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com/cfmobile/push-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cfmobile/push-android.git</developerConnection>
+    <url>https://github.com/cfmobile/push-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

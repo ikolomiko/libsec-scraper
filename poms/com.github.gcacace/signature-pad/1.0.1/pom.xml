@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.gcacace</groupId>
+  <artifactId>signature-pad</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Signature Pad</name>
+  <description>A custom Android View to capture signatures</description>
+  <url>https://github.com/gcacace/android-signaturepad</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gcacace</id>
+      <name>Gianluca Cacace</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gcacace/android-signaturepad</connection>
+    <developerConnection>scm:git@github.com:gcacace/android-signaturepad.git</developerConnection>
+    <url>https://github.com/gcacace/android-signaturepad</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.castorflex.smoothprogressbar</groupId>
+      <artifactId>library</artifactId>
+      <version>0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

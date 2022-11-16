@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rezkyaulia.library</groupId>
+  <artifactId>light-networking</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>light-networking</name>
+  <description>This view is a library for networking using okhttp client</description>
+  <url>https://github.com/rezkyauliapratama</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rezkyauliapratama</id>
+      <name>Rezky Aulia Pratama</name>
+      <email>rezkyauliapratama@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rezkyauliapratama</connection>
+    <developerConnection>https://github.com/rezkyauliapratama</developerConnection>
+    <url>https://github.com/rezkyauliapratama</url>
+  </scm>
+</project>

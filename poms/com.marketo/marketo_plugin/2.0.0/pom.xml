@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.marketo</groupId>
+  <artifactId>marketo_plugin</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Marketo Plugin</name>
+  <description>Android Library to display your changelog</description>
+  <url>https://github.com/Marketo/android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Marketo</id>
+      <name>Marketo, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Marketo/android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:Marketo/android-sdk.git</developerConnection>
+    <url>https://github.com/Marketo/android-sdk</url>
+  </scm>
+</project>

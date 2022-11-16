@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.apimatic</groupId>
+  <artifactId>OAuthManager</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>OAuthManager</name>
+  <description>A wrapper for Facebook Native Like Button (LikeView) on Android</description>
+  <url>https://github.com/apimatic/OAuthManager-Android/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>waseemahassan</id>
+      <name>Waseem Hassan</name>
+      <email>waseem.hassan@apimatic.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/apimatic/OAuthManager-Android.git</connection>
+    <developerConnection>https://github.com/apimatic/OAuthManager-Android.git</developerConnection>
+    <url>https://github.com/apimatic/OAuthManager-Android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
+      <artifactId>jersey-jsr166e</artifactId>
+      <version>2.22.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

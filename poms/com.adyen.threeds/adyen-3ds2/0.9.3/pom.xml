@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adyen.threeds</groupId>
+  <artifactId>adyen-3ds2</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>Adyen 3DS2 Android SDK</name>
+  <description>Adyen 3DS2 Android SDK supports 3D Secure 2.0 payments via Adyen.</description>
+  <url>https://github.com/Adyen/adyen-3ds2-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <organization>Adyen N.V.</organization>
+      <organizationUrl>https://www.adyen.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Adyen/adyen-3ds2-android.git</connection>
+    <url>https://github.com/Adyen/adyen-3ds2-android</url>
+  </scm>
+  <dependencies/>
+</project>

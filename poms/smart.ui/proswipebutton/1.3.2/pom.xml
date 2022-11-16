@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>smart.ui</groupId>
+  <artifactId>proswipebutton</artifactId>
+  <version>1.3.2</version>
+  <packaging>aar</packaging>
+  <name>proswipebutton</name>
+  <description>A swipe button with progress indicator for Android</description>
+  <url>https://github.com/jefryjacky/proSwipeButton</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>developerId</id>
+      <name>Jefry Jacky</name>
+      <email>jefryjacky@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jefryjacky/proSwipeButton.git</connection>
+    <developerConnection>https://github.com/jefryjacky/proSwipeButton.git</developerConnection>
+    <url>https://github.com/jefryjacky/proSwipeButton</url>
+  </scm>
+</project>

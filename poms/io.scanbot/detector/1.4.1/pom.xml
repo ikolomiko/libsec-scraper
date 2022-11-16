@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.scanbot</groupId>
+    <artifactId>detector</artifactId>
+    <version>1.4.1</version>
+    <packaging>aar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <android.version>4.4.2_r3</android.version>
+        <android.version.platform>19</android.version.platform>
+        <android.plugin.version>4.3.0</android.plugin.version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>nexus</id>
+            <name>doo releases maven repo</name>
+            <url>http://nexus.doo.net/nexus/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>nexus</id>
+            <name>doo snapshots maven repo</name>
+            <url>http://nexus.doo.net/nexus/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://nexus.doo.net/nexus/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+
+        <repository>
+            <id>nexus-snapshots</id>
+            <url>http://nexus.doo.net/nexus/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+
+        <repository>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>${android.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>${android.plugin.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <sdk>
+                        <platform>${android.version.platform}</platform>
+                    </sdk>
+                    <nativeLibrariesDirectory>${project.basedir}/libs</nativeLibrariesDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>ndk-build</goal>
+                        </goals>
+                        <configuration>
+                            <target>scanbot-detector</target>
+                            <ndkFinalLibraryName>scanbot-detector</ndkFinalLibraryName>
+                            <clearNativeArtifacts>false</clearNativeArtifacts>
+                            <attachNativeArtifacts>true</attachNativeArtifacts>
+                            <ndkArchitecture>armeabi armeabi-v7a x86</ndkArchitecture>
+                            <ndkArchitectureToolchainMappings>
+                                <x86>x86-4.9</x86>
+                                <armeabi>arm-linux-androideabi-4.9</armeabi>
+                            </ndkArchitectureToolchainMappings>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.support.preference</groupId>
+  <artifactId>number-picker-preference</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>number-picker-preference</name>
+  <description>Omico Android Preference Library</description>
+  <url>https://github.com/Omico/OmicoSupportPreference</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omico</id>
+      <name>Omico Yuwen</name>
+      <email>omico@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Omico/OmicoSupportPreference.git</connection>
+    <developerConnection>https://github.com/Omico/OmicoSupportPreference.git</developerConnection>
+    <url>https://github.com/Omico/OmicoSupportPreference</url>
+  </scm>
+</project>

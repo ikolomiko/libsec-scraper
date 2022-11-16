@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.abangfadli.shotwatch</groupId>
+  <artifactId>shotwatch</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>ShotWatch</name>
+  <description>Android Screenshot Watcher (Screenshot Detection)</description>
+  <url>https://github.com/abangfadli/shotwatch</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>abangfadli</id>
+      <name>Ahmad Fadli</name>
+      <email>ahmad.fadli.b@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/abangfadli/shotwatch.git</connection>
+    <developerConnection>https://github.com/abangfadli/shotwatch.git</developerConnection>
+    <url>https://github.com/abangfadli/shotwatch</url>
+  </scm>
+</project>

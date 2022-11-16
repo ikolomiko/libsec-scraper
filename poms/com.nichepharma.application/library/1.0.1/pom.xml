@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nichepharma.application</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>a wrapper of qmark app libraries
+
+this library contains:
+
+1- Category adapter - can be used to make expandable listview
+
+2- convert image to string and vice versa
+
+3- Image loader from url
+
+4- Progress Wheel - useful if making a countdown timer kinda cool
+
+5- GPS Tracker
+
+this library was made for personal use , so feel free to use it if u like ;)</description>
+  <developers>
+    <developer>
+      <id>a7med-yo7ia</id>
+      <name>ahmed yehia</name>
+      <email>a7med.yo7ia@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

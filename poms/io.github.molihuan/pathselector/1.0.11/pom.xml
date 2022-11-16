@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.molihuan</groupId>
+  <artifactId>pathselector</artifactId>
+  <version>1.0.11</version>
+  <packaging>aar</packaging>
+  <name>pathselector</name>
+  <description>文件选择器(File selector)</description>
+  <url>https://github.com/molihuan/mlhfileselectorlib</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>molihuan</id>
+      <name>molihuan</name>
+      <email>2369902117@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/molihuan/mlhfileselectorlib.git</connection>
+    <developerConnection>scm:git:ssh://github.com/molihuan/mlhfileselectorlib.git</developerConnection>
+    <url>https://github.com/molihuan/mlhfileselectorlib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.CymChad</groupId>
+      <artifactId>BaseRecyclerViewAdapterHelper</artifactId>
+      <version>3.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava3</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava3</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>3.1.5</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.documentfile</groupId>
+      <artifactId>documentfile</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.borax12.materialdaterangepicker</groupId>
+  <artifactId>library</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>MaterialDateRangePicker</name>
+  <description>A material Date and Time Range Picker for Android</description>
+  <url>https://github.com/heysupratim/MaterialDateRangePicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>borax12</id>
+      <name>Supratim Chakraborty</name>
+      <email>sup270792@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/heysupratim/MaterialDateRangePicker.git</connection>
+    <developerConnection>https://github.com/heysupratim/MaterialDateRangePicker.git</developerConnection>
+    <url>https://github.com/heysupratim/MaterialDateRangePicker</url>
+  </scm>
+</project>

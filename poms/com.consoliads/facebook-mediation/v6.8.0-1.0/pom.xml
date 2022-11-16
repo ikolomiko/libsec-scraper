@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.consoliads</groupId>
+  <artifactId>facebook-mediation</artifactId>
+  <version>v6.8.0-1.0</version>
+  <packaging>aar</packaging>
+  <name>facebook-mediation</name>
+  <description>ConsoliAds Mediation SDK for Android</description>
+  <url>http://consoliads.com</url>
+  <licenses>
+    <license>
+      <name>Consoliads</name>
+      <url>http://consoliads.com</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AmeerHamza</id>
+      <name>Ameer Hamza</name>
+      <email>integrations@consoliads.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/</connection>
+    <url>https://bitbucket.org/teamconsoliads/</url>
+  </scm>
+</project>

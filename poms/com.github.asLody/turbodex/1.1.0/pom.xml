@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.asLody</groupId>
+  <artifactId>turbodex</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>TurboDex</name>
+  <description>Fast load Dex file in runtime</description>
+  <url>https://github.com/asLody/TurboDex</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPL3.0</name>
+      <url>https://opensource.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+      <comments>If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lody</id>
+      <name>Lody</name>
+      <email>imlody@foxmail.com</email>
+      <url>https://github.com/asLody</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:asLody/TurboDex.git</connection>
+    <developerConnection>scm:git@github.com:asLody/TurboDex.git</developerConnection>
+    <url>https://github.com/asLody/TurboDex</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/asLody/TurboDex/issues</url>
+  </issueManagement>
+</project>

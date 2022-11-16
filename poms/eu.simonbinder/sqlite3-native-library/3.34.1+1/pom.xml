@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.simonbinder</groupId>
+  <artifactId>sqlite3-native-library</artifactId>
+  <version>3.34.1+1</version>
+  <packaging>aar</packaging>
+  <name>sqlite3-native-library</name>
+  <description>Native sqlite3 library without JNI bindings</description>
+  <url>https://github.com/simolus3/sqlite-native-libraries</url>
+  <licenses>
+    <license>
+      <name>Public Domain</name>
+      <url>https://www.sqlite.org/copyright.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simonbinder</id>
+      <name>Simon Binder</name>
+      <email>oss@simonbinder.eu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/simolus3/sqlite-native-libraries.git</connection>
+    <developerConnection>scm:git:ssh://github.com/simolus3/sqlite-native-libraries.git</developerConnection>
+    <url>https://github.com/simolus3/sqlite-native-libraries/tree/master</url>
+  </scm>
+</project>

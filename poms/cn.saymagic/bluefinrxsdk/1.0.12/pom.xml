@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.saymagic</groupId>
+  <artifactId>bluefinrxsdk</artifactId>
+  <version>1.0.12</version>
+  <packaging>aar</packaging>
+  <name>bluefinrxsdk</name>
+  <description>Android SDK for Bluefin server to support RxJava</description>
+  <url>https://github.com/bluefinframework/bluefin-android-sdk/</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>saymagic</id>
+      <name>saymagic</name>
+      <email>saymagic.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bluefinframework/bluefin-android-sdk.git</connection>
+    <developerConnection>https://github.com/bluefinframework/bluefin-android-sdk.git</developerConnection>
+    <url>https://github.com/bluefinframework/bluefin-android-sdk/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

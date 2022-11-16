@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.withkash.android</groupId>
+  <artifactId>kash-android</artifactId>
+  <version>0.2.5</version>
+  <packaging>aar</packaging>
+  <name>Kash Android</name>
+  <description>Helper class for using Kash to process payments</description>
+  <url>http://www.withkash.com</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>withkash</id>
+      <name>Kash Corp.</name>
+      <email>info@withkash.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/withkash/kash_android</connection>
+    <developerConnection>https://github.com/withkash/kash_android</developerConnection>
+    <url>http://www.withkash.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

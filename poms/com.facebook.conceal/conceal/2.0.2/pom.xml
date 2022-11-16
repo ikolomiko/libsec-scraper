@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.conceal</groupId>
+  <artifactId>conceal</artifactId>
+  <version>2.0.2</version>
+  <packaging>aar</packaging>
+  <name>Conceal</name>
+  <description>Conceal is an easy to use, performant crypto library for android.</description>
+  <url>http://facebook.github.io/conceal</url>
+  <licenses>
+    <license>
+      <name>BSD 2-Clause License</name>
+      <url>https://github.com/facebook/conceal/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>subodh</id>
+      <name>Subodh Iyengar</name>
+      <email>mani.subodh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:facebook/conceal.git</connection>
+    <developerConnection>scm:git@github.com:facebook/conceal.git</developerConnection>
+    <url>scm:git@github.com:facebook/conceal.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

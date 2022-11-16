@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.guicamest.dexlazyloader</groupId>
+  <artifactId>library</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Dex Lazy Loader library</name>
+  <description>Android library to load dexed jars on your assets folder on runtime</description>
+  <url>http://guicamest.github.io/dexlazyloader/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>guicamest</id>
+      <name>Guillermo Campelo</name>
+      <email>guicamest@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/guicamest/dexlazyloader.git</connection>
+    <developerConnection>https://github.com/guicamest/dexlazyloader</developerConnection>
+    <url>https://github.com/guicamest/dexlazyloader</url>
+  </scm>
+</project>

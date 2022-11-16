@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.neberox.library</groupId>
+  <artifactId>asciicreator</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>ASCII-Art-Generator</name>
+  <description>An Android open source ASCII Art Generator from any image</description>
+  <url>https://github.com/zelin/ASCII-Art-Generator</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zelin</id>
+      <name>Muhammad Umar</name>
+      <email>ee_umar@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zelin/ASCII-Art-Generator</connection>
+    <developerConnection>https://github.com/zelin/ASCII-Art-Generator</developerConnection>
+    <url>https://github.com/zelin/ASCII-Art-Generator</url>
+  </scm>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.whereat.lib</groupId>
+  <artifactId>lostlocationprovider</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>React-Native-LOSTLocationProvider</name>
+  <description>LOST Location Provider React Native library</description>
+  <licenses>
+    <license>
+      <name>GPL v3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/whereat/React-Native-LOSTLocationProvider.git</connection>
+    <developerConnection>https://github.com/whereat/React-Native-LOSTLocationProvider.git</developerConnection>
+    <url>https://github.com/whereat/React-Native-LOSTLocationProvider</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.20.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapzen.android</groupId>
+      <artifactId>lost</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

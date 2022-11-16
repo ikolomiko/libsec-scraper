@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.silpa</groupId>
+  <artifactId>sdk-text-similarity</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>SILPA-TextSimilarity</name>
+  <description>SILPA Android SDK</description>
+  <url>https://github.com/SujithVadakkepat/silpa-sdk</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>SujithVadakkepat</id>
+      <name>Sujith Vadakkepat</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:SujithVadakkepat/silpa-sdk.git</connection>
+    <developerConnection>scm:git@github.com:SujithVadakkepat/silpa-sdk.git</developerConnection>
+    <url>https://github.com/SujithVadakkepat/silpa-sdk</url>
+  </scm>
+</project>

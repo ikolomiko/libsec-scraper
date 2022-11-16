@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.kawaiidango.kumo-android</groupId>
+  <artifactId>kumo-core</artifactId>
+  <version>1.28.0</version>
+  <packaging>aar</packaging>
+  <name>kumo-core</name>
+  <description>Android port of Kumo, a word cloud generator.</description>
+  <url>https://github.com/kawaiiDango/kumo-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://www.mit.edu/~amini/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kawaiiDango</id>
+      <name>Kawaii Dango</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com:kawaiiDango/kumo-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:kawaiiDango/kumo-android.git</developerConnection>
+    <url>https://github.com:kawaiiDango/kumo-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.davidmoten</groupId>
+      <artifactId>rtree</artifactId>
+      <version>0.8.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kennycason</groupId>
+      <artifactId>kumo-api</artifactId>
+      <version>1.28</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>5.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

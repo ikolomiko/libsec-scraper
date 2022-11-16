@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.LucasFsc</groupId>
+  <artifactId>Html2Pdf</artifactId>
+  <version>0.2-beta</version>
+  <packaging>aar</packaging>
+  <name>LucasFsc/Html2Pdf</name>
+  <description>Convert Html to Pdf in Android</description>
+  <url>https://github.com/LucasFsc/Html2Pdf</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>LucasFsc</id>
+      <name>Lucas Ferraz Schlemper</name>
+      <email>lucas.fscr@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/LucasFsc/Html2Pdf.git</connection>
+    <developerConnection>scm:git://github.com/LucasFsc/Html2Pdf.git</developerConnection>
+    <url>git://github.com/LucasFsc/Html2Pdf.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

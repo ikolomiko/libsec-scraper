@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.realglobe</groupId>
+  <artifactId>android-video-uploader</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Video Uploader</name>
+  <description>Library to upload live video stream</description>
+  <url>https://github.com/realglobe-Inc/android-video-uploader</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Daisuke Fukuchi</name>
+      <email>fukuchidaisuke@realglobe.jp</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/realglobe-Inc/android-video-uploader.git</connection>
+    <developerConnection>scm:git:ssh://github.com:realglobe-Inc/android-video-uploader.git</developerConnection>
+    <url>https://github.com/realglobe-Inc/android-video-uploader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jp.realglobe</groupId>
+      <artifactId>rg-lib</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jp.realglobe</groupId>
+      <artifactId>android-lib</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

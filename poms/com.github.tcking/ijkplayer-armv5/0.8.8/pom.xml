@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tcking</groupId>
+  <artifactId>ijkplayer-armv5</artifactId>
+  <version>0.8.8</version>
+  <packaging>aar</packaging>
+  <name>ijkplayer-armv5</name>
+  <description>Video player based on FFmpeg n3.1</description>
+  <url>https://github.com/tcking/ijkplayer</url>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tcking</id>
+      <name>tcking</name>
+      <email>mytcking@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:tcking/ijkplayer.git</connection>
+    <developerConnection>scm:git:git@github.com:tcking/ijkplayer.git</developerConnection>
+    <url>https://github.com/tcking/ijkplayer</url>
+  </scm>
+</project>

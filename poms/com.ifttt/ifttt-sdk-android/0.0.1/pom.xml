@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ifttt</groupId>
+  <artifactId>ifttt-sdk-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>ifttt-sdk-android</name>
+  <description>IFTTT Android SDK is a library that helps facilitate the integration of the IFTTT API.</description>
+  <url>https://github.com/IFTTT/IFTTTSDK-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/IFTTT/IFTTTSDK-Android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lzanita09</id>
+      <name>Zhe Lu</name>
+      <email>zhe@ifttt.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/IFTTT/IFTTTSDK-Android.git</connection>
+    <developerConnection>https://github.com/IFTTT/IFTTTSDK-Android.git</developerConnection>
+    <url>https://github.com/IFTTT/IFTTTSDK-Android</url>
+  </scm>
+</project>

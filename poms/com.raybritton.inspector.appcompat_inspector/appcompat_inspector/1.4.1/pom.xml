@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.raybritton.inspector.appcompat_inspector</groupId>
+  <artifactId>appcompat_inspector</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>AppcompatInspector</name>
+  <description>Add appcompat library view and param converters to Inspector library</description>
+  <url>https://github.com/raybritton/ui-inspector-android-library</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>raybritton</id>
+      <name>Ray Britton</name>
+      <email>raybritton@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:raybritton/ui-inspector-android-library.git</connection>
+    <developerConnection>git@github.com:raybritton/ui-inspector-android-library.git</developerConnection>
+    <url>https://github.com/raybritton/ui-inspector-android-library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.auto.service</groupId>
+      <artifactId>auto-service</artifactId>
+      <version>1.0-rc3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.raybritton.inspector</groupId>
+      <artifactId>inspector</artifactId>
+      <version>1.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

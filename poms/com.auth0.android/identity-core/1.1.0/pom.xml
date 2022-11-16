@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.auth0.android</groupId>
+  <artifactId>identity-core</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Auth0 Identity Provider core classes</name>
+  <description>Lock</description>
+  <url>https://github.com/auth0/Lock.Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/auth0/Lock.Android/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hzalaz</id>
+      <name>Hernan Zalazar</name>
+    </developer>
+    <developer>
+      <id>mgonto</id>
+      <name>Martin Gontovnikas</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:auth0/Lock.Android.git</connection>
+    <developerConnection>scm:git@github.com:auth0/Lock.Android.git</developerConnection>
+    <url>https://github.com/auth0/Lock.Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.hannesdorfmann.smoothprogressbar</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.auth0.android</groupId>
+      <artifactId>core</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

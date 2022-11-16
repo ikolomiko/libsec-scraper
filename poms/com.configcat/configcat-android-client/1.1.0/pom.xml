@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.configcat</groupId>
+  <artifactId>configcat-android-client</artifactId>
+  <version>1.1.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.streamsupport</groupId>
+      <artifactId>android-retrofuture</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <description>Android SDK for ConfigCat, a feature flag, feature toggle, and configuration management service. That lets you launch new features and change your software configuration remotely without actually (re)deploying code. ConfigCat even helps you do controlled roll-outs like canary releases and blue-green deployments.</description>
+  <name>ConfigCat Android SDK</name>
+  <url>https://github.com/configcat/android-sdk</url>
+  <scm>
+    <url>https://github.com/configcat/android-sdk</url>
+    <developerConnection>scm:git:ssh:git@github.com:configcat/android-sdk.git</developerConnection>
+    <connection>scm:git:git://github.com/configcat/android-sdk.git</connection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/configcat/android-sdk/master/LICENSE</url>
+    </license>
+  </licenses>
+  <organization>
+    <url>https://configcat.com</url>
+    <name>ConfigCat</name>
+  </organization>
+  <developers>
+    <developer>
+      <id>configcat</id>
+      <email>developer@configcat.com</email>
+      <name>ConfigCat</name>
+    </developer>
+  </developers>
+</project>

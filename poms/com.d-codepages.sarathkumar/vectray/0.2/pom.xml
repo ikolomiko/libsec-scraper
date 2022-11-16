@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.d-codepages.sarathkumar</groupId>
+  <artifactId>vectray</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>VectRay</name>
+  <description>A complete library for managing Font Icon</description>
+  <url>https://github.com/sarathkumar677/VectRay</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3 (GPL-3.0)</name>
+      <url>http://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sarathkumar677</id>
+      <name>Sarath kumar</name>
+      <email>sarathkumars677@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sarathkumar677/VectRay.git</connection>
+    <developerConnection>https://github.com/sarathkumar677/VectRay.git</developerConnection>
+    <url>https://github.com/sarathkumar677/VectRay</url>
+  </scm>
+</project>

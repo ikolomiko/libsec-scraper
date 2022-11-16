@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ramotion.cardslider</groupId>
+  <artifactId>card-slider</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>Card Slider for Android</name>
+  <description>Cardslider is a controller that allows you to swipe through cards with pictures and accompanying descriptions. http://ramotion.com</description>
+  <url>https://github.com/Ramotion/cardslider-android</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dvg4000</id>
+      <name>Dmitry Grishechkin</name>
+      <email>dvgrishechkin@yandex.ru</email>
+    </developer>
+    <developer>
+      <id>oleg-vasiliev</id>
+      <name>Oleg Vasiliev</name>
+      <email>oleg-vasiliev@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Ramotion/cardslider-android.git</connection>
+    <developerConnection>scm:git@github.com:Ramotion/cardslider-android.git</developerConnection>
+    <url>https://github.com/Ramotion/cardslider-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fujiyuu75</groupId>
+  <artifactId>sequent</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>sequent</name>
+  <description>A simple continuous animation library for Android UI.</description>
+  <url>https://github.com/fujiyuu75/Sequent</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0 (Apache-2.0)</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fujiyuu75</id>
+      <name>Yuichi Fujikawa</name>
+      <email>fujiyuu75@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fujiyuu75/Sequent.git</connection>
+    <developerConnection>https://github.com/fujiyuu75/Sequent.git</developerConnection>
+    <url>https://github.com/fujiyuu75/Sequent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

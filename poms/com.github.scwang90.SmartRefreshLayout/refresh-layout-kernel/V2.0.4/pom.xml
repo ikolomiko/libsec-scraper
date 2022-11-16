@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.scwang90.SmartRefreshLayout</groupId>
+  <artifactId>refresh-layout-kernel</artifactId>
+  <version>V2.0.4</version>
+  <packaging>aar</packaging>
+  <name>scwang90/SmartRefreshLayout</name>
+  <description>🔥下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。</description>
+  <url>https://segmentfault.com/a/1190000010066071</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scwang90</id>
+      <name>树朾</name>
+      <email>scwang90@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/scwang90/SmartRefreshLayout.git</connection>
+    <developerConnection>scm:git://github.com/scwang90/SmartRefreshLayout.git</developerConnection>
+    <url>git://github.com/scwang90/SmartRefreshLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

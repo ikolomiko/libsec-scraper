@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.1gravity</groupId>
+  <artifactId>android-contactpicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android-ContactPicker</name>
+  <description>Android ContactPicker is a contact picker that allows to pick  multiple contacts as well as groups</description>
+  <url>https://github.com/1gravity/Android-ContactPicker</url>
+  <organization>
+    <name>1gravity LLC</name>
+    <url>www.1gravity.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1gravity</id>
+      <name>Emanuel Moecklin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:1gravity/Android-ContactPicker.git</connection>
+    <developerConnection>scm:git@github.com:1gravity/Android-ContactPicker.git</developerConnection>
+    <url>https://github.com/1gravity/Android-ContactPicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>xyz.danoz</groupId>
+      <artifactId>recyclerviewfastscroller</artifactId>
+      <version>0.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.miui.referrer</groupId>
+  <artifactId>homereferrer</artifactId>
+  <version>1.0.0.6</version>
+  <packaging>aar</packaging>
+  <name>homereferrer</name>
+  <description>GetApps provides the install referrer of app, you can use the GetApps's Install Referrer API to securely retrieve referral content from GetApps and then track promotion channels and attribute conversions.
+The Referrer API is written in Java programming language  you can use the API  to simplify your development process.</description>
+  <url>https://gerrit.pt.mioffice.cn/plugins/gitiles/platform/packages/apps/GetAppsReReferrer</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MIUI-GLOBAL</id>
+      <name>MIUI-GLOBAL</name>
+      <email>yangboqing@xiaomi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:gerrit.pt.mioffice.cn/plugins/gitiles/platform/packages/apps/GetAppsReReferrer</connection>
+    <developerConnection>scm:git:ssh://yangboqing@git.mioffice.cn:29418/platform/packages/apps/GetAppsReReferrer</developerConnection>
+    <url>https://gerrit.pt.mioffice.cn/plugins/gitiles/platform/packages/apps/GetAppsReReferrer</url>
+  </scm>
+</project>

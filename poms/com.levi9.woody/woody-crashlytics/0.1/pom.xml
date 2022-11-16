@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.levi9.woody</groupId>
+  <artifactId>woody-crashlytics</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>woody-crashlytics</name>
+  <description>A Timber Tree for logging into Crashlytics</description>
+  <url>https://gitlab.levi9.com/l.major/woody/tree/master/woody-crashlytics</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>major-laslo</id>
+      <name>Major Laslo</name>
+      <email>l.major@levi9.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.levi9.com/l.major/woody/tree/master/woody-crashlytics</connection>
+    <developerConnection>https://gitlab.levi9.com/l.major/woody/tree/master/woody-crashlytics</developerConnection>
+    <url>https://gitlab.levi9.com/l.major/woody/tree/master/woody-crashlytics</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.crashlytics.sdk.android</groupId>
+      <artifactId>crashlytics</artifactId>
+      <version>2.6.3</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

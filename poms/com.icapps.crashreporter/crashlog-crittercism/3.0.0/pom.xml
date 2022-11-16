@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.icapps.crashreporter</groupId>
+  <artifactId>crashlog-crittercism</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>crashlog-crittercism</name>
+  <description>iCapps crash reporter library for crittercism</description>
+  <url>https://github.com/icapps/android-crash-reporter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Nicola Verbeeck</name>
+      <email>nicola@chimerapps.com</email>
+      <organization>Chimerapps</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/icapps/android-crash-reporter.git</connection>
+    <developerConnection>scm:git:ssh://github.com/icapps/android-crash-reporter.git</developerConnection>
+    <url>https://github.com/icapps/android-crash-reporter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.icapps.crashreporter</groupId>
+      <artifactId>crashlog</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

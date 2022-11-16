@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.cognitive</groupId>
+  <artifactId>speakerrecognition</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Microsoft Cognitive Services Speaker Recognition Client Library</name>
+  <description>This client library allows the use of Microsoft's state-of-the-art cloud-based speaker recognition algorithms to identify and verify a speaker's voice. See https://www.microsoft.com/cognitive-services/en-us/speaker-recognition-api for more information.</description>
+  <url>https://github.com/Microsoft/Cognitive-SpeakerRecognition-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Microsoft/Cognitive-SpeakerRecognition-Android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cognitiveservicesSDK</id>
+      <name>Cognitive Services Client SDK</name>
+      <email>cognitiveSDKs@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Microsoft/Cognitive-SpeakerRecognition-Android</connection>
+    <developerConnection>scm:git:https://github.com/Microsoft/Cognitive-SpeakerRecognition-Android</developerConnection>
+    <url>scm:git:https://github.com/Microsoft/Cognitive-SpeakerRecognition-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-android</artifactId>
+      <version>4.3.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

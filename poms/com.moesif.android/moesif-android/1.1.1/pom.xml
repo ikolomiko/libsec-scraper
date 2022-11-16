@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moesif.android</groupId>
+  <artifactId>moesif-android</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>moesif-android</name>
+  <description>Android Library to log HTTP API Calls to Moesif for debugging</description>
+  <url>https://www.moesif.com/docs/client-integration/android/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dgilling</id>
+      <name>Derric Gilling</name>
+      <email>derric@moesif.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Moesif/moesif-android.git</connection>
+    <developerConnection>https://github.com/Moesif/moesif-android.git</developerConnection>
+    <url>https://www.moesif.com/docs/client-integration/android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.8.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

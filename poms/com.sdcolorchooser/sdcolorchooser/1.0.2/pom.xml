@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sdcolorchooser</groupId>
+  <artifactId>sdcolorchooser</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>SDColorChooser</name>
+  <description>SDColorChooser - Simple scrollable color/image chooser for Android with CircleImageView</description>
+  <url>https://github.com/shashankd/SDColorChooser</url>
+  <licenses>
+    <license>
+      <name>GNU public license v30</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shashankdegloorkar</id>
+      <name>Shashank Degloorkar</name>
+      <email>shashank.degloorkar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/shashankd/SDColorChooser</connection>
+    <developerConnection>https://github.com/shashankd/SDColorChooser</developerConnection>
+    <url>https://github.com/shashankd/SDColorChooser</url>
+  </scm>
+</project>

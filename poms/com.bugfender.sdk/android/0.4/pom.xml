@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bugfender.sdk</groupId>
+  <artifactId>android</artifactId>
+  <version>0.4</version>
+  <packaging>aar</packaging>
+  <name>Bugfender Android SDK</name>
+  <description>Bugfender is a modern remote logger tailor-made for mobile development.</description>
+  <url>https://bugfender.com/</url>
+  <licenses>
+    <license>
+      <name>Bugfender License</name>
+      <url>https://bugfender.com/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bugfender</id>
+      <name>Bugfender</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/mobilejazz/remote-logger-android.git</connection>
+    <developerConnection>https://bitbucket.org/mobilejazz/remote-logger-android.git</developerConnection>
+    <url>https://bitbucket.org/mobilejazz/remote-logger-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

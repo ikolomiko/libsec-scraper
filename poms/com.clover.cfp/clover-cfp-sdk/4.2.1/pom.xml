@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.clover.cfp</groupId>
+  <artifactId>clover-cfp-sdk</artifactId>
+  <version>4.2.1</version>
+  <packaging>aar</packaging>
+  <name>Clover Customer-Facing Platform SDK</name>
+  <description>Clover Customer-Facing Platform SDK</description>
+  <url>http://www.clover.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Clover Engineering Team</name>
+      <url>https://www.clover.com/developers</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/clover</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.clover.sdk</groupId>
+      <artifactId>clover-android-loyalty-kit</artifactId>
+      <version>248.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.clover.sdk</groupId>
+      <artifactId>clover-android-connector-sdk</artifactId>
+      <version>248.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

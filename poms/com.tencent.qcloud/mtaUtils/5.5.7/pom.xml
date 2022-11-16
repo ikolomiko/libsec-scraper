@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.qcloud</groupId>
+  <artifactId>mtaUtils</artifactId>
+  <version>5.5.7</version>
+  <packaging>aar</packaging>
+  <name>mtaUtils</name>
+  <description>the tencent cloud cosxml android sdk mtaUtils</description>
+  <url>https://cloud.tencent.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/tencentyun/qcloud-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencentqcloud</id>
+      <name>tencentqcloudterminal</name>
+      <email>qcloudterminal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/qcloud-sdk-android.git</connection>
+    <developerConnection>https://github.com/tencentyun/qcloud-sdk-android.git</developerConnection>
+    <url>https://cloud.tencent.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.qq.mta</groupId>
+      <artifactId>mta</artifactId>
+      <version>3.4.7-release</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mid</groupId>
+      <artifactId>mid</artifactId>
+      <version>4.06-Release</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

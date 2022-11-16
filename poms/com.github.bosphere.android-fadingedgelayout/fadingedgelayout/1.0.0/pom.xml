@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.bosphere.android-fadingedgelayout</groupId>
+  <artifactId>fadingedgelayout</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android-FadingEdgeLayout</name>
+  <description>A versatile layout that fades its edges regardless of child view type.</description>
+  <url>https://github.com/bosphere/Android-FadingEdgeLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bosphere</id>
+      <name>Yang Bo</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bosphere/Android-FadingEdgeLayout.git</connection>
+    <developerConnection>https://github.com/bosphere/Android-FadingEdgeLayout.git</developerConnection>
+    <url>https://github.com/bosphere/Android-FadingEdgeLayout</url>
+  </scm>
+</project>

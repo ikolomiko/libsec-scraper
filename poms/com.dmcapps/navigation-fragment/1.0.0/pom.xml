@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dmcapps</groupId>
+  <artifactId>navigation-fragment</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>NavigationFragment</name>
+  <description>The purpose of this manager is to handle a single stack flow of fragments on the screen so that the developer can easily create flows without having to worry about using the inner details of the Fragment Manager and the ChildFragmentManager. 
+
+It makes use of a main Fragment as a container and presents and hides fragments within it at children. </description>
+  <url>https://github.com/DMCApps/NavigationFragment</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dmcapps</id>
+      <name>Daniel Carmo</name>
+      <email>dcarmo@alumni.uoguelph.ca</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DMCApps/NavigationFragment.git</connection>
+    <developerConnection>https://github.com/DMCApps/NavigationFragment.git</developerConnection>
+    <url>https://github.com/DMCApps/NavigationFragment</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

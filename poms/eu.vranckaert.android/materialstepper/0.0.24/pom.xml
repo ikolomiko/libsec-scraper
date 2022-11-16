@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.vranckaert.android</groupId>
+  <artifactId>materialstepper</artifactId>
+  <version>0.0.24</version>
+  <packaging>aar</packaging>
+  <name>Android Material Stepper</name>
+  <description>A library for using the Stepper as defined in the material design by Google on your phone and tablet.</description>
+  <url>https://bitbucket.org/dirkvranckaert/android-framework</url>
+  <licenses>
+    <license>
+      <name>General Public License, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dirkvranckaert</id>
+      <name>Dirk Vranckaert</name>
+      <email>dirkvranckaert@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/dirkvranckaert/android-framework.git</connection>
+    <developerConnection>https://bitbucket.org/dirkvranckaert/android-framework.git</developerConnection>
+    <url>https://bitbucket.org/dirkvranckaert/android-framework</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

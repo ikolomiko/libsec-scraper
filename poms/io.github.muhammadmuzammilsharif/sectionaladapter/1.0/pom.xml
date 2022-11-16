@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.muhammadmuzammilsharif</groupId>
+  <artifactId>sectionaladapter</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>sectionaladapter</name>
+  <description>A library that let you build sectional recycler and grid view in few simple steps.</description>
+  <url>https://muhammadmuzammilsharif.github.io/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>muhammadmuzammilsharif</id>
+      <name>Muhammad Muzammil Sharif</name>
+      <email>muzammilsharif5319@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MuhammadMuzammilSharif/sectionalAdapter</connection>
+    <developerConnection>https://github.com/MuhammadMuzammilSharif/sectionalAdapter</developerConnection>
+    <url>https://muhammadmuzammilsharif.github.io/</url>
+  </scm>
+</project>

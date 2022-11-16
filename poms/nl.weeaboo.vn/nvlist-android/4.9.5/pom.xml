@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.weeaboo.vn</groupId>
+  <artifactId>nvlist-android</artifactId>
+  <version>4.9.5</version>
+  <packaging>aar</packaging>
+  <name>nvlist-android</name>
+  <description>Cross-platform visual novel engine with a Lua-based scripting language</description>
+  <url>https://github.com/anonl/nvlist</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anonl</id>
+      <email>mail@weeaboo.nl</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/anonl/nvlist.git</connection>
+    <developerConnection>scm:git:ssh://github.com:anonl/nvlist.git</developerConnection>
+    <url>https://github.com/anonl/nvlist</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+      <version>1.7.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.weeaboo.vn</groupId>
+      <artifactId>nvlist-core</artifactId>
+      <version>4.9.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.badlogicgames.gdx</groupId>
+      <artifactId>gdx-backend-android</artifactId>
+      <version>1.9.13</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.badlogicgames.gdx</groupId>
+      <artifactId>gdx-freetype</artifactId>
+      <version>1.9.13</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.badlogicgames.gdx-controllers</groupId>
+      <artifactId>gdx-controllers-android</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.weeaboo.gdx-video</groupId>
+      <artifactId>gdx-video-android</artifactId>
+      <version>1.0.0-anonl</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nanorep</groupId>
+  <artifactId>nanowidget</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>nanowidget</name>
+  <description>Nanorep widget</description>
+  <url>https://github.com/nanorepsdk/AndroidWidgetApp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nissop</id>
+      <name>Nisso Pardo</name>
+      <email>nissop@nanorep.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nanorepsdk/AndroidWidgetApp.git</connection>
+    <developerConnection>https://github.com/nanorepsdk/AndroidWidgetApp.git</developerConnection>
+    <url>https://github.com/nanorepsdk/AndroidWidgetApp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nanorep</groupId>
+      <artifactId>nanoclient</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

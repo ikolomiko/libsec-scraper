@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.moip</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>2.8.0</version>
+  <packaging>aar</packaging>
+  <name>Moip v2 Android SDK</name>
+  <description>2.8.0</description>
+  <url>https://github.com/moip/android-sdk</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rodrigo.saito</id>
+      <name>Rodrigo Saito</name>
+      <email>rodrigo.saito@moip.com.br</email>
+    </developer>
+    <developer>
+      <id>caue.ferreira</id>
+      <name>Cauê Ferreira</name>
+      <email>caue.ferreira@moip.com.br</email>
+    </developer>
+    <developer>
+      <id>matheus.brandino</id>
+      <name>Matheus Brandino</name>
+      <email>matheus.brandino@moip.com.br</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:ssh://git@github.com:moip/android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:moip/android-sdk.git</developerConnection>
+    <url>https://github.com/moip/android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>br.com.moip</groupId>
+      <artifactId>java-sdk</artifactId>
+      <version>4.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

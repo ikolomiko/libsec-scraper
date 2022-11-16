@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.hadilq</groupId>
+  <artifactId>live-event</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hadilq</id>
+      <name>Hadi Lashkari Ghouchani</name>
+      <email>hadilq.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:hadilq/LiveEvent.git</connection>
+    <developerConnection>scm:git@github.com:hadilq/LiveEvent.git</developerConnection>
+    <url>https://github.com/hadilq/LiveEvent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>LiveEvent</name>
+  <description>This library holds a class to handle single live events in Android MVVM architectural pattern. This class is extended form LiveData class, from `androidx.lifecycle:lifecycle-extensions` library, to propagate the data as an event, which means it emits data just once.</description>
+  <url>https://github.com/hadilq/LiveEvent</url>
+</project>

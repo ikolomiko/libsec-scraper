@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>studio.eight.textwithimage</groupId>
+  <artifactId>textwithimage</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>textwithimage</name>
+  <description>Text Alongside with Image. Support vector drawable also</description>
+  <url>https://github.com/vuongxuanhong/TextWithImage</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vuongxuanhong</id>
+      <name>Vuong Xuan Hong</name>
+      <email>vuongxuanhong@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vuongxuanhong/TextWithImage.git</connection>
+    <developerConnection>https://github.com/vuongxuanhong/TextWithImage.git</developerConnection>
+    <url>https://github.com/vuongxuanhong/TextWithImage</url>
+  </scm>
+</project>

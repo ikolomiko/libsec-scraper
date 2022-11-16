@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.sealights.on-premise.agents.android</groupId>
+  <artifactId>android-manifest-lib</artifactId>
+  <version>1.0.34</version>
+  <packaging>aar</packaging>
+  <name>sealights-android-manifest-lib</name>
+  <description>A tool to add Internet permission to the Android manifest</description>
+  <url>https://www.sealights.io</url>
+  <licenses>
+    <license>
+      <name>Sealights Maven License, Version 1.0</name>
+      <url>http://license.sealights.co/plug_in_agent_standalone_license.pdf</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kamilhark</id>
+      <name>Kamil Hark</name>
+    </developer>
+    <developer>
+      <id>bartoszkaczkowski</id>
+      <name>Bartosz Kaczkowski</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Sealights/SL.OnPremise.Agents.AndroidTestListener</url>
+  </scm>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.kevingleason</groupId>
+  <artifactId>pnwebrtc</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>PubNub WebRTC API</name>
+  <description>Android WebRTC signaling library using PubNub</description>
+  <url>https://github.com/GleasonK/pubnub-android-webrtc</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>GleasonK</id>
+      <name>Kevin Gleason</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:GleasonK/pubnub-android-webrtc.git</connection>
+    <developerConnection>scm:git@github.com:GleasonK/pubnub-android-webrtc.git</developerConnection>
+    <url>https://github.com/GleasonK/pubnub-android-webrtc</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.pristine</groupId>
+      <artifactId>libjingle</artifactId>
+      <version>9694</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pubnub</groupId>
+      <artifactId>pubnub-android</artifactId>
+      <version>3.7.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

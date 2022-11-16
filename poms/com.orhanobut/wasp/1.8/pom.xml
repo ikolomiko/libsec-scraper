@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.orhanobut</groupId>
+  <artifactId>wasp</artifactId>
+  <version>1.8</version>
+  <packaging>aar</packaging>
+  <name>Wasp</name>
+  <description>Android Network Solution</description>
+  <url>https://github.com/orhanobut/wasp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nr4bt</id>
+      <name>Orhan Obut</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/orhanobut/wasp.git</connection>
+    <developerConnection>scm:git@https://github.com/orhanobut/wasp.git</developerConnection>
+    <url>https://github.com/orhanobut/wasp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

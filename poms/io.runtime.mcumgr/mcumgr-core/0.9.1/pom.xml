@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.runtime.mcumgr</groupId>
+  <artifactId>mcumgr-core</artifactId>
+  <version>0.9.1</version>
+  <packaging>aar</packaging>
+  <name>McuManager Core</name>
+  <description>A mobile management library for devices running Apache Mynewt and Zephyr (DFU, logs, stats, config, etc.)</description>
+  <url>https://github.com/runtimeco/mcumgr-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>runtimeco</id>
+      <name>Runtime, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:runtimeco/mcumgr-android.git</connection>
+    <developerConnection>scm:git@github.com:runtimeco/mcumgr-android.git</developerConnection>
+    <url>https://github.com/runtimeco/mcumgr-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>16.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-cbor</artifactId>
+      <version>2.9.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.9.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

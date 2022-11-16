@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.telpo.telephony</groupId>
+  <artifactId>telephonyapi</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>TelephonyAPI</name>
+  <description>TelephonyAPI for Telephony SDK</description>
+  <url>https://github.com/googlesamples/android-architecture</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/facebook/litho/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alex</id>
+      <name>Alex</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/googlesamples/android-architecture.git</connection>
+    <developerConnection>scm:git:git@github.com:googlesamples/android-architecture.git</developerConnection>
+    <url>https://github.com/googlesamples/android-architecture.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

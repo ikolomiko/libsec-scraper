@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ironsource.aura.aircon</groupId>
+  <artifactId>gson-converter</artifactId>
+  <version>1.4.6</version>
+  <packaging>aar</packaging>
+  <name>converter-gson</name>
+  <description>Remote config management Android library</description>
+  <url>https://github.com/ironSource/aircon</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hananrh</id>
+      <name>Hanan Rofe Haim</name>
+      <email>hanan.rofe-haim@ironsrc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ironSource/aircon.git</connection>
+    <developerConnection>https://github.com/ironSource/aircon.git</developerConnection>
+    <url>https://github.com/ironSource/aircon</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.ironsource.aura.aircon</groupId>
+      <artifactId>aircon</artifactId>
+      <version>1.4.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

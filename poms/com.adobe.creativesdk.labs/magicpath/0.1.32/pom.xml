@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adobe.creativesdk.labs</groupId>
+  <artifactId>magicpath</artifactId>
+  <version>0.1.32</version>
+  <packaging>aar</packaging>
+  <name>CreativeSDKLabsMagicPath</name>
+  <description>Magic Path</description>
+  <url>https://adobe.com</url>
+  <licenses>
+    <license>
+      <name>License Agreement</name>
+      <url>http://adobe.com/go/terms</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <organization>
+    <name>Adobe</name>
+    <url>http://www.adobe.com/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Adobe</name>
+      <email>repo@adobe.com</email>
+      <organization>Adobe</organization>
+      <organizationUrl>http://www.adobe.com</organizationUrl>
+    </developer>
+  </developers>
+    <scm>
+      <connection>scm:git:git://git.corp.adobe.com/some-repo.git</connection>
+      <developerConnection>scm:git:git://git.corp.adobe.com/some-repo.git</developerConnection>
+      <url>http://git.corp.adobe.com/some-repo/tree/master</url>
+    </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.adobe.creativesdk.foundation</groupId>
+      <artifactId>auth</artifactId>
+      <version>0.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

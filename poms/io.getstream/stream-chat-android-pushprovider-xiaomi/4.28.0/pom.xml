@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.getstream</groupId>
+  <artifactId>stream-chat-android-pushprovider-xiaomi</artifactId>
+  <version>4.28.0</version>
+  <packaging>aar</packaging>
+  <name>stream-chat-android-pushprovider-xiaomi</name>
+  <description>Stream Chat official Android SDK</description>
+  <url>https://github.com/getstream/stream-chat-android</url>
+  <licenses>
+    <license>
+      <name>Stream License</name>
+      <url>https://github.com/GetStream/stream-chat-android/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tschellenbach</id>
+      <name>Thierry Schellenbach</name>
+      <email>thierry@getstream.io</email>
+    </developer>
+    <developer>
+      <id>jcminarro</id>
+      <name>Jc Miñarro</name>
+      <email>josecarlos@getstream.io</email>
+    </developer>
+    <developer>
+      <id>samiuelson</id>
+      <name>Samuel Urbanowicz</name>
+      <email>samuel@getstream.io</email>
+    </developer>
+    <developer>
+      <id>adasiewiczr</id>
+      <name>Rafal Adasiewicz</name>
+      <email>rafal@getstream.io</email>
+    </developer>
+    <developer>
+      <id>ogkuzmin</id>
+      <name>Oleg Kuzmin</name>
+      <email>oleg@getstream.io</email>
+    </developer>
+    <developer>
+      <id>zsmb13</id>
+      <name>Márton Braun</name>
+      <email>marton@getstream.io</email>
+    </developer>
+    <developer>
+      <id>leandroBorgesFerreira</id>
+      <name>Leandro Borges Ferreira</name>
+      <email>leandro@getstream.io</email>
+    </developer>
+    <developer>
+      <id>bychkovdmitry</id>
+      <name>Dmitrii Bychkov</name>
+      <email>dmitrii@getstream.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/getstream/stream-chat-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/getstream/stream-chat-android.git</developerConnection>
+    <url>https://github.com/getstream/stream-chat-android/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.getstream</groupId>
+      <artifactId>stream-chat-android-client</artifactId>
+      <version>4.28.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-kotlin</artifactId>
+      <version>1.12.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.basgeekball</groupId>
+  <artifactId>awesome-validation</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>AwesomeValidation Library</name>
+  <description>Android library makes validation easier and provides various ways of visual feedback</description>
+  <url>https://github.com/thyrlian/AwesomeValidation</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thyrlian</id>
+      <name>Jing Li</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:thyrlian/AwesomeValidation.git</connection>
+    <developerConnection>scm:git@github.com:thyrlian/AwesomeValidation.git</developerConnection>
+    <url>https://github.com/thyrlian/AwesomeValidation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

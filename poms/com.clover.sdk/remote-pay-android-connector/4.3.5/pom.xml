@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.clover.sdk</groupId>
+  <artifactId>remote-pay-android-connector</artifactId>
+  <version>4.3.5</version>
+  <packaging>aar</packaging>
+  <name>Clover Connector Android library</name>
+  <description>Clover Connector Android library</description>
+  <url>http://www.clover.com/</url>
+  <developers>
+    <developer>
+      <name>Clover Engineering Team</name>
+      <url>https://www.clover.com</url>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/clover/remote-pay-android</url>
+    <connection>https://github.com/clover/remote-pay-android.git</connection>
+    <developerConnection>git@github.com:clover/remote-pay-android.git</developerConnection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.clover</groupId>
+      <artifactId>clover-remote-interface</artifactId>
+      <version>290.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.clover.sdk</groupId>
+      <artifactId>clover-android-sdk</artifactId>
+      <version>284</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.neovisionaries</groupId>
+      <artifactId>nv-websocket-client</artifactId>
+      <version>1.31</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

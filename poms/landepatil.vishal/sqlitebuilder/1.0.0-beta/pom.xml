@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>landepatil.vishal</groupId>
+  <artifactId>sqlitebuilder</artifactId>
+  <version>1.0.0-beta</version>
+  <packaging>aar</packaging>
+  <name>SQLiteBuilder</name>
+  <description>SQLiteBuilder library simplifies the development of Android application to interact with the database. SQLiteBuilder is an open source, lightweight, ORM (Object Relational Mapping) tool</description>
+  <url>https://github.com/vishallandepatil/SqLiteBuilder</url>
+  <licenses>
+    <license>
+      <name></name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vishallandepatil</id>
+      <name>vishallandepatil</name>
+      <email>vishallandepatil@gamil.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vishallandepatil/SqLiteBuilder.git</connection>
+    <developerConnection>https://github.com/vishallandepatil/SqLiteBuilder.git</developerConnection>
+    <url>https://github.com/vishallandepatil/SqLiteBuilder</url>
+  </scm>
+</project>

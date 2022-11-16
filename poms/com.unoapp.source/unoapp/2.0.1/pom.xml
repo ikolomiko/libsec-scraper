@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.unoapp.source</groupId>
+  <artifactId>unoapp</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>uno-app-sdk</name>
+  <description>Uno App SDK for push notification for android</description>
+  <url>https://github.com/DigitalMenubox/UnpAppSdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>unoindiadev</id>
+      <name>Uno App Dev</name>
+      <email>unoindiadev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DigitalMenubox/UnpAppSdk.git</connection>
+    <developerConnection>https://github.com/DigitalMenubox/UnpAppSdk.git</developerConnection>
+    <url>https://github.com/DigitalMenubox/UnpAppSdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>multidex</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

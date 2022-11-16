@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.livotov.labs.android</groupId>
+  <artifactId>RoboToolsLibrary</artifactId>
+  <version>3.0.0-dev15</version>
+  <packaging>aar</packaging>
+  <name>Mini framework library for Android, aimed to made routine development a bit easier and faster</name>
+  <url>https://github.com/livotovlabs/RoboTools</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>livotov</id>
+      <name>Dmitri Livotov</name>
+      <email>dmitri@livotov.eu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/livotovlabs/RoboTools.git</connection>
+    <developerConnection>https://github.com/livotovlabs/RoboTools.git</developerConnection>
+    <url>https://github.com/livotovlabs/RoboTools</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

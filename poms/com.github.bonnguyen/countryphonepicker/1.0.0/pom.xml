@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.bonnguyen</groupId>
+  <artifactId>countryphonepicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>CountryPhonePicker</name>
+  <description>This is a library to help all of projects can select with country phone very easy.</description>
+  <url>https://github.com/bonnguyen/CountryPhonePicker</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bonnguyen</id>
+      <name>Bon Nguyen</name>
+      <email>nguyennhatbon07t1@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bonnguyen/CountryPhonePicker.git</connection>
+    <developerConnection>https://github.com/bonnguyen/CountryPhonePicker.git</developerConnection>
+    <url>https://github.com/bonnguyen/CountryPhonePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.intuit.sdp</groupId>
+      <artifactId>sdp-android</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>demo.mirror.com.testjcenter</groupId>
+  <artifactId>mylibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A customizable FloatingActionButton on Android</name>
+  <url>https://github.com/18811427233/zhangzhuang</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zz</id>
+      <name>18811427232</name>
+      <email>zhangzhaung@mirror-networks.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/18811427233/zhangzhuang.git</connection>
+    <developerConnection>https://github.com/18811427233/zhangzhuang.git</developerConnection>
+    <url>https://github.com/18811427233/zhangzhuang</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

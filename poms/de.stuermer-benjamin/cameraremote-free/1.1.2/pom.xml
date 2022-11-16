@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.stuermer-benjamin</groupId>
+  <artifactId>cameraremote-free</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>Camera remote library</name>
+  <description>A connection library for Android to remote control DSLR / DSLM cameras, connected via USB.</description>
+  <url>https://github.com/thebino/cameraremotelibrary</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thebino</id>
+      <name>StÃ¼rmer Benjamin</name>
+      <url>https://github.com/thebino/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/thebino/cameraremotelibrary.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/thebino/cameraremotelibrary.git</developerConnection>
+    <url>https://github.com/thebino/cameraremotelibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

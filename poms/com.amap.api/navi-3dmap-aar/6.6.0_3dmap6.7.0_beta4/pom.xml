@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.amap.api</groupId>
+<artifactId>navi-3dmap-aar</artifactId>
+<version>6.6.0_3dmap6.7.0_beta4</version>
+<packaging>aar</packaging>
+<name>navi-3dmap-aar</name>
+<description>
+AMap is the best sdk of map in china.
+</description>
+<url>http://lbs.amap.com</url>
+<licenses>
+<license>
+<name>The AMap Software License, Version 1.0</name>
+<url>http://www.amap.com/licenses/LICENSE-1.0.txt</url>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:amapapi/amapsdk.git</url>
+<connection>scm:git:git@github.com:amapapi/amapsdk.git</connection>
+<developerConnection>scm:git:git@github.com:amapapi/amapsdk.git</developerConnection>
+</scm>
+<developers>
+<developer>
+<id>amap</id>
+<name>amap_op_sdk</name>
+<organization>amap.com</organization>
+</developer>
+</developers>
+</project>

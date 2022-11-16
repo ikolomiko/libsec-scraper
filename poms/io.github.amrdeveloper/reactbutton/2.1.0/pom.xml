@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.amrdeveloper</groupId>
+  <artifactId>reactbutton</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>reactbutton</name>
+  <description>Android Library to make it easy to create and customize reactions dialog like facebook or linkedin</description>
+  <url>https://github.com/amrdeveloper/reactbutton</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amrdeveloper</id>
+      <name>Amr Hesham</name>
+      <email>amr96@programmer.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/amrdeveloper/reactbutton.git</connection>
+    <developerConnection>scm:git:ssh://github.com:amrdeveloper/reactbutton.git</developerConnection>
+    <url>http://github.com/amrdeveloper/reactbutton/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

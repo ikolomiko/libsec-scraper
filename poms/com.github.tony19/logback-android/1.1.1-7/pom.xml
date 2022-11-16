@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tony19</groupId>
+  <artifactId>logback-android</artifactId>
+  <version>1.1.1-7</version>
+  <packaging>aar</packaging>
+  <name>logback-android</name>
+  <description>"Logging library for Android apps"</description>
+  <url>https://github.com/tony19/logback-android</url>
+  <licenses>
+    <license>
+      <name>"The Apache Software License, Version 2.0"</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tony19</id>
+      <name>tony19</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tony19/logback-android.git</connection>
+    <developerConnection>scm:git@github.com:tony19/logback-android.git</developerConnection>
+    <url>https://github.com/tony19/logback-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.tony19</groupId>
+      <artifactId>apktool-lib</artifactId>
+      <version>1.4.4-4</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xmlParserAPIs</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xpp3</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>opengl-api</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

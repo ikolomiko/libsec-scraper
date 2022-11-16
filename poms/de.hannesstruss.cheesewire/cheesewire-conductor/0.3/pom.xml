@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.hannesstruss.cheesewire</groupId>
+  <artifactId>cheesewire-conductor</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>CheeseWireConductor</name>
+  <description>Lifecycle-friendly view binding in Kotlin for Conductor and others.</description>
+  <url>https://github.com/hannesstruss/cheesewire</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hannesstruss</id>
+      <name>Hannes Struss</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/hannesstruss/cheesewire</connection>
+    <developerConnection>scm:git:git://github.com/hannesstruss/cheesewire</developerConnection>
+    <url>https://github.com/hannesstruss/cheesewire</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.hannesstruss.cheesewire</groupId>
+      <artifactId>cheesewire</artifactId>
+      <version>0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.2.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bluelinelabs</groupId>
+      <artifactId>conductor</artifactId>
+      <version>2.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

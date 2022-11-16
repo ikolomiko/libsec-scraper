@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.florent37</groupId>
+  <artifactId>inline-activity-result-kotlin</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Inline Activity Result Kotlin</name>
+  <description>Inline Activity Result Kotlin</description>
+  <url>https://github.com/florent37/InlineActivityResult</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>florent37</id>
+      <name>Florent Champigny</name>
+      <email>champigny.florent@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/florent37/InlineActivityResult.git</connection>
+    <developerConnection>https://github.com/florent37/InlineActivityResult.git</developerConnection>
+    <url>https://github.com/florent37/InlineActivityResult</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.florent37</groupId>
+      <artifactId>inline-activity-result</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-fragment</artifactId>
+      <version>27.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.2.50</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>0.25.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

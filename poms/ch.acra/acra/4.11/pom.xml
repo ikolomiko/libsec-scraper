@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.acra</groupId>
+  <artifactId>acra</artifactId>
+  <version>4.11</version>
+  <packaging>aar</packaging>
+  <name>Application Crash Report for Android</name>
+  <description>Publishes a report of an Android application crash to an end point.</description>
+  <url>http://acra.ch</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevin.gaudin</id>
+      <name>Kevin Gaudin</name>
+    </developer>
+    <developer>
+      <id>william.ferguson</id>
+      <name>William Ferguson</name>
+    </developer>
+    <developer>
+      <id>f43nd1r</id>
+      <name>Lukas Morawietz</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/ACRA/acra.git</connection>
+    <developerConnection>scm:git:git@github.com:ACRA/acra.git</developerConnection>
+    <url>https://github.com/ACRA/acra.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-fragment</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

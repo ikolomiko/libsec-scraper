@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.velmax.multipartdata</groupId>
+  <artifactId>builder</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>MultipartDataBuilder</name>
+  <description>Simple way to make POST with multipart data, using HttpUrlConnection</description>
+  <url>https://github.com/BugMaker/MultipartDataBuilder</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bugmaker</id>
+      <name>Max Eltsov</name>
+      <email>bugmaker2@mail.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BugMaker/MultipartDataBuilder.git</connection>
+    <developerConnection>https://github.com/BugMaker/MultipartDataBuilder.git</developerConnection>
+    <url>https://github.com/BugMaker/MultipartDataBuilder</url>
+  </scm>
+</project>

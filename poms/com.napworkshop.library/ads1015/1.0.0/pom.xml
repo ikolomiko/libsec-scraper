@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.napworkshop.library</groupId>
+  <artifactId>ads1015</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>I2C_ADS1015</name>
+  <description>ic2 interface to use ads1015 analog to digital converter</description>
+  <url>https://github.com/m3can0s/things_ads1015</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nataniel</id>
+      <name>Nataniel P-Montpetit</name>
+      <email>nataniel@napworkshop.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/m3can0s/things_ads1015.git</connection>
+    <developerConnection>https://github.com/m3can0s/things_ads1015.git</developerConnection>
+    <url>https://github.com/m3can0s/things_ads1015</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.things</groupId>
+      <artifactId>androidthings</artifactId>
+      <version>0.4-devpreview</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

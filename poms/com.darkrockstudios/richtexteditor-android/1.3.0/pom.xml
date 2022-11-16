@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.darkrockstudios</groupId>
+  <artifactId>richtexteditor-android</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>RichText Editor Compose</name>
+  <description>A multiplatform compose widget for editing rich text</description>
+  <url>https://github.com/Wavesonics/richtext-compose-multiplatform</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Wavesonics</id>
+      <name>Adam Brown</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Wavesonics/richtext-compose-multiplatform.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Wavesonics/richtext-compose-multiplatform.git</developerConnection>
+    <url>https://github.com/Wavesonics/richtext-compose-multiplatform</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.arkivanov.essenty</groupId>
+      <artifactId>parcelable-android</artifactId>
+      <version>0.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-parcelize-runtime</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.6.21</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

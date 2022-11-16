@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.frank-zhu</groupId>
+  <artifactId>pullzoomview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PullToZoomView Library</name>
+  <description>An Android custom ListView and ScrollView with pull to zoom-in.</description>
+  <url>https://github.com/Frank-Zhu/PullZoomView/tree/master/PullToZoomView</url>
+  <licenses>
+    <license>
+      <name>apache</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>frank-zhu</id>
+      <name>Frank Zhu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Frank-Zhu/PullZoomView.git</connection>
+    <developerConnection>scm:git@github.com:Frank-Zhu/PullZoomView.git</developerConnection>
+    <url>https://github.com/Frank-Zhu/PullZoomView/tree/master/PullToZoomView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

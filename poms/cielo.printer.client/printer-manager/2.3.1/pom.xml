@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cielo.printer.client</groupId>
+  <artifactId>printer-manager</artifactId>
+  <version>2.3.1</version>
+  <packaging>aar</packaging>
+  <name>PrinterManager</name>
+  <description>A library for handle print operations on Cielo LIO Platform</description>
+  <url>https://bitbucket.org/git-m4u/cielo-mobile-android-printer-manager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liobot</id>
+      <name>Lio Bot</name>
+      <email>lio_bot@m4u.com.br</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/git-m4u/cielo-mobile-android-printer-manager.git</connection>
+    <developerConnection>https://bitbucket.org/git-m4u/cielo-mobile-android-printer-manager.git</developerConnection>
+    <url>https://bitbucket.org/git-m4u/cielo-mobile-android-printer-manager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxkotlin</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.liferay.mobile</groupId>
+  <artifactId>liferay-push</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Liferay Push</name>
+  <description>Liferay Push</description>
+  <url>https://www.liferay.com/community/liferay-projects/liferay-mobile-sdk/overview</url>
+  <licenses>
+    <license>
+      <name>LGPL 2.1</name>
+      <url>http://opensource.org/licenses/lgpl-2.1.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>brunofarache</id>
+      <name>Bruno Farache</name>
+      <email>bruno.farache@liferay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/brunofarache/liferay-push.git</connection>
+    <url>https://github.com/brunofarache/liferay-push</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>otto</artifactId>
+      <version>1.3.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.liferay.mobile</groupId>
+      <artifactId>liferay-android-sdk</artifactId>
+      <version>6.2.0.18</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

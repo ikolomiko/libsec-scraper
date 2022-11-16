@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mediaagility.linonesdkandroid</groupId>
+  <artifactId>linonesdkandroid</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ONE SDK is a software library for the Android operating system to deliver ads. It is developed as a wrapper on top of Google Mobile Ads SDK.</name>
+  <url>https://github.com/ONEMobile/SDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>prabhpreet</id>
+      <name>prabhpreet</name>
+      <email>prabhpreet.singh@mediaagility.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ONEMobile/SDK.git</connection>
+    <developerConnection>https://github.com/ONEMobile/SDK.git</developerConnection>
+    <url>https://github.com/ONEMobile/SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jbundle.util.osgi.wrapped</groupId>
+      <artifactId>org.jbundle.util.osgi.wrapped.org.apache.http.client</artifactId>
+      <version>4.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>LinMobileSample</groupId>
+      <artifactId>Lin-Support-Analytics</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

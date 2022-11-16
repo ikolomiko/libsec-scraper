@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cheftak.fcmpush</groupId>
+  <artifactId>fcmpush</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>fcmpush</name>
+  <description>this libraray use FCM to send push Messages to Android users</description>
+  <url>https://github.com/cheftakrepo/fcmpush</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fcmpush</id>
+      <name>mohamadreza</name>
+      <email>mohamadreza.shahpiri@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cheftakrepo/fcmpush.git</connection>
+    <developerConnection>https://github.com/cheftakrepo/fcmpush.git</developerConnection>
+    <url>https://github.com/cheftakrepo/fcmpush</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>18.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>21.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

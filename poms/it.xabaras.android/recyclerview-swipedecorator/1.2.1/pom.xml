@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.xabaras.android</groupId>
+  <artifactId>recyclerview-swipedecorator</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>RecyclerViewSwipeDecorator</name>
+  <description>A simple utility class to add a background and/or an icon and/or a label while swiping a RecyclerView item left or right.</description>
+  <url>https://github.com/xabaras/RecyclerViewSwipeDecorator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xabaras</id>
+      <name>Paolo Montalto</name>
+      <email>p.montalto@xabaras.it</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xabaras/RecyclerViewSwipeDecorator.git</connection>
+    <developerConnection>https://github.com/xabaras/RecyclerViewSwipeDecorator.git</developerConnection>
+    <url>https://github.com/xabaras/RecyclerViewSwipeDecorator</url>
+  </scm>
+</project>

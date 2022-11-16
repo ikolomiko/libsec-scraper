@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lyb.besttimer</groupId>
+  <artifactId>network</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>To make network convenience</name>
+  <url>https://github.com/linyibiao/AndroidShare</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>linyibiao</id>
+      <name>linyibiao</name>
+      <email>295243617@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/linyibiao/AndroidShare.git</connection>
+    <developerConnection>https://github.com/linyibiao/AndroidShare.git</developerConnection>
+    <url>https://github.com/linyibiao/AndroidShare</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>adapter-rxjava</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

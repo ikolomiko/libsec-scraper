@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>no.nordicsemi.android</groupId>
+  <artifactId>log-timber</artifactId>
+  <version>2.1.3</version>
+  <packaging>aar</packaging>
+  <name>nRF Logger Timber Tree</name>
+  <description>nRF Logger Timber Tree</description>
+  <url>https://github.com/NordicSemiconductor/nRF-Logger-API</url>
+  <licenses>
+    <license>
+      <name>The BSD 3-Clause License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>philips77</id>
+      <name>Aleksander Nowakowski</name>
+      <email>aleksander.nowakowski@nordicsemi.no</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/NordicSemiconductor/nRF-Logger-API.git</connection>
+    <developerConnection>https://github.com/NordicSemiconductor/nRF-Logger-API.git</developerConnection>
+    <url>https://github.com/NordicSemiconductor/nRF-Logger-API</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>no.nordicsemi.android</groupId>
+      <artifactId>log</artifactId>
+      <version>2.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

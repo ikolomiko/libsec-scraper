@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.yslibrary.rxrealm</groupId>
+  <artifactId>rxrealm</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>RxRealm</name>
+  <description>Android Library to use realm database with rxjava</description>
+  <url>https://github.com/yshrsmz/RxRealm</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yshrsmz</id>
+      <name>Yasuhiro Shimizu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/yshrsmz/RxRealm.git</connection>
+    <developerConnection>scm:git@github.com/yshrsmz/RxRealm.git</developerConnection>
+    <url>https://github.com/yshrsmz/RxRealm</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android</artifactId>
+      <version>0.82.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.13</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

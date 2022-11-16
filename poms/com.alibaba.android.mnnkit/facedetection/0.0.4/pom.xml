@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alibaba.android.mnnkit</groupId>
+  <artifactId>facedetection</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>facedetection</name>
+  <description>MNNKit Face Detection</description>
+  <url>https://github.com/alibaba/MNNKit</url>
+  <licenses>
+    <license>
+      <name>MNN Kit Terms of Service, Version 1.0</name>
+      <url>https://raw.githubusercontent.com/alibaba/MNNKit/master/license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>MNN Team</name>
+      <email>MNNTeam@service.taobao.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/alibaba/MNNKit</connection>
+    <developerConnection>https://github.com/alibaba/MNNKit</developerConnection>
+    <url>https://github.com/alibaba/MNNKit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.alibaba.android.mnnkit</groupId>
+      <artifactId>core</artifactId>
+      <version>0.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.android</groupId>
+      <artifactId>mnn</artifactId>
+      <version>0.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

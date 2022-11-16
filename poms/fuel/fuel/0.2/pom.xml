@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fuel</groupId>
+  <artifactId>fuel</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>fuel</name>
+  <description>The easiest HTTP networking library in Kotlin for Android.</description>
+  <url>https://github.com/kittinunf/Fuel</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kittinunf</id>
+      <name>Kittinun Vantasin</name>
+      <email>kittinun.f@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kittinunf/Fuel.git</connection>
+    <developerConnection>https://github.com/kittinunf/Fuel.git</developerConnection>
+    <url>https://github.com/kittinunf/Fuel</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>0.12.213</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

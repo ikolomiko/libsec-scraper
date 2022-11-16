@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tiandilianxian.xxn</groupId>
+  <artifactId>XNSDK</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This is an SDK for communication</name>
+  <description>This is an SDK for communication</description>
+  <url>This is an SDK for communication</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xxn-maven</id>
+      <name>xxn-maven</name>
+      <email>zhucezhanghao@calfcredit.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://git.tiandilianxian.com/android/sdk</connection>
+    <developerConnection>http://39.98.203.177/android/sdk.git</developerConnection>
+    <url>http://git.tiandilianxian.com/android</url>
+  </scm>
+</project>

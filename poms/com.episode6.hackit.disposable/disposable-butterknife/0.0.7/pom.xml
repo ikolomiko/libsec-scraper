@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.episode6.hackit.disposable</groupId>
+  <artifactId>disposable-butterknife</artifactId>
+  <version>0.0.7</version>
+  <packaging>aar</packaging>
+  <name>disposable-butterknife</name>
+  <description>An experimental java library for dealing with objects that need to be disposed</description>
+  <url>https://github.com/episode6/disposables</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/episode6/disposables/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>episode6</id>
+      <name>episode6, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/episode6/disposables.git</connection>
+    <developerConnection>scm:https://github.com/episode6/disposables.git</developerConnection>
+    <url>extensible</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.episode6.hackit.disposable</groupId>
+      <artifactId>disposables-core</artifactId>
+      <version>0.0.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

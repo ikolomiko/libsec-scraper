@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alikeaudience.sdk</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>1.9</version>
+  <packaging>aar</packaging>
+  <name>alikeaudience-android-sdk</name>
+  <description>AlikeAudience's Android SDK</description>
+  <url>http://www.alikeaudience.com</url>
+  <licenses>
+    <license>
+      <name>CC BY-ND</name>
+      <url>https://creativecommons.org/licenses/by-nd/4.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlikeAudience</id>
+      <name>AlikeAudience</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>none</connection>
+    <developerConnection>none</developerConnection>
+    <url>http://www.alikeaudience.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>eu.the4thfloor.volley</groupId>
+      <artifactId>com.android.volley</artifactId>
+      <version>2015.05.28</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.infobip</groupId>
+  <artifactId>infobip-mobile-messaging-huawei-sdk</artifactId>
+  <version>3.0.0-rc2</version>
+  <packaging>aar</packaging>
+  <name>infobip-mobile-messaging-huawei-sdk</name>
+  <description>Mobile Messaging SDK for Huawei on Android</description>
+  <url>https://github.com/infobip/mobile-messaging-sdk-huawei</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/infobip/mobile-messaging-sdk-huawei/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>infobip</id>
+      <name>Infobip</name>
+      <email>support@infobip.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/infobip/mobile-messaging-sdk-huawei.git</connection>
+    <developerConnection>scm:git:ssh://github.com/infobip/mobile-messaging-sdk-huawei.git</developerConnection>
+    <url>https://github.com/infobip/mobile-messaging-sdk-huawei</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>6.3.0.302</version>
+    </dependency>
+    <dependency>
+      <groupId>com.infobip</groupId>
+      <artifactId>infobip-mobile-messaging-api-java</artifactId>
+      <version>6.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.infobip</groupId>
+      <artifactId>infobip-mobile-messaging-android-resources</artifactId>
+      <version>6.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+  </dependencies>
+</project>

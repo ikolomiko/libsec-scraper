@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.andriydruk</groupId>
+  <artifactId>dnssd</artifactId>
+  <version>0.9.14</version>
+  <packaging>aar</packaging>
+  <name>dnssd</name>
+  <description>Android version of Apple DNSSD Java API</description>
+  <url>https://github.com/andriydruk/RxDNSSD</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/andriydruk/RxDNSSD/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andriydruk</id>
+      <name>Andrew Druk</name>
+      <email>adriy.druk@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/andriydruk/RxDNSSD.git</connection>
+    <developerConnection>scm:git:ssh://github.com/andriydruk/RxDNSSD.git</developerConnection>
+    <url>https://github.com/andriydruk/RxDNSSD/tree/master</url>
+  </scm>
+</project>

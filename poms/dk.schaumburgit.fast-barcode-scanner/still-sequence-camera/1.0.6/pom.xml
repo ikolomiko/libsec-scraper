@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dk.schaumburgit.fast-barcode-scanner</groupId>
+  <artifactId>still-sequence-camera</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>still-sequence-camera</name>
+  <description>A library allowing apps to take fast sequences of still images without any UI preview</description>
+  <url>https://github.com/tschaumburg/FastBarcodeScanner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tschaumburg</id>
+      <name>Thomas Schaumburg</name>
+      <email>thomas@schaumburg-it.dk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tschaumburg/FastBarcodeScanner.git</connection>
+    <developerConnection>https://github.com/tschaumburg/FastBarcodeScanner.git</developerConnection>
+    <url>https://github.com/tschaumburg/FastBarcodeScanner.git</url>
+  </scm>
+</project>

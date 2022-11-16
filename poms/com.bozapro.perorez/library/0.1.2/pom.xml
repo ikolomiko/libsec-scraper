@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bozapro.perorez</groupId>
+  <artifactId>library</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>Perorez</name>
+  <description>Collection of usefull Android helper methods and classes.</description>
+  <url>https://github.com/bozapro/perorez</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bozapro</id>
+      <name>Aleksandar Bozic</name>
+      <email>bozapro@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:bozapro/perorez.git</connection>
+    <developerConnection>scm:git@github.com:bozapro/perorez.git</developerConnection>
+    <url>https://github.com/bozapro/perorez</url>
+  </scm>
+</project>

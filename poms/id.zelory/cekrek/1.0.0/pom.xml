@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>id.zelory</groupId>
+  <artifactId>cekrek</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Cekrek</name>
+  <description>Export any view to bitmap or image file</description>
+  <url>https://github.com/zetbaitsu/Cekrek</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zetbaitsu</id>
+      <name>Zetra</name>
+      <email>zetra@mail.ugm.ac.id</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zetbaitsu/Cekrek.git</connection>
+    <developerConnection>https://github.com/zetbaitsu/Cekrek.git</developerConnection>
+    <url>https://github.com/zetbaitsu/Cekrek</url>
+  </scm>
+</project>

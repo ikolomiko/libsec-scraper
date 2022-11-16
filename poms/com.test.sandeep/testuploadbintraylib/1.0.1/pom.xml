@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.test.sandeep</groupId>
+  <artifactId>testuploadbintraylib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Test of the bintray lib upload</name>
+  <url>test.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sandeep812</id>
+      <name>sandeep patel</name>
+      <email>sandeepkumar.s.patel@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>project.giturl.com</connection>
+    <developerConnection>project.giturl.com</developerConnection>
+    <url>test.com</url>
+  </scm>
+</project>

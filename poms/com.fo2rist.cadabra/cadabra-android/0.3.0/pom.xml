@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fo2rist.cadabra</groupId>
+  <artifactId>cadabra-android</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>cadabra</name>
+  <description>Library that simplifies A/B tests configuration</description>
+  <url>https://github.com/fo2rist/cadabra</url>
+  <licenses>
+    <license>
+      <name>LGPL-3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fo2rist</id>
+      <name>Dmitry Sitnikov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/fo2rist/cadabra</connection>
+    <developerConnection>scm:git:https://github.com/fo2rist/cadabra</developerConnection>
+    <url>https://github.com/fo2rist/cadabra</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fo2rist.cadabra</groupId>
+      <artifactId>cadabra-core</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.franmontiel</groupId>
+  <artifactId>PersistentCookieJar</artifactId>
+  <version>v1.0.1</version>
+  <packaging>aar</packaging>
+  <name>franmontiel/PersistentCookieJar</name>
+  <description>A persistent CookieJar implementation for OkHttp 3 based on SharedPreferences.</description>
+  <url>https://github.com/franmontiel/PersistentCookieJar</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>franmontiel</id>
+      <name>Fran Montiel</name>
+      <email>fjmontiel@spiralapps.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/franmontiel/PersistentCookieJar.git</connection>
+    <developerConnection>scm:git://github.com/franmontiel/PersistentCookieJar.git</developerConnection>
+    <url>git://github.com/franmontiel/PersistentCookieJar.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

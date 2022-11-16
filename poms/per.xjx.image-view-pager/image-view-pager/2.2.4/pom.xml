@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>per.xjx.image-view-pager</groupId>
+  <artifactId>image-view-pager</artifactId>
+  <version>2.2.4</version>
+  <packaging>aar</packaging>
+  <name>Android Delegate Framework</name>
+  <url>https://github.com/qq1458740677/ImageViewPager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qq1458740677</id>
+      <name>冼嘉贤</name>
+      <email>1458740677@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qq1458740677/ImageViewPager.git</connection>
+    <developerConnection>https://github.com/qq1458740677/ImageViewPager.git</developerConnection>
+    <url>https://github.com/qq1458740677/ImageViewPager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

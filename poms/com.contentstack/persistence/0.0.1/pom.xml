@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.contentstack</groupId>
+  <artifactId>persistence</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>contentstack-android-persistence</name>
+  <description>Android persistence library to save app data on device's local storage</description>
+  <url>https://github.com/contentstack/contentstack-android-persistence</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mshaileshr@gmail.com</id>
+      <name>Shailesh Mishra</name>
+      <email>mobile@contentstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:contentstack/contentstack-android-persistence</connection>
+    <developerConnection>scm:git@github.com:contentstack/contentstack-android-persistence.git</developerConnection>
+    <url>https://github.com/contentstack/contentstack-android-persistence</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android-library</artifactId>
+      <version>5.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-annotations</artifactId>
+      <version>5.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.contentstack.sdk</groupId>
+      <artifactId>android</artifactId>
+      <version>3.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

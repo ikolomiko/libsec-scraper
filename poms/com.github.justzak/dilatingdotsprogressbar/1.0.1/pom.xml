@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.justzak</groupId>
+  <artifactId>dilatingdotsprogressbar</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>DilatingDotsProgressBar</name>
+  <description>An indeterminate progress bar with dots that expand and contract</description>
+  <url>https://github.com/JustZak/DilatingDotsProgressBar</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ZakR</id>
+      <name>Zachary Reik</name>
+      <email>justzak7@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JustZak/DilatingDotsProgressBar.git</connection>
+    <url>https://github.com/JustZak/DilatingDotsProgressBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

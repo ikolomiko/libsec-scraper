@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.mediacloud</groupId>
+  <artifactId>TencentEffect_A1-06</artifactId>
+  <version>2.4.2.319</version>
+  <packaging>aar</packaging>
+  <name>TencentEffect_A1-06</name>
+  <description>腾讯云视立方·腾讯特效 SDK（Tencent Effect SDK）（美颜特效 SDK）是音视频终端 SDK（腾讯云视立方）的重要组成部分，基于优图精准的 AI 能力和天天P图丰富的实时特效处理，为各类视频处理场景提供丰富的产品能力。腾讯特效 SDK 支持与腾讯云直播 SDK 、短视频 SDK、音视频通话 SDK 等音视频终端产品集成，高效便捷，优势尤为明显。</description>
+  <url>https://github.com/LiteAVSDK/Player_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>TCloudyunxiao</id>
+      <name>TCloudyunxiao</name>
+      <email>mediaclientdev@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/LiteAVSDK/Player_Android.git</connection>
+    <developerConnection>https://github.com/LiteAVSDK/Player_Android.git</developerConnection>
+    <url>https://github.com/LiteAVSDK/Player_Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

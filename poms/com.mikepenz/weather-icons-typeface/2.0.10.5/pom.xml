@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mikepenz</groupId>
+  <artifactId>weather-icons-typeface</artifactId>
+  <version>2.0.10.5</version>
+  <packaging>aar</packaging>
+  <name>Android-Iconics Weather Icons Typeface Library</name>
+  <description>Android-Iconics Library</description>
+  <url>https://github.com/mikepenz/Android-Iconics</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.mikepenz</groupId>
+      <artifactId>iconics-core</artifactId>
+      <version>3.1.0-rc02</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikepenz</id>
+      <name>Mike Penz</name>
+      <email>mikepenz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/mikepenz/Android-Iconics</url>
+    <connection>scm:git@github.com:mikepenz/Android-Iconics.git</connection>
+    <developerConnection>scm:git@github.com:mikepenz/Android-Iconics.git</developerConnection>
+  </scm>
+</project>

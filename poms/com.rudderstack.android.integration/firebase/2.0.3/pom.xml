@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rudderstack.android.integration</groupId>
+  <artifactId>firebase</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <name>Rudder-Integration-Firebase-Android</name>
+  <description>RudderStack's Native SDK Integration support for Firebase.</description>
+  <url>https://github.com/rudderlabs/rudder-integration-firebase-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/rudderlabs/rudder-integration-firebase-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>desusai7</id>
+      <name>Desu Sai Venkat</name>
+      <email>venkat@rudderstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/rudderlabs/rudder-integration-firebase-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:rudderlabs/rudder-integration-firebase-android.git</developerConnection>
+    <url>https://github.com/rudderlabs/rudder-integration-firebase-android/tree/master</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.firebase</groupId>
+        <artifactId>firebase-bom</artifactId>
+        <version>28.4.2</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.rudderstack.android.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>[1.0,2.0)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-analytics</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

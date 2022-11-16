@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.frm.safe_pin_pad_library</groupId>
+  <artifactId>safe_pin_pad_library</artifactId>
+  <version>0.0.9</version>
+  <packaging>aar</packaging>
+  <name>Safe Pin Pad</name>
+  <description>Safe for prying pin pad</description>
+  <url>https://github.com/Stepka/android-safe-pinpad</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Fresh Red Minsche</id>
+      <name>Stepan Mamontov</name>
+      <email>micromillioner@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Stepka/android-safe-pinpad.git</connection>
+    <developerConnection>https://github.com/Stepka/android-safe-pinpad.git</developerConnection>
+    <url>https://github.com/Stepka/android-safe-pinpad</url>
+  </scm>
+</project>

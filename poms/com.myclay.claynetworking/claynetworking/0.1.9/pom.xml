@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.myclay.claynetworking</groupId>
+  <artifactId>claynetworking</artifactId>
+  <version>0.1.9</version>
+  <packaging>aar</packaging>
+  <name>claynetworking</name>
+  <description>A minimal Networking Library</description>
+  <url>https://bitbucket.org/claysolutions/claynetworking.android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>claysol</id>
+      <name>Arthur Schenk</name>
+      <email>ts@my-clay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/claysolutions/claynetworking.android</connection>
+    <developerConnection>https://bitbucket.org/claysolutions/claynetworking.android</developerConnection>
+    <url>https://bitbucket.org/claysolutions/claynetworking.android</url>
+  </scm>
+</project>

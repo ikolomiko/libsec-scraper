@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.instacart.truetime-android</groupId>
+  <artifactId>library</artifactId>
+  <version>3.4</version>
+  <packaging>aar</packaging>
+  <name>instacart/truetime-android</name>
+  <description>Android NTP time library. Get the true current time impervious to device clock time changes</description>
+  <url>https://tech.instacart.com/truetime/</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>instacart</id>
+      <name>Instacart</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/instacart/truetime-android.git</connection>
+    <developerConnection>scm:git://github.com/instacart/truetime-android.git</developerConnection>
+    <url>git://github.com/instacart/truetime-android.git</url>
+  </scm>
+</project>

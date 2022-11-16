@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.seppius.plurals</groupId>
+  <artifactId>android-i18n-plurals</artifactId>
+  <version>1.1</version>
+  <name>android-i18n-plurals</name>
+  <description>Alternative handling of Android Quantity Strings (Plurals)</description>
+  <url>https://code.google.com/p/android-i18n-plurals/</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MarinaSeppius</id>
+      <name>Marina Seppius</name>
+      <email>MarinaSeppius@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://android-i18n-plurals.googlecode.com/svn/trunk/</connection>
+    <developerConnection>http://android-i18n-plurals.googlecode.com/svn/trunk/</developerConnection>
+    <url>https://code.google.com/p/android-i18n-plurals/source</url>
+  </scm>
+</project>

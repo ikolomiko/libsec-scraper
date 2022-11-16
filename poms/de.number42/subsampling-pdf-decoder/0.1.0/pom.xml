@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.number42</groupId>
+  <artifactId>subsampling-pdf-decoder</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>A PDFDecoder library extending the subsampling-scale-image-view library for Android</name>
+  <url>https://github.com/num42/subsampling-pdf-decoder</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stefanplindner</id>
+      <name>Stefan Lindner</name>
+      <email>stefan.p.lindner.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/num42/subsampling-pdf-decoder.git</connection>
+    <developerConnection>https://github.com/num42/subsampling-pdf-decoder.git</developerConnection>
+    <url>https://github.com/num42/subsampling-pdf-decoder</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.davemorrissey.labs</groupId>
+      <artifactId>subsampling-scale-image-view</artifactId>
+      <version>3.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

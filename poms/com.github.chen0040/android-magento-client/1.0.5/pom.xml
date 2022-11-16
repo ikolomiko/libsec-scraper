@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.chen0040</groupId>
+  <artifactId>android-magento-client</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Android Magento Client</name>
+  <description>Android client for communicating with a magento site</description>
+  <url>https://github.com/chen0040/android-magento-client</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/chen0040/android-magento-client/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chen0040</id>
+      <name>Xianshun Chen</name>
+      <email>xs0040@gmail.com</email>
+      <url>https://github.com/chen0040</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/chen0040/android-magento-client.git</connection>
+    <developerConnection>scm:git://github.com/chen0040/android-magento-client.git</developerConnection>
+    <url>https://github.com/chen0040/android-magento-client.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.chen0040</groupId>
+      <artifactId>java-magento-client</artifactId>
+      <version>1.0.15</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>fastjson</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>slf4j-log4j12</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.1.68.android</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-android</artifactId>
+      <version>1.7.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.sparrow007</groupId>
+  <artifactId>carouselrecyclerview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>carouselrecyclerview</name>
+  <description>Create carousel effect in recyclerview with the CarouselRecyclerview in a simple way.</description>
+  <url>https://github.com/sparrow007/CarouselRecyclerview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sparrow007</id>
+      <name>Ankit kumar</name>
+      <email>ankit.steven007@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/sparrow007/CarouselRecyclerview.git</connection>
+    <developerConnection>scm:git:ssh://github.com/sparrow007/CarouselRecyclerview.git</developerConnection>
+    <url>https://github.com/sparrow007/CarouselRecyclerview/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

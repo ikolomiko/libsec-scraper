@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yoti.mobile.android.sdk</groupId>
+  <artifactId>key-sdk-ev2</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>Yoti Key common sdk. Implementation for NFC operation on the Mifare DesFire EV2 tags.</name>
+  <description>Yoti Key common sdk. Implementation for NFC operation on the Mifare DesFire EV2 tags.</description>
+  <url>https://github.com/getyoti</url>
+  <licenses>
+    <license>
+      <name>For internal use only</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yoti-ci</id>
+      <name>Yoti</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:lampkicking/yoti-tag-android.git</connection>
+    <url>https://github.com/lampkicking/yoti-tag-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yoti.mobile.android.sdk</groupId>
+      <artifactId>key-sdk-common</artifactId>
+      <version>1.4.1</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yoti.tags</groupId>
+      <artifactId>common</artifactId>
+      <version>0.12.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yoti.mobile.mpp</groupId>
+      <artifactId>smartcard-common-jvm</artifactId>
+      <version>0.6.2</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>17.0.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-analytics</artifactId>
+      <version>16.0.8</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>taplinx-android</groupId>
+      <artifactId>nxpnfcandroidlib</artifactId>
+      <version>1.7</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

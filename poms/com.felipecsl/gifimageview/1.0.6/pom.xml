@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.felipecsl</groupId>
+  <artifactId>gifimageview</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>GifImageView library</name>
+  <description>Android ImageView that handles animated GIF images</description>
+  <url>https://github.com/felipecsl/GifImageView/tree/new-scv</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/felipecsl/GifImageView/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>felipecsl</id>
+      <name>Felipe Lima</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:felipecsl/GifImageView.git</connection>
+    <developerConnection>scm:git@github.com:felipecsl/GifImageView.git</developerConnection>
+    <url>https://github.com/felipecsl/GifImageView/tree/new-scv</url>
+  </scm>
+</project>

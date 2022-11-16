@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cleveradssolutions</groupId>
+  <artifactId>mobfox</artifactId>
+  <version>4.3.2.0</version>
+  <packaging>aar</packaging>
+  <name>mobfox</name>
+  <description>MobFox adapter for Clever Ads Solutions Android mediation.</description>
+  <url>https://github.com/cleveradssolutions/CAS-Android</url>
+  <licenses>
+    <license>
+      <name>Clever Ads Solutions License</name>
+      <url>https://github.com/cleveradssolutions/CAS-Android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cleveradssolutions</id>
+      <name>CleverAdsSolutions</name>
+      <email>support@cleveradssolutions.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/cleveradssolutions/CAS-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/cleveradssolutions/CAS-Android.git</developerConnection>
+    <url>https://github.com/cleveradssolutions/CAS-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.mobfox</groupId>
+      <artifactId>mfx-android-sdk</artifactId>
+      <version>4.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.cleveradssolutions</groupId>
+      <artifactId>cas-sdk</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

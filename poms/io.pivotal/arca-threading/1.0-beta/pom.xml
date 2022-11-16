@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.pivotal</groupId>
+  <artifactId>arca-threading</artifactId>
+  <version>1.0-beta</version>
+  <name>Arca Android</name>
+  <description>A comprehensive framework for caching and displaying data.</description>
+  <url>https://github.com/cfmobile/arca-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jwinters</id>
+      <name>Joshua Winters</name>
+      <email>jwinters@gopivotal.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:cfmobile/arca-android.git</connection>
+    <developerConnection>scm:git:git@github.com:cfmobile/arca-android.git</developerConnection>
+    <url>git@github.com:cfmobile/arca-android.git</url>
+  </scm>
+</project>

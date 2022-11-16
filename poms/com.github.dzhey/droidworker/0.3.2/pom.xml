@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dzhey</groupId>
+  <artifactId>droidworker</artifactId>
+  <version>0.3.2</version>
+  <packaging>aar</packaging>
+  <name>droidworker</name>
+  <description>Flexible background processing library for Android made with respect to the app lifecycle</description>
+  <url>https://github.com/Dzhey/DroidWorker</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dzhey</id>
+      <name>Eugene Byzov</name>
+      <email>gdzhey@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Dzhey/DroidWorker.git</connection>
+    <developerConnection>https://github.com/Dzhey/DroidWorker.git</developerConnection>
+    <url>https://github.com/Dzhey/DroidWorker</url>
+  </scm>
+</project>

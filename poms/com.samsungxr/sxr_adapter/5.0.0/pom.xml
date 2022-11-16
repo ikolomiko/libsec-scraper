@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.samsungxr</groupId>
+  <artifactId>sxr_adapter</artifactId>
+  <version>5.0.0</version>
+  <packaging>aar</packaging>
+  <name>SamsungXR SDK</name>
+  <description>The SamsungXR SDK(SXR) is an Open Source XR rendering library for application development on XR-supported Android devices</description>
+  <url>https://github.com/sxrsdk/sxrsdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>samsung</id>
+      <name>Samsung</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sxrsdk/sxrsdk.git</connection>
+    <developerConnection>scm:git@github.com:sxrsdk/sxrsdk.git</developerConnection>
+    <url>https://github.com/sxrsdk/sxrsdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-lite</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

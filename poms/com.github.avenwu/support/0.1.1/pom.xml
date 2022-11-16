@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.avenwu</groupId>
+  <artifactId>support</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>support</name>
+  <description>Custom Android support library, include some useful utils and widget</description>
+  <url>https://github.com/avenwu/support</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://mit-license.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chaobin</id>
+      <name>Chaobin Wu</name>
+      <email>chaobinwu89@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:avenwu/support.git</connection>
+    <developerConnection>scm:git@github.com:avenwu/support.git</developerConnection>
+    <url>https://github.com/avenwu/support</url>
+  </scm>
+</project>

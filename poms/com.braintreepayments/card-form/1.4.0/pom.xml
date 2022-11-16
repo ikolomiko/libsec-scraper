@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.braintreepayments</groupId>
+  <artifactId>card-form</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>card-form</name>
+  <description>Card Form for Braintree's v.zero SDK. Integrate this library to add a ready-made card form for your payments.</description>
+  <url>https://github.com/braintree/braintree_android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devs</id>
+      <name>Braintree Payments</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:braintree/braintree_android.git</connection>
+    <developerConnection>scm:git@github.com:braintree/braintree_android.git</developerConnection>
+    <url>scm:git@github.com:braintree/braintree_android.git</url>
+  </scm>
+</project>

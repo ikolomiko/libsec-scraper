@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sandrios.android</groupId>
+  <artifactId>sandriosCamera</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>com.sandrios.android</name>
+  <description>Simple integration of universal camera in android for easy image and video capture.</description>
+  <url>https://github.com/sandrios/sandriosCamera</url>
+  <inceptionYear>2019</inceptionYear>
+  <developers>
+    <developer>
+      <name>arpitgandhi9</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sandrios/sandriosCamera.git</connection>
+    <url>https://github.com/sandrios/sandriosCamera</url>
+  </scm>
+</project>

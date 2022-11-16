@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.android.library.uigestures</groupId>
+  <artifactId>uigesture-recognizer</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Android UIGestureRecognizer</name>
+  <description>AndroidGestureRecognizer for Android</description>
+  <url>https://github.com/sephiroth74/AndroidUIGestureRecognizer</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/sephiroth74/AndroidUIGestureRecognizer/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sephiroth74</id>
+      <name>Alessandro Crugnola</name>
+      <email>alessandro.crugnola@gmail.com</email>
+      <url>http://blog.sephiroth.it</url>
+      <roles>
+        <role>author</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sephiroth74/AndroidUIGestureRecognizer.git</connection>
+    <developerConnection>scm:git@github.com:sephiroth74/AndroidUIGestureRecognizer.git</developerConnection>
+    <url>https://github.com/sephiroth74/AndroidUIGestureRecognizer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>it.sephiroth.android.library.simplelogger</groupId>
+      <artifactId>simple-logger</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

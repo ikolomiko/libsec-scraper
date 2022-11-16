@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bitbucket.team99array</groupId>
+  <artifactId>enveuandroidclient</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>enveuandroidclient</name>
+  <description>An easy client library for manging server calls.</description>
+  <url>https://bitbucket.org/team99array/enveuandroidclient</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>team99array</id>
+      <name>Shalabh Agarwal</name>
+      <email>apps@enveu.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:bitbucket.org/team99array/enveuandroidclient.git</connection>
+    <developerConnection>scm:git:ssh://bitbucket.org/team99array/enveuandroidclient.git</developerConnection>
+    <url>https://bitbucket.org/team99array/enveuandroidclient</url>
+  </scm>
+</project>

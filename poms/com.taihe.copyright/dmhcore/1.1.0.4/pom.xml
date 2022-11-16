@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.taihe.copyright</groupId>
+  <artifactId>dmhcore</artifactId>
+  <version>1.1.0.4</version>
+  <packaging>aar</packaging>
+  <name>dmhcore</name>
+  <description>Base function of data,like album artist search log_back and so on</description>
+  <url>https://github.com/wanliLiu/dmh_sdk_android</url>
+  <developers>
+    <developer>
+      <id>soli</id>
+      <name>soli</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>https://github.com/wanliLiu/dmh_sdk_android</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.flavienlaurent.datetimepicker</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>DateTimePicker Library</name>
+  <description>Android library to backport the DateTimePicker</description>
+  <url>https://github.com/flavienlaurent/DateTimePicker</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flavienlaurent</id>
+      <name>Flavien Laurent</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:flavienlaurent/DateTimePicker.git</connection>
+    <developerConnection>scm:git@github.com:flavienlaurent/DateTimePicker.git</developerConnection>
+    <url>https://github.com/flavienlaurent/DateTimePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>13.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

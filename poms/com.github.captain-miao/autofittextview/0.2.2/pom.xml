@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.captain-miao</groupId>
+  <artifactId>autofittextview</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <name>Android-AutofitTextView Library</name>
+  <description>A TextView that automatically resizes text to fit perfectly within its bounds.</description>
+  <url>https://github.com/captain-miao/android-autofittextview</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yanlu</id>
+      <name>yanlu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/captain-miao/android-autofittextview.git</connection>
+    <developerConnection>scm:https://github.com/captain-miao/android-autofittextview.git</developerConnection>
+    <url>https://github.com/captain-miao/android-autofittextview</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/captain-miao/android-autofittextview/issues</url>
+  </issueManagement>
+</project>

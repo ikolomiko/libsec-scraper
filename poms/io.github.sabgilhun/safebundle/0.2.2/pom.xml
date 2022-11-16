@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.sabgilhun</groupId>
+  <artifactId>safebundle</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <name>safebundle</name>
+  <description>a library for validating types of the bundle</description>
+  <url>github.com/sabgilhun/SafeBundle.git</url>
+  <licenses>
+    <license>
+      <name>SafeBundle MIT LICENSE</name>
+      <url>https://github.com/sabgilhun/SafeBundle/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sabgilhun</id>
+      <name>Yonghun Kim</name>
+      <email>sabgilhun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/sabgilhun/SafeBundle.git</connection>
+    <developerConnection>scm:git:ssh://github.com/sabgilhun/SafeBundle.git</developerConnection>
+    <url>https://github.com/sabgilhun/SafeBundle</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.sabgilhun</groupId>
+      <artifactId>safebundle-annotation</artifactId>
+      <version>0.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

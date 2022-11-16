@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.fbui.textlayoutbuilder</groupId>
+  <artifactId>textlayoutbuilder</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>TextLayoutBuilder</name>
+  <description>Better way to create text Layouts on Android</description>
+  <url>https://github.com/facebookincubator/TextLayoutBuilder</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/facebookincubator/TextLayoutBuilder/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>Facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/facebookincubator/TextLayoutBuilder.git</connection>
+    <developerConnection>scm:git:git@github.com:facebookincubator/TextLayoutBuilder.git</developerConnection>
+    <url>https://github.com/facebookincubator/TextLayoutBuilder.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.fbui.textlayoutbuilder</groupId>
+      <artifactId>staticlayout-proxy</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

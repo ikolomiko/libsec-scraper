@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.hotchemi</groupId>
+  <artifactId>ProgressMenuItem</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>ProgressMenuItem</name>
+  <description>Shows and stop a progress in the ActionBar.</description>
+  <url>https://github.com/hotchemi/ProgressMenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hotchemi</id>
+      <name>Shintaro Katafuchi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:hotchemi/ProgressMenuItem.git</connection>
+    <developerConnection>scm:git@github.com:hotchemi/ProgressMenuItem.git</developerConnection>
+    <url>https://github.com/hotchemi/ProgressMenuItem</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

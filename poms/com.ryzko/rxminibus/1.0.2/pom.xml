@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ryzko</groupId>
+  <artifactId>rxminibus</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>RxMiniBus</name>
+  <description>Event Bus based on library of Dimezis (https://github.com/Dimezis/RxBus) updated to rxjava 2.x.x</description>
+  <url>https://github.com/ryzko/RxMiniBus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pifpaf</id>
+      <name>Marcin Ryzko</name>
+      <email>marcin@ryzko.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ryzko/RxMiniBus.git</connection>
+    <developerConnection>https://github.com/ryzko/RxMiniBus.git</developerConnection>
+    <url>https://github.com/ryzko/RxMiniBus</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.70</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

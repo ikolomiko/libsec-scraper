@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>abbi.io</groupId>
+  <artifactId>abbiadsdk</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AbbiAdsAndroidSdk</name>
+  <description>A Simple SDK for developers to manage and maximize conversions of all in-app ads promotions.</description>
+  <url>https://abbi.io</url>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://www.linfo.org/bsdlicense.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>abbiio</id>
+      <name>Abbi IO</name>
+      <email>support@abbi.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/abbiio/androidsdk-ads.git</connection>
+    <developerConnection>https://github.com/abbiio/androidsdk-ads.git</developerConnection>
+    <url>https://abbi.io</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>abbi.io</groupId>
+      <artifactId>abbisdk</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

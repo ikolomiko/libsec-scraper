@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gabrielittner.threetenbp</groupId>
+  <artifactId>lazythreetenbp</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>ThreeTenBp Lazy Zone Provider</name>
+  <description>Lazy loading ZoneRuleProvider for ThreeTenBp</description>
+  <url>https://github.com/gabrielittner/lazythreetenbp/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gabrielittner</id>
+      <name>Gabriel Ittner</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/gabrielittner/lazythreetenbp.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/gabrielittner/lazythreetenbp.git</developerConnection>
+    <url>https://github.com/gabrielittner/lazythreetenbp/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.threeten</groupId>
+      <artifactId>threetenbp</artifactId>
+      <version>1.3.4</version>
+      <classifier>no-tzdb</classifier>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

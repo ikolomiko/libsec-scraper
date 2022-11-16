@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dropbox.kaiken</groupId>
+  <artifactId>kaiken-scoping-navgraph</artifactId>
+  <version>3.0.0-alpha02</version>
+  <packaging>aar</packaging>
+  <name>Kaiken Scoping Nav Graph</name>
+  <description>Kaiken Scoping library that allows location of app and user scoped dependencies</description>
+  <url>https://github.com/dropbox/kaiken/</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dropbox</id>
+      <name>Dropbox</name>
+      <url>https://github.com/dropbox/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/dropbox/kaiken.git</connection>
+    <developerConnection>scm:git:git@github.com:dropbox/kaiken.git</developerConnection>
+    <url>https://github.com/dropbox/kaiken/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.dropbox.kaiken</groupId>
+      <artifactId>kaiken-scoping</artifactId>
+      <version>3.0.0-alpha02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-fragment-ktx</artifactId>
+      <version>2.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

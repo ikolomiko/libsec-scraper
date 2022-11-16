@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.archtree</groupId>
+  <artifactId>archtree-action</artifactId>
+  <version>1.0.0-beta9</version>
+  <packaging>aar</packaging>
+  <name>ArchTree Action Artifact</name>
+  <description>The ArchTree Action Artifact is simplifying the usage of onClickListener inside a MVVM architecture using databinding.</description>
+  <url>https://github.com/Mordag/archtree</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mordag</id>
+      <name>Alexander Eggers</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Mordag/archtree.git</connection>
+    <developerConnection>https://github.com/Mordag/archtree.git</developerConnection>
+    <url>https://github.com/Mordag/archtree</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>3.6.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>3.6.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>3.6.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

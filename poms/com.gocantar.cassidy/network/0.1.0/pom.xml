@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gocantar.cassidy</groupId>
+  <artifactId>network</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.60</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>okhttp-4.2.2</artifactId>
+      <version>null</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>okhttp-urlconnection-4.2.2</artifactId>
+      <version>null</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.60</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.gocantar.cassidy</groupId>
+      <artifactId>tools</artifactId>
+      <version>0.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <developers>
+    <developer>
+      <id>gocantar</id>
+      <name>Gonzalo Cantarer Perez</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/gocantar/cassidy</url>
+  </scm>
+</project>

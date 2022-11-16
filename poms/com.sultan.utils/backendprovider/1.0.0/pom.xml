@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sultan.utils</groupId>
+  <artifactId>backendprovider</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>backendprovider</name>
+  <description>A wrapper library for Retrofit. It can be used to handle the Backend API responses and map their value to the variables accordingly using JSON mapper or any other. By default, it contains the Http Interceptor which has a JSON mapper. However user can add a custom interceptor to handle the response and mapp them accordingly as well.</description>
+  <url>https://github.com/Sultan0902/BackendProvider</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sultan0902</id>
+      <name>Sultan Ahmed</name>
+      <email>sultan_anees@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Sultan0902/BackendProvider.git</connection>
+    <developerConnection>https://github.com/Sultan0902/BackendProvider.git</developerConnection>
+    <url>https://github.com/Sultan0902/BackendProvider</url>
+  </scm>
+</project>

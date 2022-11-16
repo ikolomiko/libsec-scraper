@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cosmos.effect</groupId>
+  <artifactId>videoeffect</artifactId>
+  <version>1.0.0-201905301650</version>
+  <packaging>aar</packaging>
+  <name>cosmos</name>
+  <url>https://github.com/cosmos33/MMVideoSDK-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maopenggui</id>
+      <name>maopenggui</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cosmos33/MMVideoSDK-Android.git</connection>
+    <developerConnection>https://github.com/cosmos33/MMVideoSDK-Android.git</developerConnection>
+    <url>https://github.com/cosmos33/MMVideoSDK-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>api</scope>
+    </dependency>
+  </dependencies>
+</project>

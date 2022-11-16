@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.xjy.android.novaimageloader</groupId>
+  <artifactId>novaimageloader</artifactId>
+  <version>0.14.1</version>
+  <packaging>aar</packaging>
+  <name>NovaImageLoader</name>
+  <description>A system to load and display images and manage their memory on Android</description>
+  <url>https://github.com/xjy2061/NovaImageLoader</url>
+  <scm>
+    <url>https://github.com/xjy2061/NovaImageLoader</url>
+    <connection>scm:git:https://github.com/xjy2061/NovaImageLoader.git</connection>
+    <developerConnection>scm:git:git@github.com:xjy2061/NovaImageLoader.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xjy2061</id>
+      <name>xjy2061</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.xjy.android.novaimageloader</groupId>
+      <artifactId>drawee</artifactId>
+      <version>0.14.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.xjy.android.novaimageloader</groupId>
+      <artifactId>fbcore</artifactId>
+      <version>0.14.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.xjy.android.novaimageloader</groupId>
+      <artifactId>imagepipeline</artifactId>
+      <version>0.14.1</version>
+    </dependency>
+  </dependencies>
+</project>

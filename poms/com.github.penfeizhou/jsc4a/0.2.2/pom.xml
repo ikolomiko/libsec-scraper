@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.penfeizhou</groupId>
+  <artifactId>jsc4a</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <description>7b0f2d7b2f8be1ab9f568a9fbbf25b5e65d8fd9d</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.soloader</groupId>
+      <artifactId>soloader</artifactId>
+      <version>0.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

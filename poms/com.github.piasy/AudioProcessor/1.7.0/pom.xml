@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.piasy</groupId>
+  <artifactId>AudioProcessor</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <name>AudioProcessor</name>
+  <description>Android Audio encapsulation library, with part Rx support.</description>
+  <url>https://github.com/Piasy/RxAndroidAudio</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Piasy</id>
+      <name>Piasy Xu</name>
+      <email>xz4215@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Piasy/RxAndroidAudio.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Piasy/RxAndroidAudio.git</developerConnection>
+    <url>https://github.com/Piasy/RxAndroidAudio</url>
+  </scm>
+  <dependencies/>
+</project>

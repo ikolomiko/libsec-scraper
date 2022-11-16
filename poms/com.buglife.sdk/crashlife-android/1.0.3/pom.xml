@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.buglife.sdk</groupId>
+  <artifactId>crashlife-android</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <description>Awesome crash reporting</description>
+  <name>Crashlife Android</name>
+  <url>https://www.buglife.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Buglife</name>
+      <email>support@buglife.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Buglife/crashlife-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ru.ivanarh.ndcrash</groupId>
+      <artifactId>jndcrash-libunwind</artifactId>
+      <version>0.7</version>
+    </dependency>
+  </dependencies>
+</project>

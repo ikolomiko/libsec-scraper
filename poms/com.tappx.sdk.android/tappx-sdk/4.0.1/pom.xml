@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tappx.sdk.android</groupId>
+  <artifactId>tappx-sdk</artifactId>
+  <version>4.0.1</version>
+  <packaging>aar</packaging>
+  <name>Tappx SDK</name>
+  <description>Tappx SDK for Android</description>
+  <url>https://github.com/tappx-com/tappx-sdk-android</url>
+  <licenses>
+    <license>
+      <name>CC Attribution-NoDerivs 3.0 Unported</name>
+      <url>https://creativecommons.org/licenses/by-nd/3.0/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tappx</id>
+      <name>Tappx</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/tappx-com/tappx-sdk-android</connection>
+    <developerConnection>scm:hg:https://github.com/tappx-com/tappx-sdk-android</developerConnection>
+    <url>https://github.com/tappx-com/tappx-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>19.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tappx.sdk.android</groupId>
+      <artifactId>omsdk</artifactId>
+      <version>1.3.35</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

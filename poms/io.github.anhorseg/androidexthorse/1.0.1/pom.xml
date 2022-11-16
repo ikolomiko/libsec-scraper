@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.anhorseg</groupId>
+  <artifactId>androidexthorse</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>androidexthorse</name>
+  <description>An android Mvvn Library that help android developer speed up development</description>
+  <url>https://github.com/anhorseg/HorseExt</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ananananzhuo</id>
+      <name>mage</name>
+      <email>1275054668@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/anhorseg/HorseExt</connection>
+    <developerConnection>https://github.com/anhorseg/HorseExt</developerConnection>
+    <url>https://github.com/anhorseg/HorseExt</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>core-ktx</artifactId>
+      <groupId>androidx.core</groupId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>appcompat</artifactId>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>material</artifactId>
+      <groupId>com.google.android.material</groupId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>constraintlayout</artifactId>
+      <groupId>androidx.constraintlayout</groupId>
+      <version>2.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

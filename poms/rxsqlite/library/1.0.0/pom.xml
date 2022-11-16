@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rxsqlite</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>rxsqlite</name>
+  <description>Reactive extension of SQLite for Android</description>
+  <url>https://github.com/DanielSerdyukov/rxsqlite</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/DanielSerdyukov/rxsqlite/issues</url>
+  </issueManagement>
+  <scm>
+    <url>scm:https://github.com/DanielSerdyukov/rxsqlite.git</url>
+    <connection>scm:https://github.com/DanielSerdyukov/rxsqlite.git</connection>
+    <developerConnection>scm:https://github.com/DanielSerdyukov/rxsqlite.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>sqlite4a</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

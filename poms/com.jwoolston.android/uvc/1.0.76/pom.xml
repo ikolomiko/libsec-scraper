@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jwoolston.android</groupId>
+  <artifactId>uvc</artifactId>
+  <version>1.0.76</version>
+  <packaging>aar</packaging>
+  <name>AndroidWebcam</name>
+  <description>Android library for accessing USB UVC class devices.</description>
+  <url>https://github.com/jwoolston/Android-Webcam</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jwoolston</id>
+      <name>Jared Woolston</name>
+      <email>Jared.Woolston@gmail.com</email>
+      <organization>org.apache.maven.model.Organization@63c88994</organization>
+      <organizationUrl>https://github.com/jwoolston</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jwoolston/Android-Webcam.git</connection>
+    <developerConnection>scm:git@github.com:jwoolston/Android-Webcam.git</developerConnection>
+    <url>https://github.com/jwoolston/Android-Webcam.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jwoolston.android</groupId>
+      <artifactId>libusb</artifactId>
+      <version>1.0.58-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.41</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

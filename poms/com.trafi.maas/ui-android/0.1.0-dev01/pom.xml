@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.trafi.maas</groupId>
+  <artifactId>ui-android</artifactId>
+  <version>0.1.0-dev01</version>
+  <packaging>aar</packaging>
+  <name>MaaS Components</name>
+  <description>Mobility-as-a-service SDK &amp; UI components</description>
+  <url>https://github.com/trafi/maas-components</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>trafi</id>
+      <name>Trafi Ltd.</name>
+      <email>development@trafi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/trafi/maas-components.git</connection>
+    <developerConnection>scm:git:ssh://github.com/trafi/maas-components.git</developerConnection>
+    <url>https://github.com/trafi/maas-components</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation-layout</artifactId>
+      <version>1.0.0-alpha03</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.0-alpha03</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-alpha03</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.ui</groupId>
+      <artifactId>ui-tooling</artifactId>
+      <version>1.0.0-alpha03</version>
+    </dependency>
+  </dependencies>
+</project>

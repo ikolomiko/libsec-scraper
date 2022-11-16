@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.borjabravo</groupId>
+  <artifactId>focusresize</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>FocusResize</name>
+  <description>A custom animation with scroll listener to recycler views</description>
+  <developers>
+    <developer>
+      <id>borjabravo10</id>
+      <name>Borja Bravo Álvarez</name>
+      <email>borja.bravoalvarez@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

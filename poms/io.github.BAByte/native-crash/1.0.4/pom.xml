@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.BAByte</groupId>
+  <artifactId>native-crash</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>native-crash</name>
+  <description>native crash tool</description>
+  <url>https://github.com/BAByte/NativeCrash2Java</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/BAByte/NativeCrash2Java/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BAByte</id>
+      <name>BAByte</name>
+      <email>892393816@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BAByte/NativeCrash2Java.git</connection>
+    <developerConnection>https://github.com/BAByte/NativeCrash2Java.git</developerConnection>
+    <url>https://github.com/BAByte/NativeCrash2Java.git/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+  </dependencies>
+</project>

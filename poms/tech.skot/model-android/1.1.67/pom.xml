@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.skot</groupId>
+  <artifactId>model-android</artifactId>
+  <version>1.1.67</version>
+  <packaging>aar</packaging>
+  <name>model</name>
+  <description>model description</description>
+  <url>https://github.com/skot-framework/skot</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MathieuScotet</id>
+      <name>Mathieu Scotet</name>
+      <email>mscotet.lmit@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/skot-framework/skot.git</connection>
+    <developerConnection>scm:git:ssh://github.com/skot-framework/skot.git</developerConnection>
+    <url>https://github.com/skot-framework/skot/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>tech.skot</groupId>
+      <artifactId>core-android</artifactId>
+      <version>1.1.67</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tech.skot</groupId>
+      <artifactId>modelcontract-jvm</artifactId>
+      <version>1.1.67</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.sqldelight</groupId>
+      <artifactId>runtime-jvm</artifactId>
+      <version>1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json-jvm</artifactId>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-core-jvm</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-auth-jvm</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-logging-jvm</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.6.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.sqldelight</groupId>
+      <artifactId>android-driver</artifactId>
+      <version>1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-okhttp-jvm</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.21</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

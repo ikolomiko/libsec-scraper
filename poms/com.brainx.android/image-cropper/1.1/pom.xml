@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.brainx.android</groupId>
+  <artifactId>image-cropper</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>image-cropper</name>
+  <description>image-cropper lib</description>
+  <url>https://github.com/BrainXtech/kustomer-android-internal</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tahir456</id>
+      <name>tahir zahoor</name>
+      <email>brainxdevelopers@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BrainXtech/kustomer-android-internal</connection>
+    <developerConnection>https://github.com/BrainXtech/kustomer-android-internal</developerConnection>
+    <url>https://github.com/BrainXtech/kustomer-android-internal</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.theartofdev.edmodo</groupId>
+      <artifactId>android-image-cropper</artifactId>
+      <version>2.6.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bogdwellers</groupId>
+      <artifactId>pinchtozoom</artifactId>
+      <version>0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

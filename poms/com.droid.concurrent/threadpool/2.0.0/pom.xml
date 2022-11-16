@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.droid.concurrent</groupId>
+  <artifactId>threadpool</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>ThreadPool</name>
+  <description>A ThreadPool on Android</description>
+  <url>https://github.com/libaolin/ThreadPool</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>00003748</id>
+      <name>libaolin</name>
+      <email>libaolin.0325@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/libaolin/ThreadPool.git</connection>
+    <developerConnection>https://github.com/libaolin/ThreadPool.git</developerConnection>
+    <url>https://github.com/libaolin/ThreadPool</url>
+  </scm>
+</project>

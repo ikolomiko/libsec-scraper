@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chartboost</groupId>
+  <artifactId>helium-chartboost</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Chartboost Helium Adapter</name>
+  <description>Better monetization powered by bidding</description>
+  <url>https://www.chartboost.com/helium/</url>
+  <licenses>
+    <license>
+      <name>https://answers.chartboost.com/en-us/articles/200780239</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chartboostmobile</id>
+      <name>chartboost mobile</name>
+      <email>mobile@chartboost.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ChartBoost/android-helium-sdk</connection>
+    <developerConnection>https://github.com/ChartBoost/android-helium-sdk</developerConnection>
+    <url>https://github.com/ChartBoost/android-helium-sdk</url>
+  </scm>
+</project>

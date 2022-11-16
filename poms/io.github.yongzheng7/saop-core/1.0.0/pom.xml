@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.yongzheng7</groupId>
+  <artifactId>saop-core</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android-Module-NFC</name>
+  <description>Android设备采集NFC的模块</description>
+  <url>ject URL:https://github.com/yongzheng7/saop</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wuyongzheng</id>
+      <name>wuyongzheng</name>
+      <email>1055115204@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yongzheng7/saop</connection>
+    <developerConnection>https://github.com/yongzheng7/saop.git</developerConnection>
+    <url>https://github.com/yongzheng7/saop</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.yongzheng7</groupId>
+      <artifactId>saop-api</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

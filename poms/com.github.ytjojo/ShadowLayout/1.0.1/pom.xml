@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ytjojo</groupId>
+  <artifactId>ShadowLayout</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>ShadowLayout</name>
+  <description>Android  powerful library- draw any shape of z-depth shadow of MaterialDesign,auto fit shape ,roundRect , Circle, clipe Path shape all be supported</description>
+  <url>https://github.com/ytjojo/ShadowLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ytjojo@163.com</id>
+      <name>ytjojo@163.com</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ytjojo/ShadowLayout.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ytjojo/ShadowLayout.git</developerConnection>
+    <url>https://github.com/ytjojo/ShadowLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

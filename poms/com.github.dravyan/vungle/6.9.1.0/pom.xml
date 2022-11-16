@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dravyan</groupId>
+  <artifactId>vungle</artifactId>
+  <version>6.9.1.0</version>
+  <packaging>aar</packaging>
+  <name>Mediation</name>
+  <description>Vungle - A application used as an example on how to set up pushing  its components to the Central Repository.</description>
+  <url>https://github.com/dravyan/mopub-android-mediation</url>
+  <licenses>
+    <license>
+      <name>MoPub SDK License Agreement</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>test</id>
+      <name>test</name>
+      <email>test@support.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/dravyan/mopub-android-mediation.git</connection>
+    <developerConnection>scm:git:https://github.com/dravyan/mopub-android-mediation.git</developerConnection>
+    <url>https://github.com/dravyan/mopub-android-mediation</url>
+  </scm>
+</project>

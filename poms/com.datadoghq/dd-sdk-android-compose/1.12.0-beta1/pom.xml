@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datadoghq</groupId>
+  <artifactId>dd-sdk-android-compose</artifactId>
+  <version>1.12.0-beta1</version>
+  <packaging>aar</packaging>
+  <name>dd-sdk-android-compose</name>
+  <description>A Jetpack Compose integration to use with the Datadog monitoring library for Android applications.</description>
+  <url>https://github.com/DataDog/dd-sdk-android/</url>
+  <organization>
+    <name>Datadog</name>
+    <url>https://www.datadoghq.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Datadog</name>
+      <email>info@datadoghq.com</email>
+      <organization>Datadog</organization>
+      <organizationUrl>https://www.datadoghq.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Datadog/dd-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com:Datadog/dd-sdk-android.git</developerConnection>
+    <url>https://github.com/DataDog/dd-sdk-android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.datadoghq</groupId>
+      <artifactId>dd-sdk-android</artifactId>
+      <version>1.12.0-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-compose</artifactId>
+      <version>2.4.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.ubique.android</groupId>
+  <artifactId>qrscanner-zxing</artifactId>
+  <version>1.0.0-dev-5</version>
+  <packaging>aar</packaging>
+  <name>qrscanner-zxing</name>
+  <description>ZXing based image decoders for the Ubique QR code scanner library</description>
+  <url>https://github.com/UbiqueInnovation/qr-scanner-android</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>Mozilla Public License 2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ubique</id>
+      <name>Ubique Innovation AG</name>
+      <url>https://www.ubique.ch/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:UbiqueInnovation/qr-scanner-android.git</connection>
+    <developerConnection>scm:git@github.com:UbiqueInnovation/qr-scanner-android.git</developerConnection>
+    <url>https://github.com/UbiqueInnovation/qr-scanner-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ch.ubique.android</groupId>
+      <artifactId>qrscanner-core</artifactId>
+      <version>1.0.0-dev-5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.5.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

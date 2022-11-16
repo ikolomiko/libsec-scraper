@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gimbal.android.v2</groupId>
+  <artifactId>gimbal-slf4j-impl</artifactId>
+  <version>2.72</version>
+  <packaging>aar</packaging>
+  <name>Gimbal Android V2 Logging Library</name>
+  <description>The Gimbal Android V2 Logging Library provides APIs for building software against Gimbal's products.</description>
+  <url>https://docs.gimbal.com/android/v2/devguide.html</url>
+  <licenses>
+    <license>
+      <name>Gimbal, Inc. Copyright (c) 2014-2017  All rights reserved.</name>
+      <url>https://manager.gimbal.com/sdk-license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Gimbal Developers</name>
+      <email>developers@gimbal.com</email>
+      <organization>Gimbal, Inc.</organization>
+      <organizationUrl>https://gimbal.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/gimbalinc/hello-gimbal-android.git</connection>
+    <developerConnection>scm:git:git@github.com:gimbalinc/hello-gimbal-android.git</developerConnection>
+    <url>https://github.com/gimbalinc/hello-gimbal-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.13</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

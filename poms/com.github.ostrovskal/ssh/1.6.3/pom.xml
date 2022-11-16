@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ostrovskal</groupId>
+  <artifactId>ssh</artifactId>
+  <version>1.6.3</version>
+  <packaging>aar</packaging>
+  <name>com.github.ostrovskal:ssh</name>
+  <description>A small library containing a wrapper for the classes of Android framework</description>
+  <url>https://github.com/ostrovskal/ssh</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>serg</id>
+      <name>Shatalov Sergey</name>
+      <email>ostrov_skal@mail.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ostrovskal/ssh.git</connection>
+    <developerConnection>https://github.com/ostrovskal/ssh.git</developerConnection>
+    <url>https://github.com/ostrovskal/ssh</url>
+  </scm>
+</project>

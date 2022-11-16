@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.luojilab</groupId>
+  <artifactId>datareporter</artifactId>
+  <version>1.4.5</version>
+  <packaging>aar</packaging>
+  <name>datareporter</name>
+  <description>platform data reporte component</description>
+  <url>https://github.com/luojilab/DataReporter</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lixiaoyu</id>
+      <name>bingjian</name>
+      <email>lixiaoyu0123@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/luojilab/DataReporter.git这里需要修改成你自己的</connection>
+    <developerConnection>scm:git:ssh://github.com/luojilab/DataReporter.git这里需要修改成你自己的</developerConnection>
+    <url>https://github.com/luojilab/DataReporter/tree/master这里需要修改成你自己的</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

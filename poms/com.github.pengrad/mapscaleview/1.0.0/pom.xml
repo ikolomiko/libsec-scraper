@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pengrad</groupId>
+  <artifactId>mapscaleview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>pengrad/MapScaleView</name>
+  <description>Scale bar for Google Maps Android API</description>
+  <url>https://github.com/pengrad/MapScaleView</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>pengrad</id>
+      <name>Stanislav Parshin</name>
+      <email>s.a.parshin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/pengrad/MapScaleView.git</connection>
+    <developerConnection>scm:git://github.com/pengrad/MapScaleView.git</developerConnection>
+    <url>git://github.com/pengrad/MapScaleView.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.aakira</groupId>
+  <artifactId>expandable-layout</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>expandable-layout</name>
+  <description>An android library that brings the expandable layout with various animation.You can include optional contents and use everywhere.</description>
+  <url>https://github.com/aakira/ExpandableLayout</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/aakira/ExpandableLayout/issues</url>
+  </issueManagement>
+  <scm>
+    <url>git@github.com:aakira/ExpandableLayout.git</url>
+    <connection>scm:git@github.com:aakira/ExpandableLayout.git</connection>
+    <developerConnection>scm:git@github.com:aakira/ExpandableLayout.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

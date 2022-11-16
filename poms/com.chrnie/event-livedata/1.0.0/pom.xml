@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chrnie</groupId>
+  <artifactId>event-livedata</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>EventLiveData library</name>
+  <description>Lifecycle aware event source power by livedata.</description>
+  <url>https://github.com/chrnie233/event-livedata</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chrnie</id>
+      <name>ChenRenJie</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:chrnie233/event-livedata.git</connection>
+    <developerConnection>scm:git@github.com:chrnie233/event-livedata.git</developerConnection>
+    <url>https://github.com/chrnie233/event-livedata</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>livedata</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

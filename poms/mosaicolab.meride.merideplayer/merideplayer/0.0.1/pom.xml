@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mosaicolab.meride.merideplayer</groupId>
+  <artifactId>merideplayer</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>merideplayer</name>
+  <description>video player library</description>
+  <url>https://github.com</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Giovanni Manuel</id>
+      <name>Giovanni Manuel Toppi</name>
+      <email>gtoppi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com</connection>
+    <developerConnection>https://github.com</developerConnection>
+    <url>https://github.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.ads.interactivemedia.v3</groupId>
+      <artifactId>interactivemedia</artifactId>
+      <version>3.8.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>11.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.iheartradio.m3u8</groupId>
+      <artifactId>open-m3u8</artifactId>
+      <version>0.2.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-cast-framework</artifactId>
+      <version>11.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.webtrekk.webtrekksdk</groupId>
+      <artifactId>WebtrekkSDK</artifactId>
+      <version>4.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

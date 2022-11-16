@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bowyer.app</groupId>
+  <artifactId>fab-toolbar</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>fab-toolbar</name>
+  <description>Floating Action Button Toolbar</description>
+  <url>https://github.com/bowyer-app/fab-toolbar</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/bowyer-app/fab-toolbar/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/bowyer-app/fab-toolbar.git</url>
+    <connection>https://github.com/bowyer-app/fab-toolbar.git</connection>
+    <developerConnection>https://github.com/bowyer-app/fab-toolbar.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>Released under the MIT license</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

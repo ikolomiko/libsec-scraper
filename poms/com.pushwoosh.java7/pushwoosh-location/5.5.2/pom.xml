@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pushwoosh.java7</groupId>
+  <artifactId>pushwoosh-location</artifactId>
+  <version>5.5.2</version>
+  <name>Pushwoosh Location</name>
+  <description>Pushwoosh Location</description>
+  <url>https://www.pushwoosh.com/</url>
+  <licenses>
+    <license>
+      <name>Pushwoosh License</name>
+      <url>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Max Konev</name>
+      <email>max@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Dmitry Malugin</name>
+      <email>diman@pushwoosh.com</email>
+      <organization>Pushwoosh</organization>
+      <organizationUrl>http://www.pushwoosh.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Blinov Alexander</name>
+      <email>xanderblinov@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Shmakov Yuri</name>
+      <email>senneco@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Savin Mikhail</name>
+      <email>savinmike.u@gmail.com</email>
+      <organization>Arello Mobile</organization>
+      <organizationUrl>http://www.arello-mobile.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Pushwoosh/pushwoosh-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:Pushwoosh/pushwoosh-android-sdk.git</developerConnection>
+    <url>git@github.com:Pushwoosh/pushwoosh-android-sdk.git</url>
+  </scm>
+  <packaging>aar</packaging>
+</project>

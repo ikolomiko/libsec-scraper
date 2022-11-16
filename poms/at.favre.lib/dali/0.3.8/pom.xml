@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.favre.lib</groupId>
+  <artifactId>dali</artifactId>
+  <version>0.3.8</version>
+  <packaging>aar</packaging>
+  <name>Dali</name>
+  <description>Dali is an image blur library for Android. It is easy to use, fast and extensible. Dali contains several modules for either static blurring, live blurring and animations.</description>
+  <url>https://github.com/patrickfav/Dali</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pfavre</id>
+      <name>Patrick Favre-Bulle</name>
+      <email>patrick.favrebulle@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/patrickfav/Dali.git</connection>
+    <developerConnection>https://github.com/patrickfav/Dali.git</developerConnection>
+    <url>https://github.com/patrickfav/Dali</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/patrickfav/Dali/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>disklrucache</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

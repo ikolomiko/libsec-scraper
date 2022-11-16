@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nikoyuwono</groupId>
+  <artifactId>realm-browser</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>RealmBrowser</name>
+  <description>Realm browser that can be used to see tables, structure and content. This browser can be accessed from localhost that hosted by the Android device. To achieve that I'm using NanoHTTPD library.</description>
+  <url>https://github.com/NikoYuwono/realm-browser-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://raw.githubusercontent.com/NikoYuwono/realm-browser-android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nayoso</id>
+      <name>Niko Yuwono</name>
+      <email>niko.yuwono.91@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/NikoYuwono/realm-browser-android.git</connection>
+    <developerConnection>https://github.com/NikoYuwono/realm-browser-android.git</developerConnection>
+    <url>https://github.com/NikoYuwono/realm-browser-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android</artifactId>
+      <version>0.87.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

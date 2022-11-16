@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.mixi</groupId>
+  <artifactId>AndroidDeviceCompatibility</artifactId>
+  <version>1.0.0</version>
+  <name>AndroidDeviceCompatibility</name>
+  <description>Compatibility package project for android device difference.</description>
+  <url>https://github.com/mixi-inc/Android-Device-Compatibility/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mixi</id>
+      <name>mixi,Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mixi-inc/Android-Device-Compatibility.git</connection>
+    <developerConnection>scm:git@github.com:mixi-inc/Android-Device-Compatibility.git</developerConnection>
+    <url>https://github.com/mixi-inc/Android-Device-Compatibility/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>gridlayout-v7</artifactId>
+      <version>19.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.0+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

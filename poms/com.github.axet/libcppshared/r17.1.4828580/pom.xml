@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.axet</groupId>
+  <artifactId>libcppshared</artifactId>
+  <version>r17.1.4828580</version>
+  <packaging>aar</packaging>
+  <name>android ndk c++_shared library</name>
+  <description>android c++_shared library</description>
+  <url>https://gitlab.com/axet/android-cppshared-library</url>
+  <licenses>
+    <license>
+      <name>BSD-Like</name>
+      <url>https://github.com/google/libcxx/blob/master/LICENSE.TXT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>axet</id>
+      <name>Alexey Kuznetsov</name>
+      <email>axet@me.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitlab.com/axet/android-cppshared-library</connection>
+    <developerConnection>scm:git:https://gitlab.com/axet/android-cppshared-library</developerConnection>
+    <url>https://gitlab.com/axet/android-cppshared-library</url>
+  </scm>
+  <build>
+     <plugins>
+        <plugin>
+            <groupId>com.simpligility.maven.plugins</groupId>
+            <artifactId>android-maven-plugin</artifactId>
+            <version>4.4.3</version>
+            <extensions>true</extensions>         
+            <configuration>
+                <sign>
+                    <debug>false</debug>
+                </sign>
+            </configuration>
+        </plugin>
+     </plugins>
+  </build>
+</project>

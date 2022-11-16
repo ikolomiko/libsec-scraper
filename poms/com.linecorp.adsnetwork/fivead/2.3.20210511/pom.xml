@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.linecorp.adsnetwork</groupId>
+  <artifactId>fivead</artifactId>
+  <version>2.3.20210511</version>
+  <packaging>aar</packaging>
+  <name>FiveAd</name>
+  <description>LINE ADS NETWORK Android SDK</description>
+  <url>https://www.linebiz.com/lp/line-ads-network/</url>
+  <licenses>
+    <license>
+      <name>LINE ADS NETWORK SDK LICENSE</name>
+      <url>https://www.linebiz.com/jp/terms-and-policies/line-ads-network/sdk-license/</url>
+      <comments>To use this SDK (LINE ADS NETWORK SDK, also called Five SDK or FiveAd SDK), contact LINE ADS NETWORK team. Contact information is located at https://pages.linebiz.com/line-ads-network/ . BY DOWNLOADING THE LINE ADS NETWORK SDK, YOU ARE AGREEING TO THE TERMS AND CONDITIONS OF THE LINE ADS NETWORK SDK LICENSE AGREEMENT LOCATED AT https://www.linebiz.com/jp/terms-and-policies/line-ads-network/sdk-license/ . IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THE LINE ADS NETWORK SDK LICENSE AGREEMENT, YOU ARE NOT AUTHORIZED TO AND YOU MAY NOT DOWNLOAD THE LINE ADS NETWORK SDK.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>LINE Corporation</name>
+    </developer>
+  </developers>
+  <scm>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

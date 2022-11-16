@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.clockbyte</groupId>
+  <artifactId>admobadapter</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Admobadapter</name>
+  <description>An Android library that makes it easy to integrate Admob Native ads (both Express and Advanced) into ListView/RecyclerView</description>
+  <url>https://github.com/clockbyte/admobadapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>clockbyte</id>
+      <name>Clockbyte Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:clockbyte/admobadapter.git</connection>
+    <developerConnection>scm:git@github.com:clockbyte/admobadapter.git</developerConnection>
+    <url>https://github.com/clockbyte/admobadapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-ads</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

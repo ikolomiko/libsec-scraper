@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kunminx.arch</groupId>
+  <artifactId>smooth-navigation</artifactId>
+  <version>3.9.0-beta1</version>
+  <packaging>aar</packaging>
+  <name>smooth-navigation</name>
+  <description>Provide a smooth Android Jetpack Navigation transition experience. And solve the fatal flaws that are common in the modified version of Navigation on GitHub.</description>
+  <url>https://github.com/KunMinX/Smooth-Navigation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>KunMinX</id>
+      <name>KunMinX</name>
+      <email>kunminx@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/KunMinX/Smooth-Navigation.git</connection>
+    <developerConnection>scm:git:ssh://github.com/KunMinX/Smooth-Navigation.git</developerConnection>
+    <url>https://github.com/KunMinX/Smooth-Navigation/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>appcompat</artifactId>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>fragment</artifactId>
+      <groupId>androidx.fragment</groupId>
+      <version>1.3.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>navigation-runtime</artifactId>
+      <groupId>androidx.navigation</groupId>
+      <version>2.3.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

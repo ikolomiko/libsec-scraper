@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.westnordost</groupId>
+  <artifactId>osmfeatures-android</artifactId>
+  <version>5.0</version>
+  <packaging>aar</packaging>
+  <name>osmfeatures-android</name>
+  <description>Android library to translate OSM tags to and from localized names.</description>
+  <url>https://github.com/westnordost/osmfeatures</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>westnordost</id>
+      <name>Tobias Zwick</name>
+      <email>osm@westnordost.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/westnordost/osmfeatures.git</connection>
+    <developerConnection>https://github.com/westnordost/osmfeatures.git</developerConnection>
+    <url>https://github.com/westnordost/osmfeatures</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.westnordost</groupId>
+      <artifactId>osmfeatures</artifactId>
+      <version>5.0</version>
+    </dependency>
+  </dependencies>
+</project>

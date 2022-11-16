@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.maximejallu</groupId>
+  <artifactId>adapters-kotlin</artifactId>
+  <version>18.08.01</version>
+  <packaging>aar</packaging>
+  <name>Generic Recycler Adapter</name>
+  <description>Generic adapters for Android based on https://github.com/MaximeJallu/generic-adapter-kotlin</description>
+  <url>https://github.com/MaximeJallu/generic-adapter-kotlin</url>
+  <licenses>
+    <license>
+      <name>The Code Project Open License (CPOL) 1.02</name>
+      <url></url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maximejallu</id>
+      <name>Maxime Jallu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/MaximeJallu/generic-adapter-kotlin</connection>
+    <developerConnection>scm:hg:https://github.com/MaximeJallu/generic-adapter-kotlin</developerConnection>
+    <url>https://github.com/MaximeJallu/generic-adapter-kotlin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.60</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

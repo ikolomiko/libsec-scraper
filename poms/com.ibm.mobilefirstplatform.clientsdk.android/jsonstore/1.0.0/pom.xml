@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mobilefirstplatform.clientsdk.android</groupId>
+  <artifactId>jsonstore</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>JSONStore Native Android SDK</name>
+  <description>JSONStore is a lightweight, document-oriented storage system that enables persistent storage of JSON documents for Android applications.</description>
+  <url>https://github.com/ibm-bluemix-mobile-services/jsonstore-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>JSONStore Native Android SDK</name>
+      <email>mobilsdk@us.ibm.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com/ibm-bluemix-mobile-services/jsonstore-android.git</connection>
+    <developerConnection>scm:git:git@github.com/ibm-bluemix-mobile-services/jsonstore-android.git</developerConnection>
+    <url>https://github.com/ibm-bluemix-mobile-services/jsonstore-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-jaxrs</artifactId>
+      <version>1.9.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>14.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

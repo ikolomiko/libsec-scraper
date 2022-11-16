@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alexandre.bubblecheckbox</groupId>
+  <artifactId>bubbleradiogroup</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>bubbleradiogroup</name>
+  <description>This library will display a drawable under a radiogroup, the drawable will be placed under the checked radiobutton.</description>
+  <url>https://github.com/alexandre7777/Bubble-Checkbox</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alexandre7777</id>
+      <name>alexandre7777</name>
+      <email>alexandre.genet7@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/alexandre7777/Bubble-Checkbox.git</connection>
+    <developerConnection>https://github.com/alexandre7777/Bubble-Checkbox.git</developerConnection>
+    <url>https://github.com/alexandre7777/Bubble-Checkbox</url>
+  </scm>
+</project>

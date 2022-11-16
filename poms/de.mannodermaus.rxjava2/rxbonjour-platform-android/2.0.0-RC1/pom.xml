@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.mannodermaus.rxjava2</groupId>
+  <artifactId>rxbonjour-platform-android</artifactId>
+  <version>2.0.0-RC1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>de.mannodermaus.rxjava2</groupId>
+      <artifactId>rxbonjour</artifactId>
+      <version>2.0.0-RC1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <description>Reactive spice added to Android's network service discovery API. (Compatible with RxJava 2)</description>
+  <name>rxbonjour-platform-android</name>
+  <url>https://github.com/mannodermaus/RxBonjour.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aurae</id>
+      <name>Marcel Schnelle</name>
+      <email>schnellemarcel@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/mannodermaus/RxBonjour</url>
+  </scm>
+</project>

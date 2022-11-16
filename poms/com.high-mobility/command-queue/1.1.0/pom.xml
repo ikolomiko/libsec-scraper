@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.high-mobility</groupId>
+  <artifactId>command-queue</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>command-queue</name>
+  <description>command-queue</description>
+  <url>https://github.com/highmobility/command-queue-android</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https ://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tonis</id>
+      <name>Tonis Tiganik</name>
+      <email>ttiganik@high-mobility.com</email>
+    </developer>
+    <developer>
+      <id>kevin</id>
+      <name>Kevin Valdek</name>
+      <email>kevin@high-mobility.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/highmobility/command-queue-android</connection>
+    <developerConnection>https://github.com/highmobility/command-queue-android</developerConnection>
+    <url>https://github.com/highmobility/command-queue-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>com.high-mobility</groupId>
+      <artifactId>hmkit-android</artifactId>
+      <version>2.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.high-mobility</groupId>
+      <artifactId>hmkit-crypto</artifactId>
+      <version>1.4.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.high-mobility</groupId>
+      <artifactId>hmkit-utils</artifactId>
+      <version>1.4.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.high-mobility</groupId>
+      <artifactId>hmkit-auto-api</artifactId>
+      <version>3.12.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+  </dependencies>
+</project>

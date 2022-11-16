@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.canelmas.let</groupId>
+  <artifactId>let-runtime</artifactId>
+  <version>1.0.0-beta2</version>
+  <packaging>aar</packaging>
+  <name>Let Runtime</name>
+  <description>Annotation based simple API flavoured with AOP to handle new Android runtime permission model</description>
+  <url>https://github.com/canelmas/let/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>canelmas</id>
+      <name>Can Elmas</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/canelmas/let.git</connection>
+    <developerConnection>scm:git@github.com:canelmas/let.git</developerConnection>
+    <url>https://github.com/canelmas/let/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.8.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.canelmas.let</groupId>
+      <artifactId>let-annotations</artifactId>
+      <version>1.0.0-beta2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

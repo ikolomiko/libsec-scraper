@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yalantis</groupId>
+  <artifactId>clock-component</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>ClockComponent</name>
+  <description>Clock Component</description>
+  <url>https://git.yalantis.com/alexey.chernenko/AlarmClock</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yalantis</id>
+      <name>Yalantis</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git.yalantis.com:alexey.chernenko/AlarmClock.git</connection>
+    <developerConnection>scm:git@git.yalantis.com:alexey.chernenko/AlarmClock.git</developerConnection>
+    <url>https://git.yalantis.com/alexey.chernenko/AlarmClock</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

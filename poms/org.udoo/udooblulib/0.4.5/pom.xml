@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.udoo</groupId>
+  <artifactId>udooblulib</artifactId>
+  <version>0.4.5</version>
+  <packaging>aar</packaging>
+  <name>udooblulib</name>
+  <description>Library for control Udoo Blu board (bluetooth low energy)</description>
+  <url>https://github.com/UDOOboard/UDOOBluLib-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>udooboard</id>
+      <name>udooboard</name>
+      <email>social@udoo.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/UDOOboard/UDOOBluLib-android.git</connection>
+    <developerConnection>https://github.com/UDOOboard/UDOOBluLib-android.git</developerConnection>
+    <url>https://github.com/UDOOboard/UDOOBluLib-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

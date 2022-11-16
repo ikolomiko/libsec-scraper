@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.drawers</groupId>
+  <artifactId>SpinnerDatePicker</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>drawers/SpinnerDatePicker</name>
+  <description>A styleable DatePicker for Android using the old spinner style (NumberPickers)</description>
+  <url>https://github.com/drawers/SpinnerDatePicker</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>drawers</id>
+      <name>David Rawson</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/drawers/SpinnerDatePicker.git</connection>
+    <developerConnection>scm:git://github.com/drawers/SpinnerDatePicker.git</developerConnection>
+    <url>git://github.com/drawers/SpinnerDatePicker.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

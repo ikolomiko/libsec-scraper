@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flybits.v3</groupId>
+  <artifactId>context</artifactId>
+  <version>1.4.1r1-beta1</version>
+  <packaging>aar</packaging>
+  <name>context</name>
+  <description>This is the official production build of the Android Context SDK. The Context SDK is responsible for retreiving contextual information about the user/device and reporting to Flybits Context Engine. Once the Context Engine has the context information it determines what content that device should be getting.</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collections4</artifactId>
+      <version>4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>15.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>15.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-fitness</artifactId>
+      <version>16.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>15.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.altbeacon</groupId>
+      <artifactId>android-beacon-library</artifactId>
+      <version>2.12.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.flybits.v3</groupId>
+      <artifactId>commons</artifactId>
+      <version>1.4.2-beta1</version>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>extensions</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

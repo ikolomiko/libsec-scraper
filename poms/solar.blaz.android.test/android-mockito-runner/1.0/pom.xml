@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>solar.blaz.android.test</groupId>
+  <artifactId>android-mockito-runner</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>An implementation of JUnit runner that combines AndroidJUnit4 and MockitoJUnit44Runner.</name>
+  <url>https://github.com/blazsolar/AndroidMockitoRunner</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://rem.mit-license.org</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>blazsolar</id>
+      <name>Blaz Solar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:blazsolar/AndroidMockitoRunner.git</connection>
+    <developerConnection>scm:git@github.com:blazsolar/AndroidMockitoRunner.git</developerConnection>
+    <url>https://github.com/blazsolar/AndroidMockitoRunner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>1.10.19</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

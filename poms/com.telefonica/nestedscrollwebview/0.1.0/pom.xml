@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.telefonica</groupId>
+  <artifactId>nestedscrollwebview</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Nested Scroll WebView for Android</name>
+  <description>A webView implementation with nested scrolling support</description>
+  <url>https://github.com/Telefonica/android-nested-scroll-webview</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>android-team-telefonica</id>
+      <name>Android Team</name>
+      <email>cto-android@telefonica.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Telefonica/android-nested-scroll-webview.git</connection>
+    <developerConnection>scm:git:ssh://https://github.com/Telefonica/android-nested-scroll-webview.git</developerConnection>
+    <url>https://github.com/Telefonica/android-nested-scroll-webview/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+  </dependencies>
+</project>

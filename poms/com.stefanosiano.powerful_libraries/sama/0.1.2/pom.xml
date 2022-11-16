@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stefanosiano.powerful_libraries</groupId>
+  <artifactId>sama</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>Powerful Sama (Simplified Android Mvvm Architecture)</name>
+  <description>Simplified Android Mvvm Architecture</description>
+  <url>https://github.com/stefanosiano/PowerfulSAMA</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stefanosiano</id>
+      <name>Stefano Siano</name>
+      <email>stefano.siano91@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/stefanosiano/PowerfulSAMA.git</connection>
+    <developerConnection>https://github.com/stefanosiano/PowerfulSAMA.git</developerConnection>
+    <url>https://github.com/stefanosiano/PowerfulSAMA</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.11</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

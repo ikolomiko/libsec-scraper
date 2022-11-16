@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazonaws</groupId>
+  <artifactId>aws-android-sdk-appsync</artifactId>
+  <version>3.3.2</version>
+  <packaging>aar</packaging>
+  <name>AWS Android SDK - AppSync GraphQL</name>
+  <description>AWS SDK for Android - AppSync GraphQL client library</description>
+  <url>https://github.com/awslabs/aws-mobile-appsync-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazonwebservices</id>
+      <organizationUrl>http://aws.amazon.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/awslabs/aws-mobile-appsync-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/awslabs/aws-mobile-appsync-sdk-android.git</developerConnection>
+    <url>https://github.com/awslabs/aws-mobile-appsync-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-core</artifactId>
+      <version>2.22.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-mobile-client</artifactId>
+      <version>2.22.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-auth-userpools</artifactId>
+      <version>2.22.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

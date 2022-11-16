@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.gzu-liyujiang.AndroidPicker</groupId>
+  <artifactId>Common</artifactId>
+  <version>v1.3.3</version>
+  <packaging>aar</packaging>
+  <name>Common</name>
+  <description>Common of android picker</description>
+  <url>http://qqtheme.cn</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liyujiang-gzu</id>
+      <name>liyujiang</name>
+      <email>liyujiang_tk@yeah.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/gzu-liyujiang/AndroidPicker.git</connection>
+    <developerConnection>scm:git:https://github.com/gzu-liyujiang/AndroidPicker.git</developerConnection>
+    <url>https://github.com/gzu-liyujiang/AndroidPicker.git</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>http://qqtheme.cn</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>latest.release</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>latest.release</version>
+    </dependency>
+  </dependencies>
+</project>

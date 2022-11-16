@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ingenico.connect.gateway</groupId>
+  <artifactId>connect-sdk-client-android</artifactId>
+  <version>3.1.2</version>
+  <packaging>aar</packaging>
+  <name>connect-sdk-client-android</name>
+  <description>SDK to communicate with the GlobalCollect platform using the Ingenico Connect Client API</description>
+  <url>https://github.com/Ingenico-ePayments/connect-sdk-client-android</url>
+  <organization>
+    <name>Ingenico ePayments</name>
+    <url>https://www.ingenico.com/epayments/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Ingenico-ePayments/connect-sdk-client-android/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Ingenico ePayments</name>
+      <email>github@epay.ingenico.com</email>
+      <organization>Ingenico ePayments</organization>
+      <organizationUrl>https://www.ingenico.com/epayments/</organizationUrl>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/Ingenico-ePayments/connect-sdk-client-android/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git@github.com:Ingenico-ePayments/connect-sdk-client-android.git</connection>
+    <developerConnection>scm:git:git@github.com:Ingenico-ePayments/connect-sdk-client-android.git</developerConnection>
+    <url>https://github.com/Ingenico-ePayments/connect-sdk-client-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wallet</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

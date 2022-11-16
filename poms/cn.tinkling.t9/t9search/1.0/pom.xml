@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.tinkling.t9</groupId>
+  <artifactId>t9search</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Android T9 Search Support Library</name>
+  <description>Android T9 Search Support</description>
+  <url>https://github.com/Tinkling/T9Search</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tinkling</id>
+      <name>tinkling</name>
+      <email>tink-ling@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/Tinkling/T9Search.git</connection>
+    <developerConnection>scm:https://github.com/Tinkling/T9Search.git</developerConnection>
+    <url>https://github.com/Tinkling/T9Search</url>
+  </scm>
+</project>

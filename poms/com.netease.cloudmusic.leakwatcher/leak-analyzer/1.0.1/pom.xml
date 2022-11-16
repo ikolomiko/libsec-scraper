@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netease.cloudmusic.leakwatcher</groupId>
+  <artifactId>leak-analyzer</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Leak Analyzer</name>
+  <description>Leak Analyzer</description>
+  <url>https://g.hz.netease.com/cloudmusic-android/LeakWatcher</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>CloudMusic</id>
+      <name>CloudMusic, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://g.hz.netease.com/cloudmusic-android/LeakWatcher.git</connection>
+    <developerConnection>scm:git:git@g.hz.netease.com/cloudmusic-android/LeakWatcher.git</developerConnection>
+    <url>https://g.hz.netease.com/cloudmusic-android/LeakWatcher.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.netease.cloudmusic.leakwatcher</groupId>
+      <artifactId>leak-watcher</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.haha</groupId>
+      <artifactId>haha</artifactId>
+      <version>2.0.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.8.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

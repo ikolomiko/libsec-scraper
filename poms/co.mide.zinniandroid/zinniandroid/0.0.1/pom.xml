@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.mide.zinniandroid</groupId>
+  <artifactId>zinniandroid</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Zinnia-Android</name>
+  <description>An android wrapper aound the zinnia handwriting recognition library</description>
+  <url>https://github.com/0lumide/Zinniandroid</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>0lumide</id>
+      <name>Olumide Awofeso</name>
+      <email>olumideawofeso@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/0lumide/Zinniandroid.git</connection>
+    <developerConnection>https://github.com/0lumide/Zinniandroid.git</developerConnection>
+    <url>https://github.com/0lumide/Zinniandroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

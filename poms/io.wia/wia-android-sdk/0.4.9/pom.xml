@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.wia</groupId>
+  <artifactId>wia-android-sdk</artifactId>
+  <version>0.4.9</version>
+  <packaging>aar</packaging>
+  <description>A library that gives you access to the powerful Wia cloud platform from your Android app.</description>
+  <name>Wia-Android-SDK</name>
+  <url>https://github.com/wiaio/wia-android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/wiaio/wia-android-sdk/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:wiaio/wia-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:wiaio/wia-android-sdk.git</developerConnection>
+    <url>https://github.com/wiaio/wia-android-sdk</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>wia</id>
+      <name>Wia</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>adapter-rxjava2</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.7</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+  </dependencies>
+</project>

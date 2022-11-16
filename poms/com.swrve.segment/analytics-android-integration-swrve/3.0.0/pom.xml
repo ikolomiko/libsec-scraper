@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.swrve.segment</groupId>
+  <artifactId>analytics-android-integration-swrve</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>SwrveSegmentSDK</name>
+  <description>SwrveSegmentSDK is the swrve segment integration</description>
+  <url>https://github.com/Swrve/swrve-segment-android-kit</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.swrve.sdk.android</groupId>
+      <artifactId>swrve</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.segment.analytics.android</groupId>
+      <artifactId>analytics</artifactId>
+      <version>4.10.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>scm:git@github.com:Swrve/swrve-segment-android-kit.git</url>
+    <connection>scm:git@github.com:Swrve/swrve-segment-android-kit.git</connection>
+    <developerConnection>scm:git@github.com:Swrve/swrve-segment-android-kit.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdkdev</id>
+      <name>Swrve SDK Developer</name>
+    </developer>
+  </developers>
+</project>

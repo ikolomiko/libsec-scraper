@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.hyphenate</groupId>
+  <artifactId>hyphenate-sdk</artifactId>
+  <version>3.3.0</version>
+  <packaging>aar</packaging>
+  <name>hyphenate-sdk</name>
+	<description>With hyphenate-sdk, we can realize instant communication quickly and easily.</description>
+  <url>https://github.com/HyphenateInc/Hyphenate-SDK-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Easemob</id>
+      <name>Easemob</name>
+		<email>sdk-tools@easemob.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HyphenateInc/Hyphenate-SDK-Android.git</connection>
+    <developerConnection>https://github.com/HyphenateInc/Hyphenate-SDK-Android.git</developerConnection>
+    <url>https://github.com/HyphenateInc/Hyphenate-SDK-Android</url>
+  </scm>
+</project>

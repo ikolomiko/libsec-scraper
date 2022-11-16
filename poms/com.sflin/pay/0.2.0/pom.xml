@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sflin</groupId>
+  <artifactId>pay</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Pay</name>
+  <url>https://github.com/HellForGate/PaySDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>SFLin</id>
+      <name>SFLin</name>
+      <email>a995171801@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HellForGate/PaySDK.git</connection>
+    <developerConnection>https://github.com/HellForGate/PaySDK.git</developerConnection>
+    <url>https://github.com/HellForGate/PaySDK</url>
+  </scm>
+</project>

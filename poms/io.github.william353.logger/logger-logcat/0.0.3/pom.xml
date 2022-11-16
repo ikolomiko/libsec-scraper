@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.william353.logger</groupId>
+  <artifactId>logger-logcat</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>logger-logcat</name>
+  <description>logger-logcat</description>
+  <url>https://github.com/William353/Logger-wp</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://raw.githubusercontent.com/qianyan/underscore.string.java/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>William353</id>
+      <name>wangpeng</name>
+      <email>wangpeng181105@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/William353/Logger-wp.git</connection>
+    <developerConnection>scm:git:git@github.com:William353/Logger-wp.git</developerConnection>
+    <url>https://github.com/William353/Logger-wp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>Logger</groupId>
+      <artifactId>logger-api</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.31</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.ene.lab</groupId>
+  <artifactId>toro</artifactId>
+  <version>2.0.0-RC5</version>
+  <packaging>aar</packaging>
+  <name>Toro</name>
+  <description>Toro core service, backed by Toro Player, provide easy to implement Auto Video playback to Android.</description>
+  <url>https://github.com/eneim/Toro</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>eneim</id>
+      <name>Nam Nguyen</name>
+      <email>nam@ene.im</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/eneim/Toro.git</connection>
+    <developerConnection>https://github.com/eneim/Toro.git</developerConnection>
+    <url>https://github.com/eneim/Toro</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>im.ene.lab</groupId>
+      <artifactId>toro-media</artifactId>
+      <version>2.0.0-RC5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

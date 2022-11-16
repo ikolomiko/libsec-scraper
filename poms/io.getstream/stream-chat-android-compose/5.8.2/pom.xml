@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.getstream</groupId>
+  <artifactId>stream-chat-android-compose</artifactId>
+  <version>5.8.2</version>
+  <packaging>aar</packaging>
+  <name>stream-chat-android-compose</name>
+  <description>Stream Chat official Android SDK</description>
+  <url>https://github.com/getstream/stream-chat-android</url>
+  <licenses>
+    <license>
+      <name>Stream License</name>
+      <url>https://github.com/GetStream/stream-chat-android/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tschellenbach</id>
+      <name>Thierry Schellenbach</name>
+      <email>thierry@getstream.io</email>
+    </developer>
+    <developer>
+      <id>jcminarro</id>
+      <name>Jc Miñarro</name>
+      <email>josecarlos@getstream.io</email>
+    </developer>
+    <developer>
+      <id>samiuelson</id>
+      <name>Samuel Urbanowicz</name>
+      <email>samuel@getstream.io</email>
+    </developer>
+    <developer>
+      <id>adasiewiczr</id>
+      <name>Rafal Adasiewicz</name>
+      <email>rafal@getstream.io</email>
+    </developer>
+    <developer>
+      <id>ogkuzmin</id>
+      <name>Oleg Kuzmin</name>
+      <email>oleg@getstream.io</email>
+    </developer>
+    <developer>
+      <id>zsmb13</id>
+      <name>Márton Braun</name>
+      <email>marton@getstream.io</email>
+    </developer>
+    <developer>
+      <id>leandroBorgesFerreira</id>
+      <name>Leandro Borges Ferreira</name>
+      <email>leandro@getstream.io</email>
+    </developer>
+    <developer>
+      <id>bychkovdmitry</id>
+      <name>Dmitrii Bychkov</name>
+      <email>dmitrii@getstream.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/getstream/stream-chat-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/getstream/stream-chat-android.git</developerConnection>
+    <url>https://github.com/getstream/stream-chat-android/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.getstream</groupId>
+      <artifactId>stream-chat-android-ui-common</artifactId>
+      <version>5.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-parcelize-runtime</artifactId>
+      <version>1.7.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.getstream</groupId>
+      <artifactId>stream-chat-android-ui-utils</artifactId>
+      <version>5.8.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.compiler</groupId>
+      <artifactId>compiler</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-tooling</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.activity</groupId>
+      <artifactId>activity-compose</artifactId>
+      <version>1.5.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-compose</artifactId>
+      <version>2.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.accompanist</groupId>
+      <artifactId>accompanist-permissions</artifactId>
+      <version>0.25.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.accompanist</groupId>
+      <artifactId>accompanist-pager</artifactId>
+      <version>0.25.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.accompanist</groupId>
+      <artifactId>accompanist-systemuicontroller</artifactId>
+      <version>0.25.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-compose</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-gif</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-video</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>au.com.domain</groupId>
+  <artifactId>accounts-autocomplete</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Accounts AutoComplete</name>
+  <description>An M-compatible custom AutoCompleteTextView that shows the user's Google accounts as autocomplete suggestions.</description>
+  <url>https://github.com/DomainGroupOSS/accounts-autocomplete</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DomainGroupOSS</id>
+      <name>Domain Group</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/DomainGroupOSS/accounts-autocomplete.git</connection>
+    <developerConnection>scm:git:git://github.com/DomainGroupOSS/accounts-autocomplete.git</developerConnection>
+    <url>https://github.com/DomainGroupOSS/accounts-autocomplete</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-auth</artifactId>
+      <version>9.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

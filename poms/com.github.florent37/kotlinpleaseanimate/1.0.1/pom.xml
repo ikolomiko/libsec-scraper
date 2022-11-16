@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.florent37</groupId>
+  <artifactId>kotlinpleaseanimate</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Kotlin Please Animate</name>
+  <description>Kotlin, Please Animate</description>
+  <url>https://github.com/florent37/KotlinPleaseAnimate</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>florent37</id>
+      <name>Florent Champigny</name>
+      <email>champigny.florent@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/florent37/KotlinPleaseAnimate.git</connection>
+    <developerConnection>https://github.com/florent37/KotlinPleaseAnimate.git</developerConnection>
+    <url>https://github.com/florent37/KotlinPleaseAnimate</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.2.30</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

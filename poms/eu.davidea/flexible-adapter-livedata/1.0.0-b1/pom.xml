@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.davidea</groupId>
+  <artifactId>flexible-adapter-livedata</artifactId>
+  <version>1.0.0-b1</version>
+  <packaging>aar</packaging>
+  <name>FlexibleAdapter LiveData extension</name>
+  <description>LiveData extension for FlexibleAdapter project</description>
+  <url>https://github.com/davideas/FlexibleAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davideas</id>
+      <name>Davide Steduto</name>
+      <email>dave.dna@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/davideas/FlexibleAdapter.git</connection>
+    <developerConnection>https://github.com/davideas/FlexibleAdapter.git</developerConnection>
+    <url>https://github.com/davideas/FlexibleAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

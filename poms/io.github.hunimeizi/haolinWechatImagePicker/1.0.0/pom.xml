@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.hunimeizi</groupId>
+  <artifactId>haolinWechatImagePicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>haolinWechatImagePicker</name>
+  <description>ARabbit is a sdk for faster android app development.</description>
+  <url>https://github.com/hunimeizi/WechatImagePicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hunimeizi</id>
+      <name>haolin</name>
+      <email>lhaolin0304@aliyun.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hunimeizi/WechatImagePicker</connection>
+    <developerConnection>https://github.com/hunimeizi/WechatImagePicker</developerConnection>
+    <url>https://github.com/hunimeizi/WechatImagePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>kotlin-stdlib</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>core-ktx</artifactId>
+      <groupId>androidx.core</groupId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>appcompat</artifactId>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>material</artifactId>
+      <groupId>com.google.android.material</groupId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>immersive</artifactId>
+      <groupId>com.hacknife</groupId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>coil</artifactId>
+      <groupId>io.coil-kt</groupId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

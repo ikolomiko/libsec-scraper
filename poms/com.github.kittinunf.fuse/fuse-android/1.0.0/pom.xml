@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kittinunf.fuse</groupId>
+  <artifactId>fuse-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>fuse-android</name>
+  <description>The simple generic LRU memory/disk cache for Android written in Kotlin.</description>
+  <url>https://github.com/kittinunf/Fuse</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>kittinunf</name>
+    </developer>
+    <developer>
+      <name>BabeDev</name>
+    </developer>
+    <developer>
+      <name>beylerian</name>
+    </developer>
+    <developer>
+      <name>zalewskise</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:kittinunf/fuse.git</connection>
+    <developerConnection>git@github.com:kittinunf/fuse.git</developerConnection>
+    <url>https://github.com/kittinunf/Fuse</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.kittinunf.fuse</groupId>
+      <artifactId>fuse</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+  </dependencies>
+</project>

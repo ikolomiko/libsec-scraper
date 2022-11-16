@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.graphstream</groupId>
+  <artifactId>gs-ui-android</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>gs-ui-android</name>
+  <description>The GraphStream library. With GraphStream you deal with graphs. Static and Dynamic. You create them from scratch, from a file or any source. You display and render them. This is the core package that contains the minimal needed to read and write a graph.</description>
+  <url>https://graphstream-project.org</url>
+  <licenses>
+    <license>
+      <name>LGPL3</name>
+      <url>http://www.gnu.org/copyleft/lesser.html</url>
+    </license>
+    <license>
+      <name>Cecill-C</name>
+      <url>http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>brahimi</id>
+      <name>Hicham Brahimi</name>
+      <email>bhicham.brahimi@graphstream-project.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/graphstream/gs-core.git</connection>
+    <developerConnection>scm:git:git://github.com/graphstream/gs-core.git</developerConnection>
+    <url>https://github.com/graphstream/gs-core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.graphstream</groupId>
+      <artifactId>gs-core</artifactId>
+      <version>2.0</version>
+    </dependency>
+  </dependencies>
+</project>

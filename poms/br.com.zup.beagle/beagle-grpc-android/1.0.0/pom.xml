@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.zup.beagle</groupId>
+  <artifactId>beagle-grpc-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>beagle-grpc-android</name>
+  <description>A framework to help implement Server-Driven UI in your apps natively.</description>
+  <url>https://github.com/ZupIT/beagle-grpc</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zupit</id>
+      <name>Zup IT</name>
+      <url>beagle@zup.com.br</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ZupIT/beagle-grpc.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:ZupIT/beagle-grpc.git</developerConnection>
+    <url>https://github.com/ZupIT/beagle-grpc</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-kotlin-stub-lite</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>br.com.zup.beagle</groupId>
+      <artifactId>android</artifactId>
+      <version>1.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-okhttp</artifactId>
+      <version>1.36.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-protobuf-lite</artifactId>
+      <version>1.36.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-stub</artifactId>
+      <version>1.36.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-kotlin</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-adapters</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

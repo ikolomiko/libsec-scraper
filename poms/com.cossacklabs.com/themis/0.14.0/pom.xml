@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cossacklabs.com</groupId>
+  <artifactId>themis</artifactId>
+  <version>0.14.0</version>
+  <packaging>aar</packaging>
+  <name>Themis for Android</name>
+  <description>Cross-platform high-level cryptographic library for mobile, web, and server platforms</description>
+  <url>https://www.cossacklabs.com/themis/</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Cossack Labs</name>
+      <email>dev@cossacklabs.com</email>
+      <organization>Cossack Labs</organization>
+      <organizationUrl>https://www.cossacklabs.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cossacklabs/themis.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cossacklabs/themis.git</developerConnection>
+    <url>https://github.com/cossacklabs/themis</url>
+  </scm>
+</project>

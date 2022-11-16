@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fasten</groupId>
+  <artifactId>androidPermission</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>androidPermission</name>
+  <description>android基于aop动态权限申请</description>
+  <url>https://github.com/stormzsl/AndroidRequestPeimission</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stormzslwly</id>
+      <name>storm</name>
+      <email>zxlstorm@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/stormzsl/AndroidRequestPeimission.git</connection>
+    <developerConnection>https://github.com/stormzsl/AndroidRequestPeimission.git</developerConnection>
+    <url>https://github.com/stormzsl/AndroidRequestPeimission</url>
+  </scm>
+</project>

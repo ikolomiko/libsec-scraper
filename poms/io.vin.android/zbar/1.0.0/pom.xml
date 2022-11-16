@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.vin.android</groupId>
+  <artifactId>zbar</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>zbar</name>
+  <description>Android ZBar Bar Code Reader</description>
+  <url>https://github.com/vinint/Android-Scanner</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License version 2.1</name>
+      <url>https://opensource.org/licenses/lgpl-2.1.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id></id>
+      <name>vin</name>
+      <email>vinintg@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vinint/Android-Scanner.git</connection>
+    <developerConnection>https://github.com/vinint/Android-Scanner.git</developerConnection>
+    <url>https://github.com/vinint/Android-Scanner</url>
+  </scm>
+</project>

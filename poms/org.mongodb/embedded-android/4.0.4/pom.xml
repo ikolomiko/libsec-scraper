@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mongodb</groupId>
+  <artifactId>embedded-android</artifactId>
+  <version>4.0.4</version>
+  <packaging>aar</packaging>
+  <name>embedded-capi-android</name>
+  <description>The MongoDB Embedded SDK for Java - Android</description>
+  <url>http://www.mongodb.org</url>
+  <licenses>
+    <license>
+      <name>MongoDB Embedded License</name>
+      <url>https://www.mongodb.com/licensing/embedded-license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mongodb</id>
+      <name>MongoDB Inc.</name>
+      <email>build@mongodb.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/mongodb/mongo.git</connection>
+    <developerConnection>scm:https://github.com/mongodb/mongo.git</developerConnection>
+    <url>https://github.com/mongodb/mongo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>4.5.2</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.loopeer.library</groupId>
+  <artifactId>imageswitcher</artifactId>
+  <version>0.0.2-beta1</version>
+  <packaging>aar</packaging>
+  <name>Image Switcher</name>
+  <description>Image Switcher</description>
+  <url>https://github.com/loopeer/ProjectDevelopModule</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ToDou</id>
+      <name>ToDou</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/loopeer/ProjectDevelopModule.git</connection>
+    <developerConnection>scm:git:git@github.com/loopeer/ProjectDevelopModule.git</developerConnection>
+    <url>https://github.com/loopeer/ProjectDevelopModule.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>0.14.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-ui</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-fragment</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

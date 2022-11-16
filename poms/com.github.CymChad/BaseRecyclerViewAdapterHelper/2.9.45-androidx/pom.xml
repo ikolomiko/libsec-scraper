@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.CymChad</groupId>
+  <artifactId>BaseRecyclerViewAdapterHelper</artifactId>
+  <version>2.9.45-androidx</version>
+  <packaging>aar</packaging>
+  <name>CymChad/BaseRecyclerViewAdapterHelper</name>
+  <description>BRVAH:Powerful and flexible RecyclerAdapter</description>
+  <url>http://www.recyclerview.org/</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>CymChad</id>
+      <name>陈宇明</name>
+      <email>it_chenyuming@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/CymChad/BaseRecyclerViewAdapterHelper.git</connection>
+    <developerConnection>scm:git://github.com/CymChad/BaseRecyclerViewAdapterHelper.git</developerConnection>
+    <url>git://github.com/CymChad/BaseRecyclerViewAdapterHelper.git</url>
+  </scm>
+</project>

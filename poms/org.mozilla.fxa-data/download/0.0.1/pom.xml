@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mozilla.fxa-data</groupId>
+  <artifactId>download</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>FirefoxData</name>
+  <description>The public API for FirefoxData, allowing login and access to a user's history, bookmarks, etc.</description>
+  <url>https://github.com/mozilla-mobile/FirefoxAccounts-android</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mcomella</id>
+      <name>Michael Comella</name>
+      <email>michael.l.comella@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mozilla-mobile/FirefoxAccounts-android.git</connection>
+    <developerConnection>https://github.com/mozilla-mobile/FirefoxAccounts-android.git</developerConnection>
+    <url>https://github.com/mozilla-mobile/FirefoxAccounts-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla.fxa-data</groupId>
+      <artifactId>thirdparty</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla.fxa-data</groupId>
+      <artifactId>gecko</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

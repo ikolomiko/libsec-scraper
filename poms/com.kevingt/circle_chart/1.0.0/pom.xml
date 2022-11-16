@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kevingt</groupId>
+  <artifactId>circle_chart</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>CircleChart</name>
+  <description>Make a Circle Chart to show composition in percentage.</description>
+  <url>https://github.com/kevinguitar/CircleChart</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevingt</id>
+      <name>Kevin Chiu</name>
+      <email>kevingt@25sprout.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kevinguitar/CircleChart.git</connection>
+    <developerConnection>https://github.com/kevinguitar/CircleChart.git</developerConnection>
+    <url>https://github.com/kevinguitar/CircleChart</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

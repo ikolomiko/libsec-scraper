@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zhangyue.we</groupId>
+  <artifactId>x2c-binding</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>xml 2 code libraray</name>
+  <url>https://github.com/chengweidev</url>
+  <licenses>
+    <license>
+      <name>xml 2 code libraray</name>
+      <url>https://github.com/chengweidev</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chengweidev</id>
+      <name>chengweidev</name>
+      <email>chengweidev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/chengweidev</connection>
+    <developerConnection>https://github.com/chengweidev</developerConnection>
+    <url>https://github.com/chengweidev</url>
+  </scm>
+</project>

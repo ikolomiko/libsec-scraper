@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sobot.call</groupId>
+  <artifactId>sobotcall</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>sobotcall</name>
+  <description>sobot call sdk</description>
+  <url>https://code.zhichidata.com/sobot-call/Sobot_Call_Sdk_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>app_dev@sobot.com</id>
+      <name>zhichi</name>
+      <email>app_dev@sobot.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@code.zhichidata.com:sobot-call/Sobot_Call_Sdk_Android.git</connection>
+    <developerConnection>git@code.zhichidata.com:sobot-call/Sobot_Call_Sdk_Android.git</developerConnection>
+    <url>https://code.zhichidata.com/sobot-call/Sobot_Call_Sdk_Android/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>sipphonelibrary</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>com.sobot.library</groupId>
+      <artifactId>sobotcommon</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+</project>

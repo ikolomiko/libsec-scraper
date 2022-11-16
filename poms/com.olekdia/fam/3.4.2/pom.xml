@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olekdia</groupId>
+  <artifactId>fam</artifactId>
+  <version>3.4.2</version>
+  <packaging>aar</packaging>
+  <name>FAM</name>
+  <description>An implementation of floating action menu https://material.io/components/buttons-floating-action-button</description>
+  <url>https://gitlab.com/olekdia/common/libraries/fam</url>
+  <organization>
+    <name>olekdia</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olekdia</id>
+      <name>Oleksandr Albul</name>
+      <email>abdula.ua@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/olekdia/common/libraries/fam.git</connection>
+    <developerConnection>https://gitlab.com/olekdia/common/libraries/fam.git</developerConnection>
+    <url>https://gitlab.com/olekdia/common/libraries/fam</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>multiplatform-common-jvm</artifactId>
+      <version>0.5.27</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>android-common</artifactId>
+      <version>3.5.12</version>
+    </dependency>
+  </dependencies>
+</project>

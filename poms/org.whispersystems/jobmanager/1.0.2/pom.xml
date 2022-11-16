@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.whispersystems</groupId>
+  <artifactId>jobmanager</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>jobmanager</name>
+  <description>Job Manager for Android</description>
+  <url>https://github.com/WhisperSystems/jobmanager</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Moxie Marlinspike</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:WhisperSystems/jobmanager.git</connection>
+    <developerConnection>scm:git@github.com:WhisperSystems/jobmanager.git</developerConnection>
+    <url>scm:git@github.com:WhisperSystems/jobmanager.git</url>
+  </scm>
+</project>

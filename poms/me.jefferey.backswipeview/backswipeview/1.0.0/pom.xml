@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.jefferey.backswipeview</groupId>
+  <artifactId>backswipeview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>BackSwipeView</name>
+  <description>Library module that allows simple implementation of back swipe navigation with Fragments</description>
+  <url>https://github.com/jetpeter/android-backswipe-view</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/jetpeter/android-backswipe-view/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jetpeter</id>
+      <name>Jefferey Petersen</name>
+      <email>jffryptrsn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jetpeter/android-backswipe-view.git</connection>
+    <developerConnection>https://github.com/jetpeter/android-backswipe-view.git</developerConnection>
+    <url>https://github.com/jetpeter/android-backswipe-view</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

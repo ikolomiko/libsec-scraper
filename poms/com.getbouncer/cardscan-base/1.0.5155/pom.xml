@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbouncer</groupId>
+  <artifactId>cardscan-base</artifactId>
+  <version>1.0.5155</version>
+  <packaging>aar</packaging>
+  <name>cardscan-base</name>
+  <description>This library provides an Activity that you can use to scan credit and debit cards.</description>
+  <url>https://github.com/getbouncer/cardscan-android</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>getbouncer</id>
+      <name>Bouncer Technologies</name>
+      <email>contact@getbouncer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/getbouncer/cardscan-android.git</connection>
+    <developerConnection>https://github.com/getbouncer/cardscan-android.git</developerConnection>
+    <url>https://github.com/getbouncer/cardscan-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>1.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.espresso</groupId>
+      <artifactId>espresso-idling-resource</artifactId>
+      <version>3.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite</artifactId>
+      <version>1.15.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

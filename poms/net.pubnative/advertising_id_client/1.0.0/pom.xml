@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.pubnative</groupId>
+  <artifactId>advertising_id_client</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>advertising-id-client</name>
+  <description>Tool to retrieve android advertising id without using google play services</description>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cerberillo</id>
+      <name>David Martin</name>
+      <email>david@martinmacias.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pubnative/advertising-id-client.git</connection>
+    <developerConnection>https://github.com/pubnative/advertising-id-client.git</developerConnection>
+    <url>https://github.com/pubnative/advertising-id-client</url>
+  </scm>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.befovy.fijkplayer</groupId>
+  <artifactId>fijkplayer-full</artifactId>
+  <version>0.7.16</version>
+  <packaging>aar</packaging>
+  <name>fijkplayer-full</name>
+  <description>Video player based on FFmpeg n3.2</description>
+  <url>https://github.com/befovy/ijkplayer</url>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>befovy</id>
+      <name>Befovy</name>
+      <email>befovy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:befovy/ijkplayer.git</connection>
+    <developerConnection>scm:git:git@github.com:befovy/ijkplayer.git</developerConnection>
+    <url>https://github.com/befovy/ijkplayer</url>
+  </scm>
+</project>

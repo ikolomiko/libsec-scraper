@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ksrainarthas</groupId>
+  <artifactId>parallax_back</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>parallax_back</name>
+  <description>parallax_back</description>
+  <url>https://github.com/ksrainarthas/parallax_back</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ksrainarthas</id>
+      <name>ksrainarthas</name>
+      <email>525766914@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/ksrainarthas/parallax_back.git</connection>
+    <developerConnection>scm:git:ssh://github.com/ksrainarthas/parallax_back.git</developerConnection>
+    <url>https://github.com/ksrainarthas/parallax_back</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.0-alpha02</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

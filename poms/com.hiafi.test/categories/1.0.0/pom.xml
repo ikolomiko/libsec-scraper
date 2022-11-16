@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hiafi.test</groupId>
+  <artifactId>categories</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>test-categories</name>
+  <description>Test categories for Android to allow the filtering of JUnits</description>
+  <url>https://xni06@bitbucket.org/xni06/test-categories</url>
+  <licenses>
+    <license>
+      <name>[Apache-2.0]</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer />
+  </developers>
+  <scm>
+    <connection>https://xni06@bitbucket.org/xni06/test-categories.git</connection>
+    <url>https://xni06@bitbucket.org/xni06/test-categories</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

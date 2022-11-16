@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ly.iterative.mparticle</groupId>
+  <artifactId>android-core</artifactId>
+  <version>5.14.12</version>
+  <packaging>aar</packaging>
+  <name>Core mParticle SDK supporting only server-side integrations.</name>
+  <description>Core mParticle SDK supporting only server-side integrations.</description>
+  <url>https://github.com/iterativelyhq/mparticle-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iteratively-justin</id>
+      <name>Justin Fiedler</name>
+      <email>justin@iterative.ly</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/iterativelyhq/mparticle-android-sdk</connection>
+    <developerConnection>scm:git:https://github.com/iterativelyhq/mparticle-android-sdk.git</developerConnection>
+    <url>https://github.com/iterativelyhq/mparticle-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ly.iterative.itly</groupId>
+      <artifactId>sdk-android</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

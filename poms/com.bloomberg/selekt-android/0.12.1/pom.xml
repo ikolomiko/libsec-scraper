@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bloomberg</groupId>
+  <artifactId>selekt-android</artifactId>
+  <version>0.12.1</version>
+  <packaging>aar</packaging>
+  <name>GitHub Actions</name>
+  <description>Selekt Android SQLite library.</description>
+  <url>https://github.com/bloomberg/selekt</url>
+  <inceptionYear>2019</inceptionYear>
+  <organization>
+    <name>Bloomberg LP</name>
+    <url>https://www.bloomberg.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kennethshackleton</id>
+      <name>Kenneth J. Shackleton</name>
+      <email>kshackleton1@bloomberg.net</email>
+      <organization>Bloomberg LP</organization>
+      <organizationUrl>https://github.com/bloomberg</organizationUrl>
+    </developer>
+    <developer>
+      <id>xouabita</id>
+      <name>Alexandre Abita</name>
+      <email>aabita@bloomberg.net</email>
+      <organization>Bloomberg LP</organization>
+      <organizationUrl>https://github.com/bloomberg</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:bloomberg/selekt.git</connection>
+    <developerConnection>git@github.com:bloomberg/selekt.git</developerConnection>
+    <tag>a2279ceffe048fdd2367c7136c9ac11a68b590d3</tag>
+    <url>https://github.com/bloomberg/Selekt</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/bloomberg/Selekt/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <url>https://github.com/bloomberg/selekt/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.bloomberg.selekt</groupId>
+      <artifactId>selekt-api</artifactId>
+      <version>0.12.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.4.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bloomberg.selekt</groupId>
+      <artifactId>selekt-java</artifactId>
+      <version>0.12.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bloomberg.selekt</groupId>
+      <artifactId>selekt-sqlite3</artifactId>
+      <version>0.12.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

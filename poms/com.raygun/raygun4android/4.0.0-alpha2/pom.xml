@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.raygun</groupId>
+  <artifactId>raygun4android</artifactId>
+  <version>4.0.0-alpha2</version>
+  <packaging>aar</packaging>
+  <name>Raygun4Android</name>
+  <description>The best Android crash and exception reporter.</description>
+  <url>https://github.com/MindscapeHQ/raygun4android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>callum</id>
+      <name>Callum Gavin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:MindscapeHQ/raygun4android.git</connection>
+    <developerConnection>scm:git@github.com:MindscapeHQ/raygun4android</developerConnection>
+    <url>https://github.com/MindscapeHQ/raygun4android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

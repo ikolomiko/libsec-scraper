@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.cash.quickjs</groupId>
+  <artifactId>quickjs-android</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>QuickJS for Android</name>
+  <description>The QuickJS embeddable JavaScript engine packaged for Android.</description>
+  <url>https://github.com/cashapp/quickjs-java/</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cashapp</id>
+      <name>CashApp</name>
+      <url>https://github.com/cashapp</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cashapp/quickjs-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/cashapp/quickjs-java.git</developerConnection>
+    <url>https://github.com/cashapp/quickjs-java/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

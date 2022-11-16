@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alanapi.db</groupId>
+  <artifactId>alanapi-db</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>alanapi-db</name>
+  <description>Db Code For Android</description>
+  <url>http://www.alanapi.com</url>
+  <inceptionYear>Wed Nov 14 14:06:02 CST 2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alanapi</id>
+      <name>alanapi</name>
+      <email>alanapi@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://www.alanapi.com</connection>
+    <developerConnection>http://www.alanapi.com</developerConnection>
+    <url>http://www.alanapi.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-core</artifactId>
+      <version>5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-android</artifactId>
+      <version>5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

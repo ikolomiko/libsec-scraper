@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.florianschuster.koordinator</groupId>
+  <artifactId>koordinator-android</artifactId>
+  <version>0.0.14</version>
+  <packaging>aar</packaging>
+  <name>Koordinator-Android</name>
+  <description>Android Extensions for Koordinator, a simple pattern for Android applications to separate specific navigation implementation from view controllers.</description>
+  <url>https://github.com/floschu/Koordinator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flosch</id>
+      <name>Florian Schuster</name>
+      <email>mail@florianschuster.at</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/floschu/Koordinator.git</connection>
+    <developerConnection>https://github.com/floschu/Koordinator.git</developerConnection>
+    <url>https://github.com/floschu/Koordinator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>at.florianschuster.koordinator</groupId>
+      <artifactId>koordinator-core</artifactId>
+      <version>0.0.14</version>
+    </dependency>
+  </dependencies>
+</project>

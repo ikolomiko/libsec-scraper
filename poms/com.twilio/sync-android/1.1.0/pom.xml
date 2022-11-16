@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>sync-android</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Sync SDK for Android</name>
+  <description>An Android library for synchronization mobile apps with a single source of state in the cloud.</description>
+  <url>https://www.twilio.com/docs/sync</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:twilio/sync-quickstart-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:twilio/sync-quickstart-android.git</developerConnection>
+    <url>https://github.com/twilio/sync-quickstart-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.getkeepsafe.relinker</groupId>
+      <artifactId>relinker</artifactId>
+      <version>1.4.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.neovisionaries</groupId>
+      <artifactId>nv-websocket-client</artifactId>
+      <version>2.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

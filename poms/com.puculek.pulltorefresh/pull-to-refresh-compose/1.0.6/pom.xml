@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.puculek.pulltorefresh</groupId>
+  <artifactId>pull-to-refresh-compose</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>pull-to-refresh-compose</name>
+  <description>Jetpack Compose pull to refresh component</description>
+  <url>https://github.com/poculeka/PullToRefresh</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>poculeka</id>
+      <name>Adrian Pucułek</name>
+      <email>puculeka@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/poculeka/PullToRefresh</connection>
+    <developerConnection>scm:git:ssh://github.com/poculeka/PullToRefresh</developerConnection>
+    <url>https://github.com/poculeka/PullToRefresh/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.0.0-beta04</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-beta04</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-tooling</artifactId>
+      <version>1.0.0-beta04</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.activity</groupId>
+      <artifactId>activity-compose</artifactId>
+      <version>1.3.0-alpha03</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.31</version>
+    </dependency>
+  </dependencies>
+</project>

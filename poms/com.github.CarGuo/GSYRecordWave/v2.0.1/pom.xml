@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.CarGuo</groupId>
+  <artifactId>GSYRecordWave</artifactId>
+  <version>v2.0.1</version>
+  <packaging>aar</packaging>
+  <name>CarGuo/GSYRecordWave</name>
+  <description>MP3音频录制，支持类似IOS原生的单边或者双边波形显示，低版本音频权限兼容，本地或者在线音频播放的波形显示，录制波形和播放波形会根据声音频率变色的功能，边播边缓存功能，简书入口http://www.jianshu.com/p/2448e2903b07</description>
+  <url>https://github.com/CarGuo/GSYRecordWave</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>CarGuo</id>
+      <name>Shuyu Guo</name>
+      <email>asher.guo@edragonconnect.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/CarGuo/GSYRecordWave.git</connection>
+    <developerConnection>scm:git://github.com/CarGuo/GSYRecordWave.git</developerConnection>
+    <url>git://github.com/CarGuo/GSYRecordWave.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.danikula</groupId>
+      <artifactId>videocache</artifactId>
+      <version>2.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

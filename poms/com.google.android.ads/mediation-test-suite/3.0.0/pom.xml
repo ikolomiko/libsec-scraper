@@ -1,0 +1,89 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation=  "http://maven.apache.org/POM/4.0.0
+  http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.android.ads</groupId>
+  <artifactId>mediation-test-suite</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>Android Software Development Kit License</name>
+      <url>https://developer.android.com/studio/terms.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+<dependencies>
+<dependency>
+    <groupId>com.google.android.gms</groupId>
+    <artifactId>play-services-ads</artifactId>
+    <version>21.0.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>androidx.appcompat</groupId>
+    <artifactId>appcompat</artifactId>
+    <version>1.1.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>androidx.recyclerview</groupId>
+    <artifactId>recyclerview</artifactId>
+    <version>1.1.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>androidx.cardview</groupId>
+    <artifactId>cardview</artifactId>
+    <version>1.0.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>com.google.android.material</groupId>
+    <artifactId>material</artifactId>
+    <version>1.1.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>androidx.constraintlayout</groupId>
+    <artifactId>constraintlayout</artifactId>
+    <version>1.1.3</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>com.google.android.flexbox</groupId>
+    <artifactId>flexbox</artifactId>
+    <version>3.0.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.5</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>com.android.volley</groupId>
+    <artifactId>volley</artifactId>
+    <version>1.2.0</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+<dependency>
+    <groupId>androidx.multidex</groupId>
+    <artifactId>multidex</artifactId>
+    <version>2.0.1</version>
+    <packaging>aar</packaging>
+</dependency>
+    
+</dependencies>
+</project>

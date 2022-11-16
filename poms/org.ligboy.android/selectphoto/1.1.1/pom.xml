@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ligboy.android</groupId>
+  <artifactId>selectphoto</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>select-photo</name>
+  <description>Utils for the facebook stetho.</description>
+  <url>https://github.com/ligboy/selectphoto</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ligboy</id>
+      <name>ligboy</name>
+      <email>ligboy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ligboy/selectphoto.git</connection>
+    <url>https://github.com/ligboy/selectphoto</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.theartofdev.edmodo</groupId>
+      <artifactId>android-image-cropper</artifactId>
+      <version>2.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

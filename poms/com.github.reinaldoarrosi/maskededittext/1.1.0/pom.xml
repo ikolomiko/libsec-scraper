@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.reinaldoarrosi</groupId>
+  <artifactId>maskededittext</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>MaskedEditText</name>
+  <description>This is a masked edit text widget for Android. It handles copy and paste, cursor positioning without being super slow or doing complicated things.</description>
+  <url>https://github.com/reinaldoarrosi/MaskedEditText</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rarrosi</id>
+      <name>Reinaldo Arrosi</name>
+      <email>rarrosi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/reinaldoarrosi/MaskedEditText.git</connection>
+    <developerConnection>https://github.com/reinaldoarrosi/MaskedEditText.git</developerConnection>
+    <url>https://github.com/reinaldoarrosi/MaskedEditText</url>
+  </scm>
+</project>

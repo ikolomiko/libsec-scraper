@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mqtt.android.sdk</groupId>
+  <artifactId>mqtt-android-sdk</artifactId>
+  <version>0.9.76.test3</version>
+  <packaging>aar</packaging>
+  <name>mqtt-android-sdk</name>
+  <description>This is a wrapper over the Java Paho library. It will keep an android service running in the background allowing you to listen for incoming mqtt messages and performing pub/sub on topics. Also, you can choose to persist outgoing messages in case of no connectivity.</description>
+  <url>https://github.com/loconsolutions/android.mqtt.sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dd</id>
+      <name>dd</name>
+      <email>deepdialani42@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/loconsolutions/android.mqtt.sdk.git</connection>
+    <developerConnection>https://github.com/loconsolutions/android.mqtt.sdk.git</developerConnection>
+    <url>https://github.com/loconsolutions/android.mqtt.sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.mediapipe</groupId>
+  <artifactId>facemesh</artifactId>
+  <version>0.8.10.1-alpha-2</version>
+  <packaging>aar</packaging>
+  <name>MediaPipe Face Mesh Solution</name>
+  <description>The MediaPipe Face Mesh Android Solution API.</description>
+  <url>https://solutions.mediapipe.dev/face_mesh</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developer>
+    <name>The MediaPipe Authors</name>
+  </developer>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value-annotations</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>27.0.1-android</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.mediapipe</groupId>
+      <artifactId>solution-core</artifactId>
+      <version>0.8.10.1-alpha-2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

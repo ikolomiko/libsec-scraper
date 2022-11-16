@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eidu</groupId>
+  <artifactId>integration-library</artifactId>
+  <version>1.8.0</version>
+  <packaging>aar</packaging>
+  <name>integration-library</name>
+  <description>EIDU Integration Library</description>
+  <url>https://github.com/EIDU/integration-library</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/EIDU/integration-library/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>berlix</id>
+      <name>Felix Engelhardt</name>
+      <url>https://github.com/berlix/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/EIDU/integration-library.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/EIDU/integration-library.git</developerConnection>
+    <url>https://github.com/EIDU/integration-library</url>
+  </scm>
+</project>

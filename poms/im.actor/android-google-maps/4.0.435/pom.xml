@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.actor</groupId>
+  <artifactId>android-google-maps</artifactId>
+  <version>4.0.435</version>
+  <packaging>aar</packaging>
+  <name>Actor SDK for Android Google Extension</name>
+  <description>Actor SDK for Android Google Extension</description>
+  <url>https://github.com/actorapp/actor-platform</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ex3ndr</id>
+      <name>Stepan Korshakov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:actorapp/actor-platform.git</connection>
+    <developerConnection>scm:git@github.com:actorapp/actor-platform.git</developerConnection>
+    <url>scm:git@github.com:actorapp/actor-platform.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>im.actor</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>4.0.435</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

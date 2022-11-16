@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.czy1121</groupId>
+  <artifactId>loadinglayout</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>czy1121/loadinglayout</name>
+  <description>简单实用的页面多状态布局(content,loading,empty,error) </description>
+  <url>https://github.com/czy1121/loadinglayout</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>czy1121</id>
+      <name>ezy</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/czy1121/loadinglayout.git</connection>
+    <developerConnection>scm:git://github.com/czy1121/loadinglayout.git</developerConnection>
+    <url>git://github.com/czy1121/loadinglayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adyen.checkout</groupId>
+  <artifactId>googlepay</artifactId>
+  <version>2.2.0</version>
+  <packaging>aar</packaging>
+  <name>googlepay</name>
+  <description>googlepay</description>
+  <url>https://github.com/Adyen/adyen-android</url>
+  <developers>
+    <developer>
+      <organization>Adyen N.V.</organization>
+      <organizationUrl>https://www.adyen.com/</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/Adyen/adyen-android.git</connection>
+    <developerConnection>scm:git:git://github.com/Adyen/adyen-android.git</developerConnection>
+    <url>https://github.com/Adyen/adyen-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wallet</artifactId>
+      <version>16.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adyen.checkout</groupId>
+      <artifactId>base</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adyen.checkout</groupId>
+      <artifactId>core</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adyen.checkout</groupId>
+      <artifactId>core-card</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adyen.checkout</groupId>
+      <artifactId>util</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

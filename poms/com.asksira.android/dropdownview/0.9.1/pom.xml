@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.asksira.android</groupId>
+  <artifactId>dropdownview</artifactId>
+  <version>0.9.1</version>
+  <packaging>aar</packaging>
+  <name>DropDownView</name>
+  <description>A flexibly configurable, beautifully animated, device-rotatable drop down list widget.</description>
+  <url>https://github.com/siralam/DropDownView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>siralam</id>
+      <name>Sira Lam</name>
+      <email>sira.swlam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/siralam/DropDownView.git</connection>
+    <developerConnection>https://github.com/siralam/DropDownView.git</developerConnection>
+    <url>https://github.com/siralam/DropDownView</url>
+  </scm>
+</project>

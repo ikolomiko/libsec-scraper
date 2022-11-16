@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.iostash.client</groupId>
+  <artifactId>iostash</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>IOStash</name>
+  <description>Client library for IOStash IoT PaaS. Using this library, users can listen to their devices, datapoints or channels in realtime easily.</description>
+  <developers>
+    <developer>
+      <id>iostash</id>
+      <name>Aravind Vijayan</name>
+      <email>support@iostash.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.github.nkzawa</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

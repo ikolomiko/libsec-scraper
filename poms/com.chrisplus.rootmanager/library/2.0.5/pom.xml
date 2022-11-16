@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chrisplus.rootmanager</groupId>
+  <artifactId>library</artifactId>
+  <version>2.0.5</version>
+  <packaging>aar</packaging>
+  <name>RootManager</name>
+  <description>RootManager is a library that developers can use to access root utilities on Android devices. RootManager provides functions including checking if the device is rooted, trying to obtain superuser privileges, installing/uninstalling applications silently, capturing screen shot, recording screen and so on.</description>
+  <url>https://github.com/Chrisplus/RootManager</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, Version 2</name>
+      <url>https://www.gnu.org/licenses/gpl-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Chrisplus</id>
+      <name>Shiqi Jiang</name>
+      <email>chrisplus.jiang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Chrisplus/RootManager.git</connection>
+    <developerConnection>https://github.com/Chrisplus/RootManager</developerConnection>
+    <url>https://github.com/Chrisplus/RootManager</url>
+  </scm>
+</project>

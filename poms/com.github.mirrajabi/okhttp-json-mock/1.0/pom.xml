@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mirrajabi</groupId>
+  <artifactId>okhttp-json-mock</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>mirrajabi/okhttp-json-mock</name>
+  <url>https://github.com/mirrajabi/okhttp-json-mock</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mirrajabi</id>
+      <name>Mohammad Mirrajabi</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/mirrajabi/okhttp-json-mock.git</connection>
+    <developerConnection>scm:git://github.com/mirrajabi/okhttp-json-mock.git</developerConnection>
+    <url>git://github.com/mirrajabi/okhttp-json-mock.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hzh</groupId>
+  <artifactId>liba-list-scroll-helper</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ListScrollHelper，一个通吃ListView、GridView、ScrollView、RecyclerView、NestedScrollView的滚动帮助类，不再重复写滚动监听，切换列表滚动控件，只需修改一句话！</name>
+  <url>https://github.com/hezihaog/ListScrollHelper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/hezihaog/ListScrollHelper.git</connection>
+    <developerConnection>https://github.com/hezihaog/ListScrollHelper.git</developerConnection>
+    <url>https://github.com/hezihaog/ListScrollHelper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

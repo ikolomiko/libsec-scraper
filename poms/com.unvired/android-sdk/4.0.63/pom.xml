@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+
+ <groupId>com.unvired</groupId>
+ <artifactId>android-sdk</artifactId>
+ <version>4.0.63</version>
+ <packaging>aar</packaging>
+
+ <name>android-sdk</name>
+ <description>Build Android apps on the Unvired Mobile Platform version 4 with this SDK</description>
+ <url>http://github.com/unvired</url>
+ <licenses>
+  <license>
+   <name>Commercial</name>
+   <url>http://unvired.com/resources/sdk-license</url>
+  </license>
+ </licenses>
+ <developers>
+  <developer>
+   <name>Srini Subramanian</name>
+   <email>support@unvired.com</email>
+   <organization>Unvired Inc.</organization>
+   <organizationUrl>http://unvired.com</organizationUrl>
+  </developer>
+ </developers>
+
+ <dependencies>
+  <dependency>
+   <groupId>net.zetetic</groupId>
+   <artifactId>android-database-sqlcipher</artifactId>
+   <version>3.5.9</version>
+   <scope>compile</scope>
+  </dependency>
+ </dependencies>
+</project>

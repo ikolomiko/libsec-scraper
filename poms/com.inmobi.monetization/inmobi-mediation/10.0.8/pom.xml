@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.inmobi.monetization</groupId>
+    <artifactId>inmobi-mediation</artifactId>
+    <version>10.0.8</version>
+    <packaging>aar</packaging>
+    <name>InMobi Mobile Ads</name>
+    <description>InMobi Ad Network and Rendering Framework</description>
+    <developers>
+        <developer>
+            <id>inmobi</id>
+            <name>InMobi</name>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.inmobi.monetization</groupId>
+            <artifactId>inmobi-ads</artifactId>
+            <version>10.0.8</version>
+            <scope>implementation</scope>
+        </dependency>
+    </dependencies>
+    <scm>
+        <url>http://www.inmobi.com/sdk/downloads</url>
+    </scm>
+    <licenses>
+        <license>
+            <name>InMobi Android Ads License</name>
+            <url>https://support.inmobi.com/monetize/sdk-documentation/inmobi-sdk-license/</url>
+        </license>
+    </licenses>
+</project>

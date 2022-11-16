@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.donky</groupId>
+  <artifactId>donky-module-rich-ui-inbox</artifactId>
+  <version>2.8.0.0</version>
+  <packaging>aar</packaging>
+  <name>Donky Rich Popup UI</name>
+  <description>The Rich Inbox UI Module adds the ability to display rich messages inbox.</description>
+  <url>http://www.mobiledonky.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marcinswierczek</id>
+      <name>Marcin Swierczek</name>
+      <email>sdk@mobiledonky.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Donky-Network/DonkySDK-Android-Modular.git</connection>
+    <developerConnection>scm:git:https://github.com/Donky-Network/DonkySDK-Android-Modular.git</developerConnection>
+    <url>https://github.com/Donky-Network/DonkySDK-Android-Modular</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-core</artifactId>
+      <version>2.8.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-module-messaging-logic</artifactId>
+      <version>2.8.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-module-messaging-ui</artifactId>
+      <version>2.8.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-module-rich-logic</artifactId>
+      <version>2.8.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-module-assets</artifactId>
+      <version>2.8.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.hdodenhof</groupId>
+      <artifactId>circleimageview</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

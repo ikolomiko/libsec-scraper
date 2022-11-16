@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sqq.xiaqu</groupId>
+  <artifactId>okhttp3-logging</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>okhttp3-logging</name>
+  <description>Okhttp3 LoggingIntercept自定义Logs JSON 输出</description>
+  <url>https://github.com/xiaqu-stone</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stone</id>
+      <name>xiaqu-stone</name>
+      <email>stone.xiaqu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xiaqu-stone/TemplateApp/tree/http</connection>
+    <developerConnection>https://github.com/xiaqu-stone/TemplateApp/tree/http</developerConnection>
+    <url>https://github.com/xiaqu-stone</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sqq.xiaqu</groupId>
+      <artifactId>logs</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.firebaseui</groupId>
+  <artifactId>firebase-ui-database</artifactId>
+  <version>0.4.4</version>
+  <packaging>aar</packaging>
+  <name>firebase-ui-database</name>
+  <description>Firebase UI for Android</description>
+  <organization>
+    <name>FirebaseUI</name>
+    <url>https://github.com/firebase/FirebaseUI-Android</url>
+  </organization>
+  <url>https://github.com/firebase/FirebaseUI-Android</url>
+  <scm>
+    <connection>scm:git:git@github.com/firebase/firebaseui-android.git</connection>
+    <developerConnection>scm:git:git@github.com/firebase/firebaseui-android.git</developerConnection>
+    <url>https://github.com/firebase/FirebaseUI-Android</url>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <id>samtstern</id>
+      <email>samstern@google.com</email>
+      <organization>Firebase</organization>
+      <organizationUrl>https://firebase.google.com</organizationUrl>
+      <roles>
+        <role>Project-Administrator</role>
+        <role>Developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-database</artifactId>
+      <version>9.4.0</version>
+    </dependency>
+  </dependencies>
+</project>

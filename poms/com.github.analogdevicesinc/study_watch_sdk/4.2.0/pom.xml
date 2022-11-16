@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.analogdevicesinc</groupId>
+  <artifactId>study_watch_sdk</artifactId>
+  <version>4.2.0</version>
+  <packaging>aar</packaging>
+  <name>study_watch_sdk</name>
+  <description>The study_watch_sdk provides an object-oriented interface for interacting with ADI's VSM study watch platform.</description>
+  <url>https://github.com/analogdevicesinc/study-watch-sdk</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>https://github.com/analogdevicesinc/study-watch-sdk/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>analogdevicesinc</id>
+      <name>Analog Devices, Inc.</name>
+      <email>healthcare-support@analog.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/analogdevicesinc/study-watch-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/analogdevicesinc/study-watch-sdk.git</developerConnection>
+    <url>https://github.com/analogdevicesinc/study-watch-sdk</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>smartdevicelink</groupId>
+  <artifactId>bintray-smartdevicelink-maven</artifactId>
+  <version>4.x.x-Development</version>
+  <packaging>aar</packaging>
+  <name>SmartDeviceLink Android Library </name>
+  <description>Android implementation of SmartDeviceLink Library </description>
+  <url>https://github.com/smartdevicelink/sdl_android </url>
+  <inceptionYear>2013</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License </name>
+      <url>https://github.com/smartdevicelink/sdl_android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>joeygrover</id>
+      <name>Joey Grover</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/smartdevicelink/sdl_android .git</connection>
+    <url>https://github.com/smartdevicelink/sdl_android </url>
+  </scm>
+  <repositories>
+    <repository>
+      <url>https://api.bintray.com/maven/smartdevicelink/maven/sdl_android/;publish=1</url>
+    </repository>
+    <repository>
+      <url>https://api.bintray.com/maven/smartdevicelink/maven/sdl_android/;publish=1</url>
+    </repository>
+  </repositories>
+</project>

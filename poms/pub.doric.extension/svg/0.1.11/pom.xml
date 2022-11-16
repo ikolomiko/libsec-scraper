@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pub.doric.extension</groupId>
+  <artifactId>svg</artifactId>
+  <version>0.1.11</version>
+  <packaging>aar</packaging>
+  <description>557f7841b2964f9b8d37e61973afcf7c0c4df87d</description>
+  <dependencies>
+    <dependency>
+      <groupId>pub.doric</groupId>
+      <artifactId>core</artifactId>
+      <version>0.9.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.caverock</groupId>
+      <artifactId>androidsvg-aar</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

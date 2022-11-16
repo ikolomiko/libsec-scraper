@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mirhoseini.navigationview</groupId>
+  <artifactId>navigationview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This is a navigation view for Android Applications. It contains 4-direction buttons which can be disabled in different situations.</name>
+  <url>http://mirhoseini.com/navigation-view/</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mmirhoseini</id>
+      <name>Mohsen Mirhoseini Argi</name>
+      <email>msn.mirhoseini@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mmirhoseini/navigation_view.git</connection>
+    <developerConnection>https://github.com/mmirhoseini/navigation_view.git</developerConnection>
+    <url>http://mirhoseini.com/navigation-view/</url>
+  </scm>
+</project>

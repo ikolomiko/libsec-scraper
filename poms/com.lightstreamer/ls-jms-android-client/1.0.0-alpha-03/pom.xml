@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lightstreamer</groupId>
+  <artifactId>ls-jms-android-client</artifactId>
+  <version>1.0.0-alpha-03</version>
+  <packaging>aar</packaging>
+  <name>Lightstreamer JMS Extender Android Client Lib</name>
+  <description>An implementation of the JMS 2.0 specification for connecting to any JMS broker via Lightstreamer JMS Extender</description>
+  <url>https://github.com/Lightstreamer/JMSExtender-lib-client-java</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Gianluca Finocchiaro</name>
+      <email>gianluca.finocchiaro@lightstreamer.com</email>
+      <organization>Lightstreamer</organization>
+      <organizationUrl>https://www.lightstreamer.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Lightstreamer/JMSExtender-lib-client-java.git</connection>
+    <developerConnection>scm:git:https://github.com/Lightstreamer/JMSExtender-lib-client-java.git</developerConnection>
+    <url>https://github.com/Lightstreamer/JMSExtender-lib-client-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>javax.jms</groupId>
+      <artifactId>javax.jms-api</artifactId>
+      <version>2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lightstreamer</groupId>
+      <artifactId>ls-android-client</artifactId>
+      <version>4.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

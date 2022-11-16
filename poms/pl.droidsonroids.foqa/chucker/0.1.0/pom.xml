@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.droidsonroids.foqa</groupId>
+  <artifactId>chucker</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.41</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.willowtreeapps.hyperion</groupId>
+      <artifactId>hyperion-plugin</artifactId>
+      <version>0.9.27</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ChuckerTeam.Chucker</groupId>
+      <artifactId>library</artifactId>
+      <version>3.0.0-alpha2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>chucker_plugin</name>
+  <url>https://github.com/DroidsOnRoids/FoQA</url>
+  <description>Hyperion plugin for menu item with Chuckuer - simple in-app HTTP inspector. Part of FoQA project.</description>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/DroidsOnRoids/FoQA/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/DroidsOnRoids/FoQA.git</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/DroidsOnRoids/FoQA/issues</url>
+    <system>GitHub issues</system>
+  </issueManagement>
+  <ciManagement>
+    <url>https://travis-ci.org/DroidsOnRoids/FoQA</url>
+    <system>TravisCI</system>
+  </ciManagement>
+  <developers>
+    <developer>
+      <id>koral--</id>
+      <name>Karol Wrótniak</name>
+      <roles>
+        <role>Core developer</role>
+      </roles>
+      <url>https://github.com/koral--</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Droids On Roids code sentry</name>
+      <url>https://github.com/FaultLessDroid</url>
+    </contributor>
+    <contributor>
+      <name>faultlessdroid</name>
+      <url>https://github.com/FaultLessDroid</url>
+    </contributor>
+  </contributors>
+</project>

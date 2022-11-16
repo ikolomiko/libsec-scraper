@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amine.creditcardEt</groupId>
+  <artifactId>creditcardedittext</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>Credit-Card-EditText</name>
+  <description>Android EditText to validate a card number and to detect the type of the card AMEX/MasterCard/Visa..</description>
+  <url>https://github.com/amineabdalkhalki/CreditCardEditText</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amineabdalkhalki</id>
+      <name>abdalkhalki amine</name>
+      <email>amineabdalkhalki@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/amineabdalkhalki/CreditCardEditText.git</connection>
+    <developerConnection>https://github.com/amineabdalkhalki/CreditCardEditText.git</developerConnection>
+    <url>https://github.com/amineabdalkhalki/CreditCardEditText</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

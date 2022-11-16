@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.weather.android</groupId>
+  <artifactId>airlock-sdk-android</artifactId>
+  <version>5.4.1</version>
+  <packaging>aar</packaging>
+  <name>Airlock SDK for Android</name>
+  <description>The Airlock SDK determines which features are enabled for a particular application based on the user profile and device context (locale, location, device type, etc.).</description>
+  <url>https://github.com/IBM/airlock-sdk-android.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>denusdv</id>
+      <name>Denis Voloshin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:IBM/airlock-sdk-android.git</connection>
+    <developerConnection>scm:git@github.com:IBM/airlock-sdk-android.git</developerConnection>
+    <url>scm:git@github.com:IBM/airlock-sdk-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>airlock-sdk-android</groupId>
+      <artifactId>airlock-sdk-common</artifactId>
+      <version>5.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.weather.android</groupId>
+      <artifactId>airlytics</artifactId>
+      <version>1.0.49</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.60</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

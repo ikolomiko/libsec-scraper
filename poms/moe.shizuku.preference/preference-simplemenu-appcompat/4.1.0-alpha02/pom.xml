@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>moe.shizuku.preference</groupId>
+  <artifactId>preference-simplemenu-appcompat</artifactId>
+  <version>4.1.0-alpha02</version>
+  <packaging>aar</packaging>
+  <name>MaterialPreference-SimpleMenu-AppCompat</name>
+  <description>An extend of MaterialPreference, adding a version of ListPreference that use Simple Menus from Material Design as drop down. Use appcompat resources.</description>
+  <url>https://github.com/RikkaW/MaterialPreference</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rikkaw</id>
+      <name>Rikka</name>
+      <email>rikka@xing.moe</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RikkaW/MaterialPreference.git</connection>
+    <developerConnection>https://github.com/RikkaW/MaterialPreference.git</developerConnection>
+    <url>https://github.com/RikkaW/MaterialPreference</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0-beta05</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.interpolator</groupId>
+      <artifactId>interpolator</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>moe.shizuku.preference</groupId>
+      <artifactId>preference-appcompat</artifactId>
+      <version>4.1.0-alpha02</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

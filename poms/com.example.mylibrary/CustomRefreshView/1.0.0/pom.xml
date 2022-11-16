@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.mylibrary</groupId>
+  <artifactId>CustomRefreshView</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A support for network error retry, no data page (can be customized), no web interface (customizable) pull-ups to load more, drop-down refresh controls</name>
+  <url>https://github.com/zhangtuodd/SwipeRecyclerView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zhangtuodd</id>
+      <name>zhangtuo</name>
+      <email>zhangtuodd@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zhangtuodd/SwipeRecyclerView</connection>
+    <developerConnection>https://github.com/zhangtuodd/SwipeRecyclerView</developerConnection>
+    <url>https://github.com/zhangtuodd/SwipeRecyclerView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.2.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dmitryborodin</groupId>
+  <artifactId>pdfview-android</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>pdfview-android</name>
+  <description>Small library to show PDF files in your native android application</description>
+  <url>https://github.com/Dmitry-Borodin/pdfview</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Dmitry-Borodin</id>
+      <name>Dmitry Borodin</name>
+      <email>pdfview@DmitryBorodin.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Dmitry-Borodin/pdfview.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Dmitry-Borodin/pdfview.git</developerConnection>
+    <url>scm:git:github.com/Dmitry-Borodin/pdfview.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

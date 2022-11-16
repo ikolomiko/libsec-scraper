@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.redbricklane.zapr.viewership</groupId>
+  <artifactId>zapr-viewership-sdk</artifactId>
+  <version>4.9.1</version>
+  <packaging>aar</packaging>
+  <name>Zapr Viewership SDK</name>
+  <url>http://zapr.in</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ud-zapr</id>
+      <name>Udayan Warnekar</name>
+      <email>udayan@zapr.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/zapr</connection>
+    <developerConnection>https://bitbucket.org/zapr</developerConnection>
+    <url>http://zapr.in</url>
+  </scm>
+  <dependencies/>
+</project>

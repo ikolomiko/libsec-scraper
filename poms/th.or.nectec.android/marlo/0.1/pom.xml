@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>th.or.nectec.android</groupId>
+  <artifactId>marlo</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>marlo</name>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chncs23</id>
+      <name>Choatravee Nhanaen</name>
+      <email>choatravee.nhanaen@nectec.or.th</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nectec-wisru/marlo.git</connection>
+    <developerConnection>https://github.com/nectec-wisru/marlo.git</developerConnection>
+    <url>https://github.com/nectec-wisru/marlo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.maps.android</groupId>
+      <artifactId>android-maps-utils</artifactId>
+      <version>0.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

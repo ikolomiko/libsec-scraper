@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.dev.dig.logger.printer</groupId>
+  <artifactId>firebase-ktx</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>Simple Gateway to Firebase KTX</name>
+  <description>Kotlin support/extensioons for SimpleLogger Gateway Firebase</description>
+  <url>https://github.com/DIG-/java-logger</url>
+  <licenses>
+    <license>
+      <name>CC BY-ND 4.0</name>
+      <url>https://creativecommons.org/licenses/by-nd/4.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Gustavo de Oliveira Silva (DIG)</name>
+      <email>contato@dig.dev.br</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/DIG-/java-logger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>br.dev.dig.logger</groupId>
+      <artifactId>logger-ktx</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>br.dev.dig.logger.printer</groupId>
+      <artifactId>firebase</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

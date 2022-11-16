@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arnassmicius</groupId>
+  <artifactId>circularprogressbar</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>CircularProgressBar</name>
+  <description>This View is a simple progress bar. You car personalize this progres bar color, widths and shapes as you like</description>
+  <url>https://github.com/ArnasSmicius/CircularProgressBar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>arnassmicius</id>
+      <name>Arnas Smicius</name>
+      <email>arnasmic@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ArnasSmicius/CircularProgressBar.git</connection>
+    <developerConnection>https://github.com/ArnasSmicius/CircularProgressBar.git</developerConnection>
+    <url>https://github.com/ArnasSmicius/CircularProgressBar</url>
+  </scm>
+</project>

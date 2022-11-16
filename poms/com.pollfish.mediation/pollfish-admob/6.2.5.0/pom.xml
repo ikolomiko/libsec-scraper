@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pollfish.mediation</groupId>
+  <artifactId>pollfish-admob</artifactId>
+  <version>6.2.5.0</version>
+  <packaging>aar</packaging>
+  <name>pollfish-admob</name>
+  <description>Adapter for showing Pollfish surveys within mobile apps through AdMob mediation</description>
+  <url>https://github.com/pollfish/android-admob-adapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pollfish</id>
+      <name>Pollfish Inc.</name>
+      <email>support@pollfish.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pollfish/android-admob-adapter.git</connection>
+    <developerConnection>https://github.com/pollfish/android-admob-adapter.git</developerConnection>
+    <url>https://github.com/pollfish/android-admob-adapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>20.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pollfish</groupId>
+      <artifactId>pollfish-googleplay</artifactId>
+      <version>6.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

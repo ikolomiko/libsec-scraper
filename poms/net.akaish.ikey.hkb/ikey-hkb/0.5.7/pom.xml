@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.akaish.ikey.hkb</groupId>
+  <artifactId>ikey-hkb</artifactId>
+  <version>0.5.7</version>
+  <packaging>aar</packaging>
+  <name>iKeyHexKB</name>
+  <description>iKeyHexKB - soft hexademical keyboard for Android</description>
+  <url>https://github.com/akaish/iKeyHexKB</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>akaish</id>
+      <name>Denis Bogomolov</name>
+      <email>akaish@mail.ru</email>
+    </developer>
+    <developer>
+      <id>ikey-ru</id>
+      <name>Pavel</name>
+      <email>info@ikey.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/akaish/iKeyHexKB.git</connection>
+    <developerConnection>scm:git:ssh://github.com/akaish/iKeyHexKB.git</developerConnection>
+    <url>https://github.com/akaish/iKeyHexKB/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.50</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.3.31</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.wrdlbrnft</groupId>
+  <artifactId>sorted-list-adapter</artifactId>
+  <version>0.3.0.25</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.wrdlbrnft</groupId>
+      <artifactId>modular-adapter</artifactId>
+      <version>0.3.0.13</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wrdlbrnft</groupId>
+      <artifactId>sorted-list-item-manager</artifactId>
+      <version>0.3.0.13</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wrdlbrnft</groupId>
+      <artifactId>modular-adapter</artifactId>
+      <version>0.3.0.13</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wrdlbrnft</groupId>
+      <artifactId>sorted-list-item-manager</artifactId>
+      <version>0.3.0.13</version>
+    </dependency>
+  </dependencies>
+</project>

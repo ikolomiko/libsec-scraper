@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.xuexiangjys.XPage</groupId>
+  <artifactId>xpage-lib</artifactId>
+  <version>2.2.8-Test</version>
+  <packaging>aar</packaging>
+  <name>xuexiangjys/XPage</name>
+  <description>🔥一个非常方便的fragment页面框架</description>
+  <url>http://xuexiangjys.club/XPage/</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xuexiangjys</id>
+      <name>薛翔</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/xuexiangjys/XPage.git</connection>
+    <developerConnection>scm:git://github.com/xuexiangjys/XPage.git</developerConnection>
+    <url>git://github.com/xuexiangjys/XPage.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.xuexiangjys.XPage</groupId>
+      <artifactId>xpage-annotation</artifactId>
+      <version>2.2.8-Test</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.leakcanary</groupId>
+      <artifactId>leakcanary-android-no-op</artifactId>
+      <version>1.6.3</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

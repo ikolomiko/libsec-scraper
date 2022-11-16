@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mi.dev.mint</groupId>
+  <artifactId>helium-adapter</artifactId>
+  <version>2.2.0_1</version>
+  <packaging>aar</packaging>
+  <name>helium-adapter</name>
+  <description>mint mediation</description>
+  <url>https://github.com/miui-globalads</url>
+  <licenses>
+    <license>
+      <name>Mint SDK License</name>
+      <url>http://ads.mi.com/mediation/#/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>miui-globalads</id>
+      <name>miui-globalads</name>
+      <email>miui-globalads@xiaomi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:miui-globalads/MintMediation-Unity.git</connection>
+    <developerConnection>scm:git:ssh://github.com/miui-globalads/MintMediation-Unity.git</developerConnection>
+    <url>https://github.com/miui-globalads/MintMediation-Unity/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>MINT-Mediation-Android</groupId>
+      <artifactId>mint-android-sdk</artifactId>
+      <version>unspecified</version>
+    </dependency>
+    <dependency>
+      <groupId>com.chartboost</groupId>
+      <artifactId>helium</artifactId>
+      <version>2.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>17.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

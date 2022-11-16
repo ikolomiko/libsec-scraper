@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.AnyChart</groupId>
+  <artifactId>AnyChart-Android</artifactId>
+  <version>v0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AnyChart/AnyChart-Android</name>
+  <url>https://github.com/AnyChart/AnyChart-Android</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>AnyChart</id>
+      <name>AnyChart</name>
+      <email>contact@anychart.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/AnyChart/AnyChart-Android.git</connection>
+    <developerConnection>scm:git://github.com/AnyChart/AnyChart-Android.git</developerConnection>
+    <url>git://github.com/AnyChart/AnyChart-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

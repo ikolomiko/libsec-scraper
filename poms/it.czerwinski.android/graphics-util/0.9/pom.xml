@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.czerwinski.android</groupId>
+  <artifactId>graphics-util</artifactId>
+  <version>0.9</version>
+  <packaging>aar</packaging>
+  <name>Android Graphics Utilities</name>
+  <description>Android Graphics Utilities</description>
+  <url>https://czerwinski.it/projects/android-graphics-util/</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sczerwinski</id>
+      <name>Slawomir Czerwinski</name>
+      <email>slawomir@czerwinski.it</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/sczerwinski/android-graphics-util.git</connection>
+    <developerConnection>scm:git:https://github.com/sczerwinski/android-graphics-util.git</developerConnection>
+    <url>https://github.com/sczerwinski/android-graphics-util</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.41</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.2ndlines</groupId>
+  <artifactId>download</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Download library</name>
+  <description>Android Download Library</description>
+  <url>https://github.com/2ndLines/XDownloadManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>Apache 2.0</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marine8888</id>
+      <name>Shi HaiJun</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:2ndLines/XDownloadManager.git</connection>
+    <developerConnection>scm:git@github.com:2ndLines/XDownloadManager.git</developerConnection>
+    <url>https://github.com/2ndLines/XDownloadManager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.work</groupId>
+      <artifactId>work-runtime</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>4.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

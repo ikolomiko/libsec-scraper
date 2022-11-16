@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.Rosemoe.sora-editor</groupId>
+  <artifactId>language-css3</artifactId>
+  <version>0.8.3</version>
+  <packaging>aar</packaging>
+  <name>language-css3</name>
+  <description>An awesome code editor library on Android</description>
+  <url>https://github.com/Rosemoe/CodeEditor</url>
+  <licenses>
+    <license>
+      <name>LGPL v2.1</name>
+      <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rose Moe</id>
+      <name>Rosemoe</name>
+      <email>2073412493@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Rosemoe/CodeEditor.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Rosemoe/CodeEditor.git</developerConnection>
+    <url>https://github.com/Rosemoe/CodeEditor/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-runtime</artifactId>
+      <version>4.9.2</version>
+    </dependency>
+  </dependencies>
+</project>

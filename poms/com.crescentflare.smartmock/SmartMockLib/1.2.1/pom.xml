@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crescentflare.smartmock</groupId>
+  <artifactId>SmartMockLib</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>SmartMockLib</name>
+  <description>All features of the smart mock server locally accessible</description>
+  <url>https://github.com/crescentflare/SmartMockServer</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>crescentflare</id>
+      <name>Crescent Flare Apps</name>
+      <email>info@crescentflare.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/crescentflare/SmartMockServer.git</connection>
+    <developerConnection>scm:git:ssh://github.com/crescentflare/SmartMockServer.git</developerConnection>
+    <url>https://github.com/crescentflare/SmartMockServer/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

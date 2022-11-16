@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.jorgecastro</groupId>
+  <artifactId>retrofit-jsonapi-converter</artifactId>
+  <version>1.0.0-alpha2</version>
+  <packaging>aar</packaging>
+  <name>retrofit-jsonapi-converter</name>
+  <description>Library to convert responses from a jsonapi-formatted web service to class objects</description>
+  <url>https://github.com/devjorgecastro/retrofit-jsonapi-converter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devjorgecastro</id>
+      <name>Jorge Castro</name>
+      <email>devjorgecastro@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/devjorgecastro/retrofit-jsonapi-converter.git</connection>
+    <developerConnection>https://github.com/devjorgecastro/retrofit-jsonapi-converter.git</developerConnection>
+    <url>https://github.com/devjorgecastro/retrofit-jsonapi-converter</url>
+  </scm>
+</project>

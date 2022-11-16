@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.pi</groupId>
+  <artifactId>pi-beacon</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>pi-beacon</name>
+  <description>A library that allows for easy integration with IBM Presence Insights service available on Bluemix. This module provides an easy to use interface with beacons.</description>
+  <url>https://github.com/presence-insights/pi-clientsdk-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cehannig</id>
+      <name>Ciaran Hannigan</name>
+      <email>cehannig@us.ibm.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/presence-insights/pi-clientsdk-android.git</connection>
+    <developerConnection>https://github.com/presence-insights/pi-clientsdk-android.git</developerConnection>
+    <url>https://github.com/presence-insights/pi-clientsdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.pi</groupId>
+      <artifactId>pi-core</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.altbeacon</groupId>
+      <artifactId>android-beacon-library</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

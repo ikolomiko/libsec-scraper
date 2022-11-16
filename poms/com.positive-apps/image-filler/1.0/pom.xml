@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.positive-apps</groupId>
+  <artifactId>image-filler</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>ImageFiller</name>
+  <description>An easy way to create a simple animated image fill effect</description>
+  <url>https://github.com/positive-apps/ImageFiller</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/positive-apps/ImageFiller/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>positive-apps-android</id>
+      <name>orimenPA</name>
+      <email>info@positive-apps.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/positive-apps/ImageFiller.git</connection>
+    <developerConnection>https://github.com/positive-apps/ImageFiller.git</developerConnection>
+    <url>https://github.com/positive-apps/ImageFiller</url>
+  </scm>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.remix.fresco</groupId>
+  <artifactId>fresco</artifactId>
+  <version>1.10.1</version>
+  <packaging>aar</packaging>
+  <name>Fresco</name>
+  <description>A system to load and display images and manage their memory on Android</description>
+  <url>https://github.com/facebook/fresco</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/facebook/fresco/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rRemix</id>
+      <name>Borui xiao</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/facebook/fresco.git</connection>
+    <developerConnection>scm:git:git@github.com:facebook/fresco.git</developerConnection>
+    <url>https://github.com/facebook/fresco.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.remix.fresco</groupId>
+      <artifactId>fbcore</artifactId>
+      <version>1.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.remix.fresco</groupId>
+      <artifactId>drawee</artifactId>
+      <version>1.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.remix.fresco</groupId>
+      <artifactId>imagepipeline</artifactId>
+      <version>1.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.soloader</groupId>
+      <artifactId>soloader</artifactId>
+      <version>0.5.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>1.10.19</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

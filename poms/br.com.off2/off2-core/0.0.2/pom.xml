@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.off2</groupId>
+  <artifactId>off2-core</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Off2</name>
+  <description>Library for advertising audio identification</description>
+  <url>https://github.com/devmappsistemas/off2</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MLima</id>
+      <name>Marcos Lima</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:devmappsistemas/off2.git</connection>
+    <developerConnection>scm:git@github.com:devmappsistemas/off2.git</developerConnection>
+    <url>https://github.com/devmappsistemas/off2</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-database</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-auth</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

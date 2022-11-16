@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dawnimpulse</groupId>
+  <artifactId>permissions</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>permissions</name>
+  <description>Easy &amp; simple way to access / handle android permissions.</description>
+  <url>https://github.com/DawnImpulse/permissions-android</url>
+  <licenses>
+    <license>
+      <name>ISC License</name>
+      <url>https://www.isc.org/downloads/software-support-policy/isc-license/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dawnimpulse</id>
+      <name>Saksham (Dawn Impulse)</name>
+      <email>dawnimpulse@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DawnImpulse/permissions-android.git</connection>
+    <developerConnection>https://github.com/DawnImpulse/permissions-android.git</developerConnection>
+    <url>https://github.com/DawnImpulse/permissions-android</url>
+  </scm>
+</project>

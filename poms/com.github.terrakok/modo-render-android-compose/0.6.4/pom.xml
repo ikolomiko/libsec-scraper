@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.terrakok</groupId>
+  <artifactId>modo-render-android-compose</artifactId>
+  <version>0.6.4</version>
+  <packaging>aar</packaging>
+  <name>Modo</name>
+  <description>Navigation library based on UDF principles</description>
+  <url>https://github.com/terrakok/Modo</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>terrakok</id>
+      <name>Konstantin Tskhovrebov</name>
+      <email>terrakok@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/terrakok/Modo</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apptakk.locate</groupId>
+  <artifactId>locate</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>locate</name>
+  <description>A minimal Android library for one-shot location requests</description>
+  <url>https://github.com/erf/locate</url>
+  <licenses>
+    <license>
+      <name>ISC</name>
+      <url>http://opensource.org/licenses/isc-license.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>erf</id>
+      <name>Erlend Fagerheim</name>
+      <email>erlendf80@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/erf/locate.git</connection>
+    <developerConnection>https://github.com/erf/locate.git</developerConnection>
+    <url>https://github.com/erf/locate</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

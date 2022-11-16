@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crescentflare.simplemarkdownparser</groupId>
+  <artifactId>SimpleMarkdownParserLib</artifactId>
+  <version>0.7.1</version>
+  <packaging>aar</packaging>
+  <name>SimpleMarkdownParserLib</name>
+  <description>A multi-functional and easy way to integrate markdown formatting within Android apps</description>
+  <url>https://github.com/crescentflare/SimpleMarkdownParser</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>crescentflare</id>
+      <name>Crescent Flare Apps</name>
+      <email>info@crescentflare.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/crescentflare/SimpleMarkdownParser.git</connection>
+    <developerConnection>scm:git:ssh://github.com/crescentflare/SimpleMarkdownParser.git</developerConnection>
+    <url>https://github.com/crescentflare/SimpleMarkdownParser/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

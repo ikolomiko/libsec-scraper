@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sensorberg.libs</groupId>
+  <artifactId>permission-bitte</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Permission Bitte</name>
+  <description>Easiest way to ask for user permission in Android</description>
+  <url>https://github.com/sensorberg-dev/permission-bitte</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/sensorberg-dev/permission-bitte/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sensorberg-dev</id>
+      <name>Sensorberg</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sensorberg-dev/permission-bitte.git</connection>
+    <developerConnection>scm:git@github.com:sensorberg-dev/permission-bitte.git</developerConnection>
+    <url>https://github.com/sensorberg-dev/permission-bitte</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twofortyfouram</groupId>
+  <artifactId>android-plugin-host-sdk-for-locale</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <description>Plugin Host SDK For Locale</description>
+  <name>android-plugin-host-sdk-for-locale</name>
+  <url>https://github.com/twofortyfouram/android-monorepo</url>
+  <scm>
+    <url>https://github.com/twofortyfouram/android-monorepo</url>
+    <connection>scm:git:git://github.com/twofortyfouram/android-monorepo.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/twofortyfouram/android-monorepo.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ccjernigan</id>
+      <name>Carter Jernigan</name>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>(25.0.0,)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twofortyfouram</groupId>
+      <artifactId>android-annotation</artifactId>
+      <version>[2.0.0,3.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twofortyfouram</groupId>
+      <artifactId>android-assertion</artifactId>
+      <version>[1.1.1,2.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twofortyfouram</groupId>
+      <artifactId>android-plugin-api-for-locale</artifactId>
+      <version>[1.0.1,2.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twofortyfouram</groupId>
+      <artifactId>android-plugin-client-sdk-for-locale</artifactId>
+      <version>[3.0.0,5.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twofortyfouram</groupId>
+      <artifactId>android-spackle</artifactId>
+      <version>[2.0.0,3.0)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

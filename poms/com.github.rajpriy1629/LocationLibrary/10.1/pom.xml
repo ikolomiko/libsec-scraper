@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rajpriy1629</groupId>
+  <artifactId>LocationLibrary</artifactId>
+  <version>10.1</version>
+  <packaging>aar</packaging>
+  <name>LocationDemo</name>
+  <description>Andrioid Location library</description>
+  <url>https://github.com/uninstallio/android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>raja_dev</id>
+      <name>Raja kumar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:uninstallio/android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:uninstallio/android-sdk.git</developerConnection>
+    <url>https://github.com/uninstallio/android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

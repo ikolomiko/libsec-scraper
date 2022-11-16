@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pcloud.sdk</groupId>
+  <artifactId>android</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>pcloud-sdk</name>
+  <description>The official pCloud Java SDK for integration with pCloud's API</description>
+  <url>https://github.com/pCloud/pcloud-sdk-java</url>
+  <licenses>
+    <license>
+      <name>The Apache License v2.0</name>
+      <url>https://github.com/pCloud/pcloud-sdk-java/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>android-pcloud</id>
+      <name>pCloud AG</name>
+      <email>android@pcloud.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pCloud/pcloud-sdk-java</connection>
+    <developerConnection>https://github.com/pCloud/pcloud-sdk-java</developerConnection>
+    <url>https://github.com/pCloud/pcloud-sdk-java</url>
+  </scm>
+</project>

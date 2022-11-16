@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scansolutions.mrzscanner</groupId>
+  <artifactId>mrzscannerlib</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>MRZScanner</name>
+  <description>MRZ Scanner reads all machine-readable zones on traveling documents following the ICAO 9303 Specification on Passports (2 – lines) for TD3 size Machine Readable Passports; MRV-B Visas (2 - lines) as described in part 7 of ICAO 9303 documentation; and ID cards (3 – lines) for TD1 size Machine Readable Travel Documents. The configuration supports OCR-B characters from ISO 1073-2 for use in MRTDs.</description>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dolatkia</groupId>
+  <artifactId>endless-horizontal-cards</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>endless-horizontal-cards</name>
+  <description>Endless Horizontal Cards For Android</description>
+  <url>https://github.com/imandolatkia/Endless-Horizontal-Cards</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iman.dolatkia</id>
+      <name>iman dolatkia</name>
+      <email>iman.dolatkia@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/imandolatkia/Endless-Horizontal-Cards.git</connection>
+    <developerConnection>scm:git:ssh://github.com:imandolatkia/Endless-Horizontal-Cards.git</developerConnection>
+    <url>http://github.com/imandolatkia/Endless-Horizontal-Cards/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>4.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>4.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>4.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tk.zielony</groupId>
+      <artifactId>carbon</artifactId>
+      <version>0.16.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager2</groupId>
+      <artifactId>viewpager2</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

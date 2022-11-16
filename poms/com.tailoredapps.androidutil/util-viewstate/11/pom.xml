@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tailoredapps.androidutil</groupId>
+  <artifactId>util-viewstate</artifactId>
+  <version>11</version>
+  <packaging>aar</packaging>
+  <name>AndroidAppUtil - ViewState</name>
+  <description>AndroidUtil is a set of utility classes for Android application development.</description>
+  <url>https://github.com/tailoredmedia/AndroidAppUtil</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tailoredmedia</id>
+      <name>Tailored Apps</name>
+      <email>office@tailored-apps.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tailoredmedia/AndroidAppUtil.git</connection>
+    <developerConnection>https://github.com/tailoredmedia/AndroidAppUtil.git</developerConnection>
+    <url>https://github.com/tailoredmedia/AndroidAppUtil</url>
+  </scm>
+</project>

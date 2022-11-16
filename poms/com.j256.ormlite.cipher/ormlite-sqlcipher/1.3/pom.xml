@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.j256.ormlite.cipher</groupId>
+  <artifactId>ormlite-sqlcipher</artifactId>
+  <version>1.3</version>
+  <packaging>aar</packaging>
+  <name>ormlite-sqlcipher</name>
+  <description>Patched OrmLite Android library with SQLCipher</description>
+  <url>https://github.com/Andoctorey/ormlite-sqlcipher</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andoctorey</id>
+      <name>Andrey Yegorov</name>
+      <email>a.d.yegorov@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Andoctorey/ormlite-sqlcipher.git</connection>
+    <developerConnection>https://github.com/Andoctorey/ormlite-sqlcipher.git</developerConnection>
+    <url>https://github.com/Andoctorey/ormlite-sqlcipher</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.zetetic</groupId>
+      <artifactId>android-database-sqlcipher</artifactId>
+      <version>4.0.1</version>
+      <type>aar</type>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-core</artifactId>
+      <version>5.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-android</artifactId>
+      <version>5.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

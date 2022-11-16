@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.bemobi</groupId>
+  <artifactId>medescope</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>MedescopeAndroidLibrary</name>
+  <description>This a is a ready-to-use library that encapsulate the Android Download Manager. Using an interface you can easily connect to your Activity or Fragment and used it. It runs on other process as an independent service.</description>
+  <url>https://github.com/bemobi/medescope</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bruno.costa</id>
+      <name>Bruno Costa</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:bemobi/medescope.git</connection>
+    <developerConnection>scm:git@github.com:bemobi/medescope.git</developerConnection>
+    <url>https://github.com/bemobi/medescope</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

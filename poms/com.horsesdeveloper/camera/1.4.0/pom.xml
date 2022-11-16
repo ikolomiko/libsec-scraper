@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.horsesdeveloper</groupId>
+  <artifactId>camera</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>com.horsesdeveloper:camera</name>
+  <description>A camera material library</description>
+  <url>https://github.com/horsesdeveloper/commons</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>briansalvattore</id>
+      <name>Brian Castillo</name>
+      <email>briancastillo008@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/horsesdeveloper/commons.git</connection>
+    <developerConnection>https://github.com/horsesdeveloper/commons.git</developerConnection>
+    <url>https://github.com/horsesdeveloper/commons</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nostra13.universalimageloader</groupId>
+      <artifactId>universal-image-loader</artifactId>
+      <version>1.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.edmodo</groupId>
+      <artifactId>cropper</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>0.8.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

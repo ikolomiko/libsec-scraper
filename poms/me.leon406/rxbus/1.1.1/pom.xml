@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.leon406</groupId>
+  <artifactId>rxbus</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>RxBus2 For Android</name>
+  <url>https://github.com/Leon406</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leon</id>
+      <name>leonlambett</name>
+      <email>deadogone@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Leon406</connection>
+    <developerConnection>https://github.com/Leon406</developerConnection>
+    <url>https://github.com/Leon406</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

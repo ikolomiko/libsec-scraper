@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>academy.compose.companion</groupId>
+  <artifactId>multi-fab</artifactId>
+  <version>1.2.3</version>
+  <packaging>aar</packaging>
+  <name>multi-fab</name>
+  <description>A Multi FAB composable to display multiple key actions</description>
+  <url>https://github.com/ComposeAcademy/ComposeCompanion</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hitherejoe</id>
+      <name>Joe Birch</name>
+      <email>hitherejoebirch@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/ComposeAcademy/ComposeCompanion.git</connection>
+    <developerConnection>scm:git:ssh://github.com/ComposeAcademy/ComposeCompanion.git</developerConnection>
+    <url>https://github.com/ComposeAcademy/ComposeCompanion/tree/main/MultiFab</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.compose.animation</groupId>
+      <artifactId>animation</artifactId>
+      <version>1.0.0-alpha10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.animation</groupId>
+      <artifactId>animation-core</artifactId>
+      <version>1.0.0-alpha10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.0.0-alpha10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.0-alpha10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-alpha10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.4.21</version>
+    </dependency>
+  </dependencies>
+</project>

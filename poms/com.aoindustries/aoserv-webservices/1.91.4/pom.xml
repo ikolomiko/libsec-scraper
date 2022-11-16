@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+aoserv-webservices - SOAP web services for the AOServ Platform.
+Copyright (C) 2021, 2022  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of aoserv-webservices.
+
+aoserv-webservices is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+aoserv-webservices is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with aoserv-webservices.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.19.2<!-- -POST-SNAPSHOT --></version>
+    <relativePath>../../oss/parent/pom.xml</relativePath>
+  </parent>
+
+  <groupId>com.aoindustries</groupId><artifactId>aoserv-webservices</artifactId><version>1.91.4</version>
+  <packaging>aar</packaging>
+
+  <properties>
+    <module.name>com.aoindustries.aoserv.webservices</module.name>
+    <!--
+      Stay on Java 1.8 since Axis fails with "Error looking for paramter names in bytecode: unexpected bytes in file".
+      TODO: This problem might be only an issue with Lambdas.  Review other webservices projects.
+    -->
+    <javase.version>1.8</javase.version>
+    <javase.release>8</javase.release>
+    <javadoc.link.javase>${javadoc.link.javase.8}</javadoc.link.javase>
+    <!-- This must be set in your ~/.m2/settings.xml when building with JDK < 9 -->
+    <javase.bootclasspath>${javase.bootclasspath.8}</javase.bootclasspath>
+
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://aoindustries.com/aoserv/">AOServ</a>
+/ <a target="${javadoc.target}" href="${project.url}">Webservices</a>]]></javadoc.breadcrumbs>
+    <description.html><![CDATA[SOAP web services for the <a target="${javadoc.target}" href="https://aoindustries.com/aoserv/">AOServ Platform</a>.]]></description.html>
+    <javadoc.modules><![CDATA[<div>
+      <h2>Modules</h2>
+      <ul>
+        <li><a target="${javadoc.target}" href="https://aoindustries.com/aoserv/webservices/webapp/">AOServ Webservices Webapp</a></li>
+      </ul>
+    </div>]]></javadoc.modules>
+    <!-- TODO: Remove once moved to platform.aoapps.com -->
+    <google.analytics.trackingId>UA-86871646-1</google.analytics.trackingId>
+    <!-- com.aoindustries is on original Sonatype Nexus Repository Manager -->
+    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+    <!-- SonarQube -->
+    <sonar.projectKey>com.aoapps.platform:aoapps-webservices<!-- TODO: ${project.groupId}:${project.artifactId} --></sonar.projectKey>
+    <sonar.organization>ao-apps</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <!-- TODO: Implement tests -->
+    <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
+  </properties>
+
+  <name>AOServ Webservices</name>
+  <url>https://aoindustries.com/aoserv/webservices/</url>
+  <description>SOAP web services for the AOServ Platform.</description>
+  <inceptionYear>2009</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>GNU General Lesser Public License (LGPL) version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>AO Industries, Inc.</name>
+    <url>https://aoindustries.com/</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <name>AO Industries, Inc.</name>
+      <email>support@aoindustries.com</email>
+      <url>https://aoindustries.com/</url>
+      <organization>AO Industries, Inc.</organization>
+      <organizationUrl>https://aoindustries.com/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/ao-apps/aoserv-webservices.git</connection>
+    <developerConnection>scm:git:git@github.com:ao-apps/aoserv-webservices.git</developerConnection>
+    <url>https://github.com/ao-apps/aoserv-webservices</url>
+    <tag>aoserv-webservices-1.91.4</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/ao-apps/aoserv-webservices/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://jenkins.aoindustries.com/job/ao/job/aoserv/job/webservices/</url>
+  </ciManagement>
+  <!-- Only one allowed in POM:
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/ao-apps/aoserv-webservices/actions</url>
+  </ciManagement>
+  -->
+
+  <repositories>
+    <!-- Repository required here, too, so can find parent -->
+    <repository>
+      <id>sonatype-nexus-snapshots-s01</id>
+      <name>Sonatype Nexus Snapshots S01</name>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <!-- Java 1.8: see https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId>
+        <executions>
+          <!-- compile everything to ensure module-info contains right entries -->
+          <execution>
+            <id>default-compile</id>
+            <configuration>
+              <release>9</release>
+            </configuration>
+          </execution>
+          <!-- recompile everything for target VM except the module-info.java -->
+          <execution>
+            <id>base-compile</id><goals><goal>compile</goal></goals>
+            <configuration>
+              <excludes>
+                <exclude>module-info.java</exclude>
+              </excludes>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <!-- Java 1.8: generate future-proof modular javadocs -->
+          <source>11</source>
+          <release>11</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.axis2</groupId><artifactId>axis2-aar-maven-plugin</artifactId>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-maven-plugin</artifactId>
+        <configuration>
+          <!-- TODO: Clean-up SpotBugs -->
+          <failOnError>false</failOnError>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>offlineLinks</id><activation><file><exists>src/main/java</exists></file></activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>unpack.offlineLinks</id><phase>prepare-package</phase><goals><goal>unpack</goal></goals>
+                <configuration>
+                  <artifactItems>
+                    <!-- Direct -->
+                    <artifactItem>
+                      <groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><classifier>javadoc</classifier>
+                      <includes>element-list, package-list</includes>
+                      <outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-hodgepodge</outputDirectory>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><classifier>javadoc</classifier>
+                      <includes>element-list, package-list</includes>
+                      <outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-lang</outputDirectory>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId><classifier>javadoc</classifier>
+                      <includes>element-list, package-list</includes>
+                      <outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-net-types</outputDirectory>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>com.aoapps</groupId><artifactId>ao-security</artifactId><classifier>javadoc</classifier>
+                      <includes>element-list, package-list</includes>
+                      <outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-security</outputDirectory>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId><classifier>javadoc</classifier>
+                      <includes>element-list, package-list</includes>
+                      <outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/aoserv-client</outputDirectory>
+                    </artifactItem>
+                  </artifactItems>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+            <configuration>
+              <offlineLinks combine.children="append">
+                <!-- Direct -->
+                <offlineLink>
+                  <url>https://oss.aoapps.com/hodgepodge/apidocs/</url>
+                  <location>${project.build.directory}/offlineLinks/com.aoapps/ao-hodgepodge</location>
+                </offlineLink>
+                <offlineLink>
+                  <url>https://oss.aoapps.com/lang/apidocs/</url>
+                  <location>${project.build.directory}/offlineLinks/com.aoapps/ao-lang</location>
+                </offlineLink>
+                <offlineLink>
+                  <url>https://oss.aoapps.com/net-types/apidocs/</url>
+                  <location>${project.build.directory}/offlineLinks/com.aoapps/ao-net-types</location>
+                </offlineLink>
+                <offlineLink>
+                  <url>https://oss.aoapps.com/security/apidocs/</url>
+                  <location>${project.build.directory}/offlineLinks/com.aoapps/ao-security</location>
+                </offlineLink>
+                <offlineLink>
+                  <url>https://aoindustries.com/aoserv/client/apidocs/</url>
+                  <location>${project.build.directory}/offlineLinks/com.aoindustries/aoserv-client</location>
+                </offlineLink>
+              </offlineLinks>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- Direct -->
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.1.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.2.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId><version>2.0.2<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-security</artifactId><version>3.1.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId><version>1.91.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <!-- Transitive -->
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>3.0.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-sql</artifactId><version>2.0.1<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-tempfiles</artifactId><version>3.0.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-tlds</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <!-- Direct -->
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId>
+    </dependency>
+  </dependencies>
+</project>

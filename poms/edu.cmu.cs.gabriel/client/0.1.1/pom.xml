@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.cmu.cs.gabriel</groupId>
+  <artifactId>client</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Gabriel Client</name>
+  <description>Networking componenet for Gabriel Android Clients</description>
+  <url>http://gabriel.cs.cmu.edu/</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rogerthat94</id>
+      <name>Roger Iyengar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cmusatyalab/gabriel-android-common.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/cmusatyalab/gabriel-android-common.git</developerConnection>
+    <url>https://github.com/cmusatyalab/gabriel-android-common</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tinder.scarlet</groupId>
+      <artifactId>scarlet</artifactId>
+      <version>0.1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tinder.scarlet</groupId>
+      <artifactId>websocket-okhttp</artifactId>
+      <version>0.1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tinder.scarlet</groupId>
+      <artifactId>message-adapter-protobuf</artifactId>
+      <version>0.1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tinder.scarlet</groupId>
+      <artifactId>lifecycle-android</artifactId>
+      <version>0.1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>edu.cmu.cs.gabriel</groupId>
+      <artifactId>protocol</artifactId>
+      <version>0.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

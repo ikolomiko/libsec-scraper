@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.1.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <sign>
+                    <debug>false</debug>
+                    </sign>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.aliyun.ams</groupId>
+    <artifactId>alicloud-android-push</artifactId>
+    <version>4.0.3-test</version>
+    <packaging>aar</packaging>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.aliyun.ams</groupId>
+            <artifactId>alicloud-android-ut</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taobao.android</groupId>
+            <artifactId>accs_sdk_taobao</artifactId>
+            <version>3.1.2.1-open</version>
+            <scope>compile</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>tlog_adapter</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>utdid4all</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>tnet-jni</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taobao.android</groupId>
+            <artifactId>networksdk</artifactId>
+            <version>3.1.4.6-open</version>
+            <scope>compile</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>tlog_adapter</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>utdid4all</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>tnet-jni</artifactId>
+                    <groupId>com.taobao.android</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taobao.android</groupId>
+            <artifactId>tnet4android</artifactId>
+            <version>3.1.11</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gamesneox.lazy</groupId>
+  <artifactId>lazy</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Lazy</name>
+  <description>Simple lazy loader for Java/Kotlin</description>
+  <url>https://github.com/games-neox/Lazy</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/games-neox/Lazy/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>games-neox</id>
+      <name>Games Neox</name>
+      <email>games.neox@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/games-neox/Lazy.git</connection>
+    <developerConnection>https://github.com/games-neox/Lazy.git</developerConnection>
+    <url>https://github.com/games-neox/Lazy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.gamesneox.defence</groupId>
+      <artifactId>defence</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

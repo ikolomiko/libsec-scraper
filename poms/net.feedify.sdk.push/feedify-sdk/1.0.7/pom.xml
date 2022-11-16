@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.feedify.sdk.push</groupId>
+  <artifactId>feedify-sdk</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>feedify-sdk</name>
+  <description>Feedify push notification SDK</description>
+  <url>http://app.feedify.net</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>feedify</id>
+      <name>Feedify</name>
+      <email>info@feedify.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:franksoftgrid/feedifypush.git</connection>
+    <developerConnection>scm:git:ssh://github.com/franksoftgrid/franksoftgrid.git</developerConnection>
+    <url>https://github.com/franksoftgrid/feedifypush</url>
+  </scm>
+</project>

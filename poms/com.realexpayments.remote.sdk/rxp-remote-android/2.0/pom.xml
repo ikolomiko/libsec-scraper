@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.realexpayments.remote.sdk</groupId>
+  <artifactId>rxp-remote-android</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>rxp-remote-android</name>
+  <description>The official Realex Payments Android SDK for HPP and Remote API.</description>
+  <url>https://developer.realexpayments.com</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>realexpayments</id>
+      <name>Realex Payments</name>
+      <email>developers@realexpayments.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/realexpayments/rxp-android.git</connection>
+    <developerConnection>https://github.com/realexpayments/rxp-android.git</developerConnection>
+    <url>https://developer.realexpayments.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

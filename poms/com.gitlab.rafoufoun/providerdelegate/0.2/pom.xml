@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitlab.rafoufoun</groupId>
+  <artifactId>providerdelegate</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>Provider Delegate Library</name>
+  <description>Delegate pattern applied to ContentProvider for Android applications.</description>
+  <url>https://gitlab.com/rafoufoun/ProviderDelegate</url>
+  <licenses>
+    <license>
+      <name>GNU GPLv3</name>
+      <url>http://www.gnu.org/licenses/gpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rafoufoun</id>
+      <name>Rafi Panoyan</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitlab.com/rafoufoun/ProviderDelegate.git</connection>
+    <developerConnection>scm:git:https://gitlab.com/rafoufoun/ProviderDelegate.git</developerConnection>
+    <url>https://gitlab.com/rafoufoun/ProviderDelegate</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

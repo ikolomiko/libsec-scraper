@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gabrielittner.sqlite</groupId>
+  <artifactId>support-db-requery</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Implementation of support db</name>
+  <description>Wrapper for requery's sqlite-android that implements SupportSQLite interfaces</description>
+  <url>https://github.com/gabrielittner/support-db-requery/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gabrielittner</id>
+      <name>Gabriel Ittner</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/gabrielittner/support-db-requery.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/gabrielittner/support-db-requery.git</developerConnection>
+    <url>https://github.com/gabrielittner/support-db-requery/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>android.arch.persistence</groupId>
+      <artifactId>db</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.requery</groupId>
+      <artifactId>sqlite-android</artifactId>
+      <version>3.20.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

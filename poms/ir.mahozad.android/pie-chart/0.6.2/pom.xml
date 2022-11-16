@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ir.mahozad.android</groupId>
+  <artifactId>pie-chart</artifactId>
+  <version>0.6.2</version>
+  <packaging>aar</packaging>
+  <name>android-pie-chart</name>
+  <description>A library for creating pie charts and donut charts in Android.
+The aim of this library is to provide a full-featured chart view and to enable users to customize it to the most extent possible.
+Visit the project on GitHub to learn more.</description>
+  <url>https://mahozad.ir/android-pie-chart</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mahozad</id>
+      <name>Mahdi Hosseinzadeh</name>
+      <email></email>
+      <url>https://mahozad.ir/</url>
+      <roles>
+        <role>Lead Developer</role>
+      </roles>
+      <timezone>GMT+4:30</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/mahozad/android-pie-chart.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mahozad/android-pie-chart.git</developerConnection>
+    <url>https://github.com/mahozad/android-pie-chart</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/mahozad/android-pie-chart/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/mahozad/android-pie-chart/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jacoco</groupId>
+      <artifactId>org.jacoco.agent</artifactId>
+      <version>0.7.9</version>
+      <classifier>runtime</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

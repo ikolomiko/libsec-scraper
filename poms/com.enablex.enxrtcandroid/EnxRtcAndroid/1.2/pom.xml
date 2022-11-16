@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.enablex.enxrtcandroid</groupId>
+  <artifactId>EnxRtcAndroid</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>sdk to create video streaming app</name>
+  <url>https://github.com/enablex/Android_App</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shashank</id>
+      <name>Shashank Gupta</name>
+      <email>jfrogb@vcloudx.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/enablex/Android_App.git</connection>
+    <developerConnection>https://github.com/enablex/Android_App.git</developerConnection>
+    <url>https://github.com/enablex/Android_App</url>
+  </scm>
+  <dependencies/>
+</project>

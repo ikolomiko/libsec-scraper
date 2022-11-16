@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nextgis.maplib</groupId>
+  <artifactId>maplib</artifactId>
+  <version>3.6.0</version>
+  <packaging>aar</packaging>
+  <name>maplib</name>
+  <description>The base map library for Android geo applications.</description>
+  <url>https://github.com/nextgis/android_maplib</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bishopgis</id>
+      <name>Dmitry Baryshnikov</name>
+      <email>dmitry.baryshnikov@nextgis.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nextgis/android_maplib.git</connection>
+    <developerConnection>https://github.com/nextgis/android_maplib.git</developerConnection>
+    <url>https://github.com/nextgis/android_maplib</url>
+  </scm>
+</project>

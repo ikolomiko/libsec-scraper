@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jackyjf.main.test</groupId>
+  <artifactId>logView</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <name>extent function for Logging on View</name>
+  <url>https://github.com/jacky1234/JackLogger</url>
+  <licenses>
+    <license>
+      <name>Extent function for Logging on View</name>
+      <url>https://github.com/jacky1234/JackLogger</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jacky1234</id>
+      <name>yangjianfei</name>
+      <email>jackdoson2011@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:jacky1234/JackLogger.git</connection>
+    <developerConnection>git@github.com:jacky1234/JackLogger.git</developerConnection>
+    <url>https://github.com/jacky1234/JackLogger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

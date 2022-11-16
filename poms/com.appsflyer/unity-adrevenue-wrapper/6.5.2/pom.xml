@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appsflyer</groupId>
+  <artifactId>unity-adrevenue-wrapper</artifactId>
+  <version>6.5.2</version>
+  <packaging>aar</packaging>
+  <name>AppsFlyer Unity Ad Revenue Integration</name>
+  <description>AppsFlyer Ad Revenue Integration for Unity</description>
+  <url>http://bitbucket.org/appsflyer/appsflyer-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>http://www.appsflyer.com</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appsflyer</id>
+      <name>AppsFlyer, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:http://bitbucket.org/appsflyer/appsflyer-android-sdk</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/appsflyer/appsflyer-android-sdk</developerConnection>
+    <url>http://bitbucket.org/appsflyer/appsflyer-android-sdk</url>
+  </scm>
+</project>

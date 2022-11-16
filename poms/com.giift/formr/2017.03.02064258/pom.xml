@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.giift</groupId>
+  <artifactId>formr</artifactId>
+  <version>2017.03.02064258</version>
+  <packaging>aar</packaging>
+  <name>Android Library to build an Android style Form from a JSON</name>
+  <url>https://www.giift.com/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Giift</id>
+      <name>Giift All Dev</name>
+      <email>vieony.dacosta@giift.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/giiftalldev/formr-android</connection>
+    <developerConnection>https://bitbucket.org/giiftalldev/formr-android</developerConnection>
+    <url>https://www.giift.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-vision</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.card</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>5.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

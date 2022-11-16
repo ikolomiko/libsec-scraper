@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mind.api</groupId>
+  <artifactId>mind-android-sdk</artifactId>
+  <version>3.10.0</version>
+  <packaging>aar</packaging>
+  <name>Mind Android SDK</name>
+  <description>Mind Android SDK is a JavaScript library that includes everything you need to add Mind API-powered real-time voice, video and text communication to your Android-applications</description>
+  <url>https://gitlab.com/mindlabs/api/sdk/android</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License</name>
+      <url>https://gitlab.com/mindlabs/api/sdk/android/-/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alexander.strikhalev</id>
+      <name>Alexander Strikhalev</name>
+      <email>alexander.strikhalev@mind.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@gitlab.com:mindlabs/api/sdk/android.git</connection>
+    <developerConnection>scm:git@gitlab.com:mindlabs/api/sdk/android.git</developerConnection>
+    <url>https://gitlab.com/mindlabs/api/sdk/android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.streamsupport</groupId>
+      <artifactId>android-retrofuture</artifactId>
+      <version>1.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.9</version>
+    </dependency>
+  </dependencies>
+</project>

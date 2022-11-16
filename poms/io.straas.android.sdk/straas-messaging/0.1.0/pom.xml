@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.straas.android.sdk</groupId>
+  <artifactId>straas-messaging</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>straas-messaging</name>
+  <description>StraaS Android SDK</description>
+  <organization>
+    <name>StraaS.io</name>
+    <url>https://github.com/StraaS/StraaS-android-sdk-sample</url>
+  </organization>
+  <url>https://github.com/StraaS/StraaS-android-sdk-sample</url>
+  <scm>
+    <connection>scm:git:git@github.com/StraaS/StraaS-android-sdk-sample.git</connection>
+    <developerConnection>scm:git:git@github.com/StraaS/StraaS-android-sdk-sample.git</developerConnection>
+    <url>https://github.com/StraaS/StraaS-android-sdk-sample</url>
+    <tag>HEAD</tag>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>io.socket</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>0.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp-ws</artifactId>
+      <version>3.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.straas.android.sdk</groupId>
+      <artifactId>straas-base</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <groupId>com.github.brunotl</groupId>
+  <artifactId>boost_static_assert</artifactId>
+  <version>1.76.0</version>
+  <packaging>aar</packaging>
+  <name>Static Assert</name>
+  <description>Static assertions (compile time assertions).</description>
+  <url>https://www.boost.org/</url>
+  <licenses>
+    <license>
+      <name>Distributed under the Boost Software License, Version 1.0.</name>
+      <url>http://www.boost.org/LICENSE_1_0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+  <developer><name>John Maddock &lt;john -at- johnmaddock.co.uk&gt;</name></developer></developers>
+  <scm>
+    <connection>scm:git:https://github.com/boostorg/static_assert.git</connection>
+    <url>https://github.com/boostorg/static_assert.git</url>
+  </scm>
+  <dependencies>
+  <dependency><groupId>com.github.brunotl</groupId><artifactId>boost_config</artifactId><version>1.76.0</version><type>aar</type><optional /></dependency><dependency><groupId>com.github.brunotl</groupId><artifactId>boost_detail</artifactId><version>1.76.0</version><type>aar</type><optional /></dependency></dependencies>
+
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.7</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>ossrh</serverId>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.6</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>  
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+  </distributionManagement>  
+
+</project>

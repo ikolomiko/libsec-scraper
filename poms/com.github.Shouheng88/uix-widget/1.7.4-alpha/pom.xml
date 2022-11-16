@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Shouheng88</groupId>
+  <artifactId>uix-widget</artifactId>
+  <version>1.7.4-alpha</version>
+  <packaging>aar</packaging>
+  <name>uix-widget</name>
+  <description>Android UIX</description>
+  <url>https://github.com/Shouheng88/Android-uix</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ShouHeng</name>
+      <email>shouheng2015@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Shouheng88/Android-uix.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Shouheng88/Android-uix.git</developerConnection>
+    <url>https://github.com/Shouheng88/Android-uix</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.CymChad</groupId>
+      <artifactId>BaseRecyclerViewAdapterHelper</artifactId>
+      <version>2.9.40</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.chrisbanes</groupId>
+      <artifactId>PhotoView</artifactId>
+      <version>2.1.4</version>
+    </dependency>
+    <dependency>
+      <groupId>sample</groupId>
+      <artifactId>uix-common</artifactId>
+      <version>unspecified</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+  </dependencies>
+</project>

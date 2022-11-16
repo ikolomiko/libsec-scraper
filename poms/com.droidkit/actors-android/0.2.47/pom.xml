@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.droidkit</groupId>
+  <artifactId>actors-android</artifactId>
+  <version>0.2.47</version>
+  <packaging>aar</packaging>
+  <name>DroidKit Actors: Android</name>
+  <description>DroidKit Actors: Android is extension for DroidKit Actors for creating UIActors</description>
+  <url>https://github.com/secretapphd/droidkit-actors</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ex3ndr</id>
+      <name>Stepan Korshakov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:secretapphd/droidkit-actors.git</connection>
+    <developerConnection>scm:git@github.com:secretapphd/droidkit-actors.git</developerConnection>
+    <url>scm:git@github.com:secretapphd/droidkit-actors.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.droidkit</groupId>
+      <artifactId>actors</artifactId>
+      <version>0.2.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>20.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

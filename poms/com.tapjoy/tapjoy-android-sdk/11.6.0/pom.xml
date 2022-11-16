@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tapjoy</groupId>
+  <artifactId>tapjoy-android-sdk</artifactId>
+  <version>11.6.0</version>
+  <name>Tapjoy Android SDK</name>
+  <description>Tapjoy Android SDK</description>
+  <url>http://dev.tapjoy.com/</url>
+  <licenses>
+    <license>
+      <name>Tapjoy Terms of Service</name>
+      <url>https://home.tapjoy.com/info/legal</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-basement</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

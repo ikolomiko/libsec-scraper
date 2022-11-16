@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ytai.ioio</groupId>
+  <artifactId>IOIOLibAndroidDevice</artifactId>
+  <version>5.07</version>
+  <packaging>aar</packaging>
+  <name>IOIOLibAndroidDevice</name>
+  <description>IOIO library for Android - USB device extenstion</description>
+  <url>https://github.com/ytai/ioio/wiki</url>
+  <licenses>
+    <license>
+      <name>The BSD 2-Clause License</name>
+      <url>http://opensource.org/licenses/bsd-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ytai</id>
+      <name>Ytai Ben-Tsvi</name>
+      <email>ytaibt@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ytai/ioio.git</connection>
+    <developerConnection>scm:git@github.com:ytai/ioio.git</developerConnection>
+    <url>https://www.github.com/ytai/ioio</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.ytai.ioio</groupId>
+      <artifactId>IOIOLibAndroid</artifactId>
+      <version>5.07</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gojek.clickstream</groupId>
+  <artifactId>clickstream-util</artifactId>
+  <version>1.0.0-alpha-10</version>
+  <packaging>aar</packaging>
+  <name>clickstream-util</name>
+  <description>Clickstream</description>
+  <url>https://github.com/gojek/clickstream-android</url>
+  <licenses>
+    <license>
+      <name>Clickstream License</name>
+      <url>https://github.com/gojek/clickstream-android/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>radityagumay</id>
+      <name>Raditya Gumay</name>
+      <email>raditya.g@gojek.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/gojek/clickstream-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/gojek/clickstream-android.git</developerConnection>
+    <url>https://github.com/gojek/clickstream-android/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.4.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-reactive</artifactId>
+      <version>1.4.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

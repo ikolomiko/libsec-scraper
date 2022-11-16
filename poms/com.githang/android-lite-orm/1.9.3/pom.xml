@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.githang</groupId>
+  <artifactId>android-lite-orm</artifactId>
+  <version>1.9.3</version>
+  <packaging>aar</packaging>
+  <name>android-lite-orm</name>
+  <description>LiteOrm is a fast, small, powerful ORM framework for Android. LiteOrm makes you do CRUD operarions on SQLite database with a sigle line of code efficiently.</description>
+  <url>https://github.com/msdx/android-lite-orm</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>git@github.com:msdx/android-lite-orm.git</connection>
+    <url>https://github.com/msdx/android-lite-orm</url>
+  </scm>
+</project>

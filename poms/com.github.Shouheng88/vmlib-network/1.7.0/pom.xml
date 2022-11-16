@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Shouheng88</groupId>
+  <artifactId>vmlib-network</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <name>VMLib</name>
+  <description>Android VMLib</description>
+  <url>https://github.com/Shouheng88/Android-VMLib</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ShouHeng</name>
+      <email>shouheng2015@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Shouheng88/Android-VMLib.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Shouheng88/Android-VMLib.git</developerConnection>
+    <url>https://github.com/Shouheng88/Android-VMLib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.Shouheng88</groupId>
+      <artifactId>utils-core</artifactId>
+      <version>2.1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

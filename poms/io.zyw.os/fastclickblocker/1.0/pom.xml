@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.zyw.os</groupId>
+  <artifactId>fastclickblocker</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>A simple way to avoid fast click event in android</name>
+  <url>https://github.com/byecode/DBClickBlocker</url>
+  <licenses>
+    <license>
+      <name>A simple way to avoid fast click event in android</name>
+      <url>https://github.com/byecode/DBClickBlocker</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zhyw</id>
+      <name>zhyw</name>
+      <email>janstk.us@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/byecode/DBClickBlocker.git</connection>
+    <developerConnection>https://github.com/byecode/DBClickBlocker.git</developerConnection>
+    <url>https://github.com/byecode/DBClickBlocker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

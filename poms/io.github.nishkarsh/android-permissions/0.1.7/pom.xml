@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.nishkarsh</groupId>
+  <artifactId>android-permissions</artifactId>
+  <version>0.1.7</version>
+  <packaging>aar</packaging>
+  <name>Android Permissions</name>
+  <description>An android library that makes it really easy to deal with dynamic permissions. Based on the context, the library automatically decides whether to show a dialog (in case the app is in foreground) or a notification (in case permission is required by a background service).</description>
+  <url>https://github.com/nishkarsh/android-permissions</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/nishkarsh/android-permissions/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nishkarsh</id>
+      <name>Nishkarsh Sharma</name>
+      <email>nishkarsh4@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nishkarsh/android-permissions.git</connection>
+    <developerConnection>git@github.com:nishkarsh/android-permissions.git</developerConnection>
+    <url>https://github.com/nishkarsh/android-permissions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

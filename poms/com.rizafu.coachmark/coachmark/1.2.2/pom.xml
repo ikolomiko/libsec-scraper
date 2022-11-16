@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rizafu.coachmark</groupId>
+  <artifactId>coachmark</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>CoachMark</name>
+  <description>An android library coaching mark for target todo, showcase, tutorial, floating menu and explain a page with simple UI, customable and easy to use</description>
+  <url>https://github.com/rizafu/CoachMark</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rizafu</id>
+      <name>Riza Fathul Uzzy</name>
+      <email>riza.fathul.uzzy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rizafu/CoachMark.git</connection>
+    <developerConnection>https://github.com/rizafu/CoachMark.git</developerConnection>
+    <url>https://github.com/rizafu/CoachMark</url>
+  </scm>
+</project>

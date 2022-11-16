@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.imangazaliev.material-prefs</groupId>
+  <artifactId>dialogs</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>dialogs</name>
+  <description>⚙ A beautiful and extensible API for bulding preferences screen.</description>
+  <url>https://github.com/ImangazalievM/material-prefs</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>https://github.com/ImangazalievM/material-prefs/blob/main/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ImangazalievM</id>
+      <name>Mahach Imangazaliev</name>
+      <email>makhach.imangazaliev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/ImangazalievM/material-prefs.git</connection>
+    <developerConnection>scm:git:ssh://github.com/ImangazalievM/material-prefs.git</developerConnection>
+    <url>https://github.com/ImangazalievM/material-prefs/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.imangazaliev.material-prefs</groupId>
+      <artifactId>material-prefs</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>input</artifactId>
+      <version>3.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

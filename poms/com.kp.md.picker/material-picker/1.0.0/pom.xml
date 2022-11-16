@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kp.md.picker</groupId>
+  <artifactId>material-picker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>MaterialPicker</name>
+  <description>Material styled Date and Time Picker for back port upto api 14</description>
+  <url>https://github.com/bkarmak/MaterialPicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bkarmak</id>
+      <name>Biswajit Karmakar</name>
+      <email>bkarmak@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bkarmak/MaterialPicker.git</connection>
+    <developerConnection>https://github.com/bkarmak/MaterialPicker.git</developerConnection>
+    <url>https://github.com/bkarmak/MaterialPicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>gridlayout-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

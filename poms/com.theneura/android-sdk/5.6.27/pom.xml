@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.theneura</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>5.6.27</version>
+  <packaging>aar</packaging>
+  <name>Neura Android SDK</name>
+  <description>Thank you for choosing Neura. Neura intelligently transforms customer engagement by delivering live, actionable insights based on each userâs real-world behavior. Brands that utilize Neuraâs groundbreaking technology adapt to each userâs unique needs, delivering contextually relevant, real-time interactions and personalized customer experiencesâdriving engagement, retention, and monetization. We are excited to see what you will accomplish with our SDK!</description>
+  <url>https://dev.theneura.com</url>
+  <licenses>
+    <license>
+      <name>Neura SDK License</name>
+      <url>https://theneura.com/terms/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Neura</id>
+      <name>Neura Inc.</name>
+      <email>dev-support@theneura.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:NeuraLabs/NeuraSampleAndroid.git</connection>
+    <developerConnection>scm:git@github.com:NeuraLabs/NeuraSampleAndroid.git</developerConnection>
+    <url>https://github.com/NeuraLabs/NeuraSampleAndroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime</artifactId>
+      <version>2.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>17.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>18.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

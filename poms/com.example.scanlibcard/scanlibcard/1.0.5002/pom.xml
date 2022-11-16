@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.scanlibcard</groupId>
+  <artifactId>scanlibcard</artifactId>
+  <version>1.0.5002</version>
+  <packaging>aar</packaging>
+  <name>scanlibcard</name>
+  <description>This library provides an Activity that you can use to scan credit and debit cards.</description>
+  <url>https://github.com/charanveer13/ScanLib</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shahzebg</id>
+      <name>shahzeb khan</name>
+      <email>shahzeb.smartitventures@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/charanveer13/ScanLib.git</connection>
+    <developerConnection>https://github.com/charanveer13/ScanLib.git</developerConnection>
+    <url>https://github.com/charanveer13/ScanLib</url>
+  </scm>
+</project>

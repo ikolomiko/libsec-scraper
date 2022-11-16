@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.akinaru</groupId>
+  <artifactId>fadecandy-service</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>fadecandy-server-android</name>
+  <description>Fadecandy server for Android</description>
+  <url>https://github.com/akinaru/fadecandy-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/akinary/fadecandy-android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>akinaru</id>
+      <name>Bertrand Martel</name>
+      <email>kiruazoldik92@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/akinary/fadecandy-android.git</connection>
+    <developerConnection>https://github.com/akinary/fadecandy-android.git</developerConnection>
+    <url>https://github.com/akinaru/fadecandy-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

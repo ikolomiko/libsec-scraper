@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jmolsmobile</groupId>
+  <artifactId>landscapevideocamera</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>Landscape Video Capture Library</name>
+  <description>Powerful custom Android Camera with granular control over the video quality and filesize, restricting recordings to landscape only.</description>
+  <url>https://github.com/jmolsmobile/LandscapeVideoCamera</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jmolsmobile</id>
+      <name>Jeroen Mols</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jmolsmobile/LandscapeVideoCamera.git</connection>
+    <developerConnection>scm:git@github.com:jmolsmobile/LandscapeVideoCamera.git</developerConnection>
+    <url>https://github.com/jmolsmobile/LandscapeVideoCamera</url>
+  </scm>
+</project>

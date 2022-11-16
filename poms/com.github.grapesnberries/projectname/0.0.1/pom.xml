@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.grapesnberries</groupId>
+  <artifactId>projectname</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>ProjectName</name>
+  <description>A library that logs the curl requests, Used with Retrofit 2.0.2</description>
+  <url>https://github.com/grapesnberries/Curl-Logger-interceptor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>grapesnberries</id>
+      <name>Grapes'n'Berries</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:grapesnberries/Curl-Logger-interceptor.git</connection>
+    <developerConnection>scm:git@github.com:grapesnberries/Curl-Logger-interceptor.git</developerConnection>
+    <url>https://github.com/grapesnberries/Curl-Logger-interceptor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

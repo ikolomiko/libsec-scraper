@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eugan.monitor</groupId>
+  <artifactId>eguanfangzhousdk</artifactId>
+  <version>3.5.0.7</version>
+  <packaging>aar</packaging>
+  <name>Eguan SDK</name>
+  <url>https://github.com/fatmeng/EguanFangZhou</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fatmeng</id>
+      <name>mengqi</name>
+      <email>mengqi@analysys.com.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fatmeng/EguanFangZhou.git</connection>
+    <developerConnection>https://github.com/fatmeng/EguanFangZhou.git</developerConnection>
+    <url>https://github.com/fatmeng/EguanFangZhou</url>
+  </scm>
+</project>

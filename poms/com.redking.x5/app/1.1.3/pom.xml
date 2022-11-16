@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.redking.x5</groupId>
+  <artifactId>app</artifactId>
+  <version>1.1.3</version>
+  <packaging>aar</packaging>
+  <name>com.redking.tx5</name>
+  <description>A document opening tool for Android, such as PDF,EXCEL and TXT etc.</description>
+  <url>https://github.com/redwang0816/Android-DocOpen.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>redking</id>
+      <name>redking</name>
+      <email>redwang0816@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/redwang0816/Android-DocOpen.git</connection>
+    <developerConnection>https://github.com/redwang0816/Android-DocOpen.git</developerConnection>
+    <url>https://github.com/redwang0816/Android-DocOpen.git</url>
+  </scm>
+</project>

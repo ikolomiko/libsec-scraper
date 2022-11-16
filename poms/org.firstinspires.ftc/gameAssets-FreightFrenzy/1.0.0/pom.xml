@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.firstinspires.ftc</groupId>
+  <artifactId>gameAssets-FreightFrenzy</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>gameAssets-FreightFrenzy</name>
+  <description>FTC SDK Assets</description>
+  <url>https://github.com/FIRST-Tech-Challenge/FtcRobotController</url>
+  <licenses>
+    <license>
+      <name>3-Clause BSD</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ftctechteam</id>
+      <name>FTC Technology Team</name>
+      <email>ftctechnh@firstinspires.org</email>
+      <organization>FIRST Inspires</organization>
+      <organizationUrl>https://www.firstinspires.org</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/FIRST-Tech-Challenge/FtcRobotController.git</connection>
+    <developerConnection>scm:git:ssh://github.com/OpenFTC/Extracted-RC.git</developerConnection>
+    <url>https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master</url>
+  </scm>
+</project>

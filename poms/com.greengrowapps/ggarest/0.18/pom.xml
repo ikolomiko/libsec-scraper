@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.greengrowapps</groupId>
+  <artifactId>ggarest</artifactId>
+  <version>0.18</version>
+  <packaging>aar</packaging>
+  <name>GgaRest</name>
+  <description>Android Rest Library</description>
+  <url>https://github.com/greengrowapps/ggarest</url>
+  <licenses>
+    <license>
+      <name>Apache license 2.0</name>
+      <url>https://raw.githubusercontent.com/greengrowapps/ggarest/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>greengrowapps</id>
+      <name>Green Grow Apps SC</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:greengrowapps/ggarest.git</connection>
+    <developerConnection>scm:git@github.com:greengrowapps/ggarest.git</developerConnection>
+    <url>https://github.com/greengrowapps/ggarest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

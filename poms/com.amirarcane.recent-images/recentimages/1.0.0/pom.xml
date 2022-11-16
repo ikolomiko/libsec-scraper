@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amirarcane.recent-images</groupId>
+  <artifactId>recentimages</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>recentimages</name>
+  <description>Simplest way to get device all images based on date taken, name, id and other customization</description>
+  <url>https://github.com/amirarcane/recent-images</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/amirarcane/recent-images/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amirarcane</id>
+      <name>Amirhossein Naghshzan</name>
+      <email>n.naghshzan@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/amirarcane/recent-images.git</connection>
+    <developerConnection>https://github.com/amirarcane/recent-images.git</developerConnection>
+    <url>https://github.com/amirarcane/recent-images</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

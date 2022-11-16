@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.febialfarabi</groupId>
+  <artifactId>alfalibs</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Alfalibs</name>
+  <description>Design Pattern Collection To Simply Android Development Process</description>
+  <url>https://github.com/febiAlfarabi/alfalibs.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>febiAlfarabi</id>
+      <name>Alfarabi Dwi Karuniawan</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:febiAlfarabi/alfalibs.git</connection>
+    <developerConnection>scm:git@github.com:febiAlfarabi/alfalibs.git</developerConnection>
+    <url>https://github.com/febiAlfarabi/alfalibs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fingerlinks.mobile.android</groupId>
+      <artifactId>Navigator</artifactId>
+      <version>0.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.appeaser.sublimenavigationviewlibrary</groupId>
+      <artifactId>sublimenavigationviewlibrary</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ca.barrenechea.header-decor</groupId>
+      <artifactId>header-decor</artifactId>
+      <version>0.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

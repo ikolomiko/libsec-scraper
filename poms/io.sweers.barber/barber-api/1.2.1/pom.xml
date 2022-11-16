@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.sweers.barber</groupId>
+  <artifactId>barber-api</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>barber-api</name>
+  <description>An annotation processor library for styling custom views.</description>
+  <url>https://github.com/hzsweers/barber</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pandanomic</id>
+      <name>Henri Z. Sweers</name>
+      <email>pandanomic@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hzsweers/barber.git</connection>
+    <developerConnection>https://github.com/hzsweers/barber.git</developerConnection>
+    <url>https://github.com/hzsweers/barber.git</url>
+  </scm>
+</project>

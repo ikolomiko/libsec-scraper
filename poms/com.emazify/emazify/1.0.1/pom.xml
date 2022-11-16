@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.emazify</groupId>
+  <artifactId>emazify</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>maven</name>
+  <description>Emazify is an Android Library to analytics.</description>
+  <url>https://github.com/exponentialrocket/Emazify</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>emazify</id>
+      <name>emazify admin</name>
+      <email>ecosystem@emazify.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/exponentialrocket/Emazify.git</connection>
+    <developerConnection>https://github.com/exponentialrocket/Emazify.git</developerConnection>
+    <url>https://github.com/exponentialrocket/Emazify</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.loopj.android</groupId>
+      <artifactId>android-async-http</artifactId>
+      <version>1.4.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

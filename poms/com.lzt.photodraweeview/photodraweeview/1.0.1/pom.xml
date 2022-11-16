@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lzt.photodraweeview</groupId>
+  <artifactId>photodraweeview</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>photodraweeview</name>
+  <description>A Photodraweeview which can zoom or scale your image simply.</description>
+  <developers>
+    <developer>
+      <id>tata1989y</id>
+      <name>Terry Liu</name>
+      <email>tata1989y@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>0.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

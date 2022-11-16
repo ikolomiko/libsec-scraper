@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mikhaellopez</groupId>
+  <artifactId>circularfillableloaders</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>CircularFillableLoaders</name>
+  <description>This is an Android project allowing to realize a beautiful circular fillable loaders to be used for splashscreen for example.</description>
+  <url>https://github.com/lopspower/CircularFillableLoaders</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikhael.lopez</id>
+      <name>Mikhael LOPEZ</name>
+      <email>lopez.mikhael@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/lopspower/CircularFillableLoaders</connection>
+    <developerConnection>scm:git:https://github.com/lopspower/CircularFillableLoaders</developerConnection>
+    <url>https://github.com/lopspower/CircularFillableLoaders</url>
+  </scm>
+</project>

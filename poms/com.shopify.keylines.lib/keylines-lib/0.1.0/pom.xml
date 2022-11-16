@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shopify.keylines.lib</groupId>
+  <artifactId>keylines-lib</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>keylines-lib</name>
+  <description>Display keylines on device screen</description>
+  <url>https://github.com/Shopify/android-keylines-lib</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/Shopify/android-keylines-lib.git</connection>
+    <developerConnection>https://github.com/Shopify/android-keylines-lib.git</developerConnection>
+    <url>https://github.com/Shopify/android-keylines-lib</url>
+  </scm>
+</project>

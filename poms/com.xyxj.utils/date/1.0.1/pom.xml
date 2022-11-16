@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xyxj.utils</groupId>
+  <artifactId>date</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>最全的日期操作工具 Full date option tool</name>
+  <url>https://github.com/ixyxj/SimpleDate</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xyxj</id>
+      <name>xyxj</name>
+      <email>xyxjun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ixyxj/SimpleDate.git</connection>
+    <developerConnection>https://github.com/ixyxj/SimpleDate.git</developerConnection>
+    <url>https://github.com/ixyxj/SimpleDate</url>
+  </scm>
+</project>

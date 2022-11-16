@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easyconnectlibrary.library</groupId>
+  <artifactId>easyconnectlibrary</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>EasyConnectLibrary</name>
+  <description>This Library is for creating client socket connection using wifi easily. All the required method is implemented for the same.</description>
+  <url>https://github.com/joyshah/EasyConnectLibrary</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>joy0803</id>
+      <name>Joy Shah</name>
+      <email>joyrshah@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/joyshah/EasyConnectLibrary.git</connection>
+    <developerConnection>https://github.com/joyshah/EasyConnectLibrary.git</developerConnection>
+    <url>https://github.com/joyshah/EasyConnectLibrary</url>
+  </scm>
+</project>

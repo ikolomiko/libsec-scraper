@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.tiki.widgets</groupId>
+  <artifactId>autocompleteemail</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AutoCompleteEmail</name>
+  <description>A library that suggest email domains and fill in your edit text automatically</description>
+  <url>https://github.com/dbof10/AutoCompleteEmail.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dbof10</id>
+      <name>Cuong Le</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:dbof10/AutoCompleteEmail.git</connection>
+    <developerConnection>scm:git@github.com:dbof10/AutoCompleteEmail.git</developerConnection>
+    <url>https://github.com/dbof10/AutoCompleteEmail.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

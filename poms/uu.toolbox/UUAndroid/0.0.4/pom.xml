@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uu.toolbox</groupId>
+  <artifactId>UUAndroid</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>UUAndroid</name>
+  <description>Useful Utilities is a collection of helper classes that extend or complement existing Android framework classes.</description>
+  <url>https://github.com/SilverPineSoftware/UUAndroid</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ryandevore</id>
+      <name>Ryan DeVore</name>
+      <email>ryan@silverpine.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SilverPineSoftware/UUAndroid.git</connection>
+    <developerConnection>https://github.com/SilverPineSoftware/UUAndroid.git</developerConnection>
+    <url>https://github.com/SilverPineSoftware/UUAndroid</url>
+  </scm>
+</project>

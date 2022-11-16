@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.specto</groupId>
+  <artifactId>specto-android-testing-shared</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Specto Android Testing Shared</name>
+  <description>Mobile-first app performance monitoring</description>
+  <url>https://specto.dev</url>
+  <licenses>
+    <license>
+      <name>Commercial License</name>
+      <url>https://users.specto.dev/binary-releases/license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nathanael</id>
+      <name>Nathanael Silverman</name>
+      <email>nathanael@specto.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://specto.dev</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.test.espresso</groupId>
+      <artifactId>espresso-idling-resource</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.3.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

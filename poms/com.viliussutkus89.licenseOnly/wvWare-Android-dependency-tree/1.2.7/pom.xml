@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>wvWare-Android-dependency-tree</artifactId>
+  <version>1.2.7</version>
+  <packaging>aar</packaging>
+  <name>wvWare-Android-dependency-tree</name>
+  <description>Dependency tree for vwWare-Android</description>
+  <url>https://github.com/ViliusSutkus89/vwWare-Android</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ViliusSutkus89</id>
+      <name>Vilius Sutkus '89</name>
+      <email>ViliusSutkus89@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ViliusSutkus89/vwWare-Android.git</connection>
+    <url>https://github.com/ViliusSutkus89/vwWare-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>wvWare</artifactId>
+      <version>1.2.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libgsf</artifactId>
+      <version>1.14.49</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libpng</artifactId>
+      <version>1.6.37</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libwmf</artifactId>
+      <version>v0.2.12</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>GLib</artifactId>
+      <version>2.72.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libxml</artifactId>
+      <version>2.9.14</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>FreeType</artifactId>
+      <version>2.12.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libiconv</artifactId>
+      <version>1.16</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>libffi</artifactId>
+      <version>3.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viliussutkus89.licenseOnly</groupId>
+      <artifactId>proxy-libintl</artifactId>
+      <version>0.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

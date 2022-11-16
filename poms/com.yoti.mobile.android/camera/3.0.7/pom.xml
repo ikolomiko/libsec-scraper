@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yoti.mobile.android</groupId>
+  <artifactId>camera</artifactId>
+  <version>3.0.7</version>
+  <packaging>aar</packaging>
+  <name>Yoti Camera library</name>
+  <description>Yoti Camera library</description>
+  <url>https://github.com/getyoti</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://www.yoti.com/wp-content/uploads/2019/08/Yoti-Doc-Scan-SDK-Terms.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yoti-ci</id>
+      <name>Yoti</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:lampkicking/yoti-camera-android.git</connection>
+    <url>https://github.com/lampkicking/yoti-camera-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yoti.mobile.android</groupId>
+      <artifactId>commons</artifactId>
+      <version>1.2.4</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

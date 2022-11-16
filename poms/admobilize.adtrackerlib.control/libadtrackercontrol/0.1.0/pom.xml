@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>admobilize.adtrackerlib.control</groupId>
+  <artifactId>libadtrackercontrol</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>AdTracker Control Library</name>
+  <description>Admobilize Android Tracker App Control</description>
+  <url>https://github.com/matrix-io/android-tracker-control-lib</url>
+  <licenses>
+    <license>
+      <name>GPL-3.0</name>
+      <url>https://github.com/matrix-io/android-tracker-control-lib/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hpsaturn</id>
+      <name>@hpsaturn</name>
+      <email>hpsaturn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/matrix-io/android-tracker-control-lib.git</connection>
+    <developerConnection>https://github.com/matrix-io/android-tracker-control-lib.git</developerConnection>
+    <url>https://github.com/matrix-io/android-tracker-control-lib</url>
+  </scm>
+</project>

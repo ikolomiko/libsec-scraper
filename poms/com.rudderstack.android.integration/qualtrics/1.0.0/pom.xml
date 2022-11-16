@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rudderstack.android.integration</groupId>
+  <artifactId>qualtrics</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Rudder-Integration-Qualtrics-Android</name>
+  <description>RudderStack's Native SDK Integration support for qualtrics.</description>
+  <url>https://github.com/rudderlabs/rudder-integration-qualtrics-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/rudderlabs/rudder-integration-qualtrics-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>desusai7</id>
+      <name>Desu Sai Venkat</name>
+      <email>venkat@rudderstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/rudderlabs/rudder-integration-qualtrics-android</connection>
+    <developerConnection>scm:git:ssh://github.com:rudderlabs/rudder-integration-qualtrics-android</developerConnection>
+    <url>https://github.com/rudderlabs/rudder-integration-qualtrics-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.qualtrics</groupId>
+      <artifactId>digital</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

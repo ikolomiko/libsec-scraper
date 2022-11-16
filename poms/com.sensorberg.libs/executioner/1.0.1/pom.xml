@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sensorberg.libs</groupId>
+  <artifactId>executioner</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Executioner</name>
+  <description>Sensorberg Threading (and threading testing) made simple</description>
+  <url>https://github.com/sensorberg-dev/executioner</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sensorberg-dev</id>
+      <name>Sensorberg GmbH</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sensorberg-dev/executioner.git</connection>
+    <developerConnection>scm:git@github.com:sensorberg-dev/executioner.git</developerConnection>
+    <url>https://github.com/sensorberg-dev/executioner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.50</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

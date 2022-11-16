@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amin</groupId>
+  <artifactId>persianmaterialdatetimepicker</artifactId>
+  <version>1.3.2</version>
+  <packaging>aar</packaging>
+  <name>PersianMaterialDateTimePicker</name>
+  <description>An Android library containing a shamsi (persian calendar) date picker and a time picker with Material Design style</description>
+  <url>https://github.com/AminMoradian/PersianMaterialDateTimePicker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amin</id>
+      <name>Amin Moradian</name>
+      <email>00d89904c867802d4b4a161ce7ca4d@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AminMoradian/PersianMaterialDateTimePicker.git</connection>
+    <developerConnection>https://github.com/AminMoradian/PersianMaterialDateTimePicker.git</developerConnection>
+    <url>https://github.com/AminMoradian/PersianMaterialDateTimePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.dcendents</groupId>
+      <artifactId>android-maven-gradle-plugin</artifactId>
+      <version>2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ai.redpen.capture.sdk</groupId>
+  <artifactId>android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Redpen Android SDK</name>
+  <description>This is an android library that will be integrated by the customers of Redpen into their android applications. Redpen is a bug and feedback capturing tool that reports issues directly in the project management board used by the development team.</description>
+  <url>https://github.com/AjmeraInfotech/redpen-mobile-wiget-android/</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>redpenai</id>
+      <name>Redpan</name>
+      <email>redpen@ajmerainfotech.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/AjmeraInfotech/redpen-mobile-wiget-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/AjmeraInfotech/redpen-mobile-wiget-android.git</developerConnection>
+    <url>https://github.com/AjmeraInfotech/redpen-mobile-wiget-android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.intuit.sdp</groupId>
+      <artifactId>sdp-android</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>4.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.conscrypt</groupId>
+      <artifactId>conscrypt-android</artifactId>
+      <version>2.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

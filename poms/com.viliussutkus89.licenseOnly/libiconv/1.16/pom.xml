@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libiconv</artifactId>
+  <version>1.16</version>
+  <packaging>aar</packaging>
+  <name>libiconv</name>
+  <description>This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode.</description>
+  <url>https://www.gnu.org/software/libiconv</url>
+  <inceptionYear>1999</inceptionYear>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Bruno Haible</name>
+      <email>bruno@clisp.org</email>
+    </developer>
+    <developer>
+      <name>Edmund Grimley Evans</name>
+      <email>edmundo@rano.org</email>
+    </developer>
+    <developer>
+      <name>Taro Muraoka</name>
+      <email>koron@tka.att.ne.jp</email>
+    </developer>
+    <developer>
+      <name>Akira Hatakeyama</name>
+      <email>akira@sra.co.jp</email>
+    </developer>
+    <developer>
+      <name>Juan Manuel Guerrero</name>
+      <email>st001906@hrz1.hrz.tu-darmstadt.de</email>
+    </developer>
+    <developer>
+      <name>Hironori Sakamoto</name>
+      <email>hsaka@mth.biglobe.ne.jp</email>
+    </developer>
+    <developer>
+      <name>Ken Lunde</name>
+      <email>lunde@adobe.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.savannah.gnu.org/git/libiconv.git</connection>
+    <url>https://git.savannah.gnu.org/gitweb/?p=libiconv.git</url>
+  </scm>
+</project>

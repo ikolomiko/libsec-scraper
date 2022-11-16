@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appboy</groupId>
+  <artifactId>appboy-segment-integration</artifactId>
+  <version>7.0.0</version>
+  <packaging>aar</packaging>
+  <name>Appboy Integration</name>
+  <description>Appboy Integration for Segment Android Analytics</description>
+  <url>http://github.com/appboy/appboy-segment-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appboy</id>
+      <name>Appboy, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/appboy/appboy-segment-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/appboy/appboy-segment-android.git</developerConnection>
+    <url>http://github.com/appboy/appboy-segment-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.appboy</groupId>
+      <artifactId>android-sdk-ui</artifactId>
+      <version>10.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

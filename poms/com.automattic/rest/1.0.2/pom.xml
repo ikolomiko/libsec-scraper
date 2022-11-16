@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.automattic</groupId>
+  <artifactId>rest</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>WordPressComRest</name>
+  <description>WordPress.com REST Client for Android apps..</description>
+  <url>https://github.com/Automattic/android-wordpress-com-rest</url>
+  <licenses>
+    <license>
+      <name>The GPLv2 License</name>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>daniloercoli</id>
+      <name>Danilo Ercoli</name>
+      <email>danilo@automattic.com</email>
+    </developer>
+    <developer>
+      <id>beaucollins</id>
+      <name>Beau Collins</name>
+      <email>robert@automattic.com</email>
+    </developer>
+    <developer>
+      <id>roundhill</id>
+      <name>Dan Roundhill</name>
+      <email>dan@automattic.com</email>
+    </developer>
+    <developer>
+      <id>maxme</id>
+      <name>Maxime Biais</name>
+      <email>maxime@automattic.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Automattic/android-wordpress-com-rest.git</connection>
+    <developerConnection>scm:git:https://github.com/Automattic/android-wordpress-com-rest.git</developerConnection>
+    <url>https://github.com/Automattic/android-wordpress-com-rest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

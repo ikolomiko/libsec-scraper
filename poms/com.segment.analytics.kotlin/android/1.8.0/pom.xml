@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.segment.analytics.kotlin</groupId>
+  <artifactId>android</artifactId>
+  <version>1.8.0</version>
+  <packaging>aar</packaging>
+  <name>Segment Kotlin Analytics</name>
+  <description>The hassle-free way to add analytics to your Kotlin app.</description>
+  <url>http://github.com/segmentio/analytics-kotlin</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>segmentio</id>
+      <name>Segment, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/segmentio/analytics-kotlin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/segmentio/analytics-kotlin.git</developerConnection>
+    <url>http://github.com/segmentio/analytics-kotlin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>core</artifactId>
+      <groupId>com.segment.analytics.kotlin</groupId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>sovran-kotlin</artifactId>
+      <groupId>com.segment</groupId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>lifecycle-process</artifactId>
+      <groupId>androidx.lifecycle</groupId>
+      <version>2.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>lifecycle-common-java8</artifactId>
+      <groupId>androidx.lifecycle</groupId>
+      <version>2.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

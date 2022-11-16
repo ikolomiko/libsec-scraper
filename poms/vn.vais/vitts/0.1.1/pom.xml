@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.vais</groupId>
+  <artifactId>vitts</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>vaisTTS</name>
+  <description>A speech synthesis library on Android</description>
+  <url>http://vais.vn</url>
+  <licenses>
+    <license>
+      <name>MPL 2.0</name>
+      <url>http://mozilla.org/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>truongdo</id>
+      <name>Do Quoc Truong</name>
+      <email>truongdq54@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/truongdo/tts-vais-android</connection>
+    <developerConnection>https://github.com/truongdo/tts-vais-android</developerConnection>
+    <url>http://vais.vn</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

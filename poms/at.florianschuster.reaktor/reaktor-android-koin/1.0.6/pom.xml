@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.florianschuster.reaktor</groupId>
+  <artifactId>reaktor-android-koin</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <name>Reaktor-Android Koin</name>
+  <description>Android Koin Extensions for Reaktor, a framework for a reactive and unidirectional application architecture.</description>
+  <url>https://github.com/floschu/Reaktor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flosch</id>
+      <name>Florian Schuster</name>
+      <email>mail@florianschuster.at</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/floschu/Reaktor.git</connection>
+    <developerConnection>https://github.com/floschu/Reaktor.git</developerConnection>
+    <url>https://github.com/floschu/Reaktor</url>
+  </scm>
+</project>

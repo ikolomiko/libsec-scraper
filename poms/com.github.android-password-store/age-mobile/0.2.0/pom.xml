@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.android-password-store</groupId>
+  <artifactId>age-mobile</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>age-mobile</name>
+  <description>Gomobile-based bindings to the age encryption tool</description>
+  <url>https://github.com/Android-Password-Store/age-mobile</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/Android-Password-Store/age-mobile/develop/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>SphericalKat</id>
+      <name>Amogh Lele</name>
+      <email>amolele@gmail.com</email>
+    </developer>
+    <developer>
+      <id>android-password-store</id>
+      <name>The Android Password Store Authors</name>
+      <email>aps@msfjarvis.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Android-Password-Store/age-mobile.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Android-Password-Store/age-mobile.git</developerConnection>
+    <url>https://github.com/Android-Password-Store/age-mobile</url>
+  </scm>
+</project>

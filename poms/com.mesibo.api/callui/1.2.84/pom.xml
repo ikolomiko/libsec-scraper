@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mesibo.api</groupId>
+  <artifactId>callui</artifactId>
+  <version>1.2.84</version>
+  <packaging>aar</packaging>
+  <name>callui</name>
+  <description>Mesibo Call Logs UI</description>
+  <url>https://mesibo.com</url>
+  <licenses>
+    <license>
+      <name>Refer to the mesibo terms of use</name>
+      <url>https://mesibo.com/terms-of-use/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mesibo</id>
+      <name>mesibo</name>
+      <email>support@mesibo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/mesibo/${project.PUBLISH_GIT}.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mesibo/${project.PUBLISH_GIT}.git</developerConnection>
+    <url>https://github.com/mesibo/${project.PUBLISH_GIT}</url>
+  </scm>
+</project>

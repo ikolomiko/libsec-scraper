@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libpng</artifactId>
+  <version>1.6.37</version>
+  <packaging>aar</packaging>
+  <name>libpng</name>
+  <description>libpng is the official PNG reference library.</description>
+  <url>http://www.libpng.org/pub/png/libpng.html</url>
+  <inceptionYear>1995</inceptionYear>
+  <licenses>
+    <license>
+      <name>libpng</name>
+      <url>http://libpng.org/pub/png/src/libpng-LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Andreas Dilger</name>
+    </developer>
+    <developer>
+      <name>Cosmin Truta</name>
+    </developer>
+    <developer>
+      <name>Dave Martindale</name>
+    </developer>
+    <developer>
+      <name>Eric S. Raymond</name>
+    </developer>
+    <developer>
+      <name>Gilles Vollant</name>
+    </developer>
+    <developer>
+      <name>Glenn Randers-Pehrson</name>
+    </developer>
+    <developer>
+      <name>Greg Roelofs</name>
+    </developer>
+    <developer>
+      <name>Guy Eric Schalnat</name>
+    </developer>
+    <developer>
+      <name>James Yu</name>
+    </developer>
+    <developer>
+      <name>John Bowler</name>
+    </developer>
+    <developer>
+      <name>Kevin Bracey</name>
+    </developer>
+    <developer>
+      <name>Magnus Holmgren</name>
+    </developer>
+    <developer>
+      <name>Mandar Sahastrabuddhe</name>
+    </developer>
+    <developer>
+      <name>Mans Rullgard</name>
+    </developer>
+    <developer>
+      <name>Matt Sarett</name>
+    </developer>
+    <developer>
+      <name>Mike Klein</name>
+    </developer>
+    <developer>
+      <name>Paul Schmidt</name>
+    </developer>
+    <developer>
+      <name>Sam Bushell</name>
+    </developer>
+    <developer>
+      <name>Samuel Williams</name>
+    </developer>
+    <developer>
+      <name>Simon-Pierre Cadieux</name>
+    </developer>
+    <developer>
+      <name>Tim Wegner</name>
+    </developer>
+    <developer>
+      <name>Tom Lane</name>
+    </developer>
+    <developer>
+      <name>Tom Tanner</name>
+    </developer>
+    <developer>
+      <name>Vadim Barkov</name>
+    </developer>
+    <developer>
+      <name>Willem van Schaik</name>
+    </developer>
+    <developer>
+      <name>Zhijie Liang</name>
+    </developer>
+    <developer>
+      <name>Richard Townsend</name>
+    </developer>
+    <developer>
+      <name>Matt Sarett</name>
+    </developer>
+    <developer>
+      <name>Mike Klein</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git://git.code.sf.net/p/libpng/code</connection>
+    <url>https://sourceforge.net/projects/libpng/</url>
+  </scm>
+</project>

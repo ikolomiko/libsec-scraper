@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.episode6.hackit.typed</groupId>
+  <artifactId>typed-bundles</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>typed-bundles</name>
+  <description>Bring sanity to android's key-value stores by defining your keys with types and defaults, so your call-sites don't have to.</description>
+  <url>https://github.com/episode6/typed</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/episode6/typed/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>episode6</id>
+      <name>episode6, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/episode6/typed.git</connection>
+    <developerConnection>scm:https://github.com/episode6/typed.git</developerConnection>
+    <url>extensible</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.episode6.hackit.typed</groupId>
+      <artifactId>typed-core</artifactId>
+      <version>0.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

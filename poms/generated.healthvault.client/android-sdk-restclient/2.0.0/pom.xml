@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>generated.healthvault.client</groupId>
+  <artifactId>android-sdk-restclient</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>healthvault-java-sdk</name>
+  <description>This project comprises an SDK to access HealthVault and allowing a user to view and add measurements</description>
+  <url>https://github.com/Microsoft/healthvault-java-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/Microsoft/healthvault-java-sdk/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hatims</id>
+      <name>hatim saleem</name>
+      <email>hatims@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Microsoft/healthvault-java-sdk.git</connection>
+    <developerConnection>https://github.com/Microsoft/healthvault-java-sdk.git</developerConnection>
+    <url>https://github.com/Microsoft/healthvault-java-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.microsoft.rest</groupId>
+      <artifactId>client-runtime</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

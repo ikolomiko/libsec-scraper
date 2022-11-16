@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.rafaco.compat</groupId>
+  <artifactId>androidx</artifactId>
+  <version>0.0.50</version>
+  <packaging>aar</packaging>
+  <name>Compat-AndroidX</name>
+  <url>https://github.com/rafaco/InAppDevTools</url>
+  <description>AndroidX flavor of es.rafaco.compat</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rafaco</id>
+      <name>Rafael Acosta</name>
+      <email>rafaco@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rafaco/InAppDevTools/tree/master/compat</connection>
+    <url>https://github.com/rafaco/InAppDevTools</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-rc01</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.media</groupId>
+      <artifactId>media</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

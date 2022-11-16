@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.qiujuer.widget</groupId>
+  <artifactId>touchpull</artifactId>
+  <version>1.0.0-beta1</version>
+  <packaging>aar</packaging>
+  <name>OkHttpPacker</name>
+  <description>A touch pull used to pull down refresh.</description>
+  <url>https://github.com/qiujuer/BeFoot</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qiujuer</id>
+      <name>Qiu Ju</name>
+      <email>qiujuer@live.cn</email>
+      <url>http://www.qiujuer.net</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:qiujuer/BeFoot.git</connection>
+    <developerConnection>scm:git@github.com:qiujuer/BeFoot.git</developerConnection>
+    <url>https://github.com/qiujuer/BeFoot</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/qiujuer/BeFoot/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

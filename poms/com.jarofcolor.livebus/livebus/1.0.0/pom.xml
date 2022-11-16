@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jarofcolor.livebus</groupId>
+  <artifactId>livebus</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A simple event bus library for android</name>
+  <url>https://github.com/jarofcolor/LiveBus.git</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jarofcolor</id>
+      <name>HuangLi</name>
+      <email>jarofcolor@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jarofcolor/LiveBus.git</connection>
+    <developerConnection>https://github.com/jarofcolor/LiveBus.git</developerConnection>
+    <url>https://github.com/jarofcolor/LiveBus.git</url>
+  </scm>
+</project>

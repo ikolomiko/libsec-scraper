@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.blukii</groupId>
+  <artifactId>blukiichartlibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>blukiichartlibrary</name>
+  <description>Simple Library for creating a chart based on MPAndroidChart.</description>
+  <url>https://github.com/schneiderma/blukii_developer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>blukii</id>
+      <name>blukii</name>
+      <email>support@blukii.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/schneiderma/blukii_developer.git</connection>
+    <developerConnection>https://github.com/schneiderma/blukii_developer.git</developerConnection>
+    <url>https://github.com/schneiderma/blukii_developer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>23.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.PhilJay</groupId>
+      <artifactId>MPAndroidChart</artifactId>
+      <version>v2.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

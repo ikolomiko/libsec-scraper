@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.catappult</groupId>
+  <artifactId>communication</artifactId>
+  <version>0.6.7.0</version>
+  <packaging>aar</packaging>
+  <name>communication</name>
+  <description>AppCoins Billing SDK</description>
+  <url>https://github.com/Catappult/appcoins-sdk/appcoins-core</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 3.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appcoins.wallet</id>
+      <name>AppCoins Wallet Team</name>
+      <email>wallet@aptoide.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Catappult/appcoins-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Catappult/appcoins-sdk.git</developerConnection>
+    <url>https://github.com/Catappult/appcoins-sdk</url>
+  </scm>
+  <dependencies/>
+</project>

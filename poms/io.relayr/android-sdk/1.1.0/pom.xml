@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.relayr</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Relayr Android SDK</name>
+  <description>SDK for connecting to the Relayr Cloud</description>
+  <url>https://github.com/relayr/android-sdk/</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://ithings4u.mit-license.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hugodomenechjuarez</id>
+      <name>Hugo Doménech Juárez</name>
+    </developer>
+    <developer>
+      <id>yerraycallero</id>
+      <name>Yeray Callero</name>
+    </developer>
+    <developer>
+      <id>bernardpletikosa</id>
+      <name>Bernard Pletikosa</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:relayr/android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:relayr/android-sdk.git</developerConnection>
+    <url>scm:git@github.com:relayr/android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

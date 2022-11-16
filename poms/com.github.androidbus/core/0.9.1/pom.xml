@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.androidbus</groupId>
+  <artifactId>core</artifactId>
+  <version>0.9.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidBus</name>
+  <description>Android bus - event base architectural pattern</description>
+  <url>https://github.com/androidbus/core</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://opensource.org/licenses/Apache-2.0</url>
+      <distribution>core</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>androidbus</id>
+      <name>Dmitry K</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:androidbus/core.git</connection>
+    <developerConnection>scm:git@github.com:androidbus/core.git</developerConnection>
+    <url>https://github.com/androidbus/core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spren</groupId>
+  <artifactId>sprencapture</artifactId>
+  <version>2.0.4</version>
+  <packaging>aar</packaging>
+  <name>Spren Capture</name>
+  <description>An open source version of camera capture functionality</description>
+  <url>https://github.com/Elite-HRV/spren-vision-android</url>
+  <licenses>
+    <license>
+      <name>Spren License</name>
+      <url>https://github.com/Elite-HRV/spren-vision-android/blob/main/LICENSE</url>
+      <comments>(c) Copyright 2022 Spren and EliteHRV, all rights reserved.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Kevin Leon</name>
+      <email>kevin@spren.com</email>
+    </developer>
+    <developer>
+      <name>Fernando Eckert</name>
+      <email>fernando@spren.com</email>
+    </developer>
+    <developer>
+      <name>Keith Carolus</name>
+      <email>keith@spren.com</email>
+    </developer>
+    <developer>
+      <name>Nick Avasiloy</name>
+      <email>nick@spren.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Elite-HRV/spren-vision-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Elite-HRV/spren-vision-android.git</developerConnection>
+    <url>https://github.com/Elite-HRV/spren-vision-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.spren</groupId>
+      <artifactId>sprencore</artifactId>
+      <version>2.0.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-core</artifactId>
+      <version>1.1.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-camera2</artifactId>
+      <version>1.1.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-lifecycle</artifactId>
+      <version>1.1.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cncoderx.wheelview</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>like ios wheel selector</name>
+  <url>https://github.com/CNCoderX/WheelView</url>
+  <licenses>
+    <license>
+      <name>like ios wheel selector</name>
+      <url>https://github.com/CNCoderX/WheelView</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cncoderx</id>
+      <name>cncoderx</name>
+      <email>wujie59585@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CNCoderX/WheelView.git</connection>
+    <developerConnection>https://github.com/CNCoderX/WheelView.git</developerConnection>
+    <url>https://github.com/CNCoderX/WheelView</url>
+  </scm>
+</project>

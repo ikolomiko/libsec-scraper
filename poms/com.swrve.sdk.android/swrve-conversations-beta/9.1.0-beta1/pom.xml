@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.swrve.sdk.android</groupId>
+  <artifactId>swrve-conversations-beta</artifactId>
+  <version>9.1.0-beta1</version>
+  <packaging>aar</packaging>
+  <name>SwrveConversationSDK</name>
+  <description>SwrveConversationSDK is the conversation module to be used with SwrveSDK</description>
+  <url>https://github.com/Swrve/swrve-android-sdk</url>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.swrve.sdk.android</groupId>
+      <artifactId>swrve-common-beta</artifactId>
+      <version>9.1.0-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>scm:git@github.com:Swrve/swrve-android-sdk.git</url>
+    <connection>scm:git@github.com:Swrve/swrve-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:Swrve/swrve-android-sdk.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdkdev</id>
+      <name>Swrve SDK Developer</name>
+    </developer>
+  </developers>
+</project>

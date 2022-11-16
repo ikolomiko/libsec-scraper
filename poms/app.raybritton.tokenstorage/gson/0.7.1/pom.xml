@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.raybritton.tokenstorage</groupId>
+  <artifactId>gson</artifactId>
+  <version>0.7.1</version>
+  <packaging>aar</packaging>
+  <name>TokenStorage-Gson</name>
+  <description>Store encrypted strings in a json file via GSON</description>
+  <url>https://github.com/raybritton/token-storage-library</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>raybritton</id>
+      <name>Ray Britton</name>
+      <email>raybritton@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:raybritton/token-storage-library.git</connection>
+    <developerConnection>git@github.com:raybritton/token-storage-library.git</developerConnection>
+    <url>https://github.com/raybritton/token-storage-library</url>
+  </scm>
+</project>

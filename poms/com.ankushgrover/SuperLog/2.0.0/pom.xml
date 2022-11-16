@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ankushgrover</groupId>
+  <artifactId>SuperLog</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>SuperLog</name>
+  <description>Super Log brings a new  logging mechanism for Android Apps. It provides the functionality of displaying logs in the app itself. User can mail the logs to any email address for further use.</description>
+  <url>https://github.com/groverankush/SuperLog</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ankushgrover</id>
+      <name>Ankush Grover</name>
+      <email>ankush.dev2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/groverankush/SuperLog.git</connection>
+    <developerConnection>https://github.com/groverankush/SuperLog.git</developerConnection>
+    <url>https://github.com/groverankush/SuperLog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.gzu-liyujiang.AndroidPicker</groupId>
+  <artifactId>WheelView</artifactId>
+  <version>4.1.9</version>
+  <packaging>aar</packaging>
+  <name>WheelView</name>
+  <description>TODO description: build for Android</description>
+  <url>https://gitee.com/li_yu_jiang/build</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liyujiang-gzu</id>
+      <name>李玉江</name>
+      <email>1032694760@qq.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

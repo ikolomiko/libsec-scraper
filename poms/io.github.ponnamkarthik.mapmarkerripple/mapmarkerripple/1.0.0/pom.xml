@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ponnamkarthik.mapmarkerripple</groupId>
+  <artifactId>mapmarkerripple</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>MarkerRipple</name>
+  <description>To show a ripple effect for a google map marker</description>
+  <url>https://github.com/PonnamKarthik/MarkerRipple</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>KarthikPonnam</id>
+      <name>KarthikPonnam</name>
+      <email>ponnamkarthik3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/PonnamKarthik/MarkerRipple.git</connection>
+    <developerConnection>https://github.com/PonnamKarthik/MarkerRipple.git</developerConnection>
+    <url>https://github.com/PonnamKarthik/MarkerRipple</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

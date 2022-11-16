@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yoti.mobile.android.common.ui</groupId>
+  <artifactId>ui-navigation</artifactId>
+  <version>1.8.0</version>
+  <packaging>aar</packaging>
+  <name>Helper classes for using YotiAppBar with navigation lib</name>
+  <description>Helper classes for using YotiAppBar with navigation lib</description>
+  <url>https://github.com/getyoti</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://www.yoti.com/wp-content/uploads/2019/08/Yoti-Doc-Scan-SDK-Terms.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yoti-ci</id>
+      <name>Yoti</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:lampkicking/yoti-ui-android.git</connection>
+    <url>https://github.com/lampkicking/yoti-ui-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yoti.mobile.android.common.ui</groupId>
+      <artifactId>ui-widgets</artifactId>
+      <version>1.8.0</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-ui</artifactId>
+      <version>2.3.3</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.21</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>smartauto.bluetooth</groupId>
+  <artifactId>bluetoothjar</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>bluetooth jar</name>
+  <url>https://github.com/zlb20048/BluetoothAT</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>smartauto</id>
+      <name>zlb20048</name>
+      <email>zlb20048@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zlb20048/BluetoothAT.git</connection>
+    <developerConnection>https://github.com/zlb20048/BluetoothAT.git</developerConnection>
+    <url>https://github.com/zlb20048/BluetoothAT</url>
+  </scm>
+</project>

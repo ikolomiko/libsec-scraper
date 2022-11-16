@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chauthai.overscroll</groupId>
+  <artifactId>overscroll-bouncy</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>overscroll-bouncy-android</name>
+  <description>An Android library which simulates iOS-like overscroll bounce animation.</description>
+  <url>https://github.com/chthai64/overscroll-bouncy-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chthai64</id>
+      <name>Chau Thai</name>
+      <email>chthai64@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/chthai64/overscroll-bouncy-android.git</connection>
+    <developerConnection>https://github.com/chthai64/overscroll-bouncy-android.git</developerConnection>
+    <url>https://github.com/chthai64/overscroll-bouncy-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.rebound</groupId>
+      <artifactId>rebound</artifactId>
+      <version>0.3.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.live.common.android</groupId>
+  <artifactId>library-live-log</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>日志系统，使用森林对象维护不同的日志树进行日志输出，可以是Logcat树、文件树等，支持Bundle、Intent、Reference、Throwable、Map、Collection、JSON、Xml等格式化的输出 </name>
+  <url>https://github.com/webbabyking/live</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>webbabyking</id>
+      <name>wangjie</name>
+      <email>45522391@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/webbabyking/live.git</connection>
+    <developerConnection>https://github.com/webbabyking/live.git</developerConnection>
+    <url>https://github.com/webbabyking/live</url>
+  </scm>
+</project>

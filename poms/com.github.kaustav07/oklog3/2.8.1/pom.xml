@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kaustav07</groupId>
+  <artifactId>oklog3</artifactId>
+  <version>2.8.1</version>
+  <packaging>aar</packaging>
+  <name>OkLog3</name>
+  <description>Response logging interceptor for OkHttp3. Logs a url link with url-encoded response for every OkHttp call.</description>
+  <url>https://github.com/kaustav07/OkLog</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaustav07</id>
+      <name>Kaustav Chatterjee</name>
+      <email>chatterjeekaustav11@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kaustav07/OkLog.git</connection>
+    <developerConnection>https://github.com/kaustav07/OkLog.git</developerConnection>
+    <url>https://github.com/kaustav07/OkLog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.kaustav07</groupId>
+      <artifactId>oklog3-java</artifactId>
+      <version>2.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.kaustav07</groupId>
+      <artifactId>oklog-core-android</artifactId>
+      <version>2.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

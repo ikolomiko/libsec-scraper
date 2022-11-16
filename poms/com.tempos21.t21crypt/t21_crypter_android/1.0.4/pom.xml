@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tempos21.t21crypt</groupId>
+  <artifactId>t21_crypter_android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Android String crypter. Used for encryption of tokens</name>
+  <url>https://github.com/worldline-spain/t21-crypter-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Worldline</id>
+      <name>Worldline.com</name>
+      <email>info.tempos21@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/worldline-spain/t21-crypter-android.git</connection>
+    <developerConnection>https://github.com/worldline-spain/t21-crypter-android.git</developerConnection>
+    <url>https://github.com/worldline-spain/t21-crypter-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>20041127.091804</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

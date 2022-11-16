@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazonaws</groupId>
+  <artifactId>aws-android-sdk-kinesisvideo-signaling</artifactId>
+  <version>2.52.0</version>
+  <packaging>aar</packaging>
+  <name>AWS SDK for Android - Amazon Kinesis</name>
+  <description>The AWS Android SDK for Amazon Kinesis Video Signaling module holds the client classes that are used for communicating with Amazon Kinesis Video Signaling Service</description>
+  <url>https://github.com/aws/aws-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Amazon Software License</name>
+      <url>https://aws.amazon.com/asl/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazonwebservices</id>
+      <organizationUrl>http://aws.amazon.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/aws/aws-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aws/aws-sdk-android.git</developerConnection>
+    <url>https://github.com/aws/aws-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-core</artifactId>
+      <version>2.52.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

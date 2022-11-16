@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.gearvrf</groupId>
+  <artifactId>GearWearIoDevice</artifactId>
+  <version>3.1.1</version>
+  <packaging>aar</packaging>
+  <name>GearVR framework</name>
+  <description>The GearVR framework(GearVRf) is an Open Source VR rendering library for application development on VR-supported Android devices</description>
+  <url>https://github.com/Samsung/GearVRf</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>samsung</id>
+      <name>Samsung</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Samsung/GearVRf.git</connection>
+    <developerConnection>scm:git@github.com:Samsung/GearVRf.git</developerConnection>
+    <url>https://github.com/Samsung/GearVRf</url>
+  </scm>
+</project>

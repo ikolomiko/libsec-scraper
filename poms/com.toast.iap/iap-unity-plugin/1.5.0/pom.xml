@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.toast.iap</groupId>
+  <artifactId>iap-unity-plugin</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>iap-unity-plugin</name>
+  <description>IAP Android Unity SDK</description>
+  <url>https://github.nhnent.com/TOASTCloud/iap-android-sdk</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wjdsupj</id>
+      <name>stunstun</name>
+      <email>wjdsupj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.nhnent.com/TOASTCloud/iap-android-sdk.git</connection>
+    <developerConnection>https://github.nhnent.com/TOASTCloud/iap-android-sdk.git</developerConnection>
+    <url>https://github.nhnent.com/TOASTCloud/iap-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.toast.iap</groupId>
+      <artifactId>iap</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

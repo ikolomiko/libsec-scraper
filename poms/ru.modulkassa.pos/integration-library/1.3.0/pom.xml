@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.modulkassa.pos</groupId>
+  <artifactId>integration-library</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>integration-library</name>
+  <description>Modulkassa official Android SDK</description>
+  <url>https://github.com/modulkassa/android-integration-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/modulkassa/android-integration-sdk/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>antashev</id>
+      <name>Antashev Ilya</name>
+      <email>i.antashev@modulbank.ru</email>
+    </developer>
+    <developer>
+      <id>AnastasiaKoreshkova</id>
+      <name>Anastasia Koreshkova</name>
+      <email>a.koreshkova@modulbank.ru</email>
+    </developer>
+    <developer>
+      <id>Ansar8</id>
+      <name>Ansar Kadyrov</name>
+      <email>a.kadyrov@modulbank.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/modulkassa/android-integration-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/modulkassa/android-integration-sdk.git</developerConnection>
+    <url>https://github.com/modulkassa/android-integration-sdk/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.5.1</version>
+    </dependency>
+  </dependencies>
+</project>

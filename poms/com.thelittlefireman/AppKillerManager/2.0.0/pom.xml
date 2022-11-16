@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thelittlefireman</groupId>
+  <artifactId>AppKillerManager</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>AppKillerManager</name>
+  <description>Android library to handle flaky App killer manager (Xiaomi, Huawei, letv, ...) and prevent from : not showing notification, services not start at boot, etc</description>
+  <url>https://github.com/thelittlefireman/AppKillerManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thelittlefireman</id>
+      <name>thomas goureau</name>
+      <email>thomas.goureau@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/thelittlefireman/AppKillerManager.git</connection>
+    <developerConnection>https://github.com/thelittlefireman/AppKillerManager.git</developerConnection>
+    <url>https://github.com/thelittlefireman/AppKillerManager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.hypertrack</groupId>
+      <artifactId>hyperlog</artifactId>
+      <version>0.0.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>0.9.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.9.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

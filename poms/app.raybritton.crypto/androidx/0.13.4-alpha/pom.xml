@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.raybritton.crypto</groupId>
+  <artifactId>androidx</artifactId>
+  <version>0.13.4-alpha</version>
+  <packaging>aar</packaging>
+  <name>StringCrypto-AndroidX</name>
+  <description>Store encrypted strings using AndroidX Security</description>
+  <url>https://github.com/raybritton/token-storage-library</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>raybritton</id>
+      <name>Ray Britton</name>
+      <email>raybritton@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:raybritton/token-storage-library.git</connection>
+    <developerConnection>git@github.com:raybritton/token-storage-library.git</developerConnection>
+    <url>https://github.com/raybritton/token-storage-library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>app.raybritton.crypto</groupId>
+      <artifactId>core</artifactId>
+      <version>0.13.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.security</groupId>
+      <artifactId>security-crypto</artifactId>
+      <version>1.0.0-alpha02</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

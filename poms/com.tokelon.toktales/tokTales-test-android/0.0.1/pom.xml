@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tokelon.toktales</groupId>
+  <artifactId>tokTales-test-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>tokTales Engine</name>
+  <description>Part of tokTales Engine, a neat game engine.</description>
+  <url>https://github.com/Tokelon/tokTales</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tokelon</id>
+      <name>Elias Paralikes</name>
+      <email>tokelontales@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Tokelon/tokTales.git</connection>
+    <developerConnection>scm:git:https://github.com/Tokelon/tokTales.git</developerConnection>
+    <url>https://github.com/Tokelon/tokTales</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/Tokelon/tokTales/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-extensions-android-test</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-test-core</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-extensions-android</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

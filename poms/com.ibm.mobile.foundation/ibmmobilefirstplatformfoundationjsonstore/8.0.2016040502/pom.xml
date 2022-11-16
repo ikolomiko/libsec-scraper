@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mobile.foundation</groupId>
+  <artifactId>ibmmobilefirstplatformfoundationjsonstore</artifactId>
+  <version>8.0.2016040502</version>
+  <packaging>aar</packaging>
+  <name>IBM MobileFirst Platform Foundation JSONStore</name> 
+  <description>JSONStore is a lightweight, document-oriented storage system that enables persistent storage of JSON documents for Android applications.
+      BuildNumber is : 20160405-0205-rls
+  </description>
+  <url>https://mobilefirstplatform.ibmcloud.com</url>
+  <licenses>
+    <license>
+      <name>IBM-MobileFirst Platform Foundation 8.0 beta license agreement</name>
+      <url>https://developer.ibm.com/mobilefirstplatform/beta/license/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>IBM MobileFirst Platform Foundation</name>
+      <email>mobilsdk@us.ibm.com</email>
+      <organizationUrl>http://www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
+    <scm>
+    <connection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</connection>
+    <developerConnection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</developerConnection>
+    <url>https://hub.jazz.net/git/imflocalsdk/imf-android-sdk</url>
+  </scm>
+<dependencies>
+<dependency>
+<groupId>org.codehaus.jackson</groupId>
+<artifactId>jackson-jaxrs</artifactId>
+<version>1.9.13</version>
+<scope>compile</scope>
+</dependency>
+<dependency>
+<groupId>com.google.guava</groupId>
+<artifactId>guava</artifactId>
+<version>14.0.1</version>
+<scope>compile</scope>
+</dependency>
+<dependency>
+<groupId>com.ibm.mobile.foundation</groupId>
+<artifactId>ibmmobilefirstplatformfoundation</artifactId>
+<version>8.0.2016032802</version>
+<type>aar</type>
+<scope>compile</scope>
+</dependency>
+</dependencies>
+</project>
+

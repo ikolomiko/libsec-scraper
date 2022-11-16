@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.neykov.mvp-candy</groupId>
+  <artifactId>activities</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>mvp-candy</name>
+  <description>A simple library offering MVP support for Android applications</description>
+  <url>https://github.com/georgi-neykov-hub/mvp-candy</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/georgi-neykov-hub/mvp-candy/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>georgi-neykov-hub</id>
+      <name>Georgi Neykov</name>
+      <email>georgi.neykov@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/georgi-neykov-hub/mvp-candy</connection>
+    <developerConnection>https://github.com/georgi-neykov-hub/mvp-candy</developerConnection>
+    <url>https://github.com/georgi-neykov-hub/mvp-candy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.neykov.mvp-candy</groupId>
+      <artifactId>core</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.neykov.mvp-candy</groupId>
+      <artifactId>fragments</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

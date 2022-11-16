@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.debasishpanda.explara_sample_core</groupId>
+  <artifactId>explara-sample-core</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>explara-sample-core</name>
+  <description>This is explara_core containing all common files and libraries</description>
+  <developers>
+    <developer>
+      <id>dp</id>
+      <name>debasihsh</name>
+      <email>debasispanda.panda71@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

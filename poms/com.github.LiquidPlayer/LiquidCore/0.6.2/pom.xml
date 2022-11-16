@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.LiquidPlayer</groupId>
+  <artifactId>LiquidCore</artifactId>
+  <version>0.6.2</version>
+  <packaging>aar</packaging>
+  <name>LiquidPlayer/LiquidCore</name>
+  <description>Node.js virtual machine for Android and iOS</description>
+  <url>https://github.com/LiquidPlayer/LiquidCore</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>LiquidPlayer</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/LiquidPlayer/LiquidCore.git</connection>
+    <developerConnection>scm:git://github.com/LiquidPlayer/LiquidCore.git</developerConnection>
+    <url>git://github.com/LiquidPlayer/LiquidCore.git</url>
+  </scm>
+</project>

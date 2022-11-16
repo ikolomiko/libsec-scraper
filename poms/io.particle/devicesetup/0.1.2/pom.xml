@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.particle</groupId>
+  <artifactId>devicesetup</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>Particle (formerly Spark) Android Device Setup library</name>
+  <description>The Particle Device Setup library provides everything you need to offer your users a simple initial setup process for Particle-powered devices.  This includes all the necessary device communication code, an easily customizable UI, and a simple developer API.</description>
+  <url>https://github.com/spark/spark-setup-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>idok</id>
+      <name>Ido Kleinman</name>
+      <email>ido@particle.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/spark/spark-setup-android.git</connection>
+    <developerConnection>https://github.com/spark/spark-setup-android.git</developerConnection>
+    <url>https://github.com/spark/spark-setup-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.afollestad</groupId>
+      <artifactId>material-dialogs</artifactId>
+      <version>0.7.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>uk.co.chrisjenx</groupId>
+      <artifactId>calligraphy</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.particle</groupId>
+      <artifactId>cloudsdk</artifactId>
+      <version>0.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.phrase</groupId>
+      <artifactId>phrase</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

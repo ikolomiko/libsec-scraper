@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aminullahtajmuhammad.crispytoast</groupId>
+  <artifactId>crispytoast</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>crispytoast</name>
+  <description>A Toast Library where you make your custom toast </description>
+  <url>https://github.com/AminullahTajMuhammad/CrispyToast</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aminullahtajmuhammad</id>
+      <name>Aminullah Taj Muhammad</name>
+      <email>aminullahtajmuhammad@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AminullahTajMuhammad/CrispyToast.git</connection>
+    <developerConnection>https://github.com/AminullahTajMuhammad/CrispyToast.git</developerConnection>
+    <url>https://github.com/AminullahTajMuhammad/CrispyToast</url>
+  </scm>
+</project>

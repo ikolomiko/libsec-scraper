@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.criapp.ui</groupId>
+  <artifactId>circleprogressbutton</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Circle-Progress-View</name>
+  <description>View in circle shape that can be used as button with progress on long click,as static view to show progress or to simulate progress animation.</description>
+  <url>https://galeen@bitbucket.org/mythings/circleprogressview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>galeen</id>
+      <name>Galeen Blagoiev</name>
+      <email>2math@mail.bg</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://galeen@bitbucket.org/mythings/circleprogressview.git</connection>
+    <developerConnection>https://galeen@bitbucket.org/mythings/circleprogressview.git</developerConnection>
+    <url>https://galeen@bitbucket.org/mythings/circleprogressview</url>
+  </scm>
+</project>

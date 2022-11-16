@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ly.img.android.sdk.operation</groupId>
+  <artifactId>focus</artifactId>
+  <version>9.2.0</version>
+  <packaging>aar</packaging>
+  <name>PhotoEditor-SDK</name>
+  <description>The img.ly Photo Editor SDK provides a variety of tools and functions for creating photo applications for Android.</description>
+  <url>https://www.photoeditorsdk.com/</url>
+  <licenses>
+    <license>
+      <name>PROPRIETARY</name>
+      <url>https://artifactory.img.ly/artifactory/imgly/ly/img/android/sdk/operation/focus/9.2.0/focus-9.2.0-LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>ACKNOWLEDGEMENTS</name>
+      <url>https://artifactory.img.ly/artifactory/imgly/ly/img/android/sdk/operation/focus/9.2.0/focus-9.2.0-ACKNOWLEDGEMENTS.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>ly.img.android.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>9.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>ly.img.android.sdk</groupId>
+      <artifactId>build-annotations</artifactId>
+      <version>9.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>ly.img.android</groupId>
+      <artifactId>authorization</artifactId>
+      <version>9.0.0.0+</version>
+    </dependency>
+  </dependencies>
+</project>

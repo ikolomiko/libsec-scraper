@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>pixman</artifactId>
+  <version>0.40.0</version>
+  <packaging>aar</packaging>
+  <name>pixman</name>
+  <description>Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization.</description>
+  <url>https://gitlab.freedesktop.org/pixman/pixman</url>
+  <inceptionYear>1987</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://gitlab.freedesktop.org/pixman/pixman/-/blob/pixman-0.40.0/COPYING</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Søren Sandmann Pedersen</name>
+      <email>sandmann@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Søren Sandmann Pedersen</name>
+      <email>ssp@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Siarhei Siamashka</name>
+      <email>siarhei.siamashka@nokia.com</email>
+    </developer>
+    <developer>
+      <name>Matt Turner</name>
+      <email>mattst88@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Andrea Canciani</name>
+      <email>ranma42@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Soren Sandmann Pedersen</name>
+      <email>ssp@dhcp83-218.boston.redhat.com</email>
+    </developer>
+    <developer>
+      <name>Siarhei Siamashka</name>
+      <email>siarhei.siamashka@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Benjamin Otte</name>
+      <email>otte@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Søren Sandmann Pedersen</name>
+      <email>sandmann@daimi.au.dk</email>
+    </developer>
+    <developer>
+      <name>Ben Avison</name>
+      <email>bavison@riscosopen.org</email>
+    </developer>
+    <developer>
+      <name>Nemanja Lukic</name>
+      <email>nemanja.lukic@rt-rk.com</email>
+    </developer>
+    <developer>
+      <name>Aaron Plattner</name>
+      <email>aplattner@nvidia.com</email>
+    </developer>
+    <developer>
+      <name>Jeff Muizelaar</name>
+      <email>jmuizelaar@mozilla.com</email>
+    </developer>
+    <developer>
+      <name>Taekyun Kim</name>
+      <email>tkq.kim@samsung.com</email>
+    </developer>
+    <developer>
+      <name>Oded Gabbay</name>
+      <email>oded.gabbay@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Chris Wilson</name>
+      <email>chris@chris-wilson.co.uk</email>
+    </developer>
+    <developer>
+      <name>Pekka Paalanen</name>
+      <email>pekka.paalanen@collabora.co.uk</email>
+    </developer>
+    <developer>
+      <name>Adam Jackson</name>
+      <email>ajax@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Jonathan Morton</name>
+      <email>jmorton@sd070.hel.movial.fi</email>
+    </developer>
+    <developer>
+      <name>M Joonas Pihlaja</name>
+      <email>jpihlaja@cc.helsinki.fi</email>
+    </developer>
+    <developer>
+      <name>Chun-wei Fan</name>
+      <email>fanchunwei@src.gnome.org</email>
+    </developer>
+    <developer>
+      <name>Dylan Baker</name>
+      <email>dylan@pnwbakers.com</email>
+    </developer>
+    <developer>
+      <name>Alexander Larsson</name>
+      <email>alexl@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Luca Barbato</name>
+      <email>lu_zero@gentoo.org</email>
+    </developer>
+    <developer>
+      <name>Vladimir Vukicevic</name>
+      <email>vladimir@pobox.com</email>
+    </developer>
+    <developer>
+      <name>Carl Worth</name>
+      <email>cworth@cworth.org</email>
+    </developer>
+    <developer>
+      <name>Bill Spitzak</name>
+      <email>spitzak@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Benjamin Otte</name>
+      <email>otte@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Alan Coopersmith</name>
+      <email>alan.coopersmith@sun.com</email>
+    </developer>
+    <developer>
+      <name>José Fonseca</name>
+      <email>jrfonseca@tungstengraphics.com</email>
+    </developer>
+    <developer>
+      <name>Basile Clement</name>
+      <email>basile-pixman@clement.pm</email>
+    </developer>
+    <developer>
+      <name>Maarten Lankhorst</name>
+      <email>maarten.lankhorst@linux.intel.com</email>
+    </developer>
+    <developer>
+      <name>Søren Sandmann Pedersen</name>
+      <email>soren.sandmann@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Jeremy Huddleston</name>
+      <email>jeremyhu@apple.com</email>
+    </developer>
+    <developer>
+      <name>André Tupinambá</name>
+      <email>andrelrt@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Julien Cristau</name>
+      <email>jcristau@debian.org</email>
+    </developer>
+    <developer>
+      <name>Stefan Weil</name>
+      <email>sw@weilnetz.de</email>
+    </developer>
+    <developer>
+      <name>Antti S. Lankila</name>
+      <email>alankila@bel.fi</email>
+    </developer>
+    <developer>
+      <name>Dmitri Vorobiev</name>
+      <email>dmitri.vorobiev@movial.com</email>
+    </developer>
+    <developer>
+      <name>Jonathan Morton</name>
+      <email>jonathan.morton@movial.com</email>
+    </developer>
+    <developer>
+      <name>Carlos Garcia Campos</name>
+      <email>carlosgc@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Søren Sandmann Pedersen</name>
+      <email>ssp@dhcp-100-2-40.bos.redhat.com</email>
+    </developer>
+    <developer>
+      <name>Antoine Azar</name>
+      <email>cairo@antoineazar.com</email>
+    </developer>
+    <developer>
+      <name>Bertram Felgenhauer</name>
+      <email>int-e@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Sebastian Bauer</name>
+      <email>mail@sebastianbauer.info</email>
+    </developer>
+    <developer>
+      <name>Alan Coopersmith</name>
+      <email>alan.coopersmith@oracle.com</email>
+    </developer>
+    <developer>
+      <name>Jon TURNEY</name>
+      <email>jon.turney@dronecode.org.uk</email>
+    </developer>
+    <developer>
+      <name>Rolland Dudemaine</name>
+      <email>rolland@ghs.com</email>
+    </developer>
+    <developer>
+      <name>Makoto Kato</name>
+      <email>m_kato@ga2.so-net.ne.jp</email>
+    </developer>
+    <developer>
+      <name>Frédéric Plourde</name>
+      <email>frederic.plourde@polymtl.ca</email>
+    </developer>
+    <developer>
+      <name>Christoph Reiter</name>
+      <email>reiter.christoph@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Simon Richter</name>
+      <email>Simon.Richter@hogyros.de</email>
+    </developer>
+    <developer>
+      <name>Behdad Esfahbod</name>
+      <email>behdad@behdad.org</email>
+    </developer>
+    <developer>
+      <name>Keith Packard</name>
+      <email>keithp@keithp.com</email>
+    </developer>
+    <developer>
+      <name>Shiyou Yin</name>
+      <email>yinshiyou-hf@loongson.cn</email>
+    </developer>
+    <developer>
+      <name>Mathieu Duponchelle</name>
+      <email>mathieu@centricular.com</email>
+    </developer>
+    <developer>
+      <name>Jonathan Kew</name>
+      <email>jfkthame@googlemail.com</email>
+    </developer>
+    <developer>
+      <name>Thomas Petazzoni</name>
+      <email>thomas.petazzoni@free-electrons.com</email>
+    </developer>
+    <developer>
+      <name>Brad Smith</name>
+      <email>brad@comstyle.com</email>
+    </developer>
+    <developer>
+      <name>ingmar@irsoft.de</name>
+      <email>ingmar@irsoft.de</email>
+    </developer>
+    <developer>
+      <name>Bobby Salazar</name>
+      <email>bobby8934@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Gilles Espinasse</name>
+      <email>g.esp@free.fr</email>
+    </developer>
+    <developer>
+      <name>Alexandros Frantzis</name>
+      <email>alexandros.frantzis@linaro.org</email>
+    </developer>
+    <developer>
+      <name>Cyril Brulebois</name>
+      <email>kibi@debian.org</email>
+    </developer>
+    <developer>
+      <name>Liu Xinyun</name>
+      <email>xinyun.liu@intel.com</email>
+    </developer>
+    <developer>
+      <name>Maarten Bosmans</name>
+      <email>mkbosmans@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Matthias Hopf</name>
+      <email>mhopf@suse.de</email>
+    </developer>
+    <developer>
+      <name>Adrian Bunk</name>
+      <email>adrian.bunk@movial.com</email>
+    </developer>
+    <developer>
+      <name>Luo Jinghua</name>
+      <email>sunmoon1997@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Eric Anholt</name>
+      <email>eric@anholt.net</email>
+    </developer>
+    <developer>
+      <name>Arcady Goldmints-Orlov</name>
+      <email>arcadyg@nvidia.com</email>
+    </developer>
+    <developer>
+      <name>Daniel Stone</name>
+      <email>daniel@fooishbar.org</email>
+    </developer>
+    <developer>
+      <name>Ghabry</name>
+      <email>gabriel+github@mastergk.de</email>
+    </developer>
+    <developer>
+      <name>Federico Mena Quintero</name>
+      <email>federico@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Antonio Ospite</name>
+      <email>ao2@ao2.it</email>
+    </developer>
+    <developer>
+      <name>Khem Raj</name>
+      <email>raj.khem@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Fan Jinke</name>
+      <email>fanjinke@hygon.cn</email>
+    </developer>
+    <developer>
+      <name>Niveditha Rau</name>
+      <email>niveditha.rau@oracle.com</email>
+    </developer>
+    <developer>
+      <name>Vladimir Smirnov</name>
+      <email>civil@gentoo.org</email>
+    </developer>
+    <developer>
+      <name>Dan Horák</name>
+      <email>dan@danny.cz</email>
+    </developer>
+    <developer>
+      <name>Fernando Seiti Furusato</name>
+      <email>ferseiti@linux.vnet.ibm.com</email>
+    </developer>
+    <developer>
+      <name>James Cowgill</name>
+      <email>james410@cowgill.org.uk</email>
+    </developer>
+    <developer>
+      <name>Jakub Bogusz</name>
+      <email>qboosh@pld-linux.org</email>
+    </developer>
+    <developer>
+      <name>Ritesh Khadgaray</name>
+      <email>khadgaray@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Alexander Troosh</name>
+      <email>trush@yandex.ru</email>
+    </developer>
+    <developer>
+      <name>Matthieu Herrb</name>
+      <email>matthieu.herrb@laas.fr</email>
+    </developer>
+    <developer>
+      <name>Markos Chandras</name>
+      <email>markos.chandras@imgtec.com</email>
+    </developer>
+    <developer>
+      <name>Peter Breitenlohner</name>
+      <email>peb@mppmu.mpg.de</email>
+    </developer>
+    <developer>
+      <name>Marko Lindqvist</name>
+      <email>cazfi74@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Benjamin Gilbert</name>
+      <email>bgilbert@backtick.net</email>
+    </developer>
+    <developer>
+      <name>Joshua Root</name>
+      <email>jmr@macports.org</email>
+    </developer>
+    <developer>
+      <name>Benny Siegert</name>
+      <email>bsiegert@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Colin Walters</name>
+      <email>walters@verbum.org</email>
+    </developer>
+    <developer>
+      <name>Naohiro Aota</name>
+      <email>naota@gentoo.org</email>
+    </developer>
+    <developer>
+      <name>Søren Sandmann</name>
+      <email>sandmann@cs.au.dk</email>
+    </developer>
+    <developer>
+      <name>Nis Martensen</name>
+      <email>nis.martensen@web.de</email>
+    </developer>
+    <developer>
+      <name>Dave Yeo</name>
+      <email>dave.r.yeo@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Scott McCreary</name>
+      <email>scottmc2@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Mika Yrjola</name>
+      <email>mika.yrjola@movial.com</email>
+    </developer>
+    <developer>
+      <name>Tor Lillqvist</name>
+      <email>tml@iki.fi</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.freedesktop.org/pixman/pixman.git</connection>
+    <url>https://gitlab.freedesktop.org/pixman/pixman</url>
+  </scm>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wei.image</groupId>
+  <artifactId>as_lib_ImageUtils</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Android Customer ImageUtils</name>
+  <url>https://github.com/wei120698598/android_sudtio_library</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nebulae-wei</id>
+      <name>wei</name>
+      <email>120698598@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wei120698598/android_sudtio_library.git</connection>
+    <developerConnection>https://github.com/wei120698598/android_sudtio_library.git</developerConnection>
+    <url>https://github.com/wei120698598/android_sudtio_library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android_sudtio_library</groupId>
+      <artifactId>as_lib_CustomView</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.orhanobut</groupId>
+      <artifactId>logger</artifactId>
+      <version>1.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

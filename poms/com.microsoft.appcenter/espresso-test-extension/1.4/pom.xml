@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.appcenter</groupId>
+  <artifactId>espresso-test-extension</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>Visual Studio App Center espresso test extensions</name>
+  <description>Extensions for producing nice looking test reports for espresso tests in Visual Studio App Center</description>
+  <url>https://appcenter.ms</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Chris Fuentes</name>
+      <email>Chris.Fuentes@microsoft.com</email>
+      <organization>Microsoft</organization>
+      <organizationUrl>http://www.microsoft.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Simon Scharf</name>
+      <email>sisonder@microsoft.com</email>
+      <organization>Microsoft</organization>
+      <organizationUrl>http://www.microsoft.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/microsoft/AppCenter-Test-Espresso-Extensions.git</connection>
+    <developerConnection>https://github.com/microsoft/AppCenter-Test-Espresso-Extensions</developerConnection>
+    <url>https://github.com/microsoft/AppCenter-Test-Espresso-Extensions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

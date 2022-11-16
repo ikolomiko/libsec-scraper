@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.piebridge</groupId>
+  <artifactId>brevent-protocol-base</artifactId>
+  <version>3.0.7</version>
+  <packaging>aar</packaging>
+  <name>brevent-protocol-base</name>
+  <url>https://github.com/brevent/Brevent</url>
+  <licenses>
+    <license>
+      <name>WTFPL</name>
+      <url>http://www.wtfpl.net</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>piebridge</id>
+      <name>Thom Liu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/brevent/Brevent</connection>
+    <developerConnection>https://github.com/brevent/Brevent</developerConnection>
+    <url>https://github.com/brevent/Brevent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

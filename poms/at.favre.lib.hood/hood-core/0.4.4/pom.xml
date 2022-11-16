@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.favre.lib.hood</groupId>
+  <artifactId>hood-core</artifactId>
+  <version>0.4.4</version>
+  <packaging>aar</packaging>
+  <name>Under the Hood</name>
+  <description>A debug view library for Android. Very flexible through a simple templating system but easy to use due to a lot of defaults. Also has a no-op flavor for your release build.</description>
+  <url>https://github.com/patrickfav/under-the-hood</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pfavre</id>
+      <name>Patrick Favre-Bulle</name>
+      <email>patrick.favrebulle@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/patrickfav/under-the-hood.git</connection>
+    <developerConnection>https://github.com/patrickfav/under-the-hood.git</developerConnection>
+    <url>https://github.com/patrickfav/under-the-hood</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-utils</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>seismic</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

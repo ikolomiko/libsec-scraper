@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.episode6.hackit.android.inject</groupId>
+  <artifactId>context-modules</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>context-modules</name>
+  <description>Some annotations and modules for bootstrapping android apps with dagger2</description>
+  <url>https://github.com/episode6/android-inject</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/episode6/android-inject/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>episode6</id>
+      <name>episode6, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/episode6/android-inject.git</connection>
+    <developerConnection>scm:https://github.com/episode6/android-inject.git</developerConnection>
+    <url>extensible</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.episode6.hackit.android.inject</groupId>
+      <artifactId>context-annotations</artifactId>
+      <version>0.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.11</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

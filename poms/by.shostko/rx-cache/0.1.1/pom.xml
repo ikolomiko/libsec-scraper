@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>by.shostko</groupId>
+  <artifactId>rx-cache</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>rx-cache</name>
+  <description>Rx Cache with binding to Lifecycle</description>
+  <url>https://github.com/shostko/rx-cache</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Sergey Shostko</name>
+      <email>s.shostko@gmail.com</email>
+      <organization>www.shostko.by</organization>
+      <organizationUrl>http://shostko.by/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/shostko/rx-cache.git</connection>
+    <developerConnection>scm:git:ssh://github.com:shostko/rx-cache.git</developerConnection>
+    <url>https://github.com/shostko/rx-cache</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

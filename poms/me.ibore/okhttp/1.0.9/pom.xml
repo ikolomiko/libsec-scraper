@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.ibore</groupId>
+  <artifactId>okhttp</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>okhttp</name>
+  <url>https://github.com/ibore/okhttp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ibore</id>
+      <name>ibore</name>
+      <email>bore521@live.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ibore/okhttp</connection>
+    <developerConnection>https://github.com/ibore/okhttp</developerConnection>
+    <url>https://github.com/ibore/okhttp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

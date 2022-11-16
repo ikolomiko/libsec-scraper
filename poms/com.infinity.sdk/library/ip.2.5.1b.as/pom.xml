@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.infinity.sdk</groupId>
+  <artifactId>library</artifactId>
+  <version>ip.2.5.1b.as</version>
+  <packaging>aar</packaging>
+  <name>infinity-sdk</name>
+  <description>sdk as is sdk platform use for game . It is use Android Studio tool. And upgrade all function, and optimize systems.</description>
+  <url>http://haira.hjkvosin.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>khaitq7</id>
+      <name>Max Tran</name>
+      <email>max@mobgame.vn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://haira.hjkvosin.com</url>
+  </scm>
+</project>

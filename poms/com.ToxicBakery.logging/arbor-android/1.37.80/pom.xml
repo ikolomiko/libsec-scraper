@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ToxicBakery.logging</groupId>
+  <artifactId>arbor-android</artifactId>
+  <version>1.37.80</version>
+  <packaging>aar</packaging>
+  <description>Like Timber, just different.</description>
+  <name>Arbor</name>
+  <url>https://github.com/ToxicBakery/arbor</url>
+  <scm>
+    <url>https://github.com/ToxicBakery/arbor.git</url>
+    <connection>scm:git@github.com:ToxicBakery/arbor.git</connection>
+    <developerConnection>scm:git@github.com:ToxicBakery/arbor.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>toxicbakery</id>
+      <name>Ian Thomas</name>
+      <email>toxicbakery@gmail.com</email>
+      <organization>Toxic Bakery</organization>
+      <organizationUrl>https://github.com/ToxicBakeryorg.gradle.parallel=false</organizationUrl>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ToxicBakery.logging</groupId>
+      <artifactId>arbor-jvm</artifactId>
+      <version>1.37.80</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

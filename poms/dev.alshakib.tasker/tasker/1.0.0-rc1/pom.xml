@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.alshakib.tasker</groupId>
+  <artifactId>tasker</artifactId>
+  <version>1.0.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>Tasker</name>
+  <description>Tasker is intended to enable proper and easy use of the UI and background thread. It lets you perform operations in the background. When they’ve finished running, it then allows you to update views in the main event thread.</description>
+  <url>https://github.com/AlShakib/Tasker</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/AlShakib/Tasker/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlShakib</id>
+      <name>Al Shakib</name>
+      <email>shakib@alshakib.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlShakib/Tasker.git</connection>
+    <developerConnection>https://github.com/AlShakib/Tasker.git</developerConnection>
+    <url>https://github.com/AlShakib/Tasker/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

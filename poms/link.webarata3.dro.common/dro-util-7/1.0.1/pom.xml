@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>link.webarata3.dro.common</groupId>
+  <artifactId>dro-util-7</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>dro-util7</name>
+  <description>Android Util for Java 7</description>
+  <url>https://github.com/webarata3/AndroidUtil7</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>webarata3</id>
+      <name>Shinichi Arata</name>
+      <email>webarata3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/webarata3/AndroidUtil7.git</connection>
+    <developerConnection>scm:git@https://github.com/webarata3/AndroidUtil7.git</developerConnection>
+    <url>scm:git@ghttps://github.com/webarata3/AndroidUtil7.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

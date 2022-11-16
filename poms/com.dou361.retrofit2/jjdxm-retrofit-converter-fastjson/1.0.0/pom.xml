@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dou361.retrofit2</groupId>
+  <artifactId>jjdxm-retrofit-converter-fastjson</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>jjdxm-retrofit-converter-fastjson</name>
+  <description>this is java utils retrofit2 converter-fastjson</description>
+  <url>https://github.com/jjdxmashl/jjdxm_retrofit-converter-fastjson</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jjdxmashl</id>
+      <name>jjdxmashl</name>
+      <email>316988670@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jjdxmashl/jjdxm_retrofit-converter-fastjson.git</connection>
+    <developerConnection>https://github.com/jjdxmashl/jjdxm_retrofit-converter-fastjson.git</developerConnection>
+    <url>https://github.com/jjdxmashl/jjdxm_retrofit-converter-fastjson</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

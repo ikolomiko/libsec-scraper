@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bitsparlour</groupId>
+  <artifactId>circlechart</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>circlechart</name>
+  <description>An android library for drawing circular radar chart with respect to sectors and tracks.</description>
+  <url>https://github.com/khurram18/circlechart</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>khurram</id>
+      <name>Khurram Shehzad</name>
+      <email>khurram.pak522@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/khurram18/circlechart.git</connection>
+    <developerConnection>https://github.com/khurram18/circlechart.git</developerConnection>
+    <url>https://github.com/khurram18/circlechart</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

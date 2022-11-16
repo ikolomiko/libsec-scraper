@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mobile.foundation</groupId>
+  <artifactId>ibmmobilefirstplatformfoundationliveupdate</artifactId>
+  <version>8.0.202003051505</version>
+  <packaging>aar</packaging>
+  <name>IBM MobileFirst Platform Foundation Liveupdate SDK</name> 
+  <description>IBM MobileFirst Platform Foundation Liveupdate SDK lets you query runtime configuration properties and features which you set in the Live Update Settings screen in the MobileFirst Operations Console. With Live Update integrated in your application you can implement feature toggling and more.</description>
+  <url>https://mobilefirstplatform.ibmcloud.com</url>
+  <licenses>
+    <license>
+      <name>IBM-MobileFirst Platform Foundation 8.0 license agreement</name>
+      <url>https://mobilefirstplatform.ibmcloud.com/licenses/ipla/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>IBM MobileFirst Platform Foundation</name>
+      <email>mobilsdk@us.ibm.com</email>
+      <organizationUrl>http://www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
+    <scm>
+    <connection>scm:git:git@github.com:mfpdev/mfp-live-update-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:mfpdev/mfp-live-update-android-sdk.git</developerConnection>
+    <url>https://github.com/mfpdev/mfp-live-update-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.mobile.foundation</groupId>
+      <artifactId>ibmmobilefirstplatformfoundation</artifactId>
+      <version>8.0.2020011312</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

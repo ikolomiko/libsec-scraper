@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pub.adfly</groupId>
+  <artifactId>adfly-sdk</artifactId>
+  <version>0.4.2</version>
+  <packaging>aar</packaging>
+  <name>adfly-sdk</name>
+  <description>AdFly Android SDK</description>
+  <url>https://adfly.co/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>AdFly</name>
+      <url>https://adfly.co/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AdFlySDK/AdFly-SDK-Android</connection>
+    <developerConnection>https://github.com/AdFlySDK/AdFly-SDK-Android</developerConnection>
+    <url>https://adfly.co/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.browser</groupId>
+      <artifactId>browser</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

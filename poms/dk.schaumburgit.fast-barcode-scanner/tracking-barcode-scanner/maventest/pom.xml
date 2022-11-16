@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dk.schaumburgit.fast-barcode-scanner</groupId>
+  <artifactId>tracking-barcode-scanner</artifactId>
+  <version>maventest</version>
+  <packaging>aar</packaging>
+  <name>tracking-barcode-scanner</name>
+  <description>A wrapper around the ZXing core library, optimized for use with video-like image sequences</description>
+  <url>https://github.com/tschaumburg/FastBarcodeScanner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tschaumburg</id>
+      <name>Thomas Schaumburg</name>
+      <email>thomas@schaumburg-it.dk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tschaumburg/FastBarcodeScanner.git</connection>
+    <developerConnection>https://github.com/tschaumburg/FastBarcodeScanner.git</developerConnection>
+    <url>https://github.com/tschaumburg/FastBarcodeScanner.git</url>
+  </scm>
+</project>

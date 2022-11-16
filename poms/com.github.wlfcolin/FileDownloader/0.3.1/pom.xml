@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.wlfcolin</groupId>
+  <artifactId>FileDownloader</artifactId>
+  <version>0.3.1</version>
+  <packaging>aar</packaging>
+  <name>FileDownloader</name>
+  <description>this is a powerful http-file download tool, it is to make downloading http file easily.</description>
+  <url>https://github.com/wlfcolin/file-downloader</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wlfcolin</id>
+      <name>Andy Wu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:wlfcolin/file-downloader.git</connection>
+    <developerConnection>scm:git@github.com:wlfcolin/file-downloader.git</developerConnection>
+    <url>https://github.com/wlfcolin/file-downloader</url>
+  </scm>
+</project>

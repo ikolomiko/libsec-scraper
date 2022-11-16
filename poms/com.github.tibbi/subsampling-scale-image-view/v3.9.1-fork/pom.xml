@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tibbi</groupId>
+  <artifactId>subsampling-scale-image-view</artifactId>
+  <version>v3.9.1-fork</version>
+  <packaging>aar</packaging>
+  <name>SubsamplingScaleImageView</name>
+  <description>Custom image views for Android with pinch to zoom, panning, rotation and animation support, with easy extension so you can add your own overlays and touch event detection.</description>
+  <url>https://github.com/davemorrissey/subsampling-scale-image-view</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davemorrissey</id>
+      <name>Dave Morrissey</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:davemorrissey/subsampling-scale-image-view.git</connection>
+    <developerConnection>scm:git@github.com:davemorrissey/subsampling-scale-image-view.git</developerConnection>
+    <url>scm:git@github.com:davemorrissey/subsampling-scale-image-view.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

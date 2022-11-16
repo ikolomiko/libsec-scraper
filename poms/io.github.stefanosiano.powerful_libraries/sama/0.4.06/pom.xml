@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.stefanosiano.powerful_libraries</groupId>
+  <artifactId>sama</artifactId>
+  <version>0.4.06</version>
+  <packaging>aar</packaging>
+  <name>Powerful Sama (Simplified Android Mvvm Architecture)</name>
+  <description>Simplified Android Mvvm Architecture</description>
+  <url>https://github.com/stefanosiano/PowerfulSAMA</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stefanosiano</id>
+      <name>Stefano Siano</name>
+      <email>stefano.siano91@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/stefanosiano/PowerfulSAMA.git</connection>
+    <developerConnection>scm:git:https://github.com/stefanosiano/PowerfulSAMA.git</developerConnection>
+    <url>https://github.com/stefanosiano/PowerfulSAMA</url>
+  </scm>
+</project>

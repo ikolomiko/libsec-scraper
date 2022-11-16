@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ovh.plrapps</groupId>
+  <artifactId>mapcompose</artifactId>
+  <version>2.2.4</version>
+  <packaging>aar</packaging>
+  <name>MapCompose</name>
+  <description>A Jetpack Compose Android library to display tiled maps, with support for markers, paths, and rotation</description>
+  <url>https://github.com/p-lr/MapCompose</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>p-lr</id>
+      <name>Pierre Laurence</name>
+      <url>https://github.com/p-lr/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:p-lr/MapCompose.git</connection>
+    <developerConnection>scm:git@github.com:p-lr/MapCompose.git</developerConnection>
+    <url>https://github.com/p-lr/MapCompose</url>
+  </scm>
+</project>

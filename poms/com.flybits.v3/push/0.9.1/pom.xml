@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flybits.v3</groupId>
+  <artifactId>push</artifactId>
+  <version>0.9.1</version>
+  <packaging>aar</packaging>
+  <name>Flybits Push SDK</name>
+  <description>This is the official production build of the Android Push SDK. The push SDK is used for subscribing to Push Notifications found within the Flybits ecosystem.</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flybits-inc</id>
+      <name>Petar Kramaric</name>
+      <email>pkramaric@flybits.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.android.service</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>10.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.flybits.v3</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>extensions</artifactId>
+      <version>1.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

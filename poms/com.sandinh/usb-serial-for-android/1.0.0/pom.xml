@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sandinh</groupId>
+  <artifactId>usb-serial-for-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Usb Serial</name>
+  <description>An Android library that provides an usb serial control Activity</description>
+  <url>https://github.com/vinhbt/usb-serial-for-android.git</url>
+  <scm>
+    <url>scm:git@github.com:vinhbt/usb-serial-for-android.git</url>
+    <connection>scm:git@github.com:vinhbt/usb-serial-for-android.git</connection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>sandinh.com</name>
+    <url>https://sandinh.com</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>giabao</id>
+      <name>net.sandinh</name>
+      <email>giabao@sandinh.net</email>
+    </developer>
+  </developers>
+</project>

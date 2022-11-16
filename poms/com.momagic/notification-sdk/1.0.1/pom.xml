@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.momagic</groupId>
+  <artifactId>notification-sdk</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>notification-sdk</name>
+  <description>Push Notification service</description>
+  <url>https://github.com/izooto-mobile-sdk/notification-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/izooto-mobile-sdk/notification-sdk/master/LICENSE</url>
+      <distribution>notification-sdk</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iZootoAndroidSDK</id>
+      <name>Amit Kumar Gupta</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/izooto-mobile-sdk/notification-sdk</connection>
+    <developerConnection>scm:git:https://github.com/izooto-mobile-sdk/notification-sdk</developerConnection>
+    <url>https://github.com/izooto-mobile-sdk/notification-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-bom</artifactId>
+      <version>26.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

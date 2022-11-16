@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.xinlake</groupId>
+  <artifactId>armoury</artifactId>
+  <version>1.1.5</version>
+  <packaging>aar</packaging>
+  <name>Armoury</name>
+  <description>Xinlake android library for Flutter plugin</description>
+  <url>https://github.com/xinlake/armoury/tree/main/xinlake-platform/.ready/armoury-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/xinlake/armoury/tree/main/xinlake-platform/.ready/armoury-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xinlake</id>
+      <name>Xinlake Liu</name>
+      <email>xinlake@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/armoury.git</connection>
+    <developerConnection>scm:git:ssh://github.com/armoury.git</developerConnection>
+    <url>https://github.com/xinlake/armoury/tree/main/xinlake-platform/.ready/armoury-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

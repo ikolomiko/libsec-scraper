@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>furdroid</artifactId>
+        <groupId>systems.furdei</groupId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>ripple-drawable</artifactId>
+    <version>1.0</version>
+    <packaging>aar</packaging>
+    <name>Ripple Drawable</name>
+    <description>RippleDrawable support library for backward compatibility</description>
+    <url>http://www.furdei.systems</url>
+
+    <licenses>
+      <license>
+        <name>MIT</name>
+        <url>http://opensource.org/licenses/MIT</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
+    <scm>
+      <url>https://github.com/furdei/ripple-drawable</url>
+      <connection>scm:git:git://github.com/furdei/ripple-drawable.git</connection>
+      <developerConnection>scm:git:https://github.com/furdei/ripple-drawable.git</developerConnection>
+      <tag>ripple-drawable-1.0</tag>
+  </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.0.0-rc.2</version>
+                <configuration>
+                    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
+                    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
+                    <resourceDirectory>${project.basedir}/res</resourceDirectory>
+                    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
+                    <sdk>
+                        <platform>21</platform>
+                    </sdk>
+                    <undeployBeforeDeploy>true</undeployBeforeDeploy>
+                    <includeLibsJarsFromAar>false</includeLibsJarsFromAar>
+                </configuration>
+                <extensions>true</extensions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+          </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>android_extras</id>
+            <name>Android Extras</name>
+            <url>file://${env.ANDROID_HOME}\extras\android\m2repository</url>
+        </repository>
+    </repositories>
+
+</project>

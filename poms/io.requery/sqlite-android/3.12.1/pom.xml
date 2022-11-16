@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.requery</groupId>
+  <artifactId>sqlite-android</artifactId>
+  <version>3.12.1</version>
+  <packaging>aar</packaging>
+  <name>sqlite-android</name>
+  <description>Android SQLite compatibility library</description>
+  <url>https://github.com/requery/sqlite-android</url>
+  <scm>
+    <url>https://github.com/requery/sqlite-android.git</url>
+    <connection>scm:git:git://github.com/requery/sqlite-android.git</connection>
+    <developerConnection>scm:git:git@github.com/requery/sqlite-android.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>npurushe</id>
+      <name>Nikhil Purushe</name>
+    </developer>
+  </developers>
+</project>

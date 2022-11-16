@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>permission</groupId>
+  <artifactId>permission</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Android Commonly used utils</name>
+  <description>my utils for test</description>
+  <url>https://github.com/SyShare/lib-permission</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sharebysy</id>
+      <name>sharebysy</name>
+      <email>sunyabing@qmtv.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SyShare/lib-permission.git</connection>
+    <developerConnection>https://github.com/SyShare/lib-permission.git</developerConnection>
+    <url>https://github.com/SyShare/lib-permission</url>
+  </scm>
+</project>

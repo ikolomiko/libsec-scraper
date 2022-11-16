@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cl.magnet.magnetrestclient</groupId>
+  <artifactId>magnetRestClient</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>MagnetRestClient</name>
+  <description>An android REST client on top of Volley.</description>
+  <url>https://github.com/magnet-cl/MagnetRestClient.git</url>
+  <organization>
+    <name>Magnet</name>
+    <url>http://magnet.cl</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lezorich</id>
+      <name>Lukas Zorich</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:magnet-cl/MagnetRestClient.git</connection>
+    <developerConnection>scm:git@github.com:magnet-cl/MagnetRestClient.git</developerConnection>
+    <url>https://github.com/magnet-cl/MagnetRestClient.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

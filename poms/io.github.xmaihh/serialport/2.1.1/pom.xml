@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.xmaihh</groupId>
+  <artifactId>serialport</artifactId>
+  <version>2.1.1</version>
+  <packaging>aar</packaging>
+  <name>serialport</name>
+  <description>Porting Google's official serial port libraryandroid-serialport-api,only supports serial port name and baud rate. This item adds support check digit, data bit, stop bit, flow control configuration item.</description>
+  <url>https://github.com/xmaihh/Android-Serialport</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xmaihh</id>
+      <name>xmaihh</name>
+      <email>xmaihh@protonmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:xmaihh/Android-Serialport.git</connection>
+    <developerConnection>scm:git@github.com:xmaihh/Android-Serialport.git</developerConnection>
+    <url>https://github.com/xmaihh/Android-Serialport/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

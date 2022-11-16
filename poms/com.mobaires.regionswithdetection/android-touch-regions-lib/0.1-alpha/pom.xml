@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mobaires.regionswithdetection</groupId>
+  <artifactId>android-touch-regions-lib</artifactId>
+  <version>0.1-alpha</version>
+  <packaging>aar</packaging>
+  <name>android-touch-regions-lib</name>
+  <description>Wondered how to make a map where the user could touch different regions and detect those actions? Or maybe a Car wireframe? Body parts or maybe a way to implement a paint for kids app?
+
+android-touch-regions manages touchable and selectable regions.</description>
+  <url>https://github.com/Cristo86/android-touch-regions</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cristo86</id>
+      <name>Cristian Duarte</name>
+      <email>cristian.duarte.mb@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Cristo86/android-touch-regions</connection>
+    <developerConnection>https://github.com/Cristo86/android-touch-regions</developerConnection>
+    <url>https://github.com/Cristo86/android-touch-regions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

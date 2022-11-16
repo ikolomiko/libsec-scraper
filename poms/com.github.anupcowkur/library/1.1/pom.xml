@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.anupcowkur</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>Reservoir</name>
+  <description>Android library to easily serialize and persist your objects on disk using key/value pairs.</description>
+  <url>https://github.com/anupcowkur/Reservoir</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anupcowkur</id>
+      <name>Anup Cowkur</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:anupcowkur/Reservoir.git</connection>
+    <developerConnection>scm:git@github.com:anupcowkur/Reservoir.git</developerConnection>
+    <url>https://github.com/anupcowkur/Reservoir</url>
+  </scm>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xyz.tynn.hoppa</groupId>
+  <artifactId>recycler</artifactId>
+  <version>0.4.4</version>
+  <packaging>aar</packaging>
+  <name>tynn-xyz/Hoppa</name>
+  <description>A micro utility extension for Android and AndroidX</description>
+  <url>https://github.com/tynn-xyz/Hoppa</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tynn</id>
+      <name>Christian Schmitz</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tynn-xyz/Hoppa.git</connection>
+    <developerConnection>scm:git://github.com/tynn-xyz/Hoppa.git</developerConnection>
+    <url>git://github.com/tynn-xyz/Hoppa.git</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>androidx.core</groupId>
+        <artifactId>core</artifactId>
+        <version>1.8.0</version>
+      </dependency>
+      <dependency>
+        <groupId>androidx.core</groupId>
+        <artifactId>core-ktx</artifactId>
+        <version>1.8.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.7.10</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

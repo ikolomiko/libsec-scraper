@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tdrhq.eyepatch</groupId>
+  <artifactId>eyepatch</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>EyePatch</name>
+  <description>A library to mock static methods in Android tests</description>
+  <url>https://github.com/tdrhq/eypatch</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tdrhq</id>
+      <name>Arnold Noronha</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/tdrhq/eyepatch.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/tdrhq/eyepatch.git</developerConnection>
+    <url>https://github.com/tdrhq/eyepatch/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>1.10.19</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.linkedin.dexmaker</groupId>
+      <artifactId>dexmaker</artifactId>
+      <version>2.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.linkedin.dexmaker</groupId>
+      <artifactId>dexmaker-mockito</artifactId>
+      <version>2.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.parse</groupId>
+  <artifactId>parse-android</artifactId>
+  <version>1.10.1</version>
+  <name>Parse-Android</name>
+  <description>A library that gives you access to the powerful Parse cloud platform from your Android app.</description>
+  <url>https://github.com/ParsePlatform/Parse-SDK-Android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/ParsePlatform/Parse-SDK-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>parse</id>
+      <name>Parse</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ParsePlatform/Parse-SDK-Android.git</connection>
+    <developerConnection>scm:git@github.com:ParsePlatform/Parse-SDK-Android.git</developerConnection>
+    <url>https://github.com/ParsePlatform/Parse-SDK-Androidd</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-android</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

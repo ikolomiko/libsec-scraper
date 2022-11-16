@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hipay.fullservice</groupId>
+  <artifactId>hipayfullservice</artifactId>
+  <version>1.7.0</version>
+  <packaging>aar</packaging>
+  <description>The HiPay Fullservice SDK for Android is a library that allows you to accept payments in your Android application by leveraging the HiPay Fullservice payment platform</description>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.card</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>5.5.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.devnied.emvnfccard</groupId>
+      <artifactId>library</artifactId>
+      <version>3.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>HiPayFullservice</name>
+  <url>https://github.com/hipay/hipay-fullservice-sdk-android.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hipayandroid</id>
+      <name>Pi Ecommerce</name>
+      <email>pi-ecommerce@hipay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/hipay/hipay-fullservice-sdk-android.git</url>
+    <connection>https://github.com/hipay/hipay-fullservice-sdk-android.git</connection>
+    <developerConnection>https://github.com/hipay/hipay-fullservice-sdk-android</developerConnection>
+  </scm>
+</project>

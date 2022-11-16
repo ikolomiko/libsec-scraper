@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.everythingme</groupId>
+  <artifactId>overscroll-decor-android</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>Overscroll-Decor</name>
+  <description>iOS-like over-scrolling effect for Android</description>
+  <url>https://github.com/EverythingMe/overscroll-decor</url>
+  <licenses>
+    <license>
+      <name>BSD-2</name>
+      <url>https://github.com/EverythingMe/overscroll-decor/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>d4vidi</name>
+      <email>amit.d4vidi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/EverythingMe/overscroll-decor</connection>
+    <developerConnection>scm:git:git@github.com/EverythingMe/overscroll-decor.git</developerConnection>
+    <url>https://github.com/EverythingMe/overscroll-decor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.viewpager</groupId>
+      <artifactId>viewpager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

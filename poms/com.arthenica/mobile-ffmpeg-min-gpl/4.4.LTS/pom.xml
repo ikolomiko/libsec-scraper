@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arthenica</groupId>
+  <artifactId>mobile-ffmpeg-min-gpl</artifactId>
+  <version>4.4.LTS</version>
+  <packaging>aar</packaging>
+  <name>mobile-ffmpeg-min-gpl</name>
+  <description>Includes FFmpeg v4.4-dev-416 with libvid.stab v1.1.0, x264 v20200630-stable, x265 v3.4 and xvidcore v1.3.7 libraries enabled.</description>
+  <url>https://github.com/tanersener/mobile-ffmpeg</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tanersener</id>
+      <name>Taner Sener</name>
+      <email>tanersener@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tanersener/mobile-ffmpeg.git</connection>
+    <developerConnection>https://github.com/tanersener/mobile-ffmpeg.git</developerConnection>
+    <url>https://github.com/tanersener/mobile-ffmpeg</url>
+  </scm>
+</project>

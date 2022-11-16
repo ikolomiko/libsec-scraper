@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cuneytayyildiz</groupId>
+  <artifactId>usefulthings-library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>UsefulThings</name>
+  <description>UsefulThings is a all in one library that contains AppRater, ChangeLog and UpdateChecker.</description>
+  <url>https://github.com/Swisyn/UsefulThings</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/Swisyn/UsefulThings/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swisyn</id>
+      <name>Cuneyt AYYILDIZ</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Swisyn/UsefulThings.git</connection>
+    <developerConnection>scm:git@github.com:Swisyn/UsefulThings.git</developerConnection>
+    <url>https://github.com/Swisyn/UsefulThings</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.afollestad</groupId>
+      <artifactId>material-dialogs</artifactId>
+      <version>0.6.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

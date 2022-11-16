@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.jackie-zjw</groupId>
+  <artifactId>quickpermission</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>quickpermission</name>
+  <description>An open source Android library that makes handling runtime permissions easier and quicker.</description>
+  <url>https://github.com/Jackie-ZJW/quickpermission</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Jackie-ZJW</id>
+      <name>Jackie-ZJW</name>
+      <email>1192935956@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Jackie-ZJW/quickpermission.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Jackie-ZJW/quickpermission.git</developerConnection>
+    <url>https://github.com/Jackie-ZJW/quickpermission/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>7.0.4</version>
+    </dependency>
+  </dependencies>
+</project>

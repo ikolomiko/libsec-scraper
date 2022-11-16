@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spren</groupId>
+  <artifactId>sprencore</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Spren Capture</name>
+  <description>An open source version of camera capture functionality</description>
+  <url>https://github.com/Elite-HRV/spren-vision-android</url>
+  <licenses>
+    <license>
+      <name>Spren License</name>
+      <url>https://github.com/Elite-HRV/spren-vision-android/blob/main/LICENSE</url>
+      <comments>(c) Copyright 2022 Spren and EliteHRV, all rights reserved.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Kevin Leon</name>
+      <email>kevin@spren.com</email>
+    </developer>
+    <developer>
+      <name>Fernando Eckert</name>
+      <email>fernando@spren.com</email>
+    </developer>
+    <developer>
+      <name>Keith Carolus</name>
+      <email>keith@spren.com</email>
+    </developer>
+    <developer>
+      <name>Nick Avasiloy</name>
+      <email>nick@spren.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Elite-HRV/spren-vision-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Elite-HRV/spren-vision-android.git</developerConnection>
+    <url>https://github.com/Elite-HRV/spren-vision-android</url>
+  </scm>
+</project>

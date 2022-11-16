@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cleveradssolutions</groupId>
+  <artifactId>mytarget</artifactId>
+  <version>5.15.0.6</version>
+  <packaging>aar</packaging>
+  <name>mytarget</name>
+  <description>MyTarget adapter for Clever Ads Solutions Android mediation.</description>
+  <url>https://cleveradssolutions.com</url>
+  <licenses>
+    <license>
+      <name>Clever Ads Solutions License</name>
+      <url>https://github.com/cleveradssolutions/CAS-Android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cleveradssolutions</id>
+      <name>CleverAdsSolutions</name>
+      <email>support@cleveradssolutions.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/cleveradssolutions/CAS-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/cleveradssolutions/CAS-Android.git</developerConnection>
+    <url>https://github.com/cleveradssolutions/CAS-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.my.target</groupId>
+      <artifactId>mytarget-sdk</artifactId>
+      <version>5.15.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.10</version>
+    </dependency>
+  </dependencies>
+</project>

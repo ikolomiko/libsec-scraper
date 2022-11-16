@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cat.ereza</groupId>
+  <artifactId>logcatreporter</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>LogcatReporter library</name>
+  <description>Android library that sends the Logcat log to Crashlytics when your app crashes.</description>
+  <url>https://github.com/Ereza/LogcatReporter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Ereza</id>
+      <name>Eduard Ereza Martínez</name>
+      <email>eduard@ereza.cat</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Ereza/LogcatReporter.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Ereza/LogcatReporter.git</developerConnection>
+    <url>https://github.com/Ereza/LogcatReporter/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-crashlytics</artifactId>
+      <version>18.2.11</version>
+    </dependency>
+  </dependencies>
+</project>

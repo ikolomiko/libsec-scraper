@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.genonbeta.android</groupId>
+  <artifactId>framework</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Genonbeta Android Framework</name>
+  <description>Framework for Android Application Development</description>
+  <url>https://github.com/genonbeta/framework-android</url>
+  <licenses>
+    <license>
+      <name>General Public Licence, Version 2.0</name>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>genonbeta</id>
+      <name>Genonbeta</name>
+      <email>genonbeta@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/genonbeta/framework-android.git</connection>
+    <developerConnection>https://github.com/genonbeta/framework-android.git</developerConnection>
+    <url>https://github.com/genonbeta/framework-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.genonbeta.android</groupId>
+      <artifactId>gdatabase</artifactId>
+      <version>1.0.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.kevinsawicki</groupId>
+      <artifactId>http-request</artifactId>
+      <version>6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

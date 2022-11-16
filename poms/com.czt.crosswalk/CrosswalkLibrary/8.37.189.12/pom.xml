@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.czt.crosswalk</groupId>
+  <artifactId>CrosswalkLibrary</artifactId>
+  <version>8.37.189.12</version>
+  <packaging>aar</packaging>
+  <name>Android Crosswalk Widget</name>
+  <url>https://github.com/GavinCT/Crosswalk</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>GavinCT</id>
+      <name>chentong</name>
+      <email>chentong.think@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/GavinCT/Crosswalk.git</connection>
+    <developerConnection>https://github.com/GavinCT/Crosswalk.git</developerConnection>
+    <url>https://github.com/GavinCT/Crosswalk</url>
+  </scm>
+</project>

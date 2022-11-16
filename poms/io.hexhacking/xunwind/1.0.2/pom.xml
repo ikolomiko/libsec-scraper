@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.hexhacking</groupId>
+  <artifactId>xunwind</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>xUnwind Android Lib</name>
+  <description>xUnwind is a collection of Android native stack unwinding solutions.</description>
+  <url>https://github.com/hexhacking/xUnwind</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>HexHacking</id>
+      <name>HexHacking Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hexhacking/xUnwind.git</connection>
+    <url>https://github.com/hexhacking/xUnwind</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/hexhacking/xUnwind/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.hexhacking</groupId>
+      <artifactId>xdl</artifactId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

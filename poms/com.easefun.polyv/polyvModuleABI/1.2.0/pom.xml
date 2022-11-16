@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easefun.polyv</groupId>
+  <artifactId>polyvModuleABI</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>polyv</name>
+  <description>polyv player sdk for android http://www.polyv.net</description>
+  <url>https://github.com/easefun/polyv-android-sdk-2.0-demo</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://jenkins-ci.org/license/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tanqu</id>
+      <name>lion</name>
+      <email>tanqu2013@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/easefun/polyv-android-sdk-2.0-demo.git</connection>
+    <developerConnection>https://github.com/easefun/polyv-android-sdk-2.0-demo.git</developerConnection>
+    <url>https://github.com/easefun/polyv-android-sdk-2.0-demo</url>
+  </scm>
+</project>

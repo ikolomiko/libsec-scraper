@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.golfgl.gdxgameanalytics</groupId>
+  <artifactId>gdx-gameanalytics-android</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>gdx-gameanalytics</name>
+  <description>Gameanalytics.com Client for libGDX</description>
+  <url>https://github.com/MrStahlfelge/gdx-gameanalytics</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MrStahlfelge</id>
+      <name>Benjamin Schulte</name>
+      <email>lightblocks@golfgl.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:MrStahlfelge/gdx-gameanalytics.git</connection>
+    <developerConnection>scm:git@github.com:MrStahlfelge/gdx-gameanalytics.git</developerConnection>
+    <url>scm:git@github.com:MrStahlfelge/gdx-gameanalytics.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.golfgl.gdxgameanalytics</groupId>
+      <artifactId>gdx-gameanalytics-core</artifactId>
+      <version>0.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.golfgl.gdxgameanalytics</groupId>
+      <artifactId>gdx-mygdxextension-java</artifactId>
+      <version>0.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.badlogicgames.gdx</groupId>
+      <artifactId>gdx-backend-android</artifactId>
+      <version>1.9.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

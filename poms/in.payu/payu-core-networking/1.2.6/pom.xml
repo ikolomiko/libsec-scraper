@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.payu</groupId>
+  <artifactId>payu-core-networking</artifactId>
+  <version>1.2.6</version>
+  <packaging>aar</packaging>
+  <name>payu-core-networking</name>
+  <description>Core Networking library for Socket and Async requests.</description>
+  <url>https://github.com/payu-intrepos/payu-core-networking</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mobile_payu</id>
+      <name>PayU Mobile</name>
+      <email>payumoneyapp@payumoney.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/payu-intrepos/payu-core-networking</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>socket.io-client</artifactId>
+      <groupId>io.socket</groupId>
+      <version>0.8.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>payuanalytics</artifactId>
+      <groupId>in.payu</groupId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>payu-crash-logger</artifactId>
+      <groupId>in.payu</groupId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

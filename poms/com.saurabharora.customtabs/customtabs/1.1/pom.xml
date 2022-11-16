@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.saurabharora.customtabs</groupId>
+  <artifactId>customtabs</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>CustomTabs-Kotlin</name>
+  <description>Helpers of the Chrome Custom tabs re-written in Kotlin and with Architecture Components to offer a simpler API</description>
+  <url>https://github.com/saurabharora90/CustomTabs-Kotlin</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saurabharora90</id>
+      <name>Saurabh Arora</name>
+      <email>saurabharora90@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/saurabharora90/CustomTabs-Kotlin.git</connection>
+    <developerConnection>https://github.com/saurabharora90/CustomTabs-Kotlin.git</developerConnection>
+    <url>https://github.com/saurabharora90/CustomTabs-Kotlin</url>
+  </scm>
+</project>

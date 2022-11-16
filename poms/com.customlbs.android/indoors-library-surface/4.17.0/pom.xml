@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.customlbs.android</groupId>
+  <artifactId>indoors-library-surface</artifactId>
+  <version>4.17.0</version>
+  <packaging>aar</packaging>
+  <name>indoo.rs Android SDK</name>
+  <description>The indoo.rs SDK allows to use indoor navigation technology</description>
+  <url>https://indoo.rs/</url>
+  <licenses>
+    <license>
+      <name>©2019 Indoo.rs, All Rights Reserved</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>indoors</id>
+      <name>indoo.rs GmbH</name>
+      <email>office@indoo.rs</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://indoo.rs/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>f6a7fb342b160dde</groupId>
+      <artifactId>IndoorsLocator</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>f6a7fb342b160dde</groupId>
+      <artifactId>IndoorsLibraryAndroid</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-fragment</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

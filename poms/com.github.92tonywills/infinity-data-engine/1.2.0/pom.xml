@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.92tonywills</groupId>
+  <artifactId>infinity-data-engine</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>infinity-data-engine</name>
+  <description>Simple and elegant list based data handling for Android</description>
+  <url>https://github.com/92tonywills/infinity-data-engine</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://mit-license.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>92tonywills</id>
+      <name>Anthony Williams</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:92tonywills/infinity-data-engine.git</connection>
+    <developerConnection>scm:git@github.com:92tonywills/infinity-data-engine.git</developerConnection>
+    <url>https://github.com/92tonywills/infinity-data-engine</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

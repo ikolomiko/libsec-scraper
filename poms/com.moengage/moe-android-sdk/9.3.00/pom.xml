@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moengage</groupId>
+  <artifactId>moe-android-sdk</artifactId>
+  <version>9.3.00</version>
+  <packaging>aar</packaging>
+  <name>MoEngage Android SDK</name>
+  <description>MoEngage Android SDK</description>
+  <url>https://github.com/moengage/MoEngage-Android-SDK</url>
+  <licenses>
+    <license>
+      <name>MoEngage License</name>
+      <url>https://s3.amazonaws.com/licensesmoe/iplicense.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>moengage</id>
+      <name>MoEngage Inc</name>
+      <email>androidteam@moengage.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/moengage/MoEngage-Android-SDK.git</connection>
+    <developerConnection>https://github.com/moengage/MoEngage-Android-SDK.git</developerConnection>
+    <url>https://github.com/moengage/MoEngage-Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>moengagesdk</artifactId>
+      <version>3.3.00</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>pushbase</artifactId>
+      <version>3.2.00</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>moe-push-firebase</artifactId>
+      <version>3.2.00</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>inapp</artifactId>
+      <version>3.2.02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>moe-location-lib</artifactId>
+      <version>5.2.02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>addon-messaging</artifactId>
+      <version>3.2.01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>addon-realtime-trigger</artifactId>
+      <version>2.2.00</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>integration-verifier</artifactId>
+      <version>1.0.00</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

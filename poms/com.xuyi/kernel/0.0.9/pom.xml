@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xuyi</groupId>
+  <artifactId>kernel</artifactId>
+  <version>0.0.9</version>
+  <packaging>aar</packaging>
+  <name>The description of your project.</name>
+  <url>https://github.com/xubinhong/XyKernel</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xubinhong666</id>
+      <name>xubinhong</name>
+      <email>136284008@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xubinhong/XyKernel.git</connection>
+    <developerConnection>https://github.com/xubinhong/XyKernel.git</developerConnection>
+    <url>https://github.com/xubinhong/XyKernel</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent</groupId>
+      <artifactId>mmkv</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.41</version>
+    </dependency>
+  </dependencies>
+</project>

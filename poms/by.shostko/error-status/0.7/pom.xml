@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>by.shostko</groupId>
+  <artifactId>error-status</artifactId>
+  <version>0.7</version>
+  <packaging>aar</packaging>
+  <name>error-status</name>
+  <description>Errors wrapper. status-handler support</description>
+  <url>https://github.com/shostko/errors</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Sergey Shostko</name>
+      <email>s.shostko@gmail.com</email>
+      <organization>www.shostko.by</organization>
+      <organizationUrl>http://shostko.by/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/shostko/errors.git</connection>
+    <developerConnection>scm:git:ssh://github.com:shostko/errors.git</developerConnection>
+    <url>https://github.com/shostko/errors</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.20</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

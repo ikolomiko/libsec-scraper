@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.madbe</groupId>
+  <artifactId>materialchip</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>MaterialChips</name>
+  <description>Implementation of Material Design Chips component for Android. The library provides two views ChipsInput and ChipView. Added support for downloading an image Url from the Internet and supporting right-to-left languages.</description>
+  <url>https://github.com/madbe/MaterialChips</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madbe72</id>
+      <name>Ben Madar</name>
+      <email>madbe72@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/madbe/MaterialChips.git</connection>
+    <developerConnection>https://github.com/madbe/MaterialChips.git</developerConnection>
+    <url>https://github.com/madbe/MaterialChips</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.beloo.widget</groupId>
+      <artifactId>ChipsLayoutManager</artifactId>
+      <version>0.3.7</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>de.hdodenhof</groupId>
+      <artifactId>circleimageview</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

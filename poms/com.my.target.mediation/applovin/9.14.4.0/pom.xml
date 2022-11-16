@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.my.target.mediation</groupId>
+  <artifactId>applovin</artifactId>
+  <version>9.14.4.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.applovin</groupId>
+      <artifactId>sdk</artifactId>
+      <version>9.14.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>myTarget AppLovin mediation adapter</name>
+  <description>myTarget adapter for AppLovin network </description>
+  <url>https://target.my.com</url>
+  <scm>
+    <url>https://github.com/myTargetSDK/mytarget-android</url>
+    <connection>https://target.my.com</connection>
+    <developerConnection>https://target.my.com</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>GNU LGPL 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>myTarget</name>
+    </developer>
+  </developers>
+</project>

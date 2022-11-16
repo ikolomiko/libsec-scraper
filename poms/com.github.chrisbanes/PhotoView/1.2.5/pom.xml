@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.chrisbanes</groupId>
+  <artifactId>PhotoView</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>Baseflow/PhotoView</name>
+  <description>Implementation of ImageView for Android that supports zooming, by various touch gestures.</description>
+  <url>https://baseflow.com</url>
+  <inceptionYear>2012</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Baseflow</id>
+      <name>Baseflow</name>
+      <email>hello@baseflow.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Baseflow/PhotoView.git</connection>
+    <developerConnection>scm:git://github.com/Baseflow/PhotoView.git</developerConnection>
+    <url>git://github.com/Baseflow/PhotoView.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

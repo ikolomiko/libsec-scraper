@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zlc.glide</groupId>
+  <artifactId>framesequence</artifactId>
+  <version>0.0.8.4.6.1</version>
+  <packaging>aar</packaging>
+  <name>Glide WebpDecoder Integration</name>
+  <description>An integration library to decode and show animated webp for Glide</description>
+  <url>https://github.com/zjupure/GlideWebpDecoder</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://raw.githubusercontent.com/zjupure/GlideWebpDecoder/add-license-1/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/zjupure/GlideWebpDecoder.git</connection>
+    <developerConnection>scm:git:git@github.com:zjupure/GlideWebpDecoder.git</developerConnection>
+    <url>https://github.com/zjupure/GlideWebpDecoder</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.6.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>support-fragment</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

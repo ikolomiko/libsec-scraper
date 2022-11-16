@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>libjpeg-turbo</artifactId>
+    <version>2.1.3</version>
+    <packaging>aar</packaging>
+
+    <name>libjpeg-turbo</name>
+    <description>JPEG image codec that aids compression and decompression</description>
+    <url>https://www.libjpeg-turbo.org</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/libjpeg-turbo/libjpeg-turbo.git</connection>
+        <developerConnection>scm:git:https://github.com/libjpeg-turbo/libjpeg-turbo.git</developerConnection>
+        <url>https://github.com/libjpeg-turbo/libjpeg-turbo.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>libjpeg-turbo developers</name>
+            <email>information@libjpeg-turbo.org</email>
+            <organization>libjpeg-turbo</organization>
+            <organizationUrl>https://www.libjpeg-turbo.org</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>libjpeg-turbo License</name>
+            <url>https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/LICENSE.md</url>
+        </license>
+    </licenses>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vandalsoftware.android</groupId>
+  <artifactId>dslv</artifactId>
+  <version>0.6.2</version>
+  <packaging>aar</packaging>
+  <name>Drag Sort ListView</name>
+  <description>Android ListView with drag and drop reordering.</description>
+  <url>https://github.com/jonathanle/drag-sort-listview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bauerca</id>
+      <name>Carl A. Bauer</name>
+      <email>heycosmo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jonathanle/drag-sort-listview.git</connection>
+    <developerConnection>scm:git@github.com:jonathanle/drag-sort-listview.git</developerConnection>
+    <url>scm:git@github.com:jonathanle/drag-sort-listview.git</url>
+  </scm>
+</project>

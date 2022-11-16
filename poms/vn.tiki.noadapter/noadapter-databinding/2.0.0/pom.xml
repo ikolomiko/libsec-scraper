@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.tiki.noadapter</groupId>
+  <artifactId>noadapter-databinding</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>NoAdapterDataBinding</name>
+  <description>Too much boilerplate and effort to implement a list using RecyclerView. But, most of them can be omitted. This library will take care of the heavy part and leave you the easy part.</description>
+  <url>https://github.com/tikivn/NoAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>talenguyen</id>
+      <name>Giang Nguyen</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/tikivn/NoAdapter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/tikivn/NoAdapter.git</developerConnection>
+    <url>https://github.com/tikivn/NoAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>vn.tiki.noadapter</groupId>
+      <artifactId>noadapter</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>2.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

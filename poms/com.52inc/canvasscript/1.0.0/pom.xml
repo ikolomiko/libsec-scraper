@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.52inc</groupId>
+  <artifactId>canvasscript</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Canvas Script</name>
+  <description>A simple activity that adds sliding functionality to activities to swipe them away</description>
+  <url>https://github.com/52inc/CanvasScript</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>52inc</id>
+      <name>52inc</name>
+      <email>drew@52inc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:52inc/CanvasScript.git</connection>
+    <developerConnection>scm:git@github.com:52inc/CanvasScript.git</developerConnection>
+    <url>https://github.com/52inc/CanvasScript.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

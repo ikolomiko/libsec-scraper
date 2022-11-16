@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.92tonywills</groupId>
+  <artifactId>androidtoolbox</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidToolbox</name>
+  <description>Collection of methods and classes useful in Android development</description>
+  <url>https://github.com/92tonywills/android-toolbox</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://mit-license.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>92tonywills</id>
+      <name>Anthony Williams</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/92tonywills/android-toolbox.git</connection>
+    <developerConnection>scm:https://github.com/92tonywills/android-toolbox.git</developerConnection>
+    <url>https://github.com/92tonywills/android-toolbox</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

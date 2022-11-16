@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.verachadw</groupId>
+  <artifactId>kreference</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>Kreference</name>
+  <description>Simple Preference for Android written in Kotlin</description>
+  <url>https://github.com/VerachadW/Kreference</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>verachadw</id>
+      <name>Verachad Wongsawangtham</name>
+      <email>birth24987@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/VerachadW/Kreference.git</connection>
+    <developerConnection>https://github.com/VerachadW/Kreference.git</developerConnection>
+    <url>https://github.com/VerachadW/Kreference</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>0.13.1514</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

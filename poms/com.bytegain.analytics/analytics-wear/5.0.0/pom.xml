@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bytegain.analytics</groupId>
+  <artifactId>analytics-wear</artifactId>
+  <version>5.0.0</version>
+  <packaging>aar</packaging>
+  <name>Bytegain for Android Wear Analytics</name>
+  <description>The API platform for business teams</description>
+  <url>http://github.com/ByteGain/bg-analytics-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ByteGain</id>
+      <name>ByteGain, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ByteGain/bg-analytics-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ByteGain/bg-analytics-android.git</developerConnection>
+    <url>http://github.com/ByteGain/bg-analytics-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.bytegain.analytics</groupId>
+      <artifactId>analytics</artifactId>
+      <version>5.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wearable</artifactId>
+      <version>10.2.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wills.libvideo</groupId>
+  <artifactId>video-library</artifactId>
+  <version>1.0.0.1</version>
+  <packaging>aar</packaging>
+  <name>videolibrary</name>
+  <description>this is wills's library for video player</description>
+  <url>https://github.com/wills/libmusic/videolibrary</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ws458371436</id>
+      <name>qian ye</name>
+      <email>qianye@weixinzhuyi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:wills:libmusic/videolibrary.git</connection>
+    <url>https://github.com/wills/libmusic/videolibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.wills.core</groupId>
+      <artifactId>coreengine-library</artifactId>
+      <version>1.0.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

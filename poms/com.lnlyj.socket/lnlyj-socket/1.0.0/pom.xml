@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lnlyj.socket</groupId>
+  <artifactId>lnlyj-socket</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Socket on Android</name>
+  <url>https://gitee.com/lnlyj/LnlyjSocket</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lnlyj</id>
+      <name>lnlyj</name>
+      <email>wanglei0303@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/lnlyj/LnlyjSocket.git</connection>
+    <developerConnection>https://gitee.com/lnlyj/LnlyjSocket.git</developerConnection>
+    <url>https://gitee.com/lnlyj/LnlyjSocket</url>
+  </scm>
+</project>

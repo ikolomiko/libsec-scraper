@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cloudrail</groupId>
+  <artifactId>cloudrail-si-android</artifactId>
+  <version>2.4.2</version>
+  <packaging>aar</packaging>
+  <name>CloudRail SI Android</name>
+  <description>Unified API Library for: Cloud Storage, Social Profiles, Payment, Email, SMS &amp; POIs. Included services are Dropbox, Google Drive, OneDrive, Box, Facebook, GitHub, Google+, LinkedIn, Slack, Twitter, Windows Live, Yahoo, PayPal, Stripe, Mailjet, Sendgrid, Twilio, Nexmo, Google Places, Foursquare, Yelp.</description>
+  <licenses>
+    <license>
+      <name>CloudRail SI License</name>
+      <url>http://cloudrail.com/licenses/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <url>http://cloudrail.com</url>
+  <scm>
+    <url>https://github.com/CloudRail/cloudrail-si-android-sdk</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>cloudrail</id>
+      <name>licobo GmbH</name>
+      <email>dev@cloudrail.com</email>
+      <url>http://cloudrail.com</url>
+    </developer>
+  </developers>
+  <organization>
+    <name>licobo GmbH</name>
+    <url>http://cloudrail.com</url>
+  </organization>
+</project>

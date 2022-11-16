@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.welt</groupId>
+  <artifactId>widgetAdapter</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>WidgetAdapter</name>
+  <description>A library to implement a viper architecture for android apps</description>
+  <url>https://github.com/WeltN24/WidgetAdapter</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://mitlicense.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hkokocin</id>
+      <name>Hendrik Kokocinski</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:WeltN24/WidgetAdapter.git</connection>
+    <developerConnection>git@github.com:WeltN24/WidgetAdapter.git</developerConnection>
+    <url>https://github.com/WeltN24/WidgetAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.hkokocin</groupId>
+      <artifactId>androidkit</artifactId>
+      <version>0.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

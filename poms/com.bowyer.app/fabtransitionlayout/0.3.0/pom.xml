@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bowyer.app</groupId>
+  <artifactId>fabtransitionlayout</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>fabtransitionlayout</name>
+  <description>Fab Transition Layout</description>
+  <url>https://github.com/bowyer-app/FabTransitionLayout</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/bowyer-app/FabTransitionLayout/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/bowyer-app/FabTransitionLayout.git</url>
+    <connection>https://github.com/bowyer-app/FabTransitionLayout.git</connection>
+    <developerConnection>https://github.com/bowyer-app/FabTransitionLayout.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>Released under the MIT license</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ozodrukh</groupId>
+      <artifactId>CircularReveal</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

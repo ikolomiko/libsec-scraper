@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.artear.domain</groupId>
+  <artifactId>domain</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Domain</name>
+  <description>domain sample library</description>
+  <url>https://github.com/Artear/app_lib_domain_android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>artear</id>
+      <name>Artear Moviles</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Artear/app_lib_domain_android.git</connection>
+    <developerConnection>https://github.com/Artear/app_lib_domain_android.git</developerConnection>
+    <url>https://github.com/Artear/app_lib_domain_android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.61</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+  </dependencies>
+</project>

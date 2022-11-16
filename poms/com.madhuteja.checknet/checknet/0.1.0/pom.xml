@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.madhuteja.checknet</groupId>
+  <artifactId>checknet</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>com.madhuteja.checknet</name>
+  <description>A simple library to check android network status.</description>
+  <url>https://github.com/madhuteja/checknet</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madhuteja</id>
+      <name>Madhu Teja</name>
+      <email>madhun@live.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/madhuteja/checknet.git</connection>
+    <developerConnection>https://github.com/madhuteja/checknet.git</developerConnection>
+    <url>https://github.com/madhuteja/checknet</url>
+  </scm>
+</project>

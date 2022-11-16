@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gemalto.jp2</groupId>
+  <artifactId>jp2-android</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>JP2ForAndroid</name>
+  <description>A JPEG-2000 image encoder/decoder for Android</description>
+  <url>https://github.com/gemalto/JP2ForAndroid</url>
+  <licenses>
+    <license>
+      <name>The 2-Clause BSD License</name>
+      <url>https://opensource.org/licenses/BSD-2-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>michal-dvorak-thales</id>
+      <name>Michal Dvorak</name>
+      <email>michal.dvorak@thalesgroup.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gemalto/JP2ForAndroid.git</connection>
+    <developerConnection>https://github.com/gemalto/JP2ForAndroid.git</developerConnection>
+    <url>https://github.com/gemalto/JP2ForAndroid</url>
+  </scm>
+</project>

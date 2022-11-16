@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quadible</groupId>
+  <artifactId>activity-counter</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>Activity Counter</name>
+  <description>Utility that help us to count the activities that live on backstack. (Helpful if we want to determine if it was the last activity that we finished)</description>
+  <url>https://github.com/St4B/ActivityCounter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>St4B</id>
+      <name>Vaios Tsitsonis</name>
+      <email>v.tsitsonis@quadible.co.uk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/St4B/ActivityCounter.git</connection>
+    <developerConnection>https://github.com/St4B/ActivityCounter.git</developerConnection>
+    <url>https://github.com/St4B/ActivityCounter</url>
+  </scm>
+</project>

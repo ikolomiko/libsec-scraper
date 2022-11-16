@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.hani-momanii</groupId>
+  <artifactId>SuperNova-Emoji</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>hani-momanii/SuperNova-Emoji</name>
+  <description>library to implement and render emojis For Android</description>
+  <url>https://github.com/hani-momanii/SuperNova-Emoji</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Other</name>
+      <url></url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hani-momanii</id>
+      <name>Hani Al-momani</name>
+      <email>hani.momanii@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/hani-momanii/SuperNova-Emoji.git</connection>
+    <developerConnection>scm:git://github.com/hani-momanii/SuperNova-Emoji.git</developerConnection>
+    <url>git://github.com/hani-momanii/SuperNova-Emoji.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

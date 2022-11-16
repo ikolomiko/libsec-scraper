@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.weimob.library.groups</groupId>
+  <artifactId>network</artifactId>
+  <version>1.0.8.wjson</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp-apache</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.weimob.library.groups</groupId>
+      <artifactId>uikit</artifactId>
+      <version>1.0.3.wjson</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.u1aryz</groupId>
+  <artifactId>android-newpopupmenu-lib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android-NewPopupMenu</name>
+  <description>Android-NewPopupMenu is an android library to create popup menu with GoogleMusic app-like style.</description>
+  <url>https://github.com/u1aryz/Android-NewPopupMenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>u1aryz</id>
+      <name>Yuichi Arai</name>
+      <email>u1aryz.d@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:u1aryz/Android-NewPopupMenu.git</connection>
+    <developerConnection>scm:git:git@github.com:u1aryz/Android-NewPopupMenu.git</developerConnection>
+    <url>git@github.com:u1aryz/Android-NewPopupMenu.git</url>
+  </scm>
+</project>

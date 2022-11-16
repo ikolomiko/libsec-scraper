@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.requery</groupId>
+  <artifactId>requery-android</artifactId>
+  <version>1.0.0-beta5</version>
+  <packaging>aar</packaging>
+  <name>requery-android</name>
+  <description>A light but powerful object mapper and SQL generator for Java/Android</description>
+  <url>https://github.com/requery/requery</url>
+  <scm>
+    <url>https://github.com/requery/requery.git</url>
+    <connection>scm:git:git://github.com/requery/requery.git</connection>
+    <developerConnection>scm:git:git@github.com/requery/requery.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>npurushe</id>
+      <name>Nikhil Purushe</name>
+    </developer>
+  </developers>
+</project>

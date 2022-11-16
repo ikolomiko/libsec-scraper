@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hehuelet.testlib</groupId>
+  <artifactId>testlib</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>testlib</name>
+  <description>testlib description</description>
+  <url>https://github.com/hehuelet</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hehuelet</id>
+      <name>hehuelet</name>
+      <email>hehuelet@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hehuelet</connection>
+    <developerConnection>https://github.com/hehuelet</developerConnection>
+    <url>https://github.com/hehuelet</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yanzhenjie</groupId>
+      <artifactId>permission</artifactId>
+      <version>1.0.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fulongbin.silk_v3_decoder</groupId>
+  <artifactId>decoder</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>silk&lt;->pcm&lt;->mp3</name>
+  <url>https://github.com/fishCoder/Silk_v3_decoder</url>
+  <licenses>
+    <license>
+      <name>the MIT licence</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fulongbin</id>
+      <name>fulongbin</name>
+      <email>flb1019@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fishCoder/Silk_v3_decoder.git</connection>
+    <developerConnection>https://github.com/fishCoder/Silk_v3_decoder.git</developerConnection>
+    <url>https://github.com/fishCoder/Silk_v3_decoder</url>
+  </scm>
+</project>

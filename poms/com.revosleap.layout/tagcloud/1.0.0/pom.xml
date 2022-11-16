@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.revosleap.layout</groupId>
+  <artifactId>tagcloud</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>TagCloud</name>
+  <description>Easy Tag Display </description>
+  <url>https://github.com/carloscj6/Tagged</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/carloscj6/Tagged/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>carloscj6</id>
+      <name>Carlos Anyona</name>
+      <email>anyona6.cj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/carloscj6/Tagged.git</connection>
+    <developerConnection>https://github.com/carloscj6/Tagged.git</developerConnection>
+    <url>https://github.com/carloscj6/Tagged</url>
+  </scm>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.hybridsquad.android.photocropper</groupId>
+  <artifactId>library</artifactId>
+  <version>3.0.1</version>
+  <packaging>aar</packaging>
+  <name>The Ultimate Approach to crop photos on android devices, especially for large size photos. This way can help you avoid OOM(OutOfMemory) exception.</name>
+  <url>https://github.com/ryanhoo/PhotoCropper</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ryanhoo</id>
+      <name>Ryan Hoo</name>
+      <email>ryan.hoo.j@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ryanhoo/PhotoCropper.git</connection>
+    <developerConnection>https://github.com/ryanhoo/PhotoCropper.git</developerConnection>
+    <url>https://github.com/ryanhoo/PhotoCropper</url>
+  </scm>
+</project>

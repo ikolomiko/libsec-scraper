@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.varunjohn1990.libraries</groupId>
+  <artifactId>WhatsappMessengerView</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <name>WhatsappMessengerView</name>
+  <description>WhatsApp like audio recording animations and views Library for Android</description>
+  <url>https://github.com/varunjohn/Audio-Recording-Animation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>varunjohn1990</id>
+      <name>Varun John</name>
+      <email>varunjohn1990@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/varunjohn/Audio-Recording-Animation.git</connection>
+    <developerConnection>https://github.com/varunjohn/Audio-Recording-Animation.git</developerConnection>
+    <url>https://github.com/varunjohn/Audio-Recording-Animation</url>
+  </scm>
+</project>

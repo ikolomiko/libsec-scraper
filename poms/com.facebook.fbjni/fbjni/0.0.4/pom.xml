@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.fbjni</groupId>
+  <artifactId>fbjni</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>fbjni</name>
+  <description>Facebook JNI helpers library</description>
+  <url>https://github.com/facebookincubator/fbjni</url>
+  <licenses>
+    <license>
+      <name>APACHE-2</name>
+      <url>https://github.com/facebookincubator/fbjni/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/facebookincubator/fbjni.git</connection>
+    <developerConnection>scm:git:git@github.com:facebookincubator/fbjni.git</developerConnection>
+    <url>https://github.com/facebookincubator/fbjni.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.soloader</groupId>
+      <artifactId>nativeloader</artifactId>
+      <version>0.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

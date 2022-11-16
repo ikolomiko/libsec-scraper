@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tobiasschuerg</groupId>
+  <artifactId>android-prefix-suffix-edit-text</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>tobiasschuerg/android-prefix-suffix-edit-text</name>
+  <description>EditText with support for non editable prefix and suffix.</description>
+  <url>https://github.com/tobiasschuerg/android-prefix-suffix-edit-text</url>
+  <inceptionYear>2018</inceptionYear>
+  <developers>
+    <developer>
+      <id>tobiasschuerg</id>
+      <name>Tobias Schürg</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tobiasschuerg/android-prefix-suffix-edit-text.git</connection>
+    <developerConnection>scm:git://github.com/tobiasschuerg/android-prefix-suffix-edit-text.git</developerConnection>
+    <url>git://github.com/tobiasschuerg/android-prefix-suffix-edit-text.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.enzokie</groupId>
+  <artifactId>typerlib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Typer</name>
+  <description>An easy to use font library in Android. It offers the most popular fonts used by developers today, and it solves the leak issues that is commonly done by developers.</description>
+  <url>https://github.com/enzokie/Typer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>enzokie</id>
+      <name>Elmar Rhex Gomez</name>
+      <email>elmarrhex.gomez@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/enzokie/Typer.git</connection>
+    <developerConnection>https://github.com/enzokie/Typer.git</developerConnection>
+    <url>https://github.com/enzokie/Typer</url>
+  </scm>
+</project>

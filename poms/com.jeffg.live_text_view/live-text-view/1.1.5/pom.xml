@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jeffg.live_text_view</groupId>
+  <artifactId>live-text-view</artifactId>
+  <version>1.1.5</version>
+  <packaging>aar</packaging>
+  <name>Live-Text-View</name>
+  <description>Android Library to display text while it is being spoken</description>
+  <url>https://github.com/JeffG05/LiveTextView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jeffg05</id>
+      <name>Jeff Gugelmann</name>
+      <email>gugelmann.jeff@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JeffG05/LiveTextView.git</connection>
+    <developerConnection>https://github.com/JeffG05/LiveTextView.git</developerConnection>
+    <url>https://github.com/JeffG05/LiveTextView</url>
+  </scm>
+</project>

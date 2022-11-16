@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.configureit</groupId>
+  <artifactId>ConfigureITApiVolley</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Library to call api which is developed using ConfigureIT</name>
+  <url>www.configure.it</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adneerav</id>
+      <name>adneerav</name>
+      <email>toneerav@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://adneerav@bitbucket.org/adneerav/citapicall.git</connection>
+    <developerConnection>https://adneerav@bitbucket.org/adneerav/citapicall.git</developerConnection>
+    <url>www.configure.it</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>eu.the4thfloor.volley</groupId>
+      <artifactId>com.android.volley</artifactId>
+      <version>2015.05.28</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kaopiz</groupId>
+      <artifactId>kprogresshud</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

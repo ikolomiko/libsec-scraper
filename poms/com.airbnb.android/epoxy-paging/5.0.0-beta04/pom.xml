@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airbnb.android</groupId>
+  <artifactId>epoxy-paging</artifactId>
+  <version>5.0.0-beta04</version>
+  <packaging>aar</packaging>
+  <name>Epoxy Paging Support</name>
+  <description>Epoxy is a system for composing complex screens with a ReyclerView in Android.</description>
+  <url>https://github.com/airbnb/epoxy</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/airbnb/epoxy/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airbnb</id>
+      <name>Airbnb</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:airbnb/epoxy.git</connection>
+    <developerConnection>scm:git@github.com:airbnb/epoxy.git</developerConnection>
+    <url>https://github.com/airbnb/epoxy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.paging</groupId>
+      <artifactId>paging-runtime</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>epoxy-annotations</artifactId>
+      <version>5.0.0-beta04</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>epoxy</artifactId>
+      <version>5.0.0-beta04</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.31</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

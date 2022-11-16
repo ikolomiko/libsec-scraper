@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.katana</groupId>
+  <artifactId>base</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>base</name>
+  <description>Sample base mvvm. This repository contains a detailed sample app that implements MVVM architecture using Koin, Room, RxJava, FastAndroidNetworking...</description>
+  <url>https://github.com/cuongnv219/mvvm-koin</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cuongnv219</id>
+      <name>NguyenVanCuong</name>
+      <email>cuongnv219@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cuongnv219/mvvm-koin.git</connection>
+    <developerConnection>https://github.com/cuongnv219/mvvm-koin.git</developerConnection>
+    <url>https://github.com/cuongnv219/mvvm-koin</url>
+  </scm>
+</project>

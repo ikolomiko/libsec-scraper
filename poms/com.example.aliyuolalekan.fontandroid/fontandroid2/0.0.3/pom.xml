@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.aliyuolalekan.fontandroid</groupId>
+  <artifactId>fontandroid2</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>FontAndroid</name>
+  <description>Allows you to change your application font to any of the amazing fonts on FontAndroid</description>
+  <developers>
+    <developer>
+      <id>andela-aabdullahi</id>
+      <name>Aliyu Abdullahi</name>
+      <email>aliyu.olalekan13@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

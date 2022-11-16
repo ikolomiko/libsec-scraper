@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tv.loilo.pdf</groupId>
+  <artifactId>pdfcompat</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>loilo-pdf</name>
+  <description>Pdfium-Based PDF Rendering Engine compatible with Android 4.4</description>
+  <url>https://github.com/loilo-inc/loilo-pdf</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>keroxp &amp; pepe</id>
+      <name>Yusuke Sakurai &amp; Junpei Hayama</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:loilo-inc/loilo-pdf.git</connection>
+    <developerConnection>scm:git@github.com:loilo-inc/loilo-pdf.git</developerConnection>
+    <url>https://github.com/loilo-inc/loilo-pdf</url>
+  </scm>
+</project>

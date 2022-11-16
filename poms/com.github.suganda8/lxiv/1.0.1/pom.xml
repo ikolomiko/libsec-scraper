@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.suganda8</groupId>
+  <artifactId>lxiv</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>lxiv</name>
+  <description>LXIV is Android Module (Library) for managing Base64 String to Bitmap vice versa using Encoder and Decoder Builder</description>
+  <url>https://github.com/suganda8/LXIV</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://github.com/suganda8/LXIV/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>suganda8</id>
+      <name>Tegar Bangun Suganda</name>
+      <email>tegarbangunsuganda@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/suganda8/LXIV.git</connection>
+    <developerConnection>scm:git:ssh://github.com/suganda8/LXIV.git</developerConnection>
+    <url>https://github.com/suganda8/LXIV/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+  </dependencies>
+</project>

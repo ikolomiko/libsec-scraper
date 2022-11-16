@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.deimian86</groupId>
+  <artifactId>time-lapse</artifactId>
+  <version>0.0.8</version>
+  <packaging>aar</packaging>
+  <name>TimeLapse</name>
+  <description>A small library that transform a time lapse between two Date objects into a human-readable string</description>
+  <url>https://github.com/deimian86/TimeLapse</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>deimian86</id>
+      <name>Damián González</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/deimian86/TimeLapse.git</connection>
+    <url>https://github.com/deimian86/TimeLapse</url>
+  </scm>
+</project>

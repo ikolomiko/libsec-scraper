@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.allenxuan</groupId>
+  <artifactId>ShowPowerfulWeb</artifactId>
+  <version>0.6.0</version>
+  <packaging>aar</packaging>
+  <name>ShowPowerfulWeb</name>
+  <description>This library is built for gorgeous display of web contents within your application. Specifically, it helps you launch the Chrome custom tabs when it's available.When Chrome custom tabs is not available, it helps you launch the FinestWebView which is a beautiful and customizable Android Activity that shows web pages within an app. 
+
+You can say this library is a hybrid of the following two projects: 
+custom-tabs-client 
+FinestWebView-Android 
+
+References: https://developer.chrome.com/multidevice/android/customtabs 
+https://github.com/GoogleChrome/custom-tabs-client 
+https://github.com/TheFinestArtist/FinestWebView-Android</description>
+  <url>https://github.com/allenxuan/ShowPowerfulWeb</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>allenxuan</id>
+      <name>Xuanyi Huang</name>
+      <email>allenxuan@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/allenxuan/ShowPowerfulWeb.git</connection>
+    <developerConnection>https://github.com/allenxuan/ShowPowerfulWeb.git</developerConnection>
+    <url>https://github.com/allenxuan/ShowPowerfulWeb</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.thefinestartist</groupId>
+      <artifactId>finestwebview</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>customtabs</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mapzen.android</groupId>
+  <artifactId>pelias-android-sdk</artifactId>
+  <version>0.3</version>
+  <name>Pelias Android SDK</name>
+  <description>Android SDK for Pelias</description>
+  <url>http://github.com/mapzen/pelias-android-sdk</url>
+  <organization>
+    <name>Mapzen</name>
+    <url>http://mapzen.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>baldur</id>
+      <name>Baldur Gudbjornsson</name>
+      <email>baldur@mapzen.com</email>
+    </developer>
+    <developer>
+      <id>ecgreb</id>
+      <name>Chuck Greb</name>
+      <email>chuck@mapzen.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/mapzen/pelias-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mapzen/pelias-android-sdk.git</developerConnection>
+    <url>http://github.com/mapzen/pelias-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>1.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>mockwebserver</artifactId>
+      <version>1.5.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easytesting</groupId>
+      <artifactId>fest-assert-core</artifactId>
+      <version>2.0M10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

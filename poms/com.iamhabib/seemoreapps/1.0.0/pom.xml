@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.iamhabib</groupId>
+  <artifactId>seemoreapps</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>seemoreapps</name>
+  <description>Show More Apps for download</description>
+  <url>http://iamhabib.com/android/libs/seemoreapps</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iamhabib</id>
+      <name>Habibur Rahman</name>
+      <email>md.hr_habib@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/hr_habib/seemoreapps</connection>
+    <developerConnection>https://bitbucket.org/hr_habib/seemoreapps</developerConnection>
+    <url>http://iamhabib.com/android/libs/seemoreapps</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.zhanghai.android.materialratingbar</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

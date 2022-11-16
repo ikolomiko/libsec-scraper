@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tbruyelle</groupId>
+  <artifactId>rxpermissions</artifactId>
+  <version>v0.9.3</version>
+  <packaging>aar</packaging>
+  <name>RxPermissions</name>
+  <description>A wrapper for Android 6.0 permissions</description>
+  <url>https://github.com/tbruyelle/RxPermissions</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tbruyelle</id>
+      <name>Thomas Bruyelle</name>
+      <email>thomas.bruyelle@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tbruyelle/RxPermissions.git</connection>
+    <developerConnection>https://github.com/tbruyelle/RxPermissions.git</developerConnection>
+    <url>https://github.com/tbruyelle/RxPermissions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

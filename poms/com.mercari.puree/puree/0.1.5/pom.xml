@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mercari.puree</groupId>
+  <artifactId>puree</artifactId>
+  <version>0.1.5</version>
+  <packaging>aar</packaging>
+  <name>puree</name>
+  <description>Puree is a data collector and unified logging layer for Android.</description>
+  <url>https://github.com/mercari/puree-android</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/mercari/puree-android/issues</url>
+  </issueManagement>
+  <scm>
+    <url>scm:https://github.com/mercari/puree-android</url>
+    <connection>scm:git@github.com:puree/puree-android.git</connection>
+    <developerConnection>scm:git@github.com:puree/puree-android.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/mercari/puree-android/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-lite</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

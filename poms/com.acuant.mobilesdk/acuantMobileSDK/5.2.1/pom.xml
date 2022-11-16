@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.acuant.mobilesdk</groupId>
+  <artifactId>acuantMobileSDK</artifactId>
+  <version>5.2.1</version>
+  <packaging>aar</packaging>
+  <name>AcuantMobileSDK</name>
+  <description>The AcuantAndroidMobileSDK is designed to simplify your development efforts. The processing of the captured images takes place via Acuant’s Web Services. Our Web Services offer fast data extraction and zero maintenance as software is looked after by Acuant on our optimized cloud infrastructure.
+
+Benefits:
+
+Process Enhancement: Faster data extraction and process images via Acuant’s Web Services.
+
+Easy to set up and deploy.
+
+No maintenance and support: All maintenance and updates are done on Acuant servers.
+
+Secured Connection: Secured via SSL and HTTPS AES 256-bit encryption.
+
+Acuant Web Services supports processing of drivers licenses, state IDs, other govt issued IDs, custom IDs, driver’s license barcodes, passports, medical insurance cards etc.</description>
+  <url>https://github.com/Acuant/AcuantAndroidMobileSDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tbehera</id>
+      <name>Tapas Behera</name>
+      <email>tbehera@acuantcorp.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Acuant/AcuantAndroidMobileSDK.git</connection>
+    <developerConnection>https://github.com/Acuant/AcuantAndroidMobileSDK.git</developerConnection>
+    <url>https://github.com/Acuant/AcuantAndroidMobileSDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.microblink</groupId>
+      <artifactId>pdf417.mobi</artifactId>
+      <version>6.4.0</version>
+      <type>aar</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27+</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27+</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jmrtd</groupId>
+      <artifactId>jmrtd</artifactId>
+      <version>0.5.13</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ejbca.cvc</groupId>
+      <artifactId>cert-cvc</artifactId>
+      <version>1.4.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>prov</artifactId>
+      <version>1.54.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.scuba</groupId>
+      <artifactId>scuba-sc-android</artifactId>
+      <version>0.0.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>25.1-android</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

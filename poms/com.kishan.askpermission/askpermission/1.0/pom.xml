@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kishan.askpermission</groupId>
+  <artifactId>askpermission</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>AskPermission</name>
+  <description>Ask Permission</description>
+  <url>https://github.com/Kishanjvaghela/Ask-Permission</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kishanvaghela</id>
+      <name>Kishan Vaghela</name>
+      <email>kishan.j.vaghela@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Kishanjvaghela/Ask-Permission.git</connection>
+    <developerConnection>https://github.com/Kishanjvaghela/Ask-Permission.git</developerConnection>
+    <url>https://github.com/Kishanjvaghela/Ask-Permission</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

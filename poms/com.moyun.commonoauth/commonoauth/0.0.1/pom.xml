@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moyun.commonoauth</groupId>
+  <artifactId>commonoauth</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Moyun Common Oauth</name>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>coder90</id>
+      <name>coder90</name>
+      <email>810417397@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jiahui90/moyun-oauth.git</connection>
+    <developerConnection>https://github.com/jiahui90/moyun-oauth.git</developerConnection>
+    <url>https://github.com/jiahui90/moyun-oauth</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mm.opensdk</groupId>
+      <artifactId>wechat-sdk-android-without-mta</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sina.weibo.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>4.2.7</version>
+      <type>aar</type>
+      <classifier>openDefaultRelease</classifier>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.moyun.commonui</groupId>
+      <artifactId>commonui</artifactId>
+      <version>0.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

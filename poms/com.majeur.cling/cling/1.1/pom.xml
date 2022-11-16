@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.majeur.cling</groupId>
+  <artifactId>cling</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>Android-Cling</name>
+  <description>Android library that provides a simple way of make user discovering your apps when he first opens it</description>
+  <url>https://github.com/MajeurAndroid/Android-Cling</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>majeurandroid</id>
+      <name>Majeur</name>
+      <email>majeur.android@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MajeurAndroid/Android-Cling.git</connection>
+    <developerConnection>https://github.com/MajeurAndroid/Android-Cling.git</developerConnection>
+    <url>https://github.com/MajeurAndroid/Android-Cling</url>
+  </scm>
+</project>

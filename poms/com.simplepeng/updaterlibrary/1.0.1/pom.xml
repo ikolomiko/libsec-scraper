@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simplepeng</groupId>
+  <artifactId>updaterlibrary</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>updater for android</name>
+  <url>https://github.com/simplepeng/Updater</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simplepeng</id>
+      <name>simplepeng</name>
+      <email>383559698@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/simplepeng/Updater.git</connection>
+    <developerConnection>https://github.com/simplepeng/Updater.git</developerConnection>
+    <url>https://github.com/simplepeng/Updater</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-utils</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>pub.devrel</groupId>
+      <artifactId>easypermissions</artifactId>
+      <version>0.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

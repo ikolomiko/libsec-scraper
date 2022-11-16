@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.queue-it.androidsdk</groupId>
+  <artifactId>library</artifactId>
+  <version>2.0.33</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>com.queue_it.androidsdk:library</name>
+  <url>https://github.com/queueit/android-webui-sdk</url>
+  <description>Android SDK to integrate with Queue-it</description>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/queueit/android-webui-sdk.git</connection>
+    <developerConnection>https://github.com/queueit/android-webui-sdk.git</developerConnection>
+    <url>https://github.com/queueit/android-webui-sdk</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Developers</name>
+      <email>devs@queue-it.com</email>
+      <organization>Queue-it</organization>
+      <organizationUrl>https://queue-it.com</organizationUrl>
+    </developer>
+  </developers>
+</project>

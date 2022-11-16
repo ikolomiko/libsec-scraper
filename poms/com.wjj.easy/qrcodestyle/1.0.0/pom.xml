@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wjj.easy</groupId>
+  <artifactId>qrcodestyle</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>qrcodestyle</name>
+  <description>A very simple and easy to use qr code style generation library</description>
+  <url>https://github.com/wu928320442/QRCodeStyle.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>juju</id>
+      <name>juju</name>
+      <email>wujiajun311@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wu928320442/QRCodeStyle.git</connection>
+    <developerConnection>https://github.com/wu928320442/QRCodeStyle.git</developerConnection>
+    <url>https://github.com/wu928320442/QRCodeStyle.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gr.pantrif</groupId>
+  <artifactId>easy-android-splash-screen</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Easy Android Splash Screen</name>
+  <description>Easily create and customize splash screen in you android project</description>
+  <url>https://github.com/pantrif/EasySplashScreen</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pantrif</id>
+      <name>Leonidas Maroulis</name>
+      <email>lmaroulis2003@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pantrif/EasySplashScreen.git</connection>
+    <developerConnection>https://github.com/pantrif/EasySplashScreen.git</developerConnection>
+    <url>https://github.com/pantrif/EasySplashScreen</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ergovia-mobile</groupId>
+  <artifactId>android-transcoder</artifactId>
+  <version>v0.1.10R_ergovia</version>
+  <packaging>aar</packaging>
+  <name>ergovia-mobile/android-transcoder</name>
+  <description>MP4 video transcode using Android MediaCodec API, pure Java (not LGPL nor patent issue!). Supports API >= 18.</description>
+  <url>https://github.com/ergovia-mobile/android-transcoder</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>ergovia-mobile</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/ergovia-mobile/android-transcoder.git</connection>
+    <developerConnection>scm:git://github.com/ergovia-mobile/android-transcoder.git</developerConnection>
+    <url>git://github.com/ergovia-mobile/android-transcoder.git</url>
+  </scm>
+</project>

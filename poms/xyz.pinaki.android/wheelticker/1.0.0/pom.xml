@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xyz.pinaki.android</groupId>
+  <artifactId>wheelticker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>WheelTicker</name>
+  <description>An Android View Widget for Ticker / Odometer like animation.</description>
+  <url>https://github.com/spinaki/android-wheel-ticker</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>spinaki@gmail.com</id>
+      <name>Pinaki Sinha</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git@github.com:spinaki/android-wheel-ticker.git</connection>
+    <developerConnection>scm:git@github.com:spinaki/android-wheel-ticker.git</developerConnection>
+    <url>https://github.com/spinaki/android-wheel-ticker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

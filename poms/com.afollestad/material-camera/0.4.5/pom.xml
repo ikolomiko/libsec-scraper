@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.afollestad</groupId>
+  <artifactId>material-camera</artifactId>
+  <version>0.4.5</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad</groupId>
+      <artifactId>easyvideoplayer</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>0.9.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+<url>https://github.com/afollestad/material-camera</url><licenses><license><name>Apache 2.0 License</name><url>https://www.apache.org/licenses/LICENSE-2.0.txt</url></license></licenses><scm><url>scm:git:github.com/afollestad/material-camera.git</url></scm><developers><developer><name>Aidan Follestad</name></developer></developers><name>Material-camera</name><description>Material-camera</description></project>

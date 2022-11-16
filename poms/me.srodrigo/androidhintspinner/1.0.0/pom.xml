@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.srodrigo</groupId>
+  <artifactId>androidhintspinner</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Hint Spinner</name>
+  <description>A hint spinner that allows showing a hint, similar to the HTML Select</description>
+  <url>https://github.com/srodrigo/Android-Hint-Spinner</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>srodrigo</id>
+      <name>Sergio Rodrigo Royo</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:srodrigo/Android-Hint-Spinner.git</connection>
+    <developerConnection>scm:git@github.com:srodrigo/Android-Hint-Spinner.git</developerConnection>
+    <url>https://github.com/srodrigo/Android-Hint-Spinner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

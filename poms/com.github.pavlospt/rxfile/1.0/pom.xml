@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pavlospt</groupId>
+  <artifactId>rxfile</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>RxFile</name>
+  <description>Rx methods to get a File and Image or Video thumbnails from a MediaContentProvider on Android (Drive, Dropbox etc)</description>
+  <url>https://github.com/pavlospt/RxFile</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pavlospt</id>
+      <name>Pavlos-Petros Tournaris</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:pavlospt/RxFile.git</connection>
+    <developerConnection>scm:git@github.com:pavlospt/RxFile.git</developerConnection>
+    <url>https://github.com/pavlospt/RxFile</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

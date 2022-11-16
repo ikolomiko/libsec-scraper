@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.testing.screenshot</groupId>
+  <artifactId>layout-hierarchy-common</artifactId>
+  <version>0.5.0</version>
+  <name>Screenshot Tests Common Layout Hierarchy Plugins</name>
+  <description>Screenshot Tests for Android</description>
+  <url>https://github.com/facebook/screenshot-tests-for-android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/facebook/screenshot-tests-for-android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>Facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/facebook/screenshot-tests-for-android.git</connection>
+    <developerConnection>scm:git:git@github.com:facebook/screenshot-tests-for-android.git</developerConnection>
+    <url>https://github.com/facebook/screenshot-tests-for-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.testing.screenshot</groupId>
+      <artifactId>core</artifactId>
+      <version>0.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

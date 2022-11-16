@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wajahatkarim3</groupId>
+  <artifactId>roomexplorer</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>roomexplorer</name>
+  <description>A quick and easy in-app database viewer and manager library for your Room databases.</description>
+  <url>https://github.com/wajahatkarim3/RoomExplorer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wajahatkarim3</id>
+      <name>Wajahat Karim</name>
+      <email>wajahatkarim3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wajahatkarim3/RoomExplorer.git</connection>
+    <developerConnection>https://github.com/wajahatkarim3/RoomExplorer.git</developerConnection>
+    <url>https://github.com/wajahatkarim3/RoomExplorer</url>
+  </scm>
+</project>

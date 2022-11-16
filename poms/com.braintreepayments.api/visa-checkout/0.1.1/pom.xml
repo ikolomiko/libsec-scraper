@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.braintreepayments.api</groupId>
+  <artifactId>visa-checkout</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>visa-checkout</name>
+  <description>Visa Checkout Module for Braintree's Android SDK.</description>
+  <url>https://github.com/braintree/braintree-android-visa-checkout</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devs</id>
+      <name>Braintree Payments</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:braintree/braintree-android-visa-checkout.git</connection>
+    <developerConnection>scm:git@github.com:braintree/braintree-android-visa-checkout.git</developerConnection>
+    <url>scm:git@github.com:braintree/braintree-android-visa-checkout.git</url>
+  </scm>
+</project>

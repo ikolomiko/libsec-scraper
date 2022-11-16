@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alibaba.android</groupId>
+  <artifactId>virtualview</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>virtualview</name>
+  <description>A light way to build Android UI in XML</description>
+  <url>https://github.com/alibaba/Virtualview-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>longerian</id>
+      <name>longerian</name>
+      <email>xlhongultimate@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:alibaba/Virtualview-Android.git</connection>
+    <developerConnection>git@github.com:alibaba/Virtualview-Android.git</developerConnection>
+    <url>https://github.com/alibaba/Virtualview-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.android</groupId>
+      <artifactId>virtual-common</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.mail.verify</groupId>
+  <artifactId>platform-huawei</artifactId>
+  <version>2.0.236</version>
+  <packaging>aar</packaging>
+  <name>libverify controls for Android projects</name>
+  <description>A application used as an example on how to set up pushing  its components to the Central Repository.</description>
+  <url>https://mail.ru</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3 (GPL-3.0)</name>
+      <url>https://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>libverify</id>
+      <name>Libverify</name>
+      <email>libverify@corp.mail.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://mail.ru</connection>
+    <developerConnection>https://mail.ru</developerConnection>
+    <url>https://mail.ru</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>hianalytics</artifactId>
+      <version>6.6.0.300</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>hwid</artifactId>
+      <version>6.4.0.301</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>safetydetect</artifactId>
+      <version>6.3.0.301</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>6.3.0.302</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>ads-identifier</artifactId>
+      <version>3.4.39.302</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.mail.verify</groupId>
+      <artifactId>platform-core</artifactId>
+      <version>2.0.236</version>
+      <type>aar</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

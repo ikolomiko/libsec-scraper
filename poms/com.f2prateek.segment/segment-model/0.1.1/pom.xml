@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.f2prateek.segment</groupId>
+  <artifactId>segment-model</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Segment Model</name>
+  <description>The hassle free way to add analytics to your Android app.</description>
+  <url>https://github.com/f2prateek/segment-android/</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>f2prateek</id>
+      <name>Prateek Sriastava</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/f2prateek/segment-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/f2prateek/segment-android.git</developerConnection>
+    <url>https://github.com/f2prateek/segment-android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mobigrowing</groupId>
+  <artifactId>srn-sdk</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>MobiGrowing SRN SDK</name>
+  <description>MobiGrowing SRN SDK</description>
+  <url>http://www.mobigrowing.com</url>
+  <licenses>
+    <license>
+      <name>MobiGrowing Terms and Conditions</name>
+      <url>https://usacdn.mobigrowing.com/AD/VIDEO_TEMPLATE_REACT_OVERSEAS/doc/MobiGrowing_Terms_and_Conditions_for_Advertising_Demand_Partners_202111.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MobiGrowing</id>
+      <name>MobiGrowing</name>
+      <email>service@mobigrowing.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>http://www.mobigrowing.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.13</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.startup</groupId>
+      <artifactId>startup-runtime</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

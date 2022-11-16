@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.clemot.julian.easylib</groupId>
+  <artifactId>easylib</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>EasyLib</name>
+  <description>Small library to provide an activity and a fragment enhanced and improved for material designed apps.</description>
+  <url>https://github.com/JulianClemot/EasyLib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JulianClemot</id>
+      <name>Julian Clemot</name>
+      <email>julian.clemot@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JulianClemot/EasyLib.git</connection>
+    <developerConnection>https://github.com/JulianClemot/EasyLib.git</developerConnection>
+    <url>https://github.com/JulianClemot/EasyLib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

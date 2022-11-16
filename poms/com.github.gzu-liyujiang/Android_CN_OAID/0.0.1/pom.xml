@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.gzu-liyujiang</groupId>
+  <artifactId>Android_CN_OAID</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>gzu-liyujiang/Android_CN_OAID</name>
+  <description>Android 10 + 适用于国内各大手机厂商的开放匿名设备标识（OAID）、全局唯一标识（GUID）解决方案，已通过模拟器、ViVo&amp;Coolpad真机、华为&amp;一加等云真机初步测试。</description>
+  <url>https://github.com/gzu-liyujiang/Android_CN_OAID</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gzu-liyujiang</id>
+      <name>贵州穿青人</name>
+      <email>admin@qqtheme.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/gzu-liyujiang/Android_CN_OAID.git</connection>
+    <developerConnection>scm:git://github.com/gzu-liyujiang/Android_CN_OAID.git</developerConnection>
+    <url>git://github.com/gzu-liyujiang/Android_CN_OAID.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.gzu-liyujiang</groupId>
+      <artifactId>Logger</artifactId>
+      <version>2020.05.17</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.collection</groupId>
+      <artifactId>collection</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

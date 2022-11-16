@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.meizu.flyme.internet</groupId>
+  <artifactId>push-ups</artifactId>
+  <version>1.0.1</version>
+  <packaging>pom</packaging>
+  <description>use compile "com.meizu.flyme.internet:push-ups:1.0.1-SNAPSHOT" to depend on this library.</description>
+  <name>com.meizu.flyme.internet:push-ups:1.0.1-SNAPSHOT</name>
+  <url>null</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>comsicne</id>
+      <name>comsince</name>
+      <email>ljlong_2008@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>null</connection>
+    <developerConnection>null</developerConnection>
+    <url>null</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.android.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>2.5.2.300</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.meizu.flyme.internet</groupId>
+      <artifactId>push-internal</artifactId>
+      <version>3.4.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

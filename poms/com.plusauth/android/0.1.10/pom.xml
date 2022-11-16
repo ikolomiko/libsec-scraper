@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.plusauth</groupId>
+  <artifactId>android</artifactId>
+  <version>0.1.10</version>
+  <packaging>aar</packaging>
+  <name>android</name>
+  <description>Android OpenId Connect library that can be used with any OIDC provider for easy to use authentication.</description>
+  <url>https://github.com/PlusAuth/plusauth-oidc-android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ekinokssoftware</id>
+      <name>Ekinoks Software</name>
+      <email>open.source@ekinokssoftware.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/PlusAuth/plusauth-oidc-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/PlusAuth/plusauth-oidc-android.git</developerConnection>
+    <url>https://github.com/PlusAuth/plusauth-oidc-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.browser</groupId>
+      <artifactId>browser</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.12.12</version>
+    </dependency>
+  </dependencies>
+</project>

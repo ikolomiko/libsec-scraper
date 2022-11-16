@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kaleyra</groupId>
+  <artifactId>alerts</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>alerts</name>
+  <description>Kaleyra sdk for sending sms</description>
+  <url>http://dev.solutionsinfini.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaleyra</id>
+      <name>kaleyra</name>
+      <email>satish.pathuri@kaleyra.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/impathuri/sms-android-quickstart</connection>
+    <developerConnection>https://github.com/impathuri/sms-android-quickstart</developerConnection>
+    <url>http://dev.solutionsinfini.com/</url>
+  </scm>
+</project>

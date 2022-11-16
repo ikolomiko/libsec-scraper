@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.astra_g</groupId>
+  <artifactId>test_android</artifactId>
+  <version>1.2.3</version>
+  <packaging>aar</packaging>
+  <name>test_android</name>
+  <description>test_android ist eine Test Library und kann nichts</description>
+  <developers>
+    <developer>
+      <id>ludy</id>
+      <name>ludy</name>
+      <email>android-antispam@astra-g.org</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

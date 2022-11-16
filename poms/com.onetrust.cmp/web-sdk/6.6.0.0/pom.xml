@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.onetrust.cmp</groupId>
+  <artifactId>web-sdk</artifactId>
+  <version>6.6.0.0</version>
+  <packaging>aar</packaging>
+  <name>web-sdk</name>
+  <description>OneTrust Web SDK</description>
+  <url>https://github.com/Zentrust/publishers-mobile-native-sdk.git</url>
+  <licenses>
+    <license>
+      <name>Commercial</name>
+      <url>https://onetrust.com/terms/v20190401OneTrustTermsCloud.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>OneTrust</id>
+      <name>OneTrust, LLC.</name>
+      <email>support@onetrust.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Zentrust/publishers-mobile-native-sdk.git</connection>
+    <developerConnection>scm:git:https://github.com/Zentrust/publishers-mobile-native-sdk.git</developerConnection>
+    <url>https://github.com/Zentrust/publishers-mobile-native-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0-alpha03</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>1.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

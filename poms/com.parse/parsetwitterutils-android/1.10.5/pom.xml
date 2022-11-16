@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.parse</groupId>
+  <artifactId>parsetwitterutils-android</artifactId>
+  <version>1.10.5</version>
+  <name>ParseTwitterUtils-Android</name>
+  <description>A utility library to authenticate ParseUsers with Twitter</description>
+  <url>https://github.com/ParsePlatform/ParseTwitterUtils-Android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/ParsePlatform/ParseTwitterUtils-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>parse</id>
+      <name>Parse</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ParsePlatform/ParseTwitterUtils-Android.git</connection>
+    <developerConnection>scm:git@github.com:ParsePlatform/ParseTwitterUtils-Android.git</developerConnection>
+    <url>https://github.com/ParsePlatform/ParseTwitterUtils-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.parse</groupId>
+      <artifactId>parse-android</artifactId>
+      <version>1.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

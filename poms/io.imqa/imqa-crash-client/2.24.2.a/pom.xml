@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.imqa</groupId>
+  <artifactId>imqa-crash-client</artifactId>
+  <version>2.24.2.a</version>
+  <packaging>aar</packaging>
+  <name>imqa-crash-client</name>
+  <description>This is the client sdk for android application to report the io.imqa.crash to the ImQA server when the runtime exceptions or errors are occurred</description>
+  <url>https://github.com/onycom-imqa/IMQA-Crash-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devload</id>
+      <name>shroh</name>
+      <email>devload@onycom.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/onycom-imqa/IMQA-Crash-Android</connection>
+    <developerConnection>scm:git:https://github.com/onycom-imqa/IMQA-Crash-Android.git</developerConnection>
+    <url>https://github.com/onycom-imqa/IMQA-Crash-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.anrwatchdog</groupId>
+      <artifactId>anrwatchdog</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.imqa</groupId>
+      <artifactId>imqa-core</artifactId>
+      <version>2.24.0.d</version>
+    </dependency>
+  </dependencies>
+</project>

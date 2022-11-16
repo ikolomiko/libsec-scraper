@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+aoserv-webservices - SOAP web services for the AOServ Platform.
+Copyright (C) 2021  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of aoserv-webservices.
+
+aoserv-webservices is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+aoserv-webservices is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with aoserv-webservices.  If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.14.0<!-- -POST-SNAPSHOT --></version>
+		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.aoindustries</groupId><artifactId>aoserv-webservices</artifactId><version>1.84.13</version>
+	<packaging>aar</packaging>
+
+	<properties>
+		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://aoindustries.com/aoserv/">AOServ</a>
+/ <a target="${javadoc.target}" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
+		<shortTitle>Webservices</shortTitle>
+		<description.html><![CDATA[SOAP web services for the <a target="${javadoc.target}" href="https://aoindustries.com/aoserv/">AOServ Platform</a>.]]></description.html>
+		<javadoc.modules><![CDATA[<div style="float:left; margin: 0 1em">
+			<h2 style="margin-top: 0em">Modules</h2>
+			<ul>
+				<li><a target="${javadoc.target}" href="https://aoindustries.com/aoserv/webservices/webapp/">AOServ Webservices Webapp</a></li>
+			</ul>
+		</div>]]></javadoc.modules>
+	</properties>
+
+	<name>AOServ Webservices</name>
+	<url>https://aoindustries.com/aoserv/webservices/</url>
+	<description>SOAP web services for the AOServ Platform.</description>
+	<inceptionYear>2009</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>GNU General Lesser Public License (LGPL) version 3.0</name>
+			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>AO Industries, Inc.</name>
+		<url>https://aoindustries.com/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>AO Industries, Inc.</name>
+			<email>support@aoindustries.com</email>
+			<url>https://aoindustries.com/</url>
+			<organization>AO Industries, Inc.</organization>
+			<organizationUrl>https://aoindustries.com/</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/aoindustries/aoserv-webservices.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/aoserv-webservices.git</developerConnection>
+		<url>https://github.com/aoindustries/aoserv-webservices</url>
+		<tag>aoserv-webservices-1.84.13</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/aoserv-webservices/issues</url>
+	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.axis2</groupId><artifactId>axis2-aar-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+			<!-- Never attach sources for snapshot, see https://stackoverflow.com/a/39139979 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-source-plugin</artifactId>
+				<configuration><skipSource>${build.isSnapshot}</skipSource></configuration>
+			</plugin>
+			<!-- Never sign snapshot, see https://stackoverflow.com/a/39139979 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-gpg-plugin</artifactId>
+				<configuration><skip>${build.isSnapshot}</skip></configuration>
+			</plugin>
+			<!-- TODO: Use install-file for pom and javadocs only? -->
+			<!-- Never deploy snapshot, see https://stackoverflow.com/a/39139979 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-deploy-plugin</artifactId>
+				<configuration><skip>${build.isSnapshot}</skip></configuration>
+			</plugin>
+			<!-- Never stage snapshot, see https://stackoverflow.com/a/39139979 -->
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId><artifactId>nexus-staging-maven-plugin</artifactId>
+				<configuration>
+					<skipNexusStagingDeployMojo>${build.isSnapshot}</skipNexusStagingDeployMojo>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>offlineLinks</id><activation><file><exists>src/main/java</exists></file></activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>unpack.offlineLinks</id><phase>generate-sources</phase><goals><goal>unpack</goal></goals>
+								<configuration>
+									<artifactItems>
+										<!-- Direct -->
+										<artifactItem>
+											<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><classifier>javadoc</classifier>
+											<includes>element-list, package-list</includes>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/ao-lang</outputDirectory>
+										</artifactItem>
+										<artifactItem>
+											<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><classifier>javadoc</classifier>
+											<includes>element-list, package-list</includes>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/ao-net-types</outputDirectory>
+										</artifactItem>
+										<artifactItem>
+											<groupId>com.aoindustries</groupId><artifactId>ao-security</artifactId><classifier>javadoc</classifier>
+											<includes>element-list, package-list</includes>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/ao-security</outputDirectory>
+										</artifactItem>
+										<artifactItem>
+											<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><classifier>javadoc</classifier>
+											<includes>element-list, package-list</includes>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/aocode-public</outputDirectory>
+										</artifactItem>
+										<artifactItem>
+											<groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId><classifier>javadoc</classifier>
+											<includes>element-list, package-list</includes>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/aoserv-client</outputDirectory>
+										</artifactItem>
+									</artifactItems>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+						<configuration>
+							<offlineLinks>
+								<!-- Direct -->
+								<offlineLink>
+									<url>https://aoindustries.com/ao-lang/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoindustries/ao-lang</location>
+								</offlineLink>
+								<offlineLink>
+									<url>https://aoindustries.com/ao-net-types/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoindustries/ao-net-types</location>
+								</offlineLink>
+								<offlineLink>
+									<url>https://aoindustries.com/ao-security/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoindustries/ao-security</location>
+								</offlineLink>
+								<offlineLink>
+									<url>https://aoindustries.com/aocode-public/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoindustries/aocode-public</location>
+								</offlineLink>
+								<offlineLink>
+									<url>https://aoindustries.com/aoserv/client/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoindustries/aoserv-client</location>
+								</offlineLink>
+								<!-- Java SE -->
+								<offlineLink>
+									<url>${javadoc.link.javase}</url>
+									<location>${project.build.directory}/offlineLinks/com/aoindustries/javadoc/offline/javase/${javase.release}</location>
+								</offlineLink>
+							</offlineLinks>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- Direct -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.12.2<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><version>1.2.4<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-security</artifactId><version>2.3.0<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>4.7.2<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId><version>1.84.13<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<!-- Transitive -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId><version>1.2.0<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-sql</artifactId><version>1.0.1<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-tempfiles</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-tlds</artifactId><version>1.2.0<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<!-- Direct -->
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>ao-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>aoserv-client</artifactId>
+		</dependency>
+	</dependencies>
+</project>

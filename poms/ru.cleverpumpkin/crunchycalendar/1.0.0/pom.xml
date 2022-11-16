@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.cleverpumpkin</groupId>
+  <artifactId>crunchycalendar</artifactId>
+  <version>1.0.0</version>
+  
+
+  <name>CrunchyCalendar</name>
+  <description>Light, powerful and easy to use Calendar Widget with a number of features out of the box</description>
+  <url>https://github.com/CleverPumpkin/CrunchyCalendar</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alexsurinov</id>
+      <name>Alexander Surinov</name>
+      <email>alexander.surinov
+cleverpumpkin.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CleverPumpkin/CrunchyCalendar.git</connection>
+    <developerConnection>https://github.com/CleverPumpkin/CrunchyCalendar.git</developerConnection>
+    <url>https://github.com/CleverPumpkin/CrunchyCalendar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.2.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

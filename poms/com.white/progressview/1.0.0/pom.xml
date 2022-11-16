@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.white</groupId>
+  <artifactId>progressview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>styleable progress view</name>
+  <url>https://github.com/WhiteDG/ProgressView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wh1te</id>
+      <name>Wh1te</name>
+      <email>white.hcj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/WhiteDG/ProgressView.git</connection>
+    <developerConnection>https://github.com/WhiteDG/ProgressView.git</developerConnection>
+    <url>https://github.com/WhiteDG/ProgressView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

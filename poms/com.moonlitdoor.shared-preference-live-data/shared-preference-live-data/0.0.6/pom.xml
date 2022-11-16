@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moonlitdoor.shared-preference-live-data</groupId>
+  <artifactId>shared-preference-live-data</artifactId>
+  <version>0.0.6</version>
+  <packaging>aar</packaging>
+  <name>SharedPreferenceLiveData</name>
+  <description>An Android library</description>
+  <url>http://github.com/moonlitdoor/mld-shared-preference-live-data</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/moonlitdoor/mld-shared-preference-live-data.git</connection>
+    <developerConnection>scm:git:ssh://github.com/moonlitdoor/mld-shared-preference-live-data.git</developerConnection>
+    <url>http://github.com/moonlitdoor/mld-shared-preference-live-data</url>
+  </scm>
+</project>

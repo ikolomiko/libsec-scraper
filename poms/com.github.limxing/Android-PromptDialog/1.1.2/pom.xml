@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.limxing</groupId>
+  <artifactId>Android-PromptDialog</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>limxing/Android-PromptDialog</name>
+  <description>提示窗口，正在加载中，主页广告，IOS 底部弹出选择，确认对话框,轻量View，非组合框架</description>
+  <url>https://github.com/limxing/Android-PromptDialog</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>limxing</id>
+      <name>Lifeng Li</name>
+      <email>leefengme@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/limxing/Android-PromptDialog.git</connection>
+    <developerConnection>scm:git://github.com/limxing/Android-PromptDialog.git</developerConnection>
+    <url>git://github.com/limxing/Android-PromptDialog.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

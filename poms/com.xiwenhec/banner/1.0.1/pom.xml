@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xiwenhec</groupId>
+  <artifactId>banner</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>banner</name>
+  <description>The gradient ui that View can change from one background to another background. (Such as the background of ImageView, the color of TextView)</description>
+  <url>https://github.com/xiwenhec/Banner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xiwenhec</id>
+      <name>sivin</name>
+      <email>xiwenhec@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:xiwenhec/Banner.git</connection>
+    <developerConnection>git@github.com:xiwenhec/Banner.git</developerConnection>
+    <url>https://github.com/xiwenhec/Banner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

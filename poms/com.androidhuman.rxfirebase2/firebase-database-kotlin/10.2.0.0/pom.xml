@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.androidhuman.rxfirebase2</groupId>
+  <artifactId>firebase-database-kotlin</artifactId>
+  <version>10.2.0.0</version>
+  <packaging>aar</packaging>
+  <name>RxFirebase-Database Kotlin support</name>
+  <description>RxJava binding APIs for Firebase Android SDK.</description>
+  <url>https://github.com/kunny/RxFirebase</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kunny</id>
+      <name>Taeho Kim</name>
+      <email>jyte82@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:kunny/RxFirebase.git</connection>
+    <developerConnection>scm:git@github.com:kunny/RxFirebase.git</developerConnection>
+    <url>https://github.com/kunny/RxFirebase</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.androidhuman.rxfirebase2</groupId>
+      <artifactId>firebase-database</artifactId>
+      <version>10.2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

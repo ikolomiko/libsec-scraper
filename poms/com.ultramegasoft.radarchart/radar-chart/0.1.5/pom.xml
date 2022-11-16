@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ultramegasoft.radarchart</groupId>
+  <artifactId>radar-chart</artifactId>
+  <version>0.1.5</version>
+  <packaging>aar</packaging>
+  <name>Radar Chart</name>
+  <description>Provides a View that renders a radar chart and a widget for editing the values in the chart</description>
+  <url>https://github.com/ultramega/android-radar-chart</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://sguidetti.mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ultramega</id>
+      <name>Steve Guidetti</name>
+      <email>sguidetti@ultramegasoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ultramega/android-radar-chart.git</connection>
+    <developerConnection>https://github.com/ultramega/android-radar-chart.git</developerConnection>
+    <url>https://github.com/ultramega/android-radar-chart</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

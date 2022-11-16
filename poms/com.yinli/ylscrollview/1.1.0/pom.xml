@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yinli</groupId>
+  <artifactId>ylscrollview</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>A smart custom ScrollView for Android</name>
+  <description>A smart custom ScrollView for Android, which is able to measure your inside content length and decide whether a rightside vertical text-indicator or graphic-indicator is in need or not. With this smart container, compared with default Android ScrollView, users are given a more visualised notice that more content is hidden under the visible layout and the entire content can be viewed by scrolling.</description>
+  <url>https://github.com/YinLiWisdom/Android-YLScrollView</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yinliwisdom</id>
+      <name>Yin Li</name>
+      <email>li.yinmax@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/YinLiWisdom/Android-YLScrollView.git</connection>
+    <developerConnection>https://github.com/YinLiWisdom/Android-YLScrollView.git</developerConnection>
+    <url>https://github.com/YinLiWisdom/Android-YLScrollView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

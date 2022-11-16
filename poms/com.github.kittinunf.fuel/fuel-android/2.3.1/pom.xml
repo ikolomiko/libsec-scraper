@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kittinunf.fuel</groupId>
+  <artifactId>fuel-android</artifactId>
+  <version>2.3.1</version>
+  <packaging>aar</packaging>
+  <name>fuel-android</name>
+  <description>The easiest HTTP networking library in Kotlin/Android</description>
+  <url>https://github.com/kittinunf/Fuel</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>kittinunf</name>
+    </developer>
+    <developer>
+      <name>iNoles</name>
+    </developer>
+    <developer>
+      <name>KucherenkoIhor</name>
+    </developer>
+    <developer>
+      <name>lucasqueiroz</name>
+    </developer>
+    <developer>
+      <name>lucasvalenteds</name>
+    </developer>
+    <developer>
+      <name>NikkyAI</name>
+    </developer>
+    <developer>
+      <name>SleeplessByte</name>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Danilo Pianini</name>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>git@github.com:kittinunf/fuel.git</connection>
+    <developerConnection>git@github.com:kittinunf/fuel.git</developerConnection>
+    <url>https://github.com/kittinunf/Fuel</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.kittinunf.fuel</groupId>
+      <artifactId>fuel</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+  </dependencies>
+</project>

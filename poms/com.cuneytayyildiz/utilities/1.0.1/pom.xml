@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cuneytayyildiz</groupId>
+  <artifactId>utilities</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>utilities</name>
+  <description>UsefulThings-Utilities is a all in one library that contains AppRater, ChangeLog, UpdateChecker, ActivityAnimator</description>
+  <url>https://github.com/Swisyn/UsefulThings-Utilities</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/Swisyn/UsefulThings-Utilities/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swisyn</id>
+      <name>Cuneyt AYYILDIZ</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Swisyn/UsefulThings-Utilities.git</connection>
+    <developerConnection>scm:git@github.com:Swisyn/UsefulThings-Utilities.git</developerConnection>
+    <url>https://github.com/Swisyn/UsefulThings-Utilities</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

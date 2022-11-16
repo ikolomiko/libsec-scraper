@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ramotion.directselect</groupId>
+  <artifactId>direct-select</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>DirectSelect for Android</name>
+  <description>DirectSelect is a selection widget with an ethereal, full-screen modal popup displaying the available choices when the widget is interact with. http://ramotion.com</description>
+  <url>https://github.com/Ramotion/direct-select-android</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>oleg-vasiliev</id>
+      <name>Oleg Vasiliev</name>
+      <email>oleg-vasiliev@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Ramotion/direct-select-android.git</connection>
+    <developerConnection>scm:git@github.com:Ramotion/direct-select-android.git</developerConnection>
+    <url>https://github.com/Ramotion/direct-select-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

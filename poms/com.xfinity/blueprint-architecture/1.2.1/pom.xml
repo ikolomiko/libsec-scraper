@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xfinity</groupId>
+  <artifactId>blueprint-architecture</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Blueprint Architecture</name>
+  <description>A collection of architectural components for accelerating Android development with the Blueprint Framework</description>
+  <url>https://github.com/Comcast/blueprint</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dapp</id>
+      <name>Mark Dappollone</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Comcast/blueprint.git</connection>
+    <developerConnection>scm:git@github.com:Comcast/blueprint.git</developerConnection>
+    <url>scm:git@github.com:Comcast/blueprint.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.xfinity</groupId>
+      <artifactId>blueprint-library</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>in.srain.cube</groupId>
+      <artifactId>ultra-ptr</artifactId>
+      <version>1.0.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.71</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

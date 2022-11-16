@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stvgame.ysdk</groupId>
+  <artifactId>plugin-host-library</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>Android stvplugin</name>
+  <url>https://bintray.com/fighter568868947</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fighter568868947</id>
+      <name>fighter568868947</name>
+      <email>fighter568868947@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bintray.com/fighter568868947</connection>
+    <developerConnection>https://bintray.com/fighter568868947</developerConnection>
+    <url>https://bintray.com/fighter568868947</url>
+  </scm>
+</project>

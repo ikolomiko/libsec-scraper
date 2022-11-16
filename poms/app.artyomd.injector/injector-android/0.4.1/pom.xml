@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.artyomd.injector</groupId>
+  <artifactId>injector-android</artifactId>
+  <version>0.4.1</version>
+  <packaging>aar</packaging>
+  <name>injector-android</name>
+  <description>Android helper lib for loading dex files.</description>
+  <url>https://github.com/artyomd/Injector.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>artyomd</id>
+      <name>Artyom Dangizyan</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:artyomd/Injector.git</connection>
+    <developerConnection>scm:git@github.com:artyomd/Injector.git</developerConnection>
+    <url>https://github.com/artyomd/Injector.git</url>
+  </scm>
+</project>

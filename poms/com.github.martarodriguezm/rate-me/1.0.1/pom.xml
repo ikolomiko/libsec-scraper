@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.martarodriguezm</groupId>
+  <artifactId>rate-me</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>RateMe</name>
+  <description>Android library that shows a dialog to let the user rate this app in the Google Play store</description>
+  <url>https://github.com/martarodriguezm/rate-me</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/martarodriguezm/rate-me/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marta-rodriguez</id>
+      <name>Marta Rodriguez</name>
+      <email>rodriguez.martin.marta@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/martarodriguezm/rate-me.git</connection>
+    <developerConnection>https://github.com/martarodriguezm/rate-me.git</developerConnection>
+    <url>https://github.com/martarodriguezm/rate-me</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vishnus1224.snakeprogressview</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>SnakeProgressView</name>
+  <description>A youtube style android progress view for playing the classic snake game.</description>
+  <url>https://github.com/vishnus1224/SnakeProgressView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vishnus1224</id>
+      <name>Vishnu Shirodker</name>
+      <email>vishnus1224@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vishnus1224/SnakeProgressView.git</connection>
+    <developerConnection>https://github.com/vishnus1224/SnakeProgressView.git</developerConnection>
+    <url>https://github.com/vishnus1224/SnakeProgressView</url>
+  </scm>
+</project>

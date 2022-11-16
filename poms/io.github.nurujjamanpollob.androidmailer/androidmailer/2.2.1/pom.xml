@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.nurujjamanpollob.androidmailer</groupId>
+  <artifactId>androidmailer</artifactId>
+  <version>2.2.1</version>
+  <packaging>aar</packaging>
+  <name>androidmailer</name>
+  <description>Android Library to send email using SMTP server</description>
+  <url>https://github.com/nurujjamanpollob/AndroidMailer</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>https://github.com/nurujjamanpollob/AndroidMailer/blob/master/LICENCE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nurujjamanpollob</id>
+      <name>Nurujjaman Pollob</name>
+      <email>nurujjamanpollob@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/nurujjamanpollob/AndroidMailer.git</connection>
+    <developerConnection>scm:git:ssh://github.com/nurujjamanpollob/AndroidMailer.git</developerConnection>
+    <url>https://github.com/nurujjamanpollob/AndroidMailer/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

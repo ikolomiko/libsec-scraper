@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.cognitiveservices.speech</groupId>
+  <artifactId>client-aar-sdk</artifactId>
+  <version>1.14.0</version>
+  <packaging>aar</packaging>
+  <name>Microsoft Cognitive Services Speech SDK for Java</name>
+  <description>
+    This SDK allows you to use the Microsoft Cognitive Speech Service.
+    See https://aka.ms/csspeech for more information.
+  </description>
+  <url>https://aka.ms/csspeech</url>
+  <licenses>
+    <license>
+      <name>Microsoft Software License Terms for Microsoft Cognitive Services Speech SDK</name>
+      <url>https://aka.ms/csspeech/license201809</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Brian Mouncer</name>
+      <email>brian.mouncer@microsoft.com</email>
+      <organization>Microsoft</organization>
+      <organizationUrl>https://github.com/BrianMouncer</organizationUrl>
+    </developer>
+    <developer>
+      <name>Jarno Ensio Hakulinen</name>
+      <email>jarno.hakulinen@microsoft.com</email>
+      <organization>Microsoft</organization>
+      <organizationUrl>http://www.microsoft.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Ryan Hurey</name>
+      <email>rhurey@microsoft.com</email>
+      <organization>Microsoft</organization>
+      <organizationUrl>https://github.com/rhurey</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/Azure-Samples/cognitive-services-speech-sdk.git</connection>
+    <url>https://github.com/Azure-Samples/cognitive-services-speech-sdk</url>
+  </scm>
+</project>

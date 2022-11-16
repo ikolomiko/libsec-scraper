@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.davidcryer.argrules</groupId>
+  <artifactId>argrules</artifactId>
+  <version>0.0.8</version>
+  <packaging>aar</packaging>
+  <name>ArgRules</name>
+  <description>Library to provide basic functionality in enforcing argument rules in domain model objects</description>
+  <url>https://github.com/davidcryer/ArgRules</url>
+  <licenses>
+    <license>
+      <name>Apache License, version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davidcryer</id>
+      <name>David Cryer</name>
+      <email>davecryer.dc@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/davidcryer/ArgRules.git</connection>
+    <developerConnection>https://github.com/davidcryer/ArgRules.git</developerConnection>
+    <url>https://github.com/davidcryer/ArgRules</url>
+  </scm>
+</project>

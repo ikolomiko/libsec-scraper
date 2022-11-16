@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kevin.library</groupId>
+  <artifactId>gif-library</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>a gif library for android</name>
+  <description>a gif library for android</description>
+  <url>https://github.com/cd89101112/GifLibrary</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cd</id>
+      <name>cd</name>
+      <email>cd</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cd89101112/GifLibrary.git</connection>
+    <developerConnection>https://github.com/cd89101112/GifLibrary.git</developerConnection>
+    <url>https://github.com/cd89101112/GifLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>pl.droidsonroids.gif</groupId>
+      <artifactId>android-gif-drawable</artifactId>
+      <version>1.2.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

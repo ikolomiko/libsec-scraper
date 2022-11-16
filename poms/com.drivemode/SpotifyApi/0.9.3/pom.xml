@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.drivemode</groupId>
+  <artifactId>SpotifyApi</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>SpotifyApi</name>
+  <description>Spotify Web API wrapper with account authentication for Android</description>
+  <url>https://github.com/Drivemode/SpotifyApi</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Drivemode</id>
+      <name>Drivemode</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Drivemode/SpotifyApi.git</connection>
+    <developerConnection>scm:git@github.com:Drivemode/SpotifyApi.git</developerConnection>
+    <url>https://github.com/Drivemode/SpotifyApi</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

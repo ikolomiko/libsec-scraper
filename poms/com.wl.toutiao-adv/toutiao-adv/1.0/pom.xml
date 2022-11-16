@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wl.toutiao-adv</groupId>
+  <artifactId>toutiao-adv</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>头条 ad</name>
+  <description>The Android build the advertising of tencent</description>
+  <url>https://github.com/sunshey/toutiao-adv</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://www.mit-license.org/</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/sunshey/toutiao-adv.git</connection>
+    <developerConnection>https://github.com/sunshey/toutiao-adv.git</developerConnection>
+    <url>https://github.com/sunshey/toutiao-adv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>open_ad_sdk</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>pl.droidsonroids.gif</groupId>
+      <artifactId>android-gif-drawable</artifactId>
+      <version>1.2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

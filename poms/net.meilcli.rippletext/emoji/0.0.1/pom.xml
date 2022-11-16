@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.meilcli.rippletext</groupId>
+  <artifactId>emoji</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>RippleText</name>
+  <description>Ripple effect for clickable text on android view and composable function</description>
+  <url>https://github.com/MeilCli/RippleText</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/MeilCli/RippleText/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MeilCli</id>
+      <name>MeilCli</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:MeilCli/RippleText.git</connection>
+    <developerConnection>git@github.com:MeilCli/RippleText.git</developerConnection>
+    <url>https://github.com/MeilCli/RippleText</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.emoji</groupId>
+      <artifactId>emoji</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.meilcli.rippletext</groupId>
+      <artifactId>core</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

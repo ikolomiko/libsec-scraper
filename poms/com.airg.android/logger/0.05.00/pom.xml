@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airg.android</groupId>
+  <artifactId>logger</artifactId>
+  <version>0.05.00</version>
+  <packaging>aar</packaging>
+  <name>Android Logger</name>
+  <description>Formatted and tagged logging for Android</description>
+  <url>https://github.com/airG/android-logging</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airgoss</id>
+      <name>airG OpenSource</name>
+      <email>opensource@airg.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/airG/android-logging.git</connection>
+    <developerConnection>https://github.com/airG/android-logging.git</developerConnection>
+    <url>https://github.com/airG/android-logging</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

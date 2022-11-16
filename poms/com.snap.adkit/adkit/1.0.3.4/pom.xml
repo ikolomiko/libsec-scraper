@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snap.adkit</groupId>
+  <artifactId>adkit</artifactId>
+  <version>1.0.3.4</version>
+  <packaging>aar</packaging>
+  <name>Snap Ad Kit</name>
+  <description>This is the Ad Kit library allowing you to display Snap Audience Network advertisements in your Android application</description>
+  <url>https://kit.snapchat.com/docs/ad-kit-android</url>
+  <licenses>
+    <license>
+      <name>Snap License</name>
+      <url>https://github.com/Snapchat/ad-kit-ios/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snap</id>
+      <name>Snap, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Snapchat/ad-kit-ios.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Snapchat/ad-kit-ios.git</developerConnection>
+    <url>https://github.com/Snapchat/ad-kit-ios</url>
+  </scm>
+  <dependencies/>
+</project>

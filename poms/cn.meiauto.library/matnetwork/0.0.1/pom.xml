@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.meiauto.library</groupId>
+  <artifactId>matnetwork</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>MATNetwork</name>
+  <description>Android Network</description>
+  <url>https://github.com/liyang77723/MATNetwork</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liyang</id>
+      <name>LiYang</name>
+      <email>liyang77723@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/liyang77723/MATNetwork.git</connection>
+    <developerConnection>https://github.com/liyang77723/MATNetwork.git</developerConnection>
+    <url>https://github.com/liyang77723/MATNetwork</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>cn.meiauto.library</groupId>
+      <artifactId>matutils</artifactId>
+      <version>0.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

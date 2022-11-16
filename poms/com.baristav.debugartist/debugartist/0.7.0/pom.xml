@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baristav.debugartist</groupId>
+  <artifactId>debugartist</artifactId>
+  <version>0.7.0</version>
+  <packaging>aar</packaging>
+  <name>Debug Artist</name>
+  <description>Debug menu for debugging.</description>
+  <url>https://github.com/BaristaVentures/debug-artist</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>caipivara</id>
+      <name>Daniel Gomez Rico</name>
+      <email>danielgomezrico@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BaristaVentures/debug-artist.git</connection>
+    <developerConnection>git@github.com:BaristaVentures/debug-artist.git</developerConnection>
+    <url>https://github.com/BaristaVentures/debug-artist</url>
+  </scm>
+  <dependencies/>
+</project>

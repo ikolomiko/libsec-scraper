@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dlazaro66.qrcodereaderview</groupId>
+  <artifactId>qrcodereaderview</artifactId>
+  <version>2.0.2</version>
+  <packaging>aar</packaging>
+  <name>QRCodeReaderView</name>
+  <description>Android view which show camera and notify when there's a QR code inside the preview.</description>
+  <url>https://github.com/dlazaro66/QRCodeReaderView/tree/master/QRCodeReaderView-lib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dlazaro66</id>
+      <name>David Lázaro</name>
+      <email>dlazaro66@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dlazaro66/QRCodeReaderView/tree/master/QRCodeReaderView-lib.git</connection>
+    <developerConnection>https://github.com/dlazaro66/QRCodeReaderView/tree/master/QRCodeReaderView-lib.git</developerConnection>
+    <url>https://github.com/dlazaro66/QRCodeReaderView/tree/master/QRCodeReaderView-lib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

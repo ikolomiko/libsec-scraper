@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baidu.mapapi</groupId>
+  <artifactId>search</artifactId>
+  <version>3.7.1</version>
+  <packaging>aar</packaging>
+  <name>search</name>
+  <description>Baidu map api</description>
+  <url>https://github.com/nb7123/BaiduMapSDK</url>
+  <organization>
+    <name>nb7123</name>
+    <url>https://github.com/nb7123</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>michael</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nb7123</id>
+      <name>michael</name>
+      <email>nb7123@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/nb7123/BaiduMapSDK/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git@github.com:nb7123/BaiduMapSDK.git</connection>
+    <developerConnection>scm:git@github.com:nb7123/BaiduMapSDK.git</developerConnection>
+    <url>scm:git@github.com:nb7123/BaiduMapSDK.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.baidu.mapapi</groupId>
+      <artifactId>base</artifactId>
+      <version>3.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

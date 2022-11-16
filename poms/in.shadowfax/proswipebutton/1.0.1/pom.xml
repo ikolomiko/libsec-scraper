@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.shadowfax</groupId>
+  <artifactId>proswipebutton</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>proswipebutton</name>
+  <description>A swipe button with progress indicator for Android</description>
+  <url>https://github.com/shadowfaxtech/proSwipeButton</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>developerId</id>
+      <name>Ishaan Garg</name>
+      <email>ishaan.garg@shadowfax.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/shadowfaxtech/proSwipeButton.git</connection>
+    <developerConnection>https://github.com/shadowfaxtech/proSwipeButton.git</developerConnection>
+    <url>https://github.com/shadowfaxtech/proSwipeButton</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

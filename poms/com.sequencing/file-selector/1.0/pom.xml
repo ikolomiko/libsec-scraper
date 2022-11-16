@@ -1,0 +1,128 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sequencing</groupId>
+  <artifactId>file-selector</artifactId>
+  <version>1.0</version>
+  
+  	<name>File selector</name>
+	<description>Module provides Android API access to files at sequencing.com</description>
+	<url>https://github.com/SequencingDOTcom/Maven-Android-File-Selector-Java</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://github.com/SequencingDOTcom/Maven-Android-File-Selector-Java/blob/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Sequencing LLC</name>
+			<email>gittaca@sequencing.com</email>
+			<organization>Sequencing LLC</organization>
+			<organizationUrl>https://sequencing.com</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git@github.com/SequencingDOTcom/Maven-Android-File-Selector-Java.git</connection>
+		<developerConnection>scm:git:git@github.com/SequencingDOTcom/Maven-Android-File-Selector-Java.git</developerConnection>
+		<url>git@github.com/SequencingDOTcom/Maven-Android-File-Selector-Java.git</url>
+	</scm>
+ 
+  	<dependencies>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient-android</artifactId>
+			<version>4.3.5.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sequencing</groupId>
+			<artifactId>oauth2-core</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.18</version>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.android.support</groupId>
+				<artifactId>appcompat-v7</artifactId>
+				<version>23.2.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.nhaarman.supertooltips</groupId>
+				<artifactId>library</artifactId>
+				<version>3.0.1</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>1.5</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+						<configuration>
+							<keyname>${gpg.oauthkey}</keyname>
+							<passphraseServerId>${gpg.${gpg.oauthkey}}</passphraseServerId>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.3</version>
+				<extensions>true</extensions>
+				<configuration>
+					<serverId>ossrh</serverId>
+					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<useReleaseProfile>false</useReleaseProfile>
+					<releaseProfiles>release</releaseProfiles>
+					<goals>deploy</goals>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>

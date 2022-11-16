@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javon.parserecyclerviewadapter</groupId>
+  <artifactId>parserecyclerviewadapter</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>parserecyclerviewadapter</name>
+  <description>A recycler view adapter that provides convenience for users who wish to load data from their parse app into a recyclerview.</description>
+  <url>https://github.com/JA-VON/ParseRecyclerViewAdapter</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>javondavis</id>
+      <name>Javon Davis</name>
+      <email>javonldavis14@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JA-VON/ParseRecyclerViewAdapter</connection>
+    <developerConnection>https://github.com/JA-VON/ParseRecyclerViewAdapter</developerConnection>
+    <url>https://github.com/JA-VON/ParseRecyclerViewAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-android</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

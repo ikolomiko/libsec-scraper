@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mobgen.halo.android</groupId>
+  <artifactId>halo-notifications</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>HALO Notifications</name>
+  <description>Notifications library to handle application push notifications using firebase notifications.</description>
+  <url>https://halo.mobgen.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>halo-mobgen</id>
+      <name>MOBGEN</name>
+      <email>halo@mobgen.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/mobgen/halo-android/sdk-libs/halo-notifications</connection>
+    <developerConnection>https://bitbucket.org/mobgen/halo-android/sdk-libs/halo-notifications</developerConnection>
+    <url>https://halo.mobgen.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mobgen.halo.android</groupId>
+      <artifactId>halo-sdk</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

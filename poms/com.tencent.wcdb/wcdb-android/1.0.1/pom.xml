@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.wcdb</groupId>
+  <artifactId>wcdb-android</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>WCDB</name>
+  <url>https://github.com/Tencent/wcdb</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id/>
+      <name/>
+      <email/>
+    </developer>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Tencent/wcdb</url>
+  </scm>
+  <dependencies/>
+  <description>WCDB is a cross-platform database framework developed by WeChat.</description>
+</project>

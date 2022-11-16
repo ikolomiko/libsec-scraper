@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jeeng.adsdk</groupId>
+  <artifactId>adsdk</artifactId>
+  <version>1.0.10</version>
+  <packaging>aar</packaging>
+  <name>adsdk</name>
+  <description>An example library to make your programming life easy</description>
+  <url>https://github.com/jeeng/android-native-sdk</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>myID</id>
+      <name>My Name</name>
+      <email>myemail@example.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jeeng/android-native-sdk</connection>
+    <developerConnection>https://github.com/jeeng/android-native-sdk</developerConnection>
+    <url>https://github.com/jeeng/android-native-sdk</url>
+  </scm>
+</project>

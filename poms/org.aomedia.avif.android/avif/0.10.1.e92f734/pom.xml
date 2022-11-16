@@ -1,0 +1,34 @@
+<project
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.aomedia.avif.android</groupId>
+  <artifactId>avif</artifactId>
+  <version>0.10.1.e92f734</version>
+  <packaging>aar</packaging>
+  <name>libavif</name>
+  <description>A decoder for the AVIF image format.</description>
+  <url>https://github.com/AOMediaCodec/libavif</url>
+  <licenses>
+    <license>
+      <name>BSD 2-Clause License</name>
+      <url>https://github.com/AOMediaCodec/libavif/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+      <comments>BSD 2-Clause License</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vigneshv</id>
+      <name>Vignesh Venkatasubramanian</name>
+      <email>vigneshv@google.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:AOMediaCodec/libavif.git</connection>
+    <developerConnection>scm:git@github.com:AOMediaCodec/libavif.git</developerConnection>
+    <url>https://github.com/AOMediaCodec/libavif</url>
+  </scm>
+  <dependencies/>
+</project>

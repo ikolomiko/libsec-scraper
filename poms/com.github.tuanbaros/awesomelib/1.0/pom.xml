@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tuanbaros</groupId>
+  <artifactId>awesomelib</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>AwesomeLib</name>
+  <description>Android Library to make any text into Toast with Awesome prepended to the text</description>
+  <url>https://github.com/tuanbaros/demolib.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tuanbaros</id>
+      <name>Tuan Nguyen</name>
+      <email>tuanbaros@yahoo.com.vn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tuanbaros/demolib.git</connection>
+    <developerConnection>https://github.com/tuanbaros/demolib.git</developerConnection>
+    <url>https://github.com/tuanbaros/demolib.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

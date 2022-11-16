@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.i2p.android</groupId>
+  <artifactId>client</artifactId>
+  <version>0.9.45</version>
+  <packaging>aar</packaging>
+  <name>I2P Android client library</name>
+  <description>A client library enabling Android developers to add native I2P support to their apps.</description>
+  <url>https://github.com/i2p/i2p.android.base</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>meeh</id>
+      <name>meeh</name>
+      <email>meeh@i2pmail.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:i2p/i2p.android.base.git</connection>
+    <developerConnection>scm:git:git@github.com:i2p/i2p.android.base.git</developerConnection>
+    <url>https://github.com/i2p/i2p.android.base</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.i2p</groupId>
+      <artifactId>i2p</artifactId>
+      <version>0.9.45</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.i2p.client</groupId>
+      <artifactId>streaming</artifactId>
+      <version>0.9.45</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bitbucket.icebergteam</groupId>
+  <artifactId>mupdf-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>mupdf</name>
+  <description>There is simple pdf viewer</description>
+  <url>https://bitbucket.org/IcebergTeam/mupdf/overview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>daimonkor</id>
+      <name>Dima Korniets</name>
+      <email>dimakorniets@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/IcebergTeam/mupdf/overview</connection>
+    <developerConnection>https://bitbucket.org/IcebergTeam/mupdf/overview</developerConnection>
+    <url>https://bitbucket.org/IcebergTeam/mupdf/overview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

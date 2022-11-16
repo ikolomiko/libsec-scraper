@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twotoasters.servos</groupId>
+  <artifactId>util-otto-retrofit</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>servos</name>
+  <description>Android library for shared helpers, views, and more</description>
+  <url>https://github.com/twotoasters/servos</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jbarr21</id>
+      <name>James Barr</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:twotoasters/servos.git</connection>
+    <developerConnection>scm:git@github.com:twotoasters/servos.git</developerConnection>
+    <url>https://github.com/twotoasters/servos</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twotoasters.servos</groupId>
+      <artifactId>util-otto</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

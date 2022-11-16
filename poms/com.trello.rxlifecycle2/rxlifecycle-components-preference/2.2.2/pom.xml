@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.trello.rxlifecycle2</groupId>
+  <artifactId>rxlifecycle-components-preference</artifactId>
+  <version>2.2.2</version>
+  <packaging>aar</packaging>
+  <name>RxLifecycle-Components-Preference</name>
+  <description>RxLifecycle-Components-Preference</description>
+  <url>https://github.com/trello/RxLifecycle</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dlew</id>
+      <name>Dan Lew</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/trello/RxLifecycle.git</connection>
+    <developerConnection>scm:git:git@github.com:trello/RxLifecycle.git</developerConnection>
+    <url>https://github.com/trello/RxLifecycle</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.trello.rxlifecycle2</groupId>
+      <artifactId>rxlifecycle-android</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

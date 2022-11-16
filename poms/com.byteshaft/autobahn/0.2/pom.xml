@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.byteshaft</groupId>
+  <artifactId>autobahn</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>autobahn</name>
+  <description>WebSocket and WAMP in Java</description>
+  <url>https://github.com/crossbario/autobahn-java</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>byteshaft</id>
+      <name>byteshaft</name>
+      <email>byteshaft@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/crossbario/autobahn-java.git</connection>
+    <developerConnection>https://github.com/crossbario/autobahn-java.git</developerConnection>
+    <url>https://github.com/crossbario/autobahn-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.8.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.8.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-cbor</artifactId>
+      <version>2.8.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.msgpack</groupId>
+      <artifactId>jackson-dataformat-msgpack</artifactId>
+      <version>0.8.13</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

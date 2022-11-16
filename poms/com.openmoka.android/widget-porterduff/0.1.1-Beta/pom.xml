@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.openmoka.android</groupId>
+  <artifactId>widget-porterduff</artifactId>
+  <version>0.1.1-Beta</version>
+  <packaging>aar</packaging>
+  <name>OpenMoka-Android porterduff widget library</name>
+  <description>OpenMoka library that contains some useful widgets and helper classes.</description>
+  <url>http://www.openmoka.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mdelgado</id>
+      <name>Miguel Delgado</name>
+      <email>miguel@mokaware.com</email>
+    </developer>
+    <developer>
+      <id>glagunes</id>
+      <name>Gonzalo Lagunes</name>
+      <email>ing.lagunes@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://bitbucket.org/mokaware/openmoka.git</connection>
+    <developerConnection>scm:https://bitbucket.org/mokaware/openmoka.git</developerConnection>
+    <url>scm:https://bitbucket.org/mokaware/openmoka.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amplifyframework</groupId>
+  <artifactId>aws-api-appsync</artifactId>
+  <version>v1.37.0-cpkey-preview.0</version>
+  <packaging>aar</packaging>
+  <name>Amplify Framework for Android - AppSync</name>
+  <description>Amplify Framework for Android - Shared components used by API and Datastore categories for interacting with AWS AppSync.</description>
+  <url>https://github.com/aws-amplify/amplify-android</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://aws.amazon.com/apache2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazonwebservices</id>
+      <organizationUrl>http://aws.amazon.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/aws-amplify/amplify-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aws-amplify/amplify-android.git</developerConnection>
+    <url>https://github.com/aws-amplify/amplify-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amplifyframework</groupId>
+      <artifactId>core</artifactId>
+      <version>v1.37.0-cpkey-preview.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

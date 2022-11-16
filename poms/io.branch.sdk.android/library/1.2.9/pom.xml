@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.branch.sdk.android</groupId>
+  <artifactId>library</artifactId>
+  <version>1.2.9</version>
+  <packaging>aar</packaging>
+  <name>Branch Android SDK</name>
+  <description>Use the Branch SDK (branch.io) to create and power the links that point back to your apps for all of these things and more. Branch makes it incredibly simple to create powerful deep links that can pass data across app install and open while handling all edge cases (using on desktop vs. mobile vs. already having the app installed, etc). Best of all, it is really simple to start using the links for your own app: only 2 lines of code to register the deep link router and one more line of code to create the links with custom data.</description>
+  <url>https://github.com/BranchMetrics/Branch-Android-SDK/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qinwei</id>
+      <name>Qinwei Gong</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:BranchMetrics/Branch-Android-SDK.git</connection>
+    <developerConnection>scm:git@github.com:BranchMetrics/Branch-Android-SDK.git</developerConnection>
+    <url>https://github.com/BranchMetrics/Branch-Android-SDK/</url>
+  </scm>
+</project>

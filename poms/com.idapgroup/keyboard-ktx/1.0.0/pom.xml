@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.idapgroup</groupId>
+  <artifactId>keyboard-ktx</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>keyboard-ktx</name>
+  <description>Kotlin extensions for Soft Keyboard.</description>
+  <url>https://github.com/idapgroup/keyboard-ktx</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License</name>
+      <url>https://github.com/idapgroup/ArgumentDelegate/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/idapgroup/keyboard-ktx.git</connection>
+    <developerConnection>https://github.com/idapgroup/keyboard-ktx.git</developerConnection>
+    <url>https://github.com/idapgroup/keyboard-ktx</url>
+  </scm>
+</project>

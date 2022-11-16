@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airg.android</groupId>
+  <artifactId>async</artifactId>
+  <version>0.05.00</version>
+  <packaging>aar</packaging>
+  <name>Android Async Utils</name>
+  <description>Threadpools and utility methods for easier asynchronous task execution on Android.</description>
+  <url>https://github.com/airG/android-async</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airG</id>
+      <name>airG OpenSource</name>
+      <email>opensource@airg.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/airG/android-async.git</connection>
+    <developerConnection>https://github.com/airG/android-async.git</developerConnection>
+    <url>https://github.com/airG/android-async</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

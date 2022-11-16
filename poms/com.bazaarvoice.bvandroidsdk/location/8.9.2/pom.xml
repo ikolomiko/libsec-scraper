@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bazaarvoice.bvandroidsdk</groupId>
+  <artifactId>location</artifactId>
+  <version>8.9.2</version>
+  <packaging>aar</packaging>
+  <name>Bazaarvoice Location Library</name>
+  <description>Bazaarvoice Android SDK</description>
+  <url>https://github.com/bazaarvoice/bv-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Copyright (c) 2016 Bazaarvoice, Inc.</name>
+      <url>http://www.bazaarvoice.com/legal/api-terms-of-use.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bazaarvoice</id>
+      <name>Bazaarvoice</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:bazaarvoice/bv-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:bazaarvoice/bv-android-sdk.git</developerConnection>
+    <url>https://github.com/bazaarvoice/bv-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.bazaarvoice.bvandroidsdk</groupId>
+      <artifactId>common</artifactId>
+      <version>8.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.gimbal.android.v2</groupId>
+      <artifactId>gimbal-sdk</artifactId>
+      <version>2.72</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.gimbal.android.v2</groupId>
+      <artifactId>gimbal-slf4j-impl</artifactId>
+      <version>2.72</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

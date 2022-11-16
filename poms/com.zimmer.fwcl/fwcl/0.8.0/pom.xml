@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zimmer.fwcl</groupId>
+  <artifactId>fwcl</artifactId>
+  <version>0.8.0</version>
+  <packaging>aar</packaging>
+  <name>fwcl</name>
+  <description>FitWorld Client Library</description>
+  <url>https://github.com/kaneshir/FWCLKotlin</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Verion 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaneshir</id>
+      <name>Derek Kaneshiro</name>
+      <email>derek_kaneshiro@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kaneshir/FWCLKotlin.git</connection>
+    <developerConnection>https://github.com/kaneshir/FWCLKotlin.git</developerConnection>
+    <url>https://github.com/kaneshir/FWCLKotlin</url>
+  </scm>
+</project>

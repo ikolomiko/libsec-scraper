@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adi.lib</groupId>
+  <artifactId>chart</artifactId>
+  <version>v0.1.6</version>
+  <packaging>aar</packaging>
+  <name>chart</name>
+  <description>chart</description>
+  <url>https://github.com/adignatov/adi-chart</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/adignatov/adi-chart/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adignatov</id>
+      <name>Anton Ignatov</name>
+      <email>adignatov88@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/adignatov/adi-chart.git</connection>
+    <developerConnection>https://github.com/adignatov/adi-chart.git</developerConnection>
+    <url>https://github.com/adignatov/adi-chart</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.umaplay.oss</groupId>
+  <artifactId>fluxxan</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Fluxxan</name>
+  <description>Fluxxan is an Android implementation of the Flux Architecture that combines concepts from both Fluxxor and Redux</description>
+  <url>https://github.com/frostymarvelous/Fluxxan</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/frostymarvelous/Fluxxan/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>frostymarvelous</id>
+      <name>Stefan Froelich</name>
+      <email>sfroelich01@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/frostymarvelous/Fluxxan.git</connection>
+    <developerConnection>https://github.com/frostymarvelous/Fluxxan.git</developerConnection>
+    <url>https://github.com/frostymarvelous/Fluxxan</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

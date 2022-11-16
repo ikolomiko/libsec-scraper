@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bambora.apac</groupId>
+  <artifactId>bn-payment</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>The Mobile Payment SDK from Bambora (APAC) makes it simple to accept credit card payments in your app.</name>
+  <url>http://bambora.com/en/au</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/bambora/APAC-BNPayment-Android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bnpayment</id>
+      <name>APAC-BNPayment</name>
+      <email>apac-mobile-sdk-maintainers@bambora.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bambora/APAC-BNPayment-Android.git</connection>
+    <developerConnection>https://github.com/bambora/APAC-BNPayment-Android.git</developerConnection>
+    <url>http://bambora.com/en/au</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.card</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>5.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

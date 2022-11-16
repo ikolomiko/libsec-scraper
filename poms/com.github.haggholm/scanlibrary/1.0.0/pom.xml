@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.haggholm</groupId>
+  <artifactId>scanlibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>scanlibrary</name>
+  <description>Document scan library, extracted for publishing from https://github.com/jhansireddy/AndroidScannerDemo</description>
+  <url>https://github.com/haggholm/scanlibrary</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/haggholm/scanlibrary/blob/master/License.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>haggholm</id>
+      <name>Petter HÃ¤ggholm</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:haggholm/scanlibrary.git</connection>
+    <developerConnection>scm:git@github.com:haggholm/scanlibrary.git</developerConnection>
+    <url>https://github.com/haggholm/scanlibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

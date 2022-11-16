@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.starmicronics</groupId>
+  <artifactId>smcloudservices</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>SMCloudServices</name>
+  <description>SMCloudServices exposes APIs for Star Micronics Cloud Services.</description>
+  <url>http://www.starmicronics.com/support/SDKDocumentation.aspx</url>
+  <licenses>
+    <license>
+      <name>Software License Agreement</name>
+      <url>https://www.starmicronics.com/support/Mannualfolder/SoftwareLicenseAgreement_web.pdf</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://www.starmicronics.com/support/SDKDocumentation.aspx</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>starmicronics</id>
+      <name>Star Micronics</name>
+      <email>sp_tsales@star-m.jp</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

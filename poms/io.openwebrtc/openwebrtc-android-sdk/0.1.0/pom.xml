@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.openwebrtc</groupId>
+  <artifactId>openwebrtc-android-sdk</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>OpenWebRTC Android SDK</name>
+  <description>Android SDK for OpenWebRTC - a mobile-first WebRTC client framework for building native apps</description>
+  <url>http://openwebrtc.io</url>
+  <licenses>
+    <license>
+      <name>BSD 2-Clause</name>
+      <url>http://opensource.org/licenses/BSD-2-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rugvip</id>
+      <name>Patrik Oldsberg</name>
+      <url>https://github.com/Rugvip</url>
+      <organization>org.apache.maven.model.Organization@63c925a8</organization>
+    </developer>
+  </developers>
+  <scm>
+    <developerConnection>scm:git@github.com:EricssonResearch/openwebrtc-android-sdk.git</developerConnection>
+    <url>https://github.com/EricssonResearch/openwebrtc-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.openwebrtc</groupId>
+      <artifactId>openwebrtc-android</artifactId>
+      <version>0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla</groupId>
+      <artifactId>rhino</artifactId>
+      <version>1.7R4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

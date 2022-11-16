@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.6xyun.android</groupId>
+  <artifactId>test</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>test</name>
+  <description>A set of Android libraries</description>
+  <url>https://github.com/lx0758/Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>ttps://github.com/lx0758/Android/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lx0758</id>
+      <name>Liux</name>
+      <email>lx0758@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:lx0758/Android.git</connection>
+    <developerConnection>scm:git@github.com:lx0758/Android.git</developerConnection>
+    <url>https://github.com/lx0758/Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>core</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.robolectric</groupId>
+      <artifactId>robolectric</artifactId>
+      <version>4.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito2</artifactId>
+      <version>2.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4-rule</artifactId>
+      <version>2.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-classloading-xstream</artifactId>
+      <version>2.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.kerison</groupId>
+  <artifactId>logkit</artifactId>
+  <version>v1.0.0</version>
+  <packaging>aar</packaging>
+  <name>LogKit</name>
+  <description>a kit for android log</description>
+  <url>https://github.com/GKerison/LogKit.git</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>GKerison</id>
+      <name>gaoxiangyang</name>
+      <email>gaoxiangyangprivate@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/GKerison/LogKit.git</connection>
+    <url>https://github.com/GKerison/LogKit.git</url>
+  </scm>
+</project>

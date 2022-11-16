@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.angcyo.DslTablayout</groupId>
+  <artifactId>TabLayout</artifactId>
+  <version>3.2.3</version>
+  <packaging>aar</packaging>
+  <name>angcyo/DslTabLayout</name>
+  <description>:hearts: Android界最万能的TabLayout(不仅仅是TabLayout), 支持任意类型的item, 支持Drawable类型的指示器,智能开启滚动,支持横竖向布局等</description>
+  <url>https://github.com/angcyo/DslAdapter</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>angcyo</id>
+      <name>angcyo</name>
+      <email>angcyo@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/angcyo/DslTabLayout.git</connection>
+    <developerConnection>scm:git://github.com/angcyo/DslTabLayout.git</developerConnection>
+    <url>git://github.com/angcyo/DslTabLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

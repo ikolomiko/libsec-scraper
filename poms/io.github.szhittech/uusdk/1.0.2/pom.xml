@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.szhittech</groupId>
+  <artifactId>uusdk</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>uusdk</name>
+  <description>A Gradle Plugin For Java、Android、Kotlin.</description>
+  <url>https://e.coding.net/clife-devops/clifepublic/gradle-maven.git</url>
+  <inceptionYear>2022-04-14 12:38:03.145</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>A Gradle Plugin For Java、Android、Kotlin.</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>uuxia</id>
+      <name>xiamoumou</name>
+      <email>xxx@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:szhittech/clifesdk.git</connection>
+    <developerConnection>scm:git@github.com:szhittech/clifesdk.git</developerConnection>
+    <url>https://e.coding.net/clife-devops/clifepublic/gradle-maven.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.szhittech</groupId>
+      <artifactId>okclient</artifactId>
+      <version>1.0.1</version>
+      <scope>api</scope>
+      <exclusions/>
+    </dependency>
+  </dependencies>
+</project>

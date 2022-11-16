@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.acra</groupId>
+  <artifactId>acra-advanced-scheduler</artifactId>
+  <version>5.2.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>ACRA</name>
+  <description>Publishes reports of Android application crashes to an end point.</description>
+  <url>http://acra.ch</url>
+  <scm>
+    <connection>scm:git:https://github.com/F43nd1r/acra.git</connection>
+    <developerConnection>scm:git:git@github.com:F43nd1r/acra.git</developerConnection>
+    <url>https://github.com/F43nd1r/acra.git</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevin.gaudin</id>
+      <name>Kevin Gaudin</name>
+    </developer>
+    <developer>
+      <id>william.ferguson</id>
+      <name>William Ferguson</name>
+    </developer>
+    <developer>
+      <id>f43nd1r</id>
+      <name>Lukas Morawietz</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.evernote</groupId>
+      <artifactId>android-job</artifactId>
+      <version>1.2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.acra</groupId>
+      <artifactId>acra-core</artifactId>
+      <version>5.2.0-rc1</version>
+    </dependency>
+  </dependencies>
+</project>

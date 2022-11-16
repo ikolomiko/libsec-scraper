@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.funnydevs</groupId>
+  <artifactId>hilt-conductor</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>hilt-conductor</name>
+  <description>-</description>
+  <url>https://github.com/FunnyDevs/hilt-conductor</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>https://github.com/FunnyDevs/hilt-conductor/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>FunnyDevs</id>
+      <name>Pierfrancesco Gulinelli</name>
+      <email>pgulinelli@fastmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/FunnyDevs/hilt-conductor</connection>
+    <developerConnection>scm:git:ssh://github.com/FunnyDevs/hilt-conductor</developerConnection>
+    <url>https://github.com/FunnyDevs/hilt-conductor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>hilt-android</artifactId>
+      <version>2.35</version>
+    </dependency>
+    <dependency>
+      <groupId>Hilt-Conductor</groupId>
+      <artifactId>annotations</artifactId>
+      <version>unspecified</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ChuckerTeam.Chucker</groupId>
+  <artifactId>library-no-op</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <name>null:library-no-op</name>
+  <description>Android in-app HTTP inspector</description>
+  <url>https://github.com/olivierperez/chucker</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/ChuckerTeam/chucker.git</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olivierperez</id>
+      <name>Olivier Perez</name>
+      <email>olivier@olivierperez.fr</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/olivierperez/chucker.git</connection>
+    <developerConnection>https://github.com/olivierperez/chucker.git</developerConnection>
+    <url>https://github.com/olivierperez/chucker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

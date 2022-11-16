@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twistedequations.crossbow</groupId>
+  <artifactId>crossbow-gson</artifactId>
+  <version>0.8.9</version>
+  <packaging>aar</packaging>
+  <name>crossbow</name>
+  <description>Http and image loading library that wraps Google's volley library and provides new features</description>
+  <url>https://github.com/TwistedEquations/CrossBow</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>twistedequations</id>
+      <name>Patrick Doyle</name>
+      <email>patrick@twistedequations.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TwistedEquations/CrossBow.git</connection>
+    <developerConnection>https://github.com/TwistedEquations/CrossBow.git</developerConnection>
+    <url>https://github.com/TwistedEquations/CrossBow</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

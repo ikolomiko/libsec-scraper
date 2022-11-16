@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.guardanis</groupId>
+  <artifactId>daily-alarm-service</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>daily-alarm-service</name>
+  <description>A Daily Alarm Service system</description>
+  <url>https://github.com/mattsilber/android-daily-alarm-service</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mattsilber</id>
+      <name>Matt Silber</name>
+      <email>matt@guardanis.com</email>
+      <organization>Guardanis</organization>
+      <organizationUrl>https://guardanis.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:mattsilber/android-daily-alarm-service.git</connection>
+    <developerConnection>scm:git:ssh://github.com:mattsilber/android-daily-alarm-service.git</developerConnection>
+    <url>https://github.com/mattsilber/android-daily-alarm-service.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.6.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mauj.smsbilling</groupId>
+  <artifactId>maujsmslib</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>maujsmslib</name>
+  <description>A Mauj libaray for SMS billing</description>
+  <url>http://www.mobango.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maujmobilepvt</id>
+      <name>Mauj Mobile Pvt</name>
+      <email>mobango.mauj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://svn.support.mobango.com/svn/mobango/smsSdk/</connection>
+    <developerConnection>https://svn.support.mobango.com/svn/mobango/smsSdk/</developerConnection>
+    <url>http://www.mobango.com/</url>
+  </scm>
+</project>

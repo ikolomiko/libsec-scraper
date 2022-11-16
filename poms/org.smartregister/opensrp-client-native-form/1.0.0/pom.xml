@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.smartregister</groupId>
+  <artifactId>opensrp-client-native-form</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>OpenSRP Client Native Form Json</name>
+  <description>OpenSRP Client Native Form Json Wizard</description>
+  <url>https://github.com/OpenSRP/opensrp-client-native-form</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>opensrp</id>
+      <name>OpenSRP Onadev</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:OpenSRP/opensrp-client-native-form.git</connection>
+    <developerConnection>scm:git@github.com:OpenSRP/opensrp-client-native-form.git</developerConnection>
+    <url>https://github.com/OpenSRP/opensrp-client-native-form</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bmelnychuk</groupId>
+      <artifactId>atv</artifactId>
+      <version>1.2.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.johnkil.print</groupId>
+      <artifactId>print</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.rey5137</groupId>
+      <artifactId>material</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.rengwuxian.materialedittext</groupId>
+      <artifactId>library</artifactId>
+      <version>2.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.riadhnet</groupId>
+      <artifactId>MaterialSpinner</artifactId>
+      <version>1.2</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.baloomba</groupId>
+  <artifactId>ui_lib</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>ui_lib</name>
+  <description>UI library to simplify mobile integration</description>
+  <url>https://github.com/baloomba/android_ui_lib</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>baloo</id>
+      <name>Clement BOULY</name>
+      <email>bouly.clement@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:baloomba/android_ui_lib.git</connection>
+    <developerConnection>scm:git@github.com:baloomba/android_ui_lib.git</developerConnection>
+    <url>scm:git@github.com:baloomba/android_ui_lib.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>fr.baloomba</groupId>
+      <artifactId>wsvolley</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

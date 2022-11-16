@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sha.kamel</groupId>
+  <artifactId>rx-current-location</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>RxCurrentLocation</name>
+  <description>RxJava wrapper for Android current location.</description>
+  <url>https://github.com/ShabanKamell/RxCurrentLocation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shaban</id>
+      <name>shaban kamel</name>
+      <email>sh3ban.kamel@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ShabanKamell/RxCurrentLocation.git</connection>
+    <developerConnection>https://github.com/ShabanKamell/RxCurrentLocation.git</developerConnection>
+    <url>https://github.com/ShabanKamell/RxCurrentLocation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>15.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.annimon</groupId>
+      <artifactId>stream</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tbruyelle</groupId>
+      <artifactId>rxpermissions</artifactId>
+      <version>0.10.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sha.kamel</groupId>
+      <artifactId>rx-location-settings-request</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

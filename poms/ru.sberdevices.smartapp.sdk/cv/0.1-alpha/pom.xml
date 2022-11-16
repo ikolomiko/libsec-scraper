@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.sberdevices.smartapp.sdk</groupId>
+  <artifactId>cv</artifactId>
+  <version>0.1-alpha</version>
+  <packaging>aar</packaging>
+  <name>cv</name>
+  <description>cv helps recognize user’s gestures and pose using device’s camera</description>
+  <url>https://github.com/sberdevices/native_smartapp_sdk</url>
+  <licenses>
+    <license>
+      <name>Sber Public License at-nc-sa v.2</name>
+      <url>https://github.com/sberdevices/native_smartapp_sdk/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Irina Karpenko</name>
+      <email>IViKarpenko@sberbank.ru</email>
+    </developer>
+    <developer>
+      <name>Dmitry Levshunov</name>
+      <email>Levshunov.D.A@sberbank.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/sberdevices/native_smartapp_sdk.git</connection>
+    <developerConnection>scm:git:git://github.com/sberdevices/native_smartapp_sdk.git</developerConnection>
+    <url>https://github.com/sberdevices/native_smartapp_sdk</url>
+  </scm>
+</project>

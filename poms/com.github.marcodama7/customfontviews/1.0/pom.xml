@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.marcodama7</groupId>
+  <artifactId>customfontviews</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Custom Font View</name>
+  <description>Android library for create views thath manage font family</description>
+  <url>https://github.com/marcodama7/customfontviews</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marcodama7</id>
+      <name>Marco Damiano</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:marcodama7/customfontviews.git</connection>
+    <developerConnection>scm:git@github.com:marcodama7/customfontviews.git</developerConnection>
+    <url>https://github.com/marcodama7/customfontviews</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

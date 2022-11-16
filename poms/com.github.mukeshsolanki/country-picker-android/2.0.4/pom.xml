@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mukeshsolanki</groupId>
+  <artifactId>country-picker-android</artifactId>
+  <version>2.0.4</version>
+  <packaging>aar</packaging>
+  <name>mukeshsolanki/country-picker-android</name>
+  <description>A simple library that displays a beautiful list of all the countries allowing the user to pick the country he wishes and provide details like country code, iso code name,currency and flag.</description>
+  <url>https://github.com/mukeshsolanki/country-picker-android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mukeshsolanki</id>
+      <name>Mukesh Solanki</name>
+      <email>mukesh@madapps.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/mukeshsolanki/country-picker-android.git</connection>
+    <developerConnection>scm:git://github.com/mukeshsolanki/country-picker-android.git</developerConnection>
+    <url>git://github.com/mukeshsolanki/country-picker-android.git</url>
+  </scm>
+</project>

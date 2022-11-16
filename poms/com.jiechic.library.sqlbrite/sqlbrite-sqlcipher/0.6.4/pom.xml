@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jiechic.library.sqlbrite</groupId>
+  <artifactId>sqlbrite-sqlcipher</artifactId>
+  <version>0.6.4</version>
+  <packaging>aar</packaging>
+  <name>sqlbrite-sqlcipher</name>
+  <description>A lightweight wrapper around SQLiteOpenHelper for SQLCipher which introduces reactive stream semantics to SQL operations.</description>
+  <url>https://github.com/jiechic/sqlbrite-sqlcipher/</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/jiechic/sqlbrite-sqlcipher/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/jiechic/sqlbrite-sqlcipher/</url>
+    <connection>scm:git@github.com:jiechic/sqlbrite-sqlcipher.git</connection>
+    <developerConnection>scm:git@github.com:jiechic/sqlbrite-sqlcipher.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jiechic</id>
+      <name>jiechic</name>
+      <email>jiechic@gmail.com</email>
+      <url>http://www.jiechic.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

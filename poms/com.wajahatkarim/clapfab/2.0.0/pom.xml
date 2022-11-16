@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wajahatkarim</groupId>
+  <artifactId>clapfab</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>clapfab</name>
+  <description>A Custom Floating Action Button (FAB) library like clapping effect on Medium</description>
+  <url>https://github.com/wajahatkarim3/MediumClap-Android/</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/wajahatkarim3/MediumClap-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wajahatkarim</id>
+      <name>Wajahat Karim</name>
+      <url>https://github.com/wajahatkarim3/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/wajahatkarim3/MediumClap-Android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/wajahatkarim3/MediumClap-Android.git</developerConnection>
+    <url>https://github.com/wajahatkarim3/MediumClap-Android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.florent37</groupId>
+      <artifactId>ViewAnimator</artifactId>
+      <version>1.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

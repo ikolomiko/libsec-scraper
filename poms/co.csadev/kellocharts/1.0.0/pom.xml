@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.csadev</groupId>
+  <artifactId>kellocharts</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>KelloCharts</name>
+  <description>Kotlin Charts/graphs library for Android compatible with API 21+, several chart types with support for scaling, scrolling and animations</description>
+  <url>https://github.com/gtcompscientist/KelloCharts</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gtcompscientist</id>
+      <name>Charles Anderson</name>
+      <email>csadevapps@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gtcompscientist/KelloCharts.git</connection>
+    <developerConnection>https://github.com/gtcompscientist/KelloCharts.git</developerConnection>
+    <url>https://github.com/gtcompscientist/KelloCharts</url>
+  </scm>
+</project>

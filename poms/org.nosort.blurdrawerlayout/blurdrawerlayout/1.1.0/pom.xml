@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.nosort.blurdrawerlayout</groupId>
+  <artifactId>blurdrawerlayout</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>BlurDrawerLayout</name>
+  <description>DrawerLayout with blur functionality like iOS </description>
+  <url>https://github.com/BALUSANGEM/BlurDrawerLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>balusangem</id>
+      <name>Balakrishna Sangem</name>
+      <email>vishnubalu.sangem@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BALUSANGEM/BlurDrawerLayout.git</connection>
+    <developerConnection>https://github.com/BALUSANGEM/BlurDrawerLayout.git</developerConnection>
+    <url>https://github.com/BALUSANGEM/BlurDrawerLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.60</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

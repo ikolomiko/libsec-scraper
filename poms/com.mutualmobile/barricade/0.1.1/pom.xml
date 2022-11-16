@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mutualmobile</groupId>
+  <artifactId>barricade</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Barricade</name>
+  <description>A network interceptor for OkHttp and Retrofit to return mocked data</description>
+  <url>https://github.com/mutualmobile/Barricade</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tushar-acharya</id>
+      <name>Tushar Acharya</name>
+      <email>ntushar.acharya@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/mutualmobile/Barricade.git</connection>
+    <developerConnection>scm:git:git://github.com/mutualmobile/Barricade.git</developerConnection>
+    <url>https://github.com/mutualmobile/Barricade</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mutualmobile</groupId>
+      <artifactId>barricade-annotations</artifactId>
+      <version>0.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

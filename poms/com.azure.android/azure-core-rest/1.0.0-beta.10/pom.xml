@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.azure.android</groupId>
+  <artifactId>azure-core-rest</artifactId>
+  <version>1.0.0-beta.10</version>
+  <packaging>aar</packaging>
+  <name>Microsoft Azure Android Core Rest Library</name>
+  <description>This package contains core types to intract with a REST endpoint.</description>
+  <url>https://github.com/Azure/azure-sdk-for-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>microsoft</id>
+      <name>Microsoft</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Azure/azure-sdk-for-android.git</connection>
+    <developerConnection>scm:git:https://github.com/Azure/azure-sdk-for-android.git</developerConnection>
+    <url>https://github.com/Azure/azure-sdk-for-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.azure.android</groupId>
+      <artifactId>azure-core-http</artifactId>
+      <version>1.0.0-beta.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.azure.android</groupId>
+      <artifactId>azure-core-jackson</artifactId>
+      <version>1.0.0-beta.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.azure.android</groupId>
+      <artifactId>azure-core</artifactId>
+      <version>1.0.0-beta.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.azure.android</groupId>
+      <artifactId>azure-core-logging</artifactId>
+      <version>1.0.0-beta.10</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

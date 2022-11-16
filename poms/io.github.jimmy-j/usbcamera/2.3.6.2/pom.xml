@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+<groupId>io.github.jimmy-j</groupId>
+<artifactId>usbcamera</artifactId>
+<version>2.3.6.2</version>
+<packaging>aar</packaging>
+
+<name>usbcamera</name>
+<description>usb 摄像头预览库</description>
+<url>https://github.com/Jimmy-J/FaceRecognitionDemo</url>
+
+<licenses>
+    <license>
+        <name>The Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+</licenses>
+
+<developers>
+    <developer>
+        <id>szfacebook</id>
+        <name>jimmy</name>
+        <email>jiaomin288@gmail.com</email>
+    </developer>
+</developers>
+
+<scm>
+    <connection>https://github.com/umeng/MultiFunctionAndroidDemo.git</connection>
+    <developerConnection>https://github.com/umeng/MultiFunctionAndroidDemo.git</developerConnection>
+    <url>https://github.com/umeng/MultiFunctionAndroidDemo</url>
+</scm>
+
+
+<dependencies>
+        <!--Android deps -->
+         <!-- usb 相机基础依赖 -->
+        <dependency>
+            <groupId>io.github.jimmy-j</groupId>
+            <artifactId>usbcamera-common</artifactId>
+            <version>4.1.1</version>
+            <scope>implementation</scope>
+        </dependency>
+    </dependencies>
+</project>

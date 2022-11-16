@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crashlytics.sdk.android</groupId>
+  <artifactId>crashlytics</artifactId>
+  <version>2.10.0</version>
+  <packaging>aar</packaging>
+  <name>Android SDK Crashlytics</name>
+  <description></description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>Crashlytics Terms of Service</name>
+      <url>http://try.crashlytics.com/terms/terms-of-service.pdf</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.crashlytics.sdk.android</groupId>
+      <artifactId>beta</artifactId>
+      <version>1.2.10</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>crashlytics</artifactId>
+          <groupId>com.crashlytics.sdk.android</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.fabric.sdk.android</groupId>
+      <artifactId>fabric</artifactId>
+      <version>1.4.8</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.crashlytics.sdk.android</groupId>
+      <artifactId>crashlytics-core</artifactId>
+      <version>2.7.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.crashlytics.sdk.android</groupId>
+      <artifactId>answers</artifactId>
+      <version>1.4.7</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>crashlytics</artifactId>
+          <groupId>com.crashlytics.sdk.android</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

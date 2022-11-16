@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.sporklibrary</groupId>
+  <artifactId>spork-android</artifactId>
+  <version>2.4.4</version>
+  <packaging>aar</packaging>
+  <name>Spork Android</name>
+  <description>Android Annotation binding library</description>
+  <url>https://github.com/SporkLibrary/Spork-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kenvanhoeylandt</id>
+      <name>Ken Van Hoeylandt</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SporkLibrary/Spork-Android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/SporkLibrary/Spork-Android.git</developerConnection>
+    <url>https://github.com/SporkLibrary/Spork-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.sporklibrary</groupId>
+      <artifactId>spork</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.robotpajamas.blueteeth</groupId>
+  <artifactId>rxblueteeth</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>RxBlueteeth</name>
+  <description>An Android Bluetooth library</description>
+  <url>https://github.com/RobotPajamas/RxBlueteeth</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sureshjoshi</id>
+      <name>Suresh Joshi</name>
+      <email>suresh@robotpajamas.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RobotPajamas/RxBlueteeth.git</connection>
+    <developerConnection>https://github.com/RobotPajamas/RxBlueteeth.git</developerConnection>
+    <url>https://github.com/RobotPajamas/RxBlueteeth</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.robotpajamas.blueteeth</groupId>
+      <artifactId>blueteeth</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.2.41</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.14</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxkotlin</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

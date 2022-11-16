@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olmur.rvtools</groupId>
+  <artifactId>rvtools</artifactId>
+  <version>0.0.5</version>
+  <packaging>aar</packaging>
+  <name>RVTools</name>
+  <description>Tools for controlling recycler view on Android</description>
+  <url>https://github.com/olmur/rvtools</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olmur</id>
+      <name>Olexii Muraviov</name>
+      <email>olexii.muraviov@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/olmur/rvtools.git</connection>
+    <developerConnection>https://github.com/olmur/rvtools.git</developerConnection>
+    <url>https://github.com/olmur/rvtools</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

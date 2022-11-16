@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flavpopescu</groupId>
+  <artifactId>taglayout</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>taglayout</name>
+  <description>A custom Android view for displaying tags</description>
+  <url>https://github.com/flavp/AndroidTagLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flavp</id>
+      <name>Flavius Popescu</name>
+      <email>Flavius Popescu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/flavp/AndroidTagLayout.git</connection>
+    <developerConnection>https://github.com/flavp/AndroidTagLayout.git</developerConnection>
+    <url>https://github.com/flavp/AndroidTagLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

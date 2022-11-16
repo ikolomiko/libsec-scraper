@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ca.apim</groupId>
+  <artifactId>mas-storage</artifactId>
+  <version>2.2.0</version>
+  <packaging>aar</packaging>
+  <name>CA Mobile App Services</name>
+  <description>Android Mobile SDK Framework</description>
+  <url>'https://www.ca.com/us/developers/mas.html'</url>
+  <organization>
+    <name>CA API Management</name>
+    <url>https://github.com/CAAPIM</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/CAAPIM/Android-MAS-SDK/blob/develop/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apigatewayopensource</id>
+      <name>CA API Gateway Bot</name>
+      <email>API-Gateway-OpenSource@ca.com</email>
+      <organization>CA API Gateway</organization>
+      <organizationUrl>https://github.com/CAAPIM</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>'https://github.com/CAAPIM/Android-MAS-SDK.git'</connection>
+    <developerConnection>'https://github.com/CAAPIM/Android-MAS-SDK.git'</developerConnection>
+    <url>'https://www.ca.com/us/developers/mas.html'</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>'https://github.com/CAAPIM/Android-MAS-SDK/issues'</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.ca.apim</groupId>
+      <artifactId>mas-foundation</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

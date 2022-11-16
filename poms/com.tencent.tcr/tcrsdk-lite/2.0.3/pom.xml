@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.tcr</groupId>
+  <artifactId>tcrsdk-lite</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <name>tcrsdk-lite</name>
+  <description>cloud render</description>
+  <url>https://github.com/tencentyun/cloudgame-android-sdk</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/cloudgame-android-sdk/blob/master/License_tcrmicro.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent</id>
+      <name>tencent</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/cloudgame-android-sdk.git</connection>
+    <url>https://github.com/tencentyun/cloudgame-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.tcr</groupId>
+      <artifactId>base</artifactId>
+      <version>0.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tcr</groupId>
+      <artifactId>afc-utils</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

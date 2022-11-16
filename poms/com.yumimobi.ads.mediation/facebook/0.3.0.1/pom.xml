@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yumimobi.ads.mediation</groupId>
+  <artifactId>facebook</artifactId>
+  <version>0.3.0.1</version>
+  <packaging>aar</packaging>
+  <name>facebook</name>
+  <description>Yumi Mediation Facebook Adapter</description>
+  <url>https://developers.facebook.com/docs/android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Yumimobi</id>
+      <name>Yumimobi SDK Team</name>
+      <email>ad-client@zplay.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://developers.facebook.com/docs/android</connection>
+    <developerConnection>https://developers.facebook.com/docs/android</developerConnection>
+    <url>https://developers.facebook.com/docs/android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>audience-network-sdk</artifactId>
+      <version>4.23.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yumimobi.ads</groupId>
+      <artifactId>mediation</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.hiroz</groupId>
+  <artifactId>uninstallfeedback-lib</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>UninstalFeedback</name>
+  <description>When your app is uninstalled, you can start a intent or a web browser.</description>
+  <url>https://code.hiroz.cn/cnzx219/android-uninstall-feedback</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hiro</id>
+      <name>Hiro</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@code.hiroz.cn:cnzx219/android-uninstall-feedback.git</connection>
+    <developerConnection>scm:git@code.hiroz.cn:cnzx219/android-uninstall-feedback.git</developerConnection>
+    <url>https://code.hiroz.cn/cnzx219/android-uninstall-feedback.git</url>
+  </scm>
+</project>

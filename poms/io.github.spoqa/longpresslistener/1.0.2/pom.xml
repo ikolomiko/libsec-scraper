@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.spoqa</groupId>
+  <artifactId>longpresslistener</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>longpresslistener</name>
+  <description>Android long press(click) listener with custom duration</description>
+  <url>https://github.com/spoqa/LongPressListener</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wisemuji</id>
+      <name>Suhyeon Kim</name>
+      <email>dev@spoqa.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/spoqa/LongPressListener</connection>
+    <developerConnection>scm:git:git://github.com/spoqa/LongPressListener.git</developerConnection>
+    <url>scm:git:ssh://git@github.com/spoqa/LongPressListener.git</url>
+  </scm>
+</project>

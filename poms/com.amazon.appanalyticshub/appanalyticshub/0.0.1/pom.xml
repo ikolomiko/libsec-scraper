@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazon.appanalyticshub</groupId>
+  <artifactId>appanalyticshub</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AppAnalyticsHub</name>
+  <description>A library that does allows you to instrument your code with operational and behavioral metrics/analytics in your Android application.</description>
+  <url>https://github.com/amzn/app-analytics-hub</url>
+  <licenses>
+    <license>
+      <name>The MIT-0 Software License</name>
+      <url>https://github.com/amzn/app-analytics-hub/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>naveenthontepu</id>
+      <name>Naveen Thontepu</name>
+      <organization>org.apache.maven.model.Organization@4974343f</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:amzn/app-analytics-hub.git</connection>
+    <developerConnection>scm:git@github.com:amzn/app-analytics-hub.git</developerConnection>
+    <url>https://github.com/amzn/app-analytics-hub</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

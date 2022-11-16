@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.minyushov</groupId>
+  <artifactId>picasso-pollexor</artifactId>
+  <version>3.0.0-6</version>
+  <packaging>aar</packaging>
+  <name>picasso-pollexor</name>
+  <description>A powerful image downloading and caching library for Android</description>
+  <url>https://github.com/minyushov/picasso</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>minyushov</id>
+      <name>Semyon Minyushov</name>
+      <email>minyushov@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/minyushov/picasso.git</connection>
+    <developerConnection>https://github.com/minyushov/picasso.git</developerConnection>
+    <url>https://github.com/minyushov/picasso/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.minyushov</groupId>
+      <artifactId>picasso</artifactId>
+      <version>3.0.0-6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>pollexor</artifactId>
+      <version>2.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

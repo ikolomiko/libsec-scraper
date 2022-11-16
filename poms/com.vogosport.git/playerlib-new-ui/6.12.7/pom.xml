@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vogosport.git</groupId>
+  <artifactId>playerlib-new-ui</artifactId>
+  <version>6.12.7</version>
+  <packaging>aar</packaging>
+  <name>PlayerLibFifa library</name>
+  <description>EShort description of your library</description>
+  <url>https://git@git.vogosport.com/playerlib</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licences/mit-licence.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>VOGO</id>
+      <name>Vogo</name>
+      <email>d.kane@vogo.fr</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://git@git.vogosport.com/vogo-live-android.git</connection>
+    <developerConnection>scm:git:ssh://git@git.vogosport.com/vogo-live-android.git</developerConnection>
+    <url>https://git@git.vogosport.com/vogo-liveandroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.multidex</groupId>
+      <artifactId>multidex</artifactId>
+      <version>2.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>19.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.gridlayout</groupId>
+      <artifactId>gridlayout</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

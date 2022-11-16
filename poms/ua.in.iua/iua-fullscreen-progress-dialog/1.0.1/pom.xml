@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ua.in.iua</groupId>
+  <artifactId>iua-fullscreen-progress-dialog</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>IUA-Fullscreen-Progress-Dialog</name>
+  <description>Simple UI blocking progress dialog</description>
+  <url>https://github.com/ihorsuniversalapps/iua-debug-tools</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/ihorsuniversalapps/iua-fullscreen-progress-dialog/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>phoenixria</id>
+      <name>Ihor Rusin</name>
+      <email>ihor.rusin@iua.in.ua</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ihorsuniversalapps/iua-debug-tools.git</connection>
+    <developerConnection>https://github.com/ihorsuniversalapps/iua-debug-tools.git</developerConnection>
+    <url>https://github.com/ihorsuniversalapps/iua-debug-tools</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

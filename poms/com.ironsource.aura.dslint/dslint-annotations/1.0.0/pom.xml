@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ironsource.aura.dslint</groupId>
+  <artifactId>dslint-annotations</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>dslint-annotations</name>
+  <description>Androidn linter for Kotlin DSL</description>
+  <url>https://github.com/hananrh/dslint</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hananrh</id>
+      <name>Hanan Rofe Haim</name>
+      <email>hanan.rofe-haim@ironsrc.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hananrh/dslint.git</connection>
+    <developerConnection>https://github.com/hananrh/dslint.git</developerConnection>
+    <url>https://github.com/hananrh/dslint</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

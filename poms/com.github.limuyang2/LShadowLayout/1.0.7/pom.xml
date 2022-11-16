@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.limuyang2</groupId>
+  <artifactId>LShadowLayout</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>limuyang2/LShadowLayout</name>
+  <description>🌒(Support AndroidX)一个阴影控件，可调整阴影颜色深浅、扩散面积、圆角 (A shadow control that adjusts the shade of the shadow, the diffuse area, and the fillet)</description>
+  <url>https://github.com/limuyang2/LShadowLayout</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>limuyang2</id>
+      <name>mumu</name>
+      <email>limuyang2@live.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/limuyang2/LShadowLayout.git</connection>
+    <developerConnection>scm:git://github.com/limuyang2/LShadowLayout.git</developerConnection>
+    <url>git://github.com/limuyang2/LShadowLayout.git</url>
+  </scm>
+</project>

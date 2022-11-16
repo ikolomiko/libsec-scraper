@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.silverforge.controls</groupId>
+  <artifactId>busyindicator</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>The BusyIndicator is a progress indicator with determined and indeterminate state for Android apps</name>
+  <url>https://github.com/silverforge/BusyIndicator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>silverforge</id>
+      <name>Janos Murvai-Gaal</name>
+      <email>janos.murvaigaal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/silverforge/BusyIndicator.git</connection>
+    <developerConnection>https://github.com/silverforge/BusyIndicator.git</developerConnection>
+    <url>https://github.com/silverforge/BusyIndicator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>javax.annotation</artifactId>
+      <version>10.0-b28</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.org.cesar.knot</groupId>
+  <artifactId>knot-android</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>Knot Android</name>
+  <description>This lib is a part of KNOT solution. It aims to provide an abstraction for Android applications to create IoT (Internet of Things) solutions using KNOT cloud.</description>
+  <url>https://github.com/CESARBR/knot-lib-android-source</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cesarbr</id>
+      <name>CESAR KNoT</name>
+      <email>knot-devel@cesar.org.br</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CESARBR/knot-lib-android-source.git</connection>
+    <developerConnection>https://github.com/CESARBR/knot-lib-android-source.git</developerConnection>
+    <url>https://github.com/CESARBR/knot-lib-android-source</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.nkzawa</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>0.4.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

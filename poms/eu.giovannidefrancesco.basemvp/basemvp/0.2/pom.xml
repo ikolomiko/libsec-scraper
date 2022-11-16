@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.giovannidefrancesco.basemvp</groupId>
+  <artifactId>basemvp</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>Base-MVP</name>
+  <description>A tiny, fully extensible MVP implementation for Android in pure Java, which goal is to provide common interfaces for tests that need to easily mock Views and Presenters.</description>
+  <developers>
+    <developer>
+      <id>jibbo</id>
+      <name>Giovanni De Francesco</name>
+      <email>posta.giovanni.defrancesco@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

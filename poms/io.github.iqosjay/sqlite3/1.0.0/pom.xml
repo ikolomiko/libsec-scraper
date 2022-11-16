@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.iqosjay</groupId>
+  <artifactId>sqlite3</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>sqlite3</name>
+  <description>The library of sqlite3 for android with simple API.</description>
+  <url>https://github.com/iqosjay/SQLite3</url>
+  <licenses>
+    <license>
+      <name>GPL-2.0</name>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BrokenDragon</id>
+      <name>Roy</name>
+      <email>iqosjay@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/iqosjay/SQLite3.git</connection>
+    <developerConnection>scm:git:ssh://github.com/iqosjay/SQLite3.git</developerConnection>
+    <url>https://github.com/iqosjay/SQLite3/tree/main</url>
+  </scm>
+  <dependencies/>
+</project>

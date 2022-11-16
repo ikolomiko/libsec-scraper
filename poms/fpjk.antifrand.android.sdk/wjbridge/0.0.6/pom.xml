@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fpjk.antifrand.android.sdk</groupId>
+  <artifactId>wjbridge</artifactId>
+  <version>0.0.6</version>
+  <packaging>aar</packaging>
+  <name>Fpjk-Development</name>
+  <description>A powerful tools for android</description>
+  <url>https://github.com/</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pangxiaohe</id>
+      <name>pangxiaohe</name>
+      <email>binhe0407@gmail.com</email>
+      <url>https://github.com/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/</connection>
+    <developerConnection>https://github.com/</developerConnection>
+    <url>https://github.com/</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tbruyelle.rxpermissions2</groupId>
+      <artifactId>rxpermissions</artifactId>
+      <version>0.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.rxrelay2</groupId>
+      <artifactId>rxrelay</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

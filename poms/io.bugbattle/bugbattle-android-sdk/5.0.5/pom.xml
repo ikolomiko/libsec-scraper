@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.bugbattle</groupId>
+  <artifactId>bugbattle-android-sdk</artifactId>
+  <version>5.0.5</version>
+  <packaging>aar</packaging>
+  <name>bugbattle-android-sdk</name>
+  <description>With BugBattle weâve put the lame task of bug fixing upside down and turned it into a gaming experience for you and the whole development team. As if by magic the quality of your apps and websites improves â and your customers will be delighted.</description>
+  <url>https://github.com/BugBattle/Android-SDK</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/BugBattle/Android-SDK/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mondbaer</id>
+      <name>Niklas Fessler</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:BugBattle/Android-SDK.git</connection>
+    <developerConnection>scm:git@github.com:BugBattle/Android-SDK.git</developerConnection>
+    <url>https://github.com/BugBattle/Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-fragment</artifactId>
+      <version>2.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-ui</artifactId>
+      <version>2.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

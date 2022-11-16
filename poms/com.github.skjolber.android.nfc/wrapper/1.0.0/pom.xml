@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.skjolber.android.nfc</groupId>
+  <artifactId>wrapper</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <description>Wrapped NFC classes for working with external NFC readers on Android</description>
+  <name>wrapper</name>
+  <url>https://github.com/skjolber/android-nfc-wrapper</url>
+  <organization>
+    <name>Thomas Rorvik Skjolberg</name>
+    <url>https://github.com/skjolber</url>
+  </organization>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/skjolber/android-nfc-wrapper/issues</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/skjolber/android-nfc-wrapper</url>
+    <connection>scm:git@github.com:skjolber/android-nfc-wrapper.git</connection>
+    <developerConnection>scm:git@github.com:skjolber/android-nfc-wrapper.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>skjolber</id>
+      <name>Thomas Skjolberg</name>
+    </developer>
+  </developers>
+</project>

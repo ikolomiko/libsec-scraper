@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.anteros.social</groupId>
+  <artifactId>anteros-social-android-twitter</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>anteros-social-android-twitter</name>
+  <description>Anteros Social Android Twitter - Framework para login no Twitter.</description>
+  <url>http://www.anteros.com.br</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>edson</id>
+      <name>Edson Martins</name>
+      <email>edsonmartins2005@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/anterostecnologia/anterossocialandroid.git</connection>
+    <developerConnection>https://github.com/anterostecnologia/anterossocialandroid.git</developerConnection>
+    <url>http://www.anteros.com.br</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>br.com.anteros.social</groupId>
+      <artifactId>anteros-social-android-core</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.twitter.sdk.android</groupId>
+      <artifactId>twitter</artifactId>
+      <version>1.3.2</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

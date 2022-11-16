@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snap.camerakit</groupId>
+  <artifactId>support-camera-common</artifactId>
+  <version>1.15.1</version>
+  <packaging>aar</packaging>
+  <name>CameraKit (Support Camera Common)</name>
+  <description>Provides helpers to unify functionality among CameraKit ImageProcessor sources.</description>
+  <url>https://snapkit.com/camera-kit</url>
+  <licenses>
+    <license>
+      <name>Snap License</name>
+      <url>https://github.com/Snapchat/camera-kit-reference/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snap</id>
+      <name>Snap, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Snapchat/camera-kit-reference.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Snapchat/camera-kit-reference.git</developerConnection>
+    <url>https://github.com/Snapchat/camera-kit-reference</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.snap.camerakit</groupId>
+      <artifactId>camerakit-api</artifactId>
+      <version>1.15.1</version>
+    </dependency>
+  </dependencies>
+</project>

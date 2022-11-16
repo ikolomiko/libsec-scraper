@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.joaquimley</groupId>
+  <artifactId>kaction</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>An action is a way to say "hey, later I'll need you to subscribe to this thing." It's actually a lot more involved than that.</name>
+  <description>An action is a way to say "hey, later I'll need you to subscribe to this thing." It's actually a lot more involved than that.</description>
+  <url>http://joaquimley.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>joaquimley</id>
+      <name>Joaquim Ley</name>
+      <email>joaquimley@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JoaquimLey/Kaction.git</connection>
+    <developerConnection>https://github.com/JoaquimLey/Kaction.git</developerConnection>
+    <url>http://joaquimley.com/</url>
+  </scm>
+</project>

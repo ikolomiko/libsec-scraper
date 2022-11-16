@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.liuping123.json_examiner</groupId>
+  <artifactId>json_examiner</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>json-examiner</name>
+  <description>A check bean Java and JSON are corresponding to the library</description>
+  <url>https://github.com/liuping123/JsonExaminer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ping</id>
+      <name>liu ping</name>
+      <email>liuping861740965@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/liuping123/JsonExaminer.git</connection>
+    <developerConnection>https://github.com/liuping123/JsonExaminer.git</developerConnection>
+    <url>https://github.com/liuping123/JsonExaminer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

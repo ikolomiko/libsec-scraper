@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.sentry</groupId>
+  <artifactId>sentry-android-ndk</artifactId>
+  <version>2.0.0-alpha05</version>
+  <packaging>aar</packaging>
+  <name>sentry-android-ndk</name>
+  <description>SDK for sentry.io</description>
+  <url>https://sentry.io</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>getsentry</id>
+      <name>Sentry Team and Contributors</name>
+      <email>accounts@sentry.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/getsentry/sentry-android</connection>
+    <developerConnection>https://github.com/getsentry/sentry-android</developerConnection>
+    <url>https://github.com/getsentry/sentry-android</url>
+  </scm>
+</project>

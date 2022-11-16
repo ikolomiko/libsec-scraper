@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.woxingxiao</groupId>
+  <artifactId>BounceScrollView</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>woxingxiao/BounceScrollView</name>
+  <description>:fire::fire: An Android costomized ScrollView which likes UIScrollView over-scrolling effect in iOS.</description>
+  <url>https://github.com/woxingxiao/BounceScrollView</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>woxingxiao</id>
+      <name>Xiao</name>
+      <email>Chauvet910@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/woxingxiao/BounceScrollView.git</connection>
+    <developerConnection>scm:git://github.com/woxingxiao/BounceScrollView.git</developerConnection>
+    <url>git://github.com/woxingxiao/BounceScrollView.git</url>
+  </scm>
+</project>

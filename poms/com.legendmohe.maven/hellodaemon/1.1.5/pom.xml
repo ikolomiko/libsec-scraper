@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.legendmohe.maven</groupId>
+  <artifactId>hellodaemon</artifactId>
+  <version>1.1.5</version>
+  <packaging>aar</packaging>
+  <name>hellodaemon</name>
+  <description>Android service daemon using JobScheduler.</description>
+  <url>https://github.com/legendmohe/HelloDaemon</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>legendmohe</id>
+      <name>Xinyu he</name>
+      <email>legendmohe@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/legendmohe/HelloDaemon.git</connection>
+    <developerConnection>https://github.com/legendmohe/HelloDaemon.git</developerConnection>
+    <url>https://github.com/legendmohe/HelloDaemon</url>
+  </scm>
+</project>

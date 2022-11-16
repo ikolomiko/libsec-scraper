@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yinxiang</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>2.0.0-RC4</version>
+  <packaging>aar</packaging>
+  <name>Android-Yinxiang SDK</name>
+  <description>Android library to access the Yinxiang API.</description>
+  <url>https://github.com/yinxiang-dev/evernote-sdk-android</url>
+  <inceptionYear>2018</inceptionYear>
+  <organization>
+    <name>Yinxiang Biji</name>
+    <url>http://yinxiang.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Yinxiang SDK License Agreement</name>
+      <url>https://github.com/yinxiang-dev/evernote-sdk-android/blob/master/README.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fyue</id>
+      <name>Feng Yue</name>
+      <email>fyue@yinxiang.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/yinxiang-dev/evernote-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com:yinxiang-dev/evernote-sdk-android.git</developerConnection>
+    <url>http://github.com/yinxiang-dev/evernote-sdk-android/</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/yinxiang-dev/evernote-sdk-android/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.evernote</groupId>
+      <artifactId>evernote-api</artifactId>
+      <version>1.25.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scribe</groupId>
+      <artifactId>scribe</artifactId>
+      <version>1.3.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.vrallev.android</groupId>
+      <artifactId>android-task</artifactId>
+      <version>1.0.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

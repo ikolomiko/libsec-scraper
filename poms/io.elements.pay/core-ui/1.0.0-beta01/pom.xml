@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.elements.pay</groupId>
+  <artifactId>core-ui</artifactId>
+  <version>1.0.0-beta01</version>
+  <packaging>aar</packaging>
+  <name>Element checkout base UI component</name>
+  <description>Element checkout base UI component client for Element's Checkout API.</description>
+  <url>https://github.com/elementspay/Elements-Android-Demo</url>
+  <organization>
+    <name>Elements.io</name>
+    <url>https://elements.io/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Elements Pay</name>
+      <organization>Elements.io</organization>
+      <organizationUrl>https://elements.io/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/elementspay/Elements-Android-Demo.git</connection>
+    <developerConnection>scm:git:git://github.com/elementspay/Elements-Android-Demo.git</developerConnection>
+    <url>https://github.com/elementspay/Elements-Android-Demo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.elements.pay</groupId>
+      <artifactId>core-components</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.elements.pay</groupId>
+      <artifactId>core-module</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

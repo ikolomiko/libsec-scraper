@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.penkzhou.demo</groupId>
+  <artifactId>compiler</artifactId>
+  <version>0.0.7</version>
+  <packaging>aar</packaging>
+  <name>compiler</name>
+  <description>A demo about how to write Annotation process.</description>
+  <url>https://github.com/penkzhou/AnnotationTutorial</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>penkzhou</id>
+      <name>Peng Zhou</name>
+      <email>penkzhou@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/penkzhou/AnnotationTutorial.git</connection>
+    <developerConnection>https://github.com/penkzhou/AnnotationTutorial.git</developerConnection>
+    <url>https://github.com/penkzhou/AnnotationTutorial</url>
+  </scm>
+</project>

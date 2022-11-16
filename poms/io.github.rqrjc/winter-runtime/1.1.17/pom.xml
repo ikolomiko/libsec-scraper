@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.rqrjc</groupId>
+  <artifactId>winter-runtime</artifactId>
+  <version>1.1.17</version>
+  <packaging>aar</packaging>
+  <name>Winter Runtime</name>
+  <description>A simple network request framework</description>
+  <url>https://github.com/rqrjc/Winter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rqrjc</id>
+      <name>rqrjc</name>
+      <email>1019514235@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/rqrjc/Winter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/rqrjc/Winter.git</developerConnection>
+    <url>https://github.com/rqrjc/Winter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>5.0.0-alpha.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.13.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.13.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.13.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

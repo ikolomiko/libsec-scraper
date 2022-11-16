@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.angcyo</groupId>
+  <artifactId>rsen</artifactId>
+  <version>0.0.5</version>
+  <packaging>aar</packaging>
+  <description>angcyo jcenter maven project</description>
+  <name>rsen</name>
+  <url>https://github.com/angcyo/RJcenter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>angcyo</id>
+      <name>angcyo</name>
+      <email>angcyo@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/angcyo/RJcenter.git</url>
+    <connection>scm:git@github.com:angcyo/RJcenter.git</connection>
+    <developerConnection>scm:git@github.com:angcyo/RJcenter.git</developerConnection>
+  </scm>
+</project>

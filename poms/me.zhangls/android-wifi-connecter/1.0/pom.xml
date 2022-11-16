@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.zhangls</groupId>
+  <artifactId>android-wifi-connecter</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>android-wifi-connecter</name>
+  <url>https://github.com/ihrthk/android-wifi-connecter</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ihrthk</id>
+      <name>zhangls</name>
+      <email>ihrthk@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ihrthk/android-wifi-connecter</connection>
+    <developerConnection>https://github.com/ihrthk/android-wifi-connecter</developerConnection>
+    <url>https://github.com/ihrthk/android-wifi-connecter</url>
+  </scm>
+</project>

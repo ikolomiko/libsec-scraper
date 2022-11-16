@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.iot.explorer</groupId>
+  <artifactId>explorer-link-rtc</artifactId>
+  <version>1.5.3</version>
+  <packaging>aar</packaging>
+  <name>explorer link trtc</name>
+  <description>Tencent Link Android library</description>
+  <url>https://github.com/tencentyun/iot-link-android/tree/master/explorer-link-android</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/iot-link-android/blob/master/explorer-link-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_archurtan</id>
+      <name>Tencent archurtan</name>
+      <email>archurtan@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/iot-link-android.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/iot-link-android.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/iot-link-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>1.1.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.liteav</groupId>
+      <artifactId>LiteAVSDK_TRTC</artifactId>
+      <version>8.1.9717</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.71828</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.73</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+  </dependencies>
+</project>

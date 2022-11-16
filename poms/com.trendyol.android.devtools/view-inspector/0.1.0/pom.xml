@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.trendyol.android.devtools</groupId>
+  <artifactId>view-inspector</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>view-inspector</name>
+  <description>Android View Resource Id Inspector</description>
+  <url>https://github.com/Trendyol/android-dev-tools</url>
+  <licenses>
+    <license>
+      <name>Android DevTools License</name>
+      <url>https://github.com/Trendyol/android-dev-tools/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>erkutaras</id>
+      <name>Erkut Aras</name>
+      <email>erkut.aras@trendyol.com</email>
+    </developer>
+    <developer>
+      <id>muratcanbur</id>
+      <name>Murat Can Bur</name>
+      <email>muratcan.bur@trendyol.com</email>
+    </developer>
+    <developer>
+      <id>MertNYuksel</id>
+      <name>Mert Nevzat Yüksel</name>
+      <email>mert.yuksel@trendyol.com</email>
+    </developer>
+    <developer>
+      <id>bilgehankalkan</id>
+      <name>Bilgehan Kalkan</name>
+      <email>bilgehan.kalkan@trendyol.com</email>
+    </developer>
+    <developer>
+      <id>ibrahimsn98</id>
+      <name>İbrahim Süren</name>
+      <email>ibrahim.suren@trendyol.com</email>
+    </developer>
+    <developer>
+      <id>mucahidkambur</id>
+      <name>Mücahid Kambur</name>
+      <email>mucahid.kambur@trendyol.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Trendyol/android-dev-tools.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Trendyol/android-dev-tools.git</developerConnection>
+    <url>https://github.com/Trendyol/android-dev-tools/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.activity</groupId>
+      <artifactId>activity-ktx</artifactId>
+      <version>1.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment-ktx</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

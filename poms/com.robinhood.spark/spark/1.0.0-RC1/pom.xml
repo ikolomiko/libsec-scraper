@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.robinhood.spark</groupId>
+  <artifactId>spark</artifactId>
+  <version>1.0.0-RC1</version>
+  <packaging>aar</packaging>
+  <name>Spark</name>
+  <description>A simple Android sparkline chart view.</description>
+  <url>https://github.com/robinhoodmarkets/spark/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>danh32</id>
+      <name>Dan Hill</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:robinhoodmarkets/spark.git</connection>
+    <developerConnection>scm:git@github.com:robinhoodmarkets/spark.git</developerConnection>
+    <url>https://github.com/robinhoodmarkets/spark/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

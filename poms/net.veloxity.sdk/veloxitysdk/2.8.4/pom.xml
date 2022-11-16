@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.veloxity.sdk</groupId>
+  <artifactId>veloxitysdk</artifactId>
+  <version>2.8.4</version>
+  <packaging>aar</packaging>
+  <name>VeloxitySDK</name>
+  <description>Android SDK of Real Time Contextual Offer System for Veloxity Services.</description>
+  <url>https://bitbucket.org/veloxity/veloxity-android-sdk-android-studio/</url>
+  <licenses>
+    <license>
+      <name>Veloxity Properietary License</name>
+      <url>http://www.veloxity.net/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>veloxity</id>
+      <name>Veloxity Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://bitbucket.org/veloxity/veloxity-android-sdk-android-studio.git</connection>
+    <developerConnection>scm:git:ssh://git@bitbucket.org/veloxity/veloxity-android-sdk-android-studio.git</developerConnection>
+    <url>https://bitbucket.org/veloxity/veloxity-android-sdk-android-studio/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-awareness</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

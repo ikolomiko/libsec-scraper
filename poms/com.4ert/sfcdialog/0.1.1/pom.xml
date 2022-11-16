@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.4ert</groupId>
+  <artifactId>sfcdialog</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>SFC Dialog</name>
+  <description>Simple File chooser DialogFragment. Has 3 usable callbacks and device-default theming.</description>
+  <url>https://github.com/4eRTuk/sfcdialog</url>
+  <licenses>
+    <license>
+      <name>Boost Software License, Version 1.0</name>
+      <url>http://www.boost.org/LICENSE_1_0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>4ert</id>
+      <name>Stanislav Petriakov</name>
+      <email>becomeglory@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/4eRTuk/sfcdialog.git</connection>
+    <developerConnection>https://github.com/4eRTuk/sfcdialog.git</developerConnection>
+    <url>https://github.com/4eRTuk/sfcdialog</url>
+  </scm>
+</project>

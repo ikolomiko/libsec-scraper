@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kaxi4it</groupId>
+  <artifactId>okgoLzy</artifactId>
+  <version>3.0.4</version>
+  <packaging>aar</packaging>
+  <name>okgoLzy</name>
+  <description>just description</description>
+  <url>https://github.com/kaxi4it/EasyRecyclerViewAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaxi4it</id>
+      <name>kaxi4it</name>
+      <email>gyj_android@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/kaxi4it/EasyRecyclerViewAdapter.git</connection>
+    <developerConnection>scm:git:https://github.com/kaxi4it/EasyRecyclerViewAdapter.git</developerConnection>
+    <url>https://github.com/kaxi4it/EasyRecyclerViewAdapter.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

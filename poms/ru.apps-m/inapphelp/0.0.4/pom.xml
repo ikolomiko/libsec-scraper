@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.apps-m</groupId>
+  <artifactId>inapphelp</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>Inapphelp</name>
+  <description>Inapphelp ticket system android sdk.</description>
+  <url>https://github.com/apps-m/inapphelp-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mnill</id>
+      <name>Ilya Kirichek</name>
+      <email>mnillcoway@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/apps-m/inapphelp-android.git</connection>
+    <developerConnection>https://github.com/apps-m/inapphelp-android.git</developerConnection>
+    <url>https://github.com/apps-m/inapphelp-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.2.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

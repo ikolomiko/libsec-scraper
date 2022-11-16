@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dinpay.trip.videocompressorlib</groupId>
+  <artifactId>videocompressorlib</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>videocompressorlib</name>
+  <description>A Video Compresser use FFmpeg on Android</description>
+  <url>https://github.com/gzasgjq/TestDemo/tree/Sim</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gzasgjq</id>
+      <name>Nin Jacky</name>
+      <email>gzasgjq@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gzasgjq/TestDemo.git</connection>
+    <developerConnection>https://github.com/gzasgjq/TestDemo.git</developerConnection>
+    <url>https://github.com/gzasgjq/TestDemo/tree/Sim</url>
+  </scm>
+</project>

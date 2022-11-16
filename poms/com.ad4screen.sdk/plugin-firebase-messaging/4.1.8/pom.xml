@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ad4screen.sdk</groupId>
+  <artifactId>plugin-firebase-messaging</artifactId>
+  <version>4.1.8</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>20.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>17.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ad4screen.sdk</groupId>
+      <artifactId>A4SSDK</artifactId>
+      <version>4.1.8</version>
+    </dependency>
+  </dependencies>
+  <description>Accengage FCM plugin</description>
+  <name>plugin-firebase-messaging</name>
+</project>

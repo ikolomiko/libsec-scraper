@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lihangleo2</groupId>
+  <artifactId>ShadowLayout</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>lihangleo2/ShadowLayout</name>
+  <description>可定制化阴影的万能阴影布局ShadowLayout 2.0 震撼上线。效果赶超CardView。阴影支持x,y轴偏移，支持阴影扩散程度，支持阴影圆角，支持单边或多边不显示阴影；支持随意更改颜色值，支持随意更改颜色值，支持随意更改颜色值。重要的事情说三遍</description>
+  <url>https://github.com/lihangleo2/ShadowLayout</url>
+  <inceptionYear>2019</inceptionYear>
+  <developers>
+    <developer>
+      <id>lihangleo2</id>
+      <name>leo</name>
+      <email>lihangleo2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/lihangleo2/ShadowLayout.git</connection>
+    <developerConnection>scm:git://github.com/lihangleo2/ShadowLayout.git</developerConnection>
+    <url>git://github.com/lihangleo2/ShadowLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

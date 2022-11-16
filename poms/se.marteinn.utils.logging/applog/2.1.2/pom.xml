@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>se.marteinn.utils.logging</groupId>
+  <artifactId>applog</artifactId>
+  <version>2.1.2</version>
+  <packaging>aar</packaging>
+  <name>Android-AppLog</name>
+  <description>AppLog is a simple Android logger that gives you a detailed output and more log options.</description>
+  <url>https://github.com/marteinn/android-applog</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/marteinn/Android-AppLog/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marteinn</id>
+      <name>Martin SandstrÃ¶m</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:marteinn/android-applog.git</connection>
+    <developerConnection>scm:git:git@github.com:marteinn/android-applog.git</developerConnection>
+    <url>https://github.com/marteinn/android-applog</url>
+  </scm>
+</project>

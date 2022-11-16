@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitee.zzhhz</groupId>
+  <artifactId>HPickerView</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>HPickerView</name>
+  <description>?????Maven???gradle?????aar?jar??</description>
+  <url>https://gitee.com/zzhhz/HPickerView</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>zzhhz</name>
+      <email>zzh_hz@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://gitee.com/zzhhz/HPickerView.git</connection>
+    <developerConnection>scm:git:ssh://gitee.com:zzhhz/HPickerView.git</developerConnection>
+    <url>https://gitee.com/zzhhz/HPickerView/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>HPickerView</groupId>
+      <artifactId>wheelview</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

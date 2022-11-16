@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.nlopez.smartlocation</groupId>
+  <artifactId>library</artifactId>
+  <version>3.3.3</version>
+  <packaging>aar</packaging>
+  <name>Smart Location Library</name>
+  <description>This library handles all the boilerplate and repetitive code used when playing with Locations in Android projects.</description>
+  <url>https://github.com/mrmans0n/smart-location-lib</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mrmans0n</id>
+      <name>Nacho Lopez</name>
+      <email>nacho@nlopez.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mrmans0n/smart-location-lib.git</connection>
+    <developerConnection>scm:git@github.com:mrmans0n/smart-location-lib.git</developerConnection>
+    <url>scm:git@github.com:mrmans0n/smart-location-lib.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mobile.foundation</groupId>
+  <artifactId>ibmmobilefirstplatformfoundationpush</artifactId>
+  <version>8.0.2016052616</version>
+  <packaging>aar</packaging>
+  <name>IBM MobileFirst Platform Foundation Push SDK</name> 
+  <description>IBM MobileFirst Platform Foundation Push SDK provides Push APIs for the mobile applications. Check url to get started.
+      BuildNumber is : 20160526-1611-rls
+  </description>
+  <url>https://mobilefirstplatform.ibmcloud.com</url>
+  <licenses>
+    <license>
+      <name>IBM-MobileFirst Platform Foundation 8.0 beta license agreement</name>
+      <url>https://developer.ibm.com/mobilefirstplatform/beta/license/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>IBM MobileFirst Platform Foundation</name>
+      <email>mobilsdk@us.ibm.com</email>
+      <organizationUrl>http://www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.ibm.mobile.foundation</groupId>
+      <artifactId>ibmmobilefirstplatformfoundation</artifactId>
+      <version>8.0.2016052616</version>
+    </dependency>
+  </dependencies>
+  <scm>
+    <connection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</connection>
+    <developerConnection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</developerConnection>
+    <url>https://hub.jazz.net/git/imflocalsdk/imf-android-sdk</url>
+  </scm>
+</project>

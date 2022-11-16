@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>software.amazon.freertos</groupId>
+  <artifactId>amazonfreertossdk</artifactId>
+  <version>0.9.6</version>
+  <packaging>aar</packaging>
+  <name>amazonfreertossdk</name>
+  <description>Android SDK for Amazon FreeRTOS.</description>
+  <url>'https://github.com/aws/amazon-freertos-ble-android-sdk'</url>
+  <licenses>
+    <license>
+      <name>'The Apache Software License, Version 2.0'</name>
+      <url>'http://www.apache.org/licenses/LICENSE-2.0.txt'=</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>'amazon freertos'</id>
+      <name>'Amazon FreeRTOS'</name>
+      <email>'bxpan@amazon.com'</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>'https://github.com/aws/amazon-freertos-ble-android-sdk.git'</connection>
+    <developerConnection>'https://github.com/aws/amazon-freertos-ble-android-sdk.git'</developerConnection>
+    <url>'https://github.com/aws/amazon-freertos-ble-android-sdk.git'</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>co.nstant.in</groupId>
+      <artifactId>cbor</artifactId>
+      <version>0.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-iot</artifactId>
+      <version>2.13.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

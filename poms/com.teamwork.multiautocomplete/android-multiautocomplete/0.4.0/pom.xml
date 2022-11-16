@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.teamwork.multiautocomplete</groupId>
+  <artifactId>android-multiautocomplete</artifactId>
+  <version>0.4.0</version>
+  <packaging>aar</packaging>
+  <name>android-multiautocomplete</name>
+  <description>Abstraction over the Android MultiAutoCompleteTextView standard component, to simplify showing a drop down menu with suggestions for auto complete.</description>
+  <url>https://github.com/Teamwork/android-multiautocomplete</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>teamwork.android</id>
+      <name>Android Team at Teamwork</name>
+      <url>https://github.com/Teamwork/android-multiautocomplete</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Teamwork/android-multiautocomplete.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Teamwork/android-multiautocomplete.git</developerConnection>
+    <url>https://github.com/Teamwork/android-multiautocomplete</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.klepto</groupId>
+  <artifactId>easynetworkviews</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>EasyNetworkViews</name>
+  <description>This view is a container that supports Network Loading Layout Managment</description>
+  <url>https://github.com/judeosbert/EasyNetworkViews</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>judeosbert</id>
+      <name>Jude Osbert</name>
+      <email>judeosby@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/judeosbert/EasyNetworkViews.git</connection>
+    <developerConnection>https://github.com/judeosbert/EasyNetworkViews.git</developerConnection>
+    <url>https://github.com/judeosbert/EasyNetworkViews</url>
+  </scm>
+</project>

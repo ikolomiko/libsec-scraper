@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scandit.datacapture</groupId>
+  <artifactId>text-base</artifactId>
+  <version>6.14.0</version>
+  <packaging>aar</packaging>
+  <name>com.scandit.datacapture.text-base</name>
+  <description>ScanditTextCaptureBase is a base library required in order to use addition text capture capabilities from the Scandit Data Capture SDK.</description>
+  <url>https://www.scandit.com</url>
+  <licenses>
+    <license>
+      <name>Scandit Commercial License</name>
+      <url>https://ssl.scandit.com/terms/test.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scandit</id>
+      <name>Scandit AG</name>
+      <email>support@scandit.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://www.scandit.com</connection>
+    <developerConnection>https://www.scandit.com</developerConnection>
+    <url>https://www.scandit.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

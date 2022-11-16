@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.leaf.ximage</groupId>
+  <artifactId>ximage</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>multi-format 1D/2D barcode image processing use zxing.</name>
+  <url>https://github.com/Mrleaf/XImage</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mrleaf</id>
+      <name>mrleaf</name>
+      <email>leaf_90@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Mrleaf/XImage.git</connection>
+    <developerConnection>https://github.com/Mrleaf/XImage.git</developerConnection>
+    <url>https://github.com/Mrleaf/XImage</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

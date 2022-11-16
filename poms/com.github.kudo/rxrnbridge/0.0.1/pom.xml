@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kudo</groupId>
+  <artifactId>rxrnbridge</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>RxRNBridge</name>
+  <description>RxJava Observable bridge for React-Native.</description>
+  <url>https://github.com/Kudo/RxRNBridge/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kudo</id>
+      <name>Kudo Chien</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Kudo/RxRNBRdige.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Kudo/RxRNBRdige.git</developerConnection>
+    <url>https://github.com/Kudo/RxRNBridge/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.kudo</groupId>
+      <artifactId>rxrnbridge-annotations</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

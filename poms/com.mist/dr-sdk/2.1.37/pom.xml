@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.mist</groupId>
+<artifactId>dr-sdk</artifactId>
+<version>2.1.37</version>
+<packaging>aar</packaging>
+<name>dr-sdk</name>
+<description>Mist DR SDK to help Mist core SDK</description>
+<url>https://github.com/mistsys/mist-vble-android-sdk</url>
+<inceptionYear>2014</inceptionYear>
+<licenses>
+<license>
+<name>The Apache Software License, Version 2.0</name>
+<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+<distribution>repo</distribution>
+</license>
+</licenses>
+<dependencies> </dependencies>
+<developers>
+<developer>
+<id>mistsys</id>
+<name>Dinkar Kumar</name>
+<url>https://github.com/mistsys</url>
+</developer>
+</developers>
+<scm>
+<connection>scm:git@github.com:mistsys/mist-vble-android-sdk.git</connection>
+<developerConnection>scm:git@github.com:mistsys/mist-vble-android-sdk.git</developerConnection>
+<url>https://github.com/mistsys/mist-vble-android-sdk</url>
+</scm>
+</project>

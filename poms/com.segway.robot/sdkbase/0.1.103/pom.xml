@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.segway.robot</groupId>
+  <artifactId>sdkbase</artifactId>
+  <version>0.1.103</version>
+  <packaging>aar</packaging>
+  <name>sdkbase</name>
+  <description>base classes for segway robot development</description>
+  <url>none</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>apr_loomo</name>
+      <email>apr-loomo-mail@ninebot.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>none</connection>
+    <developerConnection>none</developerConnection>
+    <url>none</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.bugsnag</groupId>
+      <artifactId>bugsnag-android</artifactId>
+      <version>4.14.2</version>
+    </dependency>
+  </dependencies>
+</project>

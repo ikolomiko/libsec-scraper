@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.appiclogics</groupId>
+  <artifactId>android-pdf-viewer</artifactId>
+  <version>3.2.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidPdfViewer</name>
+  <description>Android view for displaying PDFs rendered with PdfiumAndroid</description>
+  <url>https://github.com/appiclogics/AndroidPdfViewer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appiclogics</id>
+      <name>AppicLogics LLP</name>
+      <email>apps@appiclogics.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/appiclogics/AndroidPdfViewer.git</connection>
+    <developerConnection>https://github.com/appiclogics/AndroidPdfViewer.git</developerConnection>
+    <url>https://github.com/appiclogics/AndroidPdfViewer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.barteksc</groupId>
+      <artifactId>pdfium-android</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

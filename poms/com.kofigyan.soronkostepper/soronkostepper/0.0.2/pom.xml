@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kofigyan.soronkostepper</groupId>
+  <artifactId>soronkostepper</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>SoronkoStepper</name>
+  <description>Android stepper library to indicate state of progress</description>
+  <url>https://github.com/nuuneoi/FBLikeAndroid</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kofigyan2011</id>
+      <name>Kofi Gyan</name>
+      <email>kofigyan2011@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

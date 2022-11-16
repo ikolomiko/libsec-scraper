@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.luca992.com.alialbaali.kamel</groupId>
+  <artifactId>kamel-image-android</artifactId>
+  <version>0.5-darwin0</version>
+  <packaging>aar</packaging>
+  <name>Kamel</name>
+  <description>Kotlin Asynchronous Media Loading Library that supports Compose</description>
+  <url>https://github.com/alialbaali/Kamel</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alialbaali</id>
+      <name>Ali Albaali</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/alialbaali/Kamel.git</connection>
+    <developerConnection>scm:git:ssh://github.com/alialbaali/Kamel.git</developerConnection>
+    <url>https://github.com/alialbaali/Kamel/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.luca992.com.alialbaali.kamel</groupId>
+      <artifactId>kamel-core-jvm</artifactId>
+      <version>0.5-darwin0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-annotations-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-graphics</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kotlin-test-annotations-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

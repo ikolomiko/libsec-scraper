@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yodo1.common</groupId>
+  <artifactId>collection</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>collection</name>
+  <description>this is a library about Yodo1Mas</description>
+  <url>'https://github.com/Yodo1Games/android-sdk.git'</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yodo1</id>
+      <name>yodo1</name>
+      <email>dev@yodo1.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>'https://github.com/Yodo1Games/android-sdk.git'</connection>
+    <developerConnection>'https://github.com/Yodo1Games/android-sdk.git'</developerConnection>
+    <url>'https://github.com/Yodo1Games/android-sdk'</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yodo1.common</groupId>
+      <artifactId>sensor</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yodo1.common</groupId>
+      <artifactId>online-config</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yodo1.common</groupId>
+      <artifactId>noHttp</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yodo1.common</groupId>
+      <artifactId>kit</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

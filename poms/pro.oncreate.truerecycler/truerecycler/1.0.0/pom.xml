@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pro.oncreate.truerecycler</groupId>
+  <artifactId>truerecycler</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>TrueRecyclerAdapter</name>
+  <description>Multifunctional and user-friendly adapter for RecyclerView. Make you code simple and easy.</description>
+  <url>https://github.com/jaksab/TrueRecyclerAdapter</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/jaksab/TrueRecyclerAdapter#license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jaksab</id>
+      <name>Andrii Konovalenko</name>
+      <email>jaksab2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jaksab/TrueRecyclerAdapter.git</connection>
+    <developerConnection>https://github.com/jaksab/TrueRecyclerAdapter.git</developerConnection>
+    <url>https://github.com/jaksab/TrueRecyclerAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

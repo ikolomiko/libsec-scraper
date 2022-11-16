@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vcc.vivalivestream</groupId>
+  <artifactId>mysohalivestreamsdk</artifactId>
+  <version>1.2.2.8</version>
+  <packaging>aar</packaging>
+  <name>mysohalivestreamsdk</name>
+  <description>A library which help you stream to rtmp server.</description>
+  <url>http://adminplayer.sohatv.vn</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mysohaplatform</id>
+      <name>Vccorp</name>
+      <email>sdkmobile-mysohaplatform@vccorp.vn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://adminplayer.sohatv.vn</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.vcc.securitysdk</groupId>
+      <artifactId>securitySDK</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vcc.shloggingsdk</groupId>
+      <artifactId>loggingsdk</artifactId>
+      <version>1.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

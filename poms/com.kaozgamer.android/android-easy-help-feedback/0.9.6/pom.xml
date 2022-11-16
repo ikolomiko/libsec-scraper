@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kaozgamer.android</groupId>
+  <artifactId>android-easy-help-feedback</artifactId>
+  <version>0.9.6</version>
+  <packaging>aar</packaging>
+  <name>android-easy-help-feedback</name>
+  <description>Provides an easy way of adding an activity to that app that handles all the help, about and/or feedback information you want to include.</description>
+  <url>https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaozgamer</id>
+      <name>Thushan Perera</name>
+      <email>thushan.perera95@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity.git</connection>
+    <developerConnection>https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity.git</developerConnection>
+    <url>https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

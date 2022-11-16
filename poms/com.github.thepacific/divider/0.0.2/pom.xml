@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.thepacific</groupId>
+  <artifactId>divider</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>DividerLibrary</name>
+  <description>A quick adapter library on android</description>
+  <url>https://github.com/thepacific/divider</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ThePacific</id>
+      <name>The Pacific</name>
+      <email>io.2016@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>cm:git:https://github.com/thepacific/divider.git</connection>
+    <developerConnection>cm:git:https://github.com/thepacific/divider.git</developerConnection>
+    <url>https://github.com/thepacific/divider</url>
+  </scm>
+</project>

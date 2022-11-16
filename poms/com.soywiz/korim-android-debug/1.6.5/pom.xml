@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.soywiz</groupId>
+  <artifactId>korim-android-debug</artifactId>
+  <version>1.6.5</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.soywiz</groupId>
+      <artifactId>korio-android</artifactId>
+      <version>1.6.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soywiz</groupId>
+      <artifactId>korma-android</artifactId>
+      <version>1.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soywiz</groupId>
+      <artifactId>korio-metadata</artifactId>
+      <version>1.6.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soywiz</groupId>
+      <artifactId>korma-metadata</artifactId>
+      <version>1.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soywiz</groupId>
+      <artifactId>korim-metadata</artifactId>
+      <version>1.6.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.3.21</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>korim</name>
+  <description>Portable Imaging Library for Kotlin</description>
+  <url>https://github.com/korlibs/kortemplate</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/korlibs/korim/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/korlibs/kortemplate</url>
+  </scm>
+</project>

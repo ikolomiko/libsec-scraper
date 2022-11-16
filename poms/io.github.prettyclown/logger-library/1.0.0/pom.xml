@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.prettyclown</groupId>
+  <artifactId>logger-library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>logger-library</name>
+  <description>Logger manager library</description>
+  <url>https://github.com/PrettyClown/ArchitectureFramework</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>arvin-xun</id>
+      <name>arvin-xun</name>
+      <email>2411012180@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/PrettyClown/ArchitectureFramework.git</connection>
+    <developerConnection>scm:https://github.com/PrettyClown/ArchitectureFramework.git</developerConnection>
+    <url>https://github.com/PrettyClown/ArchitectureFramework</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <version>1.8.0</version>
+      <artifactId>core-ktx</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.4.2</version>
+      <artifactId>appcompat</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <version>1.6.1</version>
+      <artifactId>material</artifactId>
+    </dependency>
+  </dependencies>
+</project>

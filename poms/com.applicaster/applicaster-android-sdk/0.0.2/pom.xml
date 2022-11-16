@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.applicaster</groupId>
+  <artifactId>applicaster-android-sdk</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>applicaster-android-sdk</name>
+  <description>Applicaster SDK Code</description>
+  <url>https://github.com/applicaster/applicaster-android-sdk</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/applicaster/applicaster-android-sdk/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/applicaster/applicaster-android-sdk.git</url>
+    <connection>scm:https://github.com/applicaster/applicaster-android-sdk.git</connection>
+    <developerConnection>scm:https://github.com/applicaster/applicaster-android-sdk.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ap</id>
+      <name>Applicaster</name>
+      <email>technical@applicaster.com</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apstem.customviews</groupId>
+  <artifactId>circularimageprogressview</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>circularimageprogressview</name>
+  <description>A Custom View to show progress in a circle with an image in the center</description>
+  <url>www.apstem.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>APSTEM</id>
+      <name>APSTEM</name>
+      <email>api@apstem.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>www.apstem.com</connection>
+    <developerConnection>www.apstem.com</developerConnection>
+    <url>www.apstem.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

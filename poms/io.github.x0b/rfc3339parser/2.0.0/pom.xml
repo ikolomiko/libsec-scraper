@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.x0b</groupId>
+  <artifactId>rfc3339parser</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>rfc3339parser</name>
+  <description>An RFC 3339 compliant String to Java DateTime Parser</description>
+  <url>https://github.com/x0b/rfc3339parser</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>x0b</id>
+      <name>x0b</name>
+      <email>x0b@users.noreply.github.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/x0b/rfc3339parser.git</connection>
+    <developerConnection>https://github.com/x0b/rfc3339parser.git</developerConnection>
+    <url>https://github.com/x0b/rfc3339parser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

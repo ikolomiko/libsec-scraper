@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cesarvaliente.random_string_generator</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.5-a</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>Library randon-strings publication</description>
+  <url>https://github.com/CesarValiente/random-string-generator-test</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cesar-valiente</id>
+      <name>Cesar Valiente</name>
+      <email>cesar.valiente@xxxxxxxxx.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/CesarValiente/random-string-generator-test.git</connection>
+    <developerConnection>scm:git:ssh://github.com/CesarValiente/random-string-generator-test.git</developerConnection>
+    <url>https://github.com/CesarValiente/random-string-generator-test/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

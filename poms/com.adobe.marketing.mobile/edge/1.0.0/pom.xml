@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adobe.marketing.mobile</groupId>
+  <artifactId>edge</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AdobeMobileEdgeSdk</name>
+  <description>Adobe Experience Platform Edge extension for the Adobe Experience Platform Mobile SDK</description>
+  <url>https://aep-sdks.gitbook.io/docs/</url>
+  <scm>
+    <url>https://github.com/Adobe-Marketing-Cloud/acp-sdks/</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>adobe</id>
+      <name>adobe</name>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>Adobe Proprietary</name>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.adobe.marketing.mobile</groupId>
+      <artifactId>core</artifactId>
+      <version>1.5.7</version>
+    </dependency>
+  </dependencies>
+</project>

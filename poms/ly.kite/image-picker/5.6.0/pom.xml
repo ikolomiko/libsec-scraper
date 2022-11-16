@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ly.kite</groupId>
+  <artifactId>image-picker</artifactId>
+  <version>5.6.0</version>
+  <packaging>aar</packaging>
+  <name>Image Picker</name>
+  <description>An Android image picker.</description>
+  <url>https://github.com/OceanLabs/Android-Print-SDK</url>
+  <licenses>
+    <license>
+      <name>Modified MIT License (MIT)</name>
+      <url>https://github.com/OceanLabs/Android-Print-SDK/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dbotha</id>
+      <name>Deon Botha</name>
+      <email>deon@kite.ly</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:OceanLabs/Android-Print-SDK.git</connection>
+    <developerConnection>scm:git@github.com:OceanLabs/Android-Print-SDK.git</developerConnection>
+    <url>https://github.com/OceanLabs/Android-Print-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

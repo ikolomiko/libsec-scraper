@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.unity3d.ads</groupId>
+  <artifactId>unity-ads</artifactId>
+  <version>4.3.0</version>
+  <packaging>aar</packaging>
+  <name>unity-ads</name>
+  <description>Monetize your entire player base and reach new audiences with video ads.</description>
+  <url>https://github.com/Unity-Technologies/unity-ads-android</url>
+  <licenses>
+    <license>
+      <name>Unity Ads License</name>
+      <url>https://unity3d.com/legal/monetization-services-terms-of-service</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Unity Ads</id>
+      <name>Unity Ads</name>
+      <email>ads-sdk@unity3d.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Unity-Technologies/unity-ads-android.git</connection>
+    <developerConnection>https://github.com/Unity-Technologies/unity-ads-android.git</developerConnection>
+    <url>https://github.com/Unity-Technologies/unity-ads-android</url>
+  </scm>
+</project>

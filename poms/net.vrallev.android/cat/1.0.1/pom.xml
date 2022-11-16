@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.vrallev.android</groupId>
+  <artifactId>cat</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Cat</name>
+  <description>A convenient logging library for Android.</description>
+  <url>https://github.com/vRallev/cat</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License version 2.0</name>
+      <url>https://github.com/vRallev/cat/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rwondratschek</id>
+      <name>Ralf Wondratschek</name>
+      <email>r.wondr@gmail.com</email>
+      <url>http://vrallev.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/vRallev/cat.git</connection>
+    <developerConnection>scm:git:git@github.com:vRallev/cat.git</developerConnection>
+    <url>https://github.com/vRallev/cat</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/vRallev/cat/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

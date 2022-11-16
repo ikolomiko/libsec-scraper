@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xdandroid</groupId>
+  <artifactId>simplerecyclerview</artifactId>
+  <version>1.5.11</version>
+  <packaging>aar</packaging>
+  <name>SimpleRecyclerView</name>
+  <description>Android RecyclerView Easy-To-Use : Pull-To-Refresh, Load More, Empty/Error View, Sticky Headers, Divider, Click Listener, Item Animation.</description>
+  <url>https://github.com/xingda920813/SimpleRecyclerView</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xingda920813</id>
+      <name>Da Xing</name>
+      <email>570396198@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xingda920813/SimpleRecyclerView.git</connection>
+    <developerConnection>https://github.com/xingda920813/SimpleRecyclerView.git</developerConnection>
+    <url>https://github.com/xingda920813/SimpleRecyclerView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.xdandroid</groupId>
+      <artifactId>materialprogressview</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

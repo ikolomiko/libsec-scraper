@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright 2013 serso aka se.solovyev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Contact details
+  ~
+  ~ Email: se.solovyev@gmail.com
+  ~ Site:  http://se.solovyev.org
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>org.solovyev.android</groupId>
+		<artifactId>android-common</artifactId>
+		<version>1.1.18</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.solovyev.android</groupId>
+	<artifactId>android-common-views</artifactId>
+	<name>Android Common Library View</name>
+	<version>1.1.18</version>
+
+	<packaging>aar</packaging>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.solovyev.android</groupId>
+			<artifactId>android-common-core</artifactId>
+			<type>aar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.solovyev.android</groupId>
+			<artifactId>android-common-preferences</artifactId>
+			<type>aar</type>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>annotations</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<extensions>
+			<extension>
+				<groupId>com.simpligility.maven.plugins</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+			</extension>
+		</extensions>
+
+	</build>
+
+
+</project>

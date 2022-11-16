@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vcc.core.streamingsdk</groupId>
+  <artifactId>streamingSDK</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>streamingSDK</name>
+  <description>This is streaming sdk to create live video</description>
+  <url>http://devup.sohatv.vn</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sonlm</id>
+      <name>Takashi Senko</name>
+      <email>lesonle.bkhn.1993@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://devup.sohatv.vn</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sohalive.http</groupId>
+      <artifactId>basesecuresdk</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jp.co.cyberagent.android.gpuimage</groupId>
+      <artifactId>gpuimage-library</artifactId>
+      <version>1.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

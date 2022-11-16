@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zjupure</groupId>
+  <artifactId>webpdecoder</artifactId>
+  <version>2.0.4.10.0</version>
+  <packaging>aar</packaging>
+  <name>Glide WebpDecoder Integration</name>
+  <description>An integration library to decode and show animated webp for Glide</description>
+  <url>https://github.com/zjupure/GlideWebpDecoder</url>
+  <licenses>
+    <license>
+      <name>Simplified BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zjupure</id>
+      <name>zjupure</name>
+      <email>zjupure@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:zjupure/GlideWebpDecoder.git</connection>
+    <developerConnection>scm:git@github.com:zjupure/GlideWebpDecoder.git</developerConnection>
+    <url>https://github.com/zjupure/GlideWebpDecoder</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.10.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

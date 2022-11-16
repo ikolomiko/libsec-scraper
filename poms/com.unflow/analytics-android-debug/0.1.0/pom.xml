@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.unflow</groupId>
+  <artifactId>analytics-android-debug</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>unflow-analytics</name>
+  <description>Unflow SDK</description>
+  <url>https://github.com/unflowhq/unflow-multiplatform-sdk</url>
+  <licenses>
+    <license>
+      <name>Unflow License</name>
+      <url>https://github.com/unflowhq/unflow-multiplatform-sdk/blob/main/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aibhin</id>
+      <name>David Newell</name>
+      <email>david@monaru.io</email>
+    </developer>
+    <developer>
+      <id>unflowhq</id>
+      <name>Team Unflow</name>
+      <email>team@unflow.com</email>
+    </developer>
+    <developer>
+      <id>spectrl</id>
+      <name>Kavi Dhokia</name>
+      <email>kavi@monaru.io</email>
+    </developer>
+    <developer>
+      <id>devinmcgloin</id>
+      <name>Devin McGloin</name>
+      <email>devin@monaru.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/unflowhq/unflow-multiplatform-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.5.30</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.30</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

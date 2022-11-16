@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.f0ris.sweetalert</groupId>
+  <artifactId>library</artifactId>
+  <version>1.6.1</version>
+  <packaging>aar</packaging>
+  <name>sweetalert</name>
+  <description>SweetAlert for Android, a beautiful and clever alert dialog.</description>
+  <url>https://github.com/F0RIS/sweet-alert-dialog</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>f0ris</id>
+      <name>F0RIS</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:F0RIS/sweet-alert-dialog.git</connection>
+    <developerConnection>scm:git@github.com:F0RIS/sweet-alert-dialog.git</developerConnection>
+    <url>https://github.com/F0RIS/sweet-alert-dialog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pnikosis</groupId>
+      <artifactId>materialish-progress</artifactId>
+      <version>1.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

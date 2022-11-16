@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.siddroid</groupId>
+  <artifactId>holi</artifactId>
+  <version>0.0.7</version>
+  <packaging>aar</packaging>
+  <name>Holi</name>
+  <description>A library of colors and gradient builders for Android built using Jetpack Compose</description>
+  <url>https://github.com/patilsiddhesh/Holi</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>https://github.com/patilsiddhesh/Holi/blob/main/LICENSE</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>patilsiddhesh</id>
+      <name>Siddhesh Patil</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/patilsiddhesh/Holi</connection>
+    <developerConnection>scm:git:ssh://git@github.com/patilsiddhesh/Holi</developerConnection>
+    <url>https://github.com/patilsiddhesh/Holi</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-beta09</version>
+    </dependency>
+  </dependencies>
+</project>

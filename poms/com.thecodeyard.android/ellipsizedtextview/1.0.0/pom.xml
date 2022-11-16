@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thecodeyard.android</groupId>
+  <artifactId>ellipsizedtextview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>EllipsizedTextView</name>
+  <description>A simple TextView with a simple task: support custom ellipsis.</description>
+  <url>https://github.com/TheCodeYard/EllipsizedTextView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gsavvid</id>
+      <name>George Savvidis</name>
+      <email>george.savvidis@thecodeyard.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TheCodeYard/EllipsizedTextView.git</connection>
+    <developerConnection>https://github.com/TheCodeYard/EllipsizedTextView.git</developerConnection>
+    <url>https://github.com/TheCodeYard/EllipsizedTextView</url>
+  </scm>
+</project>

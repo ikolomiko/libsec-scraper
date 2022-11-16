@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bugsnag</groupId>
+  <artifactId>bugsnag-android-ndk</artifactId>
+  <version>1.0.1</version>
+  <name>Bugsnag Android NDK</name>
+  <packaging>aar</packaging>
+  <url>https://bugsnag.com</url>
+  <description>Official Bugsnag library for Android NDK applications</description>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>loopj</id>
+      <name>James Smith</name>
+      <email>james@bugsnag.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.bugsnag</groupId>
+      <artifactId>bugsnag-android</artifactId>
+      <version>3.8.0</version>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>https://github.com/bugsnag/bugsnag-android-ndk</url>
+    <connection>scm:git@github.com:bugsnag/bugsnag-android-ndk.git</connection>
+    <developerConnection>scm:git@github.com:bugsnag/bugsnag-android-ndk.git</developerConnection>
+  </scm>
+</project>

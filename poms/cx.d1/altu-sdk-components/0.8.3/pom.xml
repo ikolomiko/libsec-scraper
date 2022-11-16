@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cx.d1</groupId>
+  <artifactId>altu-sdk-components</artifactId>
+  <version>0.8.3</version>
+  <packaging>aar</packaging>
+  <name>DirectOne Smarkio ALTU SDK</name>
+  <description>DirectOne Smarkio ALTU SDK</description>
+  <url>https://dev.azure.com/directoneapp/MobileSDKBinary/_git/d1.mobile.sdk.android.altu</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>d1.altu</id>
+      <name>DirectOne</name>
+      <email>ti.engenharia@d1.cx</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://directoneapp@dev.azure.com/directoneapp/MobileSDKBinary/_git/d1.mobile.sdk.android.altu</connection>
+    <developerConnection>scm:git:https://directoneapp@dev.azure.com/directoneapp/MobileSDKBinary/_git/d1.mobile.sdk.android.altu</developerConnection>
+    <url>https://directoneapp@dev.azure.com/directoneapp/MobileSDKBinary/_git/d1.mobile.sdk.android.altu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>cx.d1</groupId>
+      <artifactId>altu-sdk-core</artifactId>
+      <version>0.8.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.13.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>4.1.3</version>
+    </dependency>
+  </dependencies>
+</project>

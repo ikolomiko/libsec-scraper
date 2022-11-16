@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mcxtzhang</groupId>
+  <artifactId>SwipeDelMenuLayout</artifactId>
+  <version>V1.1.0</version>
+  <packaging>aar</packaging>
+  <name>mcxtzhang/SwipeDelMenuLayout</name>
+  <description>不跟任何ViewGroup耦合，一个Item根布局 搞定仿IOS侧滑Item删除菜单，史上最简单，~</description>
+  <url>http://blog.csdn.net/zxt0601/article/details/52303781</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>mcxtzhang</id>
+      <name>张旭童</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/mcxtzhang/SwipeDelMenuLayout.git</connection>
+    <developerConnection>scm:git://github.com/mcxtzhang/SwipeDelMenuLayout.git</developerConnection>
+    <url>git://github.com/mcxtzhang/SwipeDelMenuLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

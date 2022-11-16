@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.instamojo</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>3.5.0</version>
+  <packaging>aar</packaging>
+  <name>Instamojo Android SDK</name>
+  <description>Instamojo Payments Android SDK</description>
+  <url>https://github.com/Instamojo/instamojo-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>instamojo</id>
+      <name>Instamojo Technologies</name>
+      <email>support@instamojo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Instamojo/instamojo-android-sdk.git</connection>
+    <developerConnection>https://github.com/Instamojo/instamojo-android-sdk.git</developerConnection>
+    <url>https://github.com/Instamojo/instamojo-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.rengwuxian.materialedittext</groupId>
+      <artifactId>library</artifactId>
+      <version>2.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>in.juspay</groupId>
+      <artifactId>godel</artifactId>
+      <version>0.6.25.4.1423</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>pl.pragmatists</groupId>
+      <artifactId>JUnitParams</artifactId>
+      <version>1.1.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

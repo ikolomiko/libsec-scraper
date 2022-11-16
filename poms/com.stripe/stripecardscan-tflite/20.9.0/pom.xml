@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stripe</groupId>
+  <artifactId>stripecardscan-tflite</artifactId>
+  <version>20.9.0</version>
+  <packaging>aar</packaging>
+  <name>stripecardscan-tflite</name>
+  <description>Minimalized TensorFlow Lite implementation for stripecardscan</description>
+  <url>https://github.com/stripe/stripe-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://raw.githubusercontent.com/stripe/stripe-android/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stripe</id>
+      <name>Stripe</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:org-856813@github.com:stripe/stripe-android.git</connection>
+    <developerConnection>scm:org-856813@github.com:stripe/stripe-android.git</developerConnection>
+    <url>https://github.com/stripe/stripe-android</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.appformation</groupId>
+  <artifactId>smash</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Smash</name>
+  <description>Smash is Volley inspired networking library that's using OkHttp in its core</description>
+  <url>https://github.com/appformation/smash</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appformation</id>
+      <name>Appformation</name>
+      <email>lukasz@appformation.pl</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/appformation/smash.git</connection>
+    <developerConnection>https://github.com/appformation/smash.git</developerConnection>
+    <url>https://github.com/appformation/smash</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wingjay</groupId>
+  <artifactId>blurimageviewlib</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>BlurImageView, you can load your image like Medium.First show user a blurry image, At the same time, load the real image, once loaded, replace the blurry one automatically</name>
+  <url>https://github.com/wingjay/BlurImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wingjay</id>
+      <name>wingjay</name>
+      <email>yinjiesh@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wingjay/BlurImageView.git</connection>
+    <developerConnection>https://github.com/wingjay/BlurImageView.git</developerConnection>
+    <url>https://github.com/wingjay/BlurImageView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nostra13.universalimageloader</groupId>
+      <artifactId>universal-image-loader</artifactId>
+      <version>1.9.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

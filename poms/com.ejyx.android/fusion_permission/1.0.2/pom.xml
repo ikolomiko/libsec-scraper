@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ejyx.android</groupId>
+  <artifactId>fusion_permission</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>ejyx_fusion</name>
+  <description>The fusion sdk of ejyx</description>
+  <url>https://github.com/ejyx/sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ejyx</id>
+      <name>zhang en shuo</name>
+      <email>[zhangenshuo@29you.com]</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ejyx/sdk.git</connection>
+    <developerConnection>https://github.com/ejyx/sdk.git</developerConnection>
+    <url>https://github.com/ejyx/sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

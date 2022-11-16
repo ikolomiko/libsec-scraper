@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.webianks.library</groupId>
+  <artifactId>scroll-choice</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>scroll-choice</name>
+  <description>Scrollable view which can be used to give different choices to user with nice ui.</description>
+  <url>http://www.webianks.com/scrollchoice</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>webianks</id>
+      <name>Ramankit Singh</name>
+      <email>webianks@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/webianks/ScrollChoice.git</connection>
+    <developerConnection>https://github.com/webianks/ScrollChoice.git</developerConnection>
+    <url>http://www.webianks.com/scrollchoice</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

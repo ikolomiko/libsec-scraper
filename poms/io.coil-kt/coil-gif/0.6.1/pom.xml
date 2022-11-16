@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.coil-kt</groupId>
+  <artifactId>coil-gif</artifactId>
+  <version>0.6.1</version>
+  <packaging>aar</packaging>
+  <name>coil-gif</name>
+  <description>An image loading library for Android backed by Kotlin Coroutines.</description>
+  <url>https://github.com/coil-kt/coil</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>null</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>coil-kt</id>
+      <name>Coil Contributors</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/coil-kt/coil.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/coil-kt/coil.git</developerConnection>
+    <url>https://github.com/coil-kt/coil</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-base</artifactId>
+      <version>0.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

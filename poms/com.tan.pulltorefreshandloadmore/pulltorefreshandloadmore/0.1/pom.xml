@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tan.pulltorefreshandloadmore</groupId>
+  <artifactId>pulltorefreshandloadmore</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>PullToRefresHandLoadMore For Android</name>
+  <description>支持ListView Gridview ExpandableListView RecycelrView的上拉刷新和滚动底部自动加载,支持其它任何View的上拉刷新</description>
+  <url>https://github.com/tanranran/PullToRefreshAndLoadMore</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tanranran</id>
+      <name>tanranran</name>
+      <email>tanranran@vip.qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:tanranran/PullToRefreshAndLoadMore.git</connection>
+    <developerConnection>git@github.com:tanranran/PullToRefreshAndLoadMore.git</developerConnection>
+    <url>https://github.com/tanranran/PullToRefreshAndLoadMore</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yqritc</groupId>
+      <artifactId>recyclerview-flexibledivider</artifactId>
+      <version>1.2.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

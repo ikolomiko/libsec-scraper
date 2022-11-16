@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nisrulz</groupId>
+  <artifactId>screenshott</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>screenshott</name>
+  <description>Android library to take screenshot on a click of a button</description>
+  <url>https://github.com/nisrulz/screenshott</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nisrulz</id>
+      <name>Nishant Srivastava</name>
+      <email>nisrulz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nisrulz/screenshott.git</connection>
+    <developerConnection>https://github.com/nisrulz/screenshott.git</developerConnection>
+    <url>https://github.com/nisrulz/screenshott</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

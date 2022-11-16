@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cloud.mburger</groupId>
+  <artifactId>mpush_android_sdk_kt</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>mpush_android_sdk_kt</name>
+  <description>MPush kotlin library.</description>
+  <url>https://github.com/Mumble-SRL/MPush-Kotlin</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>MBurger License</name>
+      <url>https://github.com/Mumble-SRL/MPush-Kotlin#license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>e_ori</id>
+      <name>Enrico Ori</name>
+      <url>https://github.com/EnricoOri</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Mumble-SRL/MPush-Kotlin.git</connection>
+    <developerConnection>scm:git:github.com/Mumble-SRL/MPush-Kotlin.git</developerConnection>
+    <url>https://github.com/Mumble-SRL/MPush-Kotlin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>17.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.omegasoft7.FSLogger</groupId>
+      <artifactId>fslogger</artifactId>
+      <version>1.9.1</version>
+      <type>aar</type>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>cloud.mburger</groupId>
+      <artifactId>mb_android_sdk_kt</artifactId>
+      <version>0.8.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

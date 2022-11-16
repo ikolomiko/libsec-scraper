@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.xxl6097</groupId>
+  <artifactId>rnmodelsdk</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>rnmodelsdk</name>
+  <description>OM System bridge Api</description>
+  <url>https://github.com/xxl6097/rnmodeldk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>uuxia</id>
+      <name>xiaxiaoli</name>
+      <email>263996097@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:xxl6097/rnmodeldk.git</connection>
+    <developerConnection>git@github.com:xxl6097/rnmodeldk.git</developerConnection>
+    <url>https://github.com/xxl6097/rnmodeldk</url>
+  </scm>
+</project>

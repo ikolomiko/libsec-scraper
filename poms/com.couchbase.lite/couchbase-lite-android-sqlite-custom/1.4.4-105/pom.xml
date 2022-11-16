@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.couchbase.lite</groupId>
+  <artifactId>couchbase-lite-android-sqlite-custom</artifactId>
+  <version>1.4.4-105</version>
+  <packaging>aar</packaging>
+  <name>com.couchbase.lite:couchbase-lite-android-sqlite-custom</name>
+  <description>This is a shared native SQLite library used for Couchbase Lite Java.</description>
+  <url>http://developer.couchbase.com/mobile/</url>
+  <licenses>
+    <license>
+      <name>Couchbase, Inc. Community Edition License Agreement</name>
+      <url>https://www.couchbase.com/binaries/content/assets/website/legal/ce-license-agreement.pdf</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Couchbase Mobile</name>
+      <email>mobile@couchbase.com</email>
+      <organization>org.apache.maven.model.Organization@7fba492e</organization>
+      <organizationUrl>http://www.couchbase.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>http://developer.couchbase.com/mobile/</url>
+  </scm>
+</project>

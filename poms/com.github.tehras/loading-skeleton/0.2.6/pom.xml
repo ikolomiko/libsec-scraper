@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tehras</groupId>
+  <artifactId>loading-skeleton</artifactId>
+  <version>0.2.6</version>
+  <packaging>aar</packaging>
+  <name>LoadkingSkeleton</name>
+  <description>Facebook-like Android View  library</description>
+  <url>https://github.com/tehras/LoadingSkeleton</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tehras</id>
+      <name>Taras Koshkin</name>
+      <email>tkoshkin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tehras/LoadingSkeleton.git</connection>
+    <developerConnection>https://github.com/tehras/LoadingSkeleton.git</developerConnection>
+    <url>https://github.com/tehras/LoadingSkeleton</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.shimmer</groupId>
+      <artifactId>shimmer</artifactId>
+      <version>0.1.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

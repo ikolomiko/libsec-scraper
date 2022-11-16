@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.branch.sdk.android</groupId>
+  <artifactId>adobebranchextension</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Branch Adobe Android SDK</name>
+  <description>This SDK is a Branch integration with the Adobe Launch platform</description>
+  <url>https://github.com/BranchMetrics/android-branch-adobe-integration</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>branch</id>
+      <name>Branch Metrics</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:BranchMetrics/android-branch-adobe-integration.git</connection>
+    <developerConnection>scm:git@github.com:BranchMetrics/android-branch-adobe-integration.git</developerConnection>
+    <url>https://github.com/BranchMetrics/android-branch-adobe-integration</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.branch.sdk.android</groupId>
+      <artifactId>library</artifactId>
+      <version>3.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adobe.marketing.mobile</groupId>
+      <artifactId>userprofile</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.adobe.marketing.mobile</groupId>
+      <artifactId>sdk-core</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

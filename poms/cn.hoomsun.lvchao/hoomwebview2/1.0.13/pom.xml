@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.hoomsun.lvchao</groupId>
+  <artifactId>hoomwebview2</artifactId>
+  <version>1.0.13</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://gitlab.com/grr1314/HoomWebView</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight SQLite database framework</name>
+      <url>https://gitlab.com/grr1314/HoomWebView</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lc</id>
+      <name>lvchao</name>
+      <email>chao.lv@hoomsun.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@gitlab.com:grr1314/HoomWebView.git</connection>
+    <developerConnection>git@gitlab.com:grr1314/HoomWebView.git</developerConnection>
+    <url>https://gitlab.com/grr1314/HoomWebView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.antfortune.freeline</groupId>
+      <artifactId>runtime</artifactId>
+      <version>0.8.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

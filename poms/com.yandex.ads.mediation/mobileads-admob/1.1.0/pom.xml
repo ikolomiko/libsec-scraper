@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yandex.ads.mediation</groupId>
+  <artifactId>mobileads-admob</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <name>AdMob Adapter for Yandex Mobile Ads Mediation</name>
+  <url>https://tech.yandex.com/mobile-ads-sdk/</url>
+  <licenses>
+    <license>
+      <name>Terms of Use of Yandex Advertising Network</name>
+      <url>https://legal.yandex.com/partner_ch/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git://github.com:yandexmobile/yandex-ads-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com:yandexmobile/yandex-ads-sdk-android.git</developerConnection>
+    <url>https://github.com:yandexmobile/yandex-ads-sdk-android.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Yandex</name>
+      <url>https://tech.yandex.com/mobile-ads-sdk/</url>
+      <roles>
+        <role>Developer</role>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+</project>

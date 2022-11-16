@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.netpie</groupId>
+  <artifactId>netpiegear</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Microgear</name>
+  <description>microgear-android is a client library for Android Studio.The library is used to connect application code with the NETPIE Platform's service for developing IoT applications. For more details on the NETPIE Platform</description>
+  <url>https://github.com/netpieio/microgear-androidstudio</url>
+  <licenses>
+    <license>
+      <name>ISC</name>
+      <url>https://opensource.org/licenses/ISC</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chaiwith</id>
+      <name>Chaiwith Santaweesuk</name>
+      <email>a.chaiwith@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/netpieio/microgear-androidstudio.git</connection>
+    <developerConnection>https://github.com/netpieio/microgear-androidstudio.git</developerConnection>
+    <url>https://github.com/netpieio/microgear-androidstudio</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

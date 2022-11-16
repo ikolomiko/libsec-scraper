@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ltd.dolink</groupId>
+  <artifactId>adapter-treenode</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>adapter-treenode</name>
+  <description>a flexible treenode adapter for recyclerview</description>
+  <url>https://github.com/JackyAnn/datatype-adapter</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/JackyAnn/datatype-adapter/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JackyAnn</id>
+      <name>JackyAnn</name>
+      <email>LiuJianQi@live.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/JackyAnn/datatype-adapter.git</connection>
+    <developerConnection>https://github.com/JackyAnn/datatype-adapter/issues</developerConnection>
+    <url>https://github.com/JackyAnn/datatype-adapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>7.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ltd.dolink</groupId>
+      <artifactId>adapter-datatype</artifactId>
+      <version>0.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>RELEASE</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

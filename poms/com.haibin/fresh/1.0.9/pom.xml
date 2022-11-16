@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.haibin</groupId>
+  <artifactId>fresh</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>fresh</name>
+  <description>A very good SQLite for Android.</description>
+  <url>https://github.com/huanghaibin-dev/fresh</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>huanghaibin-dev</id>
+      <name>huanghaibin</name>
+      <email>huanghaibin_dev@163.com</email>
+      <url>https://github.com/MiracleTimes-Dev</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:huanghaibin-dev/fresh.git</connection>
+    <developerConnection>scm:git@github.com:huanghaibin-dev/fresh.git</developerConnection>
+    <url>https://github.com/huanghaibin-dev/fresh</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/huanghaibin-dev/fresh/issues</url>
+  </issueManagement>
+</project>

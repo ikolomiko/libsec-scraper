@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.iterable</groupId>
+  <artifactId>iterableapi-ui</artifactId>
+  <version>3.4.9</version>
+  <packaging>aar</packaging>
+  <name>iterableapi-ui</name>
+  <description>Iterable is a growth marketing platform that helps you to create better experiences forâand deeper relationships withâyour customers. Use it to send customized email, SMS, push notification, in-app message and web push notifications to your customers. This SDK helps you integrate your Android apps with Iterable. It supports Android API versions 15+.</description>
+  <url>https://github.com/Iterable/iterable-android-sdk.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Iterable</id>
+      <name>Iterable</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:Iterable/iterable-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:Iterable/iterable-android-sdk.git</developerConnection>
+    <url>https://github.com/Iterable/iterable-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.iterable</groupId>
+      <artifactId>iterableapi</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

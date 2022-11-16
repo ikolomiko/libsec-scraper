@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.folioreader</groupId>
+  <artifactId>webViewMarker</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>WebViewMarker</name>
+  <description>An epub reader for Android</description>
+  <url>https://github.com/FolioReader/FolioReader-Android</url>
+  <licenses>
+    <license>
+      <name>FreeBSD License</name>
+      <url>https://en.wikipedia.org/wiki/FreeBSD_Documentation_License#License</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mobisystech</id>
+      <name>Folio Reader</name>
+      <email>mahavir@codetoart.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/FolioReader/FolioReader-Android.git</connection>
+    <developerConnection>https://github.com/FolioReader/FolioReader-Android.git</developerConnection>
+    <url>https://github.com/FolioReader/FolioReader-Android</url>
+  </scm>
+</project>

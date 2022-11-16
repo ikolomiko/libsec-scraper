@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.bmartel</groupId>
+  <artifactId>youtubetv</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>youtubetv</name>
+  <description>YouTube embedded player library for Android TV</description>
+  <url>https://github.com/bertrandmartel/youtubetv</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/bertrandmartel/youtubetv/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bertrandmartel</id>
+      <name>Bertrand Martel</name>
+      <email>bmartel.fr@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bertrandmartel/youtubetv.git</connection>
+    <developerConnection>https://github.com/bertrandmartel/youtubetv.git</developerConnection>
+    <url>https://github.com/bertrandmartel/youtubetv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>leanback-v17</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

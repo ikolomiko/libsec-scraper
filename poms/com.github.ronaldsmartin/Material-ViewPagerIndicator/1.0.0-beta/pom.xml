@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ronaldsmartin</groupId>
+  <artifactId>Material-ViewPagerIndicator</artifactId>
+  <version>1.0.0-beta</version>
+  <packaging>aar</packaging>
+  <name>ronaldsmartin/Material-ViewPagerIndicator</name>
+  <description>Dot-based Android ViewPager indicator with Material Design animations.</description>
+  <url>https://github.com/ronaldsmartin/Material-ViewPagerIndicator</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ronaldsmartin</id>
+      <name>Ronald Martin</name>
+      <email>hello@itsronald.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/ronaldsmartin/Material-ViewPagerIndicator.git</connection>
+    <developerConnection>scm:git://github.com/ronaldsmartin/Material-ViewPagerIndicator.git</developerConnection>
+    <url>git://github.com/ronaldsmartin/Material-ViewPagerIndicator.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-ui</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-fragment</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.chncs23</groupId>
+  <artifactId>requiredfieldlabel</artifactId>
+  <version>0.4</version>
+  <packaging>aar</packaging>
+  <name>RequiredFieldLabel</name>
+  <description>Android library for show required label with star at end of text.</description>
+  <url>https://github.com/chncs23/RequiredFieldLabel</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chncs23</id>
+      <name>Choatravee Nhanaen</name>
+      <email>ch.n.17699@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/chncs23/RequiredFieldLabel.git</connection>
+    <developerConnection>https://github.com/chncs23/RequiredFieldLabel.git</developerConnection>
+    <url>https://github.com/chncs23/RequiredFieldLabel</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appspell</groupId>
+  <artifactId>ShaderView</artifactId>
+  <version>0.8.1</version>
+  <packaging>aar</packaging>
+  <name>ShaderView</name>
+  <description>This library is the easiest way to use OpenGL shaders as an Android View. You just simply need to add ShaderView in your layout and set up shaders.</description>
+  <url>https://github.com/appspell/ShaderView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/appspell/ShaderView/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/appspell/ShaderView.git</connection>
+    <developerConnection>scm:git:https://github.com/appspell/ShaderView.git</developerConnection>
+    <url>https://github.com/appspell/ShaderView</url>
+  </scm>
+</project>

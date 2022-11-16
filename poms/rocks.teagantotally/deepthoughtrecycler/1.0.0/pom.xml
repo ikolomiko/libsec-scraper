@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rocks.teagantotally</groupId>
+  <artifactId>deepthoughtrecycler</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Deepthought-Recycler</name>
+  <description>Data Binding Library for Android RecyclerView</description>
+  <url>https://github.com/Teagan42/Deepthought-Recycler</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>teagan42</id>
+      <name>Teagan Glenn</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Teagan42/Deepthought-Recycler.git</connection>
+    <developerConnection>scm:git@github.com:Teagan42/Deepthought-Recycler.git</developerConnection>
+    <url>https://github.com/Teagan42/Deepthought-Recycler.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>2.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

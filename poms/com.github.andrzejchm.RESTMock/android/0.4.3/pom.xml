@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.andrzejchm.RESTMock</groupId>
+  <artifactId>android</artifactId>
+  <version>0.4.3</version>
+  <packaging>aar</packaging>
+  <name>andrzejchm/RESTMock</name>
+  <description>HTTP Server for Android Instrumentation tests</description>
+  <url>https://medium.com/@andrzejchm/ittd-instrumentation-ttd-for-android-4894cbb82d37#.uir3loxu7</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andrzejchm</id>
+      <name>Andrzej Chmielewski</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/andrzejchm/RESTMock.git</connection>
+    <developerConnection>scm:git://github.com/andrzejchm/RESTMock.git</developerConnection>
+    <url>git://github.com/andrzejchm/RESTMock.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.andrzejchm.RESTMock</groupId>
+      <artifactId>core</artifactId>
+      <version>0.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>rules</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olekdia.material-dialog</groupId>
+  <artifactId>core</artifactId>
+  <version>3.6.4</version>
+  <packaging>aar</packaging>
+  <name>MaterialDialog</name>
+  <description>Material dialogs for Android, backward to API 14</description>
+  <url>https://gitlab.com/olekdia/common/libraries/material-dialog</url>
+  <organization>
+    <name>olekdia</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olekdia</id>
+      <name>Oleksandr Albul</name>
+      <email>abdula.ua@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/olekdia/common/libraries/material-dialog.git</connection>
+    <developerConnection>https://gitlab.com/olekdia/common/libraries/material-dialog.git</developerConnection>
+    <url>https://gitlab.com/olekdia/common/libraries/material-dialog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.swiperefreshlayout</groupId>
+      <artifactId>swiperefreshlayout</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>multiplatform-common-jvm</artifactId>
+      <version>0.5.27</version>
+    </dependency>
+    <dependency>
+      <groupId>com.olekdia</groupId>
+      <artifactId>android-common</artifactId>
+      <version>3.5.13</version>
+    </dependency>
+  </dependencies>
+</project>

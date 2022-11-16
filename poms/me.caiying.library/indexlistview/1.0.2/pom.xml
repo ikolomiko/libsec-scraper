@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.caiying.library</groupId>
+  <artifactId>indexlistview</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>IndexListView</name>
+  <description>A indexable ListView library for Android</description>
+  <url>https://github.com/yc10x/IndexListView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yc10x</id>
+      <name>caiying</name>
+      <email>i@caiying.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yc10x/IndexListView.git</connection>
+    <developerConnection>https://github.com/yc10x/IndexListView.git</developerConnection>
+    <url>https://github.com/yc10x/IndexListView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

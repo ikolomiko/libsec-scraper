@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wunderlist.android-sliding-layer-lib</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>6Wunderkinder-android-sliding-layer-lib</name>
+  <description>A fully customizable layer that shows your content in another layer. This layer can be opened swiping from left/right/top/bottom and dismissed swiping too to the other direction.</description>
+  <url>https://github.com/wunderlist/android-sliding-layer-lib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>6Wunderkinder Gmbh</id>
+      <name>6Wunderkinder Gmbh</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:wunderlist/android-sliding-layer-lib.git</connection>
+    <developerConnection>scm:git@github.com:wunderlist/android-sliding-layer-lib.git</developerConnection>
+    <url>https://github.com/wunderlist/android-sliding-layer-lib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libffi</artifactId>
+  <version>3.3</version>
+  <packaging>aar</packaging>
+  <name>libffi</name>
+  <description>libffi is a foreign function interface library. It provides a C programming language interface for calling natively compiled functions given information about the target function at run time instead of compile time. It also implements the opposite functionality: libffi can produce a pointer to a function that can accept and decode any combination of arguments defined at run time.</description>
+  <url>http://sourceware.org/libffi</url>
+  <inceptionYear>1996</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/libffi/libffi/blob/v3.3/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GPLv2</name>
+      <url>https://github.com/libffi/libffi/blob/v3.3/LICENSE-BUILDTOOLS</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Anthony Green</name>
+      <email>green@moxielogic.com</email>
+    </developer>
+    <developer>
+      <name>Gianni Mariani</name>
+    </developer>
+    <developer>
+      <name>Kresten Krab Thorup</name>
+    </developer>
+    <developer>
+      <name>Marcus Shawcroft</name>
+    </developer>
+    <developer>
+      <name>James Greenhalgh</name>
+    </developer>
+    <developer>
+      <name>Richard Henderson</name>
+    </developer>
+    <developer>
+      <name>Hackers at Synopsis</name>
+    </developer>
+    <developer>
+      <name>Raffaele Sena</name>
+    </developer>
+    <developer>
+      <name>Bradley Smith</name>
+    </developer>
+    <developer>
+      <name>Alexandre Keunecke I. de Mendonca</name>
+    </developer>
+    <developer>
+      <name>Simon Posnjak</name>
+    </developer>
+    <developer>
+      <name>Hans-Peter Nilsson</name>
+    </developer>
+    <developer>
+      <name>Ma Jun</name>
+    </developer>
+    <developer>
+      <name>Zhang Wenmeng</name>
+    </developer>
+    <developer>
+      <name>Hans Boehm</name>
+    </developer>
+    <developer>
+      <name>Yann Sionneau</name>
+    </developer>
+    <developer>
+      <name>Kazuhiro Inaoka</name>
+    </developer>
+    <developer>
+      <name>Andreas Schwab</name>
+    </developer>
+    <developer>
+      <name>Miod Vallat</name>
+    </developer>
+    <developer>
+      <name>Hackers at Imagination Technologies</name>
+    </developer>
+    <developer>
+      <name>Nathan Rossi</name>
+    </developer>
+    <developer>
+      <name>Casey Marshall</name>
+    </developer>
+    <developer>
+      <name>David Daney</name>
+    </developer>
+    <developer>
+      <name>Sandra Loosemore</name>
+    </developer>
+    <developer>
+      <name>Sebastian Macke</name>
+    </developer>
+    <developer>
+      <name>Randolph Chung</name>
+    </developer>
+    <developer>
+      <name>Dave Anglin</name>
+    </developer>
+    <developer>
+      <name>Andreas Tobler</name>
+    </developer>
+    <developer>
+      <name>Geoffrey Keating</name>
+    </developer>
+    <developer>
+      <name>David Edelsohn</name>
+    </developer>
+    <developer>
+      <name>John Hornkvist</name>
+    </developer>
+    <developer>
+      <name>Jakub Jelinek</name>
+    </developer>
+    <developer>
+      <name>Michael Knyszek</name>
+    </developer>
+    <developer>
+      <name>Andrew Waterman</name>
+    </developer>
+    <developer>
+      <name>Stef O'Rear</name>
+    </developer>
+    <developer>
+      <name>Gerhard Tonn</name>
+    </developer>
+    <developer>
+      <name>Ulrich Weigand</name>
+    </developer>
+    <developer>
+      <name>Kaz Kojima</name>
+    </developer>
+    <developer>
+      <name>Gordon Irlam</name>
+    </developer>
+    <developer>
+      <name>Walter Lee</name>
+    </developer>
+    <developer>
+      <name>Jon Beniston</name>
+    </developer>
+    <developer>
+      <name>Bo Thorsen</name>
+    </developer>
+    <developer>
+      <name>Chris Zankel</name>
+    </developer>
+    <developer>
+      <name>Jesper Skov</name>
+    </developer>
+    <developer>
+      <name>Andrew Haley</name>
+    </developer>
+    <developer>
+      <name>Tom Tromey</name>
+    </developer>
+    <developer>
+      <name>Jim Blandy</name>
+    </developer>
+    <developer>
+      <name>Andreas Tobler</name>
+    </developer>
+    <developer>
+      <name>Alex Oliva</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/libffi/libffi.git</connection>
+    <url>https://github.com/libffi/libffi</url>
+  </scm>
+</project>

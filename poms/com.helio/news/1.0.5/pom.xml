@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.helio</groupId>
+  <artifactId>news</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.nostra13.universalimageloader</groupId>
+      <artifactId>universal-image-loader</artifactId>
+      <version>1.9.5</version>
+    </dependency>
+  </dependencies>
+  <description>News package repository for Olson apps Ltd.</description>
+  <name>News Package</name>
+  <url>https://tmelko@bitbucket.org/tmelko/news</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>taraxmelko</id>
+      <name>Taras Melko</name>
+      <email>tarasxmelko@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://tmelko@bitbucket.org/tmelko/news.git</url>
+  </scm>
+</project>

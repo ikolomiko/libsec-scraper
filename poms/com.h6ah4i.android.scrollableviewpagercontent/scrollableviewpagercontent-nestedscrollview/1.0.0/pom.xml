@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.h6ah4i.android.scrollableviewpagercontent</groupId>
+  <artifactId>scrollableviewpagercontent-nestedscrollview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ScrollableViewPagerContent (NestedScrollView integration module)</name>
+  <description>Prioritize ViewPager's horizontal swipe action over vertical scroll action of inner contents</description>
+  <url>https://github.com/h6ah4i/android-scrollableviewpagercontent</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>h6ah4i</id>
+      <name>Haruki Hasegawa</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git:https://github.com/h6ah4i/android-scrollableviewpagercontent.git</connection>
+    <developerConnection>git:git@github.com:h6ah4i/android-scrollableviewpagercontent.git</developerConnection>
+    <url>https://github.com/h6ah4i/android-scrollableviewpagercontent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.h6ah4i.android.scrollableviewpagercontent</groupId>
+      <artifactId>scrollableviewpagercontent</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

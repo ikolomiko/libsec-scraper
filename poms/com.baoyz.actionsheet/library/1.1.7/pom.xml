@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baoyz.actionsheet</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1.7</version>
+  <packaging>aar</packaging>
+  <name>iOS UIActionSheet for Android </name>
+  <url>https://github.com/baoyongzhang/android-ActionSheet</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://baoyz.com/licenses/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>baoyongzhang</id>
+      <name>baoyongzhang</name>
+      <email>baoyz94@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/baoyongzhang/android-ActionSheet.git</connection>
+    <developerConnection>https://github.com/baoyongzhang/android-ActionSheet.git</developerConnection>
+    <url>https://github.com/baoyongzhang/android-ActionSheet</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

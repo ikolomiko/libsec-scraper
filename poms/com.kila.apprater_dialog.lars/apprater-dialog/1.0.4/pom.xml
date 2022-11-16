@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kila.apprater_dialog.lars</groupId>
+  <artifactId>apprater-dialog</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>apprater-dialog</name>
+  <description>A dialog which asks the user to rate the app</description>
+  <url>https://github.com/Lars3n95/AppRater-Dialog</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lars3n95</id>
+      <name>Lars</name>
+      <email>kilaapps@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lars3n95/AppRater-Dialog.git</connection>
+    <developerConnection>https://github.com/Lars3n95/AppRater-Dialog.git</developerConnection>
+    <url>https://github.com/Lars3n95/AppRater-Dialog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

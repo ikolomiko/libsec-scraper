@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cookpad.puree</groupId>
+  <artifactId>puree</artifactId>
+  <version>3.1.0</version>
+  <name>puree</name>
+  <description>Puree is a data collector for unified logging layer for Android.</description>
+  <url>https://github.com/cookpad/puree-android</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/coopad/puree-android/issues</url>
+  </issueManagement>
+  <scm>
+    <url>scm:https://github.com/cookpad/puree-android</url>
+    <connection>scm:git@github.com:puree/puree-android.git</connection>
+    <developerConnection>scm:git@github.com:puree/puree-android.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/cookpad/puree-android/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

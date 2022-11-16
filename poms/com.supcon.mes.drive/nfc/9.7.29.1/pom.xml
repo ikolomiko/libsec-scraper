@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.supcon.mes.drive</groupId>
+  <artifactId>nfc</artifactId>
+  <version>9.7.29.1</version>
+  <packaging>aar</packaging>
+  <name>drive</name>
+  <description></description>
+  <url>https://github.com/jasonwang/drive</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jasonwanghz</id>
+      <name>jason wang</name>
+      <email>1118nick@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jasonwang/drive</connection>
+    <developerConnection>https://github.com/jasonwang/drive</developerConnection>
+    <url>https://github.com/jasonwang/drive</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zyncy</groupId>
+  <artifactId>zyncy</artifactId>
+  <version>0.2.9</version>
+  <packaging>aar</packaging>
+  <name>Zyncy</name>
+  <description>This is a library is used for remote file(Images for the time being) sync to Android application and cache it in memory to prevent fetching the same again from remote for further requests.</description>
+  <url>https://github.com/sakkeerhussain/Zyncy</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sakkeerhussain</id>
+      <name>Sakkeer Hussain</name>
+      <email>sakkeerhussainp@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sakkeerhussain/Zyncy.git</connection>
+    <developerConnection>https://github.com/sakkeerhussain/Zyncy.git</developerConnection>
+    <url>https://github.com/sakkeerhussain/Zyncy</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.2.1</version>
+      </dependency>
+      <dependency>
+        <groupId>androidx.appcompat</groupId>
+        <artifactId>appcompat</artifactId>
+        <version>1.1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-stdlib-jdk7</artifactId>
+        <version>1.3.61</version>
+      </dependency>
+      <dependency>
+        <groupId>androidx.core</groupId>
+        <artifactId>core-ktx</artifactId>
+        <version>1.1.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

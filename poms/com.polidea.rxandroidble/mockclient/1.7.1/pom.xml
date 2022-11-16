@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.polidea.rxandroidble</groupId>
+  <artifactId>mockclient</artifactId>
+  <version>1.7.1</version>
+  <packaging>aar</packaging>
+  <name>MockingSupport</name>
+  <description>Mocking support for RxAndroidBle library</description>
+  <url>https://github.com/Polidea/RxAndroidBle</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dariuszseweryn</id>
+      <name>Dariusz Seweryn</name>
+    </developer>
+    <developer>
+      <id>uKL</id>
+      <name>PaweÅ Urban</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Polidea/RxAndroidBle.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Polidea/RxAndroidBle.git</developerConnection>
+    <url>https://github.com/Polidea/RxAndroidBle</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.polidea.rxandroidble</groupId>
+      <artifactId>rxandroidble</artifactId>
+      <version>1.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.3.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.artemzin.rxjava</groupId>
+      <artifactId>proguard-rules</artifactId>
+      <version>1.3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

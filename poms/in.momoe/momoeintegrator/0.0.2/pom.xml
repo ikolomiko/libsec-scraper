@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.momoe</groupId>
+  <artifactId>momoeintegrator</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Momoe App Integrator</name>
+  <description>Allows integration with Momoe App</description>
+  <url>https://bitbucket.org/Momoe/momoe-app-sdk/wiki/Integration%20Document</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>momoe</id>
+      <name>Ahmed Azaan</name>
+      <email>azaan@momoe.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/Momoe/momoe-app-sdk</connection>
+    <developerConnection>https://bitbucket.org/Momoe/momoe-app-sdk</developerConnection>
+    <url>https://bitbucket.org/Momoe/momoe-app-sdk/wiki/Integration%20Document</url>
+  </scm>
+</project>

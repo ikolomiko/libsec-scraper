@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.elements.mobilization</groupId>
+  <artifactId>logging</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Elements Android Mobilization</name>
+  <description>A collection of small single-purpose libraries</description>
+  <url>https://github.com/elementsinteractive/android-mobilization</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause "New" or "Revised" License</name>
+      <url>https://github.com/elementsinteractive/android-mobilization/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>elementsinteractive</id>
+      <name>Elements</name>
+      <url>https://github.com/elementsinteractive/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/elementsinteractive/android-mobilization.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/elementsinteractive/android-mobilization.git</developerConnection>
+    <url>https://github.com/elementsinteractive/android-mobilization</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.elements.mobilization</groupId>
+      <artifactId>logging-api</artifactId>
+      <version>0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21-2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.4.21-2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-crashlytics</artifactId>
+      <version>17.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

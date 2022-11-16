@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yellowcath</groupId>
+  <artifactId>VideoProcessor</artifactId>
+  <version>2.4.1</version>
+  <packaging>aar</packaging>
+  <name>yellowcath/VideoProcessor</name>
+  <description>process video(cut &amp; scale &amp; increase &amp; decrease &amp; reverse) with mediacodec</description>
+  <url>https://github.com/yellowcath/VideoProcessor</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yellowcath</id>
+      <name>yellowcat</name>
+      <email>qmdream@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yellowcath/VideoProcessor.git</connection>
+    <developerConnection>scm:git://github.com/yellowcath/VideoProcessor.git</developerConnection>
+    <url>git://github.com/yellowcath/VideoProcessor.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>16.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

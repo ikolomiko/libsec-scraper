@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.ithebk</groupId>
+  <artifactId>barchart</artifactId>
+  <version>0.9</version>
+  <packaging>aar</packaging>
+  <name>barchart</name>
+  <description>A Vertical and Horizontal Bar Chart Library for Android</description>
+  <url>https://github.com/ITheBK/BarChart</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ithebk</id>
+      <name>Bharath Kumar</name>
+      <email>bharath7242@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ITheBK/BarChart.git</connection>
+    <developerConnection>https://github.com/ITheBK/BarChart.git</developerConnection>
+    <url>https://github.com/ITheBK/BarChart</url>
+  </scm>
+</project>

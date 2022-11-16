@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pv</groupId>
+  <artifactId>datetimeseer</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <description>A seer who gets visions of the date and time you are thinking while typing. </description>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/p-v/DateTimeSeer/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>p-v</id>
+      <name>Pratyush</name>
+      <email>pratyushverma@outlook.com</email>
+    </developer>
+  </developers>
+</project>

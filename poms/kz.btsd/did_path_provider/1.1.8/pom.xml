@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kz.btsd</groupId>
+  <artifactId>did_path_provider</artifactId>
+  <version>1.1.8</version>
+  <packaging>aar</packaging>
+  <name>did_path_provider</name>
+  <description>did_path_provider</description>
+  <url>https://digital-id.kz/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Digital ID Team</name>
+      <email>digitalid@btsdigital.kz</email>
+      <organization>Digital ID</organization>
+      <organizationUrl>https://digital-id.kz/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/btsdigital/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_release</artifactId>
+      <version>1.0.0-bdc9708d235e582483d299642ad8682826ebb90d</version>
+    </dependency>
+  </dependencies>
+</project>

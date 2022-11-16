@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cosmos.mediax</groupId>
+  <artifactId>pinch_loader</artifactId>
+  <version>4.3.1-20191217.1603</version>
+  <packaging>aar</packaging>
+  <name>cosmos</name>
+  <url>https://github.com/cosmos33/MMVideoSDK-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liuchong</id>
+      <name>liuchong</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cosmos33/MMVideoSDK-Android.git</connection>
+    <developerConnection>https://github.com/cosmos33/MMVideoSDK-Android.git</developerConnection>
+    <url>https://github.com/cosmos33/MMVideoSDK-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>api</scope>
+    </dependency>
+  </dependencies>
+</project>

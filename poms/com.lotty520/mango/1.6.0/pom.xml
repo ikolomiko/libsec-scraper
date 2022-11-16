@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lotty520</groupId>
+  <artifactId>mango</artifactId>
+  <version>1.6.0</version>
+  <packaging>aar</packaging>
+  <name>mango</name>
+  <description>simple http request util based on okhttp &amp;&amp; retrofit</description>
+  <url>https://github.com/lotty520/mango</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lotty-tj</id>
+      <name>lotty520</name>
+      <email>wuh24.tj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lotty520/mango.git</connection>
+    <developerConnection>https://github.com/lotty520/mango.git</developerConnection>
+    <url>https://github.com/lotty520/mango</url>
+  </scm>
+</project>

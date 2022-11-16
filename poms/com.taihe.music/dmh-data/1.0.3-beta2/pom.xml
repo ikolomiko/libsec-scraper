@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.taihe.music</groupId>
+  <artifactId>dmh-data</artifactId>
+  <version>1.0.3-beta2</version>
+  <packaging>aar</packaging>
+  <name>dmh-data</name>
+  <description>Base function of data,like album artist search log_back and so on</description>
+  <url>http://192.168.5.103/liuwanli/musicsdk</url>
+  <developers>
+    <developer>
+      <id>soli</id>
+      <name>soli</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://192.168.5.103/liuwanli/musicsdk.git</url>
+  </scm>
+</project>

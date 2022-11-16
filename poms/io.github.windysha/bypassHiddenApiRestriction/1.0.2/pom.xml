@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.windysha</groupId>
+  <artifactId>bypassHiddenApiRestriction</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Android Hidden Api Bypass</name>
+  <description>This is a library that can bypass the hidden api restriction on Android 9-12.</description>
+  <url>https://github.com/WindySha/bypassHiddenApiRestriction</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>WindySha</id>
+      <name>WindySha</name>
+      <email>819170366@qq.com</email>
+      <url>https://windysha.github.io/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/WindySha/bypassHiddenApiRestriction.git</connection>
+    <developerConnection>scm:git:https://github.com/WindySha/bypassHiddenApiRestriction.git</developerConnection>
+    <url>https://github.com/WindySha/bypassHiddenApiRestriction/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

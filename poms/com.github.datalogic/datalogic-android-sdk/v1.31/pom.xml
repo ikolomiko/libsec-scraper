@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.datalogic</groupId>
+  <artifactId>datalogic-android-sdk</artifactId>
+  <version>v1.31</version>
+  <packaging>aar</packaging>
+  <name>datalogic/datalogic-android-sdk</name>
+  <description>Datalogic Android SDK</description>
+  <url>https://github.com/datalogic/datalogic-android-sdk</url>
+  <inceptionYear>2018</inceptionYear>
+  <developers>
+    <developer>
+      <id>datalogic</id>
+      <name>Datalogic</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/datalogic/datalogic-android-sdk.git</connection>
+    <developerConnection>scm:git://github.com/datalogic/datalogic-android-sdk.git</developerConnection>
+    <url>git://github.com/datalogic/datalogic-android-sdk.git</url>
+  </scm>
+</project>

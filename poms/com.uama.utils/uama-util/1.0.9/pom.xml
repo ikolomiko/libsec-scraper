@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uama.utils</groupId>
+  <artifactId>uama-util</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>uama-util</name>
+  <description>""</description>
+  <url>http://www.uama.com.cn</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dasheng</id>
+      <name>aileelucky</name>
+      <email>aileelucky@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://121.40.102.80:8888/Android-Remote-Library/uama-utils</connection>
+    <developerConnection>http://121.40.102.80:8888/Android-Remote-Library/uama-utils</developerConnection>
+    <url>http://www.uama.com.cn</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yanzhenjie</groupId>
+      <artifactId>permission</artifactId>
+      <version>2.0.0-rc12</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

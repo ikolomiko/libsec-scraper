@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.srain.cube</groupId>
+  <artifactId>cube-sdk</artifactId>
+  <version>1.0.44.37</version>
+  <packaging>aar</packaging>
+  <name>Cube SDK</name>
+  <description>Cube SDK, library for Android development</description>
+  <url>https://github.com/etao-open-source/cube-sdk</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url></url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liaohuqiu</id>
+      <name>liaohuqiu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/etao-open-source/cube-sdk.git</connection>
+    <developerConnection>scm:https://github.com/etao-open-source/cube-sdk.git</developerConnection>
+    <url>https://github.com/etao-open-source/cube-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>in.srain.cube</groupId>
+      <artifactId>clog</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>r7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

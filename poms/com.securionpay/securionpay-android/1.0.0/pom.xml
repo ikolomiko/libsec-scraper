@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.securionpay</groupId>
+  <artifactId>securionpay-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>SecurionPay Android SDK</name>
+  <description>Android client library for SecurionPay API</description>
+  <url>https://securionpay.com/</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Online Payments Group AG</name>
+      <email>support@securionpay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:securionpay/securionpay-android.git</connection>
+    <developerConnection>scm:git:git@github.com:securionpay/securionpay-android.git</developerConnection>
+    <url>https://github.com/securionpay/securionpay-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.3.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alimuzaffar.lib</groupId>
+      <artifactId>pinentryedittext</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.apachat</groupId>
+      <artifactId>loadingbutton-android</artifactId>
+      <version>1.0.11</version>
+    </dependency>
+  </dependencies>
+</project>

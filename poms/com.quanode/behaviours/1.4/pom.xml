@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quanode</groupId>
+  <artifactId>behaviours</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>Behaviours</name>
+  <description>Android client for Behaviours</description>
+  <url>https://github.com/QuaNode/droid-behaviours</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://mit-license.org</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>quanode</id>
+      <name>QuaNode</name>
+      <email>info@quanode.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git+https://github.com/QuaNode/droid-behaviours.git</connection>
+    <developerConnection>git+https://github.com/QuaNode/droid-behaviours.git</developerConnection>
+    <url>https://github.com/QuaNode/droid-behaviours</url>
+  </scm>
+</project>

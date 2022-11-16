@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bartoszlipinski.rxfacebookbinding</groupId>
+  <artifactId>rxfacebookbinding</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>rxfacebookbinding</name>
+  <description>RxJava binding APIs for Android Facebook SDK</description>
+  <url>https://github.com/blipinsk/RxFacebookBinding</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>blipinsk</id>
+      <name>Bartosz Lipinski</name>
+      <email>bartoszlipinski90@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/blipinsk/RxFacebookBinding.git</connection>
+    <developerConnection>https://github.com/blipinsk/RxFacebookBinding.git</developerConnection>
+    <url>https://github.com/blipinsk/RxFacebookBinding.git</url>
+  </scm>
+</project>

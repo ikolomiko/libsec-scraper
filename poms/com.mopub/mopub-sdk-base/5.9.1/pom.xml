@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mopub</groupId>
+  <artifactId>mopub-sdk-base</artifactId>
+  <version>5.9.1</version>
+  <name>mopub-sdk-base</name>
+  <description>MoPub Android SDK - Base</description>
+  <licenses>
+    <license>
+      <name>MoPub SDK License Agreement</name>
+      <url>https://www.mopub.com/legal/sdk-license-agreement</url>
+    </license>
+  </licenses>
+  <url>https://developers.mopub.com/publishers/</url>
+  <scm>
+    <url>https://github.com/mopub/mopub-android-sdk</url>
+    <connection>scm:git:git://github.com/mopub/mopub-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mopub/mopub-android-sdk.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>mopub</id>
+      <name>MoPub (a division of Twitter, Inc.)</name>
+      <url>https://www.mopub.com</url>
+      <email>support@mopub.com</email>
+    </developer>
+  </developers>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mopub.volley</groupId>
+      <artifactId>mopub-volley</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>libAvid-mopub</artifactId>
+      <version>3.6.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.moat.analytics.mobile.mpub</groupId>
+      <artifactId>moat-mobile-app-kit</artifactId>
+      <version>2.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.zuv.android</groupId>
+  <artifactId>zuva-hardware</artifactId>
+  <version>0.0.7</version>
+  <packaging>aar</packaging>
+  <name>zuva-hardware</name>
+  <description>Zuv Hardware Library on Android</description>
+  <url>https://github.com/zview/zuva-hardware</url>
+  <licenses>
+    <license>
+      <name>Mit License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Luther</id>
+      <name>Kama Luther</name>
+      <email>xluther@zuv.cc</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zview/zuva-hardware.git</connection>
+    <developerConnection>https://github.com/zview/zuva-hardware.git</developerConnection>
+    <url>https://github.com/zview/zuva-hardware</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>javax.annotation</artifactId>
+      <version>10.0-b28</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-android</artifactId>
+      <version>1.5.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>cc.zuv.android</groupId>
+      <artifactId>zuva-common</artifactId>
+      <version>0.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

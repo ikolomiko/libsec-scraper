@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.growingio.android.gpush</groupId>
+  <artifactId>gpush-huawei-adapter</artifactId>
+  <version>1.5.2</version>
+  <packaging>aar</packaging>
+  <name>gpush-huawei-adapter</name>
+  <description>GrowingIO Android GPush Huawei Adapter.</description>
+  <url>https://git.growingio.cn/growing/sdk/android-gtouch</url>
+  <licenses>
+    <license>
+      <name>The GrwongIO Software License, Version 1.0</name>
+      <url>https://www.growingio.com/License-1.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>growingio</id>
+      <name>growingio</name>
+      <email>sdk-integration@growingio.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git.growingio.cn:growing/sdk/android-gtouch.git</connection>
+    <developerConnection>scm:git@git.growingio.cn:growing/sdk/android-gtouch.git</developerConnection>
+    <url>https://git.growingio.cn/growing/sdk/android-gtouch</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>3.0.3.301</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.growingio.android.gpush</groupId>
+      <artifactId>gpush-core</artifactId>
+      <version>1.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

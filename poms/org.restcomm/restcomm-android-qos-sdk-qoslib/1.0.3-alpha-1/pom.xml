@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.restcomm</groupId>
+  <artifactId>restcomm-android-qos-sdk-qoslib</artifactId>
+  <version>1.0.3-alpha-1</version>
+  <packaging>aar</packaging>
+  <name>Restcomm Android QoS Library</name>
+  <description>Main QoS Library. Consists of APIs and coverage monitoring service sending data to an online QoS server</description>
+  <url>https://github.com/RestComm/android-QoS</url>
+  <licenses>
+    <license>
+      <name>GNU Affero General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/agpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bscheurman</id>
+      <name>Brad Scheurman</name>
+      <email>bscheurman@mymobilecoverage.com</email>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Antonis Tsakiridis</name>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:git:https://github.com/RestComm/android-QoS</connection>
+    <developerConnection>scm:git:https://github.com/RestComm/android-QoS</developerConnection>
+    <url>https://github.com/RestComm/android-QoS</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.restcomm</groupId>
+      <artifactId>restcomm-android-qos-sdk-mmcextension</artifactId>
+      <version>1.0.3-alpha-1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

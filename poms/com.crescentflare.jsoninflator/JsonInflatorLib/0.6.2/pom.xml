@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crescentflare.jsoninflator</groupId>
+  <artifactId>JsonInflatorLib</artifactId>
+  <version>0.6.2</version>
+  <packaging>aar</packaging>
+  <name>JsonInflatorLib</name>
+  <description>Creates objects and classes from JSON</description>
+  <url>https://github.com/crescentflare/JsonInflator</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>crescentflare</id>
+      <name>Crescent Flare Apps</name>
+      <email>info@crescentflare.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/crescentflare/JsonInflator.git</connection>
+    <developerConnection>scm:git:ssh://github.com/crescentflare/JsonInflator.git</developerConnection>
+    <url>https://github.com/crescentflare/JsonInflator/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+    </dependency>
+  </dependencies>
+</project>

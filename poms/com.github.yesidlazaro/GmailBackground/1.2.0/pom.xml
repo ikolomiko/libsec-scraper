@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yesidlazaro</groupId>
+  <artifactId>GmailBackground</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>yesidlazaro/GmailBackground</name>
+  <description>a small library to send a email in background withou user interaction </description>
+  <url>https://github.com/yesidlazaro/GmailBackground</url>
+  <inceptionYear>2015</inceptionYear>
+  <developers>
+    <developer>
+      <id>yesidlazaro</id>
+      <name>Yesid</name>
+      <email>yesid@twnel.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yesidlazaro/GmailBackground.git</connection>
+    <developerConnection>scm:git://github.com/yesidlazaro/GmailBackground.git</developerConnection>
+    <url>git://github.com/yesidlazaro/GmailBackground.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

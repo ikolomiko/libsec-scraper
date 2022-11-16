@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.moddity.bzutils.android</groupId>
+  <artifactId>BZUtils-Android-Gradle</artifactId>
+  <version>1.0.4-rc2</version>
+  <packaging>aar</packaging>
+  <name>BZUtils-Android</name>
+  <url>https://bitbucket.org/moddity/bzutils-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iaguila</id>
+      <name>Ivan Aguila</name>
+      <email>iaguila@moddity</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/moddity/bzutils-android.git</connection>
+    <developerConnection>https://bitbucket.org/moddity/bzutils-android.git</developerConnection>
+    <url>https://bitbucket.org/moddity/bzutils-android</url>
+  </scm>
+</project>

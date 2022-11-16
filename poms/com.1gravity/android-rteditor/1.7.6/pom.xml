@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.1gravity</groupId>
+  <artifactId>android-rteditor</artifactId>
+  <version>1.7.6</version>
+  <packaging>aar</packaging>
+  <name>Android-RTEditor</name>
+  <description>Android RTEditor is a rich text editor component used as drop-in for EditText</description>
+  <url>https://github.com/1gravity/Android-RTEditor</url>
+  <organization>
+    <name>1gravity LLC</name>
+    <url>www.1gravity.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1gravity</id>
+      <name>Emanuel Moecklin</name>
+      <email>contact@1gravity.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:1gravity/Android-RTEditor.git</connection>
+    <developerConnection>scm:git@github.com:1gravity/Android-RTEditor.git</developerConnection>
+    <url>https://github.com/1gravity/Android-RTEditor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.1gravity</groupId>
+      <artifactId>android-colorpicker</artifactId>
+      <version>2.2.4</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.3.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

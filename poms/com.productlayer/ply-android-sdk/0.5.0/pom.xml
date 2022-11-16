@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.productlayer</groupId>
+  <artifactId>ply-android-sdk</artifactId>
+  <version>0.5.0</version>
+  <packaging>aar</packaging>
+  <name>ProductLayer SDK for Android</name>
+  <description>ProductLayer SDK for Android</description>
+  <url>http://developer.productlayer.com</url>
+  <organization>
+    <name>ProductLayer GmbH</name>
+    <url>http://www.productlayer.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The BSD 2-Clause License</name>
+      <url>http://opensource.org/licenses/BSD-2-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wbayer</id>
+      <name>Werner Bayer</name>
+      <email>werner@productlayer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:ProductLayer/ProductLayer-SDK-for-Android.git</connection>
+    <developerConnection>scm:git:git@github.com:ProductLayer/ProductLayer-SDK-for-Android.git</developerConnection>
+    <url>https://github.com/ProductLayer/ProductLayer-SDK-for-Android</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/ProductLayer/ProductLayer-SDK-for-Android/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.productlayer</groupId>
+      <artifactId>ply-java-sdk</artifactId>
+      <version>0.5.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>spring-web</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-android</artifactId>
+      <version>4.3.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.android</groupId>
+      <artifactId>spring-android-rest-template</artifactId>
+      <version>2.0.0.M3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

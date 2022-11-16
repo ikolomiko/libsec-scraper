@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.aarsy.vcard-androidParser</groupId>
+  <artifactId>vcard-androidParser</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>vcard-androidParser</name>
+  <description>"vcard-androidParser" is an android library for developers who need to process contacts backup files or simple vcard or vcf files. This library is android mapping of ez-vcard</description>
+  <url>https://github.com/aarsy/vcard-androidParser</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aarsy</id>
+      <name>Abhay Raj Singh Yadav</name>
+      <email>abhayyadavleo@gmail.com   </email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/aarsy/vcard-androidParser.git</connection>
+    <developerConnection>https://github.com/aarsy/vcard-androidParser.git</developerConnection>
+    <url>https://github.com/aarsy/vcard-androidParser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.googlecode.ez-vcard</groupId>
+      <artifactId>ez-vcard</artifactId>
+      <version>0.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.cruiz666</groupId>
+  <artifactId>hello</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>hello</name>
+  <description>My first maven sdk</description>
+  <url>https://github.com/cruiz666/MyAndroidLibrary</url>
+  <licenses>
+    <license>
+      <name>Hello License</name>
+      <url>https://github.com/cruiz666/MyAndroidLibrary/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cruiz666</id>
+      <name>Carlos Ruiz</name>
+      <email>ruizcarlos1985@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/cruiz666/MyAndroidLibrary.git</connection>
+    <developerConnection>scm:git:ssh://github.com/cruiz666/MyAndroidLibrary.git</developerConnection>
+    <url>https://github.com/cruiz666/MyAndroidLibrary/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

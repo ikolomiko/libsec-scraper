@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.deep</groupId>
+  <artifactId>deep_wifi</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>deepwifi</name>
+  <url>https://github.com/mymdeep/deepWiFi</url>
+  <licenses>
+    <license>
+      <name>deepwifi</name>
+      <url>https://github.com/mymdeep/deepWiFi</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mymdeep</id>
+      <name>wangfei</name>
+      <email>mymdeep@vip.qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mymdeep/deepWiFi</connection>
+    <developerConnection>https://github.com/mymdeep/deepWiFi</developerConnection>
+    <url>https://github.com/mymdeep/deepWiFi</url>
+  </scm>
+</project>

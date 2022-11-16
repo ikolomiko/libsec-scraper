@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mobgame.lite</groupId>
+  <artifactId>mobgame-sdk-lite</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>MobGameSDKLite</name>
+  <description>MobGameSDK for Android is a client library that conveniently helps your gaming applications get access to MobGame platform packed with multiple features such as login, payment, data tracking…</description>
+  <developers>
+    <developer>
+      <id>duybkict</id>
+      <name>Duy Tran</name>
+      <email>duytran.bkict@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-android-sdk</artifactId>
+      <version>4.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-analytics</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.paypal.sdk</groupId>
+      <artifactId>paypal-android-sdk</artifactId>
+      <version>2.14.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

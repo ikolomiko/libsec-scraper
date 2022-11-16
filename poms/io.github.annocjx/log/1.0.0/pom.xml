@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.annocjx</groupId>
+  <artifactId>log</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>L</name>
+  <description>a log tool</description>
+  <url>https://github.com/annocjx/log/</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>annocjx</id>
+      <name>Anno Cjx</name>
+      <url>https://github.com/annocjx/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/annocjx/log.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/annocjx/log.git</developerConnection>
+    <url>https://github.com/annocjx/log/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotations</artifactId>
+          <groupId>org.jetbrains</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>stax</artifactId>
+          <groupId>stax</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotations</artifactId>
+          <groupId>org.jetbrains</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>stax</artifactId>
+          <groupId>stax</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

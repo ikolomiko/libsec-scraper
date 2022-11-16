@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.pitech.event</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>This is the Android Library for event360. Unless you have registered for an account with us, this is of no use to you</description>
+  <url>pitech.app</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>the-dagger</id>
+      <name>Harshit Dwivedi</name>
+      <email>harshit@pitech.app</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://thedagger@bitbucket.org/pitechbros/androidlibrary.git</connection>
+    <developerConnection>https://thedagger@bitbucket.org/pitechbros/androidlibrary.git</developerConnection>
+    <url>pitech.app</url>
+  </scm>
+</project>

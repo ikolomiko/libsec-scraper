@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.techhelper.permission.handler</groupId>
+  <artifactId>AndroidPermissionHandler</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AndroidPermissionHandler</name>
+  <description>Request single or multiple permissions in activity or fragment at run time without any hassles.</description>
+  <url>https://github.com/TechHelper/AndroidPermissionHandler</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AndroidPermissionHandler</id>
+      <name>mayuraouti</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TechHelper/AndroidPermissionHandler.git</connection>
+    <url>https://github.com/TechHelper/AndroidPermissionHandler</url>
+  </scm>
+</project>

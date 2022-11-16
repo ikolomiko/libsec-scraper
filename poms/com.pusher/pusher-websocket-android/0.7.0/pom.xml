@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pusher</groupId>
+  <artifactId>pusher-websocket-android</artifactId>
+  <version>0.7.0</version>
+  <packaging>aar</packaging>
+  <name>'Pusher Android Library'</name>
+  <description>A wrapper around pusher-websocket-java for a better Android experience</description>
+  <url>https://github.com/pusher/pusher-websocket-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>'https://raw.github.com/pusher/pusher-java-client/master/LICENCE.txt'</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jpatel531</id>
+      <name>Jamie Patel</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:pusher/pusher-websocket-android.git</connection>
+    <developerConnection>scm:git@github.com:pusher/pusher-websocket-android.git</developerConnection>
+    <url>https://github.com/pusher/pusher-websocket-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pusher</groupId>
+      <artifactId>pusher-java-client</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.loopj.android</groupId>
+      <artifactId>android-async-http</artifactId>
+      <version>1.4.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

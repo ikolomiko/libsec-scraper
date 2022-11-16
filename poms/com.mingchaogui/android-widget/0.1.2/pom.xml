@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mingchaogui</groupId>
+  <artifactId>android-widget</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>AndroidWidget</name>
+  <description>A wrapper for widgets on Android</description>
+  <url>https://github.com/mingchaogui/AndroidWidget</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mingchaogui</id>
+      <name>Cai</name>
+      <email>mingchaogui@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mingchaogui/AndroidWidget.git</connection>
+    <developerConnection>https://github.com/mingchaogui/AndroidWidget.git</developerConnection>
+    <url>https://github.com/mingchaogui/AndroidWidget</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.journeyapps</groupId>
+      <artifactId>zxing-android-embedded</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.batch.android</groupId>
+  <artifactId>hms-plugin</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Batch.com Android HMS SDK</name>
+  <description>Batch.com's Android Huawei Mobile Services main artifact</description>
+  <url>https://batch.com</url>
+  <organization>
+    <name>Batch.com</name>
+    <url>https://batch.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Copyright (c) 2014-Present, Batch.com</name>
+      <distribution>repo</distribution>
+      <comments>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+- Use of copies, substantial portions or binaries contained within Batch's SDK is only permitted to enable use of the Batch platform.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>batch-tech</id>
+      <name>Batch.com Tech</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/BatchLabs/Batch-Android-HMS-SDK.git</connection>
+    <developerConnection>scm:git:https://github.com/BatchLabs/Batch-Android-HMS-SDK.git</developerConnection>
+    <url>https://github.com/BatchLabs/Batch-Android-HMS-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.batch.android</groupId>
+      <artifactId>batch-sdk</artifactId>
+      <version>1.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>4.0.4.301</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

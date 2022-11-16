@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ntvinh11586.android-support-algorithm</groupId>
+  <artifactId>data-structures</artifactId>
+  <version>0.0.10</version>
+  <packaging>aar</packaging>
+  <name>Android Support Algorithm</name>
+  <description>Android Support Algorithm: Algorithm package</description>
+  <url>https://github.com/ntvinh11586/AndroidSupportAlgorithm</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ntvinh11586</id>
+      <name>Vinh Nguyen</name>
+      <email>ntvinh11586@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ntvinh11586/AndroidSupportAlgorithm.git</connection>
+    <developerConnection>https://github.com/ntvinh11586/AndroidSupportAlgorithm.git</developerConnection>
+    <url>https://github.com/ntvinh11586/AndroidSupportAlgorithm</url>
+  </scm>
+</project>

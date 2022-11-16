@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.annypatel.databinding</groupId>
+  <artifactId>binding-mapper</artifactId>
+  <version>1.0.0-alpha1</version>
+  <packaging>aar</packaging>
+  <name>Binding Mapper</name>
+  <description>Test utilities for Android Data Binding library</description>
+  <url>https://github.com/annypatel/databinding-test/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>annypatel</id>
+      <name>Anny Patel</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/annypatel/databinding-test.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/annypatel/databinding-test.git</developerConnection>
+    <url>https://github.com/annypatel/databinding-test/</url>
+  </scm>
+</project>

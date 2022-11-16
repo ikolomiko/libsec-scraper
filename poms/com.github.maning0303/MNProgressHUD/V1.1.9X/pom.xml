@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.maning0303</groupId>
+  <artifactId>MNProgressHUD</artifactId>
+  <version>V1.1.9X</version>
+  <packaging>aar</packaging>
+  <name>maning0303/MNProgressHUD</name>
+  <description>一个常用的自定义弹框封装(适配AndroidX),加载ProgressDialog,状态显示的StatusDialog和自定义Toast,全部支持背景颜色,圆角,边框和文字的自定义,构建者模式,链式调用。</description>
+  <url>https://github.com/maning0303/MNProgressHUD</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maning0303</id>
+      <name>马宁</name>
+      <email>154292322@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/maning0303/MNProgressHUD.git</connection>
+    <developerConnection>scm:git://github.com/maning0303/MNProgressHUD.git</developerConnection>
+    <url>git://github.com/maning0303/MNProgressHUD.git</url>
+  </scm>
+</project>

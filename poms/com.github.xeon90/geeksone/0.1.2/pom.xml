@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.xeon90</groupId>
+  <artifactId>geeksone</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>Geeksone</name>
+  <description>A easy to use Web Services Library</description>
+  <url>https://github.com/xeon90/Geeksone</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xeon90</id>
+      <name>Xeon</name>
+      <email>gto014@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xeon90/Geeksone.git</connection>
+    <developerConnection>https://github.com/xeon90/Geeksone.git</developerConnection>
+    <url>https://github.com/xeon90/Geeksone</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zeoflow.depot</groupId>
+  <artifactId>dispatcher-compiler</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Depot</name>
+  <description>The Depot persistence library provides an abstraction layer over SQLite to allow for more robust database access while using the full power of SQLite.</description>
+  <url>https://github.com/zeoflow/depot</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zeoflow</id>
+      <name>ZeoFlow</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:zeoflow/depot.git</connection>
+    <developerConnection>scm:git@github.com:zeoflow/depot.git</developerConnection>
+    <url>https://github.com/zeoflow/depot</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>28.2-jre</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zeoflow.depot</groupId>
+      <artifactId>depot-common</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zeoflow.depot</groupId>
+      <artifactId>dispatcher-runtime</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zeoflow</groupId>
+      <artifactId>jx</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zeoflow</groupId>
+      <artifactId>zson</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.multidex</groupId>
+      <artifactId>multidex</artifactId>
+      <version>2.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.service</groupId>
+      <artifactId>auto-service-annotations</artifactId>
+      <version>1.0-rc7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

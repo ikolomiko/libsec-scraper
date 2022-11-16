@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cvlib</groupId>
+  <artifactId>cvlib</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Android Commonly used Custom View</name>
+  <description>  Custom View for Project</description>
+  <url>https://github.com/Callanna/CustomView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>callanna</id>
+      <name>callanna</name>
+      <email>callanna1023@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Callanna/CustomView.git</connection>
+    <developerConnection>https://github.com/Callanna/CustomView.git</developerConnection>
+    <url>https://github.com/Callanna/CustomView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.navasmdc</groupId>
+      <artifactId>MaterialDesign</artifactId>
+      <version>1.5</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>pl.droidsonroids.gif</groupId>
+      <artifactId>android-gif-drawable</artifactId>
+      <version>1.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.rey5137</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

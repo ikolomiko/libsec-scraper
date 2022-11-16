@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fanap.async</groupId>
+  <artifactId>podasync</artifactId>
+  <version>0.2.9.0</version>
+  <packaging>aar</packaging>
+  <description>Fanaps POD Async service (DIRANA)</description>
+  <url>https://github.com/FanapSoft/pod-async-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>farhad7d7</id>
+      <name>Farhad Kheirkhah</name>
+      <email>farhadkheirkhah7@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/FanapSoft/pod-async-android-sdk.git</connection>
+    <developerConnection>https://github.com/FanapSoft/pod-async-android-sdk.git</developerConnection>
+    <url>https://github.com/FanapSoft/pod-async-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.neovisionaries</groupId>
+      <artifactId>nv-websocket-client</artifactId>
+      <version>2.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

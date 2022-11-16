@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.library.lebusishu</groupId>
+  <artifactId>module-db</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>module-db</name>
+  <description>Database operation</description>
+  <url>https://github.com/lebusishu/Module-Database</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lebusishu</id>
+      <name>WangXiaohui</name>
+      <email>wangxiaohui1118@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lebusishu/Module-Database.git</connection>
+    <developerConnection>https://github.com/lebusishu/Module-Database.git</developerConnection>
+    <url>https://github.com/lebusishu/Module-Database</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

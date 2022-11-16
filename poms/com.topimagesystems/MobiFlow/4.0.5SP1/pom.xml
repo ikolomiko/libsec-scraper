@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.topimagesystems</groupId>
+  <artifactId>MobiFlow</artifactId>
+  <version>4.0.5SP1</version>
+  <packaging>aar</packaging>
+  <name>MobiFlow</name>
+  <description>SDK for capture documents by Top Image Systems</description>
+  <url>https://github.com/nuuneoi/FBLikeAndroid</url>
+  <licenses>
+    <license>
+      <name>Private only License</name>
+      <url>https://www.binpress.com/license/view/l/1b711732a486ae803e9285cf4d031dee</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Boaz</id>
+      <name>Boaz Garty</name>
+      <email>boazgarty@topimagesystems.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nuuneoi/FBLikeAndroid.git</connection>
+    <developerConnection>https://github.com/nuuneoi/FBLikeAndroid.git</developerConnection>
+    <url>https://github.com/nuuneoi/FBLikeAndroid</url>
+  </scm>
+</project>

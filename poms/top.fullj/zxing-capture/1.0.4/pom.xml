@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>top.fullj</groupId>
+  <artifactId>zxing-capture</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>zxing-capture</name>
+  <description>Android barcode scanner using zxing</description>
+  <url>https://gitee.com/hziee514/zxing-android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hziee514</id>
+      <name>wurenhai</name>
+      <email>46084337@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/hziee514/zxing-android.git</connection>
+    <developerConnection>https://gitee.com/hziee514/zxing-android.git</developerConnection>
+    <url>https://gitee.com/hziee514/zxing-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

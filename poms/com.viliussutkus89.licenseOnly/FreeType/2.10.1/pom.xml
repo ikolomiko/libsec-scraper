@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>FreeType</artifactId>
+  <version>2.10.1</version>
+  <packaging>aar</packaging>
+  <name>FreeType</name>
+  <description>FreeType is a freely available software library to render fonts.</description>
+  <url>https://freetype.org</url>
+  <inceptionYear>1996</inceptionYear>
+  <licenses>
+    <license>
+      <name>FreeType License</name>
+      <url>https://gitlab.freedesktop.org/freetype/freetype/-/blob/VER-2-10-4/docs/LICENSE.TXT</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>FreeType License</name>
+      <url>https://gitlab.freedesktop.org/freetype/freetype/-/blob/VER-2-10-4/docs/FTL.TXT</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GPLv2-or-later</name>
+      <url>https://www.gnu.org/licenses/gpl-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Alexei Podtelezhnikov (Алексей Подтележников)</name>
+      <email>apodtele@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Behdad Esfahbod</name>
+      <email>behdad.esfahbod@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Bram Tassyns</name>
+      <email>BramT@enfocus.com</email>
+    </developer>
+    <developer>
+      <name>Suzuki, Toshiya (鈴木俊哉)</name>
+      <email>mpsuzuki@hiroshima-u.ac.jp</email>
+    </developer>
+    <developer>
+      <id>Bungeman</id>
+      <name>Ben Wagner</name>
+      <email>bungeman@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Ewald Hew (Hew Yih Shiuan 丘毅宣)</name>
+      <email>ewaldhew@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Nikhil Ramakrishnan (निखिल रामकृष्णन)</name>
+      <email>ramakrishnan.nikhil@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.freedesktop.org/freetype/freetype.git</connection>
+    <url>https://gitlab.freedesktop.org/freetype/freetype</url>
+  </scm>
+</project>

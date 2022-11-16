@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.handsome.clock</groupId>
+  <artifactId>alarmmanagerclock</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://github.com/lindong136/Android-AlarmManagerClock</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight SQLite database framework</name>
+      <url>https://github.com/linglongxin24/SQLite</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lindong136</id>
+      <name>lindong</name>
+      <email>lindong136@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lindong136/Android-AlarmManagerClock.git</connection>
+    <developerConnection>https://github.com/lindong136/Android-AlarmManagerClock.git</developerConnection>
+    <url>https://github.com/lindong136/Android-AlarmManagerClock</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bigkoo</groupId>
+      <artifactId>pickerview</artifactId>
+      <version>2.0.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

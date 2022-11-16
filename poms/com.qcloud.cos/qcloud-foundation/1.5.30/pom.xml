@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qcloud.cos</groupId>
+  <artifactId>qcloud-foundation</artifactId>
+  <version>1.5.30</version>
+  <packaging>aar</packaging>
+  <name>qcloud-foundation</name>
+  <description>the core foundation for tencent cloud sdk</description>
+  <url>https://github.com/tencentyun/qcloud-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/qcloud-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chengwu</id>
+      <name>chengwu</name>
+      <email>qcloudterminal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/qcloud-sdk-android.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/qcloud-sdk-android.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/qcloud-sdk-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-tasks</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-tasks</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

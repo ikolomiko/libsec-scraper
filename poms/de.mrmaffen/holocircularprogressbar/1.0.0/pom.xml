@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.mrmaffen</groupId>
+  <artifactId>holocircularprogressbar</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>HoloCircularProgressBar</name>
+  <description>HoloCircularProgressBar is a Custom View implementation for Android you might know from the Android Clock App from Android 4.1</description>
+  <url>https://github.com/mrmaffen/android-HoloCircularProgressBar</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mrmaffen</id>
+      <name>Enno Gottschalk</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/mrmaffen/android-HoloCircularProgressBar.git</connection>
+    <developerConnection>scm:git:git://github.com/mrmaffen/android-HoloCircularProgressBar.git</developerConnection>
+    <url>https://github.com/mrmaffen/android-HoloCircularProgressBar</url>
+  </scm>
+</project>

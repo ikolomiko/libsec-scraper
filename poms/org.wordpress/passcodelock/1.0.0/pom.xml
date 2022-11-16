@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.wordpress</groupId>
+  <artifactId>passcodelock</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PasscodeLock-Android</name>
+  <description>Android Library that provides passcode lock to your app</description>
+  <url>https://github.com/wordpress-mobile/PasscodeLock-Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>daniloercoli</id>
+      <name>Danilo Ercoli</name>
+      <email>danilo@automattic.com</email>
+    </developer>
+    <developer>
+      <id>tonyr59h</id>
+      <name>Anthony Rankin</name>
+      <email>tonyr@automattic.com</email>
+    </developer>
+    <developer>
+      <id>roundhill</id>
+      <name>Dan Roundhill</name>
+      <email>dan@automattic.com</email>
+    </developer>
+    <developer>
+      <id>maxme</id>
+      <name>Maxime Biais</name>
+      <email>maxime@automattic.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/wordpress-mobile/PasscodeLock-Android.git</connection>
+    <developerConnection>scm:git:https://github.com/wordpress-mobile/PasscodeLock-Android.git</developerConnection>
+    <url>https://github.com/wordpress-mobile/PasscodeLock-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jjmoo</groupId>
+  <artifactId>appjoint-core</artifactId>
+  <version>0.4</version>
+  <packaging>aar</packaging>
+  <name>appjoint-core</name>
+  <description>This is a gradle plugin. It helps when building a modularized android application.</description>
+  <url>https://github.com/jjmoo/AndTools.git</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zohn</id>
+      <name>Zohn Peng</name>
+      <email>pengzhuo1993@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jjmoo/AndTools.git</connection>
+    <developerConnection>https://github.com/jjmoo/AndTools.git</developerConnection>
+    <url>https://github.com/jjmoo/AndTools.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

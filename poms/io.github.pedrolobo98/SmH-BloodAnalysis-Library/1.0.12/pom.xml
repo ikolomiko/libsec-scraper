@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.pedrolobo98</groupId>
+  <artifactId>SmH-BloodAnalysis-Library</artifactId>
+  <version>1.0.12</version>
+  <packaging>aar</packaging>
+  <name>SmH-BloodAnalysis-Library</name>
+  <description>A library to extract blood compounds and their concentrations from blood analysis documents (physical documents, scanned PDFs, digitally created PDFs and images).</description>
+  <url>https://github.com/pedrolobo98/SmH-BloodAnalysis-Library</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pedrolobo98</id>
+      <name>Pedro Lobo</name>
+      <email>a13294@alunos.ipca.pt</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/pedrolobo98/SmH-BloodAnalysis-Library.git</connection>
+    <developerConnection>scm:git:ssh://github.com/pedrolobo98/SmH-BloodAnalysis-Library.git</developerConnection>
+    <url>https://github.com/pedrolobo98/SmH-BloodAnalysis-Library/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>4.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-camera2</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-lifecycle</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-view</artifactId>
+      <version>1.0.0-alpha27</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-mlkit-text-recognition</artifactId>
+      <version>18.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tom-roush</groupId>
+      <artifactId>pdfbox-android</artifactId>
+      <version>2.0.17.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

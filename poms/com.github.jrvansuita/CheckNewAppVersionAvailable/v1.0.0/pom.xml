@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jrvansuita</groupId>
+  <artifactId>CheckNewAppVersionAvailable</artifactId>
+  <version>v1.0.0</version>
+  <packaging>aar</packaging>
+  <name>jrvansuita/CheckNewAppVersionAvailable</name>
+  <description>It makes a request to Play Store to check if there is a new version of your published app</description>
+  <url>https://github.com/jrvansuita/CheckNewAppVersionAvailable</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jrvansuita</id>
+      <name>Júnior Vansuita</name>
+      <email>vansuita.jr@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/jrvansuita/CheckNewAppVersionAvailable.git</connection>
+    <developerConnection>scm:git://github.com/jrvansuita/CheckNewAppVersionAvailable.git</developerConnection>
+    <url>git://github.com/jrvansuita/CheckNewAppVersionAvailable.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

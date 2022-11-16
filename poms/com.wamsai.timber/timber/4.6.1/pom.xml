@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wamsai.timber</groupId>
+  <artifactId>timber</artifactId>
+  <version>4.6.1</version>
+  <packaging>aar</packaging>
+  <name>timber</name>
+  <description>No-nonsense injectable logging.</description>
+  <url>https://github.com/WAMsAI/timber</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wamsai</id>
+      <name>Wam Sai</name>
+      <email>wamsai1096@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/WAMsAI/timber.git</connection>
+    <url>https://github.com/WAMsAI/timber</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>15.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.truth</groupId>
+      <artifactId>truth</artifactId>
+      <version>0.36</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.robolectric</groupId>
+      <artifactId>robolectric</artifactId>
+      <version>3.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

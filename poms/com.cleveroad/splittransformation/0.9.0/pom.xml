@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cleveroad</groupId>
+  <artifactId>splittransformation</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>Bitutorial</name>
+  <description>Here comes a new Android library for those who are tired of old boring image sliding in mobile apps. Bitutorial is a simple way to add a unique transition between slides. Whether your application supports a sliding tutorial or image change feature, you certainly want to create a memorable experience.</description>
+  <url>https://github.com/Cleveroad/Bitutorial</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cleveroad</id>
+      <name>Cleveroad</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Cleveroad/Bitutorial.git</connection>
+    <developerConnection>scm:git@github.com:Cleveroad/Bitutorial.git</developerConnection>
+    <url>https://github.com/Cleveroad/Bitutorial</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>gridlayout-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

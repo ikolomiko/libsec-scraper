@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ypdieguez</groupId>
+  <artifactId>cursor-recycler-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>CursorRecyclerAdapter</name>
+  <description>Library containing an adapter that exposes data from a Cursor to a RecyclerView widget.</description>
+  <url>https://github.com/ypdieguez/CursorRecyclerAdapter</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ypdieguez</id>
+      <name>Yordan P. Dieguez</name>
+      <email>ypdieguez@tuta.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ypdieguez/CursorRecyclerAdapter.git</connection>
+    <developerConnection>https://github.com/ypdieguez/CursorRecyclerAdapter.git</developerConnection>
+    <url>https://github.com/ypdieguez/CursorRecyclerAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.baloomba</groupId>
+  <artifactId>wsvolley</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>wsvolley</name>
+  <description>Google volley interface</description>
+  <url>https://github.com/baloomba/wsvolley</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>baloo</id>
+      <name>Clement BOULY</name>
+      <email>bouly.clement@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:baloomba/WSVolley.git</connection>
+    <developerConnection>scm:git@github.com:baloomba/WSVolley.git</developerConnection>
+    <url>scm:git@github.com:baloomba/WSVolley.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

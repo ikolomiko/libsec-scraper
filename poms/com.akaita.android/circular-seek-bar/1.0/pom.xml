@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.akaita.android</groupId>
+  <artifactId>circular-seek-bar</artifactId>
+  <version>1.0</version>
+
+  <name>circular-seek-bar</name>
+  <description>Simple custom Android View providing a Circular spin to SeekBars</description>
+  <url>https://github.com/akaita/CircularSeekBar</url>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>akaita</name>
+      <email>akaita@akaita.com</email>
+      <organization>Akaita</organization>
+      <organizationUrl>http://www.akaita.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com:akaita/CircularSeekBar.git</connection>
+    <developerConnection>scm:git:ssh://github.com:akaita/CircularSeekBar.git</developerConnection>
+    <url>http://github.com/akaita/CircularSeekBar/tree/master</url>
+  </scm>
+
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

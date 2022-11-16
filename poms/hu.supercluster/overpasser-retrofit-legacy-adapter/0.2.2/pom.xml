@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hu.supercluster</groupId>
+  <artifactId>overpasser-retrofit-legacy-adapter</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <name>overpasser-retrofit-legacy-adapter</name>
+  <description>Fluid Java interface to OpenStreetMap data through querying the Overpass API</description>
+  <url>https://github.com/zsoltk/overpasser</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zsoltk</id>
+      <name>Zsolt Kocsi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:zsoltk/overpasser.git</connection>
+    <developerConnection>scm:git@github.com:zsoltk/overpasser.git</developerConnection>
+    <url>https://github.com/zsoltk/overpasser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

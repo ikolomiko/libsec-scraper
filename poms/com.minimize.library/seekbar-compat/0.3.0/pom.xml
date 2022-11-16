@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.minimize.library</groupId>
+  <artifactId>seekbar-compat</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>SeekBarCompat</name>
+  <description>A material design wrapper around SeekBar widget, which draws the SeekBar with consistent colors from Android APIs 14 and above.</description>
+  <developers>
+    <developer>
+      <id>ahmedrizwan</id>
+      <name>Ahmed Rizwan</name>
+      <email>ahmedrizwan@outlook.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

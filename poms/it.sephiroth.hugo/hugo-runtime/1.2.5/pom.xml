@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.hugo</groupId>
+  <artifactId>hugo-runtime</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>Hugo Runtime</name>
+  <description>Annotation-triggered method call logging for your debug builds.</description>
+  <url>https://github.com/JakeWharton/hugo/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jakewharton</id>
+      <name>Jake Wharton</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/JakeWharton/hugo.git</connection>
+    <developerConnection>scm:git@github.com:JakeWharton/hugo.git</developerConnection>
+    <url>https://github.com/JakeWharton/hugo/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>it.sephiroth.hugo</groupId>
+      <artifactId>hugo-annotations</artifactId>
+      <version>1.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

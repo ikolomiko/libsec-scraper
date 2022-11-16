@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.delight-im</groupId>
+  <artifactId>Android-AdvancedWebView</artifactId>
+  <version>v3.2.1</version>
+  <packaging>aar</packaging>
+  <name>delight-im/Android-AdvancedWebView</name>
+  <description>Enhanced WebView component for Android that works as intended out of the box</description>
+  <url>https://github.com/delight-im/Android-AdvancedWebView</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>delight-im</id>
+      <name>delight.im</name>
+      <email>github@delight.im</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/delight-im/Android-AdvancedWebView.git</connection>
+    <developerConnection>scm:git://github.com/delight-im/Android-AdvancedWebView.git</developerConnection>
+    <url>git://github.com/delight-im/Android-AdvancedWebView.git</url>
+  </scm>
+</project>

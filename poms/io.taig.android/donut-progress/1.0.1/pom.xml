@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.taig.android</groupId>
+    <artifactId>donut-progress</artifactId>
+    <packaging>aar</packaging>
+    <description>Circular ProgressBar Widget for Android</description>
+    <url>https://github.com/taig/donutprogress</url>
+    <version>1.0.1</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://raw.githubusercontent.com/taig/donutprogress/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>DonutProgress</name>
+    <inceptionYear>2015</inceptionYear>
+    <organization>
+        <name>io.taig.android</name>
+        <url>http://taig.io</url>
+    </organization>
+    <scm>
+        <url>https://github.com/taig/donutprogress</url>
+        <connection>scm:git:git://github.com/taig/donutprogress.git</connection>
+        <developerConnection>scm:git:git@github.com:taig/donutprogress.git</developerConnection>
+    </scm>
+    <issueManagement>
+        <url>https://github.com/taig/donutprogress/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+    <developers>
+        <developer>
+            <id>Taig</id>
+            <name>Niklas Klein</name>
+            <email>mail@taig.io</email>
+            <url>http://taig.io/</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.android.support</groupId>
+            <artifactId>appcompat-v7</artifactId>
+            <version>23.1.0</version>
+        </dependency>
+    </dependencies>
+</project>

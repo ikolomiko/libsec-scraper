@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.admixer.sdk.mediation</groupId>
+  <artifactId>facebook</artifactId>
+  <version>1.3.0.0</version>
+  <packaging>aar</packaging>
+  <name>Admixer SDK</name>
+  <description>Admixer Android SDK</description>
+  <url>https://admixer.visualstudio.com/_git/AdmixerSDKExamples</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Admixer Mobile Team</name>
+      <email>mobileteam@admixer.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://admixer.visualstudio.com/_git/AdmixerSDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>audience-network-sdk</artifactId>
+      <version>6.2.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.admixer.sdk</groupId>
+      <artifactId>sdk</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

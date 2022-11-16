@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.maiml.wxrecodervideo</groupId>
+  <artifactId>wechatRecoderVideoLibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>wx recoder video</name>
+  <url>https://github.com/maimingliang/WxRecoderVideo</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maimingliang</id>
+      <name>maimingliang</name>
+      <email>maimingliang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/maimingliang/WxRecoderVideo.git</connection>
+    <developerConnection>https://github.com/maimingliang/WxRecoderVideo.git</developerConnection>
+    <url>https://github.com/maimingliang/WxRecoderVideo</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>Wx</groupId>
+      <artifactId>vitamioRecorderLibrary</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

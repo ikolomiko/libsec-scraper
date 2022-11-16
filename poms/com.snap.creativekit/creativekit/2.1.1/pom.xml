@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snap.creativekit</groupId>
+  <artifactId>creativekit</artifactId>
+  <version>2.1.1</version>
+  <packaging>aar</packaging>
+  <name>CreativeKit</name>
+  <description>CreativeKit allows your community to share content from your app or website with their friends on Snapchat.</description>
+  <url>https://kit.snapchat.com/creative-kit</url>
+  <licenses>
+    <license>
+      <name>Snap Kit License</name>
+      <url>https://kit.snapchat.com/licenses/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snap</id>
+      <name>Snap, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Snapchat/creative-kit-sample.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Snapchat/creative-kit-sample.git</developerConnection>
+    <url>https://github.com/Snapchat/creative-kit-sample</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.snap.corekit</groupId>
+      <artifactId>corekit</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lufengwen</groupId>
+  <artifactId>android-pulltorefresh</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>android-pulltorefresh</name>
+  <description>provide a solution for pull to refresh on android.</description>
+  <url>https://github.com/lufengwen/android-pulltorefresh</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lufengwen</id>
+      <name>lufengwen</name>
+      <email>lufengwen@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lufengwen/android-pulltorefresh.git</connection>
+    <developerConnection>https://github.com/lufengwen/android-pulltorefresh.git</developerConnection>
+    <url>https://github.com/lufengwen/android-pulltorefresh</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.olekdia</groupId>
+  <artifactId>drag-sort-listview</artifactId>
+  <version>3.0.5</version>
+  <packaging>aar</packaging>
+  <name>DragSortListView</name>
+  <description>Android ListView with drag and drop reordering. Fork of https://github.com/bauerca/drag-sort-listview</description>
+  <url>https://gitlab.com/olekdia/common/libraries/drag-sort-listview</url>
+  <organization>
+    <name>olekdia</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olekdia</id>
+      <name>Oleksandr Albul</name>
+      <email>abdula.ua@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/olekdia/common/libraries/drag-sort-listview.git</connection>
+    <developerConnection>https://gitlab.com/olekdia/common/libraries/drag-sort-listview.git</developerConnection>
+    <url>https://gitlab.com/olekdia/common/libraries/drag-sort-listview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.schoolhelper</groupId>
+  <artifactId>graphextension</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>AndroidGraphExtension</name>
+  <description>A library for more easy work canvas.</description>
+  <url>https://github.com/schoolhelper/androidgraphextension</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jordan1997</id>
+      <name>Vova Stelmashchuk</name>
+      <email>vovochkastelmashchuk@gmail.com</email>
+      <roles>
+        <role>Software Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:schoolhelper/androidgraphextension.git</connection>
+    <developerConnection>scm:git@github.com:schoolhelper/androidgraphextension.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/schoolhelper/androidgraphextension</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.31</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

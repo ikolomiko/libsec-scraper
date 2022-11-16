@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.gauriinfotech</groupId>
+  <artifactId>rest-client</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>RestClient</name>
+  <description>A library to make rest calls with image upload functionality</description>
+  <url>https://github.com/nirranjanraut/RestClient</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nirranjanraut</id>
+      <name>Niranjan Raut</name>
+      <email>nirranjan.raut@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nirranjanraut/restclient.git</connection>
+    <developerConnection>https://github.com/nirranjanraut/restclient.git</developerConnection>
+    <url>https://github.com/nirranjanraut/RestClient</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.3.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

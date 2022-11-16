@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qwasi</groupId>
+  <artifactId>QwasiJson</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>QwasiJson</name>
+  <description>Json libray to access Qwasi API</description>
+  <url>https://github.com/Qwasi</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ccoulton</id>
+      <name>Charles Coulton</name>
+      <email>charles.coulton@qwasi.com</email>
+    </developer>
+    <developer>
+      <name>Rob Rodriguez</name>
+      <email>rob.rodriguez@qwasi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:qwasi/android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:qwasi/android-sdk.git</developerConnection>
+    <url>https://github.com/qwasi/android-sdk</url>
+  </scm>
+</project>

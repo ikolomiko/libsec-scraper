@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.restcomm</groupId>
+  <artifactId>restcomm-android-sdk</artifactId>
+  <version>1.0.0-BETA6-55</version>
+  <packaging>aar</packaging>
+  <name>Restcomm Android SDK</name>
+  <description>Android Webrtc SDK to easily integrate communication/collaboration features into native Apps.</description>
+  <url>https://github.com/RestComm/restcomm-android-sdk</url>
+  <licenses>
+    <license>
+      <name>GNU Affero General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/agpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>atsakiridis</id>
+      <name>Antonis Tsakiridis</name>
+      <email>antonis.tsakiridis@telestax.com</email>
+      <organization>org.apache.maven.model.Organization@4245bf68</organization>
+      <organizationUrl>http://www.telestax.com</organizationUrl>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Arslan Mehboob</name>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:git:https://github.com/RestComm/restcomm-android-sdk</connection>
+    <developerConnection>scm:git:https://github.com/RestComm/restcomm-android-sdk</developerConnection>
+    <url>https://github.com/RestComm/restcomm-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.restcomm.android</groupId>
+      <artifactId>libwebrtc</artifactId>
+      <version>1.0.0-beta5-16765</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.sip</groupId>
+      <artifactId>android-jain-sip-ri</artifactId>
+      <version>1.2.293</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>core</artifactId>
+      <version>1.54.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>prov</artifactId>
+      <version>1.54.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>pkix</artifactId>
+      <version>1.54.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

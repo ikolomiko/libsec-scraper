@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.simpleton</groupId>
+  <artifactId>tkclient</artifactId>
+  <version>0.3.6</version>
+  <packaging>aar</packaging>
+  <name>tinkerpatch-sdk</name>
+  <description>TinkerPatch SDK</description>
+  <url>https://github.com/TinkerPatch/tinkerpatch-sdk</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simsun</id>
+      <name>Shengjie Sun</name>
+      <email>sunsj1231@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TinkerPatch/tinkerpatch-sdk.git</connection>
+    <developerConnection>https://github.com/TinkerPatch/tinkerpatch-sdk.git</developerConnection>
+    <url>https://github.com/TinkerPatch/tinkerpatch-sdk</url>
+  </scm>
+</project>

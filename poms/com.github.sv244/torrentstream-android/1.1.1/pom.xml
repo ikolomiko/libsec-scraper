@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.sv244</groupId>
+  <artifactId>torrentstream-android</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>TorrentStream-Android</name>
+  <description>Android Torrent Streaming library</description>
+  <url>https://github.com/sv244/TorrentStream-Android</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 3.0</name>
+      <url>www.gnu.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sv244</id>
+      <name>sv244</name>
+      <email>sv244@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sv244/TorrentStream-Android.git</connection>
+    <developerConnection>scm:git@github.com:sv244/TorrentStream-Android.git</developerConnection>
+    <url>https://github.com/sv244/TorrentStream-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-x86_64</artifactId>
+      <version>1.1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-arm</artifactId>
+      <version>1.1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-x86</artifactId>
+      <version>1.1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent-android-arm64</artifactId>
+      <version>1.1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.frostwire</groupId>
+      <artifactId>jlibtorrent</artifactId>
+      <version>1.1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

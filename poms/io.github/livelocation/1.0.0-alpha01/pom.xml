@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github</groupId>
+  <artifactId>livelocation</artifactId>
+  <version>1.0.0-alpha01</version>
+  <packaging>aar</packaging>
+  <name>LiveLocation</name>
+  <description>An Android lifecycle-aware location library</description>
+  <url>https://github.com/AryanNajafi/livelocation</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Aryan Najafi</name>
+      <email>aryannjfi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AryanNajafi/livelocation.git</connection>
+    <url>https://github.com/AryanNajafi/livelocation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-livedata-core</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>17.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

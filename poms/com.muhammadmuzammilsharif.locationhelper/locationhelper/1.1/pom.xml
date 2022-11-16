@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.muhammadmuzammilsharif.locationhelper</groupId>
+  <artifactId>locationhelper</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>locationhelper</name>
+  <description>A helper for getting location service in activity or fragment by just extending it and make some easy steps</description>
+  <url>https://mmuzammilsharif.5gbree.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>muhammadmuzammilsharif</id>
+      <name>Muhammad Muzammil Sharif</name>
+      <email>muzammilsharif5319@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MuhammadMuzammilSharif/LocationDemo</connection>
+    <developerConnection>https://github.com/MuhammadMuzammilSharif/LocationDemo</developerConnection>
+    <url>https://mmuzammilsharif.5gbree.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

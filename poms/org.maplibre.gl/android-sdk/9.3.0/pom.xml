@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.maplibre.gl</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>9.3.0</version>
+  <packaging>aar</packaging>
+  <organization>
+    <name>MapLibre</name>
+    <url>https://maplibre.org/</url>
+  </organization>
+  
+
+  <dependencies>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-telemetry</artifactId>
+      <version>5.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-sdk-geojson</artifactId>
+      <version>5.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-gestures</artifactId>
+      <version>0.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-accounts</artifactId>
+      <version>0.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-sdk-turf</artifactId>
+      <version>5.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>MapLibre Maps SDK for Android</name>
+  <description>MapLibre Maps SDK for Android</description>
+  <url>https://github.com/maptiler/maplibre-gl-native</url>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>https://opensource.org/licenses/BSD-2-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maplibre</id>
+      <name>MapLibre</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git
+github.com:maptiler/maplibre-gl-native.git</connection>
+    <developerConnection>scm:git
+github.com:maptiler/maplibre-gl-native.git</developerConnection>
+    <url>https://github.com/maptiler/maplibre-gl-native</url>
+  </scm>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.metarouter.analytics</groupId>
+  <artifactId>analytics</artifactId>
+  <version>4.5.0-beta.1</version>
+  <name>Metarouter Android Analytics</name>
+  <description>The hassle-free way to add analytics to your Android app.</description>
+  <url>http://github.com/super-collider/analytics-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>metarouter</id>
+      <name>Metarouter, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/super-collider/analytics-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/super-collider/analytics-android.git</developerConnection>
+    <url>http://github.com/super-collider/analytics-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

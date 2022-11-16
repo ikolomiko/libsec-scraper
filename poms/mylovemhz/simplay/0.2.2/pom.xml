@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mylovemhz</groupId>
+  <artifactId>simplay</artifactId>
+  <version>0.2.2</version>
+  <packaging>aar</packaging>
+  <name>Simplay is a simple, reusable API for implementing audio playback applications on Android. It is a layer of abstraction above Android's MediaSession API.
+
+By using the MusicService and the optional MediaControlFragment, Simplay allows you to easily stream audio without worrying about the cumbersome MediaPlayer API.</name>
+  <url>https://github.com/allanpichardo/Simplay</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1</id>
+      <name>Allan Pichardo</name>
+      <email>allan.pichardo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/allanpichardo/Simplay.git</connection>
+    <developerConnection>https://github.com/allanpichardo/Simplay.git</developerConnection>
+    <url>https://github.com/allanpichardo/Simplay</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

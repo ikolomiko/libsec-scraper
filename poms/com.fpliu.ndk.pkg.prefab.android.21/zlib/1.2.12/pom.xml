@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>zlib</artifactId>
+    <version>1.2.12</version>
+    <packaging>aar</packaging>
+
+    <name>zlib</name>
+    <description>General-purpose lossless data-compression library</description>
+    <url>https://zlib.net</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/madler/zlib.git</connection>
+        <developerConnection>scm:git:https://github.com/madler/zlib.git</developerConnection>
+        <url>https://github.com/madler/zlib.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Jean-loup Gailly</name>
+            <email>jloup@gailly.net</email>
+            <organization>zlib</organization>
+            <organizationUrl>https://zlib.net</organizationUrl>
+        </developer>
+        <developer>
+            <name>Mark Adler</name>
+            <email>madler@alumni.caltech.edu</email>
+            <organization>zlib</organization>
+            <organizationUrl>https://zlib.net</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Zlib</name>
+            <url>https://raw.githubusercontent.com/spdx/license-list-data/master/text/Zlib.txt</url>
+        </license>
+    </licenses>
+</project>

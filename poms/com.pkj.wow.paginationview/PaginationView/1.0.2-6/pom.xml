@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pkj.wow.paginationview</groupId>
+  <artifactId>PaginationView</artifactId>
+  <version>1.0.2-6</version>
+  <packaging>aar</packaging>
+  <name>PaginationView</name>
+  <description>Pagination view for Android to show large amount of data just like database paginator.</description>
+  <url>https://github.com/pkjvit/PaginationView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pkjvit</id>
+      <name>Pankaj Jangid</name>
+      <email>pkjvit@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pkjvit/PaginationView.git</connection>
+    <developerConnection>https://github.com/pkjvit/PaginationView.git</developerConnection>
+    <url>https://github.com/pkjvit/PaginationView</url>
+  </scm>
+</project>

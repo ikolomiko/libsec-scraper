@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.roc-streaming.roctoolkit.testing</groupId>
+  <artifactId>roc-android</artifactId>
+  <version>0.0.1-alpha3</version>
+  <packaging>aar</packaging>
+  <name>roc-android</name>
+  <description>Android library for Roc Toolkit</description>
+  <url>https://github.com/roc-streaming/roc-java</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>abushmin</id>
+      <name>Andrey Bushmin</name>
+      <email>diskbu@yandex.ru</email>
+    </developer>
+    <developer>
+      <id>gavv</id>
+      <name>Victor Gaydov</name>
+      <email>victor@enise.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/roc-streaming/roc-java.git</connection>
+    <developerConnection>scm:git:ssh://github.com:roc-streaming/roc-java.git</developerConnection>
+    <url>https://github.com/roc-streaming/roc-java</url>
+  </scm>
+</project>

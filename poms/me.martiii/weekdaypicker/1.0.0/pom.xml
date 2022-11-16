@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.martiii</groupId>
+  <artifactId>weekdaypicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Weekday Picker</name>
+  <description>Weekday picker view for Android</description>
+  <url>https://github.com/martialonso/weekday-picker</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>martialonso</id>
+      <name>Marti Alonso</name>
+      <email>martialonso11@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:svn:https://github.com/martialonso/weekday-picker/</connection>
+    <developerConnection>scm:svn:https://github.com/martialonso/weekday-picker/</developerConnection>
+    <url>https://github.com/martialonso/weekday-picker/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

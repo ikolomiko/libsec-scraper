@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.pubnative</groupId>
+  <artifactId>advertising_id_client</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>advertising_id_client</name>
+  <description>Pubnative API library for Android</description>
+  <url>http://www.pubnative.net</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cerberillo</id>
+      <name>David Martin</name>
+      <email>david@martinmacias.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pubnative/pubnative-android-library.git</connection>
+    <developerConnection>https://github.com/pubnative/pubnative-android-library.git</developerConnection>
+    <url>https://github.com/pubnative/pubnative-android-library</url>
+  </scm>
+</project>

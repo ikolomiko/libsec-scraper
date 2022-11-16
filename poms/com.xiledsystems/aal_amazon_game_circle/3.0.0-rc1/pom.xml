@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xiledsystems</groupId>
+  <artifactId>aal_amazon_game_circle</artifactId>
+  <version>3.0.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>AAL Amazon Game Circle Module</name>
+  <description>A generic library for android app building.</description>
+  <url>https://bitbucket.org/RyanBis/aal-android-studio</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ryanbis</id>
+      <name>Ryan Bis</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:RyanBis/aal-android-studio.git</connection>
+    <developerConnection>scm:git@bitbucket.org:RyanBis/aal-android-studio.git</developerConnection>
+    <url>scm:git@bitbucket.org:RyanBis/aal-android-studio.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.xiledsystems</groupId>
+      <artifactId>aal_game_circle_sdk</artifactId>
+      <version>3.0.0-rc1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.xiledsystems</groupId>
+      <artifactId>aal</artifactId>
+      <version>3.0.0-rc1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.firebase</groupId>
+  <artifactId>firebase-analytics-ktx</artifactId>
+  <version>21.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-analytics</artifactId>
+      <version>21.1.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-common</artifactId>
+      <version>20.1.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-common-ktx</artifactId>
+      <version>20.1.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-components</artifactId>
+      <version>17.0.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.50</version>
+      <scope>compile</scope>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+  <name>firebase-analytics-ktx</name>
+  <licenses>
+    <license>
+      <name>Android Software Development Kit License</name>
+      <url>https://developer.android.com/studio/terms.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

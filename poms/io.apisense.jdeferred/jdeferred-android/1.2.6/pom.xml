@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.apisense.jdeferred</groupId>
+  <artifactId>jdeferred-android</artifactId>
+  <version>1.2.6</version>
+  <packaging>aar</packaging>
+  <name>jdeferred-android</name>
+  <description>Use JDeferred in Android while dispatching callbacks in UI thread and/or Background thread.</description>
+  <url>https://github.com/jdeferred/jdeferred</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saturnism</id>
+      <name>Ray Tsang</name>
+    </developer>
+    <developer>
+      <id>aalmiray</id>
+      <name>Andres Almiray</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jdeferred/jdeferred.git</connection>
+    <developerConnection>scm:git:https://github.com/jdeferred/jdeferred</developerConnection>
+    <url>https://github.com/jdeferred/jdeferred</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.apisense.jdeferred</groupId>
+      <artifactId>jdeferred-core</artifactId>
+      <version>1.2.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

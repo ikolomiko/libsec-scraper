@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.omkar.utility</groupId>
+  <artifactId>opermission</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>opermission</name>
+  <description>Android utility library to ease in asking run-time permission for API over 23 i.e. Marshmallows.</description>
+  <url>https://github.com/omtodkar/opermissions</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omtodkar</id>
+      <name>Omkar Todkar</name>
+      <email>omtodkar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/omtodkar/opermissions.git</connection>
+    <developerConnection>https://github.com/omtodkar/opermissions.git</developerConnection>
+    <url>https://github.com/omtodkar/opermissions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

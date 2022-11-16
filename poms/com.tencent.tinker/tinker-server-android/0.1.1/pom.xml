@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.tinker</groupId>
+  <artifactId>tinker-server-android</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>tinker-server-android</name>
+  <description>A server client for tencent tinker hot patch</description>
+  <url>https://github.com/simpleton/tinker_server_client</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simsun</id>
+      <name>Shengjie Sun</name>
+      <email>sunsj1231@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/simpleton/tinker_server_client.git</connection>
+    <developerConnection>https://github.com/simpleton/tinker_server_client.git</developerConnection>
+    <url>https://github.com/simpleton/tinker_server_client</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>tinker-android-lib</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>tinker-android-loader</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>aosp-dexutils</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>bsdiff-util</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>tinker-commons</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pandaos</groupId>
+  <artifactId>bambooplayer</artifactId>
+  <version>0.1.8</version>
+  <packaging>aar</packaging>
+  <name>bambooplayer</name>
+  <description>The Bamboo Player SDK. Use this library to embed the Bamboo Video Player in your app.</description>
+  <url>https://bitbucket.org/pandaos/bamboo-player-android</url>
+  <licenses>
+    <license>
+      <name>GPL 3.0</name>
+      <url>http://www.opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>orenk86</id>
+      <name>Oren Kosto</name>
+      <email>oren@panda-os.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/pandaos/bamboo-player-android.git</connection>
+    <developerConnection>https://bitbucket.org/pandaos/bamboo-player-android.git</developerConnection>
+    <url>https://bitbucket.org/pandaos/bamboo-player-android</url>
+  </scm>
+</project>

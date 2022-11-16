@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.miguelbcr</groupId>
+  <artifactId>RxPaparazzo</artifactId>
+  <version>0.4.0.-2.x</version>
+  <packaging>aar</packaging>
+  <name>miguelbcr/RxPaparazzo</name>
+  <description>RxJava extension for Android to take images using camera and gallery</description>
+  <url>https://github.com/miguelbcr/RxPaparazzo</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>miguelbcr</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/miguelbcr/RxPaparazzo.git</connection>
+    <developerConnection>scm:git://github.com/miguelbcr/RxPaparazzo.git</developerConnection>
+    <url>git://github.com/miguelbcr/RxPaparazzo.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.VictorAlbertos</groupId>
+      <artifactId>RxActivityResult</artifactId>
+      <version>0.4.0-2.x</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tbruyelle.rxpermissions2</groupId>
+      <artifactId>rxpermissions</artifactId>
+      <version>0.8.2</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.yalantis</groupId>
+      <artifactId>ucrop</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

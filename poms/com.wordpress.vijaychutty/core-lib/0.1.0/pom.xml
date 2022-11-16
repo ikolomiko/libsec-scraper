@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wordpress.vijaychutty</groupId>
+  <artifactId>core-lib</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>pom</name>
+  <description>A application used as an example on how to set up pushing  its components to the Central Repository.</description>
+  <url>https://github.com/git1988/MavenTest</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vijaychutty</id>
+      <name>vijay</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/git1988/MavenTest.git</connection>
+    <developerConnection>https://github.com/git1988/MavenTest.git</developerConnection>
+    <url>https://github.com/git1988/MavenTest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

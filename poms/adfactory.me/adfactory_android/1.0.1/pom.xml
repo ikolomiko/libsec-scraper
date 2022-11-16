@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>adfactory.me</groupId>
+  <artifactId>adfactory_android</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>adfactory_android</name>
+  <description>"Full Stack Video Platform"</description>
+  <url>"http://adfactory.me"</url>
+  <licenses>
+    <license>
+      <name>"Apache-2.0"</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adfactory</id>
+      <name>adfactory</name>
+      <email>info@adfactory.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>"http://adfactory.me"</connection>
+    <developerConnection>"http://adfactory.me"</developerConnection>
+    <url>"http://adfactory.me"</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.ads.interactivemedia.v3</groupId>
+      <artifactId>interactivemedia</artifactId>
+      <version>3.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>9.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

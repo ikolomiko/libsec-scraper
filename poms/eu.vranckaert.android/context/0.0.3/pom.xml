@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.vranckaert.android</groupId>
+  <artifactId>context</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>Android Context Utils</name>
+  <description>Basic Android Context-based utils to use a BaseActivity (or BaseMenuActivity) to keep your boiler plate code together in the super class. Also a full implementaiton of the Lolipop styled sliding menu.</description>
+  <url>https://bitbucket.org/dirkvranckaert/android-framework</url>
+  <licenses>
+    <license>
+      <name>General Public License, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dirkvranckaert</id>
+      <name>Dirk Vranckaert</name>
+      <email>dirkvranckaert@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/dirkvranckaert/android-framework.git</connection>
+    <developerConnection>https://bitbucket.org/dirkvranckaert/android-framework.git</developerConnection>
+    <url>https://bitbucket.org/dirkvranckaert/android-framework</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>eu.vranckaert.android</groupId>
+      <artifactId>widget</artifactId>
+      <version>0.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v14</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

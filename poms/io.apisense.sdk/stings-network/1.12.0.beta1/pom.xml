@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.apisense.sdk</groupId>
+  <artifactId>stings-network</artifactId>
+  <version>1.12.0.beta1</version>
+  <packaging>aar</packaging>
+  <name>APISENSE Android Stings, network module</name>
+  <description>Stings measuring network QoS &amp; QoE.</description>
+  <url>https://apisense.io</url>
+  <licenses>
+    <license>
+      <name>Non-Commercial License Agreement for APISENSE</name>
+      <url>http://docs.apisense.com/en/1.12.0.beta1/license.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aveuiller</id>
+      <name>Antoine Veuiller</name>
+      <email>aveuiller@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://apisforge.inria.fr/sdk/apisense-android-sdk.git</connection>
+    <developerConnection>scm:git:https://apisforge.inria.fr/sdk/apisense-android-sdk</developerConnection>
+    <url>https://apisforge.inria.fr/sdk/apisense-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.apisense.sdk</groupId>
+      <artifactId>apisense-android-sdk</artifactId>
+      <version>1.12.0.beta1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.apisense.network</groupId>
+      <artifactId>android-network-measures</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

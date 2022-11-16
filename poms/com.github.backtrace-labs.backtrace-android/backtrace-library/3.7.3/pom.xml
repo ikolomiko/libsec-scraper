@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.backtrace-labs.backtrace-android</groupId>
+  <artifactId>backtrace-library</artifactId>
+  <version>3.7.3</version>
+  <packaging>aar</packaging>
+  <name>Backtrace-library</name>
+  <description>Backtrace's integration with Android applications written in Java allows customers to capture and report handled and unhandled java exceptions.</description>
+  <url>https://github.com/backtrace-labs/backtrace-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BartoszLitwiniuk</id>
+      <name>Bartosz Litwiniuk</name>
+    </developer>
+    <developer>
+      <id>KonradDysput</id>
+      <name>Konrad Dysput</name>
+    </developer>
+    <developer>
+      <id>vlussenburg</id>
+      <name>Vincent Lussenburg</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:backtrace-labs/backtrace-android.git</connection>
+    <developerConnection>scm:git@github.com:backtrace-labs/backtrace-android.git</developerConnection>
+    <url>https://github.com/backtrace-labs/backtrace-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>tape</artifactId>
+      <version>1.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

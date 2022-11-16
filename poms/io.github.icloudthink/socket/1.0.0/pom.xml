@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.icloudthink</groupId>
+  <artifactId>socket</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>socket</name>
+  <description>Kotlin extensions for Android's project libraries.</description>
+  <url>https://github.com/julystars/Libraries</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>icloudthink</id>
+      <name>icloudthink</name>
+      <email>developer@cloudthink.net.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/icloudthink/library.git</connection>
+    <developerConnection>scm:git:ssh://github.com/icloudthink/library.git</developerConnection>
+    <url>https://github.com/icloudthink/library/tree/main</url>
+  </scm>
+  <dependencies/>
+</project>

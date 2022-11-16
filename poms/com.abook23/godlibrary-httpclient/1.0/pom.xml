@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.abook23</groupId>
+  <artifactId>godlibrary-httpclient</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>godlibrary-httpclient</name>
+  <url>https://github.com/abook23/GodLibrary/tree/master/godlibrary-httpclient</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>abook23</id>
+      <name>abook23</name>
+      <email>abook23@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/abook23/GodLibrary.git</connection>
+    <developerConnection>https://github.com/abook23/GodLibrary.git</developerConnection>
+    <url>https://github.com/abook23/GodLibrary/tree/master/godlibrary-httpclient</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.abook23</groupId>
+      <artifactId>god-http</artifactId>
+      <version>1.1.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

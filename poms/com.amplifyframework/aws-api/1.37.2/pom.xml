@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amplifyframework</groupId>
+  <artifactId>aws-api</artifactId>
+  <version>1.37.2</version>
+  <packaging>aar</packaging>
+  <name>Amplify Framework for Android - API</name>
+  <description>Amplify Framework for Android - API Plugin for REST and GraphQL</description>
+  <url>https://github.com/aws-amplify/amplify-android</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://aws.amazon.com/apache2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazonwebservices</id>
+      <organizationUrl>http://aws.amazon.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/aws-amplify/amplify-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aws-amplify/amplify-android.git</developerConnection>
+    <url>https://github.com/aws-amplify/amplify-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.amplifyframework</groupId>
+      <artifactId>core</artifactId>
+      <version>1.37.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amplifyframework</groupId>
+      <artifactId>aws-api-appsync</artifactId>
+      <version>1.37.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-auth-core</artifactId>
+      <version>2.51.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-mobile-client</artifactId>
+      <version>2.51.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

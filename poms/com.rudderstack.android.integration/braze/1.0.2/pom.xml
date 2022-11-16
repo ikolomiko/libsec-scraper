@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rudderstack.android.integration</groupId>
+  <artifactId>braze</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Rudder-Integration-Braze-Android</name>
+  <description>RudderStack's Native SDK Integration support for Braze.</description>
+  <url>https://github.com/rudderlabs/rudder-integration-braze-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/rudderlabs/rudder-integration-braze-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>desusai7</id>
+      <name>Desu Sai Venkat</name>
+      <email>venkat@rudderstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/rudderlabs/rudder-integration-braze-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:rudderlabs/rudder-integration-braze-android.git</developerConnection>
+    <url>https://github.com/rudderlabs/rudder-integration-braze-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.appboy</groupId>
+      <artifactId>android-sdk-ui</artifactId>
+      <version>13.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

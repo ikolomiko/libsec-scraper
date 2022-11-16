@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.foolish314159</groupId>
+  <artifactId>mediaplayerview</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>MediaPlayerView</name>
+  <description>Android widget for audio playback</description>
+  <url>https://github.com/foolish314159/MediaPlayerView</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/foolish314159/MediaPlayerView/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>foolish314159</id>
+      <name>Thomas B</name>
+      <email>foolish1337@gmx.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/foolish314159/MediaPlayerView.git</connection>
+    <developerConnection>https://github.com/foolish314159/MediaPlayerView.git</developerConnection>
+    <url>https://github.com/foolish314159/MediaPlayerView</url>
+  </scm>
+</project>

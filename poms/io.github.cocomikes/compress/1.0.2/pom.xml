@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.cocomikes</groupId>
+  <artifactId>compress</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>compress</name>
+  <description>library tools for mikes usage</description>
+  <url>https://github.com/cocomikes/tools</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikes_2012</id>
+      <name>mikes</name>
+      <email>mikes_2012@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:cocomikes/tools.git</connection>
+    <developerConnection>git@github.com:cocomikes/tools.git</developerConnection>
+    <url>https://github.com/cocomikes/tools/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

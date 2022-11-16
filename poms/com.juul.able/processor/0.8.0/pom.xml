@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.juul.able</groupId>
+  <artifactId>processor</artifactId>
+  <version>0.8.0</version>
+  <packaging>aar</packaging>
+  <name>Able Processor</name>
+  <description>Provides a Kotlin Coroutines powered interaction with Android's Bluetooth Low Energy (BLE) framework.</description>
+  <url>https://github.com/JuulLabs-OSS/able</url>
+  <licenses>
+    <license />
+  </licenses>
+  <developers>
+    <developer>
+      <id>travis.wyatt</id>
+      <name>Travis Wyatt</name>
+      <url>https://github.com/twyatt</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/JuulLabs-OSS/able.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/JuulLabs-OSS/able.git</developerConnection>
+    <url>https://github.com/JuulLabs-OSS/able</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.juul.able</groupId>
+      <artifactId>core</artifactId>
+      <version>0.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

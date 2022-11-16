@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.run.test</groupId>
+  <artifactId>mylibrary</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Yun Android</name>
+  <description>My First maven lib</description>
+  <url>https://www.baidu.com</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yun</id>
+      <name>WhiteYun</name>
+      <email>whiterunyun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://www.baidu.com</connection>
+    <developerConnection>https://www.baidu.com</developerConnection>
+    <url>https://www.baidu.com</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appdev360.jcentersample</groupId>
+  <artifactId>mysamplelibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>JCenterSampleLibrary</name>
+  <description>A sample library to upload to JCenter and Maven for Training</description>
+  <url>https://github.com/umarjaved990/JCenterSample</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>umarjaved990</id>
+      <name>Umar Javed</name>
+      <email>engr.umar666@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/umarjaved990/JCenterSample.git</connection>
+    <developerConnection>https://github.com/umarjaved990/JCenterSample.git</developerConnection>
+    <url>https://github.com/umarjaved990/JCenterSample</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

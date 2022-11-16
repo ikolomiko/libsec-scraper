@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.ene.kohii</groupId>
+  <artifactId>kohii</artifactId>
+  <version>1.0.0.2802-ALPHA1</version>
+  <packaging>aar</packaging>
+  <name>Kohii</name>
+  <description>Media playback made easy, built for Android</description>
+  <url>https://github.com/eneim/kohii/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>eneim</id>
+      <name>Eneim Labs</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/eneim/kohii.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/eneim/kohii.git</developerConnection>
+    <url>https://github.com/eneim/kohii/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.2.51</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer</artifactId>
+      <version>2.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.51</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.alshakib.ext</groupId>
+  <artifactId>ext</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>Extensions</name>
+  <description>Extensions is a collection of helpers for accessing features in Android Application.</description>
+  <url>https://github.com/AlShakib/Extensions</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/AlShakib/Extensions/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlShakib</id>
+      <name>Al Shakib</name>
+      <email>shakib@alshakib.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlShakib/Extensions.git</connection>
+    <developerConnection>https://github.com/AlShakib/Extensions.git</developerConnection>
+    <url>https://github.com/AlShakib/Extensions/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-runtime</artifactId>
+      <version>2.3.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

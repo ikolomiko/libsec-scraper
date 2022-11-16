@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.batch.android</groupId>
+  <artifactId>sdk-segment-integration</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Batch.com Android Segment SDK Integration</name>
+  <description>Batch.com's Segment SDK Integration main artifact</description>
+  <url>https://batch.com</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>batch-tech</id>
+      <name>Batch.com Tech</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/BatchLabs/android-segment-integration.git</connection>
+    <developerConnection>scm:git:https://github.com/BatchLabs/android-segment-integration.git</developerConnection>
+    <url>https://github.com/BatchLabs/android-segment-integration</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.batch.android</groupId>
+      <artifactId>batch-sdk</artifactId>
+      <version>1.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

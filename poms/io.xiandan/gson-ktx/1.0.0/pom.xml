@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.xiandan</groupId>
+  <artifactId>gson-ktx</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>gson-ktx</name>
+  <description>一组对JSONObject、JSONArray、Gson的Koltin扩展</description>
+  <url>https://github.com/xiandanin/json-ktx</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xiandanin</id>
+      <name>xiandanin</name>
+      <email>denghahae@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/xiandanin/json-ktx</connection>
+    <developerConnection>scm:git:https://github.com/xiandanin/json-ktx</developerConnection>
+    <url>https://github.com/xiandanin/json-ktx</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.groupon.android.feature-adapter</groupId>
+  <artifactId>feature-adapter-rx</artifactId>
+  <version>2.1.1</version>
+  <packaging>aar</packaging>
+  <name>Feature adapter rx</name>
+  <description>'Rx 1 main artifact for Feature Adapter'</description>
+  <url>https://github.com/groupon/FeatureAdapter.git</url>
+  <licenses>
+    <license>
+      <name>Apache V2</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Groupon</id>
+      <name>Groupon</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/groupon/FeatureAdapter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/groupon/FeatureAdapter.git </developerConnection>
+    <url>https://github.com/groupon/FeatureAdapter.git </url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.groupon.android.feature-adapter</groupId>
+      <artifactId>feature-adapter</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

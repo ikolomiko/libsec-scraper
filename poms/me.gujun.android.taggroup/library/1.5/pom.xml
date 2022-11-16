@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.gujun.android.taggroup</groupId>
+  <artifactId>library</artifactId>
+  <version>1.5</version>
+  <packaging>aar</packaging>
+  <name>Android TagGroup Library</name>
+  <description>Android Library to display a set of tags</description>
+  <url>https://github.com/2dxgujun/AndroidTagGroup</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>2dxgujun</id>
+      <name>Jun Gu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/2dxgujun/AndroidTagGroup.git</connection>
+    <developerConnection>scm:https://github.com/2dxgujun/AndroidTagGroup.git</developerConnection>
+    <url>https://github.com/2dxgujun/AndroidTagGroup</url>
+  </scm>
+</project>

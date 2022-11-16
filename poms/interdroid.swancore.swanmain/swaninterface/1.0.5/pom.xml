@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>interdroid.swancore.swanmain</groupId>
+  <artifactId>swaninterface</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>SwanInterface</name>
+  <description>SWAN interface to communicate with Swan App</description>
+  <url>https://github.com/swandroid/swan-sense-studio</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swan</id>
+      <name>Swan Project</name>
+      <email>swanlakeproject@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/swandroid/swan-sense-studio.git</connection>
+    <developerConnection>https://github.com/swandroid/swan-sense-studio.git</developerConnection>
+    <url>https://github.com/swandroid/swan-sense-studio</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>interdroid.swancore.swansong</groupId>
+      <artifactId>swansong</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

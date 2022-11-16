@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>oss-parent</artifactId>
+    <groupId>org.sonatype.oss</groupId>
+    <version>7</version>
+  </parent>
+  <groupId>nl.littlerobots.bean</groupId>
+  <artifactId>beanlib</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>Beanlib</name>
+  <description>Unofficial SDK to work with the Punch Through Design Bean hardware on Android</description>
+  <url>https://bitbucket.org/littlerobots/beanlib</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>http://opensource.org/licenses/MIT</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hvisser</id>
+      <name>Hugo Visser</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>ssh://hg@bitbucket.org/littlerobots/beanlib</connection>
+    <url>https://bitbucket.org/littlerobots/beanlib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.frankiesardo</groupId>
+      <artifactId>auto-parcel</artifactId>
+      <version>0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

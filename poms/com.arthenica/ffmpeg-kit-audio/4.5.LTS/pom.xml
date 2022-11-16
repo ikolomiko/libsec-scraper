@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arthenica</groupId>
+  <artifactId>ffmpeg-kit-audio</artifactId>
+  <version>4.5.LTS</version>
+  <packaging>aar</packaging>
+  <name>ffmpeg-kit-audio</name>
+  <description>Includes FFmpeg with lame, libilbc, libvorbis, opencore-amr, opus, shine, soxr, speex, twolame and vo-amrwbenc libraries enabled.</description>
+  <url>https://github.com/tanersener/ffmpeg-kit</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tanersener</id>
+      <name>Taner Sener</name>
+      <email>tanersener@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tanersener/ffmpeg-kit.git</connection>
+    <developerConnection>https://github.com/tanersener/ffmpeg-kit.git</developerConnection>
+    <url>https://github.com/tanersener/ffmpeg-kit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.arthenica</groupId>
+      <artifactId>smart-exception-java</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

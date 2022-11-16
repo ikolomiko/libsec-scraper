@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cardinalsolutions</groupId>
+  <artifactId>android-sectioned-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>android-sectioned-adapter</name>
+  <description>A recycler view adapter which automatically adds section headers to a list of categorizable data.</description>
+  <url>https://github.com/CardinalNow/android-sectioned-adapter</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>CardinalNow</id>
+      <name>Cardinal Solutions</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:CardinalNow/android-sectioned-adapter.git</connection>
+    <developerConnection>scm:git@github.com:CardinalNow/android-sectioned-adapter.git</developerConnection>
+    <url>https://github.com/CardinalNow/android-sectioned-adapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

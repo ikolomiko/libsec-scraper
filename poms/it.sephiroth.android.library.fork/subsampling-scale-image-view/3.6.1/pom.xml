@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.android.library.fork</groupId>
+  <artifactId>subsampling-scale-image-view</artifactId>
+  <version>3.6.1</version>
+  <packaging>aar</packaging>
+  <name>Subsampling ScaleImageView</name>
+  <description>Highly configurable, easily extendable view with pan and zoom gestures for displaying huge images without loss of detail. Perfect for photo galleries, maps, building plans etc.</description>
+  <url>https://github.com/sephiroth74/subsampling-scale-image-view</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://raw.githubusercontent.com/sephiroth74/subsampling-scale-image-view/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sephiroth74</id>
+      <name>Alessandro Crugnola</name>
+      <email>alessandro.crugnola@gmail.com</email>
+      <url>http://blog.sephiroth.it</url>
+      <roles>
+        <role>contributor</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sephiroth74/subsampling-scale-image-view.git</connection>
+    <developerConnection>scm:git@github.com:sephiroth74/subsampling-scale-image-view.git</developerConnection>
+    <url>https://github.com/sephiroth74/subsampling-scale-image-view</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

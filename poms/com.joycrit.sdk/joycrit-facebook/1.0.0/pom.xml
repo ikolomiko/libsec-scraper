@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.joycrit.sdk</groupId>
+  <artifactId>joycrit-facebook</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A Game Sdk For Joycrit</name>
+  <url>http://joycrit.com</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yvon</id>
+      <name>yvonluo</name>
+      <email>free.yvonluo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://joycrit.com</connection>
+    <developerConnection>http://joycrit.com</developerConnection>
+    <url>http://joycrit.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>customtabs</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-android</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

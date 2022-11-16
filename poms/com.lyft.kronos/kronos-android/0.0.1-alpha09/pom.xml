@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lyft.kronos</groupId>
+  <artifactId>kronos-android</artifactId>
+  <version>0.0.1-alpha09</version>
+  <packaging>aar</packaging>
+  <name>Kronos</name>
+  <description>An Open Source Kotlin SNTP library</description>
+  <url>https://github.com/lyft/Kronos-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lyft</id>
+      <name>Lyft Inc.</name>
+      <email>maven@lyft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/lyft/Kronos-Android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/lyft/Kronos-Android.git</developerConnection>
+    <url>https://github.com/lyft/Kronos-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.lyft.kronos</groupId>
+      <artifactId>kronos-java</artifactId>
+      <version>0.0.1-alpha09</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

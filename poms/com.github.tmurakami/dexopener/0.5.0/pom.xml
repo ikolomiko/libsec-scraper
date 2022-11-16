@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tmurakami</groupId>
+  <artifactId>dexopener</artifactId>
+  <version>0.5.0</version>
+  <packaging>aar</packaging>
+  <name>tmurakami/dexopener</name>
+  <description>A library that provides the ability to mock final classes and methods on Android.</description>
+  <url>https://github.com/tmurakami/dexopener</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tmurakami</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tmurakami/dexopener.git</connection>
+    <developerConnection>scm:git://github.com/tmurakami/dexopener.git</developerConnection>
+    <url>git://github.com/tmurakami/dexopener.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tmurakami.classinjector</groupId>
+      <artifactId>classinjector-android</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

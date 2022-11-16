@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sad.assistant</groupId>
+  <artifactId>sad-datastore</artifactId>
+  <version>0.2.3</version>
+  <packaging>aar</packaging>
+  <name>sad-datastore</name>
+  <description>A library for Sad datastore Lib.</description>
+  <url>https://github.com/lucifinilsu/SmartAndroidDeveloper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lucifinilsu</id>
+      <name>lucifinilsu</name>
+      <email>lucifinilsu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lucifinilsu/SmartAndroidDeveloper</connection>
+    <developerConnection>https://github.com/lucifinilsu/SmartAndroidDeveloper</developerConnection>
+    <url>https://github.com/lucifinilsu/SmartAndroidDeveloper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sad.core.async</groupId>
+      <artifactId>sad-async</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sad.basic</groupId>
+      <artifactId>sad-basic</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

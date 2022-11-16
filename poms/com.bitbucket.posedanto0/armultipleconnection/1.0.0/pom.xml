@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bitbucket.posedanto0</groupId>
+  <artifactId>armultipleconnection</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>armultipleconnection</name>
+  <description>Providing support for Bluetooth and WiFi in applications with AR.</description>
+  <url>https://bitbucket.org/posedanto0</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dmitryk</id>
+      <name>Dmitry Kruglov</name>
+      <email>agitatore@yandex.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/posedanto0.git</connection>
+    <developerConnection>https://bitbucket.org/posedanto0.git</developerConnection>
+    <url>https://bitbucket.org/posedanto0</url>
+  </scm>
+</project>

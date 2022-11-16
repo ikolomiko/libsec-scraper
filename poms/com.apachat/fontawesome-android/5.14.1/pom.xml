@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apachat</groupId>
+  <artifactId>fontawesome-android</artifactId>
+  <version>5.14.1</version>
+  <packaging>aar</packaging>
+  <name>fontawesome-android</name>
+  <description>Awesome Android library to use the Font Awesome Icon collection in your android apps.</description>
+  <url>https://github.com/FarhamHosseini/FontAwesome</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/FarhamHosseini/FontAwesome/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>FarhamHosseini</id>
+      <name>Farham Hosseini</name>
+      <email>farham.hosseini@apachat.com</email>
+    </developer>
+    <developer>
+      <id>iRonBotxx</id>
+      <name>Farshad Hosseini</name>
+      <email>farshad.hosseini@apachat.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/FarhamHosseini/FontAwesome.git</connection>
+    <developerConnection>scm:git:ssh://github.com/FarhamHosseini/FontAwesome.git</developerConnection>
+    <url>https://github.com/FarhamHosseini/FontAwesome/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>21.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

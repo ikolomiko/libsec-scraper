@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.devdigital</groupId>
+  <artifactId>networklib</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>NetworkLib</name>
+  <description>A Generic Networking Library that handle all DevDigital Webservice request/response.</description>
+  <url>https://github.com/devdigitalappteam/networklib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devdigitalappteam</id>
+      <name>DevDigital AppTeam</name>
+      <email>devdigital.appteam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/devdigitalappteam/networklib.git</connection>
+    <developerConnection>https://github.com/devdigitalappteam/networklib.git</developerConnection>
+    <url>https://github.com/devdigitalappteam/networklib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amitshekhar.android</groupId>
+      <artifactId>android-networking</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.stetho</groupId>
+      <artifactId>stetho-okhttp3</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.stetho</groupId>
+      <artifactId>stetho</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

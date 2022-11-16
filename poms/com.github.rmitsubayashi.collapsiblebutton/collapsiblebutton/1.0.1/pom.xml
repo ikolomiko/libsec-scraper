@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rmitsubayashi.collapsiblebutton</groupId>
+  <artifactId>collapsiblebutton</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>collapsibleButton</name>
+  <description>An Android library that provides a simple collapsible button (that button you toggle from 'v' to '^' to show more content.</description>
+  <url>https://github.com/rmitsubayashi/collapsiblebutton</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rmitsubayashi</id>
+      <name>Ryosuke Mitsubyashi</name>
+      <email>ryomitsu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rmitsubayashi/collapsiblebutton.git</connection>
+    <developerConnection>https://github.com/rmitsubayashi/collapsiblebutton.git</developerConnection>
+    <url>https://github.com/rmitsubayashi/collapsiblebutton</url>
+  </scm>
+</project>

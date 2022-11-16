@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kace.android</groupId>
+  <artifactId>sqlite-object-mapping</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>sqliteObjectMapping</name>
+  <description>Convert Android Sqlite to model and vice versa</description>
+  <url>https://github.com/kelvinc1024/sqlite-object-mapping</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kelvinc1024</id>
+      <name>Kelvin Chandra</name>
+      <email>kelvinchandra1024@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kelvinc1024/sqlite-object-mapping.git</connection>
+    <developerConnection>https://github.com/kelvinc1024/sqlite-object-mapping.git</developerConnection>
+    <url>https://github.com/kelvinc1024/sqlite-object-mapping</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

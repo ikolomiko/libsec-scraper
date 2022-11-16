@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ncona</groupId>
+  <artifactId>conversion-graph</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>Conversion graph</name>
+  <description>Graphs a conversion path</description>
+  <url>https://github.com/soonick/conversion-graph</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>soonick</id>
+      <name>Adrian Ancona Novelo</name>
+      <email>soonick5@yahoo.com.mx</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/soonick/conversion-graph.git</connection>
+    <url>https://github.com/soonick/conversion-graph</url>
+  </scm>
+</project>

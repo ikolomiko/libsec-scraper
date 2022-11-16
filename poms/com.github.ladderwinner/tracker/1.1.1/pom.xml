@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ladderwinner</groupId>
+  <artifactId>tracker</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>LadderWinner</name>
+  <description>A application used as an example on how to set up</description>
+  <url>https://github.com/ladderwinner/tracker</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ajain</id>
+      <name>Ashish Jain</name>
+      <email>sladderboard@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:svn:https://github.com/ladderwinner/tracker</connection>
+    <developerConnection>scm:svn:https://github.com/ladderwinner/tracker</developerConnection>
+    <url>https://github.com/ladderwinner/tracker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

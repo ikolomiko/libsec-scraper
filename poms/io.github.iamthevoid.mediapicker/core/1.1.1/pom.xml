@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.iamthevoid.mediapicker</groupId>
+  <artifactId>core</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>core</name>
+  <description>core of library to pick images, photo or video from android phone</description>
+  <url>https://github.com/iamthevoid/media-picker-android</url>
+  <licenses>
+    <license>
+      <name>Open Source</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iamthevoid</id>
+      <name>Alexander Tarabrin</name>
+      <email>alesetar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/iamthevoid/media-picker-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/iamthevoid/media-picker-android.git</developerConnection>
+    <url>https://github.com/iamthevoid/media-picker-android/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-parcelize-runtime</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment-ktx</artifactId>
+      <version>1.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.iamthevoid.extensions</groupId>
+      <artifactId>util</artifactId>
+      <version>0.6.10</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.iamthevoid.extensions</groupId>
+      <artifactId>android</artifactId>
+      <version>0.6.10</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.iamthevoid.extensions</groupId>
+      <artifactId>pure</artifactId>
+      <version>0.6.10</version>
+    </dependency>
+  </dependencies>
+</project>

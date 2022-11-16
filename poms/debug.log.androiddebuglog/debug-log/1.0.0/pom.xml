@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>debug.log.androiddebuglog</groupId>
+  <artifactId>debug-log</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android File log</name>
+  <description>Android file log is a powerful library to write debugging logs in file in meaningful way. you can export log to external card as zip and you can extract it and view log in browser. there are different color used for different log type</description>
+  <url>https://github.com/k9428/Android-Debug-Log</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kalpeshgohel</id>
+      <name>Kalpesh gohel</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/k9428/Android-Debug-Log.git</connection>
+    <developerConnection>https://github.com/k9428/Android-Debug-Log.git</developerConnection>
+    <url>https://github.com/k9428/Android-Debug-Log</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vuzix</groupId>
+  <artifactId>hud-resources</artifactId>
+  <version>2.3.0</version>
+  <packaging>aar</packaging>
+  <name>Vuzix/hud-resources</name>
+  <description>POM was created from install:install-file</description>
+  <url>https://github.com/Vuzix/hud-resources</url>
+  <inceptionYear>2021</inceptionYear>
+  <developers>
+    <developer>
+      <id>Vuzix</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Vuzix/hud-resources.git</connection>
+    <developerConnection>scm:git://github.com/Vuzix/hud-resources.git</developerConnection>
+    <url>git://github.com/Vuzix/hud-resources.git</url>
+  </scm>
+</project>

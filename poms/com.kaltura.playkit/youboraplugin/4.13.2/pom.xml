@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kaltura.playkit</groupId>
+  <artifactId>youboraplugin</artifactId>
+  <version>4.13.2</version>
+  <packaging>aar</packaging>
+  <name>Youboraplugin</name>
+  <description>PlayKit Youbora Plugin</description>
+  <url>https://github.com/kaltura/playkit-android-youbora</url>
+  <licenses>
+    <license>
+      <name>GNU Affero General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/agpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>playkitdev</id>
+      <name>Playkit Dev</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/kaltura/playkit-android-youbora.git</connection>
+    <developerConnection>scm:git@https://github.com/kaltura/playkit-android-youbora.git</developerConnection>
+    <url>https://github.com/kaltura/playkit-android-youbora</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.npaw.youbora</groupId>
+      <artifactId>youboralib</artifactId>
+      <version>6.7.24</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kaltura.playkit</groupId>
+      <artifactId>playkit</artifactId>
+      <version>4.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

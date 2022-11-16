@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.takenet</groupId>
+  <artifactId>blipchat</artifactId>
+  <version>2.1.25</version>
+  <packaging>aar</packaging>
+  <name>blipchat</name>
+  <description>Add Blip Chat widget in your Android app</description>
+  <url>https://github.com/takenet/blip-chat-android</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>takenet</id>
+      <name>integration.blip@gmail.com</name>
+      <email/>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/takenet/blip-chat-android.git</connection>
+    <developerConnection>https://github.com/takenet/blip-chat-android.git</developerConnection>
+    <url>https://github.com/takenet/blip-chat-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+    </dependency>
+  </dependencies>
+</project>

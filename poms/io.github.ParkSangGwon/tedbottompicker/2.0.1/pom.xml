@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.ParkSangGwon</groupId>
+  <artifactId>tedbottompicker</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>TedBottomPicker</name>
+  <description>TedBottomPicker is simple image picker using bottom sheet</description>
+  <url>https://github.com/ParkSangGwon/TedBottomPicker</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ParkSangGwon</id>
+      <name>ParkSangGwon</name>
+      <url>https://github.com/ParkSangGwon</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ParkSangGwon/TedBottomPicker.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ParkSangGwon/TedBottomPicker.git</developerConnection>
+    <url>https://github.com/ParkSangGwon/TedBottomPicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>gun0912.ted</groupId>
+      <artifactId>tedonactivityresult</artifactId>
+      <version>1.0.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

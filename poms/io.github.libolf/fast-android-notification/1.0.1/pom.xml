@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.libolf</groupId>
+  <artifactId>fast-android-notification</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>fast-android-notification</name>
+  <description>Android模板项目</description>
+  <url>https://github.com/libolf/FastAndroid</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>libo</id>
+      <name>libo</name>
+      <email>1021211327@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/libolf/FastAndroid.git</connection>
+    <developerConnection>https://github.com/libolf/FastAndroid.git</developerConnection>
+    <url>https://github.com/libolf/FastAndroid/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.libolf</groupId>
+      <artifactId>fast-android-common</artifactId>
+      <version>1.0.11</version>
+    </dependency>
+  </dependencies>
+</project>

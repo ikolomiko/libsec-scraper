@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sxwz.refreshlib</groupId>
+  <artifactId>refreshlib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>refreshlib For Android</name>
+  <description>The Android build the framework of the refresh view.</description>
+  <url>https://github.com/rocky0116/RefreshApp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rocky0116</id>
+      <name>wangzhong</name>
+      <email>wangzhong0116@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:rocky0116/RefreshApp.git</connection>
+    <developerConnection>git@github.com:rocky0116/RefreshApp.git</developerConnection>
+    <url>https://github.com/rocky0116/RefreshApp</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

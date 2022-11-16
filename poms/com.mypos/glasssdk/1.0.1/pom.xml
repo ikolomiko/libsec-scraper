@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mypos</groupId>
+  <artifactId>glasssdk</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>myPOS-Glass-SDK</name>
+  <description>This repository provides a guidance on integrating an Android app with a myPOS Glass payment solution. Once integrated, the app will be able to communicate and call the main myPOS Glass functionalities in order to accept card payments (Limited to VISA and Mastercard). myPOS-Glass-SDK is a bridge between the applications and myPOS Glass app, converting the smart device into a POS machine, allowing to initiate transaction, complete all steps for processing payment, make refund to the customer card account and send a custom bill slip via mail or SMS. The built-in functionalities of myPOS-Glass-SDK allows you to accept payments, make refunds and void the last approved transaction.</description>
+  <url>https://github.com/developermypos/myPOS-Glass-SDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mypos</id>
+      <name>myPOS Developers</name>
+      <email>devrel@mypos.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/developermypos/myPOS-Glass-SDK.git</connection>
+    <developerConnection>https://github.com/developermypos/myPOS-Glass-SDK.git</developerConnection>
+    <url>https://github.com/developermypos/myPOS-Glass-SDK</url>
+  </scm>
+</project>

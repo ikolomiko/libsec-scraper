@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.clistery</groupId>
+  <artifactId>camerax-scanner-qrcode</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>CameraXQRcode -Release</name>
+  <description>ZXing QR code package library implemented by CameraX</description>
+  <url>https://github.com/CListery/CameraX-QRcode</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cyh</id>
+      <name>CListery</name>
+      <email>cai1083088795@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:CListery/CameraX-QRcode.git</connection>
+    <developerConnection>scm:git@github.com:CListery/CameraX-QRcode.git</developerConnection>
+    <url>https://github.com/CListery/CameraX-QRcode</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.clistery</groupId>
+      <artifactId>operable-zxing-core</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-common-java8</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-core</artifactId>
+      <version>1.1.0-alpha07</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-camera2</artifactId>
+      <version>1.1.0-alpha07</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-lifecycle</artifactId>
+      <version>1.1.0-alpha07</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.camera</groupId>
+      <artifactId>camera-view</artifactId>
+      <version>1.0.0-alpha32</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.31</version>
+    </dependency>
+  </dependencies>
+</project>

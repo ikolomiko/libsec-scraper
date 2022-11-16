@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appfarms.android</groupId>
+  <artifactId>af-push-manager</artifactId>
+  <version>0.1-beta</version>
+  <packaging>aar</packaging>
+  <name>AFPushManager</name>
+  <description>An Android library for push notifications and user statistics. Contact us to receive information about our push server.</description>
+  <url>Empty</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>app</id>
+      <name>appfarms</name>
+      <email>appfarms.android@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>Empty</connection>
+    <developerConnection>Empty</developerConnection>
+    <url>Empty</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-measurement</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

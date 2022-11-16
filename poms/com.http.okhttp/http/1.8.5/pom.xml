@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.http.okhttp</groupId>
+  <artifactId>http</artifactId>
+  <version>1.8.5</version>
+  <packaging>aar</packaging>
+  <name>http</name>
+  <description>常用的加密算法,AES,MD5,RSA,BASE64集合.</description>
+  <url>https://github.com/qbaowei/HttpTask</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qinbaowei</id>
+      <name>qinbaowei</name>
+      <email>qbaowei@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qbaowei/HttpTask.git</connection>
+    <developerConnection>https://github.com/qbaowei/HttpTask.git</developerConnection>
+    <url>https://github.com/qbaowei/HttpTask</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.qbw.l</groupId>
+      <artifactId>l</artifactId>
+      <version>2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

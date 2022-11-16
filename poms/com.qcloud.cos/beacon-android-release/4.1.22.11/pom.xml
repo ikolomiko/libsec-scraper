@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qcloud.cos</groupId>
+  <artifactId>beacon-android-release</artifactId>
+  <version>4.1.22.11</version>
+  <packaging>aar</packaging>
+  <name>beacon-android-release</name>
+  <description>the tencent cloud beacon android sdk</description>
+  <url>https://github.com/jordanqin/beacon-android-release</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/jordanqin/beacon-android-release/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chengwu</id>
+      <name>chengwu</name>
+      <email>qcloudterminal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:jordanqin/beacon-android-release.git</connection>
+    <developerConnection>git@github.com:jordanqin/beacon-android-release.git</developerConnection>
+    <url>git@github.com:jordanqin/beacon-android-release.git</url>
+  </scm>
+</project>

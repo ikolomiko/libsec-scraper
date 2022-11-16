@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.smart.library</groupId>
+  <artifactId>smartlibrary</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <description>Public UI library, common UI functions, including load images, image selector, image compression, common layout title bar, refresh automatically control, etc</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mvpleung</id>
+      <name>Jack Leung</name>
+      <email>mvpleung@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.xutils</groupId>
+      <artifactId>xutils</artifactId>
+      <version>3.3.34</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.simple</groupId>
+      <artifactId>androideventbus</artifactId>
+      <version>latest</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

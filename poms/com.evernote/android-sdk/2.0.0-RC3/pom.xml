@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.evernote</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>2.0.0-RC3</version>
+  <packaging>aar</packaging>
+  <name>Android-Evernote SDK</name>
+  <description>Android library to access the Evernote API.</description>
+  <url>https://github.com/evernote/evernote-sdk-android</url>
+  <inceptionYear>2011</inceptionYear>
+  <organization>
+    <name>Evernote</name>
+    <url>http://evernote.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Evernote SDK License Agreement</name>
+      <url>https://github.com/evernote/evernote-sdk-android/blob/master/README.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tylersmithnet</id>
+      <name>Ty Smith</name>
+      <email>tsmith@evernote.com</email>
+      <url>http://tysmith.me</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>sethhitch</id>
+      <name>Seth Hitchings</name>
+      <email>seth@evernote.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>rwondratschek</id>
+      <name>Ralf Wondratschek</name>
+      <email>rwondratschek@evernote.com</email>
+      <url>http://vrallev.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Evernote/evernote-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com:Evernote/evernote-sdk-android.git</developerConnection>
+    <url>http://github.com/Evernote/evernote-sdk-android/</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/Evernote/evernote-sdk-android/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.scribe</groupId>
+      <artifactId>scribe</artifactId>
+      <version>1.3.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.vrallev.android</groupId>
+      <artifactId>android-task</artifactId>
+      <version>1.0.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.evernote</groupId>
+      <artifactId>evernote-api</artifactId>
+      <version>1.25.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

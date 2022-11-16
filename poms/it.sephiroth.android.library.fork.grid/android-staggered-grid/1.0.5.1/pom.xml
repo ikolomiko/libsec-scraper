@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.android.library.fork.grid</groupId>
+  <artifactId>android-staggered-grid</artifactId>
+  <version>1.0.5.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidStaggeredGrid-Library</name>
+  <description>An Android staggered grid view which supports multiple columns with rows of varying sizes.</description>
+  <url>https://github.com/etsy/AndroidStaggeredGrid</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>etsy</id>
+      <name>Etsy</name>
+      <email>null</email>
+      <url>null</url>
+      <roles>
+        <role>author</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:etsy/AndroidStaggeredGrid.git</connection>
+    <developerConnection>scm:git@github.com:etsy/AndroidStaggeredGrid.git</developerConnection>
+    <url>https://github.com/etsy/AndroidStaggeredGrid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.1.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

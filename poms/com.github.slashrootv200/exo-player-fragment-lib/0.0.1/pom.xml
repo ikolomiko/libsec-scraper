@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.slashrootv200</groupId>
+  <artifactId>exo-player-fragment-lib</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>ExoPlayerFragment</name>
+  <description>Library which contains ExoPlayer(https://github.com/google/ExoPlayer) inside a Fragment, so that it is easier to use on an Activity</description>
+  <url>https://github.com/slashrootv200/exo-player-fragment</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>slashrootv200</id>
+      <name>Pratap Patil</name>
+      <email>slashroot.v200@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/slashrootv200/exo-player-fragment.git</connection>
+    <developerConnection>https://github.com/slashrootv200/exo-player-fragment.git</developerConnection>
+    <url>https://github.com/slashrootv200/exo-player-fragment</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer</artifactId>
+      <version>r2.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

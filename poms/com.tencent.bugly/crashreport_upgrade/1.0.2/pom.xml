@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.bugly</groupId>
+  <artifactId>crashreport_upgrade</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>CrashReporter and Upgrader for Android</name>
+  <description>crash reporter and upgrader for android application</description>
+  <url>https://github.com/vell001/BetaSDKDemo</url>
+  <licenses>
+    <license>
+      <name>The Bugly Software License, Version 1.0</name>
+      <url>http://bugly.qq.com/licenses/LICENSE-1.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jalenchen</id>
+      <name>wenkechen</name>
+      <email>jalenchen@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vell001/BetaSDKDemo.git</connection>
+    <developerConnection>https://github.com/vell001/BetaSDKDemo.git</developerConnection>
+    <url>https://github.com/vell001/BetaSDKDemo</url>
+  </scm>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xfy.fakeview.library</groupId>
+  <artifactId>fview</artifactId>
+  <version>0.10001</version>
+  <packaging>aar</packaging>
+  <name>Android Fake View</name>
+  <url>https://github.com/fangyuxiong/FakeView</url>
+  <licenses>
+    <license>
+      <name>Android Fake View</name>
+      <url>https://github.com/fangyuxiong/FakeView</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fangyuxiong</id>
+      <name>imdreaming</name>
+      <email>s18810577589@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fangyuxiong/FakeView.git</connection>
+    <developerConnection>https://github.com/fangyuxiong/FakeView.git</developerConnection>
+    <url>https://github.com/fangyuxiong/FakeView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.simonpercic</groupId>
+  <artifactId>oklog3</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>OkLog3</name>
+  <description>Response logging interceptor for OkHttp3. Logs a url link with url-encoded response for every OkHttp call.</description>
+  <url>https://github.com/simonpercic/OkLog</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simonpercic</id>
+      <name>Simon Percic</name>
+      <email>simon@percic.si</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/simonpercic/OkLog.git</connection>
+    <developerConnection>https://github.com/simonpercic/OkLog.git</developerConnection>
+    <url>https://github.com/simonpercic/OkLog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.simonpercic</groupId>
+      <artifactId>oklog-core</artifactId>
+      <version>0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

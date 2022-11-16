@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>sqlite</artifactId>
+    <version>3.38.2</version>
+    <packaging>aar</packaging>
+
+    <name>sqlite</name>
+    <description>C-language library and command-line tool that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine</description>
+    <url>https://sqlite.org</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/sqlite/sqlite.git</connection>
+        <developerConnection>scm:git:https://github.com/sqlite/sqlite.git</developerConnection>
+        <url>https://github.com/sqlite/sqlite.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>D. Richard Hipp</name>
+            <email>unknow</email>
+            <organization>sqlite</organization>
+            <organizationUrl>https://sqlite.org</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>blessing</name>
+            <url>https://raw.githubusercontent.com/sqlite/sqlite/master/LICENSE.md</url>
+        </license>
+    </licenses>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.qqtheme.framework</groupId>
+  <artifactId>FilePicker</artifactId>
+  <version>1.5.5</version>
+  <packaging>aar</packaging>
+  <name>FilePicker</name>
+  <description>file picker for android</description>
+  <url>http://qqtheme.cn</url>
+  <issueManagement>
+    <system>github</system>
+    <url>http://qqtheme.cn</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/gzu-liyujiang/AndroidPicker.git</url>
+    <connection>scm:git:https://github.com/gzu-liyujiang/AndroidPicker.git</connection>
+    <developerConnection>scm:git:https://github.com/gzu-liyujiang/AndroidPicker.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liyujiang-gzu</id>
+      <name>liyujiang</name>
+      <email>liyujiang_tk@yeah.net</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>cn.qqtheme.framework</groupId>
+      <artifactId>Common</artifactId>
+      <version>1.5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>latest.release</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>latest.release</version>
+    </dependency>
+  </dependencies>
+</project>

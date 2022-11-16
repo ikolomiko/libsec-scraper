@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jdfind.spoon</groupId>
+  <artifactId>spoon-client</artifactId>
+  <version>2.0.0-alpha</version>
+  <packaging>aar</packaging>
+  <name>Spoon</name>
+  <description>Distributing instrumentation tests to all your Androids</description>
+  <url>https://github.com/jdfind/spoon/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jdfind-oss</id>
+      <name>JDFind</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/jdfind/spoon.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jdfind/spoon.git</developerConnection>
+    <url>https://github.com/jdfind/spoon/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jdfind.spoon</groupId>
+      <artifactId>spoon-common</artifactId>
+      <version>2.0.0-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

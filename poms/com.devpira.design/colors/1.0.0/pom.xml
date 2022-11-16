@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.devpira.design</groupId>
+  <artifactId>colors</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>devpiradesign</name>
+  <description>A set of colors that can be used in any project.</description>
+  <url>https://github.com/devpira/Android-Devpira-Design</url>
+  <licenses>
+    <license>
+      <name>Apache2.0</name>
+      <url>https://opensource.org/licenses/apache2.0.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Devpira</id>
+      <name>Pira Suriyakumaran</name>
+      <email>developerpira@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/devpira/Android-Devpira-Design</connection>
+    <developerConnection>https://github.com/devpira/Android-Devpira-Design</developerConnection>
+    <url>https://github.com/devpira/Android-Devpira-Design</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

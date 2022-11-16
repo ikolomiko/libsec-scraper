@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ebay.customrippleview</groupId>
+  <artifactId>customrippleview</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>CustomRippleView</name>
+  <description>The Custom Ripple View library provides Android developers an easy way to customize and implement a Ripple Effect view.</description>
+  <url>https://github.com/eBay/CustomRippleView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adamhurwitz</id>
+      <name>Adam Hurwitz</name>
+      <email>adamscotthurwitz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/eBay/CustomRippleView.git</connection>
+    <developerConnection>https://github.com/eBay/CustomRippleView.git</developerConnection>
+    <url>https://github.com/eBay/CustomRippleView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.4-3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

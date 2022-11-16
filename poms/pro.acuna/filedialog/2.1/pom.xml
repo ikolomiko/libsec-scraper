@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pro.acuna</groupId>
+  <artifactId>filedialog</artifactId>
+  <version>2.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>pro.acuna</groupId>
+      <artifactId>storage</artifactId>
+      <version>+</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+  </dependencies>
+  <description>FileDialog is a handy file selection dialog for Android</description>
+  <name>FileDialog</name>
+  <url>https://github.com/acuna-public/FileDialog</url>
+  <licenses>
+    <license>
+      <name>General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>acuna-public</id>
+      <name>Anton Tikhomirov</name>
+      <email>acuna.public@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/acuna-public/FileDialog.git</url>
+  </scm>
+</project>

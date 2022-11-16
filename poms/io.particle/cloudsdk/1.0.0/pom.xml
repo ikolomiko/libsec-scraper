@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.particle</groupId>
+  <artifactId>cloudsdk</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Particle (formerly Spark) Android Cloud SDK library</name>
+  <description>The Particle Android Cloud SDK enables Android apps to interact with Particle-powered connected products via the Particle Cloud.
+Library will allow you to easily manage active user sessions to Particle cloud, query for device info,
+read and write data to/from Particle Core/Photon devices and (via exposed variables and functions)
+publish and subscribe events to/from the cloud or to/from devices (coming soon).</description>
+  <url>https://github.com/particle-iot/particle-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>idok</id>
+      <name>Ido Kleinman</name>
+      <email>ido@particle.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/particle-iot/particle-android.git</connection>
+    <developerConnection>https://github.com/particle-iot/particle-android.git</developerConnection>
+    <url>https://github.com/particle-iot/particle-android</url>
+  </scm>
+</project>

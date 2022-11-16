@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.airk000</groupId>
+  <artifactId>trigger</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>Trigger Library</name>
+  <description>Trigger system just like JobScheduler above API21 on Android platform</description>
+  <url>https://github.com/airk000/Trigger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airk000</id>
+      <name>Kevin Liu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:airk000/Trigger.git</connection>
+    <developerConnection>scm:git@github.com:airk000/Trigger.git</developerConnection>
+    <url>https://github.com/airk000/Trigger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pqpo</groupId>
+  <artifactId>SmartCropper</artifactId>
+  <version>V1.0.1</version>
+  <packaging>aar</packaging>
+  <name>A library for cropping image in a smart way that can identify the border and correct the cropped image</name>
+  <url>https://github.com/pqpo/SmartCropper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pqpo</id>
+      <name>pqpo</name>
+      <email>pqponet@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pqpo/SmartCropper.git</connection>
+    <developerConnection>https://github.com/pqpo/SmartCropper.git</developerConnection>
+    <url>https://github.com/pqpo/SmartCropper</url>
+  </scm>
+</project>

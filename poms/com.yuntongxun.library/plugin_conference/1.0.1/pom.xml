@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuntongxun.library</groupId>
+  <artifactId>plugin_conference</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>plugin_conference</name>
+  <url>https://github.com/workofgao/plugin_conf.git</url>
+  <licenses>
+    <license>
+      <name>The common Software License, Version 1.0.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gaoxiang</id>
+      <name>gaoxiang</name>
+      <email>gao_private@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/workofgao/plugin_conf.git</connection>
+    <developerConnection>https://github.com/workofgao/plugin_conf.git</developerConnection>
+    <url>https://github.com/workofgao/plugin_conf.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>plugin_conf</groupId>
+      <artifactId>plugin_wbss</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

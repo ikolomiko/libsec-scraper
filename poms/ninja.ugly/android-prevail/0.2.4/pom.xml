@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ninja.ugly</groupId>
+  <artifactId>android-prevail</artifactId>
+  <version>0.2.4</version>
+  <packaging>aar</packaging>
+  <name>Android Prevail</name>
+  <description>Android Prevail is a simple data abstraction library for event driven Android apps.</description>
+  <url>http://brycecicada.github.com/Prevail</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/BryceCicada/Prevail/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>brycecicada</id>
+      <name>Chris Nix</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:BryceCicada/Prevail.git</connection>
+    <developerConnection>scm:git@github.com:BryceCicada/Prevail.git</developerConnection>
+    <url>scm:git@github.com:BryceCicada/Prevail.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ninja.ugly</groupId>
+      <artifactId>prevail</artifactId>
+      <version>0.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

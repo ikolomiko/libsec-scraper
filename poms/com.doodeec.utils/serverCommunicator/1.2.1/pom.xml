@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.doodeec.utils</groupId>
+  <artifactId>servercommunicator</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>server-communicator</name>
+  <description>Server Communicator is an Android library based on AsyncTask, which provides basic REST API server communication. Allowed response objects are JSONObject, JSONArray (ServerRequest) and Bitmap (ImageServerRequest).</description>
+  <url>https://github.com/doodeec/ServerCommunicator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>doodeec</id>
+      <name>Dusan Bartos</name>
+      <email>doodeec@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:doodeec/ServerCommunicator.git</connection>
+    <developerConnection>scm:git@github.com:doodeec/ServerCommunicator.git</developerConnection>
+    <url>https://github.com/doodeec/ServerCommunicator</url>
+  </scm>
+</project>

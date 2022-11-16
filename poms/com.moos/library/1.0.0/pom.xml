@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moos</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>a pretty and easy used progress widget using circle, sector or horizontal line style.</name>
+  <url>https://github.com/Moosphan/Material-ProgressView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>moos</id>
+      <name>Moos</name>
+      <email>moosphon@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Moosphan/Material-ProgressView.git</connection>
+    <developerConnection>https://github.com/Moosphan/Material-ProgressView.git</developerConnection>
+    <url>https://github.com/Moosphan/Material-ProgressView</url>
+  </scm>
+</project>

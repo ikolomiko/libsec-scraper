@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.intuit.truffleshuffle</groupId>
+  <artifactId>truffleshuffle</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>truffleshuffle</name>
+  <description>Nn Android UI component of a card gallery with a fun animation. The gallery is easily customizable and is data driven based on the number of objects in an array and the content inside of those objects.</description>
+  <url>https://github.com/intuit/truffle-shuffle</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>katielevy1</id>
+      <name>Katie Levy</name>
+      <email>katie.levy1@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/intuit/truffle-shuffle.git</connection>
+    <developerConnection>https://github.com/intuit/truffle-shuffle.git</developerConnection>
+    <url>https://github.com/intuit/truffle-shuffle</url>
+  </scm>
+</project>

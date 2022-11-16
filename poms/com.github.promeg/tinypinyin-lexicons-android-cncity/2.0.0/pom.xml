@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.promeg</groupId>
+  <artifactId>tinypinyin-lexicons-android-cncity</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>tinypinyin-lexicons-android-cncity</name>
+  <url>https://github.com/promeG/TinyPinyin</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>promeg</id>
+      <name>promeg</name>
+      <email>gyacong@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/promeG/TinyPinyin.git</connection>
+    <developerConnection>https://github.com/promeG/TinyPinyin.git</developerConnection>
+    <url>https://github.com/promeG/TinyPinyin</url>
+  </scm>
+</project>

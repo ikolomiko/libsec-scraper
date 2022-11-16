@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.linecorp.adsnetwork</groupId>
+  <artifactId>five-gad-adapter</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>FiveGADAdapter</name>
+  <description>Line Ads Network for Google Mobile Ads SDK Mediation</description>
+  <url>https://www.linebiz.com/lp/line-ads-network/</url>
+  <licenses>
+    <license>
+      <name>Copyright</name>
+      <comments>Copyright 2021 LINE Corporation</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>LINE Corporation</name>
+    </developer>
+  </developers>
+  <scm>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.linecorp.adsnetwork</groupId>
+      <artifactId>fivead</artifactId>
+      <version>2.4.20211029</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>20.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

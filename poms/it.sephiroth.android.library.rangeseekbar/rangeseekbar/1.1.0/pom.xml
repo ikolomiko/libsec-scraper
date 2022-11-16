@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.android.library.rangeseekbar</groupId>
+  <artifactId>rangeseekbar</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Range Seekbar</name>
+  <description>Android Range Seekbar</description>
+  <url>https://github.com/sephiroth74/RangeSeekBar</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/sephiroth74/RangeSeekBar/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sephiroth74</id>
+      <name>Alessandro Crugnola</name>
+      <email>alessandro.crugnola@gmail.com</email>
+      <url>http://blog.sephiroth.it</url>
+      <roles>
+        <role>author</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sephiroth74/RangeSeekBar.git</connection>
+    <developerConnection>scm:git@github.com:sephiroth74/RangeSeekBar.git</developerConnection>
+    <url>https://github.com/sephiroth74/RangeSeekBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0-rc01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>it.sephiroth.android.library.simplelogger</groupId>
+      <artifactId>simple-logger</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

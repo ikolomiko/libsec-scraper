@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.sdaduanbilei</groupId>
+  <artifactId>dashboard-view</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>DashBoard Library</name>
+  <description>A custom view for dashboradview</description>
+  <url>https://github.com/sdaduanbilei/DashboardViewExample</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdaduanbilei</id>
+      <name>sdaduanbilei</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sdaduanbilei/DashboardViewExample.git</connection>
+    <developerConnection>scm:git@github.com:sdaduanbilei/DashboardViewExample.git</developerConnection>
+    <url>https://github.com/sdaduanbilei/DashboardViewExample</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

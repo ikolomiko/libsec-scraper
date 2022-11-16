@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vokalinteractive</groupId>
+  <artifactId>adhd</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Database Helper</name>
+  <description>Light-weight database and content provider helper</description>
+  <url>https://github.com/vokalinteractive/android_database_helper</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nick-fedesna</id>
+      <name>Nick Fedesna</name>
+      <email>nick.fedesna@vokalinteractive.com</email>
+    </developer>
+    <developer>
+      <id>wmbest2</id>
+      <name>William Best</name>
+      <email>wmbest2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:vokalinteractive/android_database_helper.git</connection>
+    <developerConnection>scm:git@github.com:vokalinteractive/android_database_helper.git</developerConnection>
+    <url>scm:git@github.com:vokalinteractive/android_database_helper.git</url>
+  </scm>
+</project>

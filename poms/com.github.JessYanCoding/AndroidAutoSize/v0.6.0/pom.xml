@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.JessYanCoding</groupId>
+  <artifactId>AndroidAutoSize</artifactId>
+  <version>v0.6.0</version>
+  <packaging>aar</packaging>
+  <name>JessYanCoding/AndroidAutoSize</name>
+  <description>🔥 A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).</description>
+  <url>https://github.com/JessYanCoding/AndroidAutoSize</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JessYanCoding</id>
+      <name>JessYan</name>
+      <email>jess.yan.effort@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/JessYanCoding/AndroidAutoSize.git</connection>
+    <developerConnection>scm:git://github.com/JessYanCoding/AndroidAutoSize.git</developerConnection>
+    <url>git://github.com/JessYanCoding/AndroidAutoSize.git</url>
+  </scm>
+</project>

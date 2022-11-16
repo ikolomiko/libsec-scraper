@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zellius</groupId>
+  <artifactId>rxlocationmanager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>RxLocationManager</name>
+  <description>Android library that helps to get location using standart LocationManager and RxJava</description>
+  <url>https://github.com/Zellius/RxLocationManager</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.github.com/zellius/RxLocationManager/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zellius</id>
+      <name>Sergey Solodovnikov</name>
+      <email>elementa.ru@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/Zellius/RxLocationManager.git</connection>
+    <developerConnection>scm:https://github.com/Zellius/RxLocationManager.git</developerConnection>
+    <url>https://github.com/Zellius/RxLocationManager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.2-3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

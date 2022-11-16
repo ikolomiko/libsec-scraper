@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.be-bound</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Be-Bound official SDK</name>
+  <description>Send request without Internet</description>
+  <url>https://n4b.io/</url>
+  <licenses>
+    <license>
+      <name>Be-Bound N4B Platform</name>
+      <url>https://dev.n4b.io/terms.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bebound</id>
+      <name>Be-Bound</name>
+      <email>contact@be-bound.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Be-Bound/be-bound-samples.git</connection>
+    <url>https://github.com/Be-Bound/be-bound-samples</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.be-bound</groupId>
+      <artifactId>common-library</artifactId>
+      <version>1.0.12</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

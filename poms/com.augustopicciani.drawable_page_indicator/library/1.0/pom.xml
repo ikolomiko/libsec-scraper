@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.augustopicciani.drawable_page_indicator</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>A custom page indicator using drawable that you can use in View Pager</description>
+  <developers>
+    <developer>
+      <id>augustopicciani</id>
+      <name>Augusto Picciani</name>
+      <email>augustopicciani@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

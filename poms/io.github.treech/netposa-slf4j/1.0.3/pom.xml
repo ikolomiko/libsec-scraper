@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.treech</groupId>
+  <artifactId>netposa-slf4j</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>netposa-slf4j</name>
+  <description>slf4j-arms lib for netposa</description>
+  <url>https://github.com/treech/CommonSDK</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ygq</id>
+      <name>ygq</name>
+      <email>yeguoqiang6@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/treech/CommonSDK</connection>
+    <developerConnection>scm:git:https://github.com/treech/CommonSDK</developerConnection>
+    <url>https://github.com/treech/CommonSDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.jessyan</groupId>
+      <artifactId>arms</artifactId>
+      <version>2.5.2</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.30</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>simple.android.log4j</groupId>
+      <artifactId>log4j-android</artifactId>
+      <version>1.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tony19</groupId>
+      <artifactId>logback-android</artifactId>
+      <version>2.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

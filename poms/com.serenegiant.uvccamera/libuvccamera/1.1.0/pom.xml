@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.serenegiant.uvccamera</groupId>
+  <artifactId>libuvccamera</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>brary to access to UVC web camera on non-rooted Android device.</name>
+  <url>https://github.com/saki4510t/UVCCamera</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saki4510t</id>
+      <name>saki4510t</name>
+      <email>t_saki@serenegiant.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/saki4510t/UVCCamera.git</connection>
+    <developerConnection>https://github.com/saki4510t/UVCCamera.git</developerConnection>
+    <url>https://github.com/saki4510t/UVCCamera</url>
+  </scm>
+</project>

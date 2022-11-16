@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.yaog.widgets</groupId>
+  <artifactId>image-text-button</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>ImageTextButton</name>
+  <description>A Image-Text mixed button on Android</description>
+  <url>https://github.com/mutoukenji/AndroidWidgets</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/mutoukenji/AndroidWidgets/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mutoukenji</id>
+      <name>MutouKenji</name>
+      <email>mutoukenji@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mutoukenji/AndroidWidgets.git</connection>
+    <developerConnection>https://github.com/mutoukenji/AndroidWidgets.git</developerConnection>
+    <url>https://github.com/mutoukenji/AndroidWidgets</url>
+  </scm>
+</project>

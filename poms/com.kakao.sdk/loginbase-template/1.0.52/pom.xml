@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.kakao.sdk</groupId>
+        <artifactId>templates</artifactId>
+        <version>1.0.52</version>
+    </parent>
+
+    <artifactId>loginbase-template</artifactId>
+    <version>1.0.52</version>
+    <packaging>aar</packaging>
+    <name>Kakao Android SDK Templates - Login Base</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.kakao.sdk</groupId>
+            <artifactId>usermgmt</artifactId>
+            <version>${project.version}</version>
+            <type>aar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>volley</artifactId>
+            <version>${volley-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>${android-support-v4-version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <!-- non maven project를 위해서 -->
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/libs</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

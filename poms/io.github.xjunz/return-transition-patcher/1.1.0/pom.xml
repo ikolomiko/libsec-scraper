@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.xjunz</groupId>
+  <artifactId>return-transition-patcher</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>return-transition-patcher</name>
+  <description>A patcher to fix an issue of the (shared element) return transition on Android 10 and above.</description>
+  <url>https://github.com/xjunz/ReturnTransitionPatcher</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xjunz</id>
+      <name>xjunz</name>
+      <email>zxj19994@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/xjunz/ReturnTransitionPatcher.git</connection>
+    <developerConnection>scm:git:ssh://github.com/xjunz/ReturnTransitionPatcher.git</developerConnection>
+    <url>https://github.com/xjunz/ReturnTransitionPatcher/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

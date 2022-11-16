@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thomashaertel</groupId>
+  <artifactId>multispinner</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>MultiSpinner</name>
+  <description>Spinner widget with multi selectable list</description>
+  <url>https://github.com/thomashaertel/MultiSpinner</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thomashaertel</id>
+      <name>Thomas Haertel</name>
+      <email>mailhomashaertel.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:thomashaertel/MultiSpinner.git</connection>
+    <developerConnection>scm:git@github.com:thomashaertel/MultiSpinner.git</developerConnection>
+    <url>https://github.com/thomashaertel/MultiSpinner</url>
+  </scm>
+</project>

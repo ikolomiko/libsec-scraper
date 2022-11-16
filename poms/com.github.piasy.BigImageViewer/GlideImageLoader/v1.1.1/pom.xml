@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.piasy.BigImageViewer</groupId>
+  <artifactId>GlideImageLoader</artifactId>
+  <version>v1.1.1</version>
+  <packaging>aar</packaging>
+  <name>BigImageViewer</name>
+  <description>Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.</description>
+  <url>https://github.com/Piasy/BigImageViewer</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>piasy</id>
+      <name>piasy</name>
+      <email>xz4215@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Piasy/BigImageViewer.git</connection>
+    <developerConnection>https://github.com/Piasy/BigImageViewer.git</developerConnection>
+    <url>https://github.com/Piasy/BigImageViewer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.piasy.BigImageViewer</groupId>
+      <artifactId>BigImageViewer</artifactId>
+      <version>v1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

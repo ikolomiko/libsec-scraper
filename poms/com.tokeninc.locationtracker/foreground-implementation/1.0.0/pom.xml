@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tokeninc.locationtracker</groupId>
+  <artifactId>foreground-implementation</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Token Location Tracker</name>
+  <description>Token Location Tracker</description>
+  <url>https://github.com/tokeninc/TokenLocationTracker</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/tokeninc/TokenLocationTracker.git</connection>
+    <developerConnection>https://github.com/tokeninc/TokenLocationTracker.git</developerConnection>
+    <url>https://github.com/tokeninc/TokenLocationTracker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

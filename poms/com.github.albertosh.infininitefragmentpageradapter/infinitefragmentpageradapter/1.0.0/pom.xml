@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.albertosh.infininitefragmentpageradapter</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Infininite Fragment Pager Adapter</name>
+  <description>InfiniteFragmentPagerAdapter allows you to implement easily a FragmentPagerAdapter that has infinite fragments. You only need to implement how to create a single page.
+It also maintains the state of next and previous fragments so it swipes nicely</description>
+  <url>https://github.com/AlbertoSH/InfiniteFragmentPagerAdapter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlbertoSH</id>
+      <name>Alberto Sanz</name>
+      <email>alberto.sanz.herrero@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlbertoSH/InfiniteFragmentPagerAdapter.git</connection>
+    <developerConnection>https://github.com/AlbertoSH/InfiniteFragmentPagerAdapter.git</developerConnection>
+    <url>https://github.com/AlbertoSH/InfiniteFragmentPagerAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

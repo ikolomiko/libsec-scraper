@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wl.tencent-adv</groupId>
+  <artifactId>tencent-adv</artifactId>
+  <version>7.0</version>
+  <packaging>aar</packaging>
+  <name>tencent ad</name>
+  <description>The Android build the advertising of tencent</description>
+  <url>https://github.com/sunshey/tencent-adv</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/sunshey/tencent-adv.git</connection>
+    <developerConnection>https://github.com/sunshey/tencent-adv.git</developerConnection>
+    <url>https://github.com/sunshey/tencent-adv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

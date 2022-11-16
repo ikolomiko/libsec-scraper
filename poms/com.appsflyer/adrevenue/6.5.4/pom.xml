@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appsflyer</groupId>
+  <artifactId>adrevenue</artifactId>
+  <version>6.5.4</version>
+  <packaging>aar</packaging>
+  <name>AppsFlyerSDK</name>
+  <description>AppsFlyer's AdRevenue Android Module for Mobile SDK Advertising Attribution &amp; Analytics.</description>
+  <url>http://www.AppsFlyer.com/</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://www.appsflyer.com/privacy-policy/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appsflyer</id>
+      <name>AppsFlyer, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://gitlab.appsflyer.com/mobile/android-ad-revenue</connection>
+    <developerConnection>scm:hg:https://gitlab.appsflyer.com/mobile/android-ad-revenue</developerConnection>
+    <url>https://gitlab.appsflyer.com/mobile/android-ad-revenue</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.appsflyer</groupId>
+      <artifactId>af-android-sdk</artifactId>
+      <version>5.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>15.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

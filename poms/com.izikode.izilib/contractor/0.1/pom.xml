@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.izikode.izilib</groupId>
+  <artifactId>contractor</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>izilib</name>
+  <description>Annotate your MVP Contract interface to automatically generate your component classes</description>
+  <url>https://github.com/iFanie/Contractor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>null</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iFanie</id>
+      <name>Fanie Veizis</name>
+      <email>fanieveizis@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/iFanie/Contractor.git</connection>
+    <developerConnection>https://github.com/iFanie/Contractor.git</developerConnection>
+    <url>https://github.com/iFanie/Contractor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.izikode.izilib</groupId>
+      <artifactId>contractor-annotations</artifactId>
+      <version>0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0-alpha3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

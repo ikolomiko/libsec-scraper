@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.open-android</groupId>
+  <artifactId>WheelPicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>open-android/WheelPicker</name>
+  <description>Android滚轮选择控件 , 包含3D 效果， 滑动流畅无比</description>
+  <url>https://github.com/open-android/WheelPicker</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>open-android</id>
+      <name>open-android</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/open-android/WheelPicker.git</connection>
+    <developerConnection>scm:git://github.com/open-android/WheelPicker.git</developerConnection>
+    <url>git://github.com/open-android/WheelPicker.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

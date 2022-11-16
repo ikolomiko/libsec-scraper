@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Tencent.soter</groupId>
+  <artifactId>soter-core</artifactId>
+  <version>2.1.8</version>
+  <packaging>aar</packaging>
+  <name>Tencent/soter</name>
+  <description>A secure and quick biometric authentication standard and platform in Android held by Tencent.</description>
+  <url>https://github.com/Tencent/soter</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Other</name>
+      <url></url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tencent</id>
+      <name>Tencent</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Tencent/soter.git</connection>
+    <developerConnection>scm:git://github.com/Tencent/soter.git</developerConnection>
+    <url>git://github.com/Tencent/soter.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

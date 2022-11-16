@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tomclaw.cache</groupId>
+  <artifactId>cache</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>disk-lru-cache</name>
+  <description>Disk LRU cache with persisted journal</description>
+  <url>https://github.com/solkin/disk-lru-cache</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>solkin</id>
+      <name>Igor Solkin</name>
+      <email>inbox@tomclaw.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/solkin/disk-lru-cache.git</connection>
+    <developerConnection>https://github.com/solkin/disk-lru-cache.git</developerConnection>
+    <url>https://github.com/solkin/disk-lru-cache</url>
+  </scm>
+</project>

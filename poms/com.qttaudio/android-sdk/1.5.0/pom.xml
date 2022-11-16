@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qttaudio</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>qttaudio-sdk</name>
+  <description>Android real-time audio SDK</description>
+  <url>https://www.qttaudio.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http ://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qttaudio</id>
+      <name>qttaudio</name>
+      <email>xing@qttaudio.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qttaudio/sdk_release</connection>
+    <developerConnection>https://github.com/qttaudio/sdk_release</developerConnection>
+    <url>https://github.com/qttaudio/sdk_release</url>
+  </scm>
+</project>

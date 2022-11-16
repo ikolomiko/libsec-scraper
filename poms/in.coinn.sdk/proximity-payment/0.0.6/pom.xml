@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.coinn.sdk</groupId>
+  <artifactId>proximity-payment</artifactId>
+  <version>0.0.6</version>
+  <packaging>aar</packaging>
+  <name>Coinn SDK to enable payments at merchants in proximity</name>
+  <url>https://bitbucket.org/coinmobile/client-payment-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nikhilkashid</id>
+      <name>Nikhil Kashid</name>
+      <email>nikhilkashid@coinn.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/coinmobile/client-payment-sdk.git</connection>
+    <developerConnection>https://bitbucket.org/coinmobile/client-payment-sdk.git</developerConnection>
+    <url>https://bitbucket.org/coinmobile/client-payment-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.dmytrodanylyk.android-process-button</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.citruspay.sdk</groupId>
+      <artifactId>payment-sdk</artifactId>
+      <version>4.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>in.coinn.sdk</groupId>
+      <artifactId>proximity</artifactId>
+      <version>0.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

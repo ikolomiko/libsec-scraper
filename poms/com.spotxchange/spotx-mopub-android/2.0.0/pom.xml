@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spotxchange</groupId>
+  <artifactId>spotx-mopub-android</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>spotx-mopub-android</name>
+  <description>MoPub adapter for SpotXchange</description>
+  <url>http://www.spotxchange.com/</url>
+  <licenses>
+    <license>
+      <name>Apache</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>spotxmobile</id>
+      <name>SpotXchange Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/spotxmobile/spotx-mopub-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>mopub-sdk</artifactId>
+      <version>3.11.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>7.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.spotxchange</groupId>
+      <artifactId>spotx-sdk-android</artifactId>
+      <version>2.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

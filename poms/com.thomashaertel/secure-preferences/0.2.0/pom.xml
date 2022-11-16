@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thomashaertel</groupId>
+  <artifactId>secure-preferences</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Secure Preferences Implementation</name>
+  <description>Secure Preferences Provider</description>
+  <url>https://github.com/thomashaertel/secure-preferences</url>
+  <licenses>
+    <license>
+      <name>The Apache License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thomashaertel</id>
+      <name>Thomas Haertel</name>
+      <email>mail@thomashaertel.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:thomashaertel/secure-preferences.git</connection>
+    <developerConnection>scm:git@github.com:thomashaertel/secure-preferences.git</developerConnection>
+    <url>https://github.com/thomashaertel/secure-preferences</url>
+  </scm>
+</project>

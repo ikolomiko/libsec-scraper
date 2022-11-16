@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.seamlesspay.api</groupId>
+  <artifactId>Client</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Client</name>
+  <description>This is Seamless Payments Android SDK. Integrate this library to accept payments in your Android app.</description>
+  <url>https://github.com/seamlesspay/seamlesspay-android</url>
+  <licenses>
+    <license>
+      <name>Copyright © 2020 Seamless Payments, Inc. All rights reserved.</name>
+      <url>https://github.com/seamlesspay/seamlesspay-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>seamlesspay</id>
+      <name>Seamless Payments</name>
+      <email>info@seamlesspay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/seamlesspay/seamlesspay-android</connection>
+    <developerConnection>https://github.com/seamlesspay/seamlesspay-android</developerConnection>
+    <url>https://github.com/seamlesspay/seamlesspay-android</url>
+  </scm>
+</project>

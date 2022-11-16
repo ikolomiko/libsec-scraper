@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.evernote</groupId>
+  <artifactId>android-intent</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android-Evernote Intent</name>
+  <description>Android library to share information with the Android Evernote app.</description>
+  <url>https://github.com/evernote/android-intent</url>
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <name>Evernote</name>
+    <url>http://evernote.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Evernote SDK License Agreement</name>
+      <url>https://github.com/evernote/android-intent/blob/master/README.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rwondratschek</id>
+      <name>Ralf Wondratschek</name>
+      <email>rwondratschek@evernote.com</email>
+      <url>http://vrallev.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/Evernote/android-intent/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/Evernote/android-intent.git</connection>
+    <developerConnection>scm:git:git@github.com:Evernote/android-intent.git</developerConnection>
+    <url>http://github.com/Evernote/android-intent/</url>
+  </scm>
+</project>

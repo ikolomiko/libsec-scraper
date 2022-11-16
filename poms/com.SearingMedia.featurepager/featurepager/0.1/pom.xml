@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.SearingMedia.featurepager</groupId>
+  <artifactId>featurepager</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>featurepager</name>
+  <description>A view pager based off of AppIntro designed to introduce or sell features - Forked from https://github.com/PaoloRotolo/AppIntro</description>
+  <url>https://github.com/RileyGB/FeaturePager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rackerman</id>
+      <name>Riley Ackerman</name>
+      <email>r.ackerman@searingmedia.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RileyGB/FeaturePager.git</connection>
+    <developerConnection>https://github.com/RileyGB/FeaturePager.git</developerConnection>
+    <url>https://github.com/RileyGB/FeaturePager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

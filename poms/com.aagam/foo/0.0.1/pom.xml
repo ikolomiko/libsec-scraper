@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aagam</groupId>
+  <artifactId>foo</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>emojikeyboard</name>
+  <description>Emoji Library</description>
+  <url>https://github.com/Pingbits/emojikeyboard</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aagam94</id>
+      <name>Aagam Shah</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/Pingbits/emojikeyboard.git</connection>
+    <developerConnection>scm:hg:https://github.com/Pingbits/emojikeyboard.git</developerConnection>
+    <url>https://github.com/Pingbits/emojikeyboard</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>it.sephiroth.android.library.horizontallistview</groupId>
+      <artifactId>hlistview</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.lzyzsd</groupId>
+      <artifactId>circleprogress</artifactId>
+      <version>1.0.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

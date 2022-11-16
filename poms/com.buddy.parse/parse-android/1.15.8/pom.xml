@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.buddy.parse</groupId>
+  <artifactId>parse-android</artifactId>
+  <version>1.15.8</version>
+  <packaging>aar</packaging>
+  <description>A library that gives you access to the powerful Parse cloud platform from your Android app.</description>
+  <name>Parse-Android</name>
+  <url>https://github.com/BuddyPlatform/Parse-SDK-Android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/BuddyPlatform/Parse-SDK-Android/blob/buddy/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:BuddyPlatform/Parse-SDK-Android.git</connection>
+    <developerConnection>scm:git@github.com:BuddyPlatform/Parse-SDK-Android.git</developerConnection>
+    <url>https://github.com/BuddyPlatform/Parse-SDK-Android</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>parse</id>
+      <name>Parse</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-tasks</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.8.0</version>
+    </dependency>
+  </dependencies>
+</project>

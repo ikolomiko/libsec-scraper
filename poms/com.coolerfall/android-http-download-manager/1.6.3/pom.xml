@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.coolerfall</groupId>
+  <artifactId>android-http-download-manager</artifactId>
+  <version>1.6.3</version>
+  <packaging>aar</packaging>
+  <name>Http Download Manager</name>
+  <description>An useful and effective http/https download manager for Android, support breakpoint downloading</description>
+  <url>https://github.com/Coolerfall/Android-HttpDownloadManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>coolerfall</id>
+      <name>Vincent Cheung</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Coolerfall/Android-HttpDownloadManager.git</connection>
+    <developerConnection>scm:git@github.com:Coolerfall/Android-HttpDownloadManager.git</developerConnection>
+    <url>https://github.com/Coolerfall/Android-HttpDownloadManager</url>
+  </scm>
+</project>

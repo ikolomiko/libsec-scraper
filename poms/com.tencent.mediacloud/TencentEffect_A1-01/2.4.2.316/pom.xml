@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.mediacloud</groupId>
+  <artifactId>TencentEffect_A1-01</artifactId>
+  <version>2.4.2.316</version>
+  <packaging>aar</packaging>
+  <name>TencentEffect_A1-01</name>
+  <description>腾讯实时音视频（Tencent Real-Time Communication，TRTC）将腾讯21年来在网络与音视频技术上的深度积累，以多人音视频通话和低延时互动直播两大场景化方案，通过腾讯云服务向开发者开放，致力于帮助开发者快速搭建低成本、低延时、高品质的音视频互动解决方案。</description>
+  <url>https://github.com/LiteAVSDK/Player_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>TCloudyunxiao</id>
+      <name>TCloudyunxiao</name>
+      <email>mediaclientdev@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/LiteAVSDK/Player_Android.git</connection>
+    <developerConnection>https://github.com/LiteAVSDK/Player_Android.git</developerConnection>
+    <url>https://github.com/LiteAVSDK/Player_Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mediacloud</groupId>
+      <artifactId>TencentEffect_Beacon</artifactId>
+      <version>2.4.2.315</version>
+      <scope>implementation</scope>
+    </dependency>
+  </dependencies>
+</project>

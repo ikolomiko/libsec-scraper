@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ozodrukh.CircularReveal</groupId>
+  <artifactId>circualreveal</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>ozodrukh/CircularReveal</name>
+  <description>Lollipop ViewAnimationUtils.createCircularReveal for everyone 2.3+</description>
+  <url>https://github.com/ozodrukh/CircularReveal</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ozodrukh</id>
+      <name>Ozodrukh</name>
+      <email>ozik.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/ozodrukh/CircularReveal.git</connection>
+    <developerConnection>scm:git://github.com/ozodrukh/CircularReveal.git</developerConnection>
+    <url>git://github.com/ozodrukh/CircularReveal.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ozodrukh.CircularReveal</groupId>
+      <artifactId>graphics</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

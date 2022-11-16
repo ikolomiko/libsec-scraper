@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.felipecsl</groupId>
+  <artifactId>abslistviewhelper</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>AbsListViewHelper library</name>
+  <description>Really simple attacher class to add a header and/or a footer to an Android ListView or GridView</description>
+  <url>https://github.com/felipecsl/AbsListViewHelper/tree/new-scv</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/felipecsl/AbsListViewHelper/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>felipecsl</id>
+      <name>Felipe Lima</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:felipecsl/AbsListViewHelper.git</connection>
+    <developerConnection>scm:git@github.com:felipecsl/AbsListViewHelper.git</developerConnection>
+    <url>https://github.com/felipecsl/AbsListViewHelper/tree/new-scv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

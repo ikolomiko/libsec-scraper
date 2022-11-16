@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.appcom.benedict</groupId>
+  <artifactId>benedict-base</artifactId>
+  <version>0.7.0</version>
+  <packaging>aar</packaging>
+  <name>Benedict Base</name>
+  <description>Android Model-View-Presenter Framework - Base</description>
+  <url>https://github.com/appcom-interactive/benedict</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>appcom</id>
+      <name>Appcom</name>
+      <email>development@appcom-interactive.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/appcom-interactive/benedict.git</connection>
+    <developerConnection>https://github.com/appcom-interactive/benedict.git</developerConnection>
+    <url>https://github.com/appcom-interactive/benedict</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

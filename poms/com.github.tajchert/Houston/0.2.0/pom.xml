@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tajchert</groupId>
+  <artifactId>Houston</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>tajchert/Houston</name>
+  <description>Helper for managing notification stack - dismiss only part of notifications (category), by id (as usually), get list of active if possible and more.</description>
+  <url>https://github.com/tajchert/Houston</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tajchert</id>
+      <name>Michal Tajchert</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tajchert/Houston.git</connection>
+    <developerConnection>scm:git://github.com/tajchert/Houston.git</developerConnection>
+    <url>git://github.com/tajchert/Houston.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.31</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

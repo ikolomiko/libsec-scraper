@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>video-android</artifactId>
+  <version>1.0.0-beta2</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.getkeepsafe.relinker</groupId>
+      <artifactId>relinker</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>video-android</name>
+  <description>Build multi-party voice, video, and screen-sharing for web and mobile apps on any device. The easiest way to build with WebRTC.</description>
+  <url>https://www.twilio.com/docs/video/android</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/twilio/video-quickstart-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/twilio/video-quickstart-android.git</developerConnection>
+    <url>https://github.com/twilio/video-quickstart-android/tree/main</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/twilio/video-quickstart-android/issues</url>
+  </issueManagement>
+  <organization>
+    <name>Twilio, Inc.</name>
+    <url>https://www.twilio.com</url>
+  </organization>
+</project>

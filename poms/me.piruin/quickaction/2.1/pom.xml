@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.piruin</groupId>
+  <artifactId>quickaction</artifactId>
+  <version>2.1</version>
+  <packaging>aar</packaging>
+  <name>QuickAction</name>
+  <description>Android Library for easy create Tooltips with some action or just as decoration.</description>
+  <url>https://github.com/piruin/quickaction</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>piruin</id>
+      <name>Blast Piruin Panichphol</name>
+      <email>piruin.p@gmail</email>
+      <url>https://piruin.me</url>
+    </developer>
+    <developer>
+      <id>lorensiuswlt</id>
+      <name>Lorensius W. L. T</name>
+      <email>lorenz@londatiga.net</email>
+      <url>http://www.londatiga.net</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Kevin Peck</name>
+      <email>kevinwpeck@gmail.com</email>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>https://github.com/piruin/quickaction.git</connection>
+    <developerConnection>https://github.com/piruin/quickaction.git</developerConnection>
+    <url>https://github.com/piruin/quickaction</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

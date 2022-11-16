@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zo2m4bie.floatingtoggle</groupId>
+  <artifactId>floatingtoggle</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>FloatingToggle</name>
+  <description>It's custom toggle button for 2 or 3 states, with text inside of each state.</description>
+  <url>https://github.com/Zo2m4bie/FloatingToggleButton</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zo2m4bie</id>
+      <name>Dmytro Kovalenko</name>
+      <email>kovalenkodwork@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Zo2m4bie/FloatingToggleButton.git</connection>
+    <developerConnection>https://github.com/Zo2m4bie/FloatingToggleButton.git</developerConnection>
+    <url>https://github.com/Zo2m4bie/FloatingToggleButton</url>
+  </scm>
+</project>

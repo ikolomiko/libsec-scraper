@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.heapanalytics.android</groupId>
+  <artifactId>heap-android-client</artifactId>
+  <version>1.10.4</version>
+  <packaging>aar</packaging>
+  <name>Heap Android Client</name>
+  <description>Heap SDK for Android</description>
+  <url>https://heapanalytics.com</url>
+  <developers>
+    <developer>
+      <id>Heap Android</id>
+      <name>Heap Inc.</name>
+      <email>android@heapanalytics.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/heap/heap</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>Heap Android Software License Agreement</name>
+    </license>
+  </licenses>
+
+</project>

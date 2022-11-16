@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.clevertap.android</groupId>
+  <artifactId>clevertap-hms-sdk</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>clevertap-hms-sdk</name>
+  <description>The CleverTap Android Huawei Push SDK</description>
+  <url>https://github.com/CleverTap/clevertap-android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>darshanclevertap</id>
+      <name>darshan</name>
+      <email>darshan@clevertap.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/CleverTap/clevertap-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh:github.com/CleverTap/clevertap-android-sdk.git</developerConnection>
+    <url>https://github.com/CleverTap/clevertap-android-sdk/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>push</artifactId>
+      <version>5.1.1.301</version>
+    </dependency>
+  </dependencies>
+</project>

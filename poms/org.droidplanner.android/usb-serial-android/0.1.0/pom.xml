@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.droidplanner.android</groupId>
+  <artifactId>usb-serial-android</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>usb-serial-android</name>
+  <description>This is a driver library for communication with Arduinos and other USB serial hardware on Android, using the Android USB Host API available on Android 3.1+</description>
+  <url>https://github.com/DroidPlanner/usb-serial-for-android</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1</name>
+      <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ne0fhyk</id>
+      <name>Fredia Huya-Kouadio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:DroidPlanner/usb-serial-for-android.git</connection>
+    <developerConnection>scm:git:git@github.com:DroidPlanner/usb-serial-for-android.git</developerConnection>
+    <url>https://github.com/DroidPlanner/usb-serial-for-android</url>
+  </scm>
+</project>

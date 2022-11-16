@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jdroidframework</groupId>
+  <artifactId>jdroid-android-google-maps</artifactId>
+  <version>0.8.0</version>
+  <packaging>aar</packaging>
+  <name>Jdroid Android - Google Maps</name>
+  <description>Jdroid dependency project for Google Maps</description>
+  <url>http://www.jdroidframework.com</url>
+  <inceptionYear>2011</inceptionYear>
+  <organization>
+    <name>Jdroid</name>
+    <url>http://www.jdroidframework.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Maxi Rosson</name>
+      <email>jdroidsoft@gmail.com</email>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/maxirosson/jdroid/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git@github.com:maxirosson/jdroid.git</connection>
+    <developerConnection>scm:git:git@github.com:maxirosson/jdroid.git</developerConnection>
+    <url>git@github.com:maxirosson/jdroid.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>7.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jdroidframework</groupId>
+      <artifactId>jdroid-android</artifactId>
+      <version>0.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

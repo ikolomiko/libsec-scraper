@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.gzu-liyujiang</groupId>
+  <artifactId>Android_CN_OAID</artifactId>
+  <version>4.2.3</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>TODO description: build for Android</description>
+  <url>https://gitee.com/li_yu_jiang/build</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liyujiang-gzu</id>
+      <name>李玉江</name>
+      <email>1032694760@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/gzu-liyujiang/Android_CN_OAID.git</connection>
+    <developerConnection>scm:git://github.com/gzu-liyujiang/Android_CN_OAID.git</developerConnection>
+    <url>git://github.com/gzu-liyujiang/Android_CN_OAID.git</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kidoz.sdk</groupId>
+  <artifactId>kidoz-android-native</artifactId>
+  <version>8.9.7</version>
+  <packaging>aar</packaging>
+  <name>Kidoz Android SDK</name>
+  <description>KIDOZ SDK provides effective quality monetization that is fully COPPA and GDPR compliant.</description>
+  <url>https://kidoz.net</url>
+  <licenses>
+    <license>
+      <name>Library License</name>
+      <url>https://github.com/Kidoz-SDK/KIDOZ_Android_SDK_Example-Android-Studio/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yarden</id>
+      <name>Yarden Rosenberg</name>
+      <email>yarden@kidoz.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Kidoz-SDK/KIDOZ_Android_SDK_Example-Android-Studio.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Kidoz-SDK/KIDOZ_Android_SDK_Example-Android-Studio.git</developerConnection>
+    <url>https://github.com/Kidoz-SDK/KIDOZ_Android_SDK_Example-Android-Studio</url>
+  </scm>
+</project>

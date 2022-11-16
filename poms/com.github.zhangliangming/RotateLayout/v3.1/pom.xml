@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zhangliangming</groupId>
+  <artifactId>RotateLayout</artifactId>
+  <version>v3.1</version>
+  <packaging>aar</packaging>
+  <name>zhangliangming/RotateLayout</name>
+  <description>该RotateLayout的功能，主要是仿照酷狗ios版本的旋转界面功能来实现，目前主要实现了左旋转和右旋转。</description>
+  <url>https://github.com/zhangliangming/RotateLayout</url>
+  <inceptionYear>2018</inceptionYear>
+  <developers>
+    <developer>
+      <id>zhangliangming</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/zhangliangming/RotateLayout.git</connection>
+    <developerConnection>scm:git://github.com/zhangliangming/RotateLayout.git</developerConnection>
+    <url>git://github.com/zhangliangming/RotateLayout.git</url>
+  </scm>
+</project>

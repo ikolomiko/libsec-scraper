@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sberlabs</groupId>
+  <artifactId>sceneform</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>VPS SDK</name>
+  <description>This is Visual Positioning System SDK for native Android apps</description>
+  <url>https://github.com/sberdevices/vps-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Sber Public License at-nc-sa v.2</name>
+      <url>https://github.com/sberdevices/vps-sdk-android/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Alexandr Evgrashin</name>
+      <email>evgrashin.a.s@sberbank.ru</email>
+    </developer>
+    <developer>
+      <name>Sergey Ugolkov</name>
+      <email>Ugolkov.S.Vi@sberbank.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/sberdevices/vps-sdk-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.ar</groupId>
+      <artifactId>core</artifactId>
+      <version>1.26.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.filament</groupId>
+      <artifactId>filament-android</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.filament</groupId>
+      <artifactId>gltfio-android</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

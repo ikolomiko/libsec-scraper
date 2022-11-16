@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>win.himike</groupId>
+  <artifactId>selector</artifactId>
+  <version>1.0.0-beta</version>
+  <packaging>aar</packaging>
+  <name>selector</name>
+  <description>多页面选择器，考虑以后做成通用的数据加载</description>
+  <url>https://github.com/Hi-Mike/Selector</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hi-mike</id>
+      <name>HiMike</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Hi-Mike/Selector</connection>
+    <developerConnection>https://github.com/Hi-Mike/Selector</developerConnection>
+    <url>https://github.com/Hi-Mike/Selector</url>
+  </scm>
+</project>

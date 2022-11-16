@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>poppler</artifactId>
+  <version>0.81.0</version>
+  <packaging>aar</packaging>
+  <name>poppler</name>
+  <description>Poppler is a free software utility library for rendering Portable Document Format (PDF) documents.</description>
+  <url>https://poppler.freedesktop.org</url>
+  <inceptionYear>2005</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv2</name>
+      <url>https://www.gnu.org/licenses/gpl-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Derek Noonburg</name>
+      <email>derekn@foolabs.com</email>
+    </developer>
+    <developer>
+      <name>Albert Astals Cid</name>
+      <email>aacid@kde.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://anongit.freedesktop.org/git/poppler/poppler.git</connection>
+    <url>https://cgit.freedesktop.org/poppler/poppler</url>
+  </scm>
+</project>

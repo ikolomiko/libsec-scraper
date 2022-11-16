@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.joshuaavalon</groupId>
+  <artifactId>fluent-query</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Fluent Query</name>
+  <description>A fluent interface for building query in Android.</description>
+  <url>https://github.com/joshuaavalon/FluentQuery</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>joshuaavalon</id>
+      <name>Avalon</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/joshuaavalon/FluentQuery.git</connection>
+    <developerConnection>https://github.com/joshuaavalon/FluentQuery.git</developerConnection>
+    <url>https://github.com/joshuaavalon/FluentQuery</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

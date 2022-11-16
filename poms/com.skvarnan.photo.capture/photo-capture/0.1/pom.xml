@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.skvarnan.photo.capture</groupId>
+  <artifactId>photo-capture</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>PhotoCapture</name>
+  <description>An easy library to capture the picture with Android camera and convert to Bitmap</description>
+  <url>https://github.com/skavinvarnan/PhotoCaptureAndroid</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>skavinvarnan</id>
+      <name>Kavin Varnan</name>
+      <email>skavinvarnan@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/skavinvarnan/PhotoCaptureAndroid.git</connection>
+    <developerConnection>https://github.com/skavinvarnan/PhotoCaptureAndroid.git</developerConnection>
+    <url>https://github.com/skavinvarnan/PhotoCaptureAndroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

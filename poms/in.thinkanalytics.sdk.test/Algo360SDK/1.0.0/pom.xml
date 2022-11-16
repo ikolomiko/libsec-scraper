@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.thinkanalytics.sdk.test</groupId>
+  <artifactId>Algo360SDK</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Algo360SDK</name>
+  <description>Algo360 SDK</description>
+  <url>https://bitbucket.org/team360noscope/algo360sdk-2.0/src/master/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sumati-nadar</id>
+      <name>Sumati Nadar</name>
+      <email>sumati.nadar@thinkanalytics.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sumati-nadar/testapp.git</connection>
+    <developerConnection>https://github.com/sumati-nadar/testapp.git</developerConnection>
+    <url>https://bitbucket.org/team360noscope/algo360sdk-2.0/src/master/</url>
+  </scm>
+</project>

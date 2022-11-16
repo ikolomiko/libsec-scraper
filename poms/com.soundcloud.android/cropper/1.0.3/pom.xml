@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.soundcloud.android</groupId>
+  <artifactId>cropper</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>AndCropper</name>
+  <description>An Android library project that provides a simple image cropping Activity.</description>
+  <url>https://github.com/backviet01/android-crop</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>backviet</id>
+      <name>Le Trong Quan</name>
+      <email>backviet01@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/backviet01/android-crop.git</connection>
+    <developerConnection>https://github.com/backviet01/android-crop.git</developerConnection>
+    <url>https://github.com/backviet01/android-crop</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

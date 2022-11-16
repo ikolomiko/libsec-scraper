@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.idpbg-it</groupId>
+  <artifactId>connectpush</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>connectpush</name>
+  <description>Push SDK2.0</description>
+  <url>https://github.com/idpbg-it/CreateLibrary</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>idpbg-it</id>
+      <name>idpbg-it</name>
+      <email>vicki_android@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/idpbg-it/CreateLibrary.git</connection>
+    <developerConnection>scm:git:ssh://github.com/idpbg-it/CreateLibrary.git</developerConnection>
+    <url>https://github.com/idpbg-it/CreateLibrary/tree/master</url>
+  </scm>
+</project>

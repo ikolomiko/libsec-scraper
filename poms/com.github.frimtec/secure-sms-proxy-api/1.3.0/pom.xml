@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.frimtec</groupId>
+  <artifactId>secure-sms-proxy-api</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>Secure SMS Proxy API</name>
+  <description>API to integrate S2SMP (Secure SMS Proxy) into an android application.</description>
+  <url>https://github.com/frimtec/secure-sms-proxy</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>frimtec</id>
+      <name>Markus Friedli</name>
+      <email>frimtec@gmx.ch</email>
+      <url>https://github.com/frimtec</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:frimtec/secure-sms-proxy</connection>
+    <developerConnection>scm:git:git@github.com:frimtec/secure-sms-proxy</developerConnection>
+    <url>https://github.com/frimtec/secure-sms-proxy</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/frimtec/secure-sms-proxy/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>travis-ci</system>
+    <url>https://travis-ci.org/frimtec/secure-sms-proxy</url>
+  </ciManagement>
+</project>

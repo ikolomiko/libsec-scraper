@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.jlurena</groupId>
+  <artifactId>revolvingweekview</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>Revolving WeekView</name>
+  <description>An Android widget for Week Views which revolve around the 7 days of the week</description>
+  <url>https://github.com/jlurena/revolvingweekview</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/jlurena/revolvingweekview/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jlurena</id>
+      <name>Jean Luis Urena</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jlurena/revolvingweekview.git</connection>
+    <developerConnection>scm:git@github.com:jlurena/revolvingweekview.git</developerConnection>
+    <url>https://github.com/jlurena/revolvingweekview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jakewharton.threetenabp</groupId>
+      <artifactId>threetenabp</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0-rc02</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

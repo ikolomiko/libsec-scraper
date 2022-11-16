@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rakangsoftware.tiny</groupId>
+  <artifactId>tiny</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>tiny</name>
+  <description>A tiny network lib build on top of OkHttp.</description>
+  <url>https://github.com/pererikbergman/android-tiny</url>
+  <licenses>
+    <license>
+      <name>The Apac he Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pererikbergman</id>
+      <name>Per-Erik Bergman</name>
+      <email>bergman@uncle.se</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pererikbergman/android-tiny.git</connection>
+    <developerConnection>https://github.com/pererikbergman/android-tiny.git</developerConnection>
+    <url>https://github.com/pererikbergman/android-tiny</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

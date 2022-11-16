@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.prolificinteractive</groupId>
+  <artifactId>actionbarsherlock</artifactId>
+  <version>4.3.1</version>
+  <packaging>aar</packaging>
+  <name>ActionBarSherlock</name>
+  <description>Library for implementing the action bar design pattern using the native action bar on Android 4.0+ and a custom implementation on pre-4.0 through a single API and theme. http://actionbarsherlock.com</description>
+  <url>https://github.com/prolificinteractive/ActionBarSherlock</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vinc3m1</id>
+      <name>Vince Mi</name>
+      <email>vinc3m1@gmail.com</email>
+    </developer>
+    <developer>
+      <id>JakeWharton</id>
+      <name>Jake Wharton</name>
+      <email>jakewharton@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:prolificinteractive/ActionBarSherlock.git</connection>
+    <developerConnection>scm:git@github.com:prolificinteractive/ActionBarSherlock.git</developerConnection>
+    <url>scm:git@github.com:prolificinteractive/ActionBarSherlock.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>13.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

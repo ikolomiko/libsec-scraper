@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kevinja.lockedshelf</groupId>
+  <artifactId>lockedshelf</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>LockedShelf</name>
+  <description>Android encrypted caching library.</description>
+  <developers>
+    <developer>
+      <id>kevjava</id>
+      <name>Kevin Wallace</name>
+      <email>kevjava@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>prov</artifactId>
+      <version>1.54.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.madgag.spongycastle</groupId>
+      <artifactId>core</artifactId>
+      <version>1.54.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.toddway</groupId>
+      <artifactId>shelf</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.captain-miao</groupId>
+  <artifactId>grantap</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>grant Android Permission for Android L</name>
+  <description>grant Android Permission for Android L</description>
+  <url>https://github.com/captain-miao/SwipeRefreshAndLoadMore</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yanlu</id>
+      <name>yanlu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/captain-miao/SwipeRefreshAndLoadMore.git</connection>
+    <developerConnection>scm:https://github.com/captain-miao/SwipeRefreshAndLoadMore.git</developerConnection>
+    <url>https://github.com/captain-miao/SwipeRefreshAndLoadMore</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/captain-miao/SwipeRefreshAndLoadMore/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

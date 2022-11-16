@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.growingio.android</groupId>
+  <artifactId>debugger</artifactId>
+  <version>3.4.1</version>
+  <packaging>aar</packaging>
+  <name>WebService Debugger</name>
+  <description>An integration library to use OkHttp 3.x to fetch data over websocket in GrowingIO Tracker Sdk.</description>
+  <url>https://github.com/growingio/growingio-sdk-android-autotracker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>GrowingIo Sdk</id>
+      <name>GrowingIo Sdk</name>
+      <email>sdk-integration@growingio.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:growingio/growingio-sdk-android-autotracker.git</connection>
+    <developerConnection>scm:git@github.com:growingio/growingio-sdk-android-autotracker.git</developerConnection>
+    <url>https://github.com/growingio/growingio-sdk-android-autotracker</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/growingio/growingio-sdk-android-autotracker/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.12.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

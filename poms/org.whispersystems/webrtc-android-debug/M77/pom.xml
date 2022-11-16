@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.whispersystems</groupId>
+  <artifactId>webrtc-android-debug</artifactId>
+  <version>M77</version>
+  <packaging>aar</packaging>
+  <name>webrtc-android</name>
+  <description>WebRTC for Android</description>
+  <url>https://github.com/WhisperSystems/libwebrtc-android/</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Moxie Marlinspike</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:WhisperSystems/libwebrtc-android.git</connection>
+    <developerConnection>scm:git@github.com:WhisperSystems/libwebrtc-android.git</developerConnection>
+    <url>scm:git@github.com:WhisperSystems/libwebrtc-android.git</url>
+  </scm>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mil.nga.geopackage.map</groupId>
+  <artifactId>geopackage-android-map</artifactId>
+  <version>6.3.1</version>
+  <packaging>aar</packaging>
+  <name>GeoPackage Android Map</name>
+  <description>GeoPackage Android Map implementation</description>
+  <url>https://github.com/ngageoint/geopackage-android-map</url>
+  <organization>
+    <name>National Geospatial-Intelligence Agency</name>
+    <url>https://www.nga.mil</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/ngageoint/geopackage-android-map/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bosborn</id>
+      <name>Brian Osborn</name>
+      <email>bosborn@caci.com</email>
+      <organizationUrl>https://www.caci.com/bit-systems</organizationUrl>
+      <timezone>UTC-07</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:ngageoint/geopackage-android-map.git</connection>
+    <developerConnection>scm:git:git@github.com:ngageoint/geopackage-android-map.git</developerConnection>
+    <url>git@github.com:ngageoint/geopackage-android-map.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>18.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.maps.android</groupId>
+      <artifactId>android-maps-utils</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>mil.nga.geopackage</groupId>
+      <artifactId>geopackage-android</artifactId>
+      <version>6.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

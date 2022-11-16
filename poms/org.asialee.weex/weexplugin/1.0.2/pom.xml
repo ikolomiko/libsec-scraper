@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.asialee.weex</groupId>
+  <artifactId>weexplugin</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>This is a Weex Plugin Repo, including custom weex ui components modules and apaters.</name>
+  <url>https://github.com/asialee/weex-plugin</url>
+  <licenses>
+    <license>
+      <name>This is a Weex Plugin Repo, including custom weex ui components modules and apaters.</name>
+      <url>https://github.com/asialee/weex-plugin</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>asialee</id>
+      <name>liyazhou</name>
+      <email>lyz900715@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/asialee/weex-plugin.git</connection>
+    <developerConnection>https://github.com/asialee/weex-plugin.git</developerConnection>
+    <url>https://github.com/asialee/weex-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>lottie</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

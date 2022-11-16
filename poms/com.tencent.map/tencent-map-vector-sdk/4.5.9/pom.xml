@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.map</groupId>
+  <artifactId>tencent-map-vector-sdk</artifactId>
+  <version>4.5.9</version>
+  <packaging>aar</packaging>
+  <name>TencentMapSDK</name>
+  <description>TencentMapSDK</description>
+  <url>'http://map.qq.com/mobile/'</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencentmap</id>
+      <name>tencentmap</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/mrrichardli/TencentMapSdk.git</connection>
+    <developerConnection>scm:https://github.com/mrrichardli/TencentMapSdk.git</developerConnection>
+    <url>https://github.com/mrrichardli/TencentMapSdk</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.binhanh.android</groupId>
+  <artifactId>BADesign</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>BADesign</name>
+  <description>Custom widget</description>
+  <url>https://github.com/lucnd-icloud/BADesign</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lucnd-icloud</id>
+      <name>Luc Nguyen Duc</name>
+      <email>lucnd.icloud@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lucnd-icloud/BADesign.git</connection>
+    <developerConnection>https://github.com/lucnd-icloud/BADesign.git</developerConnection>
+    <url>https://github.com/lucnd-icloud/BADesign</url>
+  </scm>
+</project>

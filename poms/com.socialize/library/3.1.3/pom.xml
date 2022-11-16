@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.socialize</groupId>
+  <artifactId>library</artifactId>
+  <version>3.1.3</version>
+  <packaging>aar</packaging>
+  <name>Socialize SDK Android</name>
+  <description>Socialize SDK for Android. An Android social sharing SDK for native apps. http://www.getsocialize.com</description>
+  <url>https://github.com/socialize/socialize-sdk-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lynksant</id>
+      <name>Leonid Kahanovskyi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:socialize/socialize-sdk-android.git</connection>
+    <developerConnection>scm:git@github.com:socialize/socialize-sdk-android.git</developerConnection>
+    <url>https://github.com/socialize/socialize-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.socialize</groupId>
+      <artifactId>facebook</artifactId>
+      <version>3.1.3-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.socialize</groupId>
+      <artifactId>ioc</artifactId>
+      <version>3.1.3-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.socialize</groupId>
+      <artifactId>loopy</artifactId>
+      <version>3.1.3-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

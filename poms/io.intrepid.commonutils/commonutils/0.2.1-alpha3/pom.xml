@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.intrepid.commonutils</groupId>
+  <artifactId>commonutils</artifactId>
+  <version>0.2.1-alpha3</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>24.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.1</version>
+    </dependency>
+  </dependencies>
+  <name>android-utils</name>
+  <description>A collection of common Android utility methods used by Intrepid Pursuits.</description>
+  <url>https://github.com/IntrepidPursuits/android-utils</url>
+  <scm>
+    <url>https://github.com/IntrepidPursuits/android-utils</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Intrepid Pursuits</name>
+      <email>it.admin+bintray@intrepid.io</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.davidcryer.interactor</groupId>
+  <artifactId>interactor</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Interactor</name>
+  <description>Library to provide quick, yet customisable, way of implementing concurrency</description>
+  <url>https://github.com/davidcryer/Interactor</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davidcryer</id>
+      <name>David Cryer</name>
+      <email>davecryer.dc@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/davidcryer/Interactor.git</connection>
+    <developerConnection>https://github.com/davidcryer/Interactor.git</developerConnection>
+    <url>https://github.com/davidcryer/Interactor</url>
+  </scm>
+</project>

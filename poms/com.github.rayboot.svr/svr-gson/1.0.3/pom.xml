@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rayboot.svr</groupId>
+  <artifactId>svr-gson</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Svr-Gson</name>
+  <description>A simple json request use volley.Svr use builder pattern.</description>
+  <url>https://github.com/rayboot/SimpleVolleyRequest</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rayboot</id>
+      <name>Yan Shi</name>
+      <email>rayboot.work@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rayboot/SimpleVolleyRequest.git</connection>
+    <developerConnection>https://github.com/rayboot/SimpleVolleyRequest.git</developerConnection>
+    <url>https://github.com/rayboot/SimpleVolleyRequest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.17</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

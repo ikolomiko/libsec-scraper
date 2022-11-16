@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.icefire</groupId>
+  <artifactId>common-notification</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>common-notification</name>
+  <url>https://github.com/ycj0808/AndroidCommonViews</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>icefire</id>
+      <name>icefire</name>
+      <email>yangchj@icefire.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ycj0808/AndroidCommonViews</connection>
+    <developerConnection>https://github.com/ycj0808/AndroidCommonViews</developerConnection>
+    <url>https://github.com/ycj0808/AndroidCommonViews</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

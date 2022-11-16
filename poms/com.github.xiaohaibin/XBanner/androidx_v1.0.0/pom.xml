@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.xiaohaibin</groupId>
+  <artifactId>XBanner</artifactId>
+  <version>androidx_v1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Banner</name>
+  <description>:fire:【图片轮播】支持图片无限轮播，支持自定义指示点、显示提示文字、切换动画、自定义布局，一屏显示多个等功能</description>
+  <url>https://github.com/xiaohaibin/XBanner</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jxnk25</id>
+      <name>jxnk25</name>
+      <email>xhb_199409@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xiaohaibin/XBanner</connection>
+    <developerConnection>https://github.com/xiaohaibin/XBanner</developerConnection>
+    <url>https://github.com/xiaohaibin/XBanner</url>
+  </scm>
+</project>

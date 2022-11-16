@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ChahatGupta</groupId>
+  <artifactId>FadeInTextView-Android</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>ChahatGupta/FadeInTextView-Android</name>
+  <description>A custom TextView library which makes every character appear with a smooth alpha animation</description>
+  <url>https://github.com/ChahatGupta/FadeInTextView-Android</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ChahatGupta</id>
+      <name>Chahat Gupta</name>
+      <email>admin@believe-labs.co</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/ChahatGupta/FadeInTextView-Android.git</connection>
+    <developerConnection>scm:git://github.com/ChahatGupta/FadeInTextView-Android.git</developerConnection>
+    <url>git://github.com/ChahatGupta/FadeInTextView-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

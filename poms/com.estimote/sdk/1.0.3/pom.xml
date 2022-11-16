@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.estimote</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Estimote SDK for Android</name>
+  <description>The Estimote SDK for Android is a library that allows interaction with Estimote Proximity Beacons, Location Beacons &amp; Nearables.</description>
+  <url>https://github.com/Estimote/Android-SDK</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pawelDylag</id>
+      <name>Estimote</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Estimote/Android-SDK.git</connection>
+    <developerConnection>scm:git@github.com:Estimote/Android-SDK.git</developerConnection>
+    <url>https://github.com/Estimote/Android-SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>Android-SDK-Core-Source</groupId>
+      <artifactId>coresdk</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eventflit</groupId>
+  <artifactId>eventflit-websocket-android</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>'Eventflit Android Library'</name>
+  <description>A wrapper around eventflit-websocket-java for a better Android experience</description>
+  <url>https://github.com/eventflit/eventflit-websocket-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>'https://raw.github.com/eventflit/eventflit-java-client/master/LICENCE.txt'</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>erickponce</id>
+      <name>Erick Ponce</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:eventflit/eventflit-websocket-android.git</connection>
+    <developerConnection>scm:git@github.com:eventflit/eventflit-websocket-android.git</developerConnection>
+    <url>https://github.com/eventflit/eventflit-websocket-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.eventflit</groupId>
+      <artifactId>eventflit-java-client</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.loopj.android</groupId>
+      <artifactId>android-async-http</artifactId>
+      <version>1.4.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

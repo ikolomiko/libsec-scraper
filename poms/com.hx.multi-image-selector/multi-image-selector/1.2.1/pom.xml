@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hx.multi-image-selector</groupId>
+  <artifactId>multi-image-selector</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Multi-Image-Selector</name>
+  <url>https://github.com/qq549631030/MultiImageSelector</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qq549631030</id>
+      <name>huangx</name>
+      <email>549631030@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qq549631030/MultiImageSelector.git</connection>
+    <developerConnection>https://github.com/qq549631030/MultiImageSelector.git</developerConnection>
+    <url>https://github.com/qq549631030/MultiImageSelector</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nohkumado</groupId>
+  <artifactId>nohutils</artifactId>
+  <version>1.16</version>
+  <packaging>aar</packaging>
+  <name>Androidified Nohutils</name>
+  <description>Collection of my standard inclusions in android programs, mainly a shell</description>
+  <url>http://www.nohkumado.eu/nohutils</url>
+  <licenses>
+    <license>
+      <name>GPL3</name>
+      <url>http://www.gnu.org/licenses/licenses.html#GPL</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nohkumado</id>
+      <name>NohKumaDo software devel</name>
+      <email>nohkumado@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nohkumado/nohutils</connection>
+    <developerConnection>https://github.com/nohkumado/nohutils</developerConnection>
+    <url>https://github.com/nohkumado/nohutils</url>
+  </scm>
+</project>

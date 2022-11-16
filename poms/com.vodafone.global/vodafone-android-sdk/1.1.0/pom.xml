@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vodafone.global</groupId>
+  <artifactId>vodafone-android-sdk</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+
+  <name>Vodafone Android SDK</name>
+  <description>TVodafone Android SDK used by Android apps to integrate with Vodafone services and systems</description>
+  <url>https://github.com/VodafoneGlobalServices/vodafone-android-sdk</url>
+
+  <licenses>
+    <license>
+      <name>GNU General Public License v3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/VodafoneGlobalServices/vodafone-android-sdk</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>siquenique</id>
+      <name>Joao Siquenique</name>
+      <email>joao.siquenique@vodafone.com</email>
+      <url>http://incubation.vodafone.com</url>
+      <organization>Vodafone Global Services</organization>
+      <organizationUrl>http://www.vodafone.com</organizationUrl>
+      <roles>
+        <role>project manager</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.4</version>
+    </dependency>
+  </dependencies>
+</project>

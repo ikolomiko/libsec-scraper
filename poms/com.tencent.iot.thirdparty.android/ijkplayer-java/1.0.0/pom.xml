@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.iot.thirdparty.android</groupId>
+  <artifactId>ijkplayer-java</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ijkplayer</name>
+  <description>Tencent Link Android library</description>
+  <url>https://github.com/tencentyun/iot-ijkplayer</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/iot-link-android/blob/master/explorer-link-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_archurtan</id>
+      <name>Tencent archurtan</name>
+      <email>archurtan@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/iot-link-android.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/iot-link-android.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/iot-link-android.git</url>
+  </scm>
+  <dependencies/>
+</project>

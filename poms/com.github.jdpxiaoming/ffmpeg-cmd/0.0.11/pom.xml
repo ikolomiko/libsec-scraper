@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jdpxiaoming</groupId>
+  <artifactId>ffmpeg-cmd</artifactId>
+  <version>0.0.11</version>
+  <packaging>aar</packaging>
+  <name>ffmpeg-cmd</name>
+  <description>Video player based on FFmpeg n4.0.2</description>
+  <url>https://github.com/jdpxiaoming/FFmpegTools/</url>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jdpxiaoming</id>
+      <name>Cai Xing Ming</name>
+      <email>poe.caixingming@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:jdpxiaoming/FFmpegTools.git</connection>
+    <developerConnection>scm:git:git@github.com:jdpxiaoming/FFmpegTools.git</developerConnection>
+    <url>https://github.com/jdpxiaoming/FFmpegTools.git</url>
+  </scm>
+</project>

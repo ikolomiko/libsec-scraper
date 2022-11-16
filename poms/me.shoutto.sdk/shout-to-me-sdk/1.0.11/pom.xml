@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.shoutto.sdk</groupId>
+  <artifactId>shout-to-me-sdk</artifactId>
+  <version>1.0.11</version>
+  <packaging>aar</packaging>
+  <name>ShoutToMeAndroidSDK</name>
+  <description>An Android SDK that can be used to consume the Shout to Me cloud services</description>
+  <url>https://github.com/ShoutToMe/stm-sdk-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>trojas</id>
+      <name>Tracy Rojas</name>
+      <email>tracy@shoutto.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ShoutToMe/stm-sdk-android.git</connection>
+    <developerConnection>https://github.com/ShoutToMe/stm-sdk-android.git</developerConnection>
+    <url>https://github.com/ShoutToMe/stm-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>9.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>9.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-core</artifactId>
+      <version>2.2.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-sns</artifactId>
+      <version>2.2.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

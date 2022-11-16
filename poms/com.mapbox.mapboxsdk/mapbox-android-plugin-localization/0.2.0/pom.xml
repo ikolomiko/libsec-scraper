@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mapbox.mapboxsdk</groupId>
+  <artifactId>mapbox-android-plugin-localization</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Mapbox Android Localization Plugin</name>
+  <description>Mapbox Android Localization Plugin</description>
+  <url>https://github.com/mapbox/mapbox-plugins-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mapbox</id>
+      <name>Mapbox</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mapbox/mapbox-plugins-android.git</connection>
+    <developerConnection>scm:git@github.com:mapbox/mapbox-plugins-android.git</developerConnection>
+    <url>https://github.com/mapbox/mapbox-plugins-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-sdk</artifactId>
+      <version>6.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

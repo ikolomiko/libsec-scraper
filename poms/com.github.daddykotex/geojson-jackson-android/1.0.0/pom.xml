@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.daddykotex</groupId>
+  <artifactId>geojson-jackson-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A fork of GeoJSON Jackson to be parcelable</name>
+  <description>This Android library is used to to use GEO Json with Jackson in your Android application.</description>
+  <url>https://github.com/daddykotex/geojson-jackson-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>daddykotex</id>
+      <name>David Francoeur</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:daddykotex/geojson-jackson-android.git</connection>
+    <developerConnection>scm:git@github.com:daddykotex/geojson-jackson-android.git</developerConnection>
+    <url>https://github.com/daddykotex/geojson-jackson-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

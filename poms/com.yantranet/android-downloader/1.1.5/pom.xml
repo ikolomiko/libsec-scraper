@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yantranet</groupId>
+  <artifactId>android-downloader</artifactId>
+  <version>1.1.5</version>
+  <packaging>aar</packaging>
+  <name>AndroidDownloader</name>
+  <description>A utility for Android to download files</description>
+  <url>https://bitbucket.org/yantranet/androiddownloader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rkuncham</id>
+      <name>Rohit Kuncham</name>
+      <email>rohit@yantranet.com</email>
+    </developer>
+    <developer>
+      <id>vishnuganta22</id>
+      <name>Vishnu Ganta</name>
+      <email>vishnu@yantranet.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/yantranet/androiddownloader.git</connection>
+    <developerConnection>https://bitbucket.org/yantranet/androiddownloader.git</developerConnection>
+    <url>https://bitbucket.org/yantranet/androiddownloader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yantranet</groupId>
+      <artifactId>utilsLib</artifactId>
+      <version>1.0.68</version>
+    </dependency>
+    <dependency>
+      <groupId>com.yantranet</groupId>
+      <artifactId>utilsLib</artifactId>
+      <version>1.0.68</version>
+    </dependency>
+  </dependencies>
+</project>

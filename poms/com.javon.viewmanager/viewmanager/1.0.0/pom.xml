@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javon.viewmanager</groupId>
+  <artifactId>viewmanager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>viewmanager</name>
+  <description>An Android library for changing views through animations.</description>
+  <url>https://github.com/JA-VON/Android-View-Controller</url>
+  <licenses>
+    <license>
+      <name>The Apache License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>javondavis</id>
+      <name>Javon Davis</name>
+      <email>javonldavis14@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JA-VON/Android-View-Controller</connection>
+    <developerConnection>https://github.com/JA-VON/Android-View-Controller</developerConnection>
+    <url>https://github.com/JA-VON/Android-View-Controller</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

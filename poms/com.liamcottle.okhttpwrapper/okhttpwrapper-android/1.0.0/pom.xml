@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.liamcottle.okhttpwrapper</groupId>
+  <artifactId>okhttpwrapper-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>OkHttpWrapper</name>
+  <description>Wrapper for OkHttp where each request has its own Class</description>
+  <url>https://github.com/liamcottle/OkHttpWrapper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liamcottle</id>
+      <name>Liam Cottle</name>
+      <email>liam@liamcottlecom</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/liamcottle/OkHttpWrapper.git</connection>
+    <developerConnection>https://github.com/liamcottle/OkHttpWrapper.git</developerConnection>
+    <url>https://github.com/liamcottle/OkHttpWrapper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

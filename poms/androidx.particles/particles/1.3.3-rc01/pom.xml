@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>androidx.particles</groupId>
+  <artifactId>particles</artifactId>
+  <version>1.3.3-rc01</version>
+  <packaging>aar</packaging>
+  <name>AndroidX Particles</name>
+  <description>A particle system library for standard Android UI.</description>
+  <url>https://thomorl.github.io/androidx-particles/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>plattysoft</id>
+      <name>Platty Soft</name>
+      <email>raul@plattysoft.com</email>
+    </developer>
+    <developer>
+      <id>thomorl</id>
+      <name>Thomas Orlando</name>
+      <email>thomorl@atpc.one</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/thomorl/androidx-particles.git</connection>
+    <developerConnection>https://github.com/thomorl/androidx-particles.git</developerConnection>
+    <url>https://thomorl.github.io/androidx-particles/</url>
+  </scm>
+</project>

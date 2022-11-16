@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>one.block</groupId>
+  <artifactId>eosiojavaandroidabieosserializationprovider</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>EOSIO SDK for Java Android: ABIEOS Serialization Provider</name>
+  <description>ABIEOS Serialization Provider is intended to be used in conjunction with EOSIO SDK for Java as a provider plugin.</description>
+  <url>https://github.com/EOSIO/eosio-java-android-abieos-serialization-provider/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/EOSIO/eosio-java-android-abieos-serialization-provider/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>block.one</id>
+      <name>Block One</name>
+      <email>dev@block.one</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/EOSIO/eosio-java-android-abieos-serialization-provider.git</connection>
+    <developerConnection>scm:git:git://github.com/EOSIO/eosio-java-android-abieos-serialization-provider.git</developerConnection>
+    <url>https://github.com/EOSIO/eosio-java-android-abieos-serialization-provider/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>one.block</groupId>
+      <artifactId>eosiojava</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>17.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0-beta01</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.appcenter</groupId>
+  <artifactId>appcenter-analytics</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>appcenter-analytics</name>
+  <description>This package contains functionalities to collect session, device properties, events etc... for your application.</description>
+  <url>https://github.com/Microsoft/appcenter-sdk-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>microsoft</id>
+      <name>Microsoft</name>
+      <email>appcentersdk@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Microsoft/appcenter-sdk-android.git</connection>
+    <developerConnection>https://github.com/Microsoft/appcenter-sdk-android.git</developerConnection>
+    <url>https://github.com/Microsoft/appcenter-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.microsoft.appcenter</groupId>
+      <artifactId>appcenter</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

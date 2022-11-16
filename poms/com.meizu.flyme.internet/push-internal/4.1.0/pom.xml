@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.meizu.flyme.internet</groupId>
+  <artifactId>push-internal</artifactId>
+  <version>4.1.0</version>
+  <packaging>aar</packaging>
+  <name>push-internal</name>
+  <description>push-sdk</description>
+  <url>https://github.com/comsince/Gradle_Plugin_For_Publish.git</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://github.com/comsince/Gradle_Plugin_For_Publish.git</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>comsince</id>
+      <name>comsince</name>
+      <email>ljlong_2008@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/comsince/Gradle_Plugin_For_Publish.git</connection>
+    <developerConnection>https://github.com/comsince/Gradle_Plugin_For_Publish.git</developerConnection>
+    <url>https://github.com/comsince/Gradle_Plugin_For_Publish.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

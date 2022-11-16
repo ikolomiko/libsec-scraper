@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pqpo</groupId>
+  <artifactId>Log4a</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>pqpo/Log4a</name>
+  <description>:octocat:Log4a is an mmap based, high-performance, highly available Android log collection library / Log4a 是一个基于 mmap, 高性能、高可用的 Android 日志收集框架</description>
+  <url>https://pqpo.me/2018/01/17/log4a-principle-analysis/</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pqpo</id>
+      <name>Linmin Qiu</name>
+      <email>pqponet@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/pqpo/Log4a.git</connection>
+    <developerConnection>scm:git://github.com/pqpo/Log4a.git</developerConnection>
+    <url>git://github.com/pqpo/Log4a.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

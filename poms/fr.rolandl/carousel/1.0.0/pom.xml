@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.rolandl</groupId>
+  <artifactId>carousel</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android 3D Carousel</name>
+  <description>An Android 3D Carousel based on http://www.codeproject.com/Articles/146145/Android-D-Carousel</description>
+  <url>https://github.com/ludovicroland/carousel-android</url>
+  <licenses>
+    <license>
+      <name>The Code Project Open License (CPOL) 1.02</name>
+      <url>http://www.codeproject.com/info/cpol10.aspx</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rolandl</id>
+      <name>Ludovic ROLAND</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/ludovicroland/carousel-android</connection>
+    <developerConnection>scm:hg:https://github.com/ludovicroland/carousel-android</developerConnection>
+    <url>https://github.com/ludovicroland/carousel-android</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.isaacrf.epicbitmaprenderer</groupId>
+  <artifactId>epicbitmaprenderer</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>epicbitmaprenderer</name>
+  <description>Decode and render Bitmaps the epic and easy way, creating faster apps without extra effort.</description>
+  <url>https://github.com/IsaacRF/EpicBitmapRenderer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>isaacrf</id>
+      <name>Isaac R.F.</name>
+      <email>isaacrf239@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/IsaacRF/EpicBitmapRenderer.git</connection>
+    <developerConnection>https://github.com/IsaacRF/EpicBitmapRenderer.git</developerConnection>
+    <url>https://github.com/IsaacRF/EpicBitmapRenderer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

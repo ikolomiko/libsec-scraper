@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.darshan.logg</groupId>
+  <artifactId>logg</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Logg</name>
+  <description>This library helps in adding logging to your Android App.</description>
+  <url>https://github.com/darshanclevertap/LoggApp</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>darshanclevertap</id>
+      <name>Darshan Pania</name>
+      <email>darshanpania@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/darshanclevertap/LoggApp.git</connection>
+    <developerConnection>https://github.com/darshanclevertap/LoggApp.git</developerConnection>
+    <url>https://github.com/darshanclevertap/LoggApp</url>
+  </scm>
+</project>

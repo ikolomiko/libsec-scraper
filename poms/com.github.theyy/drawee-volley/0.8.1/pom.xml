@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.theyy</groupId>
+  <artifactId>drawee-volley</artifactId>
+  <version>0.8.1</version>
+  <packaging>aar</packaging>
+  <name>Drawee-Volley Integration</name>
+  <description>An integration library to use Volley to load images into Drawee</description>
+  <url>https://github.com/theYY/fresco</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/facebook/fresco/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yangyang</id>
+      <name>yangyang</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/theYY/fresco.git</connection>
+    <developerConnection>scm:git:git@github.com:theYY/fresco.git</developerConnection>
+    <url>https://github.com/theYY/fresco.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.theyy</groupId>
+      <artifactId>fbcore</artifactId>
+      <version>0.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.theyy</groupId>
+      <artifactId>drawee</artifactId>
+      <version>0.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mcxiaoke.volley</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.18</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

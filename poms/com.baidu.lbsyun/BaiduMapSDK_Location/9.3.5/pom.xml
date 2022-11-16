@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baidu.lbsyun</groupId>
+  <artifactId>BaiduMapSDK_Location</artifactId>
+  <version>9.3.5</version>
+  <packaging>aar</packaging>
+  <name>BaiduMapSDK_Location-release</name>
+  <description>BaiduMapSDK_Location-release</description>
+  <url>https://github.com/lbs-mapsdk/lbs-trace;</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lbs-mapsdk</id>
+      <name>lbs-mapsdk</name>
+      <email>lbs-mapsdk@baidu.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/lbs-mapsdk/lbs-trace.git</connection>
+    <developerConnection>scm:https://github.com/lbs-mapsdk/lbs-trace.git</developerConnection>
+    <url>https://github.com/lbs-mapsdk/lbs-trace</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.baidu.lbsyun</groupId>
+      <artifactId>common</artifactId>
+      <version>1.0.28</version>
+    </dependency>
+  </dependencies>
+</project>

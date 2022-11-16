@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.semoncat.GoogleNavigationDrawerMenu</groupId>
+  <artifactId>gnavdrawer-library</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>GoogleNavigationDrawerMenuLibrary</name>
+  <description>Android library to get the style of the menu of the Google Apps</description>
+  <url>https://github.com/SemonCat/GoogleNavigationDrawerMenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>semoncat</id>
+      <name>SemonCat</name>
+      <email>"gn00747254@gmail.com"</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:SemonCat/GoogleNavigationDrawerMenu.git</connection>
+    <developerConnection>scm:git@github.com:SemonCat/GoogleNavigationDrawerMenu.git</developerConnection>
+    <url>https://github.com/SemonCat/GoogleNavigationDrawerMenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

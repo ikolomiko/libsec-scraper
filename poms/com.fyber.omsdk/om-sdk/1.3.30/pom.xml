@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fyber.omsdk</groupId>
+  <artifactId>om-sdk</artifactId>
+  <version>1.3.30</version>
+  <packaging>aar</packaging>
+  <name>com.fyber.omsdk:om-sdk</name>
+  <description>The Open Measurement SDK</description>
+  <url>https://developer.fyber.com</url>
+  <licenses>
+    <license>
+      <name>Fyber proprietary</name>
+      <url>https://www.fyber.com/sdklicense</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Fyber</name>
+      <email>dev@fyber.com</email>
+      <organization>Fyber</organization>
+      <organizationUrl>https://www.fyber.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/fyber-engineering/marketplace-android-sample-app.git</connection>
+    <developerConnection>scm:git:ssh://github.com:fyber-engineering/marketplace-android-sample-app.git</developerConnection>
+    <url>https://github.com/fyber-engineering/marketplace-android-sample-app</url>
+  </scm>
+</project>

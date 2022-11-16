@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.seven.support</groupId>
+  <artifactId>support_request</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>One custom request package depend on retrofit 2.</name>
+  <url>https://gitee.com/guodx/Supports</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sevenme</id>
+      <name>sevenme</name>
+      <email>ybbaijat2160@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/guodx/Supports.git</connection>
+    <developerConnection>https://gitee.com/guodx/Supports.git</developerConnection>
+    <url>https://gitee.com/guodx/Supports</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.seven.support</groupId>
+      <artifactId>support_utils</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.1.56.android</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.retrofit</groupId>
+      <artifactId>retrofit2-rxjava2-adapter</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

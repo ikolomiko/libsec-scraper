@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.my.tracker.plugins</groupId>
+  <artifactId>beacon</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-nearby</artifactId>
+      <version>15.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>myTracker beacon plugin</name>
+  <description>Beacon plugin for myTracker SDK</description>
+  <url>https://tracker.my.com</url>
+  <scm>
+    <url>https://github.com/myTrackerSDK/mytracker-android</url>
+    <connection>https://tracker.my.com</connection>
+    <developerConnection>https://tracker.my.com</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>GNU LGPL 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>myTracker</name>
+    </developer>
+  </developers>
+</project>

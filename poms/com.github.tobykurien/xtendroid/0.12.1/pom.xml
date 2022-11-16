@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tobykurien</groupId>
+  <artifactId>xtendroid</artifactId>
+  <version>0.12.1</version>
+  <packaging>aar</packaging>
+  <name>Xtendroid</name>
+  <description>Android library for productive Android development using Xtend</description>
+  <url>https://github.com/tobykurien/Xtendroid</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tobykurien</id>
+      <name>Toby Kurien</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/tobykurien/Xtendroid.git</connection>
+    <developerConnection>scm:git:https://github.com/tobykurien/Xtendroid.git</developerConnection>
+    <url>https://github.com/tobykurien/Xtendroid.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.xtend</groupId>
+      <artifactId>org.eclipse.xtend.lib</artifactId>
+      <version>2.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

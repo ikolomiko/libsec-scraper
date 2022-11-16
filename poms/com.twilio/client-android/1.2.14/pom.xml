@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>client-android</artifactId>
+  <version>1.2.14</version>
+  <packaging>aar</packaging>
+  <name>client-android</name>
+  <description>Twilio Client Android is a Java library for Android that enables voice communications with landlines or other Twilio Client devices, including web browsers and other mobile devices.</description>
+  <url>https://www.twilio.com/docs/voice/voip-sdk/android</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/twilio/voice-quickstart-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/twilio/voice-quickstart-android.git</developerConnection>
+    <url>https://github.com/twilio/voice-quickstart-android/tree/main</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/twilio/voice-quickstart-android/issues</url>
+  </issueManagement>
+  <organization>
+    <name>Twilio, Inc.</name>
+    <url>https://www.twilio.com</url>
+  </organization>
+</project>

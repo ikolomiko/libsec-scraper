@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crashlogger.android</groupId>
+  <artifactId>app</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>CrashLogger</name>
+  <description>Crash Logger is android project designed to log crash report of the application which run across all versions of Android. When an application crashes log report is generated with device info.</description>
+  <url>https://github.com/SuhailMehta/CrashLogger</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>suhailmehta</id>
+      <name>Suhail Mehta</name>
+      <email>suhailmehta2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SuhailMehta/CrashLogger.git</connection>
+    <developerConnection>https://github.com/SuhailMehta/CrashLogger.git</developerConnection>
+    <url>https://github.com/SuhailMehta/CrashLogger</url>
+  </scm>
+</project>

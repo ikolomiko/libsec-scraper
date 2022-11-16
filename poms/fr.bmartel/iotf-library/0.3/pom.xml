@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.bmartel</groupId>
+  <artifactId>iotf-library</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>iotf-android</name>
+  <description>IBM IoT foundation Messaging library for Android</description>
+  <url>https://github.com/bertrandmartel/iotf-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/bertrandmartel/iotf-android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bertrandmartel</id>
+      <name>Bertrand Martel</name>
+      <email>bmartel.fr@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bertrandmartel/iotf-android.git</connection>
+    <developerConnection>https://github.com/bertrandmartel/iotf-android.git</developerConnection>
+    <url>https://github.com/bertrandmartel/iotf-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.android.service</artifactId>
+      <version>1.0.3-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.0.3-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

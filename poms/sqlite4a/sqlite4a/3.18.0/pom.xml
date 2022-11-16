@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sqlite4a</groupId>
+  <artifactId>sqlite4a</artifactId>
+  <version>3.18.0</version>
+  <packaging>aar</packaging>
+  <name>sqlite4a</name>
+  <url>https://github.com/DanielSerdyukov/sqlite4a</url>
+  <scm>
+    <url>https://github.com/DanielSerdyukov/sqlite4a.git</url>
+    <connection>scm:git:git://github.com/DanielSerdyukov/sqlite4a.git</connection>
+    <developerConnection>scm:git:git@github.com/DanielSerdyukov/sqlite4a.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Daniel Serdyukov</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

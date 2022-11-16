@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.queue_it.androidsdk</groupId>
+  <artifactId>library</artifactId>
+  <version>2.0.5</version>
+  <packaging>aar</packaging>
+  <name>com.queue_it.androidsdk</name>
+  <description>Android SDK to integrate with Queue-it</description>
+  <url>https://github.com/queueit/android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/queueit/android-sdk.git</connection>
+    <developerConnection>https://github.com/queueit/android-sdk.git</developerConnection>
+    <url>https://github.com/queueit/android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

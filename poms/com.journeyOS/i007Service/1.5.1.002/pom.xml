@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.journeyOS</groupId>
+  <artifactId>i007Service</artifactId>
+  <version>1.5.1.002</version>
+  <packaging>aar</packaging>
+  <name>I007Service</name>
+  <description>LiteTask is an extremely light way to execute code in the background on Android.</description>
+  <url>https://github.com/journeyOS/I007Service</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>git@github.com:journeyOS/I007Service.git</connection>
+    <developerConnection>git@github.com:journeyOS/I007Service.git</developerConnection>
+    <url>https://github.com/journeyOS/I007Service</url>
+  </scm>
+</project>

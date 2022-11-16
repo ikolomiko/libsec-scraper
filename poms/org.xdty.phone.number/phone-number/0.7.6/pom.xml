@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.xdty.phone.number</groupId>
+  <artifactId>phone-number</artifactId>
+  <version>0.7.6</version>
+  <packaging>aar</packaging>
+  <name>PhoneNumber</name>
+  <description>A library to get phone number location and other info.</description>
+  <url>https://github.com/xdtianyu/PhoneNumber</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xdtianyu</id>
+      <name>xdtianyu</name>
+      <email>xdtianyu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xdtianyu/PhoneNumber</connection>
+    <developerConnection>https://github.com/xdtianyu/PhoneNumber</developerConnection>
+    <url>https://github.com/xdtianyu/PhoneNumber</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.googlecode.libphonenumber</groupId>
+      <artifactId>carrier</artifactId>
+      <version>1.22</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.googlecode.libphonenumber</groupId>
+      <artifactId>geocoder</artifactId>
+      <version>2.32</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.googlecode.libphonenumber</groupId>
+      <artifactId>libphonenumber</artifactId>
+      <version>7.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

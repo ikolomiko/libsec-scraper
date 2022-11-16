@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.messangi.sdk</groupId>
+  <artifactId>core</artifactId>
+  <version>0.15.0</version>
+  <packaging>aar</packaging>
+  <name>core</name>
+  <description>Messaging SDK</description>
+  <url>https://git.messangi.com/messangi/messangi-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Library Licence</name>
+      <url>https://messangi.com/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jbarrios</id>
+      <name>Javier Barrios</name>
+      <email>javier@gmail.com</email>
+    </developer>
+    <developer>
+      <id>jtorres</id>
+      <name>Jesus Torres</name>
+      <email>jtorres@messangi.com</email>
+    </developer>
+    <developer>
+      <id>bgonzalez</id>
+      <name>Betzabeth Gonzalez</name>
+      <email>bgonzalez@messangi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git.messangi.com:messangi/messangi-android-sdk.git</connection>
+    <developerConnection>scm:git:git.messangi.com:messangi/messangi-android-sdk.git</developerConnection>
+    <url>https://git.messangi.com/messangi/messangi-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>23.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>extensions</artifactId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>18.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

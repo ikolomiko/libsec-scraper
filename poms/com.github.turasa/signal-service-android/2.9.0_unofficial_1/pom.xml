@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.turasa</groupId>
+  <artifactId>signal-service-android</artifactId>
+  <version>2.9.0_unofficial_1</version>
+  <packaging>aar</packaging>
+  <name>signal-service-android</name>
+  <description>Signal Service communication library for Android, unofficial fork</description>
+  <url>https://github.com/Turasa/libsignal-service-java</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Moxie Marlinspike</name>
+    </developer>
+    <developer>
+      <name>Sebastian Scheibner</name>
+    </developer>
+    <developer>
+      <name>Tilman Hoffbauer</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Turasa/libsignal-service-java.git</connection>
+    <developerConnection>scm:git@github.com:Turasa/libsignal-service-java.git</developerConnection>
+    <url>scm:git@github.com:Turasa/libsignal-service-java.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.whispersystems</groupId>
+      <artifactId>signal-protocol-android</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.turasa</groupId>
+      <artifactId>signal-service-java</artifactId>
+      <version>2.9.0_unofficial_1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>signal-protocol-java</artifactId>
+          <groupId>org.whispersystems</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

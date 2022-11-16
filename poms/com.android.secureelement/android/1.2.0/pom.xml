@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.android.secureelement</groupId>
+  <artifactId>android</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>android-secure-element</name>
+  <description>Securely encrypt and decrypt your user's data</description>
+  <url>https://github.com/reime005/react-native-secure-element</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>reime005</id>
+      <name>Marius Reimer (reime005)</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/reime005/react-native-secure-element.git</connection>
+    <developerConnection>https://github.com/reime005/react-native-secure-element.git</developerConnection>
+    <url>https://github.com/reime005/react-native-secure-element</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

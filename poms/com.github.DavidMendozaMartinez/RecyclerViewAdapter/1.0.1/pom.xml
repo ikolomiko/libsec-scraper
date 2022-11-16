@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.DavidMendozaMartinez</groupId>
+  <artifactId>RecyclerViewAdapter</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android library that facilitates the use and configuration of RecyclerView.</name>
+  <description>Android library that facilitates the use and configuration of RecyclerView.</description>
+  <licenses>
+    <license>
+      <name>GNU General Public License v3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davidmendozamartinez</id>
+      <name>David Mendoza Martínez</name>
+      <email>david.mendoza.mnez@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DavidMendozaMartinez/RecyclerViewAdapter.git</connection>
+    <developerConnection>https://github.com/DavidMendozaMartinez/RecyclerViewAdapter.git</developerConnection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>3.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>3.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>3.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

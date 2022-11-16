@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xmlsoft.source</groupId>
+  <artifactId>xmlsoft-x86</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>xmlsoft-x86</name>
+  <description>xml with c</description>
+  <url>https://github.com/goodjok/xmlsoft</url>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Joun</id>
+      <name>Joun.Young</name>
+      <email>466860042@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/goodjok/xmlsoft.git</connection>
+    <developerConnection>https://github.com/goodjok/xmlsoft.git</developerConnection>
+    <url>https://github.com/goodjok/xmlsoft</url>
+  </scm>
+</project>

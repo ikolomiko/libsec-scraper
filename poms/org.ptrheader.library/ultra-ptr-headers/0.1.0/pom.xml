@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ptrheader.library</groupId>
+  <artifactId>ultra-ptr-headers</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>ultra-ptr-headers</name>
+  <description>Collection of awesome headers for android-Ultra-Pull-To-Refresh Library.</description>
+  <url>https://github.com/Muyangmin/UltraPtrHeaderCollection</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Muyangmin/UltraPtrHeaderCollection/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/Muyangmin/UltraPtrHeaderCollection</url>
+    <connection>scm:git:git://github.com/Muyangmin/UltraPtrHeaderCollection.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Muyangmin/UltraPtrHeaderCollection.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

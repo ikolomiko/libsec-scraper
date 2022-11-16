@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.chiclaim</groupId>
+  <artifactId>router-api</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Router Compiler</name>
+  <description>Android Modularization API</description>
+  <url>https://github.com/chiclaim</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yuzhiqiang</id>
+      <name>yuzhiqiang</name>
+      <email>chiclaim@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:chiclaim/MRouter.git</connection>
+    <developerConnection>git@github.com:chiclaim/MRouter.git</developerConnection>
+    <url>https://github.com/chiclaim</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.chiclaim</groupId>
+      <artifactId>router-annotation</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

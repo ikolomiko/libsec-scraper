@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uniview.log4jlib</groupId>
+  <artifactId>log4jlib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android log4jlib Widget</name>
+  <url>http://code.airimos.com/developers/Logger.Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>uniview</id>
+      <name>uniview</name>
+      <email>imosapp@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://code.airimos.com/developers/Logger.Android.git</connection>
+    <developerConnection>http://code.airimos.com/developers/Logger.Android.git</developerConnection>
+    <url>http://code.airimos.com/developers/Logger.Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

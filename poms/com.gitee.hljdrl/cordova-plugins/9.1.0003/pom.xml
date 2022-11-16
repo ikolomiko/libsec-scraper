@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitee.hljdrl</groupId>
+  <artifactId>cordova-plugins</artifactId>
+  <version>9.1.0003</version>
+  <packaging>aar</packaging>
+  <name>cordova plugins aar library</name>
+  <description>cordova android plugins aar library</description>
+  <url>https://gitee.com/hljdrl/cordova-publish</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hrbdrl</id>
+      <name>hrbdrl</name>
+      <email>511369384@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitee.com/hljdrl/cordova-publish.git</connection>
+    <developerConnection>scm:git:https://gitee.com/hljdrl/cordova-publish.git</developerConnection>
+    <url>https://gitee.com/hljdrl/cordova-publish</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.gitee.hljdrl</groupId>
+      <artifactId>cordova-framework</artifactId>
+      <version>9.1.0003</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

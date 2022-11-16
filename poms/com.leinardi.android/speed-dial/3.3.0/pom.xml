@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.leinardi.android</groupId>
+  <artifactId>speed-dial</artifactId>
+  <version>3.3.0</version>
+  <packaging>aar</packaging>
+  <name>speed-dial</name>
+  <description>Android library providing an implementation of the Material Design Floating Action Button Speed Dial pattern.</description>
+  <url>https://github.com/leinardi/FloatingActionButtonSpeedDial</url>
+  <licenses>
+    <license>
+      <name>FloatingActionButtonSpeedDial License</name>
+      <url>https://github.com/leinardi/FloatingActionButtonSpeedDial/blob/release/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leinardi</id>
+      <name>Roberto Leinardi</name>
+      <email>roberto@leinardi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/leinardi/FloatingActionButtonSpeedDial.git</connection>
+    <developerConnection>scm:git:ssh://github.com/leinardi/FloatingActionButtonSpeedDial.git</developerConnection>
+    <url>https://github.com/leinardi/FloatingActionButtonSpeedDial/tree/release</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.annypatel.allopen-annotations</groupId>
+  <artifactId>none-open</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>NoneOpen Annotations</name>
+  <description>Annotations for kotlin all-open compiler plugin</description>
+  <url>https://github.com/annypatel/allopen-annotations/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>annypatel</id>
+      <name>Anny Patel</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/annypatel/allopen-annotations.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/annypatel/allopen-annotations.git</developerConnection>
+    <url>https://github.com/annypatel/allopen-annotations/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.annypatel.allopen-annotations</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

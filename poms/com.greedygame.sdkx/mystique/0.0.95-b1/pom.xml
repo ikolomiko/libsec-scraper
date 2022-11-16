@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.greedygame.sdkx</groupId>
+  <artifactId>mystique</artifactId>
+  <version>0.0.95-b1</version>
+  <packaging>aar</packaging>
+  <name>mystique</name>
+  <description>Mystique library module for the GreedyGameSDK</description>
+  <url>https://github.com/GreedyGame/gg-android-sample</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>greedygame</id>
+      <name>GreedyGame-Android</name>
+      <email>arpit.pes@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/GreedyGame/gg-android-sample.git</connection>
+    <developerConnection>https://github.com/GreedyGame/gg-android-sample.git</developerConnection>
+    <url>https://github.com/GreedyGame/gg-android-sample</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.20</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.greedygame.sdkx</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.0.95-b1</version>
+    </dependency>
+  </dependencies>
+</project>

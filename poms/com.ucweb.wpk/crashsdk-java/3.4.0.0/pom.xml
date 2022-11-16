@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
+  <groupId>com.ucweb.wpk</groupId>
+  <artifactId>crashsdk-java</artifactId>
+  <version>3.4.0.0</version>
+  <packaging>aar</packaging>
+
+  <name>crashsdk</name>
+  <description>Android Crash Log</description>
+  <url>http://github.com/ucweb/crashsdk</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>ucweb</name>
+      <email>wpk-public@list.alibaba-inc.com</email>
+      <organization>ucweb</organization>
+      <organizationUrl>http://github.com/ucweb</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/ucweb/crashsdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com:ucweb/crashsdk.git</developerConnection>
+    <url>http://github.com/ucweb/crashsdk/tree/master</url>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.5.0</version>
+        <extensions>true</extensions>         
+        <configuration>
+          <sign>
+            <debug>false</debug>
+          </sign>
+          <undeployBeforeDeploy>true</undeployBeforeDeploy>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

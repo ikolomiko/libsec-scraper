@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stanfy.enroscar</groupId>
+  <artifactId>enroscar-net</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>Enroscar Net</name>
+  <description>Tools for building REST clients in top of Android services</description>
+  <url>https://github.com/stanfy/enroscar</url>
+  <inceptionYear>2011</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stanfy</id>
+      <name>Stanfy Corp.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:stanfy/enroscar.git</connection>
+    <developerConnection>scm:git:git@github.com:stanfy/enroscar.git</developerConnection>
+    <url>https://github.com/stanfy/enroscar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.stanfy</groupId>
+      <artifactId>gson-xml-java</artifactId>
+      <version>0.1.+</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xmlpull</artifactId>
+          <groupId>xmlpull</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>disklrucache</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stanfy.enroscar</groupId>
+      <artifactId>enroscar-io</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stanfy.enroscar</groupId>
+      <artifactId>enroscar-beans</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stanfy.enroscar</groupId>
+      <artifactId>enroscar-content</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

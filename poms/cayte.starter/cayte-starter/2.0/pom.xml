@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cayte.starter</groupId>
+  <artifactId>cayte-starter</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>CayteStarter</name>
+  <description>cayte starter</description>
+  <url>https://github.com/cayte/cayte-frame</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cayte</id>
+      <name>cayte xu</name>
+      <email>cayte.xu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/cayte/cayte-frame.git</connection>
+    <developerConnection>https://github.com/cayte/cayte-frame.git</developerConnection>
+    <url>https://github.com/cayte/cayte-frame</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

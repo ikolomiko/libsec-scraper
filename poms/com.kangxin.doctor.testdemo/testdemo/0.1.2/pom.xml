@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kangxin.doctor.testdemo</groupId>
+  <artifactId>testdemo</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>androidUiAlertView</name>
+  <description>A View control with a high profile IOS Alert</description>
+  <url>https://github.com/xiaobaima520gyj/jcenterTest.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>xiaobama</name>
+      <email>xiaobaima123@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:xiaobaima520gyj/jcenterTest.git</connection>
+    <developerConnection>git@github.com:xiaobaima520gyj/jcenterTest.git</developerConnection>
+    <url>https://github.com/xiaobaima520gyj/jcenterTest.git</url>
+  </scm>
+</project>

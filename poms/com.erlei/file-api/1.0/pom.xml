@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.erlei</groupId>
+  <artifactId>file-api</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>file-api</name>
+  <description>å°è£äºAndroid çæä»¶æä½</description>
+  <url>https://github.com/lll-01/File-API</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>erlei</id>
+      <name>liu erlei</name>
+      <email>erleicn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lll-01/File-API.git</connection>
+    <url>https://github.com/lll-01/File-API</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.100mslive</groupId>
+  <artifactId>webrtc</artifactId>
+  <version>m94-4606</version>
+  <packaging>aar</packaging>
+  <name>WebRTC</name>
+  <description>A packaging of the webrtc library. Branch heads 4577</description>
+  <url>https://webrtc.github.io/webrtc-org/native-code/android/</url>
+  <licenses>
+    <license>
+      <name>WebRTC Licence</name>
+      <url>https://webrtc.github.io/webrtc-org/license/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1</id>
+      <name>https://webrtc.org/</name>
+      <email>discuss-webrtc@googlegroups.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>SCM can be found at https://webrtc.github.io/webrtc-org/native-code/development/prerequisite-sw/</connection>
+    <developerConnection>SCM can be found at https://webrtc.github.io/webrtc-org/native-code/development/prerequisite-sw/</developerConnection>
+    <url>https://webrtc.github.io/webrtc-org/native-code/development/prerequisite-sw/</url>
+  </scm>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.droidlabs.proguard</groupId>
+  <artifactId>proguard-rules</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>proguard-rules</name>
+  <description>Proguard Annotations</description>
+  <url>https://github.com/radzio/ProguardAnnotations</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>radzio</id>
+      <name>Radek Piekarz</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/radzio/ProguardAnnotations.git</connection>
+    <developerConnection>scm:git@ithub.com/radzio/ProguardAnnotations.git</developerConnection>
+    <url>https://github.com/radzio/ProguardAnnotations</url>
+  </scm>
+</project>

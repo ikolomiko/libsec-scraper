@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.martingregor</groupId>
+  <artifactId>pifacedigital2-driver</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>PiFace Digital 2 Driver</name>
+  <description>Driver to control the MCP23S17 chip on the PiFace Digital 2</description>
+  <url>https://github.com/martin96/androidthings-PiFaceDigital2-driver</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>martingregor96</id>
+      <name>Martin Gregor</name>
+      <email>martingregor96@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/martin96/androidthings-PiFaceDigital2-driver.git</connection>
+    <developerConnection>https://github.com/martin96/androidthings-PiFaceDigital2-driver.git</developerConnection>
+    <url>https://github.com/martin96/androidthings-PiFaceDigital2-driver</url>
+  </scm>
+</project>

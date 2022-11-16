@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.scwang90</groupId>
+  <artifactId>refresh-drawable-paint</artifactId>
+  <version>2.0.5</version>
+  <packaging>aar</packaging>
+  <name>refresh-drawable-paint</name>
+  <description>common drawables for refresh animations</description>
+  <url>https://github.com/scwang90/SmartRefreshLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>scwang90</name>
+      <email>scwang90@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/scwang90/SmartRefreshLayout.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/scwang90/SmartRefreshLayout.git</developerConnection>
+    <url>https://github.com/scwang90/SmartRefreshLayout</url>
+  </scm>
+  <dependencies/>
+</project>

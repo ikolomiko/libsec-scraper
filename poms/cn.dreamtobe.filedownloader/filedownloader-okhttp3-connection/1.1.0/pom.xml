@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.dreamtobe.filedownloader</groupId>
+  <artifactId>filedownloader-okhttp3-connection</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>filedownloader-okhttp3-connection</name>
+  <description>The FileDownloadConnection implemented with the okhttp3</description>
+  <url>https://github.com/Jacksgong/filedownloader-okhttp3-connection</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jacksgong</id>
+      <name>Jacks Gong</name>
+      <email>igzhenjie@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Jacksgong/filedownloader-okhttp3-connection.git</connection>
+    <developerConnection>scm:git@github.com:Jacksgong/filedownloader-okhttp3-connection.git</developerConnection>
+    <url>https://github.com/Jacksgong/filedownloader-okhttp3-connection</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Jacksgong/filedownloader-okhttp3-connection/issues</url>
+  </issueManagement>
+</project>

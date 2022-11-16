@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mesibo.api</groupId>
+  <artifactId>callui</artifactId>
+  <version>1.9.52</version>
+  <packaging>aar</packaging>
+  <name>callui</name>
+  <description>Mesibo Call Logs UI</description>
+  <url>https://mesibo.com</url>
+  <licenses>
+    <license>
+      <name>Refer to the mesibo terms of use</name>
+      <url>https://mesibo.com/terms-of-use/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mesibo</id>
+      <name>mesibo</name>
+      <email>support@mesibo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/mesibo/callapi.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mesibo/callapi.git</developerConnection>
+    <url>https://github.com/mesibo/callapi</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.intuit.sdp</groupId>
+      <artifactId>sdp-android</artifactId>
+      <version>1.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mesibo.api</groupId>
+      <artifactId>calls</artifactId>
+      <version>1.9.52</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.gridlayout</groupId>
+      <artifactId>gridlayout</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

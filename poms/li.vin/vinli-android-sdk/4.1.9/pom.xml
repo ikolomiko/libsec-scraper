@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>li.vin</groupId>
+  <artifactId>vinli-android-sdk</artifactId>
+  <version>4.1.9</version>
+  <packaging>aar</packaging>
+  <name>apikit</name>
+  <description>Vinli Android Network SDK V3</description>
+  <url>https://github.com/vinli/vinli-android-sdk</url>
+  <organization>
+    <name>Vinli, Inc.</name>
+    <url>https://vin.li</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Magicrat075</id>
+      <name>Stephen Sheaffer</name>
+      <email>steve@vin.li</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vinli/vinli-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/vinli/vinli-android-sdk.git</developerConnection>
+    <tag>4.1.9</tag>
+    <url>https://github.com/vinli/vinli-android-sdk</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/vinli/vinli-android-sdk/issues</url>
+  </issueManagement>
+</project>

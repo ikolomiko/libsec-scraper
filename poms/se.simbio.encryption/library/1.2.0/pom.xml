@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>se.simbio.encryption</groupId>
+  <artifactId>library</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>Encryption</name>
+  <description>Encryption is a simple way to create encrypted strings to Android project.</description>
+  <url>https://github.com/simbiose/Encryption</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License at version 3</name>
+      <url>http://www.gnu.org/licenses/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ademar111190</id>
+      <name>Ademar Alves de Oliveira</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm@github.com:simbiose/Encryption.git</connection>
+    <developerConnection>scm@github.com:simbiose/Encryption.git</developerConnection>
+    <url>https://github.com/simbiose/Encryption</url>
+  </scm>
+</project>

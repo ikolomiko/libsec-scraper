@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/******************************************************************************   
+ *
+ *  Copyright 2012 - 2013 Vektor Software
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ *****************************************************************************/
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+      <groupId>com.vektorsoft.demux</groupId>
+    <artifactId>demux</artifactId>
+    <version>0.11.0</version>
+    </parent>
+    <groupId>com.vektorsoft.demux.android</groupId>
+    <artifactId>demux-android-core</artifactId>
+    <packaging>aar</packaging>
+    <name>DEMUX Framework - Android Core Bundle</name>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>create-bundle</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>manifest</goal>
+                        </goals>
+                        <configuration>
+                            <supportedProjectTypes>
+                                <supportedProjectType>aar</supportedProjectType>
+                            </supportedProjectTypes>
+                            <manifestLocation>${project.build.outputDirectory}/bundle/META-INF</manifestLocation>
+                            <instructions>
+                                <Bundle-Activator>com.vektorsoft.demux.android.core.DMXAndroidCoreActivator</Bundle-Activator>
+                                <Bundle-SymbolicName>org.vektorsoft.demux.android-core</Bundle-SymbolicName>
+                                <Export-Package>com.vektorsoft.demux.android.core.app,com.vektorsoft.demux.android.core.gui</Export-Package>
+                            </instructions>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.0.0-rc.2</version>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>copy-manifest</id>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <target name="copy-manifest">
+                                <copy file="${project.build.outputDirectory}/bundle/META-INF/MANIFEST.MF" tofile="${basedir}/src/main/assets/${project.build.finalName}.MF" />
+                            </target>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>delete-asset-mf</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target name="delete-manifest-asset">
+                                <delete file="${basedir}/src/main/assets/${project.build.finalName}.MF" />
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>r7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.vektorsoft.demux.core</groupId>
+            <artifactId>demux-core</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.kexanie.library</groupId>
+  <artifactId>PopcornEditText</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>An EditText that keep popping text.</name>
+  <url>https://github.com/kexanie/PopcornEditText</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kexanie</id>
+      <name>Brian Lee</name>
+      <email>kexanie@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kexanie/PopcornEditText.git</connection>
+    <developerConnection>https://github.com/kexanie/PopcornEditText.git</developerConnection>
+    <url>https://github.com/kexanie/PopcornEditText</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jawnnypoo</groupId>
+      <artifactId>physicslayout</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

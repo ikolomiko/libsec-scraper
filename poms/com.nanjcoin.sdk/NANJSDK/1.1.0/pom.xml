@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nanjcoin.sdk</groupId>
+  <artifactId>NANJSDK</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>NANJCOIN SDK</name>
+  <description>In 2018 cryptocurrencies are facing a transition period, where currencies with a broad range of functions are being developed daily. However, many of them are “currency” in name only, with few actually fulfilling the role of currency. The majority being used for nothing more than investments and speculation, while only a small percentage of them are being used for what they were created for, “transactions”. With that in mind, the NANJ Corporation set out to make cryptocurrency transactions easier and more ubiquitous by starting the “NANJ SDK PROJECT” in April 2018. After four months of work in Japan, Singapore, and Vietnam, the NANJ SDK was completed and released on schedule in August 2018. Many of the problems surrounding cryptocurrency transactions, in-app transactions, and on the street use of cryptocurrencies have been successfully removed with the NANJ SDK. We encourage you to experience the NANJ SDK for yourself.</description>
+  <url>https://github.com/NANJ-COIN/android-sdk</url>
+  <licenses>
+    <license>
+      <name>https://nanjcoin.com/sdk</name>
+      <url>https://nanjcoin.com/sdk</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lily-evo</id>
+      <name>Ryota Ono</name>
+      <email>support@nanjcoin.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/NANJ-COIN/android-sdk.git</connection>
+    <developerConnection>https://github.com/NANJ-COIN/android-sdk.git</developerConnection>
+    <url>https://github.com/NANJ-COIN/android-sdk</url>
+  </scm>
+</project>

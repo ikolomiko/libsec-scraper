@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pidygb.gestureutilities</groupId>
+  <artifactId>gestureutilities</artifactId>
+  <version>v1.0.0</version>
+  <packaging>aar</packaging>
+  <name>android-gestureutilities</name>
+  <description>An implementation of swipe to dismiss gesture for any Android View and a touch listener for hide view when a RecyclerView scroll</description>
+  <url>https://github.com/PiDyGB/android-gestureutilities</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>PiDyGB</id>
+      <name>Giuseppe Buzzanca</name>
+      <email>giuseppebuzzanca@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:PiDyGB/android-gestureutilities.git</connection>
+    <developerConnection>scm:git@github.com:PiDyGB/android-gestureutilities.git</developerConnection>
+    <url>https://github.com/PiDyGB/android-gestureutilities</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

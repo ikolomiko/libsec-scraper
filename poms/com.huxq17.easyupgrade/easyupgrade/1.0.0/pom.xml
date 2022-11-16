@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huxq17.easyupgrade</groupId>
+  <artifactId>easyupgrade</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>easyupgrade</name>
+  <description>One line of code completes APK download and installation.</description>
+  <url>git@github.com:huxq17/EasyUpgrade.git</url>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/huxq17/EasyUpgrade/issues</url>
+  </issueManagement>
+  <scm>
+    <url>scm:git@github.com:huxq17/EasyUpgrade.git</url>
+    <connection>scm:git@github.com:huxq17/EasyUpgrade.git</connection>
+    <developerConnection>scm:git@github.com:huxq17/EasyUpgrade.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>huxq17</id>
+      <name>huxq17</name>
+      <email>huxq17@163.com</email>
+      <url>https://github.com/huxq17/</url>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gooten</groupId>
+  <artifactId>gooten-android-core</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>GootenAndroidCore</name>
+  <description>Gooten custom print fulfillment service Core Library for Android</description>
+  <url>https://www.gooten.com</url>
+  <licenses>
+    <license>
+      <name>Gooten License</name>
+      <url>https://github.com/printdotio/printio-android-sdk/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bomberaya</id>
+      <name>Bojan Radivojevic</name>
+      <email>bojan@gooten.com</email>
+    </developer>
+    <developer>
+      <id>vladopajic</id>
+      <name>Vlado Pajic</name>
+      <email>vlado@gooten.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:printdotio/gooten-android-core.git</connection>
+    <developerConnection>scm:git:git@github.com:printdotio/gooten-android-core.git</developerConnection>
+    <url>git@github.com:printdotio/gooten-android-core.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

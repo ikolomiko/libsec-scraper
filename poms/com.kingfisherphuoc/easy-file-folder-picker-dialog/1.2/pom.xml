@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kingfisherphuoc</groupId>
+  <artifactId>easy-file-folder-picker-dialog</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>EasyFilePickerDialogFragment</name>
+  <description>An easy file/folder picker dialog fragment which is easily to implement.</description>
+  <url>https://github.com/kingfisherphuoc/EasyFilePickerDialog</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kingfisherphuoc</id>
+      <name>Doan Hong Phuoc</name>
+      <email>phuocdh53@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kingfisherphuoc/EasyFilePickerDialog.git</connection>
+    <developerConnection>https://github.com/kingfisherphuoc/EasyFilePickerDialog.git</developerConnection>
+    <url>https://github.com/kingfisherphuoc/EasyFilePickerDialog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.hotchemi</groupId>
+      <artifactId>permissionsdispatcher</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>support-v13</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

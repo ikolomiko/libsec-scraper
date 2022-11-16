@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.kiwiapp.sdk</groupId>
+  <artifactId>pay_sdk</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>kw_sdk_pay</name>
+  <url>https://github.com/glzlaohuai/kw_sdk_pay</url>
+  <licenses>
+    <license>
+      <name>kw_sdk_pay</name>
+      <url>https://github.com/glzlaohuai/kw_sdk_pay</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>glzlaohuai</id>
+      <name>glzlaohuai</name>
+      <email>494763134@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/glzlao/kw_sdk_pay.git</connection>
+    <developerConnection>https://github.com/glzlao/kw_sdk_pay.git</developerConnection>
+    <url>https://github.com/glzlaohuai/kw_sdk_pay</url>
+  </scm>
+</project>

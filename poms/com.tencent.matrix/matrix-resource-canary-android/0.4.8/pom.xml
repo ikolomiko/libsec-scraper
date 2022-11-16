@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.matrix</groupId>
+  <artifactId>matrix-resource-canary-android</artifactId>
+  <version>0.4.8</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.matrix</groupId>
+      <artifactId>matrix-resource-canary-common</artifactId>
+      <version>0.4.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.tinker</groupId>
+      <artifactId>tinker-ziputils</artifactId>
+      <version>1.9.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.matrix</groupId>
+      <artifactId>matrix-android-lib</artifactId>
+      <version>0.4.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>https://github.com/Tencent/Matrix.git</url>
+    <tag/>
+  </scm>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+  </developers>
+  <name>Matrix for Android</name>
+  <url>https://github.com/Tencent/Matrix</url>
+  <description>Matrix is an APM (Application Performance Manage) used in Wechat to monitor, locate and analyse performance problems. It is a plugin style, non-invasive solution and is currently available on iOS, macOS and Android.</description>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bamboo.talkweb</groupId>
+  <artifactId>jsbridge</artifactId>
+  <version>0.3.1</version>
+  <packaging>aar</packaging>
+  <name>test.</name>
+  <url>https://github.com/kerwinT/jsbridge</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kerwin</id>
+      <name>kerwin</name>
+      <email>tsoorr@sina.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kerwinT/jsbridge.git</connection>
+    <developerConnection>https://github.com/kerwinT/jsbridge.git</developerConnection>
+    <url>https://github.com/kerwinT/jsbridge</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

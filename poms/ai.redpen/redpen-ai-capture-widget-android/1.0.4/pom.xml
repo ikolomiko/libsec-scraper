@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ai.redpen</groupId>
+  <artifactId>redpen-ai-capture-widget-android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Redpen Capture Widget Android SDK</name>
+  <description>Provide interactive issue reporting in your Android application. Application users can take record the screen and speak their issues, take screenshots, making it easier to submit issues. Issues are created in your Jira or Azure Boards.
+The created issues are actionable as it has all the context required to understand and fix them. E.g. screenshot, screen recording, device diagnostics (logs, OS version, device manufacturer and so on. Visit https://support.redpen.ai/hc/en-us/articles/5579906622093-How-to-integrate-Redpen-Android-SDK-into-your-application for the instructions on how to integrate Redpen Capture Widget into your Android application.</description>
+  <url>https://www.redpen.ai</url>
+  <developers>
+    <developer>
+      <id>ajmerainfotech</id>
+      <name>Ajmera Infotech Inc.</name>
+      <email>support@redpen.ai</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.intuit.sdp</groupId>
+      <artifactId>sdp-android</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>4.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.conscrypt</groupId>
+      <artifactId>conscrypt-android</artifactId>
+      <version>2.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>7.1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

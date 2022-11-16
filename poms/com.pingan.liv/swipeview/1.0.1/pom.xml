@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pingan.liv</groupId>
+  <artifactId>swipeview</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Local Repository</name>
+  <description>Simple and effective bug &amp; crash reporting tool for Android apps</description>
+  <url>https://bugtags.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LINCENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>123456</id>
+      <name>wenlong</name>
+      <email>vincent1314long@gmail</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bugtags/Bugtags-Android.git</connection>
+    <developerConnection>https://github.com/bugtags/Bugtags-Android.git</developerConnection>
+    <url>https://bugtags.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>s2-AsInDepth</groupId>
+      <artifactId>lib</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yanzhenjie</groupId>
+  <artifactId>andserver</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>AndServer</name>
+  <description>Android web server</description>
+  <url>https://github.com/yanzhenjie/AndServer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yanzhenjie</id>
+      <name>yanzhenjie</name>
+      <email>smallajax@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:yanzhenjie/AndServer.git</connection>
+    <developerConnection>git@github.com:yanzhenjie/AndServer.git</developerConnection>
+    <url>https://github.com/yanzhenjie/AndServer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yanzhenjie.apache</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.4.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yanzhenjie.apache</groupId>
+      <artifactId>fileupload</artifactId>
+      <version>1.3.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

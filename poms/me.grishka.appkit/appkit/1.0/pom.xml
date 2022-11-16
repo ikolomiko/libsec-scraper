@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.grishka.appkit</groupId>
+  <artifactId>appkit</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>AppKit</name>
+  <description>Android app boilerplate and image loader</description>
+  <url>https://github.com/grishka/appkit</url>
+  <licenses>
+    <license>
+      <name>The Unlicense</name>
+      <url>https://unlicense.org</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>grishka</id>
+      <name>Gregory Klyushnikov</name>
+      <email>mavencentral@grishka.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/grishka/appkit.git</connection>
+    <developerConnection>scm:git:ssh://github.com:grishka/appkit.git</developerConnection>
+    <url>https://github.com/grishka/appkit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.grishka.litex</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.grishka.litex</groupId>
+      <artifactId>swiperefreshlayout</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.grishka.litex</groupId>
+      <artifactId>viewpager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.grishka.litex</groupId>
+      <artifactId>collection</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>disklrucache</artifactId>
+      <version>2.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

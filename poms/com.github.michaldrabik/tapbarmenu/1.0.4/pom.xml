@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.michaldrabik</groupId>
+  <artifactId>tapbarmenu</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>TapBarMenu</name>
+  <description>Simple library that creates animated tap bar menu as a LinearLayout.</description>
+  <url>https://github.com/github_username/ProjectName</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>michaldrabik</id>
+      <name>Michal Drabik</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:michaldrabik/TapBarMenu.git</connection>
+    <developerConnection>scm:git@github.com:michaldrabik/TapBarMenu.git</developerConnection>
+    <url>https://github.com/michaldrabik/TapBarMenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.wnafee</groupId>
+      <artifactId>vector-compat</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

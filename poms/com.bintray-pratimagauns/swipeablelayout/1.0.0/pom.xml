@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bintray-pratimagauns</groupId>
+  <artifactId>swipeablelayout</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>swipeablelayout</name>
+  <description>An Android library providing a subclass of LinearLayout, that allows left and right swipe gesture to swipe the content and display accessory buttons. Also allows to tap and expand the view downwards.</description>
+  <url>https://github.com/pratimagauns/SwipeableLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pratimagauns</id>
+      <name>Pratima Gauns</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/pratimagauns/SwipeableLayout.git</connection>
+    <developerConnection>scm:git:ssh://github.com/pratimagauns/SwipeableLayout.git</developerConnection>
+    <url>https://github.com/pratimagauns/SwipeableLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

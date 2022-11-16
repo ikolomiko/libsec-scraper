@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.sdwfqin.android</groupId>
+  <artifactId>widget</artifactId>
+  <version>4.6.0</version>
+  <packaging>aar</packaging>
+  <description>做外包用的快速开发库--微信、支付宝支付（含签名，下单）、自定义View（验证码/密码，九宫格图片上传等）、换肤、图片预览、RxJava、EventBus、JetPack、CameraX、base层封装等</description>
+  <dependencies/>
+  <name>io.github.sdwfqin.android:widget</name>
+  <url>https://github.com/sdwfqin/AndroidQuick</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdwfqin</id>
+      <name>zhangqin</name>
+      <email>sdwfqin@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sdwfqin/AndroidQuick</connection>
+    <developerConnection>https://github.com/sdwfqin/AndroidQuick</developerConnection>
+    <url>https://github.com/sdwfqin/AndroidQuick</url>
+  </scm>
+</project>

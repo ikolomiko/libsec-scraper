@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rstudio.widget</groupId>
+  <artifactId>contextmenu</artifactId>
+  <version>0.11</version>
+  <packaging>aar</packaging>
+  <name>Context Menu</name>
+  <description>Float context menu for view click android</description>
+  <url>https://github.com/RyanDam/ContextMenu</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ryandam</id>
+      <name>Ryan Dam</name>
+      <email>py.ryan.dam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RyanDam/ContextMenu.git</connection>
+    <developerConnection>https://github.com/RyanDam/ContextMenu.git</developerConnection>
+    <url>https://github.com/RyanDam/ContextMenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

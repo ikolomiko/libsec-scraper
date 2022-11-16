@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>LibTIFF</artifactId>
+  <version>4.1.0</version>
+  <packaging>aar</packaging>
+  <name>LibTIFF</name>
+  <description>This software provides support for the Tag Image File Format (TIFF), a widely used format for storing image data.</description>
+  <url>https://libtiff.gitlab.io/libtiff</url>
+  <inceptionYear>1988</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD-like</name>
+      <url>https://gitlab.com/libtiff/libtiff/-/blob/v4.1.0/COPYRIGHT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fwarmerdam</id>
+      <name>Frank Warmerdam</name>
+      <email>warmerdam@pobox.com</email>
+    </developer>
+    <developer>
+      <id>dron</id>
+      <name>Andrey Kiselev</name>
+      <email>dron@ak4719.spb.edu</email>
+    </developer>
+    <developer>
+      <id>bfriesen</id>
+      <name>Bob Friesenhahn</name>
+      <email>bfriesen@simple.dallas.tx.us</email>
+    </developer>
+    <developer>
+      <id>joris</id>
+      <name>Joris Van Damme</name>
+      <email>info@awaresystems.be</email>
+    </developer>
+    <developer>
+      <id>faxguy</id>
+      <name>Lee Howard</name>
+      <email>faxguy@howardsilvan.com</email>
+    </developer>
+    <developer>
+      <id>olivier</id>
+      <name>Olivier Paquet</name>
+      <email>olivier.paquet@gmail.com</email>
+    </developer>
+    <developer>
+      <id>tgl</id>
+      <name>Tom Lane</name>
+      <email>tgl@sss.pgh.pa.us</email>
+    </developer>
+    <developer>
+      <id>erouault</id>
+      <name>Even Rouault</name>
+      <email>even.rouault@spatialys.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.com/libtiff/libtiff.git</connection>
+    <url>https://gitlab.com/libtiff/libtiff</url>
+  </scm>
+</project>

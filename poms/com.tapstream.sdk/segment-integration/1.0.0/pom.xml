@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tapstream.sdk</groupId>
+  <artifactId>segment-integration</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Tapstream Segment Integration</name>
+  <description>Tapstream Integration for Segment Android Analytics</description>
+  <url>http://github.com/tapstream/analytics-android-integration-tapstream</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adambard</id>
+      <name>Adam Bard</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/tapstream/analytics-android-integration-tapstream.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/tapstream/analytics-android-integration-tapstream.git</developerConnection>
+    <url>http://github.com/tapstream/analytics-android-integration-tapstream</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.segment.analytics.android</groupId>
+      <artifactId>analytics</artifactId>
+      <version>4.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tapstream.sdk</groupId>
+      <artifactId>tapstream-android</artifactId>
+      <version>2.9.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.prof18.rssparser</groupId>
+  <artifactId>rssparser</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>RSS-Parser</name>
+  <description>An Android library to parse RSS Feed</description>
+  <url>https://github.com/prof18/RSS-Parser.git</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>prof18</id>
+      <name>Marco Gomiero</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/prof18/RSS-Parser.git</connection>
+    <developerConnection>scm:git:ssh://github.com/prof18/RSS-Parser.git</developerConnection>
+    <url>https://github.com/prof18/RSS-Parser/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

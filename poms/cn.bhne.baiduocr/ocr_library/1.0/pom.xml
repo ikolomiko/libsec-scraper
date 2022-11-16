@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.bhne.baiduocr</groupId>
+  <artifactId>ocr_library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>This is a baidu OCR tools</name>
+  <url>https://github.com/KevinJianYi/Baidu_OCR</url>
+  <licenses>
+    <license>
+      <name>This is a baidu OCR tools</name>
+      <url>https://github.com/KevinJianYi/Baidu_OCR</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevinjianyi</id>
+      <name>kevin</name>
+      <email>cuibin_jianyi@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/KevinJianYi/Baidu_OCR.git</connection>
+    <developerConnection>https://github.com/KevinJianYi/Baidu_OCR.git</developerConnection>
+    <url>https://github.com/KevinJianYi/Baidu_OCR</url>
+  </scm>
+</project>

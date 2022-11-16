@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.drand</groupId>
+  <artifactId>bottomnavigation</artifactId>
+  <version>1.3.7</version>
+  <packaging>aar</packaging>
+  <name>bottomnavigation</name>
+  <description>Material Design compliant Bottom Navigation library.\nSpecs at https://material.google.com/components/bottom-navigation.html</description>
+  <url>https://github.com/39otrebla/android-bottom-navigation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drand</id>
+      <name>Alberto Dallaporta</name>
+      <email>alberto@nexustech.solutions</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/39otrebla/android-bottom-navigation.git</connection>
+    <developerConnection>https://github.com/39otrebla/android-bottom-navigation.git</developerConnection>
+    <url>https://github.com/39otrebla/android-bottom-navigation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

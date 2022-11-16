@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ua.pl.mik</groupId>
+  <artifactId>perspectivedrawer</artifactId>
+  <version>0.3.2</version>
+  <packaging>aar</packaging>
+  <name>Perspective Drawer</name>
+  <description>Opensource library that provides new type of navigation drawer for Android applications.</description>
+  <url>https://github.com/mik9/perspectivedrawer</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mik_os</id>
+      <name>Kyrylo Mikos</name>
+      <email>kiril.mik.os@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/mik9/perspectivedrawer.git</connection>
+    <developerConnection>scm:git:git@github.com:mik9/perspectivedrawer.git</developerConnection>
+    <url>https://github.com/mik9/perspectivedrawer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

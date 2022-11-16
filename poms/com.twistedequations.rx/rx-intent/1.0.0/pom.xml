@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twistedequations.rx</groupId>
+  <artifactId>rx-intent</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Rx Intents</name>
+  <description>Rx Intents helper library for android to map startActivityForResult to an observable</description>
+  <url>https://github.com/TwistedEquations/android-rxintent</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Patrick Doyle</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TwistedEquations/android-rxintents.git</connection>
+    <url>https://github.com/TwistedEquations/android-rxintents</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

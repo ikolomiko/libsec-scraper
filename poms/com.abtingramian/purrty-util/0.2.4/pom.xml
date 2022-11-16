@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.abtingramian</groupId>
+  <artifactId>purrty-util</artifactId>
+  <version>0.2.4</version>
+  <packaging>aar</packaging>
+  <name>purrty-util</name>
+  <description>Miscellaneous Android UI Library</description>
+  <organization>
+    <name>agramian</name>
+    <url>https://github.com/agramian/purrty</url>
+  </organization>
+  <url>https://github.com/agramian/purrty</url>
+  <scm>
+    <connection>scm:git:git@github.com/agramian/purrty.git</connection>
+    <developerConnection>scm:git:git@github.com/agramian/purrty.git</developerConnection>
+    <url>https://github.com/agramian/purrty</url>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <id>agramian</id>
+      <email>Abtin Gramian</email>
+      <organization>agramian</organization>
+      <organizationUrl>https://github.com/agramian</organizationUrl>
+      <roles>
+        <role>Project-Administrator</role>
+        <role>Developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/agramian/purrty/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <dependencies/>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.arjsna</groupId>
+  <artifactId>swipecardlib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>swipecardview</name>
+  <description>Android library for implementing cards stack view with swipe to remove feature.</description>
+  <url>https://github.com/Arjun-sna/android-swipecards-view</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Arjun-Sna</id>
+      <name>Arjun</name>
+      <email>arj.sna@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Arjun-sna/android-swipecards-view.git</connection>
+    <developerConnection>https://github.com/Arjun-sna/android-swipecards-view.git</developerConnection>
+    <url>https://github.com/Arjun-sna/android-swipecards-view</url>
+  </scm>
+</project>

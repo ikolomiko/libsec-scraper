@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dnkilic.waveform</groupId>
+  <artifactId>waveform</artifactId>
+  <version>0.9.5</version>
+  <packaging>aar</packaging>
+  <name>Waveform</name>
+  <description>A library for apple iOS 9 siri like waveform on Android</description>
+  <developers>
+    <developer>
+      <id>dnkilic</id>
+      <name>Doğan Kılıç</name>
+      <email>dnkilic@outlook.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

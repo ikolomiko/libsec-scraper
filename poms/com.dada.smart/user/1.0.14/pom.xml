@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dada.smart</groupId>
+  <artifactId>user</artifactId>
+  <version>1.0.14</version>
+  <packaging>aar</packaging>
+  <name>This is smart sdk</name>
+  <developers>
+    <developer>
+      <id>imdada</id>
+      <name>imdada</name>
+      <email>luohong0206@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.dada.smart</groupId>
+      <artifactId>common</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.guazi.com</groupId>
+  <artifactId>upgrade-with-ui</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>baseframe</name>
+  <description>This project is build to let the view looks like a material design widget when touched. </description>
+  <url>https://github.com/userswlwork/baseframe</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>userswlwork</id>
+      <name>userswlwork</name>
+      <email>sunweili__003@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/userswlwork/baseframe.git</connection>
+    <developerConnection>scm:git:https://github.com/userswlwork/baseframe.git</developerConnection>
+    <url>https://github.com/userswlwork/baseframe.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>tech.guazi.com</groupId>
+      <artifactId>upgrade</artifactId>
+      <version>1.0.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

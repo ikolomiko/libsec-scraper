@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scottyab</groupId>
+  <artifactId>secure-preferences-lib</artifactId>
+  <version>0.1.4</version>
+  <packaging>aar</packaging>
+  <name>secure-preferences</name>
+  <description>Android Shared preference wrapper than encrypts the keys and values of Shared Preferences. It's not bullet proof security but rather a quick win for incrementally making your android app more secure.</description>
+  <url>https://github.com/scottyab/secure-preferences.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scottyab</id>
+      <name>Scott Alexander-Bown</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:scottyab/secure-preferences.git</connection>
+    <developerConnection>scm:git@github.com:scottyab/secure-preferences.git</developerConnection>
+    <url>https://github.com/scottyab/secure-preferences.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.scottyab</groupId>
+      <artifactId>aes-crypto</artifactId>
+      <version>0.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

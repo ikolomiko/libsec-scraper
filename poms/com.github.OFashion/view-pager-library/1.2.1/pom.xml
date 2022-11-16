@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.OFashion</groupId>
+  <artifactId>view-pager-library</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>OFashion/view-pager-library</name>
+  <description>OFashion里使用到的https://github.com/JakeWharton/ViewPagerIndicator</description>
+  <url>https://github.com/OFashion/view-pager-library</url>
+  <inceptionYear>2015</inceptionYear>
+  <developers>
+    <developer>
+      <id>OFashion</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/OFashion/view-pager-library.git</connection>
+    <developerConnection>scm:git://github.com/OFashion/view-pager-library.git</developerConnection>
+    <url>git://github.com/OFashion/view-pager-library.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

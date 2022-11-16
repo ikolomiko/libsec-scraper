@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fi.vtt.nubomedia</groupId>
+  <artifactId>kurento-tree-client-android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>kurento-tree-client-android</name>
+  <description>Android library for making kurento tree API calls</description>
+  <url>https://github.com/nubomedia-vtt/kurento-tree-client-android</url>
+  <licenses>
+    <license>
+      <name>The BSD 3-Clause License</name>
+      <url>https://github.com/nubomedia-vtt/kurento-tree-client-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jukkaahola</id>
+      <name>Jukka Ahola</name>
+      <email>jukka.ahola@vtt.fi</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nubomedia-vtt/kurento-tree-client-android.git</connection>
+    <developerConnection>https://github.com/nubomedia-vtt/kurento-tree-client-android.git</developerConnection>
+    <url>https://github.com/nubomedia-vtt/kurento-tree-client-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>fi.vtt.nubomedia</groupId>
+      <artifactId>utilities-android</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>fi.vtt.nubomedia</groupId>
+      <artifactId>jsonrpc-ws-android</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

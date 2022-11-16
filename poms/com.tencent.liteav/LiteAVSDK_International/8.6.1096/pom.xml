@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.liteav</groupId>
+  <artifactId>LiteAVSDK_International</artifactId>
+  <version>8.6.1096</version>
+  <packaging>aar</packaging>
+  <name>LiteAVSDK_International</name>
+  <description>Leveraging Tencent's 21 years of experience in network and audio/video technologies, Tencent Real-Time Communication (TRTC) offers multi-person audio/video calls and low-latency interactive live streaming solutions. With TRTC, you can quickly develop cost-effective, low-latency, and high-quality interactive audio/video services. Audio/Video Call Solution TRTC provides a client SDK that works across platforms and regions. This solution can be easily used on webpages to enable audio and video call capability for all applications. Low-Latency Interactive Live Streaming Solution TRTC leverages Tencent Cloud's high-quality node resources, industry-leading network and audio/video technologies to helps you build interactive live streaming services with minimal lags and a latency below 1 second, taking live streaming into the era of CDN 2.0.腾讯实时音视频（Tencent Real-Time Communication，TRTC）将腾讯21年来在网络与音视频技术上的深度积累，以多人音视频通话和低延时互动直播两大场景化方案，通过腾讯云服务向开发者开放，致力于帮助开发者快速搭建低成本、低延时、高品质的音视频互动解决方案。</description>
+  <url>https://github.com/tencentyun/LiteAVProfessional_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>taopu</id>
+      <name>taopu</name>
+      <email>taopu@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/LiteAVProfessional_Android.git</connection>
+    <developerConnection>https://github.com/tencentyun/LiteAVProfessional_Android.git</developerConnection>
+    <url>https://github.com/tencentyun/LiteAVProfessional_Android</url>
+  </scm>
+</project>

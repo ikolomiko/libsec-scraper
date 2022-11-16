@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.bartwell</groupId>
+  <artifactId>ultradebugger</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>Ultra Debugger Library</name>
+  <description>Ultra Debugger is an open source modules-based android library for application debugging.</description>
+  <url>https://github.com/bartwell/ultra-debugger</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bartwell</id>
+      <name>Artem Bazhanov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:bartwell/ultra-debugger.git</connection>
+    <developerConnection>scm:git@github.com:bartwell/ultra-debugger.git</developerConnection>
+    <url>https://github.com/bartwell/ultra-debugger.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.wrapper</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.base</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.sqlite</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.sharedpreferences</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.reflection</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.info</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.files</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.bartwell</groupId>
+      <artifactId>ultradebugger.module.logger</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

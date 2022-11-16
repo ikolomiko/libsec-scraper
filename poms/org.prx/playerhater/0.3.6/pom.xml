@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>oss-parent</artifactId>
+    <groupId>org.sonatype.oss</groupId>
+    <version>7</version>
+  </parent>
+  <groupId>org.prx</groupId>
+  <artifactId>playerhater</artifactId>
+  <version>0.3.6</version>
+  <packaging>aar</packaging>
+  <name>PlayerHater</name>
+  <description>Android library for playing back longform audio such as music or podcasts with player controls.</description>
+  <url>http://github.com/PRX/PlayerHater</url>
+  <organization>
+    <name>PRX</name>
+    <url>http://prx.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chrisrhoden</id>
+      <name>Chris Rhoden</name>
+      <email>carhoden@gmail.com</email>
+      <url>http://chrisrhoden.com</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>rebeccanesson</id>
+      <name>Rebecca Nesson</name>
+      <email>rebeccanesson@gmail.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/PRX/PlayerHater/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/PRX/PlayerHater.git</connection>
+    <developerConnection>scm:git:git@github.com:PRX/PlayerHater.git</developerConnection>
+    <url>https://github.com/PRX/PlayerHater/</url>
+  </scm>
+</project>

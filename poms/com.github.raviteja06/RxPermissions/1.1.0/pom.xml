@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.raviteja06</groupId>
+  <artifactId>RxPermissions</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>raviteja06/RxPermissions</name>
+  <description>ReactiveX/RxAndroid way to request permissions on android os marshmallow and above.</description>
+  <url>https://github.com/raviteja06/RxPermissions</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>raviteja06</id>
+      <name>Raviteja Gadipudi</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/raviteja06/RxPermissions.git</connection>
+    <developerConnection>scm:git://github.com/raviteja06/RxPermissions.git</developerConnection>
+    <url>git://github.com/raviteja06/RxPermissions.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.0-RC3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.0-RC1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

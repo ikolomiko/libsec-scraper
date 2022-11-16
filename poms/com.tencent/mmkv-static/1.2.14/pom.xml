@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent</groupId>
+  <artifactId>mmkv-static</artifactId>
+  <version>1.2.14</version>
+  <packaging>aar</packaging>
+  <name>MMKV</name>
+  <description>MMKV for Android</description>
+  <url>https://github.com/Tencent/MMKV</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Tencent/MMKV.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Tencent/MMKV.git</developerConnection>
+    <url>https://github.com/Tencent/MMKV</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

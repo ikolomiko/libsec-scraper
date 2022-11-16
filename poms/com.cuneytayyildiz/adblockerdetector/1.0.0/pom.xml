@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cuneytayyildiz</groupId>
+  <artifactId>adblockerdetector</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>AdBlockerDetector</name>
+  <description>Many ad blockers exist on Android, this is a real problem for developers that rely on ad incomes. This project proposes an open source library that can detect most of ad blockers. Then developers can display a dialog to inform user that an ad blocker has been detected and to propose, for example, to buy an ad-free version of the application or to quit.</description>
+  <url>https://github.com/Swisyn/AdBlockerDetector</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/Swisyn/AdBlockerDetector/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swisyn</id>
+      <name>Cuneyt AYYILDIZ</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Swisyn/AdBlockerDetector.git</connection>
+    <developerConnection>scm:git@github.com:Swisyn/AdBlockerDetector.git</developerConnection>
+    <url>https://github.com/Swisyn/AdBlockerDetector</url>
+  </scm>
+</project>

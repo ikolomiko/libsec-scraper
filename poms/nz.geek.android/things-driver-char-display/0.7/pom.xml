@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nz.geek.android</groupId>
+  <artifactId>things-driver-char-display</artifactId>
+  <version>0.7</version>
+  <packaging>aar</packaging>
+  <name>things-driver-char-display</name>
+  <description>Character display driver for Android Things</description>
+  <url>https://github.com/davemckelvie/things-drivers</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>davemckelvie</id>
+      <name>Dave McKelvie</name>
+      <email>dave@android.geek.nz</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/davemckelvie/things-drivers.git</connection>
+    <developerConnection>scm:git:ssh://github.com/davemckelvie/things-drivers.git</developerConnection>
+    <url>https://github.com/davemckelvie/things-drivers/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>nz.geek.android.things</groupId>
+      <artifactId>things-driver-pcf8574</artifactId>
+      <version>0.5</version>
+    </dependency>
+  </dependencies>
+</project>

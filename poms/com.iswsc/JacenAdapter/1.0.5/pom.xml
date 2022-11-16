@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.iswsc</groupId>
+  <artifactId>JacenAdapter</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>JacenAdapter sdk</name>
+  <description>easy to use adapter</description>
+  <url>https://github.com/iswsc/JacenAdapter/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wsc</id>
+      <name>wsc</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/iswsc/JacenAdapter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/iswsc/JacenAdapter.git</developerConnection>
+    <url>https://github.com/iswsc/JacenAdapter/</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mohaka</groupId>
+  <artifactId>time-tracker-text-view</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>TimeTrackerTextView</name>
+  <description>A (Time-Dependent) TextView that tracks time and updates its content accordingly.</description>
+  <url>https://github.com/mohakapt/TimeTrackerTextView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://raw.githubusercontent.com/mohakapt/TimeTrackerTextView/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mohaka</id>
+      <name>Haytham KATBY</name>
+      <email>mohakapt@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mohakapt/TimeTrackerTextView.git</connection>
+    <developerConnection>https://github.com/mohakapt/TimeTrackerTextView.git</developerConnection>
+    <url>https://github.com/mohakapt/TimeTrackerTextView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.ocpsoft.prettytime</groupId>
+      <artifactId>prettytime</artifactId>
+      <version>4.0.1.Final</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

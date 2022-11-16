@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yuanchaowhut</groupId>
+  <artifactId>progress</artifactId>
+  <version>1.5</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight ProgressBar framework</name>
+  <url>https://github.com/yuanchaowhut/PrettyProgressBar</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight ProgressBar framework</name>
+      <url>https://github.com/yuanchaowhut/PrettyProgressBar</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yuanchaowhut</id>
+      <name>yuanchaowhut</name>
+      <email>yuanchaowhut@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yuanchaowhut/PrettyProgressBar.git</connection>
+    <developerConnection>https://github.com/yuanchaowhut/PrettyProgressBar.git</developerConnection>
+    <url>https://github.com/yuanchaowhut/PrettyProgressBar</url>
+  </scm>
+</project>

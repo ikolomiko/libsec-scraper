@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mobile.foundation</groupId>
+  <artifactId>ibmmobilefirstplatformfoundationanalytics</artifactId>
+  <version>8.0.2018092809</version>
+  <packaging>aar</packaging>
+  <name>IBM MobileFirst Platform Foundation SDK</name> 
+  <description>IBM MobileFirst Platform Foundation provides an on-premises backend server and infrastructure for managing MobileFirst applications. The SDK manages all of the communication and security integration between your mobile app and IBM MobileFirst Platform Foundation. Check url to get started.
+  NOTE: This version of the SDK requires a minimum MobileFirst server version of MFP_PLATFORM_VERSION_TOKEN
+  </description>
+  <url>https://mobilefirstplatform.ibmcloud.com</url>
+  <licenses>
+    <license>
+      <name>IBM-MobileFirst Platform Foundation 8.0 license agreement</name>
+      <url>https://mobilefirstplatform.ibmcloud.com/licenses/ipla/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>IBM MobileFirst Platform Foundation</name>
+      <email>mobilsdk@us.ibm.com</email>
+      <organizationUrl>http://www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
+    <scm>
+    <connection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</connection>
+    <developerConnection>scm:git:git@hub.jazz.net/project/imflocalsdk/imf-android-sdk</developerConnection>
+    <url>https://hub.jazz.net/git/imflocalsdk/imf-android-sdk</url>
+  </scm>
+<dependencies>
+   <dependency>
+       <groupId>org.codehaus.jackson</groupId>
+       <artifactId>jackson-jaxrs</artifactId>
+       <version>1.9.13</version>
+   </dependency>
+   <dependency>
+       <groupId>org.codehaus.jackson</groupId>
+       <artifactId>jackson-core-asl</artifactId>
+       <version>1.5.4</version>
+   </dependency>
+   
+   <dependency>
+       <groupId>org.codehaus.jackson</groupId>
+       <artifactId>jackson-mapper-asl</artifactId>
+       <version>1.5.4</version>
+   </dependency>
+</dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
+

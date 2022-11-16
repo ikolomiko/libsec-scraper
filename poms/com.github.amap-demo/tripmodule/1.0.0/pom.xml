@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.amap-demo</groupId>
+  <artifactId>tripmodule</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>tripmodule</name>
+  <description>tripmodule</description>
+  <url>https://github.com/amap-demo/android-trip-search</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 1.0</name>
+      <url>http://www.amap.com/licenses/LICENSE-1.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>LiangChaoPossible</id>
+      <name>LiangChaoPossible</name>
+      <email>directive.lc@gmail.com</email>
+      <url>https://github.com/amap-demo/android-trip-search</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:liangchaopossible/amap-demo/android-trip-search.git</connection>
+    <developerConnection>scm:git@github.com:liangchaopossible/amap-demo/android-trip-search.git</developerConnection>
+    <url>https://github.com/amap-demo/android-trip-search</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/amap-demo/android-trip-search/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.0-beta4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbouncer</groupId>
+  <artifactId>tensorflow-lite</artifactId>
+  <version>2.0.0079</version>
+  <packaging>aar</packaging>
+  <name>tensorflow-lite</name>
+  <description>This library provides a custom implementation of TFLite for Bouncer products.</description>
+  <url>https://getbouncer.com</url>
+  <licenses>
+    <license>
+      <name>bouncer-free-1</name>
+      <url>https://github.com/getbouncer/cardscan-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>getbouncer</id>
+      <name>Bouncer Technologies</name>
+      <email>contact@getbouncer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/getbouncer/cardscan-android.git</connection>
+    <developerConnection>scm:git:https://github.com/getbouncer/cardscan-android.git</developerConnection>
+    <url>https://github.com/getbouncer/cardscan-android</url>
+  </scm>
+</project>

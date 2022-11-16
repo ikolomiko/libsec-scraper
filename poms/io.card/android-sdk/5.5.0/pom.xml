@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.card</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>5.5.0</version>
+  <packaging>aar</packaging>
+  <name>android-sdk</name>
+  <description>This is card.io's SDK for Android.</description>
+  <url>https://github.com/card-io/card.io-Android-source/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>brateman</id>
+      <name>Jeff Brateman</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:card-io/card.io-Android-source.git</connection>
+    <developerConnection>scm:git@github.com:card-io/card.io-Android-source.git</developerConnection>
+    <url>scm:git@github.com:card-io/card.io-Android-source.git</url>
+  </scm>
+</project>

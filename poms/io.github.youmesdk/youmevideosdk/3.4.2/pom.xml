@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.youmesdk</groupId>
+  <artifactId>youmevideosdk</artifactId>
+  <version>3.4.2</version>
+  <packaging>aar</packaging>
+  <name>youmevideosdk</name>
+  <description>Youme Video RTC SDK for Android</description>
+  <url>https://github.com/youmesdk/YMVideoSDK.git</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>youme418</id>
+      <name>youme</name>
+      <email>youme@youme.im</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/youmesdk/YMVideoSDK.git</connection>
+    <developerConnection>scm:git:https://github.com/youmesdk/YMVideoSDK.git</developerConnection>
+    <url>https://github.com/youmesdk/YMVideoSDK.git/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+  </dependencies>
+</project>

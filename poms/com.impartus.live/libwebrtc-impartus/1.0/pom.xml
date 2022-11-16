@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.impartus.live</groupId>
+  <artifactId>libwebrtc-impartus</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+
+  <name>libwebrtc-impartus</name>
+  <description>Fork of libwebrtc with support for system audio on android</description>
+  <url>https://bitbucket.org/impartusdev/impartus-libwebrtc/branch/impartus-android-dev</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Impartus</name>
+      <email>apps@impartus.com</email>
+      <organization>Impartus</organization>
+      <organizationUrl>https://www.impartus.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://bitbucket.org/impartusdev/impartus-libwebrtc.git</connection>
+    <developerConnection>scm:git:ssh://bitbucket.org:impartusdev/impartus-libwebrtc.git</developerConnection>
+    <url>https://bitbucket.org/impartusdev/impartus-libwebrtc/src</url>
+  </scm>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.7</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>ossrh</serverId>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

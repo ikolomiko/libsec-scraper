@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.rover.library</groupId>
+  <artifactId>rover</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Rover</name>
+  <description>The Rover Proximity and Messaging Library</description>
+  <url>https://github.com/RoverPlatform/rover-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ata-n</id>
+      <name>Ata N</name>
+      <email>ata@rover.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RoverPlatform/rover-android.git</connection>
+    <developerConnection>https://github.com/RoverPlatform/rover-android.git</developerConnection>
+    <url>https://github.com/RoverPlatform/rover-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-nearby</artifactId>
+      <version>9.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>9.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

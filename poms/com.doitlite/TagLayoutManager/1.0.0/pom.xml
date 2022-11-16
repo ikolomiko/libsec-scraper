@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.doitlite</groupId>
+  <artifactId>TagLayoutManager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>TagLayoutManager</name>
+  <description>This is an awesome library for RecyclerView. I custom the LayoutManager for RecyclerView, make the child view flow layout, and other people can custom different RecyclerView.Adapter to display the beautiful UI.</description>
+  <url>https://github.com/doitlite/TagLayoutManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zcchen306</id>
+      <name>lite</name>
+      <email>zcchen306@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/doitlite/TagLayoutManager.git</connection>
+    <developerConnection>https://github.com/doitlite/TagLayoutManager.git</developerConnection>
+    <url>https://github.com/doitlite/TagLayoutManager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

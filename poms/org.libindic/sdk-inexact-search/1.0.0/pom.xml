@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.libindic</groupId>
+  <artifactId>sdk-inexact-search</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>libindic-inexact-search</name>
+  <description>Libindic Android SDK</description>
+  <url>https://github.com/libindic/libindic-sdk</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sujithvm</id>
+      <name>Sujith Vadakkepat</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:libindic/libindic-sdk.git</connection>
+    <developerConnection>scm:git@github.com:libindic/libindic-sdk.git</developerConnection>
+    <url>https://github.com/libindic/libindic-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>libindic-sdk</groupId>
+      <artifactId>sdk-common</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>libindic-sdk</groupId>
+      <artifactId>sdk-soundex</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.infoedge.tracker</groupId>
+  <artifactId>tracker-aspect</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>com.infoedge.tracker:tracker-aspect</name>
+  <description>To track user interaction on screen. Data will be used while sending information to server in case of a crash</description>
+  <url>https://github.com/android-Infoedge/tracker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>android-infoedge</id>
+      <name>Info Edge India Limited</name>
+      <email>droiddev.infoedge@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/android-Infoedge/tracker.git</connection>
+    <developerConnection>https://github.com/android-Infoedge/tracker.git</developerConnection>
+    <url>https://github.com/android-Infoedge/tracker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

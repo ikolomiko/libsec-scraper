@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.khoinguyen.util</groupId>
+  <artifactId>log</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Android Log Util</name>
+  <description>A wrapper for Android Log</description>
+  <url>https://github.com/khoi-nguyen-2359</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>akhoi90</id>
+      <name>Khoi Nguyen</name>
+      <email>akhoi90@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gist.github.com/khoi-nguyen-2359/fc1c4e09810d369636cd</connection>
+    <developerConnection>https://gist.github.com/khoi-nguyen-2359/fc1c4e09810d369636cd</developerConnection>
+    <url>https://github.com/khoi-nguyen-2359</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

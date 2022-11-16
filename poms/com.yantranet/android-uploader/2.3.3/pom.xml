@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yantranet</groupId>
+  <artifactId>android-uploader</artifactId>
+  <version>2.3.3</version>
+  <packaging>aar</packaging>
+  <name>AndroidUploader</name>
+  <description>A utility for Android to perform periodic and non-periodic uploads. It also supports AWS S3 uploads.</description>
+  <url>https://bitbucket.org/yantranet/androiduploader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rkuncham</id>
+      <name>Rohit Kuncham</name>
+      <email>rohit@yantranet.com</email>
+    </developer>
+    <developer>
+      <id>vishnuganta22</id>
+      <name>Vishnu Ganta</name>
+      <email>vishnu@yantranet.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/yantranet/androiduploader.git</connection>
+    <developerConnection>https://bitbucket.org/yantranet/androiduploader.git</developerConnection>
+    <url>https://bitbucket.org/yantranet/androiduploader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-s3</artifactId>
+      <version>2.16.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.yantranet</groupId>
+      <artifactId>utilsLib</artifactId>
+      <version>1.0.73</version>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-s3</artifactId>
+      <version>2.16.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.yantranet</groupId>
+      <artifactId>utilsLib</artifactId>
+      <version>1.0.73</version>
+    </dependency>
+  </dependencies>
+</project>

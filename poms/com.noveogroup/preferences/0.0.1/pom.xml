@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.noveogroup</groupId>
+  <artifactId>preferences</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Alexandr Vaytsekhovskiy</name>
+      <url>https://github.com/avaytsekhovskiy</url>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <name>Sergey Malichenko</name>
+      <url>https://github.com/smalichenko</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:noveogroup/noveo-preferences.git</connection>
+    <developerConnection>scm:git@github.com:noveogroup/noveo-preferences.git</developerConnection>
+    <url>https://github.com/noveogroup/noveo-preferences</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/noveogroup/noveo-preferences/issues</url>
+  </issueManagement>
+</project>

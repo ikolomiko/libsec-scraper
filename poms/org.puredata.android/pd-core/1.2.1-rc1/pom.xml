@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.puredata.android</groupId>
+  <artifactId>pd-core</artifactId>
+  <version>1.2.1-rc1</version>
+  <packaging>aar</packaging>
+  <name>Pure Data for Android</name>
+  <url>https://github.com/libpd/pd-for-android</url>
+  <licenses>
+    <license>
+      <name>BSD New</name>
+      <url>https://raw.githubusercontent.com/libpd/pd-for-android/master/PdCore/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/libpd/pd-for-android.git</connection>
+    <developerConnection>https://github.com/libpd/pd-for-android.git</developerConnection>
+    <url>https://github.com/libpd/pd-for-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.noisepages.nettoyeur</groupId>
+      <artifactId>midi</artifactId>
+      <version>1.0.0-rc1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

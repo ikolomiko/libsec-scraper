@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mcxtzhang</groupId>
+  <artifactId>SwipeDelMenuLayout</artifactId>
+  <version>V1.3.0</version>
+  <packaging>aar</packaging>
+  <name>mcxtzhang/SwipeDelMenuLayout</name>
+  <description>The most simple SwipeMenu in the history, 0 coupling, support any ViewGroup. Step integration swipe (delete) menu, high imitation QQ, iOS. ~史上最简单侧滑菜单，0耦合，支持任意ViewGroup。一步集成侧滑(删除)菜单，高仿QQ、IOS。~</description>
+  <url>http://blog.csdn.net/zxt0601/article/details/52303781</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mcxtzhang</id>
+      <name>张旭童</name>
+      <email>mcxtzhang@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/mcxtzhang/SwipeDelMenuLayout.git</connection>
+    <developerConnection>scm:git://github.com/mcxtzhang/SwipeDelMenuLayout.git</developerConnection>
+    <url>git://github.com/mcxtzhang/SwipeDelMenuLayout.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-core-ui</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

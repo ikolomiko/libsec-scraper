@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yashoid</groupId>
+  <artifactId>network</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>Network</name>
+  <description>Network library with the ability to induce dependency on the request queues. Plus operations are seperated from requests, you can do multiple requests and time consuming codes in a single operation.</description>
+  <url>https://github.com/yasharpm/Network</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yasharpm</id>
+      <name>Yashar PourMohammad</name>
+      <email>yasharpm@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yasharpm/Network.git</connection>
+    <developerConnection>https://github.com/yasharpm/Network.git</developerConnection>
+    <url>https://github.com/yasharpm/Network</url>
+  </scm>
+</project>

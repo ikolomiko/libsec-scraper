@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.alvince.android</groupId>
+  <artifactId>android-live-presenter</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidLivePresenter</name>
+  <description>A simple lifecycle observable presenter bundle on Android</description>
+  <url>https://github.com/alvince/AndroidLivePresenter/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alvince-zy</id>
+      <name>alvince</name>
+      <email>alvince.zy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/alvince/AndroidLivePresenter.git</connection>
+    <developerConnection>https://github.com/alvince/AndroidLivePresenter.git</developerConnection>
+    <url>https://github.com/alvince/AndroidLivePresenter/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

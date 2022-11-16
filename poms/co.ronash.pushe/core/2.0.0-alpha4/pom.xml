@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.ronash.pushe</groupId>
+  <artifactId>core</artifactId>
+  <version>2.0.0-alpha4</version>
+  <packaging>aar</packaging>
+  <name>PusheCore</name>
+  <description>Pushe v2 core module</description>
+  <url>https://pushe.co</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://git.ronash.co/pushe/android/pushe-v2/</connection>
+    <developerConnection>https://git.ronash.co/pushe/android/pushe-v2/</developerConnection>
+    <url>https://pushe.co</url>
+  </scm>
+</project>

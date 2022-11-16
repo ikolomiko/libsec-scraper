@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.imageopt</groupId>
+  <artifactId>imageoptclient</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>imageOptClient</name>
+  <description>imageOpt client library for Android, to construct parameterized imageOpt url from plain image url</description>
+  <url>https://imageopt.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bhojanibhavesh</id>
+      <name>Bhavesh Bhojani</name>
+      <email>bhavesh@imageopt.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/imgopt/imageOptAndroid</connection>
+    <developerConnection>https://github.com/imgopt/imageOptAndroid</developerConnection>
+    <url>https://imageopt.com</url>
+  </scm>
+</project>

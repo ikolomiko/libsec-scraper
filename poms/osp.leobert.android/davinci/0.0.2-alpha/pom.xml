@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>osp.leobert.android</groupId>
+  <artifactId>davinci</artifactId>
+  <version>0.0.2-alpha</version>
+  <packaging>aar</packaging>
+  <name>davinci</name>
+  <description>An Android library to help create background drawable and ColorStateList without xml</description>
+  <url>https://github.com/leobert-lan/DaVinCi</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/leobert-lan/DaVinCi/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leobert_lan</id>
+      <name>leobert</name>
+      <email>leobert.l@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/leobert-lan/DaVinCi.git</connection>
+    <developerConnection>https://github.com/leobert-lan/DaVinCi.git</developerConnection>
+    <url>https://github.com/leobert-lan/DaVinCi</url>
+  </scm>
+</project>

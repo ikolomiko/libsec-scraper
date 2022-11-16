@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.auth0.android</groupId>
+  <artifactId>lock-passwordless</artifactId>
+  <version>1.12.0</version>
+  <packaging>aar</packaging>
+  <name>Passwordless authentication for Lock Android</name>
+  <description>Lock for Android support for passwordless authentication</description>
+  <url>https://github.com/auth0/Lock.Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/auth0/Lock.Android/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hzalaz</id>
+      <name>Hernan Zalazar</name>
+      <email>hernan@auth0.com</email>
+    </developer>
+    <developer>
+      <id>mgonto</id>
+      <name>Martin Gontovnikas</name>
+      <email>gonto@auth0.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:auth0/Lock.Android.git</connection>
+    <developerConnection>scm:git@github.com:auth0/Lock.Android.git</developerConnection>
+    <url>https://github.com/auth0/Lock.Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.auth0.android</groupId>
+      <artifactId>lock</artifactId>
+      <version>1.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

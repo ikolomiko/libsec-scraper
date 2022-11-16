@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.garena.devalert</groupId>
+  <artifactId>dev-alert</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>dev-alert</name>
+  <description>A lightweight library which provides visual alerts to developers and QA when an issue happens during development/testing phase.</description>
+  <url>https://github.com/garena/dev-alert-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kharea</id>
+      <name>Amulya Khare</name>
+      <email>kharea@garena.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/garena/dev-alert-android.git</connection>
+    <developerConnection>https://github.com/garena/dev-alert-android.git</developerConnection>
+    <url>https://github.com/garena/dev-alert-android</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xamoom.android</groupId>
+  <artifactId>morpheus</artifactId>
+  <version>0.3.1</version>
+  <packaging>aar</packaging>
+  <name>Morpheus</name>
+  <description>Morpheus is a JSONAPI deserializer for android that uses java reflection. You can define your own java classes to deserialize.</description>
+  <url>http://xamoom.github.io/Morpheus/</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xamoom-raphael</id>
+      <name>Raphael Seher</name>
+      <email>raphael@xamoom.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/xamoom/Morpheus.git</connection>
+    <developerConnection>https://github.com/xamoom/Morpheus.git</developerConnection>
+    <url>http://xamoom.github.io/Morpheus/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

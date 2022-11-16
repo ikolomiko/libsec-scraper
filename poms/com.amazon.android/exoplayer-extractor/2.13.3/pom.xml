@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazon.android</groupId>
+  <artifactId>exoplayer-extractor</artifactId>
+  <version>2.13.3</version>
+  <packaging>aar</packaging>
+  <name>exoplayer-extractor</name>
+  <description>The ExoPlayer library extractor module.</description>
+  <url>https://github.com/amzn/exoplayer-amazon-port</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>The Android Open Source Project</name>
+      <email>pii-ExoPlayer-core@amazon.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/amzn/exoplayer-amazon-port.git</connection>
+    <url>https://github.com/amzn/exoplayer-amazon-port</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazon.android</groupId>
+      <artifactId>exoplayer-common</artifactId>
+      <version>2.13.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

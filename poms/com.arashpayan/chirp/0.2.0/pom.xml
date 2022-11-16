@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arashpayan</groupId>
+  <artifactId>chirp</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>Chirp</name>
+  <description>Android implementation of the Chirp network discovery protocol</description>
+  <url>https://chirp.arashpayan.com</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/arashpayan/chirp-android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>arashpayan</id>
+      <name>Arash Payan</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:arashpayan/chirp-android.git</connection>
+    <developerConnection>scm:git@github.com:arashpayan/chirp-android.git</developerConnection>
+    <url>https://github.com/arashpayan/chirp-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.SandroMachado</groupId>
+  <artifactId>openalpr-android</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>SandroMachado/openalpr-android</name>
+  <description>Android Automatic License Plate Recognition library (http://www.openalpr.com) ported for android.</description>
+  <url>https://github.com/SandroMachado/openalpr-android</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>SandroMachado</id>
+      <name>Sandro Machado</name>
+      <email>sandroemachado@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/SandroMachado/openalpr-android.git</connection>
+    <developerConnection>scm:git://github.com/SandroMachado/openalpr-android.git</developerConnection>
+    <url>git://github.com/SandroMachado/openalpr-android.git</url>
+  </scm>
+</project>

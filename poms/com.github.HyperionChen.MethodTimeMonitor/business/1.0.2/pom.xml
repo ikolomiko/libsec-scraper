@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.HyperionChen.MethodTimeMonitor</groupId>
+  <artifactId>business</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>HyperionChen/MethodTimeMonitor</name>
+  <description>监听Android主线程方法耗时，并以列表的形式展示出来，支持设置指定耗时时间过滤列表数据</description>
+  <url>https://github.com/HyperionChen/MethodTimeMonitor</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>HyperionChen</id>
+      <name>HyperionChen</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/HyperionChen/MethodTimeMonitor.git</connection>
+    <developerConnection>scm:git://github.com/HyperionChen/MethodTimeMonitor.git</developerConnection>
+    <url>git://github.com/HyperionChen/MethodTimeMonitor.git</url>
+  </scm>
+</project>

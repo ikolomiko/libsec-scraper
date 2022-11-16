@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.map</groupId>
+  <artifactId>tencent-map-nav-record</artifactId>
+  <version>1.0.0.2</version>
+  <packaging>aar</packaging>
+  <name>TencentMapNaviSDK</name>
+  <description>TencentMapNaviSDK is a navi sdk from Tencent.</description>
+  <url>http://lbs.qq.com/</url>
+  <inceptionYear>1998</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencentmap</id>
+      <name>tencentmap</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/TencentLBS/TencentNaviDemo_Android.git</connection>
+    <developerConnection>https://github.com/TencentLBS/TencentNaviDemo_Android.git</developerConnection>
+    <url>https://github.com/TencentLBS/TencentNaviDemo_Android</url>
+  </scm>
+</project>

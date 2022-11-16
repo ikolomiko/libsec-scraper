@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.esc861.screenshotlistener</groupId>
+  <artifactId>screenshot-listener</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ScreenshotListener</name>
+  <description>An Android library to detect when a user has taken a screenshot of your app.</description>
+  <url>https://github.com/Esc861/ScreenshotListener</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>esc861</id>
+      <name>Eric Clayton</name>
+      <email>esc861@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Esc861/ScreenshotListener.git</connection>
+    <developerConnection>https://github.com/Esc861/ScreenshotListener.git</developerConnection>
+    <url>https://github.com/Esc861/ScreenshotListener</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

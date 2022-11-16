@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libuninameslist</artifactId>
+  <version>20190701</version>
+  <packaging>aar</packaging>
+  <name>libuninameslist</name>
+  <description>A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt</description>
+  <url>https://github.com/fontforge/libuninameslist</url>
+  <inceptionYear>2003</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>https://github.com/fontforge/libuninameslist/blob/20190701/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GPLv2</name>
+      <url>https://github.com/fontforge/libuninameslist/blob/20190701/COPYING</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>George Williams</name>
+    </developer>
+    <developer>
+      <id>khaledhosny</id>
+      <name>Khaled Hosny</name>
+    </developer>
+    <developer>
+      <id>davelab6</id>
+      <name>Dave Crossland</name>
+    </developer>
+    <developer>
+      <id>JoesCat</id>
+      <name>Joe Da Silva</name>
+    </developer>
+    <developer>
+      <id>henrich</id>
+      <name>Hideki Yamane</name>
+    </developer>
+    <developer>
+      <id>lemzwerg</id>
+      <name>Werner Lemberg</name>
+    </developer>
+    <developer>
+      <id>rodgzilla</id>
+      <name>Grégory Chatel</name>
+    </developer>
+    <developer>
+      <id>tuffnatty</id>
+      <name>Phil Krylov</name>
+    </developer>
+    <developer>
+      <id>jamadagni</id>
+      <name>Shriramana Sharma</name>
+    </developer>
+    <developer>
+      <id>jtanx</id>
+      <name>Jeremy Tan</name>
+    </developer>
+    <developer>
+      <name>Jacques André</name>
+    </developer>
+    <developer>
+      <name>Patrick Andries</name>
+    </developer>
+    <developer>
+      <name>Bernard Chauvois</name>
+    </developer>
+    <developer>
+      <name>Karljürgen Feuerherm</name>
+    </developer>
+    <developer>
+      <name>Alain LaBonté</name>
+    </developer>
+    <developer>
+      <name>Marc Lodewijck</name>
+    </developer>
+    <developer>
+      <name>Michel Suignard</name>
+    </developer>
+    <developer>
+      <name>François Yergeau</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fontforge/libuninameslist.git</connection>
+    <url>https://github.com/fontforge/libuninameslist</url>
+  </scm>
+</project>

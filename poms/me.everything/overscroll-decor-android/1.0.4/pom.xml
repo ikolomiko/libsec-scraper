@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.everything</groupId>
+  <artifactId>overscroll-decor-android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Overscroll effect for Android</name>
+  <description>Android: iOS-like over-scrolling effect applicable over almost all scrollable Android views.</description>
+  <url>https://github.com/EverythingMe/overscroll-decor</url>
+  <licenses>
+    <license>
+      <name>The BSD 2-Clause License</name>
+      <url>https://github.com/EverythingMe/overscroll-decor/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>d4vidi</id>
+      <name>Amit Davidi</name>
+      <email>amit.d4vidi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/EverythingMe/overscroll-decor.git</connection>
+    <developerConnection>https://github.com/EverythingMe/overscroll-decor.git</developerConnection>
+    <url>https://github.com/EverythingMe/overscroll-decor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

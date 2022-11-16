@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.RDGToolTip</groupId>
+  <artifactId>RDGToolTip</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>RDGToolTip</name>
+  <description></description>
+  <url>https://github.com/RDGTeam/AndroidToolTip</url>
+  <licenses>
+    <license>
+      <name>GPL</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RDGTeam</id>
+      <name>RDGTeam</name>
+      <email>rodogiteam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RDGTeam/AndroidToolTip.git</connection>
+    <developerConnection>https://github.com/RDGTeam/AndroidToolTip.git</developerConnection>
+    <url>https://github.com/RDGTeam/AndroidToolTip</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

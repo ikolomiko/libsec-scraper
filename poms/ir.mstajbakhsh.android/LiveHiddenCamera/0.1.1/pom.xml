@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ir.mstajbakhsh.android</groupId>
+  <artifactId>LiveHiddenCamera</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>LiveHiddenCamera</name>
+  <description>Live Hidden Camera is a library which record live video and audio from Android device without displaying a preview.</description>
+  <url>https://github.com/mirsamantajbakhsh/LiveHiddenCamera</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mirsamantajbakhsh</id>
+      <name>Mir Saman Tajbakhsh</name>
+      <email>ms.tajbakhsh@urmia.ac.ir</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mirsamantajbakhsh/LiveHiddenCamera.git</connection>
+    <developerConnection>https://github.com/mirsamantajbakhsh/LiveHiddenCamera.git</developerConnection>
+    <url>https://github.com/mirsamantajbakhsh/LiveHiddenCamera</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

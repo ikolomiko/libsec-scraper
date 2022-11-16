@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.hockeyapp.android</groupId>
+  <artifactId>HockeySDK</artifactId>
+  <version>5.1.1</version>
+  <packaging>aar</packaging>
+  <name>hockeysdk</name>
+  <description>HockeySDK-Android implements support for using HockeyApp in your Android application. The following features are currently supported:
+
+Collect crash reports:If your app crashes, a crash log is written to the device's storage. If the user starts the app again, they will be asked asked to submit the crash report to HockeyApp. This works for both beta and live apps, i.e. those submitted to Google Play or other app stores. Crash logs contain viable information for you to help resolve the issue. Furthermore, you as a developer can add additional information to the report as well.
+
+Update Alpha/Beta apps: The app will check with HockeyApp if a new version for your alpha/beta build is available. If yes, it will show a dialog to users and let them see the release notes, the version history and start the installation process right away. You can even force the installation of certain updates.
+
+User Metrics: Understand user behavior to improve your app. Track usage through daily and monthly active users. Monitor crash impacted users. Measure customer engagement through session count. Add custom tracking calls to learn which features your users are actually using.  This feature requires a minimum API level of 14 (Android 4.x Ice Cream Sandwich).
+
+Feedback: Besides crash reports, collecting feedback from your users from within your app is a great option to help with improving your app. You act on and answer feedback directly from the HockeyApp backend.
+
+Authenticate: Identify and authenticate users against your registered testers with the HockeyApp backend.</description>
+  <url>https://github.com/bitstadium/hockeysdk-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>HockeyApp</id>
+      <name>Microsoft Corporation</name>
+      <email>support@hockeyapp.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bitstadium/HockeySDK-Android.git</connection>
+    <developerConnection>https://github.com/bitstadium/HockeySDK-Android.git</developerConnection>
+    <url>https://github.com/bitstadium/HockeySDK-Android.git</url>
+  </scm>
+</project>

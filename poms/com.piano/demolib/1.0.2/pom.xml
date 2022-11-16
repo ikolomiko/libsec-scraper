@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.piano</groupId>
+  <artifactId>demolib</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>demolib</name>
+  <description>小小的demo</description>
+  <url>https://github.com/AndroidStudy2015/JcenterDemo</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cjx2080</id>
+      <name>cjx</name>
+      <email>cjx2080@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AndroidStudy2015/JcenterDemo.git</connection>
+    <developerConnection>https://github.com/AndroidStudy2015/JcenterDemo.git</developerConnection>
+    <url>https://github.com/AndroidStudy2015/JcenterDemo</url>
+  </scm>
+</project>

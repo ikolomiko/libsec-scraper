@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.andrew.social.login</groupId>
+  <artifactId>vk-implicit</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>social_login</name>
+  <description>Social Login - vk-implicit</description>
+  <url>https://github.com/AndrewHeyO/SocialLogin</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andrewheyo</id>
+      <name>Andrey Matyushin</name>
+      <email>andrew.matyushin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AndrewHeyO/SocialLogin.git</connection>
+    <developerConnection>https://github.com/AndrewHeyO/SocialLogin.git</developerConnection>
+    <url>https://github.com/AndrewHeyO/SocialLogin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.andrew.social.login</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vk</groupId>
+      <artifactId>androidsdk</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+  </dependencies>
+</project>

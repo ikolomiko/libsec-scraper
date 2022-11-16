@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eeesys.txby</groupId>
+  <artifactId>gofast</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>Android BounceProgressBar Widget</name>
+  <url>https://github.com/firebegin/clearedit</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wangzhichao</id>
+      <name>wzc</name>
+      <email>wangchao657@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/firebegin/clearedit.git</connection>
+    <developerConnection>https://github.com/firebegin/clearedit.git</developerConnection>
+    <url>https://github.com/firebegin/clearedit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xutils</groupId>
+      <artifactId>xutils</artifactId>
+      <version>3.3.36</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nostra13.universalimageloader</groupId>
+      <artifactId>universal-image-loader</artifactId>
+      <version>1.9.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

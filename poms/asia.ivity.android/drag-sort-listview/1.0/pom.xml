@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>asia.ivity.android</groupId>
+  <artifactId>drag-sort-listview</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>DragSortListView</name>
+  <description>Android ListView with drag and drop reordering.</description>
+  <url>https://github.com/ened/drag-sort-listview</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bauerca</id>
+      <name>Carl Bauer</name>
+      <url>https://github.com/bauerca</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:ened/drag-sort-listview.git</connection>
+    <developerConnection>git@github.com:ened/drag-sort-listview.git</developerConnection>
+    <url>https://github.com/ened/drag-sort-listview.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>18.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

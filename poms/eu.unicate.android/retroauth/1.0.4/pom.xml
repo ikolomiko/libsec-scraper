@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.unicate.android</groupId>
+  <artifactId>retroauth</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>Android library build on top of retrofit, for simple handling of authenticated requests</name>
+  <url>https://github.com/andretietz/retroauth</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>unicate</id>
+      <name>Andre</name>
+      <email>andre.tietz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/andretietz/retroauth.git</connection>
+    <developerConnection>https://github.com/andretietz/retroauth.git</developerConnection>
+    <url>https://github.com/andretietz/retroauth</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.15</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airbnb.android</groupId>
+  <artifactId>epoxy-modelfactory</artifactId>
+  <version>2.14.0</version>
+  <packaging>aar</packaging>
+  <name>Epoxy Model Factory</name>
+  <description>Epoxy is a system for composing complex screens with a ReyclerView in Android.</description>
+  <url>https://github.com/airbnb/epoxy</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/airbnb/epoxy/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airbnb</id>
+      <name>Airbnb</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:airbnb/epoxy.git</connection>
+    <developerConnection>scm:git@github.com:airbnb/epoxy.git</developerConnection>
+    <url>https://github.com/airbnb/epoxy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>epoxy</artifactId>
+      <version>2.14.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>paris</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lovebing.reactnative</groupId>
+  <artifactId>baidumap</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>BaidMap for React Native</name>
+  <description>BaidMap for React Native</description>
+  <url>https://github.com/lovebing/react-native-baidu-map/tree/master/android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lovebing</id>
+      <name>Tang Yangjian</name>
+      <email>tangyangjian@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/lovebing/react-native-baidu-map.git</connection>
+    <developerConnection>scm:https://github.com/lovebing/react-native-baidu-map.git</developerConnection>
+    <url>https://github.com/lovebing/react-native-baidu-map.git</url>
+  </scm>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.gimbal.android.v2</groupId>
+	<artifactId>gimbal-sdk</artifactId>
+	<packaging>jar</packaging>
+    <version>2.42</version>
+	<name>Gimbal Android V2 SDK</name>
+	<description>The Gimbal Android V2 SDK for Java provides Java APIs for building software against Gimbal's products.</description>
+	<url>https://docs.gimbal.com/android/v2/devguide.html</url>
+
+	<licenses>
+		<license>
+            <name>Gimbal, Inc. Copyright (c) 2014, 2015  All rights reserved.</name>
+			<url>https://manager.gimbal.com/sdk-license</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+    <developers>
+        <developer>
+            <id>hchen</id>
+            <name>Gimbal</name>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/gimbalinc/hello-gimbal-android</url>
+        <connection>scm:git:git://github.com/gimbalinc/hello-gimbal-android.git</connection>
+        <developerConnection>scm:git:git@github.com:gimbalinc/hello-gimbal-android.git</developerConnection>
+    </scm>
+
+</project>

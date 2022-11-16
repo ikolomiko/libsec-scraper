@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>weesner</groupId>
+  <artifactId>tax-fetcher</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Tax-Fetcher</name>
+  <description>A small library to fetch tax and tax information from respective JSON files</description>
+  <url>https://github.com/adamWeesner/Tax-Fetcher</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/adamWeesner/Tax-Fetcher/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alweesner</id>
+      <name>Adam Weesner</name>
+      <email>weesnerDevelopment@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/adamWeesner/Tax-Fetcher.git</connection>
+    <developerConnection>https://github.com/adamWeesner/Tax-Fetcher.git</developerConnection>
+    <url>https://github.com/adamWeesner/Tax-Fetcher</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

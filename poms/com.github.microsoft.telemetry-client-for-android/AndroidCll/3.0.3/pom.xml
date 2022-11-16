@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.microsoft.telemetry-client-for-android</groupId>
+  <artifactId>AndroidCll</artifactId>
+  <version>3.0.3</version>
+  <packaging>aar</packaging>
+  <name>Telemetry-Client-For-Android</name>
+  <description>Telemetry Client for Android for use by ApplicationInsights-Android</description>
+  <url>https://github.com/Microsoft/Telemetry-Client-for-Android.git</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>asimovteam</id>
+      <email>reachcll@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Microsoft/Telemetry-Client-for-Android.git</connection>
+    <developerConnection>https://github.com/Microsoft/Telemetry-Client-for-Android.git</developerConnection>
+    <url>https://github.com/Microsoft/Telemetry-Client-for-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.microsoft.telemetry-client-for-android</groupId>
+      <artifactId>SharedTelemetryContracts</artifactId>
+      <version>3.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fintecsystems</groupId>
+  <artifactId>xs2awizard_networking</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>XS2A-Wizard Android Networking</name>
+  <description>Networking Service for XS2A-Wizard Android SDK</description>
+  <url>https://github.com/FinTecSystems/xs2a-android-netservice</url>
+  <organization>
+    <name>FintecSystems</name>
+    <url>https://fintecsystems.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maik-mursall</id>
+      <name>Maik Mursall</name>
+      <email>mmursall@fintecsystems.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:FinTecSystems/xs2a-android-netservice.git</connection>
+    <developerConnection>scm:git:git@github.com:FinTecSystems/xs2a-android-netservice.git</developerConnection>
+    <url>git@github.com:FinTecSystems/xs2a-android-netservice.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.mervick</groupId>
+      <artifactId>aes-everywhere-java</artifactId>
+      <version>1.2.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

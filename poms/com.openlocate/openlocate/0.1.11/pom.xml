@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.openlocate</groupId>
+  <artifactId>openlocate</artifactId>
+  <version>0.1.11</version>
+  <packaging>aar</packaging>
+  <name>openlocate</name>
+  <description>OpenLocate is an open source Android and iOS SDK for mobile location collection.</description>
+  <url>https://github.com/OpenLocate/openlocate-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/OpenLocate/openlocate-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>openlocate</id>
+      <name>OpenLocate</name>
+      <email>info@openlocate.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/OpenLocate/openlocate-android.git</connection>
+    <developerConnection>https://github.com/OpenLocate/openlocate-android.git</developerConnection>
+    <url>https://github.com/OpenLocate/openlocate-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>11.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

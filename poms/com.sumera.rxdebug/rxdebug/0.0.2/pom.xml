@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sumera.rxdebug</groupId>
+  <artifactId>rxdebug</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>rxdebug</name>
+  <description>RxDebug is a kotlin extension that provides a very simple way of debugging RxJava2 streams</description>
+  <url>https://github.com/SumeraMartin/RxDebug</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sumeramartin</id>
+      <name>Martin Sumera</name>
+      <email>sumera.martin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SumeraMartin/RxDebug.git</connection>
+    <developerConnection>https://github.com/SumeraMartin/RxDebug.git</developerConnection>
+    <url>https://github.com/SumeraMartin/RxDebug</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.githunb.renxh4</groupId>
+  <artifactId>test-aar</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>text-aar</name>
+  <description>arr</description>
+  <url>https://github.com/renxh4/TextJCenter</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xiaohui</id>
+      <name>ren</name>
+      <email>18039395421@163.com</email>
+      <url>https://github.com/renxh4/TextJCenter</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/renxh4/TextJCenter.git</connection>
+    <developerConnection>scm:git@https://github.com/renxh4/TextJCenter.git</developerConnection>
+    <url>https://github.com/renxh4/TextJCenter</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/renxh4/TextJCenter</url>
+  </issueManagement>
+</project>

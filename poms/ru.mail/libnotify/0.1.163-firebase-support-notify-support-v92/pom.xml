@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.mail</groupId>
+  <artifactId>libnotify</artifactId>
+  <version>0.1.163-firebase-support-notify-support-v92</version>
+  <packaging>aar</packaging>
+  <name>libnotify for Android projects</name>
+  <url>http://mail.ru</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3 (GPL-3.0)</name>
+      <url>https://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>libnotify</id>
+      <name>Vladimir Nedashkovskiy</name>
+      <email>v.nedashkovskiy@corp.mail.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://mail.ru</connection>
+    <developerConnection>http://mail.ru</developerConnection>
+    <url>http://mail.ru</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.mail</groupId>
+      <artifactId>notify-core</artifactId>
+      <version>0.1.163-firebase-support-notify-support-v92</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>disklrucache</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.makeramen</groupId>
+      <artifactId>roundedimageview</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <description>libverify library</description>
+</project>

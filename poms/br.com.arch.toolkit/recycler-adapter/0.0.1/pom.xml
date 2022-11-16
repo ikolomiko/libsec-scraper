@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.arch.toolkit</groupId>
+  <artifactId>recycler-adapter</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Arch Toolkit</name>
+  <description>A simple group of tools to start develop with a smile in your face.</description>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>methe</id>
+      <name>Matheus Barbieri Corregiari</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Methe/arch-toolkit.git</connection>
+    <url>https://github.com/Methe/arch-toolkit</url>
+  </scm>
+</project>

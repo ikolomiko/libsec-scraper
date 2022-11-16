@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bidstack</groupId>
+  <artifactId>mobile-ads-sdk</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>mobile-ads-sdk</name>
+  <description>Bidstack Mobile Ads SDK</description>
+  <url>https://www.bidstack.com/</url>
+  <organization>
+    <name>Bidstack</name>
+    <url>https://www.bidstack.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Bidstack License</name>
+      <url>https://github.com/bidstack-group/bidstack-mobile-ads-sdk/blob/main/LICENSE.TXT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>256p</id>
+      <name>Staņislavs Petkevičs</name>
+      <email>stanislavs.petkevics@bidstack.com</email>
+    </developer>
+    <developer>
+      <id>CannibalChoco</id>
+      <name>Kristine Glazuna</name>
+      <email>kristine.glazuna@bidstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/bidstack-group/bidstack-mobile-ads-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/bidstack-group/bidstack-mobile-ads-sdk.git</developerConnection>
+    <url>https://github.com/bidstack-group/bidstack-mobile-ads-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>18.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.3.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.3.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.6.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

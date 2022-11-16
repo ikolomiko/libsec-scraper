@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.infstory</groupId>
+  <artifactId>retrofacebook-v3</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Retrofit Facebook Android SDK</name>
+  <description>Using RxJava to wrap original Facebook SDK</description>
+  <url>https://github.com/yongjhih/RetroFacebook</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yongjhih</id>
+      <name>Andrew Chen</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:yongjhih/RetroFacebook.git</connection>
+    <developerConnection>scm:git@github.com:yongjhih/RetroFacebook.git</developerConnection>
+    <url>https://github.com/yongjhih/RetroFacebook</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.yongjhih.LoganSquare</groupId>
+      <artifactId>logansquare</artifactId>
+      <version>c54c76312a</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-android-sdk</artifactId>
+      <version>3.20.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yongjhih</groupId>
+      <artifactId>auto-json</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yongjhih</groupId>
+      <artifactId>retrofacebook-annotation</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

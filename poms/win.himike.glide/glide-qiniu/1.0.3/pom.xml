@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>win.himike.glide</groupId>
+  <artifactId>glide-qiniu</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>glide-qiniu</name>
+  <description>使用Glide4的generated API方式封装七牛的高级图片处理API</description>
+  <url>https://github.com/Hi-Mike/Glide-qiniu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hi-mike</id>
+      <name>hi-mike</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Hi-Mike/Glide-qiniu</connection>
+    <developerConnection>https://github.com/Hi-Mike/Glide-qiniu</developerConnection>
+    <url>https://github.com/Hi-Mike/Glide-qiniu</url>
+  </scm>
+</project>

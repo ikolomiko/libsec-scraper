@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appnit.appnitpglibrary</groupId>
+  <artifactId>PgSdk-APT</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>PgSdk-APT</name>
+  <description>A wrapper for PgSdk-APT on Android</description>
+  <url>https://bitbucket.org/ajeetappnittech/appnitpgsdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Appnit Technologies 007</id>
+      <name>Appnit Technologies</name>
+      <email>appnittech@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/ajeetappnittech/appnitpgsdk.git</connection>
+    <developerConnection>https://bitbucket.org/ajeetappnittech/appnitpgsdk.git</developerConnection>
+    <url>https://bitbucket.org/ajeetappnittech/appnitpgsdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

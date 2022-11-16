@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.VictorAlbertos</groupId>
+  <artifactId>RxActivityResult</artifactId>
+  <version>0.3.8</version>
+  <packaging>aar</packaging>
+  <name>VictorAlbertos/RxActivityResult</name>
+  <description>A reactive-tiny-badass-vindictive library to break with the OnActivityResult implementation as it breaks the observables chain.</description>
+  <url>https://github.com/VictorAlbertos/RxActivityResult</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>VictorAlbertos</id>
+      <name>Víctor Albertos</name>
+      <email>me@victoralbertos.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/VictorAlbertos/RxActivityResult.git</connection>
+    <developerConnection>scm:git://github.com/VictorAlbertos/RxActivityResult.git</developerConnection>
+    <url>git://github.com/VictorAlbertos/RxActivityResult.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

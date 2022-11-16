@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.liyu.tools</groupId>
+  <artifactId>sqlitetoexcel</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>SQLiteToExcel</name>
+  <description>A simple lib for Android to export SQLite to Excel.</description>
+  <url>https://github.com/li-yu/SQLiteToExcel</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>li-yu</id>
+      <name>liyu</name>
+      <email>me@liyuyu.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/li-yu/SQLiteToExcel.git</connection>
+    <developerConnection>https://github.com/li-yu/SQLiteToExcel.git</developerConnection>
+    <url>https://github.com/li-yu/SQLiteToExcel</url>
+  </scm>
+</project>

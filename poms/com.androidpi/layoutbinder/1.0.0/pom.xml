@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.androidpi</groupId>
+  <artifactId>layoutbinder</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>LayoutBinder</name>
+  <description>Bind layout to Activity and Fragment.</description>
+  <url>https://github.com/jastrelax/layoutbinder</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.androidpi</groupId>
+      <artifactId>layoutbinder-runtime</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.androidpi</groupId>
+      <artifactId>layoutbinder-annotations</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+  <scm>
+    <connection>scm:git:git@github.com:jastrelax/layoutbinder.git</connection>
+    <developerConnection>scm:git:git@github.com:jastrelax/layoutbinder.git</developerConnection>
+    <url>https://github.com/jastrelax/layoutbinder</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jastrelax</id>
+      <name>PinJiu Yin</name>
+      <email>yinpinjiu@gmail.com</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>online.devliving</groupId>
+  <artifactId>mvbarcodereader</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>online.devliving:mvbarcodereader</name>
+  <description>A Barcode Scanning Library for Android</description>
+  <url>https://github.com/iamMehedi/MVBarcodeReader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>im_mehedi</id>
+      <name>Mehedi Hasan Khan</name>
+      <email>mehedi.mailing@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/iamMehedi/MVBarcodeReader.git</connection>
+    <developerConnection>https://github.com/iamMehedi/MVBarcodeReader.git</developerConnection>
+    <url>https://github.com/iamMehedi/MVBarcodeReader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-basement</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-vision</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zyl.imagecache</groupId>
+  <artifactId>android-volley-lru-image-cache</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android Volley Image Lru Cache</name>
+  <url>https://github.com/fxtxz2/android-volley-lru-image-cache</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Zhang Ya Lin</id>
+      <name>Zhang Ya Lin</name>
+      <email>zylstc2009@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fxtxz2/android-volley-lru-image-cache.git</connection>
+    <developerConnection>https://github.com/fxtxz2/android-volley-lru-image-cache.git</developerConnection>
+    <url>https://github.com/fxtxz2/android-volley-lru-image-cache</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zyl.filemd5utils</groupId>
+      <artifactId>filemd5utils</artifactId>
+      <version>0.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>disklrucache</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

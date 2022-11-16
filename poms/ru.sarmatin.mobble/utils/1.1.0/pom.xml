@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.sarmatin.mobble</groupId>
+  <artifactId>utils</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>utils</name>
+  <description>Utils library for Android Development in UI Layer</description>
+  <url>https://github.com/antonsarmatin/Mobble</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>antonsarmatin</id>
+      <name>Anton Sarmatin</name>
+      <email>antonsarmatin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/antonsarmatin/Mobble.git</connection>
+    <developerConnection>https://github.com/antonsarmatin/Mobble.git</developerConnection>
+    <url>https://github.com/antonsarmatin/Mobble</url>
+  </scm>
+</project>

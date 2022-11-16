@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.cyq.net</groupId>
+  <artifactId>retrofitutils</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>This is a net request utils framework</name>
+  <url>https://github.com/DaLeiGe/RetrofitUtils</url>
+  <licenses>
+    <license>
+      <name>This is a net request utils framework</name>
+      <url>https://github.com/DaLeiGe/RetrofitUtils.git</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cyq</id>
+      <name>chenyangqi</name>
+      <email>cyq18569640023@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DaLeiGe/RetrofitUtils.git</connection>
+    <developerConnection>https://github.com/DaLeiGe/RetrofitUtils.git</developerConnection>
+    <url>https://github.com/DaLeiGe/RetrofitUtils</url>
+  </scm>
+</project>

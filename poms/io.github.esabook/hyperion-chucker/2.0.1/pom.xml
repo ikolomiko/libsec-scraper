@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.esabook</groupId>
+  <artifactId>hyperion-chucker</artifactId>
+  <version>2.0.1</version>
+  <packaging>aar</packaging>
+  <name>Hyperion-Chucker</name>
+  <description>Chucker implementation as Hyperion plugin </description>
+  <url>http://github.com/esabook/hyperion-chucher</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>https://github.com/esabook/Hyperion-Chucker/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>egit</id>
+      <name>Egit</name>
+      <email>esa_book@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/esabook/Hyperion-Chucker.git</connection>
+    <developerConnection>scm:git:ssh://github.com/esabook/Hyperion-Chucker.git</developerConnection>
+    <url>http://github.com/esabook/Hyperion-Chucker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.willowtreeapps.hyperion</groupId>
+      <artifactId>hyperion-plugin</artifactId>
+      <version>0.9.34</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.esabook.chucker</groupId>
+      <artifactId>library</artifactId>
+      <version>4.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

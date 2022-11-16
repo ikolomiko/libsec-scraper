@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.albertopeam</groupId>
+  <artifactId>infrastructure</artifactId>
+  <version>0.0.13</version>
+  <packaging>aar</packaging>
+  <name>albertopeam.android:infrastructure</name>
+  <description>General purpose library for make use of multithreading and exception handling in Android.</description>
+  <url>https://github.com/albertopeam/Android-Architecture-Components</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/albertopeam/Android-Architecture-Components/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>albertopeam</id>
+      <name>Alberto Penas Amor</name>
+      <email>albertopeam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/albertopeam/Android-Architecture-Components.git</connection>
+    <developerConnection>https://github.com/albertopeam/Android-Architecture-Components.git</developerConnection>
+    <url>https://github.com/albertopeam/Android-Architecture-Components</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

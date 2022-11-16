@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sicpay.sicpaysdk</groupId>
+  <artifactId>sicpaysdk</artifactId>
+  <version>i1.1.6.3</version>
+  <packaging>aar</packaging>
+  <name>SicpaySDK For Payments</name>
+  <description>SicpaySDK For Payments</description>
+  <url>https://dl.bintray.com/pengju/SicpaySDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pengju</id>
+      <name>pengju</name>
+      <email>product@sicpay.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sicpay/ght</connection>
+    <developerConnection>https://github.com/sicpay/ght</developerConnection>
+    <url>https://dl.bintray.com/pengju/SicpaySDK</url>
+  </scm>
+</project>

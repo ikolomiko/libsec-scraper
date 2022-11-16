@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jerry.gcl</groupId>
+  <artifactId>gridconstraintlayout</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>gridconstraintlayout</name>
+  <description>A grid layout base on constraint layout</description>
+  <url>https://github.com/Jerry-Mr-Xu/GridConstraintLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Jerry-Mr-Xu</id>
+      <name>Jerry-Mr-Xu</name>
+      <email>285373161@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Jerry-Mr-Xu/GridConstraintLayout.git</connection>
+    <developerConnection>https://github.com/Jerry-Mr-Xu/GridConstraintLayout.git</developerConnection>
+    <url>https://github.com/Jerry-Mr-Xu/GridConstraintLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jerry.gcl</groupId>
+      <artifactId>GridConstraintLayout</artifactId>
+      <version>0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

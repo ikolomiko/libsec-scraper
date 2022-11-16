@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.theagilemonkeys.meets</groupId>
+  <artifactId>meets-android</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>Meets Android</name>
+  <description>A native SDK designed to ease communication between mobile apps and Magento stores</description>
+  <url>http://meets.io</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kloster</id>
+      <name>Ãlvaro LÃ³pez Espinosa</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/agilemonkeys/meets-android.git</connection>
+    <developerConnection>scm:git@github.com/agilemonkeys/meets-android.git</developerConnection>
+    <url>https://github.com/agilemonkeys/meets-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.octo.android.robospice</groupId>
+      <artifactId>robospice-spring-android</artifactId>
+      <version>1.4.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-android</artifactId>
+      <version>1.7.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.theagilemonkeys.meets</groupId>
+      <artifactId>meets-core</artifactId>
+      <version>0.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.octo.android.robospice</groupId>
+      <artifactId>robospice</artifactId>
+      <version>1.4.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

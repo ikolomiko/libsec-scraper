@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aliyun.iot.aep.sdk</groupId>
+  <artifactId>account</artifactId>
+  <version>0.0.0.0.1.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.aliyun.iot.aep.sdk</groupId>
+      <artifactId>threadpool</artifactId>
+      <version>0.0.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.aliyun.iot.aep.sdk</groupId>
+      <artifactId>jsbridge</artifactId>
+      <version>0.0.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25+</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.sdk.android.openaccount</groupId>
+      <artifactId>openaccount-ui-default</artifactId>
+      <version>3.1.9</version>
+      <exclusions>
+        <exclusion>
+          <groupId>openaccount-ui-default</groupId>
+          <artifactId>openaccount-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

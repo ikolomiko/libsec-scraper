@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.atishin</groupId>
+  <artifactId>helpers</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Helpers library</name>
+  <description>Different functions for easy access</description>
+  <url>https://github.com/atishin/helpers</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>atishin93</id>
+      <name>Anton Tishin</name>
+      <email>atishin93@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/atishin/helpers.git</connection>
+    <developerConnection>https://github.com/atishin/helpers.git</developerConnection>
+    <url>https://github.com/atishin/helpers</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mikepenz.materialdrawer</groupId>
+      <artifactId>library</artifactId>
+      <version>0.9.5</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

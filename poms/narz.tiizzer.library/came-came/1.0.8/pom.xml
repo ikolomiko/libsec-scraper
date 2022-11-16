@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>narz.tiizzer.library</groupId>
+  <artifactId>came-came</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>CameCame</name>
+  <description>Custom camera library by narztiizer [credit by : afollestad:material-camera]</description>
+  <url>https://github.com/narztiizzer/came-came</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>narztiizzer</id>
+      <name>Nattapong Poomtong</name>
+      <email>nattapong.poom@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/narztiizzer/came-came.git</connection>
+    <developerConnection>https://github.com/narztiizzer/came-came.git</developerConnection>
+    <url>https://github.com/narztiizzer/came-came</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

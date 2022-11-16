@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.walletone.p2p</groupId>
+  <artifactId>sdk</artifactId>
+  <version>0.3.5</version>
+  <packaging>aar</packaging>
+  <name>P2PCore</name>
+  <description>Framework for network requests Wallet One P2P. Core</description>
+  <url>https://github.com/WalletOne/P2PAndroid</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>matpockih</id>
+      <name>Anton Aronskiy</name>
+      <email>anton.aronskiy@walletone.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/WalletOne/P2PAndroid.git</connection>
+    <developerConnection>https://github.com/WalletOne/P2PAndroid.git</developerConnection>
+    <url>https://github.com/WalletOne/P2PAndroid</url>
+  </scm>
+</project>

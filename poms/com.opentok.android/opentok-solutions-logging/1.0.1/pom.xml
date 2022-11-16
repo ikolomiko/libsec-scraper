@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.opentok.android</groupId>
+  <artifactId>opentok-solutions-logging</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>OpenTok Solutions Logging</name>
+  <description>The Vonage vertical solutions data logging.</description>
+  <url>https://github.com/opentok/opentok-solutions-logging</url>
+  <licenses>
+    <license>
+      <name>Software Development Kit (SDK) License Agreement</name>
+      <url>https://tokbox.com/support/sdk_license</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/opentok/opentok-solutions-logging</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>TokBox Clients</name>
+      <email>tokbox.clients@vonage.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

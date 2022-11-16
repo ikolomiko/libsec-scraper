@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.captain-miao</groupId>
+  <artifactId>topalignedtextview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>top aligned text in a textView</name>
+  <description>Android library to top aligned text in a textView, suggest use in LinearLayout.</description>
+  <url>https://github.com/captain-miao/TopAlignedTextView</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yanlu</id>
+      <name>yanlu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/captain-miao/TopAlignedTextView.git</connection>
+    <developerConnection>scm:https://github.com/captain-miao/TopAlignedTextView.git</developerConnection>
+    <url>https://github.com/captain-miao/TopAlignedTextView</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/captain-miao/TopAlignedTextView/issues</url>
+  </issueManagement>
+</project>

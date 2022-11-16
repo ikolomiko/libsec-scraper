@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.andrestejero</groupId>
+  <artifactId>customratingbar</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>android-custom-rating-bar</name>
+  <description>Rating Bar animated for Android</description>
+  <url>https://github.com/andrestejero/android-custom-rating-bar</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andrestejero</id>
+      <name>Andres Tejero</name>
+      <email>andrestejero@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/andrestejero/android-custom-rating-bar.git</connection>
+    <developerConnection>https://github.com/andrestejero/android-custom-rating-bar.git</developerConnection>
+    <url>https://github.com/andrestejero/android-custom-rating-bar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

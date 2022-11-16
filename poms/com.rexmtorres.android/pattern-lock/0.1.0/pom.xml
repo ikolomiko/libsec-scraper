@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rexmtorres.android</groupId>
+  <artifactId>pattern-lock</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>pattern-lock</name>
+  <description>A clone of the AOSP LockPatternView that can be used as a stand alone View. Also provides some customization (e.g. changing the path and dot colors, using a custom bitmap for the cell dots, etc.).</description>
+  <url>https://github.com/rexmtorres/pattern-lock</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rexmtorres</id>
+      <name>Rex Mag-uyon Torres</name>
+      <email>rexmtorres@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rexmtorres/pattern-lock.git</connection>
+    <developerConnection>https://github.com/rexmtorres/pattern-lock.git</developerConnection>
+    <url>https://github.com/rexmtorres/pattern-lock</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>PatternLockView</groupId>
+      <artifactId>nineOldAndroids</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

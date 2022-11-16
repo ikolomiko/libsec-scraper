@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.algolia</groupId>
+  <artifactId>algoliasearch-offline-android</artifactId>
+  <version>3.2.1</version>
+  <packaging>aar</packaging>
+  <name>Algolia Search API Client for Android (offline flavor)</name>
+  <description>This Android library lets you easily use the Algolia Search API from your Android Application, with additional offline capabilities. It wraps the Algolia Search REST API and the Algolia Search Offline Core.</description>
+  <url>https://github.com/algolia/algoliasearch-client-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>algolia</id>
+      <name>The Algolia Team</name>
+      <email>support@algolia.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/algolia/algoliasearch-client-android.git</connection>
+    <url>https://github.com/algolia/algoliasearch-client-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.algolia</groupId>
+      <artifactId>algoliasearch-offline-core-android</artifactId>
+      <version>0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

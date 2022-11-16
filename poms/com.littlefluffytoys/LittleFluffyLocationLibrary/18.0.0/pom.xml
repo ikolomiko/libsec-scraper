@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.littlefluffytoys</groupId>
+  <artifactId>LittleFluffyLocationLibrary</artifactId>
+  <version>18.0.0</version>
+  <packaging>aar</packaging>
+  <name>Battery-friendly background location updates for Android, using Google Play Location where available</name>
+  <url>https://github.com/snigavig/little-fluffy-location-library</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snigavig</id>
+      <name>Dmitry Mina</name>
+      <email>snigavig@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/snigavig/little-fluffy-location-library.git</connection>
+    <developerConnection>https://github.com/snigavig/little-fluffy-location-library.git</developerConnection>
+    <url>https://github.com/snigavig/little-fluffy-location-library</url>
+  </scm>
+</project>

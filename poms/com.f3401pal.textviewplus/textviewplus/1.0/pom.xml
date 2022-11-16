@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.f3401pal.textviewplus</groupId>
+  <artifactId>textviewplus</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>textviewplus</name>
+  <description>Fast Android TextView for large text content</description>
+  <url>https://github.com/f3401pal/TextViewPlus</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>f3401pal</id>
+      <name>Andy Wang</name>
+      <email>f3401pal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/f3401pal/TextViewPlus.git</connection>
+    <developerConnection>https://github.com/f3401pal/TextViewPlus.git</developerConnection>
+    <url>https://github.com/f3401pal/TextViewPlus</url>
+  </scm>
+</project>

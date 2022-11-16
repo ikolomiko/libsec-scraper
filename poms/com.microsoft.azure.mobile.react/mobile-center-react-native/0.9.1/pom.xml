@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.azure.mobile.react</groupId>
+  <artifactId>mobile-center-react-native</artifactId>
+  <version>0.9.1</version>
+  <packaging>aar</packaging>
+  <name>mobile-center-react-native</name>
+  <description>Mobile Center SDK for Android react-native</description>
+  <url>https://github.com/Microsoft/mobile-center-sdk-react-native</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>microsoft</id>
+      <name>Microsoft</name>
+      <email>mobiledevopssdk@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Microsoft/mobile-center-sdk-react-native.git</connection>
+    <developerConnection>https://github.com/Microsoft/mobile-center-sdk-react-native.git</developerConnection>
+    <url>https://github.com/Microsoft/mobile-center-sdk-react-native</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.azure.mobile</groupId>
+      <artifactId>mobile-center</artifactId>
+      <version>0.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

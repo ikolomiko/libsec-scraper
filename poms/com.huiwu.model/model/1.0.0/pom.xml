@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huiwu.model</groupId>
+  <artifactId>model</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>model</name>
+  <url>https://github.com/Perity2015/Model</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>perity2015</id>
+      <name>YuChao</name>
+      <email>yuchao2012@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Perity2015/Model.git</connection>
+    <developerConnection>https://github.com/Perity2015/Model.git</developerConnection>
+    <url>https://github.com/Perity2015/Model</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lzy.net</groupId>
+      <artifactId>okhttputils</artifactId>
+      <version>1.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

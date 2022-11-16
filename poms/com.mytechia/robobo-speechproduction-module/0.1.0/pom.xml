@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mytechia</groupId>
+  <artifactId>robobo-speechproduction-module</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Robobo-SpeechProduction-Module</name>
+  <description>Robobo Speech Production Module</description>
+  <url>https://bitbucket.org/mytechia/robobo-misc-modules</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gervarela</id>
+      <name>Gervasio Varela FernÃ¡ndez</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@bitbucket.org:mytechia/robobo-misc-modules.git</connection>
+    <developerConnection>git@bitbucket.org:mytechia/robobo-misc-modules.git</developerConnection>
+    <url>https://bitbucket.org/mytechia/robobo-misc-modules.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mytechia</groupId>
+      <artifactId>robobo-framework</artifactId>
+      <version>0.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

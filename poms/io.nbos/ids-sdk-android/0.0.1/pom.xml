@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.nbos</groupId>
+  <artifactId>ids-sdk-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>IDS Android Bridge for NBOS.IO</name>
+  <description>IDS Android Bridge</description>
+  <url>https://github.com/nbostech/wavelabs-android-client-api</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vineeln</id>
+      <name>Vineel Nalla</name>
+      <email>vineeln@nbostech.com</email>
+    </developer>
+    <developer>
+      <id>vivekkiran</id>
+      <name>Vivek Kiran</name>
+      <email>vivek.kiran@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nbostech/wavelabs-android-client-api.git</connection>
+    <developerConnection>https://github.com/nbostech/wavelabs-android-client-api.git</developerConnection>
+    <url>https://github.com/nbostech/wavelabs-android-client-api</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.nbos</groupId>
+      <artifactId>ids-sdk-java</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

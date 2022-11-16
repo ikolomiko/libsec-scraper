@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nekocode.rxlifecycle</groupId>
+  <artifactId>rxlifecycle-compact</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>nekocode/rxlifecycle</name>
+  <description>Bind observables to the lifecycle of Activity or Fragment in a non-invasive way.</description>
+  <url>https://github.com/nekocode/rxlifecycle</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>nekocode</id>
+      <name>nekocode</name>
+      <email>nekocode.cn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/nekocode/rxlifecycle.git</connection>
+    <developerConnection>scm:git://github.com/nekocode/rxlifecycle.git</developerConnection>
+    <url>git://github.com/nekocode/rxlifecycle.git</url>
+  </scm>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.aiq</groupId>
+  <artifactId>aiq-image-match-ui</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>AIQ image match ui library</name>
+  <description>the AIQ's image match sdk (include user interface) for android.</description>
+  <url>https://github.com/aiq-tech/aiq-image-match-api</url>
+  <licenses>
+    <license>
+      <name>The AIQ Software License, Version 1.0</name>
+      <url>https://github.com/aiq-tech/aiq-fashion-api/blob/master/AIQ_License.doc</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>AIQ</name>
+      <email>admin@aiq.tech</email>
+      <organization>AIQ Pte. Ltd.</organization>
+      <organizationUrl>https://aiq.tech</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:aiq-tech/aiq-image-match-api.git</connection>
+    <developerConnection>scm:git:git@github.com:aiq-tech/aiq-image-match-api.git</developerConnection>
+    <url>git@github.com:aiq-tech/aiq-image-match-api.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>tech.aiq</groupId>
+      <artifactId>aiq-image-match-core</artifactId>
+      <version>0.9.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>percent</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.dm7.barcodescanner</groupId>
+      <artifactId>zbar</artifactId>
+      <version>1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.dm7.barcodescanner</groupId>
+      <artifactId>zxing</artifactId>
+      <version>1.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.makeramen</groupId>
+      <artifactId>roundedimageview</artifactId>
+      <version>2.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

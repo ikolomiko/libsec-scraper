@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Hitomis.transferee</groupId>
+  <artifactId>Transferee</artifactId>
+  <version>v0.5</version>
+  <packaging>aar</packaging>
+  <name>Hitomis/transferee</name>
+  <description>一个帮助您完成从缩略图到原图无缝过渡转变的神奇组件</description>
+  <url>https://github.com/Hitomis/transferee</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>Hitomis</id>
+      <name>Vans Z</name>
+      <email>196425254@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Hitomis/transferee.git</connection>
+    <developerConnection>scm:git://github.com/Hitomis/transferee.git</developerConnection>
+    <url>git://github.com/Hitomis/transferee.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.filippudak.progresspieview</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

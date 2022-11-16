@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yubico.yubikit</groupId>
+  <artifactId>otp</artifactId>
+  <version>1.0.0-alpha01</version>
+  <packaging>aar</packaging>
+  <name>YubiKit</name>
+  <description>This library provides a way to parse Yubikey OTP from NFC tag, UI dialog to show user that OTP reading requires his action and detecting OTP from device than connected over NFC or USB. And also provides method for validation of OTP on server.</description>
+  <url>https://github.com/YubicoLabs/yubikit-android</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>imakhalova</id>
+      <name>Irina Makhalova</name>
+      <email>a.makhalova@yubico.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/YubicoLabs/yubikit-android.git</connection>
+    <developerConnection>https://github.com/YubicoLabs/yubikit-android.git</developerConnection>
+    <url>https://github.com/YubicoLabs/yubikit-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.yubico.yubikit</groupId>
+      <artifactId>yubikit</artifactId>
+      <version>1.0.0-alpha01</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

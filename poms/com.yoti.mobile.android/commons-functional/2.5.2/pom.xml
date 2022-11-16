@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yoti.mobile.android</groupId>
+  <artifactId>commons-functional</artifactId>
+  <version>2.5.2</version>
+  <packaging>aar</packaging>
+  <name>Yoti common utility methods</name>
+  <description>Yoti common utility methods</description>
+  <url>https://github.com/getyoti</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://www.yoti.com/wp-content/uploads/2019/08/Yoti-Doc-Scan-SDK-Terms.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yoti-ci</id>
+      <name>Yoti</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:lampkicking/yoti-common-android.git</connection>
+    <url>https://github.com/lampkicking/yoti-common-android</url>
+  </scm>
+  <dependencies/>
+</project>

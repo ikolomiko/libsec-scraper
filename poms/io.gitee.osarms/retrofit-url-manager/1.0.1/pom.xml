@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.gitee.osarms</groupId>
+  <artifactId>retrofit-url-manager</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>retrofit-url-manager</name>
+  <description>Let Retrofit support multiple baseUrl and can be change the baseUrl at runtime.</description>
+  <url>https://gitee.com/com_project/RetrofitUrlManager</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hanyang</id>
+      <name>hanyang</name>
+      <email>598588152@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitee.com/com_project/RetrofitUrlManager</connection>
+    <developerConnection>scm:git:https://gitee.com/com_project/RetrofitUrlManager</developerConnection>
+    <url>https://gitee.com/com_project/RetrofitUrlManager</url>
+  </scm>
+  <dependencies/>
+</project>

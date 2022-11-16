@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.omottec</groupId>
+  <artifactId>android-log</artifactId>
+  <version>0.0.09</version>
+  <packaging>aar</packaging>
+  <name>AndroidLog</name>
+  <description>A lib for android log</description>
+  <url>https://github.com/omottec/AndroidLog</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omottec</id>
+      <name>Daniel Bond</name>
+      <email>omottec@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/omottec/AndroidLog.git</connection>
+    <developerConnection>https://github.com/omottec/AndroidLog.git</developerConnection>
+    <url>https://github.com/omottec/AndroidLog</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.my.tracker</groupId>
+  <artifactId>mytracker-sdk</artifactId>
+  <version>3.0.7</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-appset</artifactId>
+      <version>16.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>18.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>myTracker SDK</name>
+  <description>Android SDK of myTracker Analytics</description>
+  <url>https://tracker.my.com</url>
+  <scm>
+    <url>https://github.com/myTrackerSDK/mytracker-android</url>
+    <connection>https://tracker.my.com</connection>
+    <developerConnection>https://tracker.my.com</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>GNU LGPL 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>myTracker</name>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>info.piwai.frenchtoast</groupId>
+  <artifactId>frenchtoast</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>French Toast</name>
+  <description>French Toast</description>
+  <url>http://github.com/pyricau/frenchtoast/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pyricau</id>
+      <name>Pierre-Yves Ricau</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/pyricau/frenchtoast.git</connection>
+    <developerConnection>scm:git:git@github.com:pyricau/frenchtoast.git</developerConnection>
+    <url>http://github.com/pyricau/frenchtoast/</url>
+  </scm>
+</project>

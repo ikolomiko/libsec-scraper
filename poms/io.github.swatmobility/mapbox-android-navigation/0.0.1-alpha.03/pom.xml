@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.swatmobility</groupId>
+  <artifactId>mapbox-android-navigation</artifactId>
+  <version>0.0.1-alpha.03</version>
+  <packaging>aar</packaging>
+  <name>mapbox-android-navigation</name>
+  <description>Custom mapbox android navigation ui to prevent system font scale</description>
+  <url>https://github.com/swatmobility/mapbox-navigation-android</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>https://github.com/swatmobility/mapbox-navigation-android/blob/main/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swatmobility</id>
+      <name>Swat Mobility</name>
+      <email>hoangchung@swatmobility.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/swatmobility/mapbox-navigation-android.git</connection>
+    <developerConnection>https://github.com/swatmobility/mapbox-navigation-android.git</developerConnection>
+    <url>https://github.com/swatmobility/mapbox-navigation-android/tree/feature/fixed_font_scale_to_prevent_system_scale</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-sdk-services</artifactId>
+      <version>4.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-sdk-turf</artifactId>
+      <version>4.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-core</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.swatmobility</groupId>
+      <artifactId>mapbox-android-telemetry</artifactId>
+      <version>6.1.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>mapbox-android-core</artifactId>
+          <groupId>com.mapbox.mapboxsdk</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.navigator</groupId>
+      <artifactId>mapbox-navigation-native</artifactId>
+      <version>7.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

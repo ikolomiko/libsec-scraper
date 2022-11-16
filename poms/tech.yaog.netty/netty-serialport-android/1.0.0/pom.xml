@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.yaog.netty</groupId>
+  <artifactId>netty-serialport-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>netty-serialport-android</name>
+  <description>Netty SerialPort Transport Library for Android</description>
+  <url>https://github.com/mutoukenji/NettySerialPort4Android</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://raw.githubusercontent.com/mutoukenji/NettySerialPort4Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mutoukenji</id>
+      <name>MutouKenji</name>
+      <email>mutoukenji@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mutoukenji/NettySerialPort4Android.git</connection>
+    <developerConnection>https://github.com/mutoukenji/NettySerialPort4Android.git</developerConnection>
+    <url>https://github.com/mutoukenji/NettySerialPort4Android</url>
+  </scm>
+</project>

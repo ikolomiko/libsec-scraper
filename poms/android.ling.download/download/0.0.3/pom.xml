@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>android.ling.download</groupId>
+  <artifactId>download</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>download</name>
+  <url>https://github.com/leftcoding/LiDownload</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>left</id>
+      <name>lingyan</name>
+      <email>137387869@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/leftcoding/LiDownload</connection>
+    <developerConnection>https://github.com/leftcoding/LiDownload</developerConnection>
+    <url>https://github.com/leftcoding/LiDownload</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.liulishuo.okdownload</groupId>
+      <artifactId>okdownload</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.liulishuo.okdownload</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

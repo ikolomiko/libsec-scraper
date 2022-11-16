@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.burhanrashid52</groupId>
+  <artifactId>photoeditor</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+
+  <organization>
+    <name>Burhanuddin Rashid</name>
+    <url>http://burhanrashid52.com</url>
+  </organization>
+  
+
+  <name>PhotoEditor</name>
+  <description>A Photo Editor library to edit image using paints,text,emoji and images</description>
+  <url>https://github.com/burhanrashid52/PhotoEditor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>burhanrashid52</id>
+      <name>Burhanuddin Rashid</name>
+      <email>burhanrashid52
+gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/burhanrashid52/PhotoEditor/issues</connection>
+    <developerConnection>https://github.com/burhanrashid52/PhotoEditor/issues</developerConnection>
+    <url>https://github.com/burhanrashid52/PhotoEditor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

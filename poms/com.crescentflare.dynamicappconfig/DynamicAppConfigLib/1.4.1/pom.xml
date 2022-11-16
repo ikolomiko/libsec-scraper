@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.crescentflare.dynamicappconfig</groupId>
+  <artifactId>DynamicAppConfigLib</artifactId>
+  <version>1.4.1</version>
+  <packaging>aar</packaging>
+  <name>DynamicAppConfigLib</name>
+  <description>A useful library to support multiple build configurations in one application build</description>
+  <url>https://github.com/crescentflare/DynamicAppConfig</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>crescentflare</id>
+      <name>Johan Bos</name>
+      <email>info@crescentflare.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/crescentflare/DynamicAppConfig.git</connection>
+    <developerConnection>scm:git:ssh://github.com/crescentflare/DynamicAppConfig.git</developerConnection>
+    <url>https://github.com/crescentflare/DynamicAppConfig/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.snada</groupId>
+  <artifactId>bitmapfontloader</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>BitmapFontLoader</name>
+  <description>Classes to load AngelCode Bitmap Fonts in Android ready to render in OpenGL apps</description>
+  <url>https://github.com/snada/BitmapFontLoader</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snada</id>
+      <name>Stefano Nada</name>
+      <email>stefano.nada@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/snada/BitmapFontLoader.git</connection>
+    <developerConnection>https://github.com/snada/BitmapFontLoader.git</developerConnection>
+    <url>https://github.com/snada/BitmapFontLoader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

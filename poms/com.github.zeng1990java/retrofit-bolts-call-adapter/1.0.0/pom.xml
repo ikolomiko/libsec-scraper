@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zeng1990java</groupId>
+  <artifactId>retrofit-bolts-call-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>zeng1990java/retrofit-bolts-call-adapter</name>
+  <description>Retrofit2 bolts Call Adapter</description>
+  <url>https://github.com/zeng1990java/retrofit-bolts-call-adapter</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>zeng1990java</id>
+      <name>曾祥彬</name>
+      <email>zeng1990java@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/zeng1990java/retrofit-bolts-call-adapter.git</connection>
+    <developerConnection>scm:git://github.com/zeng1990java/retrofit-bolts-call-adapter.git</developerConnection>
+    <url>git://github.com/zeng1990java/retrofit-bolts-call-adapter.git</url>
+  </scm>
+</project>

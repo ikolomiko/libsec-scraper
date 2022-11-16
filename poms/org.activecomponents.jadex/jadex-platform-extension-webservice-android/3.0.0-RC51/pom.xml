@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.activecomponents.jadex</groupId>
+  <artifactId>jadex-platform-extension-webservice-android</artifactId>
+  <version>3.0.0-RC51</version>
+  <packaging>aar</packaging>
+  <name>jadex-platform-extension-webservice-android</name>
+  <description>The Jadex android webservice platform extension package contains functionality for using (but not providing) REST web services.</description>
+  <url>https://www.activecomponents.org</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE Version 3 or later</name>
+      <url>http://www.activecomponents.org/bin/view/Download/License</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>alex</id>
+      <name>Alexander Pokahr</name>
+      <email>pokahr@gmx.net</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>lars</id>
+      <name>Lars Braubach</name>
+      <email>braubach@gmx.net</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>kai</id>
+      <name>Kai Jander</name>
+      <email>kai.jander@googlemail.com</email>
+      <organization>Actoron GmbH</organization>
+      <organizationUrl>https://actoron.com/</organizationUrl>
+    </developer>
+    <developer>
+      <id>julian</id>
+      <name>Julian Kalinowski</name>
+      <email>kalinowski@informatik.uni-hamburg.de</email>
+      <organization>University of Hamburg</organization>
+      <organizationUrl>http://vsis-www.informatik.uni-hamburg.de/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>http://jadex.svn.sourceforge.net/viewvc/jadex/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.android</groupId>
+      <artifactId>spring-android-core</artifactId>
+      <version>1.0.0.RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.android</groupId>
+      <artifactId>spring-android-rest-template</artifactId>
+      <version>1.0.0.RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.activecomponents.jadex</groupId>
+      <artifactId>jadex-platform-extension-webservice</artifactId>
+      <version>3.0.0-RC51</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

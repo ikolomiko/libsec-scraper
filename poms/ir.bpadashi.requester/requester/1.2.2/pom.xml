@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ir.bpadashi.requester</groupId>
+  <artifactId>requester</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>Requester</name>
+  <description>Client for Android for SOAP WebApi webservices with json mapper</description>
+  <url>https://github.com/HttpRequester/Requester.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>babakpadashi</id>
+      <name>Babak Padashi</name>
+      <email>babak.bk.padashi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HttpRequester/Requester.git</connection>
+    <developerConnection>https://github.com/HttpRequester/Requester.git</developerConnection>
+    <url>https://github.com/HttpRequester/Requester.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0-beta1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.ksoap2-android</groupId>
+      <artifactId>ksoap2-android</artifactId>
+      <version>3.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.simpleframework</groupId>
+      <artifactId>simple-xml</artifactId>
+      <version>2.7.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>stax-api</artifactId>
+          <groupId>stax</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xpp3</artifactId>
+          <groupId>xpp3</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

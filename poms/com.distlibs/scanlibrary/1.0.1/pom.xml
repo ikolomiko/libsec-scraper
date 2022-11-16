@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.distlibs</groupId>
+  <artifactId>scanlibrary</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>scanlibrary</name>
+  <description>ScanLibrary is an android document scanning library built on top of OpenCV.</description>
+  <url>https://github.com/distlibs/ScanLibrary</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>distlibs</id>
+      <name>Distlibs</name>
+      <email>distlibs@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/distlibs/ScanLibrary.git</connection>
+    <developerConnection>https://github.com/distlibs/ScanLibrary.git</developerConnection>
+    <url>https://github.com/distlibs/ScanLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.opencv</groupId>
+      <artifactId>opencv-android</artifactId>
+      <version>2.4.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.davemorrissey.labs</groupId>
+      <artifactId>subsampling-scale-image-view</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

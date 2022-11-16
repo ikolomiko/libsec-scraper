@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kyanogen.signatureview</groupId>
+  <artifactId>signature-view</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>signature-view</name>
+  <description>An Android library for creating pen like signatures on custom view</description>
+  <url>https://github.com/zahid-ali-shah/SignatureView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zahid</id>
+      <name>Syed Zahid</name>
+      <email>syed.zahid.ali.sha@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zahid-ali-shah/SignatureView.git</connection>
+    <developerConnection>https://github.com/zahid-ali-shah/SignatureView.git</developerConnection>
+    <url>https://github.com/zahid-ali-shah/SignatureView</url>
+  </scm>
+</project>

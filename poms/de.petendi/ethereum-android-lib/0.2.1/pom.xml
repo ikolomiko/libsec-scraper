@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.petendi</groupId>
+  <artifactId>ethereum-android-lib</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>Ethereum Android Lib</name>
+  <description>your mobile portal to Ethereum</description>
+  <url>https://github.com/p-acs/ethereum-android-lib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jpetendi</id>
+      <name>Jan Petendi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:p-acs/ethereum-android-lib</connection>
+    <developerConnection>scm:git@github.com:p-acs/ethereum-android-lib</developerConnection>
+    <url>https://github.com/p-acs/ethereum-android-lib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.7.1-1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

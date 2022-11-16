@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.payumoney.core</groupId>
+  <artifactId>payumoney-sdk</artifactId>
+  <version>7.5.0_iabeta2</version>
+  <packaging>aar</packaging>
+<dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.payu.custombrowser</groupId>
+      <artifactId>payu-custom-browser</artifactId>
+      <version>7.3.0</version>
+      <scope>compile</scope>
+       <exclusions>
+        <exclusion>  <!-- declare the exclusion here -->
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions> 
+    </dependency>
+    <dependency>
+      <groupId>com.payu.magicretry</groupId>
+      <artifactId>magicretry</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

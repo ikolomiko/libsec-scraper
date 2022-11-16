@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kingdeejdypos.virtualapk</groupId>
+  <artifactId>core</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>A powerful but lightweight plugin framework for Android</name>
+  <url>https://github.com/faDebug/VirtualAPK</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jiafa_wei</id>
+      <name>kingdee</name>
+      <email>fadebug@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/faDebug/VirtualAPK</connection>
+    <developerConnection>https://github.com/faDebug/VirtualAPK</developerConnection>
+    <url>https://github.com/faDebug/VirtualAPK</url>
+  </scm>
+</project>

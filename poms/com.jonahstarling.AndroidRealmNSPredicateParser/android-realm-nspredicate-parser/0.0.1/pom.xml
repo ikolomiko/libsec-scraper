@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jonahstarling.AndroidRealmNSPredicateParser</groupId>
+  <artifactId>android-realm-nspredicate-parser</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidRealmNSPredicateParser</name>
+  <description>A NSPredicate Parser for Android Realm that returns a RealmQuery.</description>
+  <url>https://github.com/JonahStarling/AndroidRealmNSPredicateParser</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/JonahStarling/AndroidRealmNSPredicateParser/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jonahstarling</id>
+      <name>Jonah Starling</name>
+      <email>starling.jonah@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JonahStarling/AndroidRealmNSPredicateParser.git</connection>
+    <developerConnection>https://github.com/JonahStarling/AndroidRealmNSPredicateParser.git</developerConnection>
+    <url>https://github.com/JonahStarling/AndroidRealmNSPredicateParser</url>
+  </scm>
+</project>

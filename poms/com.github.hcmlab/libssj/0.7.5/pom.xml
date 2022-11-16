@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.hcmlab</groupId>
+  <artifactId>libssj</artifactId>
+  <version>0.7.5</version>
+  <packaging>aar</packaging>
+  <name>ssj</name>
+  <description>Social Signal Processing for Android</description>
+  <url>https://github.com/hcmlab/ssj</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, Version 3</name>
+      <url>http://www.gnu.org/licenses/gpl.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hcmlab</id>
+      <name>Human Centered Multimedia</name>
+      <email>ssj@hcm-lab.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hcmlab/ssj.git</connection>
+    <developerConnection>https://github.com/hcmlab/ssj.git</developerConnection>
+    <url>https://github.com/hcmlab/ssj</url>
+  </scm>
+</project>

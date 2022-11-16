@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>bzip2</artifactId>
+    <version>1.0.8</version>
+    <packaging>aar</packaging>
+
+    <name>bzip2</name>
+    <description>Burrows–Wheeler-based data compression library and utilities with high compression ratio</description>
+    <url>https://sourceware.org/bzip2</url>
+
+    <scm>
+        <connection>scm:git:https://sourceware.org/git/bzip2.git</connection>
+        <developerConnection>scm:git:https://sourceware.org/git/bzip2.git</developerConnection>
+        <url>https://sourceware.org/git/bzip2.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Julian Seward</name>
+            <email>jseward@acm.org</email>
+            <organization>bzip2</organization>
+            <organizationUrl>https://sourceware.org/bzip2</organizationUrl>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>bzip2 License</name>
+            <url>https://sourceware.org/git/?p=bzip2.git;a=blob_plain;f=LICENSE;h=81a37eab7a5be1a34456f38adb74928cc9073e9b;hb=HEAD</url>
+        </license>
+    </licenses>
+</project>

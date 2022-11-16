@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.acmerobotics.dashboard</groupId>
+  <artifactId>dashboard</artifactId>
+  <version>0.3.10</version>
+  <packaging>aar</packaging>
+  <description>React-based web dashboard designed for FTC</description>
+  <name>FTC Dashboard</name>
+  <url>https://github.com/acmerobotics/ftc-dashboard</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rbrott</id>
+      <name>Ryan Brott</name>
+      <email>rcbrott@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/acmerobotics/ftc-dashboard</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd-websocket</artifactId>
+      <version>2.3.1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.nanohttpd</groupId>
+          <artifactId>nanohttpd</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.firstinspires.ftc</groupId>
+      <artifactId>RobotCore</artifactId>
+      <version>5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.firstinspires.ftc</groupId>
+      <artifactId>Hardware</artifactId>
+      <version>5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.firstinspires.ftc</groupId>
+      <artifactId>RobotServer</artifactId>
+      <version>5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.firstinspires.ftc</groupId>
+      <artifactId>FtcCommon</artifactId>
+      <version>5.5</version>
+    </dependency>
+  </dependencies>
+</project>

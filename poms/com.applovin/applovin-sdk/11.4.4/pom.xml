@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.applovin</groupId>
+  <artifactId>applovin-sdk</artifactId>
+  <version>11.4.4</version>
+  <packaging>aar</packaging>
+  <name>applovin-sdk</name>
+  <description>AppLovin Android SDK</description>
+  <url>https://www.applovin.com/</url>
+  <licenses>
+    <license>
+      <name>AppLovin Corporation SDK EULA</name>
+      <url>https://www.applovin.com/eula</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:github.com/AppLovin/AppLovin-MAX-SDK-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/AppLovin/AppLovin-MAX-SDK-Android.git</developerConnection>
+    <url>https://github.com/AppLovin/AppLovin-MAX-SDK-Android</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>AppLovin</name>
+      <url>https://www.applovin.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer</artifactId>
+      <version>2.15.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

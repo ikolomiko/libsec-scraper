@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.kanejin.view</groupId>
+  <artifactId>category-pager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Category Pager</name>
+  <description>Android CategoryPager</description>
+  <url>https://github.com/KaneJinCN/android-CategoryPager</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>KaneJinCN</id>
+      <name>Kane Jin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:KaneJinCN/android-CategoryPager.git</connection>
+    <developerConnection>scm:git@github.com:KaneJinCN/android-CategoryPager.git</developerConnection>
+    <url>https://github.com/KaneJinCN/android-CategoryPager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>cn.kanejin.commons</groupId>
+      <artifactId>commons-util</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

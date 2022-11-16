@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hbb20</groupId>
+  <artifactId>gthumb</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>GThumb</name>
+  <description>Have you seen google's contacts app in which they show contact's circular thumb image at the left. Also shows initials of the contact if contact's picture is not set yet. This GThumb (G-Thumb) library let you replicate the same in your own app. Actually, GThumb can work with any entity like user, organization...anything..Now, your entity list screen won't look dry without images, anymore. You can put entity initials along with interesting colors at the background.</description>
+  <url>https://github.com/InformationWorks/GThumbnailProject</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hbb20</id>
+      <name>Harsh Bhakta</name>
+      <email>harshbbhakta@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/InformationWorks/GThumbnailProject.git</connection>
+    <developerConnection>https://github.com/InformationWorks/GThumbnailProject.git</developerConnection>
+    <url>https://github.com/InformationWorks/GThumbnailProject</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

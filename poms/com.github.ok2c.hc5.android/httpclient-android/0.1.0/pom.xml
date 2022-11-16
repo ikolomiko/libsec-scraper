@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ok2c.hc5.android</groupId>
+  <artifactId>httpclient-android</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Apache HttpClient extensions for Android</name>
+  <description>Apache HttpClient extensions for Android</description>
+  <url>https://github.com/ok2c/httpclient-android-ext</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ok2c</id>
+      <name>Oleg Kalnichevski</name>
+      <email>olegk@apache.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:ok2c/httpclient-android-ext.git</connection>
+    <developerConnection>scm:git:ssh://github.com:ok2c/httpclient-android-ext.git</developerConnection>
+    <url>https://github.com/ok2c/httpclient-android-ext</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.httpcomponents.client5</groupId>
+      <artifactId>httpclient5</artifactId>
+      <version>5.0-beta4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

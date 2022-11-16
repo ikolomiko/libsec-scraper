@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.funnydevs</groupId>
+  <artifactId>hilt-conductor</artifactId>
+  <version>0.4.3</version>
+  <packaging>aar</packaging>
+  <name>Hilt Conductor</name>
+  <description>Hilt-Conductor plugin</description>
+  <url>https://github.com/FunnyDevs/hilt-conductor</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://github.com/FunnyDevs/hilt-conductor/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>FunnyDevs</id>
+      <name>Pierfrancesco Gulinelli</name>
+      <email>pgulinelli@fastmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/FunnyDevs/hilt-conductor.git</connection>
+    <developerConnection>https://github.com/FunnyDevs/hilt-conductor.git</developerConnection>
+    <url>https://github.com/FunnyDevs/hilt-conductor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.funnydevs</groupId>
+      <artifactId>hilt-conductor-annotations</artifactId>
+      <version>0.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>hilt-android</artifactId>
+      <version>2.35</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

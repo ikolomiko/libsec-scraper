@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dede.mypermission</groupId>
+  <artifactId>mypermission</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Runtime Permission Request for Android M and Kotlin</name>
+  <url>http://git.oschina.net/dede_hu/MyPermisssion</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dede</id>
+      <name>hushenghao</name>
+      <email>dede863116814@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.oschina.net/dede_hu/MyPermisssion.git</connection>
+    <developerConnection>https://git.oschina.net/dede_hu/MyPermisssion.git</developerConnection>
+    <url>http://git.oschina.net/dede_hu/MyPermisssion</url>
+  </scm>
+</project>

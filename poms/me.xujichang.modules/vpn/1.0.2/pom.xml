@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.xujichang.modules</groupId>
+  <artifactId>vpn</artifactId>
+  <version>1.0.2</version>
+  <packaging>pom</packaging>
+  <description>test</description>
+  <name>test</name>
+  <url>https://gitee.com/Sir_XU/Modules</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>me.xujichang.modules</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0.4</version>
+    </dependency>
+  </dependencies>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jcenter</id>
+      <name>xujichang</name>
+      <email>xujichang@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/Sir_XU/Modules</connection>
+    <developerConnection>https://gitee.com/Sir_XU/Modules</developerConnection>
+    <url>https://gitee.com/Sir_XU/Modules</url>
+  </scm>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.goldfish.zamad</groupId>
+  <artifactId>ZamAds</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ZamAds</name>
+  <description>tiny library to control show ad actions</description>
+  <url>https://github.com/goldfish07/ZamAd</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>goldfish07</id>
+      <name>Ayush Bisht</name>
+      <email>ayushbisht5663@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/goldfish07/ZamAd.git</connection>
+    <developerConnection>https://github.com/goldfish07/ZamAd.git</developerConnection>
+    <url>https://github.com/goldfish07/ZamAd</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>18.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

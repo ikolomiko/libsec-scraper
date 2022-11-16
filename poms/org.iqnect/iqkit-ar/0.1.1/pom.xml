@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.iqnect</groupId>
+  <artifactId>iqkit-ar</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar.asc</packaging>
+  <name>iQKIT</name>
+  <description>The iQKit Android SDK gives you access to the powerful iQNECT Vision Search platform to integrate into your Android app.</description>
+  <url>https://github.com/IQNECT-ORG/iqkit-android</url>
+  <licenses>
+    <license>
+      <name>The iQKIT Software License, Version 1.0</name>
+      <url>https://github.com/IQNECT-ORG/iqkit-android/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Jimmy Moore</name>
+      <email>jimmy@iqnect.org</email>
+      <organization>org.apache.maven.model.Organization@7657d90b</organization>
+      <organizationUrl>http://www.iqnect.org</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:IQNECT-ORG/iqkit-android.git</connection>
+    <developerConnection>scm:git:git@github.com:IQNECT-ORG/iqkit-android.git</developerConnection>
+    <url>git@github.com:IQNECT-ORG/iqkit-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.iqnect</groupId>
+      <artifactId>iqkit-ui</artifactId>
+      <version>0.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>iqkit-android</groupId>
+      <artifactId>metaio</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

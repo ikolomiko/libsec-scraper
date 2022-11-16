@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.YvesCheung.RxSchedulerSuppress</groupId>
+  <artifactId>scheduler-suppress-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>YvesCheung/RxSchedulerSuppress</name>
+  <url>https://github.com/YvesCheung/RxSchedulerSuppress</url>
+  <inceptionYear>2020</inceptionYear>
+  <developers>
+    <developer>
+      <id>YvesCheung</id>
+      <name>张宇</name>
+      <email>975135274@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/YvesCheung/RxSchedulerSuppress.git</connection>
+    <developerConnection>scm:git://github.com/YvesCheung/RxSchedulerSuppress.git</developerConnection>
+    <url>git://github.com/YvesCheung/RxSchedulerSuppress.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.YvesCheung.RxSchedulerSuppress</groupId>
+      <artifactId>scheduler-suppress</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

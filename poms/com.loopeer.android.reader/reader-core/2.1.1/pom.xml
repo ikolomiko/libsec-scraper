@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.loopeer.android.reader</groupId>
+  <artifactId>reader-core</artifactId>
+  <version>2.1.1</version>
+  <packaging>aar</packaging>
+  <name>LReader4Android</name>
+  <description>Loopeer Reader</description>
+  <url>https://bitbucket.org/loopeer/lreader4android</url>
+  <licenses>
+    <license>
+      <name>THE BEER-WARE LICENSE, Revision 42</name>
+      <url>https://en.wikipedia.org/wiki/Beerware</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yangyugang</id>
+      <name>yangyugang</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://bitbucket.org/loopeer/lreader4android</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/loopeer/lreader4android</developerConnection>
+    <url>https://bitbucket.org/loopeer/lreader4android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

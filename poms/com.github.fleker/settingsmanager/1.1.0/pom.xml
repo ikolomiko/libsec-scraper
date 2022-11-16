@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.fleker</groupId>
+  <artifactId>settingsmanager</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>SettingsManager</name>
+  <description>A library that interfaces with SharedPreferences and makes it easy to store data across devices including Android Wear syncing</description>
+  <url>https://github.com/fleker/SettingsManager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fleker</id>
+      <name>Nick Felker</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:[email protected]:fleker/settingsmanager.git</connection>
+    <developerConnection>scm:[email protected]:fleker/settingsmanager.git</developerConnection>
+    <url>https://github.com/fleker/SettingsManager</url>
+  </scm>
+</project>

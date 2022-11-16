@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jarrodholliday</groupId>
+  <artifactId>circleimageview</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>CircleImageView is a component which can display circular image</name>
+  <url>https://github.com/jarrodholliday/CircleImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>IndigoSAN</id>
+      <name>Aliaksandr Zhukovich</name>
+      <email>zhukovich.a@gmail.com</email>
+    </developer>
+    <developer>
+      <id>jarrodholliday</id>
+      <name>Jarrod Holliday</name>
+      <email>jarrodholliday@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jarrodholliday/CircleImageView.git</connection>
+    <developerConnection>https://github.com/jarrodholliday/CircleImageView.git</developerConnection>
+    <url>https://github.com/jarrodholliday/CircleImageView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

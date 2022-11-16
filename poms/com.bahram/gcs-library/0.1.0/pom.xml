@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bahram</groupId>
+  <artifactId>gcs-library</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>GoogleCloudStorage</name>
+  <description>A library for simple communication with Google Cloud Storage for Android.</description>
+  <url>https://github.com/Mithrandir21/GoogleCloudStorage</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3</name>
+      <url>http://opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mithrandir21</id>
+      <name>Bahram Malaekeh</name>
+      <email>bahram.malaekeh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Mithrandir21/GoogleCloudStorage.git</connection>
+    <developerConnection>https://github.com/Mithrandir21/GoogleCloudStorage.git</developerConnection>
+    <url>https://github.com/Mithrandir21/GoogleCloudStorage</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.api-client</groupId>
+      <artifactId>google-api-client-jackson2</artifactId>
+      <version>1.19.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-storage</artifactId>
+      <version>v1-rev28-1.19.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.api-client</groupId>
+      <artifactId>google-api-client</artifactId>
+      <version>1.19.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ndesh</groupId>
+  <artifactId>apptimer</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>to get time individual app by the user</name>
+  <url>https://github.com/ndesh26/AppTimer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ndesh26</id>
+      <name>Nayan Deshmukh </name>
+      <email>nayan26deshmukh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ndesh26/AppTimer.git</connection>
+    <developerConnection>https://github.com/ndesh26/AppTimer.git</developerConnection>
+    <url>https://github.com/ndesh26/AppTimer</url>
+  </scm>
+</project>

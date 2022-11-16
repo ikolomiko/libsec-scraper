@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mrvilkaman</groupId>
+  <artifactId>zlog</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>ZLog</name>
+  <description>Android logger with recording to file</description>
+  <url>https://github.com/MrVilkaman/ZLog</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mrvilkaman</id>
+      <name>Zahar Zolotarev</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MrVilkaman/ZLog.git</connection>
+    <developerConnection>https://github.com/MrVilkaman/ZLog.git</developerConnection>
+    <url>https://github.com/MrVilkaman/ZLog</url>
+  </scm>
+</project>

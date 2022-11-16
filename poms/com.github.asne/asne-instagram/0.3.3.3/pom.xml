@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.asne</groupId>
+  <artifactId>asne-instagram</artifactId>
+  <version>0.3.3.3</version>
+  <packaging>aar</packaging>
+  <name>ASNE Instagram</name>
+  <description>Android Library connecting social networks to your project easily, just add necessary</description>
+  <url>https://github.com/gorbin/ASNE</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gorbin</id>
+      <name>Evgeny Gorbin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:gorbin/ASNE.git</connection>
+    <developerConnection>scm:git@github.com:gorbin/ASNE.git</developerConnection>
+    <url>https://github.com/gorbin/ASNE</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.asne</groupId>
+      <artifactId>asne-core</artifactId>
+      <version>0.3.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

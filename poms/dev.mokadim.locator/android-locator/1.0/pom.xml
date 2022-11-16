@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.mokadim.locator</groupId>
+  <artifactId>android-locator</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Android Locator</name>
+  <description>Locator is an Android library that simplifies the process of requesting current location and location updates at runtime.</description>
+  <url>https://github.com/elmokadim/Android-Locator</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License version 3</name>
+      <url>https://opensource.org/licenses/GPL-3.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>elmokadim</id>
+      <name>Ahmed Elmokadim</name>
+      <email>elmokadim@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/elmokadim/Android-Locator.git</connection>
+    <developerConnection>https://github.com/elmokadim/Android-Locator.git</developerConnection>
+    <url>https://github.com/elmokadim/Android-Locator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0-beta01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-livedata-ktx</artifactId>
+      <version>2.3.0-rc01</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>17.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

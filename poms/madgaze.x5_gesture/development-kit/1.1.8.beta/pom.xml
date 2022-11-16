@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>madgaze.x5_gesture</groupId>
+  <artifactId>development-kit</artifactId>
+  <version>1.1.8.beta</version>
+  <packaging>aar</packaging>
+  <name>development-kit</name>
+  <description></description>
+  <url>http://madgaze.com/android-sdk/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madgazesdk</id>
+      <name>MAD Gaze</name>
+      <email>info@madgaze.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url>http://madgaze.com/android-sdk/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

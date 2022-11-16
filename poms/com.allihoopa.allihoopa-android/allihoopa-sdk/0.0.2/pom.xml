@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.allihoopa.allihoopa-android</groupId>
+  <artifactId>allihoopa-sdk</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>AllihoopaSDK</name>
+  <description>Android SDK to interface with allihoopa.com.</description>
+  <url>https://github.com/allihoopa/allihoopa-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>allihoopa</id>
+      <name>Tommi Heikkinen</name>
+      <email>tommi.heikkinen@allihoopa.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/allihoopa/allihoopa-android.git</connection>
+    <developerConnection>https://github.com/allihoopa/allihoopa-android.git</developerConnection>
+    <url>https://github.com/allihoopa/allihoopa-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

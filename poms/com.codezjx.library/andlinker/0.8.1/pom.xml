@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.codezjx.library</groupId>
+  <artifactId>andlinker</artifactId>
+  <version>0.8.1</version>
+  <packaging>aar</packaging>
+  <name>AndLinker</name>
+  <description>AndLinker is a IPC library for Android, which combines the features of AIDL and Retrofit. Allows IPC call seamlessly compose with rxjava and rxjava2 call adapters.</description>
+  <url>https://github.com/codezjx/AndLinker</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>codezjx</id>
+      <name>codezjx</name>
+      <email>code.zjx@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/codezjx/AndLinker.git</connection>
+    <developerConnection>https://github.com/codezjx/AndLinker.git</developerConnection>
+    <url>https://github.com/codezjx/AndLinker</url>
+  </scm>
+</project>

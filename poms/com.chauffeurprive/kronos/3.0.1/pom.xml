@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chauffeurprive</groupId>
+  <artifactId>kronos</artifactId>
+  <version>3.0.1</version>
+  <packaging>aar</packaging>
+  <name>Kronos</name>
+  <description>A embedded material date time picker</description>
+  <url>https://github.com/transcovo/Kronos</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>transcovo</id>
+      <name>Chauffeur-Privé</name>
+      <email>tech-mobile@chauffeur-prive.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/transcovo/Kronos.git</connection>
+    <developerConnection>https://github.com/transcovo/Kronos.git</developerConnection>
+    <url>https://github.com/transcovo/Kronos</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

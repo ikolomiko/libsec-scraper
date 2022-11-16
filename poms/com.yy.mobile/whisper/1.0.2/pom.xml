@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yy.mobile</groupId>
+  <artifactId>whisper</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>whisper</name>
+  <description>一套用于代码检阅的注解</description>
+  <url>https://github.com/YvesCheung/Whisper</url>
+  <developers>
+    <developer>
+      <id>YvesCheung</id>
+      <name>YvesCheung</name>
+      <email>975135274@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/YvesCheung/Whisper.git</connection>
+    <developerConnection>https://github.com/YvesCheung/Whisper.git</developerConnection>
+    <url>https://github.com/YvesCheung/Whisper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+  </dependencies>
+</project>

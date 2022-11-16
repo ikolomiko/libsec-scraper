@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.lollypop.android</groupId>
+  <artifactId>qiniu</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>Qiniu module of Lollypop SDK For Android</name>
+  <url>https://github.com/beyondbright/lollypop-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>beyondbright</id>
+      <name>beyondbright</name>
+      <email>beyondbright@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:beyondbright/lollypop-sdk.git</connection>
+    <developerConnection>git@github.com:beyondbright/lollypop-sdk.git</developerConnection>
+    <url>https://github.com/beyondbright/lollypop-sdk</url>
+  </scm>
+</project>

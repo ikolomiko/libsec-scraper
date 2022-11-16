@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simplify</groupId>
+  <artifactId>core-sdk-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Core Android SDK</name>
+  <description>The core Android SDK for Simplify Commerce</description>
+  <url>https://github.com/simplifycom</url>
+  
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Al Kent</name>
+      <email>nak5ive@gmail.com</email>
+      <organization>Simplify Commerce</organization>
+      <organizationUrl>http://www.simplify.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Stewart Boling</name>
+      <email>stewart_boling@mastercard.com</email>
+      <organization>Simplify Commerce</organization>
+      <organizationUrl>http://www.simplify.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Nitin Shambhu</name>
+      <email>nitin_shambhu@mastercard.com</email>
+      <organization>Simplify Commerce</organization>
+      <organizationUrl>http://www.simplify.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>https://github.com/simplifycom</connection>
+    <developerConnection>https://github.com/simplifycom</developerConnection>
+    <url>https://github.com/simplifycom</url>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.ksoap2-android</groupId>
+      <artifactId>ksoap2-android</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+</project>

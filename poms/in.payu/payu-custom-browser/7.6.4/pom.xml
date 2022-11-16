@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.payu</groupId>
+  <artifactId>payu-custom-browser</artifactId>
+  <version>7.6.4</version>
+  <packaging>aar</packaging>
+  <name>payu-custom-browser</name>
+  <description>Native bank page support for Android devices.</description>
+  <url>https://github.com/payu-intrepos/Android-Custom-Browser</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mobile_payu</id>
+      <name>PayU Mobile</name>
+      <email>payumoneyapp@payumoney.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/payu-intrepos/Android-Custom-Browser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>appcompat-v7</artifactId>
+      <groupId>com.android.support</groupId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>customtabs</artifactId>
+      <groupId>com.android.support</groupId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>support-compat</artifactId>
+      <groupId>com.android.support</groupId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>recyclerview-v7</artifactId>
+      <groupId>com.android.support</groupId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>payuanalytics</artifactId>
+      <groupId>com.payu.payuanalytics</groupId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>play-services-auth-api-phone</artifactId>
+      <groupId>com.google.android.gms</groupId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

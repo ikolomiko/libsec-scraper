@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sasank.roundedhorizontalprogress</groupId>
+  <artifactId>roundedhorizontalprogress</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>RoundedHorizontalProgressBar</name>
+  <description>An Android custom rounded Progress Bar that supports different Colors as progress</description>
+  <url>https://github.com/saisasanksunkavalli/RoundedHorizontalProgressBar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saisasanksunkavalli</id>
+      <name>Sasank Sunkavalli</name>
+      <email>sasanksunkavalli@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/saisasanksunkavalli/RoundedHorizontalProgressBar</connection>
+    <developerConnection>https://github.com/saisasanksunkavalli/RoundedHorizontalProgressBar</developerConnection>
+    <url>https://github.com/saisasanksunkavalli/RoundedHorizontalProgressBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

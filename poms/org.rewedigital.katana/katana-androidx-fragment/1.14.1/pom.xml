@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.rewedigital.katana</groupId>
+  <artifactId>katana-androidx-fragment</artifactId>
+  <version>1.14.1</version>
+  <packaging>aar</packaging>
+  <name>Katana</name>
+  <description>Lightweight, minimalistic dependency injection library for Android &amp; Kotlin</description>
+  <url>https://github.com/rewe-digital/katana</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>svenjacobs</id>
+      <name>Sven Jacobs</name>
+      <email>sven.jacobs@rewe-digital.com</email>
+      <organization>REWE Digital</organization>
+      <organizationUrl>https://rewe-digital.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/rewe-digital/katana.git</connection>
+    <developerConnection>scm:git:git://github.com/rewe-digital/katana.git</developerConnection>
+    <url>https://github.com/rewe-digital/katana</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.rewedigital.katana</groupId>
+      <artifactId>katana-core</artifactId>
+      <version>1.14.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.collection</groupId>
+      <artifactId>collection</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.fragment</groupId>
+      <artifactId>fragment</artifactId>
+      <version>1.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

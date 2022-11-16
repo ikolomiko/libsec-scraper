@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.cyq.android</groupId>
+  <artifactId>easyuilibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Similar to Butterknife libraries, simplifying Android UI development</name>
+  <url>https://github.com/DaLeiGe/EasyUI</url>
+  <licenses>
+    <license>
+      <name>Similar to Butterknife libraries, simplifying Android UI development</name>
+      <url>https://github.com/DaLeiGe/EasyUI.git</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cyq</id>
+      <name>chenyangqi</name>
+      <email>cyq18569640023@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DaLeiGe/EasyUI.git</connection>
+    <developerConnection>https://github.com/DaLeiGe/EasyUI.git</developerConnection>
+    <url>https://github.com/DaLeiGe/EasyUI</url>
+  </scm>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ai.olami</groupId>
+  <artifactId>olami-android-client</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>olami-android-client-sdk</name>
+  <url>https://olami.ai</url>
+  <description>API Android client library and sample codes</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olami</id>
+      <name>olami</name>
+      <email>olami.ai@viateach.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/olami-developers/olami-android-client-sdk</connection>
+    <developerConnection>https://github.com/olami-developers/olami-android-client-sdk</developerConnection>
+    <url>https://olami.ai</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ai.olami</groupId>
+      <artifactId>olami-java-client</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

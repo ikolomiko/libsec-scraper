@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tokelon.toktales</groupId>
+  <artifactId>tokTales-tools-android</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>tokTales Engine</name>
+  <description>Part of tokTales Engine, a neat game engine.</description>
+  <url>https://github.com/Tokelon/tokTales</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tokelon</id>
+      <name>Elias Paralikes</name>
+      <email>tokelontales@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Tokelon/tokTales.git</connection>
+    <developerConnection>scm:git:https://github.com/Tokelon/tokTales.git</developerConnection>
+    <url>https://github.com/Tokelon/tokTales</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/Tokelon/tokTales/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-tools-core</artifactId>
+      <version>0.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

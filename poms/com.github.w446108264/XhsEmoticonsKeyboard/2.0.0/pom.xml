@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.w446108264</groupId>
+  <artifactId>XhsEmoticonsKeyboard</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>w446108264/XhsEmoticonsKeyboard</name>
+  <description>android emoticonsKeyboard support emoji and user-defined emoticon. easy to integrated into your project </description>
+  <url>https://github.com/w446108264/XhsEmoticonsKeyboard</url>
+  <inceptionYear>2015</inceptionYear>
+  <developers>
+    <developer>
+      <id>w446108264</id>
+      <name>zhongdaxia</name>
+      <email>shengjun8486@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/w446108264/XhsEmoticonsKeyboard.git</connection>
+    <developerConnection>scm:git://github.com/w446108264/XhsEmoticonsKeyboard.git</developerConnection>
+    <url>git://github.com/w446108264/XhsEmoticonsKeyboard.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

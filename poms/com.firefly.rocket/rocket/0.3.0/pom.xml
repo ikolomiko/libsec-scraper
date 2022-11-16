@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.firefly.rocket</groupId>
+  <artifactId>rocket</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>android file log library depend on spdlog(c++)</name>
+  <url>https://github.com/Firefly822/rocket</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>firefly</id>
+      <name>wangyapeng</name>
+      <email>wangyapeng822@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Firefly822/rocket.git</connection>
+    <developerConnection>https://github.com/Firefly822/rocket.git</developerConnection>
+    <url>https://github.com/Firefly822/rocket</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.getkeepsafe.relinker</groupId>
+      <artifactId>relinker</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

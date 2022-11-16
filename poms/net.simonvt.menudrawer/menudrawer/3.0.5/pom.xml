@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.simonvt.menudrawer</groupId>
+  <artifactId>menudrawer</artifactId>
+  <version>3.0.5</version>
+  <packaging>aar</packaging>
+  <name>MenuDrawer</name>
+  <description>A menu drawer implementation which allows dragging of both the content, and the entire window.</description>
+  <url>https://github.com/SimonVT/android-menudrawer</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>simonvt</id>
+      <name>Simon Vig Therkildsen</name>
+      <email>simonvt@gmail.com</email>
+      <url>http://simonvt.net</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/SimonVT/android-menudrawer/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/SimonVT/android-menudrawer.git</connection>
+    <developerConnection>scm:git:git@github.com:SimonVT/android-menudrawer.git</developerConnection>
+    <url>http://github.com/SimonVT/android-menudrawer/</url>
+  </scm>
+</project>

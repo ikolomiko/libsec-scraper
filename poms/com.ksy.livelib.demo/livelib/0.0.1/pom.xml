@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ksy.livelib.demo</groupId>
+  <artifactId>livelib</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android播放&amp;推流融合版本[Android Play and LiveStreaming SDK] 直播延时2-3秒（Living delay 2 or 3 seconds），supporting jitter control，software&amp;hardware decode, 支持内置/自定义美颜(Beauty Filter)、美声(Beauty Voice)、软硬编(Software/Hardware Encoder) 、网络自适应(Network Auto Adapt)、混音(Voice Mixer)、混响(Reverb)、画中画(PIP)</name>
+  <url>https://github.com/ksvc/KSYLive_Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ksyun</id>
+      <name>fpzeng</name>
+      <email>ZENGFANPING@KINGSOFT.COM</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ksvc/KSYLive_Android.git</connection>
+    <developerConnection>https://github.com/ksvc/KSYLive_Android.git</developerConnection>
+    <url>https://github.com/ksvc/KSYLive_Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>moe.shizuku.preference</groupId>
+  <artifactId>preference-switchcompat</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>MaterialPreference-SwitchCompat</name>
+  <description>An extend of MaterialPreference, adding a version of SwitchPreference that use SwitchCompat from appcompat.</description>
+  <url>https://github.com/RikkaW/MaterialPreference</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rikkaw</id>
+      <name>Rikka</name>
+      <email>rikka@xing.moe</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RikkaW/MaterialPreference.git</connection>
+    <developerConnection>https://github.com/RikkaW/MaterialPreference.git</developerConnection>
+    <url>https://github.com/RikkaW/MaterialPreference</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lhf.charts</groupId>
+  <artifactId>Charts</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>Charts</name>
+  <description>å¾è¡¨åº-åä¸æ ¼å°ç«ç°å¾</description>
+  <url>https://github.com/sadink/Charts</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lhfboy</id>
+      <name>haifeng.li</name>
+      <email>donglhf@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:sadink/Charts.git</connection>
+    <url>https://github.com/sadink/Charts</url>
+  </scm>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kevalpatel2106</groupId>
+  <artifactId>rxbus</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>RxBus</name>
+  <description>Implementation of event bus using Rx for Android.</description>
+  <url>https://github.com/kevalpatel2106/simple-rx-bus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kevalpatel2106</id>
+      <name>Keval Patel</name>
+      <email>kevalpatel2106@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kevalpatel2106/simple-rx-bus.git</connection>
+    <developerConnection>https://github.com/kevalpatel2106/simple-rx-bus.git</developerConnection>
+    <url>https://github.com/kevalpatel2106/simple-rx-bus</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mopub.mediation</groupId>
+  <artifactId>ironsource</artifactId>
+  <version>7.1.11.0</version>
+  <packaging>aar</packaging>
+  <name>MoPub Network Mediation</name>
+  <description>IronSource Adapter for MoPub Mediation</description>
+  <url>https://github.com/mopub/mopub-android-mediation</url>
+  <licenses>
+    <license>
+      <name>MoPub SDK License Agreement</name>
+      <url>http://www.mopub.com/legal/sdk-license-agreement</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mopub</id>
+      <name>MoPub (a division of Twitter, Inc.)</name>
+      <email>support@mopub.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/mopub/mopub-android-mediation.git</connection>
+    <developerConnection>scm:git:https://github.com/mopub/mopub-android-mediation.git</developerConnection>
+    <url>https://github.com/mopub/mopub-android-mediation</url>
+  </scm>
+</project>

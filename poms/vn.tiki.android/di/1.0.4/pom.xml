@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.tiki.android</groupId>
+  <artifactId>di</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>TikiDi</name>
+  <description>Kotlin Dependency Injection. This library is based on Dagger 1 but does not use Annotation Processing. The focus of this library is fast and easy to use.</description>
+  <url>https://github.com/talenguyen/AndroidDevelopment</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>talenguyen</id>
+      <name>Giang Nguyen</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/talenguyen/AndroidDevelopment.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/talenguyen/AndroidDevelopment.git</developerConnection>
+    <url>https://github.com/talenguyen/AndroidDevelopment</url>
+  </scm>
+</project>

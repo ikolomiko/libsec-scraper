@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.polestar</groupId>
+  <artifactId>naosdk</artifactId>
+  <version>4.10.0</version>
+  <packaging>aar</packaging>
+  <name>eu.polestar:naosdk</name>
+  <description>Pole Star is a global leader in indoor positioning with ten years industry experience, an impressive customer portfolio and over 43 million square feet covered in the world. The most mature indoor positioning solution on the market, NAO Campus is compatible with OS Android and iPhone, which together comprise 80% of the mobile market. Highly accurate, easy to set up and scalable, NAO Campus leads the way in terms of cost-effective, indoor positioning services designed to be deployed on a wide-scale, multi-venue basis.</description>
+  <url>http://www.polestar.eu/</url>
+  <scm>
+    <url>http://www.polestar.eu/</url>
+    <connection>http://www.polestar.eu/</connection>
+  </scm>
+  <licenses>
+    <license>
+      <name>Pole Star</name>
+      <url>https://docs.nao-cloud.com/docs/misc/software-licence/nao-sdk-license/</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>Pole Star</name>
+    <url>http://www.polestar.eu/</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>polestar</id>
+      <name>Pole Star</name>
+      <email>jaouad.chouki@polestar.eu</email>
+      <organization>Pole Star</organization>
+      <organizationUrl>http://www.polestar.eu/</organizationUrl>
+      <timezone>UTC_OFFSET</timezone>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.4.2</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>17.0.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.msgpack</groupId>
+      <artifactId>msgpack</artifactId>
+      <version>0.6.12</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.android.service</artifactId>
+      <version>1.1.1</version>
+      <scope>api</scope>
+    </dependency>
+  </dependencies>
+</project>

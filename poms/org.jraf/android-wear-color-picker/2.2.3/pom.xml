@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jraf</groupId>
+  <artifactId>android-wear-color-picker</artifactId>
+  <version>2.2.3</version>
+  <packaging>aar</packaging>
+  <name>android-wear-color-picker</name>
+  <description>A color picker activity optimized for Wear OS (aka Android Wear). Handy for watch face settings.</description>
+  <url>https://github.com/BoD/android-wear-color-picker</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BoD</id>
+      <name>Benoit 'BoD' Lubek</name>
+      <email>BoD@JRAF.org</email>
+      <url>https://JRAF.org</url>
+      <organization>JRAF.org</organization>
+      <organizationUrl>https://JRAF.org</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/BoD/android-wear-color-picker</connection>
+    <developerConnection>scm:git:https://github.com/BoD/android-wear-color-picker</developerConnection>
+    <url>https://github.com/BoD/android-wear-color-picker</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/BoD/android-wear-color-picker/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-common</artifactId>
+      <version>7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-runtime</artifactId>
+      <version>7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-adapters</artifactId>
+      <version>7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>databinding-ktx</artifactId>
+      <version>7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.wear</groupId>
+      <artifactId>wear</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.tenkiv.kuantify</groupId>
+  <artifactId>kuantify-android-local</artifactId>
+  <version>0.4.30.0</version>
+  <packaging>aar</packaging>
+  <name>android-local</name>
+  <description>API for easily managing, controlling, and interfacing with different data acquisition systems.</description>
+  <url>https://gitlab.com/tenkiv/software/kuantify.git</url>
+  <organization>
+    <name>Tenkiv, Inc.</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <email>zjuhasz@tenkiv.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@gitlab.com:tenkiv/software/kuantify.git</connection>
+    <url>https://gitlab.com/tenkiv/software/kuantify.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.tenkiv.kuantify</groupId>
+      <artifactId>kuantify-android-core</artifactId>
+      <version>0.4.30.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

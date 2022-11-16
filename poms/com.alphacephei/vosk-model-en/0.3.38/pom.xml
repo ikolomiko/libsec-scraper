@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alphacephei</groupId>
+  <artifactId>vosk-model-en</artifactId>
+  <version>0.3.38</version>
+  <packaging>aar</packaging>
+  <name>Vosk English Model</name>
+  <description>Small English model for Android</description>
+  <url>http://www.alphacephei.com.com/vosk/</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>com.alphacephei</id>
+      <name>Alpha Cephei Inc</name>
+      <email>contact@alphacephei.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/alphacep/vosk-api.git</connection>
+    <url>https://github.com/alphacep/vosk-api/</url>
+  </scm>
+</project>

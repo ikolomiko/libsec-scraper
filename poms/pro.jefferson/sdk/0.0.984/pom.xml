@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pro.jefferson</groupId>
+  <artifactId>sdk</artifactId>
+  <version>0.0.984</version>
+  <packaging>aar</packaging>
+  <name>Jefferson Mobile Error Reporting Software</name>
+  <description>Jefferson Error Reporting Software</description>
+  <url>https://github.com/barron9/Jefferson_CRT</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>barron9</id>
+      <name>Berkin Tatlisu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:barron9/Jefferson_CRT.git</connection>
+    <developerConnection>scm:git@github.com:barron9/Jefferson_CRT.git</developerConnection>
+    <url>https://github.com/barron9/Jefferson_CRT</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20180813</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>httpclient</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.java-websocket</groupId>
+      <artifactId>Java-WebSocket</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>28.0-android</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

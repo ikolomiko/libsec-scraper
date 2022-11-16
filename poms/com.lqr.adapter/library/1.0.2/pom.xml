@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lqr.adapter</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>万能适配器（RecyclerView、ListView、GridView）</name>
+  <url>https://github.com/GitLqr/LQRAdapterLibrary</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lqr</id>
+      <name>lqr</name>
+      <email>linqiarui@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/GitLqr/LQRAdapterLibrary.git</connection>
+    <developerConnection>https://github.com/GitLqr/LQRAdapterLibrary.git</developerConnection>
+    <url>https://github.com/GitLqr/LQRAdapterLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

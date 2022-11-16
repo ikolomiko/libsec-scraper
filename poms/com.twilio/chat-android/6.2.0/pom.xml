@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>chat-android</artifactId>
+  <version>6.2.0</version>
+  <packaging>aar</packaging>
+  <name>Programmable Chat Android SDK</name>
+  <description>Twilio Programmable Chat makes it easy for you to add chat features into your web and native mobile applications without building or scaling a real-time chat backend. Chat has all the necessary APIs and features to integrate with your business logic to ensure you are in control.</description>
+  <url>https://www.twilio.com/docs/chat</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:twilio/twilio-chat-demo-kotlin.git</connection>
+    <developerConnection>scm:git:ssh://github.com:twilio/twilio-chat-demo-kotlin.git</developerConnection>
+    <url>https://github.com/twilio/twilio-chat-demo-kotlin/tree/main</url>
+  </scm>
+</project>

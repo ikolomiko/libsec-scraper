@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.patryk1007</groupId>
+  <artifactId>fillme_lib</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>com.patryk1007.fillme</name>
+  <description>Fill any shape with color</description>
+  <url>https://github.com/patryk1007/Fillme</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>patryk1007</id>
+      <name>Patryk1007</name>
+      <email>patryk1007@10g.pl</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/patryk1007/Fillme.git</connection>
+    <developerConnection>https://github.com/patryk1007/Fillme.git</developerConnection>
+    <url>https://github.com/patryk1007/Fillme</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.51</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pusher</groupId>
+  <artifactId>beams-chatkit</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.51</version>
+    </dependency>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>firebase-jobdispatcher</artifactId>
+      <version>0.8.5</version>
+    </dependency>
+  </dependencies>
+  <description>Pusher Push Notifications for Android (Chatkit release)</description>
+  <name>'Push Notifications Android'</name>
+  <url>https://github.com/pusher/push-notifications-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>'https://raw.githubusercontent.com/pusher/push-notifications-android/master/LICENSE.md'</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>luismfonseca</id>
+      <name>Luís Fonseca</name>
+      <email>luis@pusher.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/pusher/push-notifications-android</url>
+  </scm>
+</project>

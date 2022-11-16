@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dynatrace.agent</groupId>
+  <artifactId>android-replay-model</artifactId>
+  <version>8.237.1.1004</version>
+  <packaging>aar</packaging>
+  <name>com.dynatrace.agent:android-replay-model</name>
+  <description>The Dynatrace Session Replay SDK for Android.</description>
+  <url>https://dynatrace.com</url>
+  <licenses>
+    <license>
+      <name>Dynatrace SaaS Terms of Service</name>
+      <url>https://www.dynatrace.com/eula/saas/#terms-of-service</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dynatrace</id>
+      <name>Dynatrace LLC</name>
+      <email>support.mobile@dynatrace.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/dynatrace</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

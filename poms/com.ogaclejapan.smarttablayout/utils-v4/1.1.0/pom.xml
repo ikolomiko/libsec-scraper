@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ogaclejapan.smarttablayout</groupId>
+  <artifactId>utils-v4</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>SmartTabLayout</name>
+  <description>A custom ViewPager title strip which gives continuous feedback to the user when scrolling</description>
+  <url>https://github.com/ogaclejapan/SmartTabLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ogaclejapan</id>
+      <name>Masaki Ogata</name>
+      <email>ogaclejapan@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/ogaclejapan/SmartTabLayout/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git@github.com:ogaclejapan/SmartTabLayout.git</connection>
+    <developerConnection>scm:git@github.com:ogaclejapan/SmartTabLayout.git</developerConnection>
+    <url>https://github.com/ogaclejapan/SmartTabLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

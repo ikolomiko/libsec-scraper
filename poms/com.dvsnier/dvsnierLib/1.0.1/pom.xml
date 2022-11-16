@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dvsnier</groupId>
+  <artifactId>dvsnierLib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>dvsnierLib</name>
+  <description>the android build the framework of the dvsnier lib.</description>
+  <url>https://git.oschina.net/dvsnier/dovsnierKit</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dovsnier</id>
+      <name>dovsnier</name>
+      <email>3086722095@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@git.oschina.net:dvsnier/dovsnierKit.git</connection>
+    <developerConnection>git@git.oschina.net:dvsnier/dovsnierKit.git</developerConnection>
+    <url>https://git.oschina.net/dvsnier/dovsnierKit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.dvsnier.utils</groupId>
+      <artifactId>utils</artifactId>
+      <version>0.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

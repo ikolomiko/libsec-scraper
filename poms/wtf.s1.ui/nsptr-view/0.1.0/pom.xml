@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wtf.s1.ui</groupId>
+  <artifactId>nsptr-view</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>nsptr-view</name>
+  <description>nsptr android view system implementation</description>
+  <url>https://github.com/s1rius/android-nest-scroll-ptr</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>s1rius</id>
+      <name>s1rius</name>
+      <url>https://github.com/s1rius</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/s1rius/android-nest-scroll-ptr</connection>
+    <developerConnection>scm:git:git://github.com/s1rius/android-nest-scroll-ptr</developerConnection>
+    <url>https://github.com/s1rius/android-nest-scroll-ptr</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>wtf.s1.ui</groupId>
+      <artifactId>nsptr-core</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-core-utils</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

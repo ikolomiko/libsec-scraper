@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.ahelp</groupId>
+  <artifactId>ahelp</artifactId>
+  <version>0.0.1-ALPHA1</version>
+  <packaging>aar</packaging>
+  <name>ahelp</name>
+  <description>A library for both collect analytics informations and receive push notification</description>
+  <url>https://ahelp.app</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>support@ahelp.app</id>
+      <name>ahelpTeam</name>
+      <email>support@ahelp.app</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ahelpapp/ahelp-services</connection>
+    <developerConnection>https://github.com/ahelpapp/ahelp-services</developerConnection>
+    <url>https://ahelp.app</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>15.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

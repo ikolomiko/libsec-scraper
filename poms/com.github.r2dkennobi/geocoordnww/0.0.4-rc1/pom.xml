@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.r2dkennobi</groupId>
+  <artifactId>geocoordnww</artifactId>
+  <version>0.0.4-rc1</version>
+  <packaging>aar</packaging>
+  <name>GeoCoordNWW</name>
+  <description>Custom Geo Coordinate Convertion Helper taken from NASA World Wind</description>
+  <url>https://github.com/r2dkennobi/GeoCoordNWW</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>r2dkennobi</id>
+      <name>R2DKennobi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:r2dkennobi/GeoCoordNWW.git</connection>
+    <developerConnection>scm:git@github.com:r2dkennobi/GeoCoordNWW.git</developerConnection>
+    <url>https://github.com/r2dkennobi/GeoCoordNWW</url>
+  </scm>
+</project>

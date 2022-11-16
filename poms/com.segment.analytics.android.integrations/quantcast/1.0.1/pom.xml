@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.segment.analytics.android.integrations</groupId>
+  <artifactId>quantcast</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Quantcast Integration</name>
+  <description>Quantcast Integration for Segment Android Analytics</description>
+  <url>http://github.com/segment-integrations/analytics-android-integration-quantcast</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>segmentio</id>
+      <name>Segment, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/segment-integrations/analytics-android-integration-quantcast.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/segment-integrations/analytics-android-integration-quantcast.git</developerConnection>
+    <url>http://github.com/segment-integrations/analytics-android-integration-quantcast</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.quantcast.android.measurement</groupId>
+      <artifactId>QuantcastAndroidSdk-split</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

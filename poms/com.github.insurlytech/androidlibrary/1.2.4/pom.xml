@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.insurlytech</groupId>
+  <artifactId>androidlibrary</artifactId>
+  <version>1.2.4</version>
+  <packaging>aar</packaging>
+  <name>AndroidLibrary</name>
+  <description>Android client for ZetaPush</description>
+  <url>https://github.com/Insurlytech/zetapush-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>insurlytech</id>
+      <name>Insurlytech</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Insurlytech/zetapush-android.git</connection>
+    <developerConnection>scm:git@github.com:Insurlytech/zetapush-android.git</developerConnection>
+    <url>https://github.com/Insurlytech/zetapush-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.6.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zetapush</groupId>
+      <artifactId>android-client</artifactId>
+      <version>3.0.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.security</groupId>
+      <artifactId>security-crypto-ktx</artifactId>
+      <version>1.1.0-alpha03</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

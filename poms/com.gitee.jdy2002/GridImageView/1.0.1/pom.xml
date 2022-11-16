@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitee.jdy2002</groupId>
+  <artifactId>GridImageView</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>GridImageView</name>
+  <description>Palace grid display picture</description>
+  <url>https://gitee.com/jdy2002/GridImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jdy2002</id>
+      <name>jdy2002</name>
+      <email>2475058223@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:gitee.com/jdy2002/GridImageView.git</connection>
+    <developerConnection>scm:git:ssh://gitee.com/jdy2002/GridImageView.git</developerConnection>
+    <url>https://gitee.com/jdy2002/GridImageView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+  </dependencies>
+</project>

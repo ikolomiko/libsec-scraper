@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.baerinteractive</groupId>
+  <artifactId>pixlhash</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>PixlHash</name>
+  <description>This library is used to convert a String into a visual representation.This representation is returned as a Bitmap.It can be used as an Avatar or other form of identification.</description>
+  <url>https://github.com/Fettn/Android-PixlHash</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fettn</id>
+      <name>Fettn</name>
+      <email>fettn@baerinteractive.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Fettn/Android-PixlHash.git</connection>
+    <developerConnection>scm:git:https://github.com/Fettn/Android-PixlHash.git</developerConnection>
+    <url>https://github.com/Fettn/Android-PixlHash</url>
+  </scm>
+</project>

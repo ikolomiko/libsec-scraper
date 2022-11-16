@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.wangjiegulu</groupId>
+  <artifactId>AndroidInject</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>AndroidInject</name>
+  <description>使用注解来简化android开发, Use annotations inject to simplify the development of android</description>
+  <url>https://github.com/wangjiegulu/androidInject</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>wangjie</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wangjie</id>
+      <name>Wagn Jie</name>
+      <email>tiantian.china.2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:wangjiegulu/androidInject.git</connection>
+    <developerConnection>git@github.com:wangjiegulu/androidInject.git</developerConnection>
+    <url>scm:git@github.com:wangjiegulu/androidInject.git</url>
+  </scm>
+</project>

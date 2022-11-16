@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wang.yuchao.android.library.process.foregroundjudger</groupId>
+  <artifactId>ForegroundJudgerLibrary</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ForegroundJudgerLibrary</name>
+  <description>Android Foreground Library</description>
+  <url>https://github.com/yuchao-wang/ForegroundJudger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wangyuchao</id>
+      <name>yuchao-wang</name>
+      <email>1154786190@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yuchao-wang/ForegroundJudger.git</connection>
+    <developerConnection>https://github.com/yuchao-wang/ForegroundJudger.git</developerConnection>
+    <url>https://github.com/yuchao-wang/ForegroundJudger</url>
+  </scm>
+</project>

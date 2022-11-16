@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.andretbm.test-maven</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.14</version>
+  <packaging>aar</packaging>
+  <name>Android Update Checker</name>
+  <description>The project aims to provide a reusable instrument to check asynchronously if exists any newer released update of your Android app on the Store.</description>
+  <url>https://github.com/andretbm/test-maven</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andremuchagata</id>
+      <name>Andre Muchagata</name>
+      <email>andremuchagata@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/andretbm/test-maven.git</connection>
+    <developerConnection>https://github.com/andretbm/test-maven.git</developerConnection>
+    <url>https://github.com/andretbm/test-maven</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.xwalk</groupId>
+      <artifactId>xwalk_core_library</artifactId>
+      <version>15.44.384.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

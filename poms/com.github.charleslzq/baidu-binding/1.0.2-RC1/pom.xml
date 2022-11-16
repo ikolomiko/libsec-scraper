@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.charleslzq</groupId>
+  <artifactId>baidu-binding</artifactId>
+  <version>1.0.2-RC1</version>
+  <packaging>aar</packaging>
+  <name>baidu-binding</name>
+  <description>Utilities for face recognition.</description>
+  <url>https://github.com/charleslzq/ArcSoftTool/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>charleslzq</id>
+      <name>Eric Charles</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/charleslzq/ArcSoftTool.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/charleslzq/ArcSoftTool.git</developerConnection>
+    <url>https://github.com/charleslzq/ArcSoftTool/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.charleslzq</groupId>
+      <artifactId>face-engine</artifactId>
+      <version>1.0.2-RC1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.retrofit</groupId>
+      <artifactId>retrofit2-kotlin-coroutines-experimental-adapter</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

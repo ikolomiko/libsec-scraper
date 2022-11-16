@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.nashapp.apicontroller</groupId>
+  <artifactId>apicontroller</artifactId>
+  <version>1.0.13</version>
+  <packaging>aar</packaging>
+  <name>APIController</name>
+  <description>Run GET,POST and DOWNLOAD API on Android. Library takes care of Cookie Management and http caching.</description>
+  <url>http://www.nashapp.in</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>avinashskaranth</id>
+      <name>Avinash S Karanth</name>
+      <email>nashapp.mail@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AvinashSKaranth/api-controller.git</connection>
+    <developerConnection>https://github.com/AvinashSKaranth/api-controller.git</developerConnection>
+    <url>http://www.nashapp.in</url>
+  </scm>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.frankfancode.databrowser</groupId>
+  <artifactId>databrowser-sharepreference</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>a local data browser </name>
+  <url>https://github.com/frankfancode/databrowser</url>
+  <licenses>
+    <license>
+      <name>a local data browser </name>
+      <url>https://github.com/frankfancode/databrowser</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>frankfancodeinc</id>
+      <name>frankfan</name>
+      <email>frankfancode@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:frankfancode/databrowser.git</connection>
+    <developerConnection>git@github.com:frankfancode/databrowser.git</developerConnection>
+    <url>https://github.com/frankfancode/databrowser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

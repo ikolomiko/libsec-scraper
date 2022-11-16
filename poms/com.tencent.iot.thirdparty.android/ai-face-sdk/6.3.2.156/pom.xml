@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.iot.thirdparty.android</groupId>
+  <artifactId>ai-face-sdk</artifactId>
+  <version>6.3.2.156</version>
+  <packaging>aar</packaging>
+  <name>AI FACE SDK</name>
+  <description>Explorer Device Android library</description>
+  <url>https://github.com/tencentyun/iot-device-java/tree/master/explorer-device-android</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://github.com/tencentyun/iot-device-java/blob/master/explorer-device-android/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_archurtan</id>
+      <name>Tencent archurtan</name>
+      <email>archurtan@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/iot-device-java.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/iot-device-java.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/iot-device-java.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>percent</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.bugly</groupId>
+      <artifactId>crashreport</artifactId>
+      <version>3.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.bugly</groupId>
+      <artifactId>nativecrashreport</artifactId>
+      <version>3.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.instagram.igdiskcache</groupId>
+      <artifactId>ig-disk-cache</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

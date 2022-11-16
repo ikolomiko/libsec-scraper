@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.czerwinski.android.room</groupId>
+  <artifactId>room-database</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Extensions for Jetpack Room: Database</name>
+  <description>Extensions for Jetpack Room</description>
+  <url>https://czerwinski.it/projects/android-room/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sczerwinski</id>
+      <name>Slawomir Czerwinski</name>
+      <email>slawomir@czerwinski.it</email>
+      <url>https://czerwinski.it/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/sczerwinski/android-room.git</connection>
+    <developerConnection>scm:git:https://github.com/sczerwinski/android-room.git</developerConnection>
+    <url>https://github.com/sczerwinski/android-room</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/sczerwinski/android-room/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/sczerwinski/android-room/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-runtime</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

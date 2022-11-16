@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.matrix</groupId>
+  <artifactId>matrix-io-canary</artifactId>
+  <version>2.0.5</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.matrix</groupId>
+      <artifactId>matrix-android-lib</artifactId>
+      <version>2.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.matrix</groupId>
+      <artifactId>matrix-android-commons</artifactId>
+      <version>2.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>https://github.com/Tencent/Matrix.git</url>
+    <tag></tag>
+  </scm>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tencent Wechat</id>
+      <name>Tencent Wechat, Inc.</name>
+    </developer>
+  </developers>
+  <name>Matrix IO Canary for Android</name>
+  <url>https://github.com/Tencent/Matrix</url>
+  <description>Matrix is an APM (Application Performance Manage) used in Wechat to monitor, locate and analyse performance problems. It is a plugin style, non-invasive solution and is currently available on iOS, macOS and Android.</description>
+</project>

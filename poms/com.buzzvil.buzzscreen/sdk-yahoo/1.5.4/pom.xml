@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.buzzvil.buzzscreen</groupId>
+  <artifactId>sdk-yahoo</artifactId>
+  <version>1.5.4</version>
+  <packaging>aar</packaging>
+  <name>Buzzscreen Yahoo SDK for Android</name>
+  <description>Buzzscreen Yahoo SDK for Android</description>
+  <url>https://buzzvil.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>urunimi</id>
+      <name>Ben Pyungwoo Yoo</name>
+      <email>ben.yoo@buzzvil.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/buzzvil/Slidejoy-SDK</connection>
+    <developerConnection>https://github.com/buzzvil/Slidejoy-SDK</developerConnection>
+    <url>https://buzzvil.com</url>
+  </scm>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dk.nodes.nstack</groupId>
+  <artifactId>nstack-kotlin-live-edit</artifactId>
+  <version>3.1.5</version>
+  <packaging>aar</packaging>
+  <name>NStack Kotlin Library Android Live edit</name>
+  <description>nstack.io library for translations, update management and more.</description>
+  <url>https://github.com/nodes-android/nstack-kotlin</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Update 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>johsoe</id>
+      <name>Johnny SÃ¸rensen</name>
+      <email>joso@nodes.dk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/nodes-android/nstack-kotlin.git</connection>
+    <url>https://github.com/nodes-android/nstack-kotlin</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub issues</system>
+    <url>https://github.com/nodes-android/nstack-kotlin/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>dk.nodes.nstack</groupId>
+      <artifactId>nstack-kotlin-core</artifactId>
+      <version>3.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dk.nodes.nstack</groupId>
+      <artifactId>nstack-kotlin-view</artifactId>
+      <version>3.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.41</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

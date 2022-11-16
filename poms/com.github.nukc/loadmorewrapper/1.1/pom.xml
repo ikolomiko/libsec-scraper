@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nukc</groupId>
+  <artifactId>loadmorewrapper</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>在不改动RecyclerView原有adapter的情况下，使其拥有加载更多功能和自定义底部视图。</name>
+  <description>📦 在不改动 RecyclerView 原有的 adapter 的情况下，使 RecyclerView 滑动到底部的时候能够加载更多和自定义底部视图。</description>
+  <url>https://github.com/nukc/LoadMoreWrapper</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nukc</id>
+      <name>c</name>
+      <email>353932158@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nukc/LoadMoreWrapper.git</connection>
+    <developerConnection>https://github.com/nukc/LoadMoreWrapper.git</developerConnection>
+    <url>https://github.com/nukc/LoadMoreWrapper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

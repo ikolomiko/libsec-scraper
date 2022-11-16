@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.midtrans</groupId>
+  <artifactId>analytics</artifactId>
+  <version>1.7.1-SANDBOX</version>
+  <packaging>aar</packaging>
+  <name>Midtrans-mixpanel-analytics</name>
+  <description>Midtrans mixpanel analytics Android SDK</description>
+  <url>https://github.com/veritrans/midtrans-mixpanel-android</url>
+  <licenses>
+    <license>
+      <name>Midtrans License</name>
+      <url>https://github.com/veritrans/midtrans-mixpanel-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>askur87</id>
+      <name>Asep Kurnia</name>
+      <email>asep.kurnia@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/veritrans/midtrans-mixpanel-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/veritrans/midtrans-mixpanel-android.git</developerConnection>
+    <url>https://github.com/veritrans/midtrans-mixpanel-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.10.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flybits.v3</groupId>
+  <artifactId>context</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>Flybits Context SDK</name>
+  <description>This is the official production build of the Android Context SDK. The Context SDK is responsible for sending Context Data from the device to the Flybits server.</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flybits-inc</id>
+      <name>Petar Kramaric</name>
+      <email>pkramaric@flybits.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collections4</artifactId>
+      <version>4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-fitness</artifactId>
+      <version>10.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.altbeacon</groupId>
+      <artifactId>android-beacon-library</artifactId>
+      <version>2.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.flybits.android</groupId>
+      <artifactId>commons</artifactId>
+      <version>1.0.51</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>extensions</artifactId>
+      <version>1.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

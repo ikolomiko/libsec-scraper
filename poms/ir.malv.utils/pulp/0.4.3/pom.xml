@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ir.malv.utils</groupId>
+  <artifactId>pulp</artifactId>
+  <version>0.4.3</version>
+  <packaging>aar</packaging>
+  <name>pulp</name>
+  <description>Light weight logging library</description>
+  <url>https://github.com/mahdi-malv/pulp</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mahdi-malv</id>
+      <name>Mahdi Malv</name>
+      <email>mahdi.malv@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mahdi-malv/pulp</connection>
+    <developerConnection>https://github.com/mahdi-malv</developerConnection>
+    <url>https://malv.ir</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>lifecycle-extensions</artifactId>
+      <groupId>androidx.lifecycle</groupId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.4.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.4.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>room-runtime</artifactId>
+      <groupId>androidx.room</groupId>
+      <version>2.2.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Justson</groupId>
+  <artifactId>dispatch-queue</artifactId>
+  <version>v1.0.5</version>
+  <packaging>aar</packaging>
+  <name>Justson/dispatch-queue</name>
+  <description>Dispatch-Queue is a library that extends Android MessageQueue</description>
+  <url>https://github.com/Justson/dispatch-queue</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Justson</id>
+      <name>Justson</name>
+      <email>xiaozhongcen@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Justson/dispatch-queue.git</connection>
+    <developerConnection>scm:git://github.com/Justson/dispatch-queue.git</developerConnection>
+    <url>git://github.com/Justson/dispatch-queue.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

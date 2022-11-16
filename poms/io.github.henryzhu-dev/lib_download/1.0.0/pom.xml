@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.henryzhu-dev</groupId>
+  <artifactId>lib_download</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>lib_download</name>
+  <description>Android项目中通用的下载组件，包括apk、文件等</description>
+  <url>https://github.com/henryzhu-dev/HDownloadApplication</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>henry zhu</id>
+      <name>henry zhu</name>
+      <email>$Other123456</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/henryzhu-dev/HDownloadApplication.git</connection>
+    <developerConnection>scm:git:ssh://github.com/henryzhu-dev/HDownloadApplication.git</developerConnection>
+    <url>https://github.com/henryzhu-dev/HDownloadApplication/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

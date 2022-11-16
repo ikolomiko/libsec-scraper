@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app.eccweizhi</groupId>
+  <artifactId>onscreenlog-timber</artifactId>
+  <version>0.0.6</version>
+  <packaging>aar</packaging>
+  <description>Easy way to display logs on screen</description>
+  <name>on-screen-log-timber</name>
+  <url>https://github.com/ecc-weizhi/on-screen-log</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ecc-weizhi</id>
+      <name>Weizhi Lin</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/ecc-weizhi/on-screen-log</url>
+    <connection>scm:git:git://github.com/ecc-weizhi/on-screen-log.git</connection>
+    <developerConnection>scm:git:git://github.com/ecc-weizhi/on-screen-log.git</developerConnection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>app.eccweizhi</groupId>
+      <artifactId>onscreenlog</artifactId>
+      <version>0.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.60</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+  </dependencies>
+</project>

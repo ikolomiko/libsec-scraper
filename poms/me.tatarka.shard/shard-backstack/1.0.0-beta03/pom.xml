@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.tatarka.shard</groupId>
+  <artifactId>shard-backstack</artifactId>
+  <version>1.0.0-beta03</version>
+  <packaging>aar</packaging>
+  <name>Shard</name>
+  <description>'Fragments' with a simpler api built on top of the android architecture components</description>
+  <url>https://github.com/evant/android-shard</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>evant</id>
+      <name>Evan Tatarka</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/evant/android-shard.git</connection>
+    <developerConnection>https://github.com/evant/android-shard.git</developerConnection>
+    <url>https://github.com/evant/android-shard</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.tatarka.shard</groupId>
+      <artifactId>shard</artifactId>
+      <version>1.0.0-beta03</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.tatarka.shard</groupId>
+      <artifactId>shard-transition</artifactId>
+      <version>1.0.0-beta03</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

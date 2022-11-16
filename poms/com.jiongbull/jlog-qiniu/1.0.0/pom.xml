@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jiongbull</groupId>
+  <artifactId>jlog-qiniu</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>jlog's helper which could upload log to qiniu automatically</name>
+  <url>https://github.com/JiongBull/jlog-qiniu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JiongBull</id>
+      <name>JiongBull</name>
+      <email>jiongbull717@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JiongBull/jlog-qiniu.git</connection>
+    <developerConnection>https://github.com/JiongBull/jlog-qiniu.git</developerConnection>
+    <url>https://github.com/JiongBull/jlog-qiniu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.qiniu</groupId>
+      <artifactId>qiniu-android-sdk</artifactId>
+      <version>7.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jiongbull</groupId>
+      <artifactId>jlog</artifactId>
+      <version>1.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

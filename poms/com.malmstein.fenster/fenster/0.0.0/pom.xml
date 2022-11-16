@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.malmstein.fenster</groupId>
+  <artifactId>fenster</artifactId>
+  <version>0.0.0</version>
+  <packaging>aar</packaging>
+  <name>fenster</name>
+  <description>A library to display videos in a TextureView using a custom MediaPlayer controller</description>
+  <url>http://www.malmstein.com</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>malmstein</id>
+      <name>David González</name>
+      <email>malmstein@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/malmstein/fenster</connection>
+    <developerConnection>https://github.com/malmstein/fenster</developerConnection>
+    <url>http://www.malmstein.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

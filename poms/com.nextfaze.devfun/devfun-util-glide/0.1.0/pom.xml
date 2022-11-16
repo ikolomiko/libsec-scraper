@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <name>com.nextfaze.devfun:devfun-util-glide</name>
+  <url>https://github.com/NextFaze/dev-fun</url>
+  <organization>
+    <name>NextFaze</name>
+    <url>https://www.nextfaze.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/NextFaze/dev-fun.git</connection>
+    <developerConnection>scm:git:ssh://github.com:NextFaze/dev-fun.git</developerConnection>
+    <url>http://github.com/NextFaze/dev-fun/tree/master</url>
+    <tag>0.1.0</tag>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/NextFaze/dev-fun/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>alex2069</id>
+      <name>Alex Waters</name>
+      <email>awaters@nextfaze.com</email>
+      <organization>NextFaze</organization>
+      <organizationUrl>https://www.nextfaze.com</organizationUrl>
+    </developer>
+  </developers>
+  <groupId>com.nextfaze.devfun</groupId>
+  <artifactId>devfun-util-glide</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <description>Module that provides some utility functions when using Glide.
+
+Does not do anything without Glide. Should be on your debug configuration 'debugCompile'."</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.nextfaze.devfun</groupId>
+      <artifactId>devfun-annotations</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.2-3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>0.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mapbox.mapboxsdk</groupId>
+  <artifactId>mapbox-android-services</artifactId>
+  <version>2.2.10</version>
+  <packaging>aar</packaging>
+  <name>Mapbox Android Services</name>
+  <description>Mapbox Android Services</description>
+  <url>https://github.com/mapbox/mapbox-java</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mapbox</id>
+      <name>Mapbox</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mapbox/mapbox-java.git</connection>
+    <developerConnection>scm:git@github.com:mapbox/mapbox-java.git</developerConnection>
+    <url>https://github.com/mapbox/mapbox-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-java-services</artifactId>
+      <version>2.2.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapbox.mapboxsdk</groupId>
+      <artifactId>mapbox-android-telemetry</artifactId>
+      <version>2.2.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mapzen.android</groupId>
+      <artifactId>lost</artifactId>
+      <version>3.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

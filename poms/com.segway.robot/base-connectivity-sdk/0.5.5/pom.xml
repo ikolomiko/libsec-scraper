@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.segway.robot</groupId>
+  <artifactId>base-connectivity-sdk</artifactId>
+  <version>0.5.5</version>
+  <packaging>aar</packaging>
+  <name>base-connectivity-sdk</name>
+  <description>segway robot connectiion service sdk common codes</description>
+  <url>none</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ark338</id>
+      <name>Hou Wei</name>
+      <email>wei.hou@ninebot.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>none</connection>
+    <developerConnection>none</developerConnection>
+    <url>none</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.segway.robot</groupId>
+      <artifactId>sdkbase</artifactId>
+      <version>0.1.19</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

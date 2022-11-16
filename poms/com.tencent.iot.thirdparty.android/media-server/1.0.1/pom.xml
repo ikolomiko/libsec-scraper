@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.iot.thirdparty.android</groupId>
+  <artifactId>media-server</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>media server</name>
+  <description>Tencent Media Server Android library</description>
+  <url>https://github.com/tencentyun/media-server</url>
+  <licenses>
+    <license>
+      <name>Binary License</name>
+      <url>https://github.com/tencentyun/media-server/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_archurtan</id>
+      <name>Tencent archurtan</name>
+      <email>archurtan@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tencentyun/media-server.git</connection>
+    <developerConnection>scm:git@github.com:tencentyun/media-server.git</developerConnection>
+    <url>scm:git@github.com:tencentyun/media-server.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>4.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.blacksquircle.ui</groupId>
+  <artifactId>language-actionscript</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>language-actionscript</name>
+  <description>Brackeys IDE is a fast and free multi-language code editor for Android.</description>
+  <url>https://github.com/massivemadness/Brackeys-IDE</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>https://github.com/massivemadness/Brackeys-IDE/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>massivemadness</id>
+      <name>Dmitry Rubtsov</name>
+      <email>dm.mironov01@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/massivemadness/Brackeys-IDE.git</connection>
+    <developerConnection>scm:git:ssh://github.com/massivemadness/Brackeys-IDE.git</developerConnection>
+    <url>https://github.com/massivemadness/Brackeys-IDE/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.blacksquircle.ui</groupId>
+      <artifactId>language-base</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.tinkoff.core</groupId>
+  <artifactId>core-log-android</artifactId>
+  <version>3.3.15</version>
+  <packaging>aar</packaging>
+  <name>core-log-android</name>
+  <description>core-log-android-description</description>
+  <url>https://github.com/TinkoffCreditSystems</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tcs</id>
+      <name>Tinkoff Bank</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:TinkoffCreditSystems.git</connection>
+    <developerConnection>scm:git@github.com:TinkoffCreditSystems.git</developerConnection>
+    <url>https://github.com/TinkoffCreditSystems</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ru.tinkoff.core</groupId>
+      <artifactId>core-log</artifactId>
+      <version>3.3.15</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

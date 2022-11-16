@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.vitalibov</groupId>
+  <artifactId>smsinterceptor</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>SmsInterceptor</name>
+  <description>A library that allows you to intercept incoming SMS messages</description>
+  <url>https://github.com/VitaliBov/SmsInterceptor</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vitalibov</id>
+      <name>Vitali Bovkunovich</name>
+      <email>vitalibof@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/VitaliBov/SmsInterceptor.git</connection>
+    <developerConnection>https://github.com/VitaliBov/SmsInterceptor.git</developerConnection>
+    <url>https://github.com/VitaliBov/SmsInterceptor</url>
+  </scm>
+</project>

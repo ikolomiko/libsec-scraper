@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zhpanvip</groupId>
+  <artifactId>viewpagerindicator</artifactId>
+  <version>1.0.0-beta1</version>
+  <packaging>aar</packaging>
+  <name>zhpanvip/viewpagerindicator</name>
+  <description>This repo is split from BannerViewPager</description>
+  <url>https://github.com/zhpanvip/BannerViewPager</url>
+  <inceptionYear>2020</inceptionYear>
+  <developers>
+    <developer>
+      <id>zhpanvip</id>
+      <name></name>
+      <email>zhpanvip@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/zhpanvip/viewpagerindicator.git</connection>
+    <developerConnection>scm:git://github.com/zhpanvip/viewpagerindicator.git</developerConnection>
+    <url>git://github.com/zhpanvip/viewpagerindicator.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

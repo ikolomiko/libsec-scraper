@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libgsf</artifactId>
+  <version>1.14.46</version>
+  <packaging>aar</packaging>
+  <name>libgsf</name>
+  <description>The G Structured File Library</description>
+  <url>https://gitlab.gnome.org/GNOME/libgsf/</url>
+  <inceptionYear>2002</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv2</name>
+      <url>https://gitlab.gnome.org/GNOME/libgsf/-/blob/LIBGSF_1_14_46/COPYING</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>lGPLv2.1</name>
+      <url>https://gitlab.gnome.org/GNOME/libgsf/-/blob/LIBGSF_1_14_46/COPYING.LIB</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jody</id>
+      <name>Jody Goldberg</name>
+      <email>jody@gnome.org</email>
+    </developer>
+    <developer>
+      <id>mortenw</id>
+      <name>Morten Welinder</name>
+      <email>terra@gnome.org</email>
+    </developer>
+    <developer>
+      <id>doml</id>
+      <name>Dom Lachowicz</name>
+      <email>domlachowicz@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.gnome.org/GNOME/libgsf.git</connection>
+    <url>https://gitlab.gnome.org/GNOME/libgsf</url>
+  </scm>
+</project>

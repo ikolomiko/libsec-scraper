@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rakeeb</groupId>
+  <artifactId>gcloud-storage-utils</artifactId>
+  <version>0.0.2-beta12</version>
+  <packaging>aar</packaging>
+  <name>gcloud-storage-utils</name>
+  <description>Utility library for Google Cloud Storage on Android</description>
+  <url>https://git.evolveasia.co/RMAP/MobileApps/retail-mapping</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rakeeb11</id>
+      <name>Rakeeb Rajbhandari</name>
+      <email>rakeeb.rajbhandari@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.evolveasia.co/RMAP/MobileApps/retail-mapping</connection>
+    <developerConnection>https://git.evolveasia.co/RMAP/MobileApps/retail-mapping</developerConnection>
+    <url>https://git.evolveasia.co/RMAP/MobileApps/retail-mapping</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.1.51</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-storage</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>support-annotations</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.google.guava</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

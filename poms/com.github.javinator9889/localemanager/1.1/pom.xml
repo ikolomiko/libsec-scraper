@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.javinator9889</groupId>
+  <artifactId>localemanager</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>LocaleManager</name>
+  <description>An easy access interface for managing locales (languages) on your Android application</description>
+  <url>https://github.com/Javinator9889/LocaleManager</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License v3.0</name>
+      <url>https://github.com/Javinator9889/LocaleManager/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Javinator9889</id>
+      <name>Javinator9889</name>
+      <email>javialonso007@hotmail.es</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Javinator9889/LocaleManager.git</connection>
+    <developerConnection>https://github.com/Javinator9889/LocaleManager.git</developerConnection>
+    <url>https://github.com/Javinator9889/LocaleManager</url>
+  </scm>
+</project>

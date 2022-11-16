@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tune</groupId>
+  <artifactId>tune-marketing-console-sdk</artifactId>
+  <version>6.1.1</version>
+  <packaging>aar</packaging>
+  <name>com.tune:tune-marketing-console-sdk</name>
+  <description>The TUNE Marketing Console™ (TMC) SDK for the native Android™ platform provides application session and event logging functionality.</description>
+  <url>https://developers.tune.com/sdk/android-quick-start/</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License (GPL)</name>
+      <url>http://www.gnu.org/licenses/gpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>John Gu</name>
+      <email>johng@tune.com</email>
+      <organization>org.apache.maven.model.Organization@2a6a1c48</organization>
+      <organizationUrl>https://www.tune.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Andy Peterson</name>
+      <email>andyp@tune.com</email>
+      <organization>org.apache.maven.model.Organization@4822594e</organization>
+      <organizationUrl>https://www.tune.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Jennifer Owens</name>
+      <email>jennifero@tune.com</email>
+      <organization>org.apache.maven.model.Organization@53c3d1f5</organization>
+      <organizationUrl>https://www.tune.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/TuneOSS/sdk-release.git</connection>
+    <developerConnection>scm:git:ssh://github.com/TuneOSS/sdk-release.git</developerConnection>
+    <url>https://github.com/TuneOSS/sdk-release/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

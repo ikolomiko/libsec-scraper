@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.karim</groupId>
+  <artifactId>materialtabs</artifactId>
+  <version>2.0.5</version>
+  <packaging>aar</packaging>
+  <name>MaterialTabs</name>
+  <description>Easy-to-integrate tab bar for Android with Material Design.</description>
+  <url>https://github.com/pizza/MaterialTabs.git</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pizza</id>
+      <name>Karim Frenn</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:pizza/MaterialTabs.git</connection>
+    <developerConnection>scm:git@github.com:pizza/MaterialTabs.git</developerConnection>
+    <url>https://github.com/pizza/MaterialTabs.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

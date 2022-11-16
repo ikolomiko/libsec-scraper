@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mauriciogiordano</groupId>
+  <artifactId>extendview</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Extend View</name>
+  <description>A simple way to extend a "ViewGroup" in your XML layout.</description>
+  <url>https://github.com/mauriciogior/ExtendView</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, VERSION 2</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mauriciogior</id>
+      <name>Mauricio Giordano</name>
+      <email>mauricio.c.giordano@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/mauriciogior/ExtendView.git</connection>
+    <url>https://github.com/mauriciogior/ExtendView</url>
+  </scm>
+</project>

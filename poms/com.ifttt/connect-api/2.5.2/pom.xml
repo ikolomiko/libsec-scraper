@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ifttt</groupId>
+  <artifactId>connect-api</artifactId>
+  <version>2.5.2</version>
+  <packaging>aar</packaging>
+  <name>connect-api</name>
+  <description>Connect API integration for Connect Button and Connect Location.</description>
+  <url>https://github.com/IFTTT/ConnectSDK-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/IFTTT/ConnectSDK-Android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lzanita09</id>
+      <name>Zhe Lu</name>
+      <email>zhe@ifttt.com</email>
+    </developer>
+    <developer>
+      <id>priyaashah</id>
+      <name>Priya Shah</name>
+      <email>priya@ifttt.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/IFTTT/ConnectSDK-Android.git</connection>
+    <developerConnection>https://github.com/IFTTT/ConnectSDK-Android.git</developerConnection>
+    <url>https://github.com/IFTTT/ConnectSDK-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-moshi</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-adapters</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

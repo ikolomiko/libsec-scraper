@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.percolate</groupId>
+  <artifactId>caffeine</artifactId>
+  <version>0.3.3</version>
+  <packaging>aar</packaging>
+  <name>Android Caffeine Library</name>
+  <description>Speed up your Android development - A collection of utility classes that help make Android development faster and safer</description>
+  <url>https://github.com/percolate/caffeine</url>
+  <licenses>
+    <license>
+      <name>BSD 3 License</name>
+      <url>https://raw.githubusercontent.com/percolate/caffeine/master/license.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>brentwatson</id>
+      <name>Brent Watson</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/percolate/caffeine.git</connection>
+    <developerConnection>https://github.com/percolate/caffeine.git</developerConnection>
+    <url>https://github.com/percolate/caffeine.git</url>
+  </scm>
+</project>

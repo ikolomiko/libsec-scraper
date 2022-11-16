@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cleveroad</groupId>
+  <artifactId>fireworkypulltorefresh</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Fireworky Pull To Refresh</name>
+  <description>Pull to refresh layout for Android with fireworks animation</description>
+  <url>https://github.com/Cleveroad/FireworkyPullToRefresh</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cleveroad</id>
+      <name>Cleveroad</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Cleveroad/FireworkyPullToRefresh.git</connection>
+    <developerConnection>scm:git@github.com:Cleveroad/FireworkyPullToRefresh.git</developerConnection>
+    <url>https://github.com/Cleveroad/FireworkyPullToRefresh</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

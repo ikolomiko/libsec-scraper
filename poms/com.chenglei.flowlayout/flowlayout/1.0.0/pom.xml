@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chenglei.flowlayout</groupId>
+  <artifactId>flowlayout</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android BounceProgressBar Widget</name>
+  <url>https://github.com/wsclwps123/Flowlayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wsclwps123</id>
+      <name>Chenglei</name>
+      <email>1241616455@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wsclwps123/Flowlayout</connection>
+    <developerConnection>https://github.com/wsclwps123/Flowlayout</developerConnection>
+    <url>https://github.com/wsclwps123/Flowlayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

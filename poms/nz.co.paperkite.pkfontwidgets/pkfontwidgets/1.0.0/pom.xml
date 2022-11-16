@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nz.co.paperkite.pkfontwidgets</groupId>
+  <artifactId>pkfontwidgets</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PaperkiteCustomFonts</name>
+  <description>An Android library which enables custom font use in text widgets.</description>
+  <developers>
+    <developer>
+      <id>jerry</id>
+      <name>Jeruel Fernandes</name>
+      <email>jerry@paperkite.co.nz</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

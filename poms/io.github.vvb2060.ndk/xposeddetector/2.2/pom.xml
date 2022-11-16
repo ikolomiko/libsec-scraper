@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.vvb2060.ndk</groupId>
+  <artifactId>xposeddetector</artifactId>
+  <version>2.2</version>
+  <packaging>aar</packaging>
+  <name>Xposed Detector</name>
+  <description>static library prefab to detect xposed and clear hooks.</description>
+  <url>https://github.com/vvb2060/XposedDetector</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>vvb2060</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/vvb2060/XposedDetector.git</connection>
+    <url>https://github.com/vvb2060/XposedDetector</url>
+  </scm>
+</project>

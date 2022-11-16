@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.livx</groupId>
+  <artifactId>liv-image-picker</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Liv Image Picker</name>
+  <description>Allow for easy and optimized image picking through camera or gallery.</description>
+  <url>https://github.com/limitlessvirtual/LivImagePicker-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mitchdart</id>
+      <name>Mitch Dart</name>
+      <email>mitch@limitlessvirtual.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/limitlessvirtual/LivImagePicker-Android.git</connection>
+    <developerConnection>https://github.com/limitlessvirtual/LivImagePicker-Android.git</developerConnection>
+    <url>https://github.com/limitlessvirtual/LivImagePicker-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

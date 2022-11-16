@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cuneytayyildiz</groupId>
+  <artifactId>dynamiclayout-library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>DynamicLayout</name>
+  <description>A library which inflates custom layouts to indicate: show progress while loading content, show an exception or even a custom view.</description>
+  <url>https://github.com/Swisyn/DynamicLayout</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>swisyn</id>
+      <name>Cuneyt AYYILDIZ</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Swisyn/DynamicLayout.git</connection>
+    <developerConnection>scm:git@github.com:Swisyn/DynamicLayout.git</developerConnection>
+    <url>https://github.com/Swisyn/DynamicLayout</url>
+  </scm>
+</project>

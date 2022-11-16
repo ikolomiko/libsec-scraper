@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.romellfudi.ussdlibrary</groupId>
+  <artifactId>kotlin-ussd-library</artifactId>
+  <version>1.1.k</version>
+  <packaging>aar</packaging>
+  <name>VoIpUSSD</name>
+  <description>Android library To comunicate with ussd display</description>
+  <url>https://romellfudi.github.io/VoIpUSSD</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>romellfudi</id>
+      <name>Romell Dominguez</name>
+      <email>romllz489@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/romellfudi/VoIpUSSD.git</connection>
+    <developerConnection>https://github.com/romellfudi/VoIpUSSD.git</developerConnection>
+    <url>https://romellfudi.github.io/VoIpUSSD</url>
+  </scm>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pandaos</groupId>
+  <artifactId>bamboo360player</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>bamboo360player</name>
+  <description>The Bamboo VR player SDK for Android. Use this library to embed a 360 video player in your app.</description>
+  <url>https://bitbucket.org/pandaos/bamboo-360-player-android</url>
+  <licenses>
+    <license>
+      <name>GPL 3.0</name>
+      <url>http://www.opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>orenk86</id>
+      <name>Oren Kosto</name>
+      <email>oren@panda-os.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/pandaos/bamboo-360-player-android.git</connection>
+    <developerConnection>https://bitbucket.org/pandaos/bamboo-360-player-android.git</developerConnection>
+    <url>https://bitbucket.org/pandaos/bamboo-360-player-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pandaos</groupId>
+      <artifactId>bambooplayer</artifactId>
+      <version>0.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.vr</groupId>
+      <artifactId>sdk-videowidget</artifactId>
+      <version>1.40.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

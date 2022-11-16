@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xujl</groupId>
+  <artifactId>task</artifactId>
+  <version>0.0.1-alpha</version>
+  <packaging>aar</packaging>
+  <name>Android Handler Library</name>
+  <url>https://github.com/AcgnCodeMonkey/RxTask</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>597355068</id>
+      <name>xujl</name>
+      <email>597355068@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AcgnCodeMonkey/RxTask</connection>
+    <developerConnection>https://github.com/AcgnCodeMonkey/RxTask</developerConnection>
+    <url>https://github.com/AcgnCodeMonkey/RxTask</url>
+  </scm>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vip.okfood</groupId>
+  <artifactId>auth</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>M Permission Easy Handle</name>
+  <url>https://github.com/Leo0618/SplashAuth</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Leo0618</id>
+      <name>Leo</name>
+      <email>leo0618@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Leo0618/SplashAuth.git</connection>
+    <developerConnection>https://github.com/Leo0618/SplashAuth.git</developerConnection>
+    <url>https://github.com/Leo0618/SplashAuth</url>
+  </scm>
+</project>

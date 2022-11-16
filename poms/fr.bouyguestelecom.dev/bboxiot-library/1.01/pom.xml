@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.bouyguestelecom.dev</groupId>
+  <artifactId>bboxiot-library</artifactId>
+  <version>1.01</version>
+  <packaging>aar</packaging>
+  <name>bboxiot-library</name>
+  <description>API interface / wrapper for BboxIoT</description>
+  <url>https://github.com/BboxLab/bboxiot-library</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/BboxLab/bboxiot-library/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>akinaru</id>
+      <name>Bertrand Martel</name>
+      <email>kiruazoldik92@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BboxLab/bboxiot-library.git</connection>
+    <developerConnection>https://github.com/BboxLab/bboxiot-library.git</developerConnection>
+    <url>https://github.com/BboxLab/bboxiot-library</url>
+  </scm>
+</project>

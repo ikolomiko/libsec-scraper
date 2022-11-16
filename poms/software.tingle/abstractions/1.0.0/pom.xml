@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>software.tingle</groupId>
+  <artifactId>abstractions</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>abstractions</name>
+  <description>An abstract API client library build on top of Okhttp library to ease the process of making various server request</description>
+  <url>https://github.com/tinglesoftware/kotlin-apiclients</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/tinglesoftware/kotlin-apiclients/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tingle-software</id>
+      <name>Tingle Software</name>
+      <email>info@tingle.software</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/tinglesoftware/kotlin-apiclients</connection>
+    <developerConnection>scm:git:ssh://github.com/tinglesoftware/kotlin-apiclients.git</developerConnection>
+    <url>https://github.com/tinglesoftware/kotlin-apiclients</url>
+  </scm>
+</project>

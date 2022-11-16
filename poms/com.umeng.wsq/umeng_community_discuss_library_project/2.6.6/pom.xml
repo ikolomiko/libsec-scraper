@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.umeng.wsq</groupId>
+  <artifactId>umeng_community_discuss_library_project</artifactId>
+  <version>2.6.6</version>
+  <packaging>aar</packaging>
+  <name>umengdiscuss</name>
+  <description>A wrapper for Facebook Native Like Button (LikeView) on Android</description>
+  <url>https://github.com/umeng/community_discuss</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mymdeep</id>
+      <name>wangfei</name>
+      <email>mymdeep@vip.qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/umeng/community_discuss.git</connection>
+    <developerConnection>https://github.com/umeng/community_discuss.git</developerConnection>
+    <url>https://github.com/umeng/community_discuss</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

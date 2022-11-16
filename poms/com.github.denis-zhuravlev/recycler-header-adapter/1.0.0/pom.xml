@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.denis-zhuravlev</groupId>
+  <artifactId>recycler-header-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>RecyclerHeaderAdapter</name>
+  <description>A simple adapter for RecyclerView that allows you to add header.</description>
+  <url>https://github.com/denis-zhuravlev/RecyclerHeaderAdapter</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>denis-zhuravlev</id>
+      <name>Denis Zhuravlev</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:denis-zhuravlev/RecyclerHeaderAdapter.git</connection>
+    <developerConnection>scm:git@github.com:denis-zhuravlev/RecyclerHeaderAdapter.git</developerConnection>
+    <url>https://github.com/denis-zhuravlev/RecyclerHeaderAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

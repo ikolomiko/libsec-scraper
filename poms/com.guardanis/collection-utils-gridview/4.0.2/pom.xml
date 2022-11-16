@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.guardanis</groupId>
+  <artifactId>collection-utils-gridview</artifactId>
+  <version>4.0.2</version>
+  <packaging>aar</packaging>
+  <name>collection-utils-gridview</name>
+  <description>An assortment of modularized additives for collection-based layouts (GridView components)</description>
+  <url>https://github.com/mattsilber/collection-utils</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mattsilber</id>
+      <name>Matt Silber</name>
+      <email>matt@guardanis.com</email>
+      <organization>Guardanis</organization>
+      <organizationUrl>https://guardanis.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:mattsilber/collection-utils.git</connection>
+    <developerConnection>scm:git:ssh://github.com:mattsilber/collection-utils.git</developerConnection>
+    <url>https://github.com/mattsilber/collection-utils.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.guardanis</groupId>
+      <artifactId>collection-utils-core</artifactId>
+      <version>4.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

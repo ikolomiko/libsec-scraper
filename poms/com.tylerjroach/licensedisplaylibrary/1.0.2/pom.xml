@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tylerjroach</groupId>
+  <artifactId>licensedisplaylibrary</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>AndroidOpenSourceLicenseDisplay</name>
+  <description>A simple library to display open source licenses used in your Android app</description>
+  <url>https://github.com/tylerjroach/AndroidOpenSourceLicenseDisplay</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tylerjroach</id>
+      <name>Tyler Roach</name>
+      <email>tylerjroach@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tylerjroach/AndroidOpenSourceLicenseDisplay.git</connection>
+    <developerConnection>https://github.com/tylerjroach/AndroidOpenSourceLicenseDisplay.git</developerConnection>
+    <url>https://github.com/tylerjroach/AndroidOpenSourceLicenseDisplay</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

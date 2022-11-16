@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ppy</groupId>
+  <artifactId>nfclib</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>NFCLib</name>
+  <description>This is NFC Lib between 4.3 and 4.4 above.</description>
+  <url>https://github.com/scauzhangpeng/NfcSample</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scauzhangpeng</id>
+      <name>scauzhangpeng</name>
+      <email>zhangpeng19930301@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/scauzhangpeng/NfcSample.git</connection>
+    <developerConnection>https://github.com/scauzhangpeng/NfcSample.git</developerConnection>
+    <url>https://github.com/scauzhangpeng/NfcSample</url>
+  </scm>
+</project>

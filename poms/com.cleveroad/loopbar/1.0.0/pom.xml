@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cleveroad</groupId>
+  <artifactId>loopbar</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>LoopBar -- Tab Bar with Infinite Scrolling</name>
+  <description>At Cleveroad weâve recently come to realize that navigation through categories in an app using nothing but a navigation panel is pretty boring and trivial. Thatâs why, armed with our designerâs creativity, we introduce you our new component for Android-based applications -- LoopBar. The idea was to make the navigation menu right at fingerprints, in a tab bar. What's more the view has a few specific features that make it stand out from the crowd of similar ones. So, try out the LoopBar library in your app and youâll see the difference.</description>
+  <url>https://github.com/Cleveroad/LoopBar</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cleveroad</id>
+      <name>Cleveroad</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Cleveroad/LoopBar.git</connection>
+    <developerConnection>scm:git@github.com:Cleveroad/LoopBar.git</developerConnection>
+    <url>https://github.com/Cleveroad/LoopBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

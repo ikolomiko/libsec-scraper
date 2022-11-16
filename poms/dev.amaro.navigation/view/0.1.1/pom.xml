@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.amaro.navigation</groupId>
+  <artifactId>view</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <description>Allows to use Views as Screens in Android Navigation Component</description>
+  <name>View Navigation</name>
+  <url>https://github.com/RodrigoAmaroEng/view-navigation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RodrigoAmaroEng</id>
+      <name>Rodrigo Amaro</name>
+      <email>rodrigo@amaro.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/RodrigoAmaroEng/view-navigation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-ui-ktx</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-runtime-ktx</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.20</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.20</version>
+    </dependency>
+  </dependencies>
+</project>

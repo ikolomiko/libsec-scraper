@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.simpligility.maven.plugins</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<version>4.1.0</version>
+				<extensions>true</extensions>
+				<configuration>
+					<sign>
+						<debug>false</debug>
+					</sign>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.aliyun.ams</groupId>
+	<artifactId>alicloud-android-third-push</artifactId>
+	<version>3.1.0-only</version>
+	<packaging>aar</packaging>
+</project>

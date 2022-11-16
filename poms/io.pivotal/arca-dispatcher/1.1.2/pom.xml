@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.pivotal</groupId>
+  <artifactId>arca-dispatcher</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>Arca Android</name>
+  <description>A comprehensive framework for caching and displaying data.</description>
+  <url>https://github.com/cfmobile/arca-android</url>
+  <licenses>
+    <license>
+      <name>Modified BSD License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jwinters</id>
+      <name>Joshua Winters</name>
+      <email>jwinters@pivotal.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:cfmobile/arca-android.git</connection>
+    <developerConnection>scm:git:git@github.com:cfmobile/arca-android.git</developerConnection>
+    <url>git@github.com:cfmobile/arca-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.pivotal</groupId>
+      <artifactId>arca-utils</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.pivotal</groupId>
+      <artifactId>arca-broadcaster</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

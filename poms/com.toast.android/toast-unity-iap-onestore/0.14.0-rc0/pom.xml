@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.toast.android</groupId>
+  <artifactId>toast-unity-iap-onestore</artifactId>
+  <version>0.14.0-rc0</version>
+  <packaging>aar</packaging>
+  <name>toast-unity-iap-onestore</name>
+  <description>TOAST Android Unity Plugin IAP One Store Module</description>
+  <url>https://github.com/toast-sdk-for-publish/toast-android-sdk</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shhong</id>
+      <name>TOAST Client Team</name>
+      <email>shhong@nhnent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/toast-sdk-for-publish/toast-android-sdk.git</connection>
+    <developerConnection>https://github.com/toast-sdk-for-publish/toast-android-sdk.git</developerConnection>
+    <url>https://github.com/toast-sdk-for-publish/toast-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-iap-onestore</artifactId>
+      <version>0.14.0-rc0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-unity-iap-core</artifactId>
+      <version>0.14.0-rc0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.toast.android</groupId>
+      <artifactId>toast-unity-core</artifactId>
+      <version>0.14.0-rc0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.chatsdk.chatsdk</groupId>
+  <artifactId>chat-sdk-firebase-adapter</artifactId>
+  <version>4.0.0</version>
+  <packaging>aar</packaging>
+  <name>ChatSDKFirebaseAdapter</name>
+  <description>Chat SDK Firebase Adapter</description>
+  <url>https://chatsdk.co</url>
+  <licenses>
+    <license>
+      <name>Chat SDK License</name>
+      <url>https://chatsdk.co/chat-sdk-license/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bensmiley</id>
+      <name>Ben Smiley Andrews</name>
+      <email>ben@chatsdk.co</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/chat-sdk/chat-sdk-android.git</connection>
+    <developerConnection>https://github.com/chat-sdk/chat-sdk-android.git</developerConnection>
+    <url>https://chatsdk.co</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>11.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-database</artifactId>
+      <version>11.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-storage</artifactId>
+      <version>11.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-auth</artifactId>
+      <version>11.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>co.chatsdk.chatsdk</groupId>
+      <artifactId>chat-sdk-core</artifactId>
+      <version>4.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

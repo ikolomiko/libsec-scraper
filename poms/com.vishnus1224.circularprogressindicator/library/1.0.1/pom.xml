@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vishnus1224.circularprogressindicator</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>CircularProgressIndicator</name>
+  <description>Displays the progress in a circle with animation along with the progress percentage.</description>
+  <url>https://github.com/vishnus1224/CircularProgressIndicator</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vishnus1224</id>
+      <name>Vishnu Shirodker</name>
+      <email>vishnus1224@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/vishnus1224/CircularProgressIndicator.git</connection>
+    <developerConnection>https://github.com/vishnus1224/CircularProgressIndicator.git</developerConnection>
+    <url>https://github.com/vishnus1224/CircularProgressIndicator</url>
+  </scm>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wang.leal.agm</groupId>
+  <artifactId>webrtc</artifactId>
+  <version>1.0.28296</version>
+  <packaging>aar</packaging>
+  <name>webrtc</name>
+  <description>The webrtc library base on 28296.</description>
+  <url>https://github.com/wangleal/AGM</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wangleal</id>
+      <name>wangleal</name>
+      <email>wangleal.oss@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wangleal/AGM.git</connection>
+    <developerConnection>https://github.com/wangleal/AGM.git</developerConnection>
+    <url>https://github.com/wangleal/AGM</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.johnkil.android-robototextview</groupId>
+  <artifactId>robototextview</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>RobotoTextView</name>
+  <description>Implementation of the fragment with the ability to display indeterminate progress indicator when you are waiting for the initial dataImplementation of a TextView and all its direct/indirect subclasses with native support for the Roboto fonts, includes the brand new Roboto Slab and Roboto Mono fonts.</description>
+  <url>https://github.com/johnkil/Android-RobotoTextView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>johnkil</id>
+      <name>Evgeny Shishkin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:johnkil/Android-RobotoTextView.git</connection>
+    <developerConnection>scm:git@github.com:johnkil/Android-RobotoTextView.git</developerConnection>
+    <url>https://github.com/johnkil/Android-RobotoTextView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

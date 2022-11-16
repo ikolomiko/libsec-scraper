@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.parse</groupId>
+  <artifactId>parse-livequery-android</artifactId>
+  <version>1.0.0</version>
+  <name>Parse-LiveQuery-Android</name>
+  <description>A library that gives you access to the powerful Parse cloud platform from your Android app.</description>
+  <url>https://github.com/ParsePlatform/ParseLiveQuery-Android</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/ParsePlatform/ParseLiveQuery-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>parse</id>
+      <name>Parse</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ParsePlatform/ParseLiveQuery-Android.git</connection>
+    <developerConnection>scm:git@github.com:ParsePlatform/ParseLiveQuery-Android.git</developerConnection>
+    <url>https://github.com/ParsePlatform/ParseLiveQuery-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.parse</groupId>
+      <artifactId>parse-android</artifactId>
+      <version>1.13.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>tubesock</artifactId>
+      <version>0.0.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+      <artifactId>bolts-tasks</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

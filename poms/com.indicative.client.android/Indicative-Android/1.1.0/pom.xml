@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.indicative.client.android</groupId>
+  <artifactId>Indicative-Android</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Indicative-Android</name>
+  <description>Android client for Indicative's REST API</description>
+  <url>https://github.com/Indicative/Indicative-Android</url>
+  <licenses>
+    <license>
+      <name>Simplified BSD License</name>
+      <url>https://github.com/Indicative/Indicative-Android/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+      <comments>2-clause BSD License, aka the FreeBSD License. See LICENSE.txt</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andrewbeale</id>
+      <name>Andrew Beale</name>
+      <email>andrew.beale@indicative.com</email>
+    </developer>
+    <developer>
+      <id>jackiebenowitz</id>
+      <name>Jackie Benowitz</name>
+      <email>jackie@indicative.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Indicative/Indicative-Android.git</connection>
+    <developerConnection>scm:git:https://bealeindicative@github.com/Indicative/Indicative-Android.git</developerConnection>
+    <url>https://github.com/Indicative/Indicative-Android</url>
+  </scm>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.taobao.gcanvas.adapters</groupId>
+  <artifactId>img_fresco</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.taobao.gcanvas.adapters</groupId>
+      <artifactId>img</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+  <name>com.taobao.gcanvas.adapters:img_fresco</name>
+  <description>This package is the Fresco implemation of GCanvas image adapter.</description>
+  <url>https://g-platform.github.io</url>
+  <scm>
+    <url>https://github.com/alibaba/GCanvas</url>
+    <connection>scm:git:https://github.com/alibaba/GCanvas.git</connection>
+    <developerConnection>scm:git:git@github.com:alibaba/GCanvas.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ertong</name>
+      <email>soandky@gmail.com</email>
+      <organization>alibaba</organization>
+      <organizationUrl>https://www.alibaba.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>jwxbond</name>
+      <email>jwxbond@gmail.com</email>
+      <organization>alibaba</organization>
+      <organizationUrl>https://www.alibaba.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>sylonhu</name>
+      <organization>alibaba</organization>
+      <organizationUrl>https://www.alibaba.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>xieguanglei</name>
+      <email>xieguanglei@hotmail.com</email>
+      <organization>alibaba</organization>
+      <organizationUrl>https://www.alibaba.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>winter</name>
+      <organization>alibaba</organization>
+      <organizationUrl>https://www.alibaba.com/</organizationUrl>
+    </developer>
+  </developers>
+</project>

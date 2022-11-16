@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.bitbucket.yxin47</groupId>
+  <artifactId>face-ui</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>face-ui</name>
+  <description>face-ui</description>
+  <url>https://bitbucket.org/yxin47/shys-lib</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>yxin47</name>
+      <email>yanxinit@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:yxin47@bitbucket.org/yxin47/shys-lib.git</connection>
+    <developerConnection>scm:git:ssh://git@yxin47@bitbucket.org/yxin47/shys-lib.git</developerConnection>
+    <url>https://bitbucket.org/yxin47/shys-lib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.bitbucket.yxin47</groupId>
+      <artifactId>face-base</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

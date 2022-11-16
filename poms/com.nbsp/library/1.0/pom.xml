@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nbsp</groupId>
+  <artifactId>material-file-picker</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Material File Picker</name>
+  <description>File picker library in material design</description>
+  <url>https://github.com/nbsp-team/MaterialFilePicker</url>
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE Version 2</name>
+      <url>https://raw.githubusercontent.com/nbsp-team/MaterialFilePicker/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lukaville</id>
+      <name>Nickolay Chameev</name>
+      <email>lukaville@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nbsp-team/MaterialFilePicker</connection>
+    <developerConnection>https://github.com/nbsp-team/MaterialFilePicker</developerConnection>
+    <url>https://github.com/nbsp-team/MaterialFilePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

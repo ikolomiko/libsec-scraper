@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cloudipsp</groupId>
+  <artifactId>nfc</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>Cloud IPSP Client + NFC</name>
+  <description>Bridge library for NFC card reader for cloudipsp</description>
+  <url>https://github.com/cloudipsp/android-sdk-nfc</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cloudipsp</id>
+      <name>Maxim Kozenko &lt;max.dnu@gmail.com></name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:cloudipsp/android-sdk-nfc.git</connection>
+    <developerConnection>scm:git@github.com:cloudipsp/android-sdk-nfc.git</developerConnection>
+    <url>https://github.com/cloudipsp/android-sdk-nfc</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.cloudipsp</groupId>
+      <artifactId>android</artifactId>
+      <version>1.01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>9.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.devnied.emvnfccard</groupId>
+      <artifactId>library</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

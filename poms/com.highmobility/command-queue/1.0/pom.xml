@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.highmobility</groupId>
+  <artifactId>command-queue</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.highmobility</groupId>
+      <artifactId>hmkit-android</artifactId>
+      <version>2.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.highmobility</groupId>
+      <artifactId>hmkit-auto-api</artifactId>
+      <version>3.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+  </dependencies>
+</project>

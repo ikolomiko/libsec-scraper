@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.OneCodeLabs</groupId>
+  <artifactId>StickyGridHeaders</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>OneCodeLabs/StickyGridHeaders</name>
+  <description>Sticky headers Grid made easy</description>
+  <url>https://github.com/OneCodeLabs/StickyGridHeaders</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>OneCodeLabs</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/OneCodeLabs/StickyGridHeaders.git</connection>
+    <developerConnection>scm:git://github.com/OneCodeLabs/StickyGridHeaders.git</developerConnection>
+    <url>git://github.com/OneCodeLabs/StickyGridHeaders.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zellius</groupId>
+  <artifactId>rxlocationmanager</artifactId>
+  <version>v1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.zellius.rxlocationmanager</groupId>
+      <artifactId>rxlocationmanager</artifactId>
+      <version>v1.0.0</version>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.github.zellius.rxlocationmanager</groupId>
+      <artifactId>rxlocationmanager-rxjava2</artifactId>
+      <version>v1.0.0</version>
+      <type>aar</type>
+    </dependency>
+  </dependencies>
+</project>

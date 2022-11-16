@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rocketchat</groupId>
+  <artifactId>rocketchatsdk</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>RocketChatAndroidSDK</name>
+  <description>Native android library to integrate rocket.chat client functionality in any app</description>
+  <url>https://github.com/RocketChat/Rocket.Chat.Android.SDK</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sacOO7</id>
+      <name>Sachin Shinde</name>
+      <email>sachinshinde7676@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RocketChat/Rocket.Chat.Android.SDK.git</connection>
+    <developerConnection>https://github.com/RocketChat/Rocket.Chat.Android.SDK.git</developerConnection>
+    <url>https://github.com/RocketChat/Rocket.Chat.Android.SDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.stfalcon</groupId>
+      <artifactId>chatkit</artifactId>
+      <version>0.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.rocketchat</groupId>
+      <artifactId>rocketchatjavasdk</artifactId>
+      <version>0.3.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

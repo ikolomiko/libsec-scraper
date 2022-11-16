@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.instabug.library</groupId>
+  <artifactId>instabugabs</artifactId>
+  <version>1.2.9</version>
+  <packaging>aar</packaging>
+  <name>Instabug ActionBarSherlock Library</name>
+  <description>Instabug Android SDK: In-App feedback for mobile apps!</description>
+  <url>https://instabug.com</url>
+  <organization>
+    <name>Instabug</name>
+    <url>https://instabug.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://instabug.com/terms</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>instabug</id>
+      <name>Instabug</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://instabug.com</connection>
+    <developerConnection>https://instabug.com</developerConnection>
+    <url>https://instabug.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>[21,)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.instabug.library</groupId>
+      <artifactId>instabugcore</artifactId>
+      <version>1.2.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.actionbarsherlock</groupId>
+      <artifactId>actionbarsherlock</artifactId>
+      <version>4.4.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

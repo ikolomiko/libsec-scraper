@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.songhang</groupId>
+  <artifactId>smart-headerfooter-recyclerview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>smart-headerfooter-recyclerview</name>
+  <description>Easy implements Header &amp; Footer view, Support LinerLayoutManagerãGridLayoutManagerãStaggeredLayoutManager, With least modify!</description>
+  <url>https://github.com/songhanghang/Smart-HeaderFooter-RecyclerView</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>songhanghang</id>
+      <name>songhang</name>
+      <email>yktx2013@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/songhanghang/Smart-HeaderFooter-RecyclerView.git</connection>
+    <url>https://github.com/songhanghang/Smart-HeaderFooter-RecyclerView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hk.advanpro.android</groupId>
+  <artifactId>advanpro-core-android</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>advanpro-core-android</name>
+  <description>The advanpro mobile sdk for Android</description>
+  <url>https://git.advanpro.cn/app/advanpro-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Private</name>
+      <url>https://git.advanpro.cn/app/advanpro-sdk-android</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yejianfei</id>
+      <name>Ye Jianfei</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git.advanpro.cn:app/advanpro-sdk-android.git</connection>
+    <developerConnection>scm:git@git.advanpro.cn:app/advanpro-sdk-android.git</developerConnection>
+    <url>https://git.advanpro.cn/app/advanpro-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.36</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.conviva.sdk</groupId>
+  <artifactId>conviva-exoplayer-sdk</artifactId>
+  <version>4.0.9.73</version>
+  <packaging>aar</packaging>
+  <name>conviva-exoplayer-sdk</name>
+  <description>Conviva official Exoplayer plugin</description>
+  <url>https://github.com/Conviva/conviva-android-exoplayer</url>
+  <licenses>
+    <license>
+      <name>Sdk License</name>
+      <url>https://github.com/Conviva/conviva-sdk-license/blob/main/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sramakri</id>
+      <name>Siva Ramakrishna</name>
+      <email>sramakri@conviva.com</email>
+    </developer>
+    <developer>
+      <id>shikjain</id>
+      <name>Shikhar Jain</name>
+      <email>shikjain@conviva.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Conviva/conviva-android-exoplayer.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Conviva/conviva-android-exoplayer.git</developerConnection>
+    <url>https://github.com:Conviva/conviva-android-exoplayer/tree/main</url>
+  </scm>
+</project>

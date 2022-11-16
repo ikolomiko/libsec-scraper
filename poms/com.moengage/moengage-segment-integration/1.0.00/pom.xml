@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.moengage</groupId>
+  <artifactId>moengage-segment-integration</artifactId>
+  <version>1.0.00</version>
+  <packaging>aar</packaging>
+  <name>MoEngage Segment Integration</name>
+  <description>MoEngage Integration for Segment Android Analytics</description>
+  <url>http://github.com/moengage/Segment-Integration.git</url>
+  <licenses>
+    <license>
+      <name>MoEngage Platform Licence</name>
+      <url>http://moengage.com/static/licenses/license.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>moengage</id>
+      <name>MoEngage</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/moengage/Segment-Integration.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/moengage/Segment-Integration.git</developerConnection>
+    <url>http://github.com/moengage/Segment-Integration.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.moengage</groupId>
+      <artifactId>moe-android-sdk</artifactId>
+      <version>6.0.29</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

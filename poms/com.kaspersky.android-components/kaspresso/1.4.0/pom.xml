@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kaspersky.android-components</groupId>
+  <artifactId>kaspresso</artifactId>
+  <version>1.4.0</version>
+  <packaging>aar</packaging>
+  <name>Kaspresso</name>
+  <description>Android framework for UI testing</description>
+  <url>https://github.com/KasperskyLab/Kaspresso</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/KasperskyLab/Kaspresso/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>matzuk</id>
+      <name>Eugene Matsyuk</name>
+      <url>https://github.com/matzuk</url>
+    </developer>
+    <developer>
+      <id>eakurnikov</id>
+      <name>Egor Kurnikov</name>
+      <url>https://github.com/eakurnikov</url>
+    </developer>
+    <developer>
+      <id>RuslanMingaliev</id>
+      <name>Ruslan Mingaliev</name>
+      <url>https://github.com/RuslanMingaliev</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/KasperskyLab/Kaspresso</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.kaspersky.android-components</groupId>
+      <artifactId>kautomator</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.kakaocup</groupId>
+      <artifactId>kakao</artifactId>
+      <version>3.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.espresso</groupId>
+      <artifactId>espresso-core</artifactId>
+      <version>3.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.espresso</groupId>
+      <artifactId>espresso-web</artifactId>
+      <version>3.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.uiautomator</groupId>
+      <artifactId>uiautomator</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>rules</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kaspersky.android-components</groupId>
+      <artifactId>adb-server-device</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

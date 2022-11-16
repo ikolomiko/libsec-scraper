@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>me.actv8.core</groupId>
+	<artifactId>actv8-ui</artifactId>
+	<version>2.0</version>  
+	<packaging>aar</packaging>
+	
+	<name>Actv8 UI Framework</name>
+	<description>The ACTV8 UI Framework is collection of classes and layouts that integregrate the ACTV8 SDK in components that can be utilized by users in new or existing applications.</description>
+	<url>http://dev.actv8me.com/</url>
+	
+	<licenses>
+		<license>
+			<name>Terms of Use for the ACTV8 SDK</name>
+			<url>http://dev.actv8me.com/terms/</url>
+		</license>
+	</licenses>
+	
+	<developers>
+		<developer>
+			<name>Adson Afonso</name>
+			<organization>Actv8</organization>
+		</developer>
+		<developer>
+			<name>Matthew Greigo</name>
+			<organization>Actv8</organization>
+		</developer>
+	</developers>
+	
+	<scm>
+		<connection>scm:git:git@github.com/ACTV8meInc/sdk_bin_android.git</connection>
+		<developerConnection>scm:git:git@github.com/ACTV8meInc/sdk_bin_android.git</developerConnection>
+		<url>git@github.com/ACTV8meInc/sdk_bin_android</url>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.simpligility.maven.plugins</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<version>4.1.0</version>
+
+				<extensions>true</extensions>         
+				<configuration>
+					<sign>
+						<debug>false</debug>
+					</sign>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+</project>

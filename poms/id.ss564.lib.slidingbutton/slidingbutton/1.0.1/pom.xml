@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>id.ss564.lib.slidingbutton</groupId>
+  <artifactId>slidingbutton</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>oss</name>
+  <description>Sliding button library for Android</description>
+  <url>https://github.com/Source-Set-564/SlidingButton</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>name</id>
+      <name>Anwar</name>
+    </developer>
+    <developer>
+      <id>email</id>
+      <name>kedai564@gmail.com</name>
+    </developer>
+    <developer>
+      <id>organization</id>
+      <name>Source Set 564</name>
+    </developer>
+    <developer>
+      <id>organizationUrl</id>
+      <name>https://github.com/Source-Set-564</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Source-Set-564/SlidingButton.git</connection>
+    <developerConnection>https://github.com/Source-Set-564/SlidingButton.git</developerConnection>
+    <url>https://github.com/Source-Set-564/SlidingButton</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.71</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.71</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

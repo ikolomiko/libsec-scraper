@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.codewaves.stickyheadergrid</groupId>
+  <artifactId>stickyheadergrid</artifactId>
+  <version>0.9.7</version>
+  <packaging>aar</packaging>
+  <name>Sticky-Header-Grid</name>
+  <description>Sticky header grid layout manager for RecycleView</description>
+  <url>https://github.com/Codewaves/Sticky-Header-Grid</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>codewaves</id>
+      <name>Sergej Kravcenko</name>
+      <email>skravcenko@codewaves.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Codewaves/Sticky-Header-Grid.git</connection>
+    <developerConnection>https://github.com/Codewaves/Sticky-Header-Grid.git</developerConnection>
+    <url>https://github.com/Codewaves/Sticky-Header-Grid</url>
+  </scm>
+</project>

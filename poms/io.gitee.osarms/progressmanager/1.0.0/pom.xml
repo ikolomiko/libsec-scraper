@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.gitee.osarms</groupId>
+  <artifactId>progressmanager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>progressmanager</name>
+  <description>Listen the progress of downloading and uploading in Okhttp (compatible Retrofit and Glide).</description>
+  <url>https://gitee.com/com_project/ProgressManager</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hanyang</id>
+      <name>hanyang</name>
+      <email>598588152@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://gitee.com/com_project/ProgressManager</connection>
+    <developerConnection>scm:git:https://gitee.com/com_project/ProgressManager</developerConnection>
+    <url>https://gitee.com/com_project/ProgressManager</url>
+  </scm>
+  <dependencies/>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.dalwadi2</groupId>
+  <artifactId>retrofit-retry</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>RetrofitRetry</name>
+  <description>Network library which helps to apply Retry Policy using Retrofit2</description>
+  <url>https://github.com/dalwadi2/RetrofitRetry</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dalwadi2</id>
+      <name>Harsh Dalwadi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:dalwadi2/RetrofitRetry.git</connection>
+    <developerConnection>scm:git@github.com:dalwadi2/RetrofitRetry.git</developerConnection>
+    <url>https://github.com/dalwadi2/RetrofitRetry.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

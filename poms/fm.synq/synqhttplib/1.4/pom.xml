@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fm.synq</groupId>
+  <artifactId>synqhttplib</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>synqhttplib</name>
+  <description>A library for interacting with the example Node server</description>
+  <url>https://github.com/SYNQfm/SYNQ-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kjartan</id>
+      <name>Kjartan Vestvik</name>
+      <email>kjartan@synq.fm</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SYNQfm/SYNQ-Android.git</connection>
+    <developerConnection>https://github.com/SYNQfm/SYNQ-Android.git</developerConnection>
+    <url>https://github.com/SYNQfm/SYNQ-Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.koushikdutta.ion</groupId>
+      <artifactId>ion</artifactId>
+      <version>2.1.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

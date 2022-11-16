@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pbq</groupId>
+  <artifactId>PickerLib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PickerLib For Android</name>
+  <description>The Android build the framework of the photo.</description>
+  <url>https://github.com/pbq18785109289/PhotoMedia-master</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pbq</id>
+      <name>pbq</name>
+      <email>870931145@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pbq18785109289/PhotoMedia-master.git</connection>
+    <developerConnection>https://github.com/pbq18785109289/PhotoMedia-master.git</developerConnection>
+    <url>https://github.com/pbq18785109289/PhotoMedia-master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

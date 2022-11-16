@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shenhua.libs</groupId>
+  <artifactId>sensocket-tcp</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <description>Sen Socket Client TCP protocol for Android develop.</description>
+  <url>https://github.com/shenhuanet/SenSocketClient</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License,Version 2.0</name>
+      <url>http://www.apache.org/liscenses/LICENSE-2.0.txt</url>
+      <distribution>["Apache-2.0"]</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shenhuanet</id>
+      <name>shenhuanet</name>
+      <email>shenhuanet@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/shenhuanet/SenSocketClient.git</connection>
+    <developerConnection>https://github.com/shenhuanet/SenSocketClient.git</developerConnection>
+    <url>https://github.com/shenhuanet/SenSocketClient</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.shenhua.libs</groupId>
+      <artifactId>sensocket-core</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

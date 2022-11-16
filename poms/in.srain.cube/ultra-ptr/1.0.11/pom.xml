@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.srain.cube</groupId>
+  <artifactId>ultra-ptr</artifactId>
+  <version>1.0.11</version>
+  <packaging>aar</packaging>
+  <name>Android Ultra Pull to Refresh</name>
+  <description>Ultra Pull to Refresh Solution.</description>
+  <url>https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liaohuqiu</id>
+      <name>liaohuqiu</name>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git</connection>
+    <developerConnection>scm:https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh.git</developerConnection>
+    <url>https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh</url>
+  </scm>
+</project>

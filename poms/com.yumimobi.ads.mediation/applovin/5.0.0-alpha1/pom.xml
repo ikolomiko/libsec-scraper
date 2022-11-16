@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yumimobi.ads.mediation</groupId>
+  <artifactId>applovin</artifactId>
+  <version>5.0.0-alpha1</version>
+  <packaging>aar</packaging>
+  <name>applovin</name>
+  <description>Yumi Mediation Applovin Adapter</description>
+  <url>https://www.applovin.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Yumimobi</id>
+      <name>Yumimobi SDK Team</name>
+      <email>ad-client@zplay.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://www.applovin.com/</connection>
+    <developerConnection>https://www.applovin.com/</developerConnection>
+    <url>https://www.applovin.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.applovin</groupId>
+      <artifactId>applovin-sdk</artifactId>
+      <version>9.12.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yumimobi.ads</groupId>
+      <artifactId>mediation</artifactId>
+      <version>5.0.0-alpha1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

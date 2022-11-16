@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alipay.iap</groupId>
+  <artifactId>payment-code-widget</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>payment-code-widget</name>
+  <description>A lightweight library provides UI widgets to display payment code in mobile applications. The dimension of the payment code is optimal and scanner-friendly.</description>
+  <url>https://github.com/alipay/payment-code-widget</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/alipay/payment-code-widget/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qichuan</id>
+      <name>Zhang Qichuan</name>
+      <email>qichuan@zhangqichuan.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:alipay/payment-code-widget.git</connection>
+    <developerConnection>git@github.com:alipay/payment-code-widget.git</developerConnection>
+    <url>https://github.com/alipay/payment-code-widget</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

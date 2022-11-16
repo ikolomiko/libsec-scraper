@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uk.co.gadget_channel</groupId>
+  <artifactId>interactivewatchfacelib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>InteractiveWatchfaceLib</name>
+  <description>Library to make it wasier to create interactive Android Wear watchfaces, with multiple screens and hotspots.</description>
+  <url>https://bitbucket.org/gadgetchannel/interactivewatchfacelib</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gadgetchannel</id>
+      <name>Steven Rollason</name>
+      <email>srollason@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/gadgetchannel/interactivewatchfacelib.git</connection>
+    <developerConnection>https://bitbucket.org/gadgetchannel/interactivewatchfacelib.git</developerConnection>
+    <url>https://bitbucket.org/gadgetchannel/interactivewatchfacelib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.support</groupId>
+      <artifactId>wearable</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0-rc2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wearable</artifactId>
+      <version>7.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

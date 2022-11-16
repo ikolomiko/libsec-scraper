@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.havenondemand</groupId>
+  <artifactId>hodclient</artifactId>
+  <version>2.2</version>
+  <packaging>aar</packaging>
+  <name>HODClient</name>
+  <description>A wrapper for easy access to over 70 APIs from HPE HavenOnDemand platform on Android</description>
+  <url>https://www.havenondemand.com</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>PV</id>
+      <name>Phong Vu</name>
+      <email>phong.vu@hpe.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HPE-Haven-OnDemand/havenondemand-android.git</connection>
+    <developerConnection>https://github.com/HPE-Haven-OnDemand/havenondemand-android.git</developerConnection>
+    <url>https://www.havenondemand.com</url>
+  </scm>
+</project>

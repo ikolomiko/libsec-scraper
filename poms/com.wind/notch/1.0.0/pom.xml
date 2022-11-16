@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wind</groupId>
+  <artifactId>notch</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>notch-adapter</name>
+  <description>adapter notch</description>
+  <url>https://github.com/yqyzxd/ui-notch</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>yqyzxd</name>
+      <email>shihaowind@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yqyzxd/ui-notch.git</connection>
+    <url>https://github.com/yqyzxd/ui-notch</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ui-notch</groupId>
+      <artifactId>rom-detector</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

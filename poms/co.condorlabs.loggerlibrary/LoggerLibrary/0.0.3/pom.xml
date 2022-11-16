@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.condorlabs.loggerlibrary</groupId>
+  <artifactId>LoggerLibrary</artifactId>
+  <version>0.0.3</version>
+  <packaging>aar</packaging>
+  <name>LoggerLibrary</name>
+  <description>Implement different log services with the same interface.</description>
+  <url>https://github.com/feguerrero/loggerLibrary</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>condorlabs</id>
+      <name>Felipe Guerrero</name>
+      <email>ferazo@condorlabs.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/feguerrero/loggerLibrary.git</connection>
+    <developerConnection>https://github.com/feguerrero/loggerLibrary.git</developerConnection>
+    <url>https://github.com/feguerrero/loggerLibrary</url>
+  </scm>
+</project>

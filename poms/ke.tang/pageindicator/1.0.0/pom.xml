@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ke.tang</groupId>
+  <artifactId>pageindicator</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PageIndicator</name>
+  <description>A PageIndicator widget like metieral design for android</description>
+  <url>http://github.com/TangKe/PageIndicator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tangke</id>
+      <name>Tang Ke</name>
+      <email>tang.ke@me.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://github.com/TangKe/PageIndicator.git</connection>
+    <developerConnection>http://github.com/TangKe/PageIndicator.git</developerConnection>
+    <url>http://github.com/TangKe/PageIndicator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ke.tang</groupId>
+      <artifactId>tab</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

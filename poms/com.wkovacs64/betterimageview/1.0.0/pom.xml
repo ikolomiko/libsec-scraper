@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wkovacs64</groupId>
+  <artifactId>betterimageview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>BetterImageView</name>
+  <description>A better ImageView widget which backports adjustViewBounds behavior and supports foreground drawables.</description>
+  <url>https://github.com/wKovacs64/BetterImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wKovacs64</id>
+      <name>Justin Hall</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:wKovacs64/BetterImageView.git</connection>
+    <developerConnection>scm:git@github.com:wKovacs64/BetterImageView.git</developerConnection>
+    <url>https://github.com/wKovacs64/BetterImageView</url>
+  </scm>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.xuuhaoo</groupId>
+  <artifactId>Android-DefenseCrash</artifactId>
+  <version>4.0.3</version>
+  <packaging>aar</packaging>
+  <name>xuuhaoo/Android-DefenseCrash</name>
+  <description>Android runtime crash controller. defense java crash keep your application safety</description>
+  <url>https://github.com/xuuhaoo/Android-DefenseCrash</url>
+  <inceptionYear>2020</inceptionYear>
+  <developers>
+    <developer>
+      <id>xuuhaoo</id>
+      <name>徐昊</name>
+      <email>xuuhaoo98426@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/xuuhaoo/Android-DefenseCrash.git</connection>
+    <developerConnection>scm:git://github.com/xuuhaoo/Android-DefenseCrash.git</developerConnection>
+    <url>git://github.com/xuuhaoo/Android-DefenseCrash.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.xuuhaoo</groupId>
+      <artifactId>Android-Cglib</artifactId>
+      <version>1.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.xuuhaoo</groupId>
+      <artifactId>AndroidHiddenApi</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.4.30</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

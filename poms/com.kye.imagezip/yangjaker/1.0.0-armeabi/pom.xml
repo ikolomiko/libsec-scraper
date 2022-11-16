@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kye.imagezip</groupId>
+  <artifactId>yangjaker</artifactId>
+  <version>1.0.0-armeabi</version>
+  <packaging>aar</packaging>
+  <name>jpeg image zip  for android   </name>
+  <url>https://github.com/yangyunfeng666/ImageZip.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yangjaker</id>
+      <name>jakercode</name>
+      <email>jakercode@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yangyunfeng666/ImageZip.git</connection>
+    <developerConnection>https://github.com/yangyunfeng666/ImageZip.git</developerConnection>
+    <url>https://github.com/yangyunfeng666/ImageZip.git</url>
+  </scm>
+</project>

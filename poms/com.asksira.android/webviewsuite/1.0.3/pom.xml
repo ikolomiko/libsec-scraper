@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.asksira.android</groupId>
+  <artifactId>webviewsuite</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>WebViewSuite</name>
+  <description>A WebView that does not delay Activity creation, has built-in Progressbar and configurable through XML.</description>
+  <url>https://github.com/siralam/WebViewSuite</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>siralam</id>
+      <name>Sira Lam</name>
+      <email>sira.swlam@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/siralam/WebViewSuite.git</connection>
+    <developerConnection>https://github.com/siralam/WebViewSuite.git</developerConnection>
+    <url>https://github.com/siralam/WebViewSuite</url>
+  </scm>
+</project>

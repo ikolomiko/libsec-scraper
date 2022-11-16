@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ancient.country</groupId>
+  <artifactId>country</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>country</name>
+  <description>Search country list and pick one from it</description>
+  <url>https://github.com/naveenkumarn27/country</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>naveenkumarn27</id>
+      <name>Naveen Kumar Kuppan</name>
+      <email>naveenkumarn2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/naveenkumarn27/country.git</connection>
+    <developerConnection>https://github.com/naveenkumarn27/country.git</developerConnection>
+    <url>https://github.com/naveenkumarn27/country</url>
+  </scm>
+</project>

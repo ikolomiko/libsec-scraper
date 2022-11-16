@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.KingsMentor</groupId>
+  <artifactId>MobileVisionBarcodeScanner</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>KingsMentor/MobileVisionBarcodeScanner</name>
+  <description>Barcode Scanner powered by Mobile Vision Api</description>
+  <url>http://belvi.xyz/posts/Mobile-Vision-Barcode-Scanner</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>KingsMentor</id>
+      <name>Nosakhare Belvi</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/KingsMentor/MobileVisionBarcodeScanner.git</connection>
+    <developerConnection>scm:git://github.com/KingsMentor/MobileVisionBarcodeScanner.git</developerConnection>
+    <url>git://github.com/KingsMentor/MobileVisionBarcodeScanner.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-vision</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

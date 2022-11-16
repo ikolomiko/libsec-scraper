@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kenticocloud</groupId>
+  <artifactId>delivery-android</artifactId>
+  <version>3.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies/>
+  <description>Android SDK for Kentico Cloud Delivery API</description>
+  <name>KenticoCloudDeliveryAndroid</name>
+  <url>https://kenticocloud.com/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Kentico/KenticoCloudDeliveryJavaRxSDK/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kentico_richards</id>
+      <name>Richard Sustek</name>
+      <email>ennspassion@gmail.com</email>
+    </developer>
+    <developer>
+      <id>kentico_timothyf</id>
+      <name>Timothy Fenton</name>
+      <email>timothyf@kentico.com</email>
+    </developer>
+    <developer>
+      <id>kentico_jurajb</id>
+      <name>Juraj Bielik</name>
+      <email>jurajb@kentico.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>git@github.com:Kentico/KenticoCloudDeliveryJavaRxSDK.git</url>
+  </scm>
+</project>

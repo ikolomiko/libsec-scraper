@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>FontForge</artifactId>
+  <version>20170731</version>
+  <packaging>aar</packaging>
+  <name>FontForge</name>
+  <description>FontForge is a free (libre) font editor for Windows, Mac OS X and GNU+Linux. Use it to create, edit and convert fonts in OpenType, TrueType, UFO, CID-keyed, Multiple Master, and many other formats.</description>
+  <url>https://fontforge.org</url>
+  <inceptionYear>2004</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>George Williams</name>
+    </developer>
+    <developer>
+      <name>Abel Cheung</name>
+    </developer>
+    <developer>
+      <name>Adam Goode</name>
+    </developer>
+    <developer>
+      <name>Adolfo Jayme Barrientos</name>
+    </developer>
+    <developer>
+      <name>Adrien Tétar</name>
+    </developer>
+    <developer>
+      <name>Aktado</name>
+      <email>aktado@users.sourceforge.jp</email>
+    </developer>
+    <developer>
+      <id>aalex-millerr</id>
+      <name>Alex Miller</name>
+    </developer>
+    <developer>
+      <name>Alex Raftis</name>
+    </developer>
+    <developer>
+      <name>Alexandre Julliard</name>
+    </developer>
+    <developer>
+      <name>Alexandre Prokoudine</name>
+    </developer>
+    <developer>
+      <id>catharanthus</id>
+      <name>Alexey Kuznetsov</name>
+    </developer>
+    <developer>
+      <name>Alexey Kryukov</name>
+    </developer>
+    <developer>
+      <name>Anand</name>
+    </developer>
+    <developer>
+      <name>Andreas Larsen</name>
+    </developer>
+    <developer>
+      <name>Andrew Janke</name>
+    </developer>
+    <developer>
+      <name>Andrey Panov</name>
+    </developer>
+    <developer>
+      <name>Anthony G. Basile</name>
+    </developer>
+    <developer>
+      <name>Arthaey Angosii</name>
+    </developer>
+    <developer>
+      <id>chemoelectric</id>
+      <name>Barry Schwartz</name>
+    </developer>
+    <developer>
+      <name>Baruch Even</name>
+      <email>baruch@debian.org</email>
+    </developer>
+    <developer>
+      <name>Bastien Dejean</name>
+    </developer>
+    <developer>
+      <name>Behnam Esfahbod</name>
+    </developer>
+    <developer>
+      <name>Ben Martin</name>
+    </developer>
+    <developer>
+      <name>BensongChen, bungeman</name>
+    </developer>
+    <developer>
+      <name>Ben Wagner</name>
+    </developer>
+    <developer>
+      <name>Bill Wang</name>
+    </developer>
+    <developer>
+      <name>Charles M. Hannum</name>
+    </developer>
+    <developer>
+      <id>mungre</id>
+      <name>Charles Reilly</name>
+    </developer>
+    <developer>
+      <name>Christopher Meng</name>
+    </developer>
+    <developer>
+      <name>Claudio Beccari</name>
+    </developer>
+    <developer>
+      <name>Craig Lennox</name>
+    </developer>
+    <developer>
+      <name>Dave Crossland</name>
+      <email>dave@lab6.com</email>
+    </developer>
+    <developer>
+      <name>Deron Meranda</name>
+    </developer>
+    <developer>
+      <name>Dave Levine</name>
+    </developer>
+    <developer>
+      <id>davidhedley</id>
+      <name>David Hedley</name>
+    </developer>
+    <developer>
+      <id>dhull</id>
+      <name>David Hull</name>
+    </developer>
+    <developer>
+      <name>David Lemon</name>
+    </developer>
+    <developer>
+      <name>David Opstad</name>
+    </developer>
+    <developer>
+      <name>David Shaal</name>
+    </developer>
+    <developer>
+      <name>Divay Prakash</name>
+    </developer>
+    <developer>
+      <name>Dominyk Tiller</name>
+    </developer>
+    <developer>
+      <name>Dong Yang</name>
+    </developer>
+    <developer>
+      <name>Dražen Lučanin</name>
+    </developer>
+    <developer>
+      <name>Duane Moody</name>
+    </developer>
+    <developer>
+      <name>E.J. Neafsey</name>
+    </developer>
+    <developer>
+      <name>Eddie Yuen</name>
+    </developer>
+    <developer>
+      <name>Edward Lee</name>
+    </developer>
+    <developer>
+      <name>Eric Bavier</name>
+      <email>bavier@member.fsf.org</email>
+    </developer>
+    <developer>
+      <name>Eva Denman</name>
+    </developer>
+    <developer>
+      <id>fabiangreffrath</id>
+      <name>Fabian Greffrath</name>
+    </developer>
+    <developer>
+      <id>felipesanches</id>
+      <name>Felipe Corrêa da Silva Sanches</name>
+    </developer>
+    <developer>
+      <id>frank-trampe</id>
+      <name>Frank Trampe</name>
+    </developer>
+    <developer>
+      <id>fred-wang</id>
+      <name>Frédéric Wang</name>
+    </developer>
+    <developer>
+      <name>Georg A. Duffner</name>
+    </developer>
+    <developer>
+      <id>gioele</id>
+      <name>Gioele Barabucci</name>
+    </developer>
+    <developer>
+      <name>Giuseppe Bilotta</name>
+    </developer>
+    <developer>
+      <name>Giuseppe Ghibò</name>
+    </developer>
+    <developer>
+      <name>Greg Ford</name>
+    </developer>
+    <developer>
+      <name>Grzegorz</name>
+    </developer>
+    <developer>
+      <name>Harald Harders</name>
+    </developer>
+    <developer>
+      <name>Horváth Balázs</name>
+    </developer>
+    <developer>
+      <name>J. Jansen</name>
+    </developer>
+    <developer>
+      <name>Jacob Jansen</name>
+    </developer>
+    <developer>
+      <name>James Cloos</name>
+    </developer>
+    <developer>
+      <name>James Crippen</name>
+    </developer>
+    <developer>
+      <name>James Woodcock</name>
+    </developer>
+    <developer>
+      <name>Jason Pagura</name>
+    </developer>
+    <developer>
+      <id>jre-wine</id>
+      <name>Jens Reyer</name>
+    </developer>
+    <developer>
+      <name>Jérémy Bobbio</name>
+    </developer>
+    <developer>
+      <name>Jeremy Tan</name>
+    </developer>
+    <developer>
+      <name>Jim Killock</name>
+    </developer>
+    <developer>
+      <name>Jiwon Choi</name>
+    </developer>
+    <developer>
+      <name>Joel Santos</name>
+    </developer>
+    <developer>
+      <name>Johannes Plass</name>
+    </developer>
+    <developer>
+      <name>Johan Winge</name>
+    </developer>
+    <developer>
+      <name>Jon Banquer</name>
+    </developer>
+    <developer>
+      <id>jhps</id>
+      <name>Jonathan Hanna</name>
+    </developer>
+    <developer>
+      <name>Jonathan Hue</name>
+    </developer>
+    <developer>
+      <id>JoesCat</id>
+      <name>Jose Da Silva</name>
+    </developer>
+    <developer>
+      <name>Joshua Richardson</name>
+    </developer>
+    <developer>
+      <name>Jouk Jansen</name>
+    </developer>
+    <developer>
+      <name>Juergen Buntrock</name>
+    </developer>
+    <developer>
+      <id>serval2412</id>
+      <name>Julien Nabet</name>
+    </developer>
+    <developer>
+      <id>mozbugbox</id>
+      <name>Just Fill Bugs</name>
+    </developer>
+    <developer>
+      <name>Kartik Mistry</name>
+    </developer>
+    <developer>
+      <name>KANOU Hiroki</name>
+    </developer>
+    <developer>
+      <name>Kazuki Ohta (Kauzuyuki, Kazuyuki)</name>
+    </developer>
+    <developer>
+      <name>Kelvinsong</name>
+    </developer>
+    <developer>
+      <name>Kemie Guaida</name>
+    </developer>
+    <developer>
+      <name>Kengo Ichiki</name>
+    </developer>
+    <developer>
+      <name>Kęstutis Biliūnas</name>
+      <email>kebil@kaunas.init.lt</email>
+    </developer>
+    <developer>
+      <name>Kevin Fenzi</name>
+    </developer>
+    <developer>
+      <id>khaledhosny</id>
+      <name>Khaled Hosny</name>
+    </developer>
+    <developer>
+      <name>Koki Takahashi</name>
+    </developer>
+    <developer>
+      <id>hedrok</id>
+      <name>Kyrylo Yatsenko</name>
+    </developer>
+    <developer>
+      <name>Lasse Fister</name>
+    </developer>
+    <developer>
+      <name>László Károly</name>
+    </developer>
+    <developer>
+      <name>Lu Wang</name>
+      <email>coolwanglu@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Ludwig Schwardt</name>
+    </developer>
+    <developer>
+      <id>lzmths</id>
+      <name>Luiz Matheus</name>
+    </developer>
+    <developer>
+      <name>Marius Larsen</name>
+    </developer>
+    <developer>
+      <name>Mark G. Adams</name>
+    </developer>
+    <developer>
+      <name>Mark Oteiza</name>
+    </developer>
+    <developer>
+      <name>Markus Schwarzenberg</name>
+    </developer>
+    <developer>
+      <name>Martin Giese</name>
+    </developer>
+    <developer>
+      <name>Martin Hosken</name>
+      <email>martin_hosken@sil.org</email>
+    </developer>
+    <developer>
+      <name>Mathias Wollin</name>
+    </developer>
+    <developer>
+      <id>mvz</id>
+      <name>Matijs van Zuijlen</name>
+    </developer>
+    <developer>
+      <name>Matt Chisholm</name>
+    </developer>
+    <developer>
+      <name>Matthew Petroff</name>
+    </developer>
+    <developer>
+      <id>mskala</id>
+      <name>Matthew Skala</name>
+    </developer>
+    <developer>
+      <name>Matthias Klose</name>
+      <email>doko@ubuntu.com</email>
+    </developer>
+    <developer>
+      <name>Mayank Jha</name>
+    </developer>
+    <developer>
+      <name>Max Rabkin</name>
+    </developer>
+    <developer>
+      <name>Maxim Iorsh</name>
+    </developer>
+    <developer>
+      <name>Michael Gährken</name>
+    </developer>
+    <developer>
+      <name>Michal Mazurek</name>
+    </developer>
+    <developer>
+      <id>michal-n</id>
+      <name>Michal Nowakowski</name>
+    </developer>
+    <developer>
+      <id>MichinariNukazawa</id>
+      <name>Michinari Nukazawa</name>
+    </developer>
+    <developer>
+      <id>midzer</id>
+      <email>midzer@gmail.com</email>
+    </developer>
+    <developer>
+      <name>MURAOKA Taro</name>
+    </developer>
+    <developer>
+      <name>Nicolas Kaiser</name>
+    </developer>
+    <developer>
+      <name>Nicolas Spalinger</name>
+    </developer>
+    <developer>
+      <name>Ondřej Hošek</name>
+    </developer>
+    <developer>
+      <id>Pander</id>
+      <name>Pander Musubi</name>
+    </developer>
+    <developer>
+      <name>Parag Nemade</name>
+    </developer>
+    <developer>
+      <name>Petr Gajdos</name>
+    </developer>
+    <developer>
+      <name>Phil Krylov</name>
+    </developer>
+    <developer>
+      <name>Phil Lindsay</name>
+    </developer>
+    <developer>
+      <name>Pierre Hanser</name>
+    </developer>
+    <developer>
+      <name>Primoz PETERLIN</name>
+    </developer>
+    <developer>
+      <name>Qmpel</name>
+    </developer>
+    <developer>
+      <name>R.L. Horn</name>
+    </developer>
+    <developer>
+      <name>R.P.C. Rodgers</name>
+    </developer>
+    <developer>
+      <name>Rafael Ferran i Peralta</name>
+    </developer>
+    <developer>
+      <name>Rajeesh K Nambiar</name>
+    </developer>
+    <developer>
+      <id>raphlinus</id>
+      <name>Raph Levien</name>
+    </developer>
+    <developer>
+      <id>rrthomas</id>
+      <name>Reuben Thomas</name>
+    </developer>
+    <developer>
+      <name>Richard Hughes</name>
+    </developer>
+    <developer>
+      <id>robmadole</id>
+      <name>Rob Madole</name>
+    </developer>
+    <developer>
+      <name>Rogério Brito</name>
+      <email>rbrito@ime.usp.br</email>
+    </developer>
+    <developer>
+      <name>Rogier van Dalen</name>
+    </developer>
+    <developer>
+      <name>Ryusei Yamaguchi</name>
+    </developer>
+    <developer>
+      <name>Saeed Rasooli</name>
+    </developer>
+    <developer>
+      <id>sergey-s-betke</id>
+      <name>Sergey S Betke</name>
+    </developer>
+    <developer>
+      <name>Scott Pakin</name>
+    </developer>
+    <developer>
+      <name>Scott Romack</name>
+    </developer>
+    <developer>
+      <name>Silvan Toledo</name>
+    </developer>
+    <developer>
+      <name>Steve White</name>
+    </developer>
+    <developer>
+      <name>TANIGAWA Takashi</name>
+    </developer>
+    <developer>
+      <name>Thayne McCombs</name>
+    </developer>
+    <developer>
+      <name>Thomas Shinnick</name>
+    </developer>
+    <developer>
+      <name>Tim Heilig</name>
+    </developer>
+    <developer>
+      <name>Timothy O. Theisen</name>
+    </developer>
+    <developer>
+      <name>Tom Harvey</name>
+    </developer>
+    <developer>
+      <name>Tom Lechner</name>
+    </developer>
+    <developer>
+      <name>Uli Schlachter</name>
+    </developer>
+    <developer>
+      <name>Ulrich Klauer</name>
+    </developer>
+    <developer>
+      <name>Vadim Belman</name>
+    </developer>
+    <developer>
+      <name>Valek Filippov</name>
+    </developer>
+    <developer>
+      <id>copyninja</id>
+      <name>Vasudev Kamath</name>
+    </developer>
+    <developer>
+      <name>Vernon Adams</name>
+    </developer>
+    <developer>
+      <name>Ville Skytta</name>
+    </developer>
+    <developer>
+      <id>lemzwerg</id>
+      <name>Werner Lemberg</name>
+    </developer>
+    <developer>
+      <name>Woensug Eric Choi</name>
+    </developer>
+    <developer>
+      <name>Wojciech Muła</name>
+      <email>wm@mahajana.net</email>
+    </developer>
+    <developer>
+      <name>贤哲</name>
+      <email>xiaozhe.hxz@alibaba-inc.com</email>
+    </developer>
+    <developer>
+      <name>Yannis Haralambous</name>
+    </developer>
+    <developer>
+      <name>Yao Wei (魏銘廷)</name>
+    </developer>
+    <developer>
+      <name>Yuri Chornoivan</name>
+    </developer>
+    <developer>
+      <id>ahyangyi</id>
+      <name>Yi Yang</name>
+    </developer>
+    <developer>
+      <name>Rafael Ferran i Peralta</name>
+    </developer>
+    <developer>
+      <name>Ettore Atalan</name>
+    </developer>
+    <developer>
+      <name>Philipp Poll</name>
+    </developer>
+    <developer>
+      <name>Apostolos Syropoulos</name>
+    </developer>
+    <developer>
+      <name>George Williams</name>
+    </developer>
+    <developer>
+      <name>Walter Echarri</name>
+    </developer>
+    <developer>
+      <name>Jean-René Bastien</name>
+    </developer>
+    <developer>
+      <name>Pierre Hanser</name>
+    </developer>
+    <developer>
+      <name>Yannis Haralambous</name>
+    </developer>
+    <developer>
+      <name>Claudio Beccari</name>
+    </developer>
+    <developer>
+      <name>KANOU Hiroki</name>
+    </developer>
+    <developer>
+      <name>TANIGAWA Takashi</name>
+    </developer>
+    <developer>
+      <name>OKANO Takayoshi</name>
+    </developer>
+    <developer>
+      <name>Woensug Eric Choi</name>
+    </developer>
+    <developer>
+      <name>Hiran</name>
+    </developer>
+    <developer>
+      <name>Michal Nowakowski</name>
+    </developer>
+    <developer>
+      <name>Jose Da Silva</name>
+    </developer>
+    <developer>
+      <name>Alexandre Prokoudine</name>
+    </developer>
+    <developer>
+      <name>Valek Filippov</name>
+    </developer>
+    <developer>
+      <name>Yuri Chornoivan</name>
+    </developer>
+    <developer>
+      <name>Clytie Siddall</name>
+    </developer>
+    <developer>
+      <name>Lee Chenhwa</name>
+    </developer>
+    <developer>
+      <name>Wei-Lun Chao</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/fontforge/fontforge.git</connection>
+    <url>https://github.com/fontforge/fontforge</url>
+  </scm>
+</project>

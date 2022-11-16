@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vng.zalo.zmediaplayer</groupId>
+  <artifactId>libvastads</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>vast-ads</name>
+  <description>VAST ads support for ZMediaPlayer</description>
+  <url>https://g2git.zing.vn/liemvu/zmediaplayer-android/wikis/home</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liemvu</id>
+      <name>Liem Vo</name>
+      <email>liemvouy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://g2git.zing.vn/liemvu/zmediaplayer-android.git</connection>
+    <developerConnection>https://g2git.zing.vn/liemvu/zmediaplayer-android.git</developerConnection>
+    <url>https://g2git.zing.vn/liemvu/zmediaplayer-android/wikis/home</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

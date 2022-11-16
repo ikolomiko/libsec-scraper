@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.tutti.android.applover</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>AppLover Library</name>
+  <description>Simple integration of a "please rate us on google play" dialog for Android. It is very simple to use and still very customisable.</description>
+  <url>https://github.com/tutti-ch/applover-android</url>
+  <licenses>
+    <license>
+      <name>ISC license</name>
+      <url>http://opensource.org/licenses/isc-license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>patrick@tutti.ch</id>
+      <name>Patrick Boos</name>
+      <email>patrick@tutti.ch</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tutti-ch/applover-android.git</connection>
+    <developerConnection>scm:git@github.com:tutti-ch/applover-android.git</developerConnection>
+    <url>https://github.com/tutti-ch/applover-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.phrase</groupId>
+      <artifactId>phrase</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

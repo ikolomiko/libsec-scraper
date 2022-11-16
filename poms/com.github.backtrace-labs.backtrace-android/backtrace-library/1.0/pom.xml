@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.backtrace-labs.backtrace-android</groupId>
+  <artifactId>backtrace-library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Backtrace-library</name>
+  <description>Backtrace's integration with Android applications written in Java allows customers to capture and report handled and unhandled java exceptions.</description>
+  <url>https://github.com/backtrace-labs/backtrace-android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BartoszLitwiniuk</id>
+      <name>Bartosz Litwiniuk</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:backtrace-labs/backtrace-android.git</connection>
+    <developerConnection>scm:git@github.com:backtrace-labs/backtrace-android.git</developerConnection>
+    <url>https://github.com/backtrace-labs/backtrace-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

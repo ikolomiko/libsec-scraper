@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.theguardian</groupId>
+  <artifactId>android-subtle-prompts</artifactId>
+  <version>1.0.10</version>
+  <packaging>aar</packaging>
+  <name>Subtle Prompts</name>
+  <description>Android library which enables the creation of user information prompts similar to those in the Guardian Android app</description>
+  <url>https://github.com/guardian/android-subtle-prompts</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Leyths</id>
+      <name>David Simkin</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/guardian/android-subtle-prompts</connection>
+    <developerConnection>scm:git:https://github.com/guardian/android-subtle-prompts</developerConnection>
+    <url>https://github.com/guardian/android-subtle-prompts</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.neno0o.tflitehelper</groupId>
+  <artifactId>imageclassification</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>imageclassification</name>
+  <description>Tesnorflow Lite helper - Image Classification</description>
+  <url>https://github.com/Neno0o/TensorflowLiteHelper</url>
+  <licenses>
+    <license>
+      <name>['Apache-2.0']</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>neno0o</id>
+      <name>Ahmed Gamal</name>
+      <email>a.gamal.saddek@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Neno0o/TensorflowLiteHelper.git</connection>
+    <developerConnection>https://github.com/Neno0o/TensorflowLiteHelper.git</developerConnection>
+    <url>https://github.com/Neno0o/TensorflowLiteHelper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite</artifactId>
+      <version>1.13.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

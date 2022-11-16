@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.frju.androidquery</groupId>
+  <artifactId>android-query-models</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>AndroidQuery models</name>
+  <description>AndroidQuery is an Android SQLite ORM powered an annotation preprocessor, tables are defined by Model classes and CRUD classes expose an expressive api for SQLite executing queries.</description>
+  <url>https://github.com/FredJul/AndroidQuery</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>frju</id>
+      <name>Frédéric Julian</name>
+      <email>fred.julian@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/FredJul/AndroidQuery.git</connection>
+    <developerConnection>https://github.com/FredJul/AndroidQuery.git</developerConnection>
+    <url>https://github.com/FredJul/AndroidQuery</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.frju.androidquery</groupId>
+      <artifactId>android-query</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

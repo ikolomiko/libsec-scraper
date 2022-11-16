@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.prembros.asymrecycler</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>Asymmetric recycler view library.</description>
+  <url>https://github.com/premacck/AsymRecycler</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/premacck/AsymRecycler.git</connection>
+    <developerConnection>https://github.com/premacck/AsymRecycler.git</developerConnection>
+    <url>https://github.com/premacck/AsymRecycler</url>
+  </scm>
+</project>

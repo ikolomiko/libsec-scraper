@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scalified</groupId>
+  <artifactId>viewmover</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>View Mover Library</name>
+  <description>View Mover Library for Android</description>
+  <url>https://github.com/Scalified/viewmover</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shell-software</id>
+      <name>Vladyslav Baydak</name>
+      <email>com.software.shell@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/Scalified/viewmover.git</connection>
+    <developerConnection>scm:git@https://github.com/Scalified/viewmover.git</developerConnection>
+    <url>https://github.com/Scalified/viewmover.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.scalified</groupId>
+      <artifactId>uitools</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

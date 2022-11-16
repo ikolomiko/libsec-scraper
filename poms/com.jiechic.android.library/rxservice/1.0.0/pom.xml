@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jiechic.android.library</groupId>
+  <artifactId>rxservice</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android RxService</name>
+  <description>A android library for use service binding with rxjava</description>
+  <url>http://github.com/jiechic/RxService/</url>
+  <scm>
+    <url>http://github.com/jiechic/RxService/</url>
+    <connection>scm:git:git://github.com/jiechic/RxService.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jiechic/RxService.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Jiechic</id>
+      <name>Jiechic, Inc.</name>
+    </developer>
+  </developers>
+  <dependencies/>
+</project>

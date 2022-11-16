@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ray.easydev.fragmentnav</groupId>
+  <artifactId>fragmentnav</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Android FragmentNav</name>
+  <description>A util to start and manage fragment.</description>
+  <url>https://github.com/myl2ning/fragmentnav</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>myl2ning</id>
+      <name>ZhangLei</name>
+      <email>zhangleiseanmin@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/myl2ning/fragmentnav.git</connection>
+    <developerConnection>https://github.com/myl2ning/fragmentnav.git</developerConnection>
+    <url>https://github.com/myl2ning/fragmentnav</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jre7</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

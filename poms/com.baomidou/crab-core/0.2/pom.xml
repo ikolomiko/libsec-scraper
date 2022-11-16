@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.baomidou</groupId>
+    <artifactId>crab-core</artifactId>
+    <version>0.2</version>
+    <packaging>aar</packaging>
+
+    <name>crab-core</name>
+    <description>web scaffold core module</description>
+    <url>http://crab.baomidou.com</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>jobob</name>
+            <email>jobob@qq.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@gitee.com:abcrab/crab.git</connection>
+        <developerConnection>scm:git:git@gitee.com:abcrab/crab.git</developerConnection>
+        <url>git@gitee.com:abcrab/crab.git</url>
+    </scm>
+</project>

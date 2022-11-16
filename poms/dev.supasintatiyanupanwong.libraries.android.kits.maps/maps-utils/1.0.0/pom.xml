@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.supasintatiyanupanwong.libraries.android.kits.maps</groupId>
+  <artifactId>maps-utils</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Map Kit Utility Library</name>
+  <description>Utilities that are useful for a wide range of applications using the Map Kit.</description>
+  <url>https://github.com/SupasinTatiyanupanwong/map-kit-android-utils/</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>supasintatiyanupanwong</id>
+      <name>Supasin Tatiyanupanwong</name>
+      <url>https://supasin.tatiyanupanwong.me</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SupasinTatiyanupanwong/map-kit-android-utils.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/SupasinTatiyanupanwong/map-kit-android-utils.git</developerConnection>
+    <url>https://github.com/SupasinTatiyanupanwong/map-kit-android-utils/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.supasintatiyanupanwong.libraries.android.kits.maps</groupId>
+      <artifactId>maps-core</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

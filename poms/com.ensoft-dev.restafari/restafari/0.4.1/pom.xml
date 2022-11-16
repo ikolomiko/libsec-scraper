@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ensoft-dev.restafari</groupId>
+  <artifactId>restafari</artifactId>
+  <version>0.4.1</version>
+  <packaging>aar</packaging>
+  <name>restafari</name>
+  <description>rest helper library</description>
+  <url>https://github.com/SpartanJ/restafari</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>prognoz</id>
+      <name>Martín Lucas Golini</name>
+      <email>spartanj@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SpartanJ/restafari.git</connection>
+    <developerConnection>https://github.com/SpartanJ/restafari.git</developerConnection>
+    <url>https://github.com/SpartanJ/restafari</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

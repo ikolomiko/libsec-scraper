@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.shuhart</groupId>
+  <artifactId>bubblepagerindicator</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>bubblepagerindicator</name>
+  <description>Bubble pager indicator</description>
+  <url>https://github.com/shuhart/BubblePagerIndicator</url>
+  <licenses>
+    <license>
+      <name>License</name>
+      <url>https://github.com/shuhart/BubblePagerIndicator/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>schuhart</id>
+      <name>Bogdan Kornev</name>
+      <email>kornev.b@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/shuhart/bubblepagerindicator.git</connection>
+    <developerConnection>scm:git:ssh://github.com/shuhart/bubblepagerindicator.git</developerConnection>
+    <url>https://github.com/shuhart/bubblepagerindicator/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>

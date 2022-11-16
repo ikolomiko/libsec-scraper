@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.didiglobal.chameleon</groupId>
+  <artifactId>cmlsdk</artifactId>
+  <version>0.0.13.9</version>
+  <packaging>aar</packaging>
+  <dependencies/>
+  <name>Chameleon android SDK</name>
+  <description>Chameleon android SDK uses some most common native rendering engines as it's fundamental lib, and extended some general engineering capabilities. The currently supported rendering engines are weex and react native, and you can only choose one of them as the rendering engine for every single project.</description>
+  <url>https://github.com/chameleon-team/chameleon-sdk-android.git</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>sxychenjing</name>
+      <email>chenjingchenjing@didiglobal.com</email>
+    </developer>
+    <developer>
+      <name>KSKjust</name>
+      <email>lizechen@didiglobal.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/chameleon-team/chameleon-sdk-android.git</connection>
+    <developerConnection>scm:git:https://github.com/chameleon-team/chameleon-sdk-android.git</developerConnection>
+    <url>https://github.com/chameleon-team/chameleon-sdk-android.git</url>
+  </scm>
+</project>

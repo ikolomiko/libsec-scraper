@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yandex.android</groupId>
+  <artifactId>places</artifactId>
+  <version>3.1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.yandex.android</groupId>
+      <artifactId>mapkit</artifactId>
+      <version>3.1.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yandex.android</groupId>
+      <artifactId>runtime</artifactId>
+      <version>3.1.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>Yandex MapKit Places</name>
+  <description>MapKit is a software library that allows you to use Yandex map data and geo technologies in mobile apps.</description>
+  <url>https://tech.yandex.ru/maps/mapkit</url>
+  <licenses>
+    <license>
+      <name>Terms of Use of Yandex.Maps API</name>
+      <url>https://yandex.ru/legal/maps_api</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/yandex/mapkit-android-demo</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Yandex</name>
+      <email>maps-api@support.yandex.ru</email>
+      <organization>Yandex</organization>
+      <organizationUrl>https://yandex.ru</organizationUrl>
+    </developer>
+  </developers>
+</project>

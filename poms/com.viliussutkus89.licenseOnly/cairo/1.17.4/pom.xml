@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>cairo</artifactId>
+  <version>1.17.4</version>
+  <packaging>aar</packaging>
+  <name>cairo</name>
+  <description>Cairo is a 2D graphics library with support for multiple output devices.</description>
+  <url>https://cairographics.org</url>
+  <inceptionYear>2003</inceptionYear>
+  <licenses>
+    <license>
+      <name>LGPLv2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>MPLv1.1</name>
+      <url>https://www.mozilla.org/media/MPL/1.1/index.0c5913925d40.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Josh Aas</name>
+      <email>joshmoz@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Daniel Amelang</name>
+      <email>dan@amelang.net</email>
+    </developer>
+    <developer>
+      <name>Shawn T. Amundson</name>
+      <email>amundson@gtk.org</email>
+    </developer>
+    <developer>
+      <name>Olivier Andrieu</name>
+      <email>oliv__a@users.sourceforge.net</email>
+    </developer>
+    <developer>
+      <name>Peter Dennis Bartok</name>
+      <email>peter@novonyx.com</email>
+    </developer>
+    <developer>
+      <name>Dave Beckett</name>
+      <email>dajobe@debian.org</email>
+    </developer>
+    <developer>
+      <name>Kai-Uwe Behrmann</name>
+      <email>ku.b@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Christian Biesinger</name>
+      <email>cbiesinger@web.de</email>
+    </developer>
+    <developer>
+      <name>Billy Biggs</name>
+      <email>vektor@dumbterm.net</email>
+    </developer>
+    <developer>
+      <name>Hans Breuer</name>
+      <email>hans@breuer.org</email>
+    </developer>
+    <developer>
+      <name>Brian Cameron</name>
+      <email>brian.cameron@sun.com</email>
+    </developer>
+    <developer>
+      <name>Carlos Garcia Campos</name>
+      <email>carlosgc@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Andrea Canciani</name>
+      <email>ranma42@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Damien Carbery</name>
+      <email>damien.carbery@sun.com</email>
+    </developer>
+    <developer>
+      <name>Andrew Chant</name>
+      <email>andrew.chant@utoronto.ca</email>
+    </developer>
+    <developer>
+      <name>Steve Chaplin</name>
+      <email>stevech1097@yahoo.com.au</email>
+    </developer>
+    <developer>
+      <name>Tomasz Cholewo</name>
+      <email>cholewo@ieee-cis.org</email>
+    </developer>
+    <developer>
+      <name>Manu Cornet</name>
+      <email>manu@manucornet.net</email>
+    </developer>
+    <developer>
+      <name>Frederic Crozat</name>
+      <email>fcrozat@mandriva.com</email>
+    </developer>
+    <developer>
+      <name>Julien Danjou</name>
+      <email>julien@danjou.info</email>
+    </developer>
+    <developer>
+      <name>Radek Doulík</name>
+      <email>rodo@novell.com</email>
+    </developer>
+    <developer>
+      <name>John Ehresman</name>
+      <email>jpe@wingide.com</email>
+    </developer>
+    <developer>
+      <name>John Ellson</name>
+      <email>ellson@research.att.com</email>
+    </developer>
+    <developer>
+      <name>Michael Emmel</name>
+      <email>mike.emmel@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Miklós Erdélyi</name>
+      <email>erdelyim@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Behdad Esfahbod</name>
+      <email>behdad@behdad.org</email>
+    </developer>
+    <developer>
+      <name>Gilles Espinasse</name>
+      <email>g.esp@free.fr</email>
+    </developer>
+    <developer>
+      <name>Larry Ewing</name>
+      <email>lewing@novell.com</email>
+    </developer>
+    <developer>
+      <name>Brian Ewins</name>
+      <email>Brian.Ewins@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Bertram Felgenhauer</name>
+      <email>int-e@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Damian Frank</name>
+      <email>damian.frank@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Bdale Garbee</name>
+      <email>bdale@gag.com</email>
+    </developer>
+    <developer>
+      <name>Jens Granseuer</name>
+      <email>jensgr@gmx.net</email>
+    </developer>
+    <developer>
+      <name>Laxmi Harikumar</name>
+      <email>laxmi.harikumar@digital.com</email>
+    </developer>
+    <developer>
+      <name>J. Ali Harlow</name>
+      <email>ali@avrc.city.ac.uk</email>
+    </developer>
+    <developer>
+      <name>Bryce Harrington</name>
+      <email>bryce@osg.samsung.com</email>
+    </developer>
+    <developer>
+      <name>Mathias Hasselmann</name>
+      <email>mathias.hasselmann@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Richard Henderson</name>
+      <email>rth@twiddle.net</email>
+    </developer>
+    <developer>
+      <name>James Henstridge</name>
+      <email>james@daa.com.au</email>
+    </developer>
+    <developer>
+      <name>Graydon Hoare</name>
+      <email>graydon@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Thomas Hunger</name>
+      <email>info@teh-web.de</email>
+    </developer>
+    <developer>
+      <name>Thomas Jaeger</name>
+      <email>ThJaeger@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Björn Lindqvist</name>
+      <email>bjourne@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Kristian Høgsberg</name>
+      <email>krh@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Amaury Jacquot</name>
+      <email>sxpert@esitcom.org</email>
+    </developer>
+    <developer>
+      <name>Adrian Johnson</name>
+      <email>ajohnson@redneon.com</email>
+    </developer>
+    <developer>
+      <name>Michael Johnson</name>
+      <email>ahze@ahze.net</email>
+    </developer>
+    <developer>
+      <name>Jonathon Jongsma</name>
+      <email>jonathon.jongsma@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Øyvind Kolås</name>
+      <email>pippin@freedesktop.org</email>
+    </developer>
+    <developer>
+      <name>Martin Kretzschmar</name>
+      <email>martink@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Mathieu Lacage</name>
+      <email>Mathieu.Lacage@sophia.inria.fr</email>
+    </developer>
+    <developer>
+      <name>Dominic Lachowicz</name>
+      <email>domlachowicz@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Alexander Larsson</name>
+      <email>alexl@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Sylvestre Ledru</name>
+      <email>sylvestre@mozilla.com</email>
+    </developer>
+    <developer>
+      <name>Tor Lillqvist</name>
+      <email>tml@novell.com</email>
+    </developer>
+    <developer>
+      <name>Jinghua Luo</name>
+      <email>sunmoon1997@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Luke-Jr</name>
+      <email>luke-jr@utopios.org</email>
+    </developer>
+    <developer>
+      <name>Kjartan Maraas</name>
+      <email>kmaraas@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Nis Martensen</name>
+      <email>nis.martensen@web.de</email>
+    </developer>
+    <developer>
+      <name>Jordi Mas</name>
+      <email>jordi@ximian.com</email>
+    </developer>
+    <developer>
+      <name>Nicholas Miell</name>
+      <email>nmiell@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Eugeniy Meshcheryakov</name>
+      <email>eugen@debian.org</email>
+    </developer>
+    <developer>
+      <name>Zakharov Mikhail</name>
+      <email>zmey20000@yahoo.com</email>
+    </developer>
+    <developer>
+      <name>Christopher (Monty) Montgomery</name>
+      <email>xiphmont@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Tim Mooney</name>
+      <email>enchanter@users.sourceforge.net</email>
+    </developer>
+    <developer>
+      <name>Jeff Muizelaar</name>
+      <email>jeff@infidigm.net</email>
+    </developer>
+    <developer>
+      <name>Yevgen Muntyan</name>
+      <email>muntyan@tamu.edu</email>
+    </developer>
+    <developer>
+      <name>Ravi Nanjundappa</name>
+      <email>nravi.n@samsung.com</email>
+    </developer>
+    <developer>
+      <name>Declan Naughton</name>
+      <email>piratepenguin@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Peter Nilsson</name>
+      <email>c99pnn@cs.umu.se</email>
+    </developer>
+    <developer>
+      <name>Henning Noren</name>
+      <email>henning.noren.402@student.lu.se</email>
+    </developer>
+    <developer>
+      <name>Geoff Norton</name>
+      <email>gnorton@customerdna.com</email>
+    </developer>
+    <developer>
+      <name>Robert O'Callahan</name>
+      <email>rocallahan@novell.com</email>
+    </developer>
+    <developer>
+      <name>Ian Osgood</name>
+      <email>iano@quirkster.com</email>
+    </developer>
+    <developer>
+      <name>Benjamin Otte</name>
+      <email>otte@gnome.org</email>
+    </developer>
+    <developer>
+      <name>Mike Owens</name>
+      <email>etc@filespanker.com</email>
+    </developer>
+    <developer>
+      <name>Emmanuel Pacaud</name>
+      <email>emmanuel.pacaud@lapp.in2p3.fr</email>
+    </developer>
+    <developer>
+      <name>Keith Packard</name>
+      <email>keithp@keithp.com</email>
+    </developer>
+    <developer>
+      <name>Stuart Parmenter</name>
+      <email>pavlov@pavlov.net</email>
+    </developer>
+    <developer>
+      <name>Alfred Peng</name>
+      <email>alfred.peng@sun.com</email>
+    </developer>
+    <developer>
+      <name>Christof Petig</name>
+      <email>christof@petig-baender.de</email>
+    </developer>
+    <developer>
+      <name>Joonas Pihlaja</name>
+      <email>jpihlaja@cc.helsinki.fi</email>
+    </developer>
+    <developer>
+      <name>Mart Raudsepp</name>
+      <email>leio@dustbite.net</email>
+    </developer>
+    <developer>
+      <name>David Reveman</name>
+      <email>davidr@novell.com</email>
+    </developer>
+    <developer>
+      <name>Calum Robinson</name>
+      <email>calumr@mac.com</email>
+    </developer>
+    <developer>
+      <name>Pavel Roskin</name>
+      <email>proski@gnu.org</email>
+    </developer>
+    <developer>
+      <name>Tim Rowley</name>
+      <email>tim.rowley@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Soeren Sandmann</name>
+      <email>sandmann@daimi.au.dk</email>
+    </developer>
+    <developer>
+      <name>Uli Schlachter</name>
+      <email>psychon@znc.in</email>
+    </developer>
+    <developer>
+      <name>Torsten Schönfeld</name>
+      <email>kaffeetisch@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Jamey Sharp</name>
+      <email>jamey@minilop.net</email>
+    </developer>
+    <developer>
+      <name>Jason Dorje Short</name>
+      <email>jdorje@users.sf.net</email>
+    </developer>
+    <developer>
+      <name>Jeff Smith</name>
+      <email>whydoubt@yahoo.com</email>
+    </developer>
+    <developer>
+      <name>Travis Spencer</name>
+      <email>tspencer@cs.pdx.edu</email>
+    </developer>
+    <developer>
+      <name>Bill Spitzak</name>
+      <email>spitzak@d2.com</email>
+    </developer>
+    <developer>
+      <name>Zhe Su</name>
+      <email>james.su@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Owen Taylor</name>
+      <email>otaylor@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Pierre Tardy</name>
+      <email>tardyp@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Karl Tomlinson</name>
+      <email>karlt+@karlt.net</email>
+    </developer>
+    <developer>
+      <name>Alp Toker</name>
+      <email>alp@atoker.com</email>
+    </developer>
+    <developer>
+      <name>Malcolm Tredinnick</name>
+      <email>malcolm@commsecure.com.au</email>
+    </developer>
+    <developer>
+      <name>David Turner</name>
+      <email>david@freetype.org</email>
+    </developer>
+    <developer>
+      <name>Kalle Vahlman</name>
+      <email>kalle.vahlman@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Sasha Vasko</name>
+      <email>sasha@aftercode.net</email>
+    </developer>
+    <developer>
+      <name>Vladimir Vukicevic</name>
+      <email>vladimir@pobox.com</email>
+    </developer>
+    <developer>
+      <name>Jonathan Watt</name>
+      <email>jwatt@jwatt.org</email>
+    </developer>
+    <developer>
+      <name>Peter Weilbacher</name>
+      <email>pmw@avila.aip.de</email>
+    </developer>
+    <developer>
+      <name>Dan Williams</name>
+      <email>dcbw@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Chris Wilson</name>
+      <email>chris@chris-wilson.co.uk</email>
+    </developer>
+    <developer>
+      <name>Carl Worth</name>
+      <email>cworth@isi.edu</email>
+    </developer>
+    <developer>
+      <name>Richard D. Worth</name>
+      <email>richard@theworths.org</email>
+    </developer>
+    <developer>
+      <name>Kent Worsnop</name>
+      <email>kworsnop@accesswave.ca</email>
+    </developer>
+    <developer>
+      <name>Dave Yeo</name>
+      <email>daveryeo@telus.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git://anongit.freedesktop.org/git/cairo</connection>
+    <url>https://cgit.freedesktop.org/cairo/</url>
+  </scm>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ashazar.tabdrawer</groupId>
+  <artifactId>tabdrawer</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>TabDrawer</name>
+  <description>Navigation Tab Bar Drawer for Android - Alternative to Hamburger Menu (Navigation Drawer)</description>
+  <url>https://github.com/ashazar/TabDrawer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/ashazar/TabDrawer/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ashazar</id>
+      <name>Serdar Hazar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ashazar/TabDrawer.git</connection>
+    <developerConnection>https://github.com/ashazar/TabDrawer.git</developerConnection>
+    <url>https://github.com/ashazar/TabDrawer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

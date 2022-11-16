@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.qcloud</groupId>
+  <artifactId>quic</artifactId>
+  <version>1.5.25</version>
+  <packaging>aar</packaging>
+  <name>quic</name>
+  <description>the cos quic for tencent cloud sdk</description>
+  <url>https://cloud.tencent.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/tencentyun/qcloud-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencentqcloud</id>
+      <name>tencentqcloudterminal</name>
+      <email>qcloudterminal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/qcloud-sdk-android.git</connection>
+    <developerConnection>https://github.com/tencentyun/qcloud-sdk-android.git</developerConnection>
+    <url>https://cloud.tencent.com/</url>
+  </scm>
+</project>

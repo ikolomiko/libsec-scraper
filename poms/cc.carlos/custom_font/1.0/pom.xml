@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.carlos</groupId>
+  <artifactId>custom_font</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>custom_font for android</name>
+  <url>https://github.com/ws123/Custom_typeface</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>carlos</id>
+      <name>carlos.j</name>
+      <email>569153705@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ws123/Custom_typeface.git</connection>
+    <developerConnection>https://github.com/ws123/Custom_typeface.git</developerConnection>
+    <url>https://github.com/ws123/Custom_typeface</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

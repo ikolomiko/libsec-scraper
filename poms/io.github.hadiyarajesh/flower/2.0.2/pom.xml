@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.hadiyarajesh</groupId>
+  <artifactId>flower</artifactId>
+  <version>2.0.2</version>
+  <packaging>aar</packaging>
+  <name>flower</name>
+  <description>Flower is an Android library that makes it simple to handle networking and database caching. It enables developers to fetch api resources on-the-fly OR combine api resources and local data at single place with fault tolerant architecture.</description>
+  <url>https://github.com/hadiyarajesh/flower</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/hadiyarajesh/flower/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hadiyarajesh</id>
+      <name>Rajesh Hadiya</name>
+      <email>hadiarajesh007@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/hadiyarajesh/flower.git</connection>
+    <developerConnection>scm:git:ssh://github.com/hadiyarajesh/flower.git</developerConnection>
+    <url>https://github.com/hadiyarajesh/flower</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

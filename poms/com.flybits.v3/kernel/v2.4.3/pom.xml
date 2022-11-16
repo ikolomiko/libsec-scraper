@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flybits.v3</groupId>
+  <artifactId>kernel</artifactId>
+  <version>v2.4.3</version>
+  <packaging>aar</packaging>
+  <name>kernel</name>
+  <description>This is the official production build of the Android kernel SDK. The kernel SDK contains the all functionalities associated to Flybits Experienes and Content including all entities, services, and components needed to fully integrate Flybits into your Android application.</description>
+  <dependencies>
+    <dependency>
+      <groupId>android.arch.work</groupId>
+      <artifactId>work-runtime</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.paging</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>16.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.61</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.lifecycle</groupId>
+      <artifactId>extensions</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.flybits.v3</groupId>
+      <artifactId>commons</artifactId>
+      <version>v2.4.3</version>
+    </dependency>
+  </dependencies>
+</project>

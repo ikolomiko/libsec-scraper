@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nagain.jf</groupId>
+  <artifactId>rcalc-sdk</artifactId>
+  <version>1.5.5</version>
+  <packaging>aar</packaging>
+  <name>help running app monitor devices' environment and provide warning information</name>
+  <url>https://github.com/nagain/rcalc</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kiya</id>
+      <name>kiya</name>
+      <email>zhengjingke@nagain.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nagain/rcalc.git</connection>
+    <developerConnection>https://github.com/nagain/rcalc.git</developerConnection>
+    <url>https://github.com/nagain/rcalc</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

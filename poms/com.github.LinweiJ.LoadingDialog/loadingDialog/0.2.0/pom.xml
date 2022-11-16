@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.LinweiJ.LoadingDialog</groupId>
+  <artifactId>loadingDialog</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>LinweiJ/LoadingDialog</name>
+  <description>一个简单直接用的加载框 (a simple loadingDialog ,  it is easy to use  )</description>
+  <url>https://github.com/LinweiJ/LoadingDialog</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>LinweiJ</id>
+      <name>Wega</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/LinweiJ/LoadingDialog.git</connection>
+    <developerConnection>scm:git://github.com/LinweiJ/LoadingDialog.git</developerConnection>
+    <url>git://github.com/LinweiJ/LoadingDialog.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

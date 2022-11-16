@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.charbgr</groupId>
+  <artifactId>litho-picasso</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>litho-picasso</name>
+  <description>Picasso image loading Component for Litho</description>
+  <url>https://github.com/charbgr/litho-picasso</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>charbgr</id>
+      <name>Vasilis Charalampakis</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:charbgr/litho-picasso.git</connection>
+    <developerConnection>scm:git@github.com:charbgr/litho-picasso.git</developerConnection>
+    <url>https://github.com/charbgr/litho-picasso</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.litho</groupId>
+      <artifactId>litho-annotations</artifactId>
+      <version>0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.litho</groupId>
+      <artifactId>litho-core</artifactId>
+      <version>0.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.picasso</groupId>
+      <artifactId>picasso</artifactId>
+      <version>2.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

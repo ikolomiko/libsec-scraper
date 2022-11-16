@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wujilin.doorbell</groupId>
+  <artifactId>doorbell</artifactId>
+  <version>0.6.1</version>
+  <packaging>aar</packaging>
+  <name>Doorbell</name>
+  <description>A simple library to start activities or call callbacks with condition in your Android apps.</description>
+  <url>https://github.com/belinwu/doorbell</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://raw.githubusercontent.com/belinwu/doorbell/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>belinwu</id>
+      <name>Belin Wu</name>
+      <email>belinwu@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/belinwu/doorbell.git</connection>
+    <developerConnection>https://github.com/belinwu/doorbell.git</developerConnection>
+    <url>https://github.com/belinwu/doorbell</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

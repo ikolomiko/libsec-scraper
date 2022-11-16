@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.agilie</groupId>
+  <artifactId>rotatable-autofit-edittext</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>RotatableAutofitEditText</name>
+  <description>Extended EditText which allows to move, rotate and resize text at the same time</description>
+  <url>https://github.com/agilie/RotatableAutofitEditText</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/agilie/RotatableAutofitEditText/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anonymous265</id>
+      <name>Denis Bogoslovtsev</name>
+      <email>anonymous265@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/agilie/RotatableAutofitEditText.git</connection>
+    <developerConnection>https://github.com/agilie/RotatableAutofitEditText.git</developerConnection>
+    <url>https://github.com/agilie/RotatableAutofitEditText</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

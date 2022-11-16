@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.dmfs</groupId>
+  <artifactId>microwizard</artifactId>
+  <version>0.4.3</version>
+  <packaging>aar</packaging>
+  <name>microwizard</name>
+  <description>An approach to reduce the complexity of Fragment state.</description>
+  <url>https://github.com/dmfs/MicroFragments</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dmfs</id>
+      <name>Marten Gajda</name>
+      <email>marten@dmfs.org</email>
+      <organization>dmfs GmbH</organization>
+      <organizationUrl>https://dmfs.org</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:dmfs/MicroFragments.git</connection>
+    <developerConnection>scm:git:git@github.com:dmfs/MicroFragments.git</developerConnection>
+    <url>git@github.com:dmfs/MicroFragments.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.dmfs</groupId>
+      <artifactId>microfragments</artifactId>
+      <version>0.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.dmfs</groupId>
+      <artifactId>jems</artifactId>
+      <version>1.19</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

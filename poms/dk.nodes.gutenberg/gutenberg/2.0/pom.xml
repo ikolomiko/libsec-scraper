@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dk.nodes.gutenberg</groupId>
+  <artifactId>gutenberg</artifactId>
+  <version>2.0</version>
+  <packaging>aar</packaging>
+  <name>Gutenberg Font Library</name>
+  <description>Various tools used in android app development.</description>
+  <url>https://github.com/nodes-android/gutenberg</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>johsoe</id>
+      <name>Johnny Sørensen</name>
+      <email>joso@nodes.dk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/nodes-android/gutenberg.git</connection>
+    <url>https://github.com/nodes-android/gutenberg</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub issues</system>
+    <url>https://github.com/nodes-android/gutenberg/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

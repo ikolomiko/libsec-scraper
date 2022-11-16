@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rysle.lib</groupId>
+  <artifactId>zxing</artifactId>
+  <version>3.4.0</version>
+  <packaging>aar</packaging>
+  <name>zxing</name>
+  <description>a light weight zxing core, uncommon format removed</description>
+  <url>https://github.com/Rysle/zxing-lite</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rysle</id>
+      <name>Sky Lin</name>
+      <email>N/A</email>
+      <organization>individual</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Rysle/zxing-lite.git</connection>
+    <developerConnection>scm:git:git@github.com:Rysle/zxing-lite.git</developerConnection>
+    <url>https://github.com/Rysle/zxing-lite</url>
+  </scm>
+</project>

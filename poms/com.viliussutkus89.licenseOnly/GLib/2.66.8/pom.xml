@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>GLib</artifactId>
+  <version>2.66.8</version>
+  <packaging>aar</packaging>
+  <name>GLib</name>
+  <description>GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.</description>
+  <url>https://wiki.gnome.org/Projects/GLib</url>
+  <inceptionYear>1998</inceptionYear>
+  <licenses>
+    <license>
+      <name>LGPL-2.1</name>
+      <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Hans Breuer</name>
+      <email>hans@breuer.org</email>
+    </developer>
+    <developer>
+      <name>Matthias Clasen</name>
+      <email>mclasen@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Tor Lillqvist</name>
+      <email>tml@iki.fi</email>
+    </developer>
+    <developer>
+      <name>Tim Janik</name>
+      <email>timj@gtk.org</email>
+    </developer>
+    <developer>
+      <name>Havoc Pennington</name>
+      <email>hp@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Ron Steinke</name>
+      <email>rsteinke@w-link.net</email>
+    </developer>
+    <developer>
+      <name>Owen Taylor</name>
+      <email>otaylor@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Sebastian Wilhelmi</name>
+      <email>seppi@seppi.de</email>
+    </developer>
+    <developer>
+      <name>Shawn T. Amundson</name>
+      <email>amundson@gimp.org</email>
+    </developer>
+    <developer>
+      <name>Jeff Garzik</name>
+      <email>jgarzik@pobox.com</email>
+    </developer>
+    <developer>
+      <name>Raja R Harinath</name>
+      <email>harinath@cs.umn.edu</email>
+    </developer>
+    <developer>
+      <name>Tim Janik</name>
+      <email>timj@gtk.org</email>
+    </developer>
+    <developer>
+      <name>Elliot Lee</name>
+      <email>sopwith@redhat.com</email>
+    </developer>
+    <developer>
+      <name>Tor Lillqvist</name>
+      <email>tml@iki.fi</email>
+    </developer>
+    <developer>
+      <name>Paolo Molaro</name>
+      <email>lupus@debian.org</email>
+    </developer>
+    <developer>
+      <name>Havoc Pennington</name>
+      <email>hp@pobox.com</email>
+    </developer>
+    <developer>
+      <name>Manish Singh</name>
+      <email>yosh@gimp.org</email>
+    </developer>
+    <developer>
+      <name>Owen Taylor</name>
+      <email>otaylor@gtk.org</email>
+    </developer>
+    <developer>
+      <name>Sebastian Wilhelmi</name>
+      <email>wilhelmi@ira.uka.de</email>
+    </developer>
+    <developer>
+      <name>Makoto Matsumoto</name>
+      <email>matumoto@math.keio.ac.jp</email>
+    </developer>
+    <developer>
+      <name>Takuji Nishimura</name>
+      <email>nisimura@math.keio.ac.jp</email>
+    </developer>
+    <developer>
+      <name>Peter Mattis</name>
+      <email>petm@xcf.berkeley.edu</email>
+    </developer>
+    <developer>
+      <name>Spencer Kimball</name>
+      <email>spencer@xcf.berkeley.edu</email>
+    </developer>
+    <developer>
+      <name>Josh MacDonald</name>
+      <email>jmacd@xcf.berkeley.edu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitlab.gnome.org/GNOME/glib.git</connection>
+    <url>https://gitlab.gnome.org/GNOME/glib</url>
+  </scm>
+</project>

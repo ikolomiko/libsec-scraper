@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuansfer.pay</groupId>
+  <artifactId>payment</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>paging</name>
+  <description>Android Jetpack Paging</description>
+  <url>https://github.com/yuansfer/yuansfer-payment-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/yuansfer/yuansfer-payment-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fly-zhu189</id>
+      <name>fly-zhu189</name>
+      <email>hanshan.zhu@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yuansfer/yuansfer-payment-android.git</connection>
+    <developerConnection>https://github.com/yuansfer/yuansfer-payment-android.git</developerConnection>
+    <url>https://github.com/yuansfer/yuansfer-payment-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

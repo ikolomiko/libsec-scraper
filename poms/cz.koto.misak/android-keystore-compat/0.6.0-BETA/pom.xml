@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cz.koto.misak</groupId>
+  <artifactId>android-keystore-compat</artifactId>
+  <version>0.6.0-BETA</version>
+  <packaging>aar</packaging>
+  <name>android-keystore-compat</name>
+  <description>Wrapper library designed to simplify secure handling string secret in shared preferences using Keystore as private key storage.</description>
+  <url>https://github.com/kotomisak/security-showcase-android/tree/develop/keystorecompat</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kotomisak</id>
+      <name>Michal Jenicek</name>
+      <email>jenicek.michal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kotomisak/security-showcase-android</connection>
+    <developerConnection>https://github.com/kotomisak/security-showcase-android</developerConnection>
+    <url>https://github.com/kotomisak/security-showcase-android/tree/develop/keystorecompat</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.scottyab</groupId>
+      <artifactId>rootbeer-lib</artifactId>
+      <version>0.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chootdev</groupId>
+  <artifactId>errorlogger</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>ErrorLogger</name>
+  <description>This library will help to track down error logs by creating a database record. This will mainly used in industry based application testing environment. User of the application can generate list of errors that have occurred during time period Edit</description>
+  <url>https://github.com/ChathuraHettiarachchi/ErrorLogger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ChathuraHettiarachchi</id>
+      <name>Chathura Hettiarachchi</name>
+      <email>chathura93@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ChathuraHettiarachchi/ErrorLogger.git</connection>
+    <developerConnection>https://github.com/ChathuraHettiarachchi/ErrorLogger.git</developerConnection>
+    <url>https://github.com/ChathuraHettiarachchi/ErrorLogger</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-android</artifactId>
+      <version>4.48</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-core</artifactId>
+      <version>4.48</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

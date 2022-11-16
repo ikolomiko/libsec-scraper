@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.caijia</groupId>
+  <artifactId>simpleitemdecoration</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>recycler view line grid itemDecoration</name>
+  <description>recycler view line grid itemDecoration</description>
+  <url>https://github.com/caijia/EmoticonWidget</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>caixiaojiacc</id>
+      <name>caijia</name>
+      <email>caixiaojiacc@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/caijia/EmoticonWidget.git</connection>
+    <developerConnection>https://github.com/caijia/EmoticonWidget.git</developerConnection>
+    <url>https://github.com/caijia/EmoticonWidget</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

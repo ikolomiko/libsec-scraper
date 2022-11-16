@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.inframeworks.inandroid</groupId>
+  <artifactId>action-request</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>ActionRequest</name>
+  <description>inAndroid</description>
+  <url>http://android.inframeworks.com/</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://android.inframeworks.com/inAndroid/license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>inframeworks</id>
+      <name>inFrameworks</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:inframeworks/inandroid.git</connection>
+    <developerConnection>scm:git@github.com:inframeworks/inandroid.git</developerConnection>
+    <url>https://github.com/inframeworks/inandroid.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.inframeworks.inandroid</groupId>
+      <artifactId>active-support</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

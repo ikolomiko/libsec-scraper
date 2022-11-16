@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.baidu.lbs</groupId>
+  <artifactId>location_all</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>location_all</name>
+  <description>A gradle plugin that merge dependencies into the final aar file works with AGP 3.+</description>
+  <url>hhttps://github.com/lbs-mapsdk/lbs-trace</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lbs-mapsdk</id>
+      <name>lbs-mapsdk</name>
+      <email>lbs-mapsdk@baidu.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/lbs-mapsdk/lbs-trace.git</connection>
+    <developerConnection>scm:git:ssh://github.com/lbs-mapsdk/lbs-trace.git</developerConnection>
+    <url>https://github.com/lbs-mapsdk/lbs-trace/tree/master</url>
+  </scm>
+</project>

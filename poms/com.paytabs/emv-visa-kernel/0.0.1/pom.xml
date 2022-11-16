@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.paytabs</groupId>
+  <artifactId>emv-visa-kernel</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>emv-visa-kernel</name>
+  <description>Paytabs Payment sdk solution for android apps</description>
+  <url>https://github.com/paytabscom/paytabs-android-library-sample/tree/PT2</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mokhairy</id>
+      <name>mohamed khairy</name>
+      <email>m.khairy@paytabs.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://mokhairy953@bitbucket.org/paytabs2/android-sdk.git</connection>
+    <developerConnection>https://mokhairy953@bitbucket.org/paytabs2/android-sdk.git</developerConnection>
+    <url>https://github.com/paytabscom/paytabs-android-library-sample/tree/PT2</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>SoftPosSdk</groupId>
+      <artifactId>visa_aar</artifactId>
+      <version>unspecified</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+  </dependencies>
+</project>

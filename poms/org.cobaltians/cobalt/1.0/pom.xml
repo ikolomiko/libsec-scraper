@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.cobaltians</groupId>
+  <artifactId>cobalt</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>org.cobaltians:cobalt</name>
+  <description>An Open Source hybrid framework for iOS and Android allowing teams with varied skills to build hybrid apps smartly.</description>
+  <url>https://cobaltians.org/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Guillaume Gendre</name>
+      <email>ggendre.web@gmail.com</email>
+      <organizationUrl>https://cobaltians.org/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Sébastien Vitard</name>
+      <email>pro@sebastienvitard.com</email>
+      <organizationUrl>https://cobaltians.org/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cobaltians/Cobalt-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cobaltians/Cobalt-Android.git</developerConnection>
+    <url>https://github.com/cobaltians/Cobalt-Android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.swiperefreshlayout</groupId>
+      <artifactId>swiperefreshlayout</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

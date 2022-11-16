@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lsjwzh</groupId>
+  <artifactId>loadingeverywhere</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>LoadingEverywhere Library</name>
+  <description>LoadingEverywhere is an Android library that makes it easy to create and manage a loading mask over any view.</description>
+  <url>https://github.com/emilsjolander/StickyListHeaders</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lsjwzh</id>
+      <name>lsjwzh</name>
+      <email>lsjwzh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/lsjwzh/loadingeverywhere.git</connection>
+    <developerConnection>scm:git:git://github.com/lsjwzh/loadingeverywhere.git</developerConnection>
+    <url>https://github.com/lsjwzh/loadingeverywhere</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

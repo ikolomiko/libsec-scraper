@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.moxy-community</groupId>
+  <artifactId>moxy-app-compat</artifactId>
+  <version>2.2.2</version>
+  <packaging>aar</packaging>
+  <name>Moxy AppCompat</name>
+  <description>Moxy AppCompat library for Android</description>
+  <url>https://github.com/moxy-community/</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>moxy-community</id>
+      <name>Moxy Community</name>
+      <url>https://github.com/moxy-community/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:moxy-community/Moxy.git</connection>
+    <developerConnection>scm:git@github.com:moxy-community/Moxy.git</developerConnection>
+    <url>https://github.com/moxy-community/Moxy.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.moxy-community</groupId>
+      <artifactId>moxy</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.cthawanapong</groupId>
+  <artifactId>styleable-views</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Styleable Views</name>
+  <description>Use for creating highly customizable text fields, input field, button, and etc.</description>
+  <url>https://github.com/CThawanapong/styleable-views</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>FeaLouS</id>
+      <name>Chavit Thawanapong</name>
+      <email>c.thawanapong@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CThawanapong/styleable-views.git</connection>
+    <developerConnection>https://github.com/CThawanapong/styleable-views.git</developerConnection>
+    <url>https://github.com/CThawanapong/styleable-views</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

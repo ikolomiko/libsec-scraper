@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gundamd.thai_postcode_sdk</groupId>
+  <artifactId>thai-postcode-sdk</artifactId>
+  <version>1.0.0-1603711543</version>
+  <packaging>aar</packaging>
+  <name>thai-postcode-sdk</name>
+  <description>Library for search post code/zip code with address, implement by kotlin room populate.</description>
+  <url>https://github.com/GundamD/kotlin-thai-postcode-room-populate</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gundamd</id>
+      <name>gundamd</name>
+      <email>apichainahom@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/GundamD/kotlin-thai-postcode-room-populate.git</connection>
+    <developerConnection>https://github.com/GundamD/kotlin-thai-postcode-room-populate.git</developerConnection>
+    <url>https://github.com/GundamD/kotlin-thai-postcode-room-populate</url>
+  </scm>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cscao.libs</groupId>
+  <artifactId>gmsapi</artifactId>
+  <version>0.91</version>
+  <packaging>aar</packaging>
+  <name>GmsApi</name>
+  <description>Android Wear Data Syncing and Messaging Library</description>
+  <url>https://github.com/csarron/GmsApi</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/csarron/GmsApi/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>csarron</id>
+      <name>Arron Cao</name>
+      <email>qqcao.cs@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/csarron/GmsApi.git</connection>
+    <developerConnection>https://github.com/csarron/GmsApi.git</developerConnection>
+    <url>https://github.com/csarron/GmsApi</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.cscao.libs</groupId>
+      <artifactId>mlog</artifactId>
+      <version>1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-wearable</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

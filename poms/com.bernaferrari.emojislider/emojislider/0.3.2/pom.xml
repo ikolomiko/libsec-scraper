@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bernaferrari.emojislider</groupId>
+  <artifactId>emojislider</artifactId>
+  <version>0.3.2</version>
+  <packaging>aar</packaging>
+  <name>emojislider</name>
+  <description>A custom SeekBar/Slider inspired by Instagram app</description>
+  <url>https://github.com/bernaferrari/EmojiSlider</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bernaferrari</id>
+      <name>Bernardo Ferrari</name>
+      <email>bernaferrari2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bernaferrari/EmojiSlider.git</connection>
+    <developerConnection>https://github.com/bernaferrari/EmojiSlider.git</developerConnection>
+    <url>https://github.com/bernaferrari/EmojiSlider</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.rebound</groupId>
+      <artifactId>rebound</artifactId>
+      <version>0.3.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.cpiz.bubbleview</groupId>
+      <artifactId>bubbleview</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

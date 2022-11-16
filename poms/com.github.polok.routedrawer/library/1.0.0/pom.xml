@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.polok.routedrawer</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>RouteDrawer Library</name>
+  <description>RouteDrawer wraps Google Directions API using RxJava for Android so developers can download, parse and draw path on the Google's map in very fast and flexible way.</description>
+  <url>https://github.com/polok/RouteDrawer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marcinpolak</id>
+      <name>Marcin Polak</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:polok/RouteDrawer.git</connection>
+    <developerConnection>scm:git@github.com:polok/RouteDrawer.git</developerConnection>
+    <url>https://github.com/polok/RouteDrawer.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.rxjava</groupId>
+      <artifactId>rxjava-android</artifactId>
+      <version>0.20.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>6.1.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.rxjava</groupId>
+      <artifactId>rxjava-async-util</artifactId>
+      <version>0.20.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.piwik.sdk</groupId>
+  <artifactId>piwik-sdk</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Piwik SDK for Android</name>
+  <description>SDK for Android to measure your apps with Piwik </description>
+  <url>https://github.com/piwik/piwik-sdk-android</url>
+  <licenses>
+    <license>
+      <name>BSD-3 Clause</name>
+      <url>https://github.com/piwik/piwik-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>darken</id>
+      <name>Matthias Urhahn</name>
+      <email>darken@darken.eu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/piwik/piwik-sdk-android.git</connection>
+    <developerConnection>https://github.com/piwik/piwik-sdk-android.git</developerConnection>
+    <url>https://github.com/piwik/piwik-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

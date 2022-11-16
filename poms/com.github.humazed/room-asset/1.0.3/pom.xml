@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.humazed</groupId>
+  <artifactId>room-asset</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>RoomAsset</name>
+  <description>An Android helper class to manage database creation and version management using an application's raw asset files.</description>
+  <url>https://github.com/humazed/RoomAsset</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>humazed</id>
+      <name>huma zed</name>
+      <email>humazed@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/humazed/RoomAsset.git</connection>
+    <developerConnection>https://github.com/humazed/RoomAsset.git</developerConnection>
+    <url>https://github.com/humazed/RoomAsset</url>
+  </scm>
+</project>

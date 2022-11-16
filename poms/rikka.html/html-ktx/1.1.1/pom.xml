@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rikka.html</groupId>
+  <artifactId>html-ktx</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>rikka.html:html-ktx</name>
+  <description>Copy of android.text.Html class (including kotlin extensions).</description>
+  <url>https://github.com/RikkaApps/libraries</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/RikkaApps/libraries.git</connection>
+    <developerConnection>https://github.com/RikkaApps/libraries.git</developerConnection>
+    <url>https://github.com/RikkaApps/libraries</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>rikka.html</groupId>
+      <artifactId>html</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.usergeek</groupId>
+  <artifactId>usergeek-android</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>usergeek-android</name>
+  <description>Android SDK library to track and send user behaviour events into Usergeek product analytics platform.</description>
+  <url>https://github.com/usergeek/Usergeek-Android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/usergeek/Usergeek-Android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>slaigv</id>
+      <name>Igors Slahovs</name>
+      <email>slaigv@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/usergeek/Usergeek-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/usergeek/Usergeek-Android.git</developerConnection>
+    <url>https://github.com/usergeek/Usergeek-Android/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sample.example</groupId>
+  <artifactId>samplelibrary</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>mylibrary</name>
+  <description>A wrapper for Facebook Native Like Button (LikeView) on Android</description>
+  <url>https://github.com/Anishacm/androidproject</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Anishacm</id>
+      <name>anisha</name>
+      <email>anisha@espritpixels.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Anishacm/androidproject.git</connection>
+    <developerConnection>https://github.com/Anishacm/androidproject.git</developerConnection>
+    <url>https://github.com/Anishacm/androidproject</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

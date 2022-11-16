@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.hadilq.liveevent</groupId>
+  <artifactId>liveevent</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>LiveEvent</name>
+  <description>This library holds a class to handle single live events in Android MVVM architectural pattern. This class is extended form LiveData class, from `androidx.lifecycle:lifecycle-extensions` library, to propagate the data as an event, which means it emits data just once.</description>
+  <url>https://github.com/hadilq/LiveEvent</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hadilq</id>
+      <name>Hadi Lashkari Ghouchani</name>
+      <email>hadilq.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:hadilq/LiveEvent.git</connection>
+    <developerConnection>scm:git@github.com:hadilq/LiveEvent.git</developerConnection>
+    <url>https://github.com/hadilq/LiveEvent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.0.0-rc01</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

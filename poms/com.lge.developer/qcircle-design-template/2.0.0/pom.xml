@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lge.developer</groupId>
+  <artifactId>qcircle-design-template</artifactId>
+  <version>2.0.0</version>  
+  <packaging>aar</packaging>
+  <name>LG QCircle Design Template</name>
+  <description>This library provides design templates for creating LG Quick Circle apps. 
+  With the library, you do not consider how to place the circular view, and how to create layouts for Quick Circle.
+  Visit http://developer.lge.com to get the documentation.
+  </description>
+  <url>http://developer.lge.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>LG Developer</name>
+      <email>developer@lge.com</email>
+      <organization> LG Electronics </organization>
+      <organizationUrl>http://developer.lge.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:LGDeveloper/QCircle-Design-Template</connection>
+    <developerConnection>scm:git:git@github.com:LGDeveloper/QCircle-Design-Template</developerConnection>
+    <url>git@github.com:LGDeveloper/QCircle-Design-Template</url>
+  </scm>
+</project>

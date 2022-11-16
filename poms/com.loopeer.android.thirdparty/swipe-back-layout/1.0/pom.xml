@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.loopeer.android.thirdparty</groupId>
+  <artifactId>swipe-back-layout</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>SwipeBackLayout</name>
+  <description>An Android library that help you to build app with swipe back gesture.</description>
+  <url>https://github.com/Issacw0ng/SwipeBackLayout</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yangyugang</id>
+      <name>yangyugang</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Issacw0ng/SwipeBackLayout.git</connection>
+    <developerConnection>scm:git:git@github.com/Issacw0ng/SwipeBackLayout.git</developerConnection>
+    <url>https://github.com/Issacw0ng/SwipeBackLayout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

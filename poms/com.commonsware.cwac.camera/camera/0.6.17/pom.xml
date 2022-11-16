@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.commonsware.cwac.camera</groupId>
+    <artifactId>camera</artifactId>
+    <version>0.6.17</version>
+    <packaging>aar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <android.version>4.4_r1</android.version>
+        <android.version.platform>21</android.version.platform>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>${android.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v4</artifactId>
+            <version>19</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>nexus</id>
+            <name>doo releases maven repo</name>
+            <url>http://nexus.scanbot.io/nexus/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>nexus</id>
+            <name>doo snapshots maven repo</name>
+            <url>http://nexus.scanbot.io/nexus/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://nexus.scanbot.io/nexus/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+
+        <repository>
+            <id>nexus-snapshots</id>
+            <url>http://nexus.scanbot.io/nexus/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <additionalparam>-Xdoclint:none</additionalparam>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.3.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <sdk>
+                        <platform>${android.version.platform}</platform>
+                    </sdk>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

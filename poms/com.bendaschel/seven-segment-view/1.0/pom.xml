@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bendaschel</groupId>
+  <artifactId>seven-segment-view</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>SevenSegmentView</name>
+  <description>A simple seven segment display view for Android projects</description>
+  <developers>
+    <developer>
+      <id>supercoffee</id>
+      <name>Benjamin Daschel</name>
+      <email>coffeemaxed@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

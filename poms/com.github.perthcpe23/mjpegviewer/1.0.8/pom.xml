@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.perthcpe23</groupId>
+  <artifactId>mjpegviewer</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>AndroidMjpegView</name>
+  <description>Android view to display mjpeg streaming</description>
+  <url>https://github.com/perthcpe23/android-mjpeg-view</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>perthcpe23   </id>
+      <name>Punyapat Sessomboon</name>
+      <email>perth.s28@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/perthcpe23/android-mjpeg-view.git</connection>
+    <developerConnection>https://github.com/perthcpe23/android-mjpeg-view.git</developerConnection>
+    <url>https://github.com/perthcpe23/android-mjpeg-view</url>
+  </scm>
+</project>

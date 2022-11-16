@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mobgen.halo.android</groupId>
+  <artifactId>halo-twofactor</artifactId>
+  <version>2.7.0</version>
+  <packaging>aar</packaging>
+  <name>HALO Auth</name>
+  <description>Library plugin for HALO that helps on social authentication and share tasks.</description>
+  <url>https://halo.mobgen.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>halo-mobgen</id>
+      <name>MOBGEN</name>
+      <email>halo@mobgen.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mobgen/halo-android/tree/master/sdk-libs/halo-twofactor</connection>
+    <developerConnection>https://github.com/mobgen/halo-android/tree/master/sdk-libs/halo-twofactor</developerConnection>
+    <url>https://halo.mobgen.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mobgen.halo.android</groupId>
+      <artifactId>halo-notifications</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mobgen.halo.android</groupId>
+      <artifactId>halo-sdk</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

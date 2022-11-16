@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.iwgang</groupId>
+  <artifactId>simplifyspan</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>library</name>
+  <description>A simplify to use and powerful SpannableStringBuilder library.</description>
+  <url>https://github.com/iwgang/SimplifySpan</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iwgang</id>
+      <name>iWgang</name>
+      <email>iwgang@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:iwgang/SimplifySpan.git</connection>
+    <developerConnection>scm:git@github.com:iwgang/SimplifySpan.git</developerConnection>
+    <url>https://github.com/iwgang/SimplifySpan</url>
+  </scm>
+</project>

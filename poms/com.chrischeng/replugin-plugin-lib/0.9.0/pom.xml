@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chrischeng</groupId>
+  <artifactId>replugin-plugin-lib</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>RePlugin - A flexible, stable, easy-to-use Android Plug-in Framework</name>
+  <url>https://github.com/ChrisCheng4j/RePlugin</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ChrisCheng4j</id>
+      <name>ChrisCheng4j</name>
+      <email>chrischenggo@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ChrisCheng4j/RePlugin.git</connection>
+    <developerConnection>https://github.com/ChrisCheng4j/RePlugin.git</developerConnection>
+    <url>https://github.com/ChrisCheng4j/RePlugin</url>
+  </scm>
+</project>

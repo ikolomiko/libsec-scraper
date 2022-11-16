@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wrld</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>0.0.0.69</version>
+  <packaging>aar</packaging>
+  <name>wrld Android SDK</name>
+  <description>Android library for beautiful 3D maps</description>
+  <url>https://github.com/eegeo/android-sdk</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD Simplified</name>
+      <url>https://opensource.org/licenses/BSD-2-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>wrld</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/eegeo/android-sdk.git</connection>
+    <url>https://github.com/eegeo/android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

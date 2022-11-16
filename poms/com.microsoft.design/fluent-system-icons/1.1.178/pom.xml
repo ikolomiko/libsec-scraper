@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.design</groupId>
+  <artifactId>fluent-system-icons</artifactId>
+  <version>1.1.178</version>
+  <packaging>aar</packaging>
+  <name>fluent-system-icons</name>
+  <description>Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.</description>
+  <url>https://github.com/microsoft/fluentui-system-icons</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fluent-ui-android</id>
+      <name>Microsoft Inc.</name>
+      <email>fluentuinativeowners@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/microsoft/fluentui-system-icons.git</connection>
+    <developerConnection>scm:git:ssh://github.com/microsoft/fluentui-system-icons.git</developerConnection>
+    <url>https://github.com/microsoft/fluentui-system-icons/tree/main</url>
+  </scm>
+  <dependencies/>
+</project>

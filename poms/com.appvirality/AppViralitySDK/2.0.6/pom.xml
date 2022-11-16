@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appvirality</groupId>
+  <artifactId>AppViralitySDK</artifactId>
+  <version>2.0.6</version>
+  <packaging>aar</packaging>
+  <name>Appvirality is a plug and play growth hacking toolkit for mobile Apps</name>
+  <description>Appvirality is a plug and play growth hacking toolkit for mobile Apps</description>
+  <url>https://github.com/appvirality/AppVirality-Android-SDK-2.0</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RamPapineni</id>
+      <name>Ram Papineni</name>
+      <email>ram@appvirality.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/appvirality/AppVirality-Android-SDK-2.0.git</connection>
+    <developerConnection>https://github.com/appvirality/AppVirality-Android-SDK-2.0.git</developerConnection>
+    <url>https://github.com/appvirality/AppVirality-Android-SDK-2.0</url>
+  </scm>
+</project>

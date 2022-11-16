@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shlmlkzdh</groupId>
+  <artifactId>mvp-framework</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>mvp-framework</name>
+  <description>A framework to implement the Model-View-Presenter (MVP) architectural pattern.</description>
+  <url>https://github.com/ShlMlkzdh/MVPFramework</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shlmlkzdh</id>
+      <name>Soheil Malekzadeh</name>
+      <email>shl.mlkzdh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ShlMlkzdh/MVPFramework.git</connection>
+    <developerConnection>https://github.com/ShlMlkzdh/MVPFramework.git</developerConnection>
+    <url>https://github.com/ShlMlkzdh/MVPFramework.git</url>
+  </scm>
+</project>

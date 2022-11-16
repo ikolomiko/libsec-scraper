@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lly</groupId>
+  <artifactId>compress</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Leon Android</name>
+  <description>leon open library.</description>
+  <url>https://github.com/ght199266/ImageCompress</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ght199266</id>
+      <name>黎雷仪</name>
+      <email>ght8657588@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ght199266/ImageCompress.git</connection>
+    <developerConnection>https://github.com/ght199266/ImageCompress.git</developerConnection>
+    <url>https://github.com/ght199266/ImageCompress</url>
+  </scm>
+</project>

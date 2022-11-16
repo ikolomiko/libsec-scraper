@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.realm</groupId>
+  <artifactId>android-adapters</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>android-adapters</name>
+  <description>Android UI adapters for Realm. Realm is a mobile database: a replacement for SQLite &amp; ORMs.</description>
+  <url>http://realm.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:realm/realm-android-adapters.git</connection>
+    <developerConnection>scm:git@github.com:realm/realm-android-adapters.git</developerConnection>
+    <url>scm:https://github.com/realm/realm-java</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/realm/realm-android-adapters/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-android-library</artifactId>
+      <version>0.90.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.realm</groupId>
+      <artifactId>realm-annotations</artifactId>
+      <version>0.90.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

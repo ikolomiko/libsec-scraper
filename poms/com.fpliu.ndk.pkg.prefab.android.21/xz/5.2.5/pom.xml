@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fpliu.ndk.pkg.prefab.android.21</groupId>
+    <artifactId>xz</artifactId>
+    <version>5.2.5</version>
+    <packaging>aar</packaging>
+
+    <name>xz</name>
+    <description>General-purpose data compression with high compression ratio</description>
+    <url>https://tukaani.org/xz</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/xz-mirror/xz.git</connection>
+        <developerConnection>scm:git:https://github.com/xz-mirror/xz.git</developerConnection>
+        <url>https://github.com/xz-mirror/xz.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Lasse Collin</name>
+            <email>lasse.collin@tukaani.org</email>
+            <organization>xz</organization>
+            <organizationUrl>https://tukaani.org/xz</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>LGPL-2.1-or-later</name>
+            <url>https://raw.githubusercontent.com/xz-mirror/xz/master/COPYING.LGPLv2.1</url>
+        </license>
+        <license>
+            <name>GPL-2.0-or-later</name>
+            <url>https://raw.githubusercontent.com/xz-mirror/xz/master/COPYING.GPLv2</url>
+        </license>
+        <license>
+            <name>GPL-3.0-or-later</name>
+            <url>https://raw.githubusercontent.com/xz-mirror/xz/master/COPYING.GPLv3</url>
+        </license>
+    </licenses>
+</project>

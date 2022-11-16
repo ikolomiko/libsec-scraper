@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pecpwee.lib.envMock</groupId>
+  <artifactId>uiwrapper</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>An android library for mocking the signal of locating.</name>
+  <url>https://github.com/pecpwee/envMock</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pw4work</id>
+      <name>pw4work</name>
+      <email>pw4work@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pecpwee/envMock.git</connection>
+    <developerConnection>https://github.com/pecpwee/envMock.git</developerConnection>
+    <url>https://github.com/pecpwee/envMock</url>
+  </scm>
+</project>

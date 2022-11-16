@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dji</groupId>
+  <artifactId>library-networkrtk-helper</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>DJI Mobile SDK for Android</name>
+  <description>The DJI Mobile SDK enables you to automate your DJI Product. You can control flight, and many subsystems of the product including the camera and gimbal. Using the Mobile SDK, create a customized mobile app to unlock the full potential of your DJI aerial platform.</description>
+  <url>http://www.dji.com/</url>
+  <licenses>
+    <license>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dji</id>
+      <name>DJI-dev</name>
+      <email>dev@dji.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/dji-sdk/Mobile-SDK-Android.git</url>
+  </scm>
+</project>

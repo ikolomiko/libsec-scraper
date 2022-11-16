@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wajahatkarim</groupId>
+  <artifactId>roomexplorer</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>roomexplorer</name>
+  <description>A quick and easy in-app database viewer and manager library for your Room databases. </description>
+  <url>https://github.com/wajahatkarim3/RoomExplorer</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>https://github.com/wajahatkarim3/RoomExplorer/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wajahatkarim3</id>
+      <name>Wajahat Karim</name>
+      <email>wajahatkarim3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/wajahatkarim3/RoomExplorer.git</connection>
+    <developerConnection>scm:git:ssh://github.com/wajahatkarim3/RoomExplorer.git</developerConnection>
+    <url>https://github.com/wajahatkarim3/RoomExplorer/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.60</version>
+    </dependency>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.60</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-runtime</artifactId>
+      <version>2.2.3</version>
+    </dependency>
+  </dependencies>
+</project>

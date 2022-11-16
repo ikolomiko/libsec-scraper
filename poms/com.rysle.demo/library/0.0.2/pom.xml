@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rysle.demo</groupId>
+  <artifactId>library</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Library Template</name>
+  <description>For Demo Only</description>
+  <url>https://github.com/Rysle/Library</url>
+  <licenses>
+    <license>
+      <name>N/A</name>
+      <url>N/A</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rysle</id>
+      <name>Sky Lin</name>
+      <email>rysle@mail</email>
+      <organization>individual</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Rysle/Library.git</connection>
+    <developerConnection>scm:git:git@github.com:Rysle/Library.git</developerConnection>
+    <url>https://github.com/Rysle/Library</url>
+  </scm>
+</project>

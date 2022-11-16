@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tmurakami.classinjector</groupId>
+  <artifactId>classinjector-android</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>tmurakami/classinjector</name>
+  <description>A library that provides the ability to inject classes into a class loader at runtime.</description>
+  <url>https://github.com/tmurakami/classinjector</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>tmurakami</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tmurakami/classinjector.git</connection>
+    <developerConnection>scm:git://github.com/tmurakami/classinjector.git</developerConnection>
+    <url>git://github.com/tmurakami/classinjector.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.tmurakami.classinjector</groupId>
+      <artifactId>classinjector</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

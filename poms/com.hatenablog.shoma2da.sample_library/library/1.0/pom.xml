@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hatenablog.shoma2da.sample_library</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Bintray publish Gradle aar example</name>
+  <url>https://github.com/shoma2da/sample-library</url>
+  <developers>
+    <developer>
+      <id>shoma2da</id>
+      <name>Shoichi Matsuda</name>
+      <email>marcos.shoichi.matsuda@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/shoma2da/sample-library</connection>
+    <developerConnection>https://github.com/shoma2da/sample-library.git</developerConnection>
+    <url>https://github.com/shoma2da/sample-library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

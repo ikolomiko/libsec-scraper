@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.qingmei2.dslviewpager</groupId>
+  <artifactId>adapter_databinding</artifactId>
+  <version>0.1.4</version>
+  <packaging>aar</packaging>
+  <name>DslViewPagerAdapter</name>
+  <url>https://github.com/qingmei2/DslViewPagerAdapter</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>https://github.com/qingmei2/DslViewPagerAdapter#License</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qingmei2</id>
+      <name>qingmei2</name>
+      <email>mq2553299@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/qingmei2/DslViewPagerAdapter.git</connection>
+    <developerConnection>https://github.com/qingmei2/DslViewPagerAdapter.git</developerConnection>
+    <url>https://github.com/qingmei2/DslViewPagerAdapter</url>
+  </scm>
+</project>

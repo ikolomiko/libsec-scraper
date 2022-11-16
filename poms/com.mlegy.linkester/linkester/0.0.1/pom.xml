@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mlegy.linkester</groupId>
+  <artifactId>linkester</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>linkester</name>
+  <description>Linkester library that helps developers test their deep links implementation</description>
+  <url>https://github.com/mlegy/linkester</url>
+  <licenses>
+    <license>
+      <name>Linkester License</name>
+      <url>https://github.com/mlegy/linkester/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>melegy</id>
+      <name>Ahmad Melegy</name>
+      <email>ahmad.melegy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/mlegy/linkester.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mlegy/linkester.git</developerConnection>
+    <url>https://github.com/mlegy/linkester/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+  </dependencies>
+</project>

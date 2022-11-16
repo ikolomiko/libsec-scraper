@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.silvaren</groupId>
+  <artifactId>easyrs</artifactId>
+  <version>0.5.2</version>
+  <packaging>aar</packaging>
+  <name>easyRS</name>
+  <description>A set of convenience RenderScript tools for processing common Android image formats such as Bitmap and NV21.</description>
+  <url>https://github.com/silvaren/easyrs</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>silvaren</id>
+      <name>Renato Silva</name>
+      <email>renato.hawk@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/silvaren/easyrs.git</connection>
+    <developerConnection>https://github.com/silvaren/easyrs.git</developerConnection>
+    <url>https://github.com/silvaren/easyrs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

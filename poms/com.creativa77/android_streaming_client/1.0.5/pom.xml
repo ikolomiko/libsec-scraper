@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.creativa77</groupId>
+  <artifactId>android_streaming_client</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>AndroidStreamingClient Library</name>
+  <description>AndroidStreamingClient library</description>
+  <url>https://github.com/creativa77/AndroidStreamingClient</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ashyonline</id>
+      <name>Ayelen Chavez</name>
+      <email>ashi@creativa77.com.ar</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/creativa77/AndroidStreamingClient</connection>
+    <developerConnection>scm:https://github.com/creativa77/AndroidStreamingClient</developerConnection>
+    <url>scm:https://github.com/creativa77/AndroidStreamingClient</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.directory.studio</groupId>
+      <artifactId>org.apache.commons.codec</artifactId>
+      <version>1.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.creativa77</groupId>
+      <artifactId>efflux</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

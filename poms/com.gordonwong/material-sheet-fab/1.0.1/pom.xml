@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gordonwong</groupId>
+  <artifactId>material-sheet-fab</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>material-sheet-fab</name>
+  <description>Android library that implements the floating action button to sheet transition from Google's Material Design documentation.</description>
+  <url>https://github.com/gowong/material-sheet-fab</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gowong</id>
+      <name>Gordon Wong</name>
+      <email>gwong001@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/gowong/material-sheet-fab.git</connection>
+    <developerConnection>https://github.com/gowong/material-sheet-fab.git</developerConnection>
+    <url>https://github.com/gowong/material-sheet-fab</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.asyl.animation</groupId>
+      <artifactId>arcanimator</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

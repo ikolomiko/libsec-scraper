@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tools.android</groupId>
+  <artifactId>FairyPlugin</artifactId>
+  <version>0.0.63.9-quickfix</version>
+  <packaging>aar</packaging>
+  <name>APF-Quick-Fix</name>
+  <url>https://github.com/liuchonghui/APF-Quick-Fix</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liuchonghui</id>
+      <name>liuchonghui</name>
+      <email>liu_chonghui@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/liuchonghui/APF-Quick-Fix.git</connection>
+    <developerConnection>https://github.com/liuchonghui/APF-Quick-Fix.git</developerConnection>
+    <url>https://github.com/liuchonghui/APF-Quick-Fix</url>
+  </scm>
+</project>

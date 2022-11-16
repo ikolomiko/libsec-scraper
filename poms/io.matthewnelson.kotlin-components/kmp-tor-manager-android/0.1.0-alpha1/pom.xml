@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.matthewnelson.kotlin-components</groupId>
+  <artifactId>kmp-tor-manager-android</artifactId>
+  <version>0.1.0-alpha1</version>
+  <packaging>aar</packaging>
+  <name>KmpTorManager</name>
+  <description>Kotlin Components' TorManager for managing startup, shutdown, state, etc.</description>
+  <url>https://github.com/05nelsonm/kmp-tor</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>https://www.apache.org/licenses/LICENSE-2.0.txt</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>05nelsonm</id>
+      <name>Matthew Nelson</name>
+      <url>https://github.com/05nelsonm</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/05nelsonm/kmp-tor</connection>
+    <developerConnection>scm:git:ssh://git@github.com/05nelsonm/kmp-tor.git</developerConnection>
+    <url>https://github.com/05nelsonm/kmp-tor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.matthewnelson.kotlin-components</groupId>
+      <artifactId>kmp-tor-manager-common-jvm</artifactId>
+      <version>0.1.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>atomicfu-jvm</artifactId>
+      <version>0.17.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core-jvm</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.matthewnelson.kotlin-components</groupId>
+      <artifactId>kmp-tor-controller-jvm</artifactId>
+      <version>0.1.0-alpha1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-stdlib-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kmp-tor-common</artifactId>
+          <groupId>io.matthewnelson.kotlin-components</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>kmp-tor-controller-common</artifactId>
+          <groupId>io.matthewnelson.kotlin-components</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

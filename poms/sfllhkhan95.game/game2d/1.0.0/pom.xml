@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sfllhkhan95.game</groupId>
+  <artifactId>game2d</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>GameCore</name>
+  <description>GameCore provides API for writing simple Java games and native Android games.</description>
+  <url>https://github.com/sfllhkhan95/game-core</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>1</id>
+      <name>Muhammad Saif Ullah Khan</name>
+      <email>saifkhichi96@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sfllhkhan95/game-core.git</connection>
+    <developerConnection>https://github.com/sfllhkhan95/game-core.git</developerConnection>
+    <url>https://github.com/sfllhkhan95/game-core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.comscore</groupId>
+  <artifactId>android-analytics</artifactId>
+  <version>5.7.3</version>
+  <packaging>aar</packaging>
+  <name>android-analytics</name>
+  <description>Comscore analytics library for Android.</description>
+  <url>http://comscore.com</url>
+  <licenses>
+    <license>
+      <name>Comscore license</name>
+      <url>https://github.com/comScore/ComScore-Android/blob/master/LicenseAgreement.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Marko Ocko</name>
+      <email>mocko@comscore.com</email>
+      <organization>Comscore</organization>
+      <organizationUrl>http://comscore.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Jose Cabo</name>
+      <email>jcabo@comscore.com</email>
+      <organization>Comscore</organization>
+      <organizationUrl>http://comscore.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/comScore/ComScore-Android.git</connection>
+    <developerConnection>scm:git://github.com/comScore/ComScore-Android.git</developerConnection>
+    <url>https://github.com/comScore/ComScore-Android.git</url>
+  </scm>
+</project>

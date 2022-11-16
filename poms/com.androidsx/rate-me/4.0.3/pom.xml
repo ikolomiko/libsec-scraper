@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.androidsx</groupId>
+  <artifactId>rate-me</artifactId>
+  <version>4.0.3</version>
+  <packaging>aar</packaging>
+  <name>Rate Me</name>
+  <description>Android library that shows a dialog to let the user rate this app in the Google Play store</description>
+  <url>https://github.com/androidsx/rate-me</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/androidsx/rate-me/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pocho23</id>
+      <name>Lucas Ponzoda</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:androidsx/rate-me.git</connection>
+    <developerConnection>scm:git@github.com:androidsx/rate-me.git</developerConnection>
+    <url>https://github.com/androidsx/rate-me</url>
+  </scm>
+</project>

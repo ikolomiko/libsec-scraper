@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.livae</groupId>
+  <artifactId>android-loadingHelper</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>Android LoadingHelper Library</name>
+  <description>Helper classes to perform pull to refresh and endless scrolling in with a recycler view</description>
+  <url>https://github.com/jorgemf/android-loading-helper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://raw.githubusercontent.com/jorgemf/android-loading-helper/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jorgemf</id>
+      <name>Jorge M F</name>
+      <email>jorgemf+maven@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:jorgemf/android-loading-helper.git</connection>
+    <developerConnection>scm:git@github.com:jorgemf/android-loading-helper.git</developerConnection>
+    <url>https://github.com/jorgemf/android-loading-helper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>21.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

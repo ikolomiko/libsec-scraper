@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sw926.imagefileselector</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.16</version>
+  <packaging>aar</packaging>
+  <name>ImageFileSelector</name>
+  <description>Android image file selector</description>
+  <url>https://github.com/sw926/ImageFileSelector</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sw926</id>
+      <name>sunwei</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/sw926/ImageFileSelector.git</connection>
+    <developerConnection>scm:https://github.com/sw926/ImageFileSelector.git</developerConnection>
+    <url>https://github.com/sw926/ImageFileSelector</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.61</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

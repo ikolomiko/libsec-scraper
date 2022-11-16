@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.noisepages.nettoyeur</groupId>
+  <artifactId>midi</artifactId>
+  <version>1.0.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>MIDI for Android, over USB as well as Bluetooth</name>
+  <url>https://github.com/nettoyeurny/btmidi</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://opensource.org/licenses/apache2.0.php</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>https://github.com/nettoyeurny/btmidi.git</connection>
+    <developerConnection>https://github.com/nettoyeurny/btmidi.git</developerConnection>
+    <url>https://github.com/nettoyeurny/btmidi</url>
+  </scm>
+</project>

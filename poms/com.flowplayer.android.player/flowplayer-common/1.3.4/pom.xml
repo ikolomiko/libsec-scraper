@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flowplayer.android.player</groupId>
+  <artifactId>flowplayer-common</artifactId>
+  <version>1.3.4</version>
+  <packaging>aar</packaging>
+  <name>flowplayer-common</name>
+  <description>The common library of Flowplayer's native Android SDK. This artifact does not need to be added as a dependency in client projects.</description>
+  <url>https://github.com/flowplayer/flowplayer-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Flowplayer Commercial License v0.4</name>
+      <url>https://flowplayer.com/commercial-license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flowplayer</id>
+      <name>Flowplayer AB</name>
+      <email>support@flowplayer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/flowplayer/flowplayer-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/flowplayer/flowplayer-android-sdk.git</developerConnection>
+    <url>https://github.com/flowplayer/flowplayer-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer-core</artifactId>
+      <version>2.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer-ui</artifactId>
+      <version>2.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>extension-ima</artifactId>
+      <version>2.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.4.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

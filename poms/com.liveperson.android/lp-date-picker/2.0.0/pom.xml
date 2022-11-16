@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.liveperson.android</groupId>
+  <artifactId>lp-date-picker</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+  <name>lp-date-picker</name>
+  <description>LivePerson DatePicker</description>
+  <url>https://github.com/LP-Messaging/Android-Messaging-SDK</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>LPDatePicker</name>
+      <email>androidsdk-LP@liveperson.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/LP-Messaging/Android-Messaging-SDK.git</connection>
+    <developerConnection>scm:git:ssh://github.com/LP-Messaging/Android-Messaging-SDK.git</developerConnection>
+    <url>https://github.com/LP-Messaging/Android-Messaging-SDK/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.3.72</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+  </dependencies>
+</project>

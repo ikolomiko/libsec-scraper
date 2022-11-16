@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.1993hzw</groupId>
+  <artifactId>Androids</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>1993hzw/Androids</name>
+  <description>提供了一些工具类以及自定义View，用于日常的Android快速开发。something about android</description>
+  <url>https://github.com/1993hzw/Androids</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>1993hzw</id>
+      <name>hzw</name>
+      <email>154330138@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/1993hzw/Androids.git</connection>
+    <developerConnection>scm:git://github.com/1993hzw/Androids.git</developerConnection>
+    <url>git://github.com/1993hzw/Androids.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

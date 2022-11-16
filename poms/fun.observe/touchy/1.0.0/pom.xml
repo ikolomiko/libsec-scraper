@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fun.observe</groupId>
+  <artifactId>touchy</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Touchy</name>
+  <description>Global Touch Listener for Android</description>
+  <url>https://github.com/fatih-iver/touchy</url>
+  <licenses>
+    <license>
+      <name>GPL-3.0 License</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.tr.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fatih-iver</id>
+      <name>Fatih</name>
+      <email>fatih.iver@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/fatih-iver/touchy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.donky</groupId>
+  <artifactId>donky-module-signalr</artifactId>
+  <version>2.7.0.2</version>
+  <packaging>aar</packaging>
+  <name>Donky SignalR</name>
+  <description>Donky SignalR library integrated into your Donky Project will use websocets to syncronise with the Donky Network when the Application is foregrounded.</description>
+  <url>http://www.mobiledonky.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marcinswierczek</id>
+      <name>Marcin Swierczek</name>
+      <email>sdk@mobiledonky.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Donky-Network/DonkySDK-Android-Modular.git</connection>
+    <developerConnection>scm:git:https://github.com/Donky-Network/DonkySDK-Android-Modular.git</developerConnection>
+    <url>https://github.com/Donky-Network/DonkySDK-Android-Modular</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-android-signalr</artifactId>
+      <version>2.7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.donky</groupId>
+      <artifactId>donky-core</artifactId>
+      <version>2.7.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

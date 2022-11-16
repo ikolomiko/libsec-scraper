@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nukc</groupId>
+  <artifactId>loadmorewrapper</artifactId>
+  <version>1.9.1</version>
+  <packaging>aar</packaging>
+  <name>在不改动 RecyclerView 原有 adapter 的情况下，使其拥有加载更多功能和自定义底部视图。</name>
+  <url>https://github.com/nukc/LoadMoreWrapper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nukc</id>
+      <name>c</name>
+      <email>353932158@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nukc/LoadMoreWrapper.git</connection>
+    <developerConnection>https://github.com/nukc/LoadMoreWrapper.git</developerConnection>
+    <url>https://github.com/nukc/LoadMoreWrapper</url>
+  </scm>
+</project>

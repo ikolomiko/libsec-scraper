@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tiann</groupId>
+  <artifactId>FreeReflection</artifactId>
+  <version>3.1.0</version>
+  <packaging>aar</packaging>
+  <name>tiann/FreeReflection</name>
+  <description>A library that lets you use reflection without any restriction above Android P</description>
+  <url>https://github.com/tiann/FreeReflection</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tiann</id>
+      <name>weishu</name>
+      <email>twsxtd@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tiann/FreeReflection.git</connection>
+    <developerConnection>scm:git://github.com/tiann/FreeReflection.git</developerConnection>
+    <url>git://github.com/tiann/FreeReflection.git</url>
+  </scm>
+</project>

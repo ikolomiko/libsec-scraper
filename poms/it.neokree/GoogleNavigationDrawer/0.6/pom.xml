@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.neokree</groupId>
+  <artifactId>GoogleNavigationDrawer</artifactId>
+  <version>0.6</version>
+  <packaging>aar</packaging>
+  <name>GoogleNavigationDrawer</name>
+  <description>Navigation Drawer Activity with Google design style and simplified methods</description>
+  <url>https://github.com/neokree/GoogleNavigationDrawer</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>neokree</id>
+      <name>Fabio Biola</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:neokree/GoogleNavigationDrawer.git</connection>
+    <developerConnection>scm:git@github.com:neokree/GoogleNavigationDrawer.git</developerConnection>
+    <url>https://github.com/neokree/GoogleNavigationDrawer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

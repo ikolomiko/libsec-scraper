@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ogangi.messangi.android.sdk</groupId>
+  <artifactId>messangi-push</artifactId>
+  <version>5.2.2</version>
+  <packaging>aar</packaging>
+  <name>MessangiSDK</name>
+  <description>Automatized reception of push notifications</description>
+  <url>https://www.messangi.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>messangi</id>
+      <name>Messangi Development</name>
+      <email>github@messangi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/messangi/AndroidAppDemo.git</connection>
+    <developerConnection>https://github.com/messangi/AndroidAppDemo.git</developerConnection>
+    <url>https://www.messangi.com</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-core</artifactId>
+      <version>16.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>17.3.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ogangi.messangi.android.sdk</groupId>
+      <artifactId>messangisdk</artifactId>
+      <version>5.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

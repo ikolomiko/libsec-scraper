@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.yongzheng7</groupId>
+  <artifactId>module-reporter</artifactId>
+  <version>4.0.0</version>
+  <packaging>aar</packaging>
+  <name>module-reporter</name>
+  <description>module reporter exception and crash</description>
+  <url>https://github.com/yongzheng7/testjava</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wuyongzheng</id>
+      <name>wuyongzheng</name>
+      <email>1055115204@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/yongzheng7/testjava.git</connection>
+    <developerConnection>scm:git:ssh://github.com/yongzheng7/testjava.git</developerConnection>
+    <url>https://github.com/yongzheng7/testjava</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+</project>

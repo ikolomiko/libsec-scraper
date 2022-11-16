@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitee.tiamosu</groupId>
+  <artifactId>fly-databinding</artifactId>
+  <version>1.6.9</version>
+  <packaging>aar</packaging>
+  <name>FlyNavigation</name>
+  <description>An Android library.</description>
+  <url>https://gitee.com/tiamosu/FlyNavigation/</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Tiamosu</name>
+      <email>137359049@qq.com</email>
+      <url>https://gitee.com/tiamosu/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://gitee.com/tiamosu/FlyNavigation.git</connection>
+    <developerConnection>scm:git:ssh://gitee.com/tiamosu/FlyNavigation.git</developerConnection>
+    <url>https://gitee.com/tiamosu/FlyNavigation/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <artifactId>databinding-common</artifactId>
+      <groupId>androidx.databinding</groupId>
+      <version>7.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>databinding-runtime</artifactId>
+      <groupId>androidx.databinding</groupId>
+      <version>7.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>databinding-adapters</artifactId>
+      <groupId>androidx.databinding</groupId>
+      <version>7.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>databinding-ktx</artifactId>
+      <groupId>androidx.databinding</groupId>
+      <version>7.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

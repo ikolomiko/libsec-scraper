@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.albertosh.expandablerecyclerviewwithreordering</groupId>
+  <artifactId>library</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>ExpandableRecyclerviewWithReordering</name>
+  <description>ExpandableRecyclerViewWithReordering provides an easy way of achieving the ExpandableListView effect with all the power of a RecyclerView and support for drag and drop reordenation</description>
+  <url>https://github.com/AlbertoSH/ExpandableRecyclerViewWithReordering</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlbertoSH</id>
+      <name>Alberto Sanz</name>
+      <email>alberto.sanz.herrero@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AlbertoSH/ExpandableRecyclerViewWithReordering.git</connection>
+    <developerConnection>https://github.com/AlbertoSH/ExpandableRecyclerViewWithReordering.git</developerConnection>
+    <url>https://github.com/AlbertoSH/ExpandableRecyclerViewWithReordering</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

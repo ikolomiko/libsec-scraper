@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>software.aws.chimesdk</groupId>
+  <artifactId>amazon-chime-sdk-machine-learning</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Amazon Chime SDK Machine Learning</name>
+  <description>Amazon Chime Android SDK Machine Learning</description>
+  <url>https://github.com/aws/amazon-chime-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazonwebservices</id>
+      <organization>Amazon Web Services</organization>
+      <organizationUrl>http://aws.amazon.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/aws/amazon-chime-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aws/amazon-chime-sdk-android.git</developerConnection>
+    <url>https://github.com/aws/amazon-chime-sdk-android</url>
+  </scm>
+</project>

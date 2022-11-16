@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.urbanairship.android</groupId>
+  <artifactId>urbanairship-gcm</artifactId>
+  <version>9.1.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>15.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.urbanairship.android</groupId>
+      <artifactId>urbanairship-core</artifactId>
+      <version>9.1.1</version>
+    </dependency>
+  </dependencies>
+  <description>Urban Airship Android SDK GCM plugin</description>
+  <name>urbanairship-gcm</name>
+  <url>https://github.com/urbanairship/android-library</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Urban Airship</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/urbanairship/android-library.git</connection>
+    <url>https://github.com/urbanairship/android-library</url>
+  </scm>
+</project>

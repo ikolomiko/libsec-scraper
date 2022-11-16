@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.bytebeats</groupId>
+  <artifactId>anr</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>anr</name>
+  <description>Android ANR Manager</description>
+  <url>https://github.com/bytebeats/Anr-Monitor</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bytebeats</id>
+      <name>Chen Pan</name>
+      <email>happychinapc@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/bytebeats/Anr-Monitor.git</connection>
+    <developerConnection>scm:git:ssh:github.com/bytebeats/Anr-Monitor.git</developerConnection>
+    <url>https://github.com/bytebeats/Anr-Monitor/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.20</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+  </dependencies>
+</project>

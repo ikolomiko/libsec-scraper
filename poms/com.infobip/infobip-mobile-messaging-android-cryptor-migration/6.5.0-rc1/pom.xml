@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.infobip</groupId>
+  <artifactId>infobip-mobile-messaging-android-cryptor-migration</artifactId>
+  <version>6.5.0-rc1</version>
+  <packaging>aar</packaging>
+  <name>infobip-mobile-messaging-android-cryptor-migration</name>
+  <description>Mobile Messaging SDK for Android</description>
+  <url>https://github.com/infobip/mobile-messaging-sdk-android</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/infobip/mobile-messaging-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>infobip</id>
+      <name>Infobip</name>
+      <email>support@infobip.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/infobip/mobile-messaging-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/infobip/mobile-messaging-sdk-android.git</developerConnection>
+    <url>https://github.com/infobip/mobile-messaging-sdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.infobip</groupId>
+      <artifactId>infobip-mobile-messaging-android-sdk</artifactId>
+      <version>6.5.0-rc1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.infobip</groupId>
+      <artifactId>infobip-mobile-messaging-api-java</artifactId>
+      <version>6.5.0-rc1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.infobip</groupId>
+      <artifactId>infobip-mobile-messaging-android-resources</artifactId>
+      <version>6.5.0-rc1</version>
+    </dependency>
+  </dependencies>
+</project>

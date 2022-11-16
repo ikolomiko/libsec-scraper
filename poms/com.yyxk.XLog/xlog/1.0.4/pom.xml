@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yyxk.XLog</groupId>
+  <artifactId>xlog</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://github.com/lx1992lx/XLog</url>
+  <licenses>
+    <license>
+      <name>This is a Lite Android Logcat Util</name>
+      <url>https://github.com/lx1992lx/XLog</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lx1992lx</id>
+      <name>lu xin</name>
+      <email>1012025958@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lx1992lx/XLog.git</connection>
+    <developerConnection>https://github.com/lx1992lx/XLog.git</developerConnection>
+    <url>https://github.com/lx1992lx/XLog</url>
+  </scm>
+</project>

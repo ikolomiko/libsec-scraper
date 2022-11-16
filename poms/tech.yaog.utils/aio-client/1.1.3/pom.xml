@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.yaog.utils</groupId>
+  <artifactId>aio-client</artifactId>
+  <version>1.1.3</version>
+  <packaging>aar</packaging>
+  <name>AIOClient</name>
+  <description>Asynchronous IO Client for Android</description>
+  <url>https://github.com/mutoukenji/AIOClient</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/mutoukenji/AIOClient/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mutoukenji</id>
+      <name>MutouKenji</name>
+      <email>mutoukenji@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mutoukenji/AIOClient.git</connection>
+    <developerConnection>https://github.com/mutoukenji/AIOClient.git</developerConnection>
+    <url>https://github.com/mutoukenji/AIOClient</url>
+  </scm>
+</project>

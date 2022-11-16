@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zegome.utils</groupId>
+  <artifactId>andutils</artifactId>
+  <version>0.5.0</version>
+  <packaging>aar</packaging>
+  <name>AndUtils</name>
+  <description>Some utilities for android development.</description>
+  <url>https://github.com/backviet01/AndUtils</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>backviet</id>
+      <name>Le Trong Quan</name>
+      <email>backviet01@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/backviet01/AndUtils.git</connection>
+    <developerConnection>https://github.com/backviet01/AndUtils.git</developerConnection>
+    <url>https://github.com/backviet01/AndUtils</url>
+  </scm>
+</project>

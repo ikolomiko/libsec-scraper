@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.didiglobal.dreambox</groupId>
+  <artifactId>simple-wrapper</artifactId>
+  <version>0.3.2</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.1.0</version>
+      <artifactId>appcompat</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.didiglobal.dreambox</groupId>
+      <version>0.3.2</version>
+      <artifactId>wrapper</artifactId>
+    </dependency>
+  </dependencies>
+  <name>DreamBox android SDK</name>
+  <description>a project that can implement dynamic layout and data bind on Android&amp;IOS system. mobile device  render ui, bind data, add event listener... according to downloaded [bundle] file.</description>
+  <url>https://github.com/didi/dreambox</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>liukaikevin</name>
+      <email>liukaikevin@didiglobal.com</email>
+    </developer>
+    <developer>
+      <name>chenjingchenjing</name>
+      <email>chenjingchenjing@didiglobal.com</email>
+    </developer>
+    <developer>
+      <name>lizechen</name>
+      <email>lizechen@didiglobal.com</email>
+    </developer>
+    <developer>
+      <name>hanqingnuan</name>
+      <email>hanqingnuan@didiglobal.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/didi/dreambox.git</connection>
+    <developerConnection>scm:git:https://github.com/didi/dreambox.git</developerConnection>
+    <url>https://github.com/didi/dreambox.git</url>
+  </scm>
+</project>

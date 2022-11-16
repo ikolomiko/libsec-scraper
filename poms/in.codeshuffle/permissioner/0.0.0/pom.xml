@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.codeshuffle</groupId>
+  <artifactId>permissioner</artifactId>
+  <version>0.0.0</version>
+  <packaging>aar</packaging>
+  <name>permissioner</name>
+  <description>A Library to easily request android permissions for your app in one line!</description>
+  <url>https://github.com/skymansandy/permissioner</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>skymansandy</id>
+      <name>P Sandesh Baliga</name>
+      <email>skymansandycs@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/skymansandy/permissioner.git</connection>
+    <developerConnection>https://github.com/skymansandy/permissioner.git</developerConnection>
+    <url>https://github.com/skymansandy/permissioner</url>
+  </scm>
+</project>

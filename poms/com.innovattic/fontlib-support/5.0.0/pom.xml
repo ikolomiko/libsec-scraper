@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.innovattic</groupId>
+  <artifactId>fontlib-support</artifactId>
+  <version>5.0.0</version>
+  <packaging>aar</packaging>
+  <name>Android Font Library (font aware support lib TextViews)</name>
+  <description>Font library for Android with xml, style and textAppearance support. fontlib-support contains font aware subclasses of all AppCompat versions of TextView and its subclasses.</description>
+  <url>https://github.com/Innovattic/Android-Font-Library</url>
+  <licenses>
+    <license>
+      <name>Unlicense</name>
+      <url>http://unlicense.org/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jfresen</id>
+      <name>Jelle Fresen</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Innovattic/Android-Font-Library.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Innovattic/Android-Font-Library.git</developerConnection>
+    <url>https://github.com/Innovattic/Android-Font-Library</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.innovattic</groupId>
+      <artifactId>fontlib-core</artifactId>
+      <version>5.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.leo.simplearcloader</groupId>
+  <artifactId>simplearcloader</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>SimpleLoader</name>
+  <description>Bored of seeing the same old Android Loader ? SimpleArcLoader is one thing you should try.</description>
+  <url>https://github.com/generic-leo/SimpleArcLoader</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>generic-leo</id>
+      <name>Prathamesh Sawant</name>
+      <email>leo.studio89@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/generic-leo/SimpleArcLoader.git</connection>
+    <developerConnection>https://github.com/generic-leo/SimpleArcLoader.git</developerConnection>
+    <url>https://github.com/generic-leo/SimpleArcLoader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

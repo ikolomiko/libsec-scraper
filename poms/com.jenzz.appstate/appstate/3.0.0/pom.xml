@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jenzz.appstate</groupId>
+  <artifactId>appstate</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>RxAppState</name>
+  <description>A simple Android library that monitors app state changes (background / foreground).</description>
+  <url>https://github.com/jenzz/RxAppState</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jenzz</id>
+      <name>Jens Driller</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/jenzz/RxAppState.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenzz/RxAppState.git</developerConnection>
+    <url>https://github.com/jenzz/RxAppState</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

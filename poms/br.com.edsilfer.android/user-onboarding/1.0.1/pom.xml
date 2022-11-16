@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.edsilfer.android</groupId>
+  <artifactId>user-onboarding</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Android User Onboarding</name>
+  <description>Provides an easy to set User OnBoarding based on Google's design</description>
+  <url>https://github.com/edsilfer/android-user-onboarding</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>edsilfer</id>
+      <name>Edgar S Fernandes</name>
+      <email>null</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/edsilfer/android-user-onboarding</connection>
+    <developerConnection>https://github.com/edsilfer/android-user-onboarding</developerConnection>
+    <url>https://github.com/edsilfer/android-user-onboarding</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>br.com.edsilfer</groupId>
+      <artifactId>kotlin-support</artifactId>
+      <version>1.0.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

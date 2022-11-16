@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.psp</groupId>
+  <artifactId>permission-helper</artifactId>
+  <version>0.2</version>
+  <packaging>aar</packaging>
+  <name>PermissionHelper For Android</name>
+  <url>https://github.com/pshiping2014/PermissionHelper</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pshiping2014</id>
+      <name>shiping.peng</name>
+      <email>pengshiping200@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pshiping2014/PermissionHelper.git</connection>
+    <developerConnection>https://github.com/pshiping2014/PermissionHelper.git</developerConnection>
+    <url>https://github.com/pshiping2014/PermissionHelper</url>
+  </scm>
+</project>

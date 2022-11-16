@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.equaleyes.onelinelist</groupId>
+  <artifactId>one-line-list</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>OneLineList</name>
+  <description>An Android library for simple creation of recycler view lists</description>
+  <url>https://github.com/equaleyes/OneLineList</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>damijanracel</id>
+      <name>Damijan Racel</name>
+      <email>damijan.racel@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/equaleyes/OneLineList.git</connection>
+    <developerConnection>https://github.com/equaleyes/OneLineList.git</developerConnection>
+    <url>https://github.com/equaleyes/OneLineList</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

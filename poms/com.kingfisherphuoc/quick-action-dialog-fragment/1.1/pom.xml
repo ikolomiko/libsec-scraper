@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kingfisherphuoc</groupId>
+  <artifactId>quick-action-dialog-fragment</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>QuickActionDialogFragment</name>
+  <description>Quick Action Dialog Fragment which is showed with position relate to Anchor View</description>
+  <url>https://github.com/kingfisherphuoc/QuickActionDialogFragment</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kingfisherphuoc</id>
+      <name>Doan Hong Phuoc</name>
+      <email>phuocdh53@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kingfisherphuoc/QuickActionDialogFragment.git</connection>
+    <developerConnection>https://github.com/kingfisherphuoc/QuickActionDialogFragment.git</developerConnection>
+    <url>https://github.com/kingfisherphuoc/QuickActionDialogFragment</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

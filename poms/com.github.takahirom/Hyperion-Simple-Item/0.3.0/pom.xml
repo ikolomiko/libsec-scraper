@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.takahirom</groupId>
+  <artifactId>Hyperion-Simple-Item</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>takahirom/Hyperion-Simple-Item</name>
+  <description>This library is a plug-in that provides the function to add menus to Hyperion-Android</description>
+  <url>https://github.com/takahirom/Hyperion-Simple-Item</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>takahirom</id>
+      <name>Takahiro Menju</name>
+      <email>takam.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/takahirom/Hyperion-Simple-Item.git</connection>
+    <developerConnection>scm:git://github.com/takahirom/Hyperion-Simple-Item.git</developerConnection>
+    <url>git://github.com/takahirom/Hyperion-Simple-Item.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.willowtreeapps.hyperion</groupId>
+      <artifactId>hyperion-plugin</artifactId>
+      <version>0.9.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

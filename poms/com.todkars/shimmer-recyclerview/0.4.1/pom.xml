@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.todkars</groupId>
+  <artifactId>shimmer-recyclerview</artifactId>
+  <version>0.4.1</version>
+  <packaging>aar</packaging>
+  <name>shimmer-recyclerview</name>
+  <description>A custom Shimmer RecyclerView based upon Facebook Android Shimmer library.</description>
+  <url>https://github.com/omtodkar/ShimmerRecyclerView</url>
+  <developers>
+    <developer>
+      <id>omtodkar</id>
+      <name>Omkar Todkar</name>
+      <email>omtodkar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/omtodkar/ShimmerRecyclerView.git</connection>
+    <developerConnection>https://github.com/omtodkar/ShimmerRecyclerView.git</developerConnection>
+    <url>https://github.com/omtodkar/ShimmerRecyclerView</url>
+  </scm>
+</project>

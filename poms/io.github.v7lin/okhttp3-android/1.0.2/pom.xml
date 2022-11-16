@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.v7lin</groupId>
+  <artifactId>okhttp3-android</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>okhttp3-android</name>
+  <description>okhttp3-android</description>
+  <url>https://github.com/v7lin/android-network</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>v7lin</id>
+      <name>v7lin</name>
+      <email>v7lin@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/v7lin/android-network.git</connection>
+    <developerConnection>https://github.com/v7lin/android-network.git</developerConnection>
+    <url>https://github.com/v7lin/android-network</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/v7lin/android-network/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.v7lin</groupId>
+      <artifactId>okhttp3</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kianoni</groupId>
+  <artifactId>fontloader</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>Android Font Loading Textview</name>
+  <description>Helper for using custom fonts in styles</description>
+  <url>https://github.com/Kianoni/android-fontloading-textview</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kianoni</id>
+      <name>Kimmo Ilppola</name>
+      <email>kimmo.ilppola@futurice.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/Kianoni/android-fontloading-textview.git</connection>
+    <developerConnection>scm:https://github.com/Kianoni/android-fontloading-textview.git</developerConnection>
+    <url>https://github.com/Kianoni/android-fontloading-textview</url>
+  </scm>
+</project>

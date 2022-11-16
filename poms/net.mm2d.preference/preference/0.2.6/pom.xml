@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.mm2d.preference</groupId>
+  <artifactId>preference</artifactId>
+  <version>0.2.6</version>
+  <packaging>aar</packaging>
+  <name>PreferenceActivityCompat</name>
+  <description>This is a compatibility library of PreferenceActivity.</description>
+  <url>https://github.com/ohmae/preference-activity-compat</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ryo</id>
+      <name>ryosuke</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:ohmae/preference-activity-compat.git</connection>
+    <developerConnection>scm:git@github.com:ohmae/preference-activity-compat.git</developerConnection>
+    <url>https://github.com/ohmae/preference-activity-compat</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.preference</groupId>
+      <artifactId>preference-ktx</artifactId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lukekorth</groupId>
+  <artifactId>device-automator</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>device-automator</name>
+  <description>An easy to use, Espresso like, syntax on top of the Android UI Automator testing framework</description>
+  <url>https://github.com/lkorth/device-automator</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lkorth</id>
+      <name>Luke Korth</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:lkorth/device-automator.git</connection>
+    <developerConnection>scm:git@github.com:lkorth/device-automator.git</developerConnection>
+    <url>scm:git@github.com:lkorth/device-automator.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test.uiautomator</groupId>
+      <artifactId>uiautomator-v18</artifactId>
+      <version>2.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>rules</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>[25.0.0,26.0.0)</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

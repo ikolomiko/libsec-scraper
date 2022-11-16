@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.RedMadRobot</groupId>
+  <artifactId>input-mask-android</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>InputMask</name>
+  <description>Android library that helps masking and formatting user input</description>
+  <url>https://github.com/RedMadRobot/input-mask-android</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>taflanidi</id>
+      <name>Egor Taflanidi</name>
+      <email>et@redmadrobot.com</email>
+    </developer>
+    <developer>
+      <id>xanderblinov</id>
+      <name>Alexander Blinov</name>
+      <email>a.blinov@redmadrobot.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/RedMadRobot/input-mask-android.git</connection>
+    <developerConnection>https://github.com/RedMadRobot/input-mask-android.git</developerConnection>
+    <url>https://github.com/RedMadRobot/input-mask-android</url>
+  </scm>
+</project>

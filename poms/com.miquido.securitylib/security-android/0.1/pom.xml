@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.miquido.securitylib</groupId>
+  <artifactId>security-android</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.11</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>Security Library</name>
+  <description>Security Library Android</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>damiandzierzak</id>
+      <name>Damian Dzierzak</name>
+      <email>damian.dzierzak@miquido.com</email>
+    </developer>
+    <developer>
+      <id>jacekfilo</id>
+      <name>Jacek Filo</name>
+      <email>jacek.filo@miquido.com</email>
+    </developer>
+  </developers>
+</project>

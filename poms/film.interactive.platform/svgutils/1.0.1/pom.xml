@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>film.interactive.platform</groupId>
+  <artifactId>svgutils</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>film.interactive.utils:svgutils</name>
+  <description>Utils for parsing SVG in Android</description>
+  <url>https://interactive.film</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bad_musician</id>
+      <name>Bulat Motygullin</name>
+      <email>bul3515@gmail.com</email>
+    </developer>
+    <developer>
+      <id>ortyomz</id>
+      <name>Artem Zolotukhin</name>
+      <email>zltkhnrtm@gmail.com</email>
+    </developer>
+    <developer>
+      <id>dinis</id>
+      <name>Dinislam Ishmukhametov</name>
+      <email>dinis.ish@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://Bultivoli@bitbucket.org/Bultivoli/svgutils.git</connection>
+    <developerConnection>https://Bultivoli@bitbucket.org/Bultivoli/svgutils.git</developerConnection>
+    <url>https://interactive.film</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

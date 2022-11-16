@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.adevone.summer</groupId>
+  <artifactId>summer-androidx</artifactId>
+  <version>1.0.0-beta10</version>
+  <packaging>aar</packaging>
+  <name>summer-androidx</name>
+  <description>A Kotlin/Multiplatform MVVM library</description>
+  <url>https://github.com/adevone/summer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/adevone/summer/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>adevone</id>
+      <name>Kirill Terekhov</name>
+      <email>terehovks3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/adevone/summer.git</connection>
+    <developerConnection>scm:git:ssh://github.com/adevone/summer.git</developerConnection>
+    <url>https://github.com/adevone/summer/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.21</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.adevone.summer</groupId>
+      <artifactId>summer</artifactId>
+      <version>1.0.0-beta10</version>
+    </dependency>
+  </dependencies>
+</project>

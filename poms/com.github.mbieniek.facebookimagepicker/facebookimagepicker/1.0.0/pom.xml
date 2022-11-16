@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mbieniek.facebookimagepicker</groupId>
+  <artifactId>facebookimagepicker</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>FacebookImagePicker</name>
+  <description>An Android Facebook image picker</description>
+  <url>https://github.com/mbieniek/FacebookImagePicker</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mbieniek</id>
+      <name>Michael Bieniek</name>
+      <email>michaelpbieniek@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mbieniek/FacebookImagePicker.git</connection>
+    <developerConnection>https://github.com/mbieniek/FacebookImagePicker.git</developerConnection>
+    <url>https://github.com/mbieniek/FacebookImagePicker</url>
+  </scm>
+</project>

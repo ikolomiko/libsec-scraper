@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cacaorick</groupId>
+  <artifactId>navigation-drawer-activity</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Easy to use same NavigationDrawer, ToolBar and FloatingActionButton in Activity.</name>
+  <url>https://github.com/CacaoRick/NavigationDrawerActivity</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cacaorick</id>
+      <name>CacaoRick</name>
+      <email>cacaorick@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/CacaoRick/NavigationDrawerActivity.git</connection>
+    <developerConnection>https://github.com/CacaoRick/NavigationDrawerActivity.git</developerConnection>
+    <url>https://github.com/CacaoRick/NavigationDrawerActivity</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>24.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

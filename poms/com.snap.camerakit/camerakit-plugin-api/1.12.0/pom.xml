@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.snap.camerakit</groupId>
+  <artifactId>camerakit-plugin-api</artifactId>
+  <version>1.12.0</version>
+  <packaging>aar</packaging>
+  <name>CameraKit (Plugin API)</name>
+  <description>Provides a contract that applications can use to interact with CameraKit SDK loaded dynamically as a plugin.</description>
+  <url>https://snapkit.com/camera-kit</url>
+  <licenses>
+    <license>
+      <name>Snap License</name>
+      <url>https://github.com/Snapchat/camera-kit-reference/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>snap</id>
+      <name>Snap, Inc.</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Snapchat/camera-kit-reference.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Snapchat/camera-kit-reference.git</developerConnection>
+    <url>https://github.com/Snapchat/camera-kit-reference</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.asynclayoutinflater</groupId>
+      <artifactId>asynclayoutinflater</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.coordinatorlayout</groupId>
+      <artifactId>coordinatorlayout</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.swiperefreshlayout</groupId>
+      <artifactId>swiperefreshlayout</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-common</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.12.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.ieclipse.af</groupId>
+  <artifactId>af-library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>cn.ieclipse.af</name>
+  <description>An Android framework library and demo to help you building your app quickly</description>
+  <url>https://github.com/Jamling/QuickAF</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution></distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Jamling</id>
+      <name>QuickAF Project</name>
+      <email>li.jamling@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Jamling/QuickAF.git</connection>
+    <developerConnection>scm:git:git@github.com:Jamling/QuickAF.git</developerConnection>
+    <url>https://github.com/Jamling/QuickAF</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

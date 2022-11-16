@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>oss-parent</artifactId>
+    <groupId>org.sonatype.oss</groupId>
+    <version>7</version>
+  </parent>
+  <groupId>com.yandex.android</groupId>
+  <artifactId>ym-android-sdk</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Yandex.Money SDK for Android</name>
+  <description>This Android library provides tools for performing payments using Yandex.Money public API on devices running Android 4.0 (API 14) or higher. The library uses Yandex.Money SDK for Java.</description>
+  <url>https://tech.yandex.ru/money/</url>
+  <licenses>
+    <license>
+      <name>Agreement on Use of the Yandex.Money API</name>
+      <url>https://money.yandex.ru/doc.xml?id=526828&amp;ncrnd=1189/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Yandex.Money</name>
+      <url>https://money.yandex.ru/</url>
+      <roles>
+        <role>Developer</role>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/yandex-money/yandex-money-sdk-android.git</connection>
+    <developerConnection>scm:git://github.com/yandex-money/yandex-money-sdk-android.git</developerConnection>
+    <url>https://github.com/yandex-money/yandex-money-sdk-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.yandex.java</groupId>
+      <artifactId>ym-java-epr-sdk</artifactId>
+      <version>2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.boxme</groupId>
+  <artifactId>parallaxviewpager</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Scrollable fragments within a viewpager that allows for parallax image and sticky bar effects </name>
+  <url>https://github.com/boxme/ParallaxHeaderViewPager</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/boxme/AsyncManager/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>boxme</id>
+      <name>Desmond Ng</name>
+      <email>desmond.ng.yang.yi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/boxme/ParallaxHeaderViewPager.git</connection>
+    <developerConnection>https://github.com/boxme/ParallaxHeaderViewPager.git</developerConnection>
+    <url>https://github.com/boxme/ParallaxHeaderViewPager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

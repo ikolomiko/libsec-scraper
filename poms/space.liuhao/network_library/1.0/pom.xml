@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>space.liuhao</groupId>
+  <artifactId>network_library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>network_library</name>
+  <description>Android平台网络设备有关代码封装</description>
+  <url>https://github.com/clnliuhao/NetworkLibrary</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3 (GPL-3.0)</name>
+      <url>http://www.opensource.org/licenses/gpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liuhao</id>
+      <name>liuhao</name>
+      <email>liuhaoduoduo@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/clnliuhao/NetworkLibrary</connection>
+    <developerConnection>https://github.com/clnliuhao/NetworkLibrary</developerConnection>
+    <url>https://github.com/clnliuhao/NetworkLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

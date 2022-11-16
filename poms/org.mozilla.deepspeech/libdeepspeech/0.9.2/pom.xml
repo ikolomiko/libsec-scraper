@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mozilla.deepspeech</groupId>
+  <artifactId>libdeepspeech</artifactId>
+  <version>0.9.2</version>
+  <packaging>aar</packaging>
+  <name>libdeepspeech</name>
+  <description>Speech recognition library</description>
+  <url>https://github.com/mozilla/DeepSpeech</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>deepspeech</id>
+      <name>Mozilla DeepSpeech Team</name>
+      <email>deepspeechs@lists.mozilla.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mozilla/DeepSpeech.git</connection>
+    <developerConnection>https://github.com/mozilla/DeepSpeech.git</developerConnection>
+    <url>https://github.com/mozilla/DeepSpeech</url>
+  </scm>
+</project>

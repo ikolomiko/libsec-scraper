@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tokelon.toktales</groupId>
+  <artifactId>tokTales-android-test</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>tokTales Engine</name>
+  <description>Part of tokTales Engine, a neat game engine.</description>
+  <url>https://github.com/Tokelon/tokTales</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Tokelon</id>
+      <name>Elias Paralikes</name>
+      <email>tokelontales@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Tokelon/tokTales.git</connection>
+    <developerConnection>scm:git:https://github.com/Tokelon/tokTales.git</developerConnection>
+    <url>https://github.com/Tokelon/tokTales</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/Tokelon/tokTales/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.test.ext</groupId>
+      <artifactId>junit</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.espresso</groupId>
+      <artifactId>espresso-core</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.5.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-core-test</artifactId>
+      <version>0.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tokelon.toktales</groupId>
+      <artifactId>tokTales-android-library</artifactId>
+      <version>0.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

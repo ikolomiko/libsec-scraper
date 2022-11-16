@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.anggrayudi</groupId>
+  <artifactId>android-hidden-api</artifactId>
+  <version>30.0</version>
+  <packaging>aar</packaging>
+  <name>android-hidden-api</name>
+  <description>A library that provides access to Android hidden APIs and internal resources.</description>
+  <url>https://github.com/anggrayudi/android-hidden-api</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/anggrayudi/android-hidden-api/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anggrayudi</id>
+      <name>Anggrayudi H</name>
+      <url>https://github.com/anggrayudi/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/anggrayudi/android-hidden-api.git</connection>
+    <developerConnection>scm:git:ssh://github.com:anggrayudi/android-hidden-api.git</developerConnection>
+    <url>https://github.com/anggrayudi/android-hidden-api</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

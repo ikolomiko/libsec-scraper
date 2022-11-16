@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.sanuphap.android</groupId>
+  <artifactId>validate</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Validate Library</name>
+  <url>http://nu.ac.th/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anuphap</id>
+      <name>Anuphap Suwannamas</name>
+      <email>anupharpae@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://anupharp@bitbucket.org/anupharp/digitalmediastore-android.git</connection>
+    <developerConnection>https://anupharp@bitbucket.org/anupharp/digitalmediastore-android.git</developerConnection>
+    <url>http://nu.ac.th/</url>
+  </scm>
+</project>

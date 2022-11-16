@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.mg6.veni.divi</groupId>
+  <artifactId>veni-divi</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>Veni Divi</name>
+  <description>I came, I divided - sectioned action bar title for Android</description>
+  <url>https://github.com/mg6maciej/veni-divi</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mg6maciej</id>
+      <name>Maciej Górski</name>
+      <email>maciek.gorski@gmail.com</email>
+      <url>http://mg6.pl</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/mg6maciej/veni-divi.git</connection>
+    <developerConnection>scm:git:https://github.com/mg6maciej/veni-divi.git</developerConnection>
+    <url>https://github.com/mg6maciej/veni-divi</url>
+  </scm>
+</project>

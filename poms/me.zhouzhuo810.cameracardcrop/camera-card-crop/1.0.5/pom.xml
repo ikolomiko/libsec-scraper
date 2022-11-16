@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.zhouzhuo810.cameracardcrop</groupId>
+  <artifactId>camera-card-crop</artifactId>
+  <version>1.0.5</version>
+  <packaging>aar</packaging>
+  <name>camera-card-crop</name>
+  <description>A powerful framework to capture the card.</description>
+  <url>https://github.com/zhouzhuo810/CameraCardCrop</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>zhouzhuo810</name>
+      <email>admin@zhouzhuo810.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zhouzhuo810/CameraCardCrop.git</connection>
+    <url>https://github.com/zhouzhuo810/CameraCardCrop</url>
+  </scm>
+</project>

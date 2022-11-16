@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.droidsonroids</groupId>
+  <artifactId>chuck</artifactId>
+  <version>1.1.36</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.qbusict</groupId>
+      <artifactId>cupboard</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>library</name>
+  <url>https://github.com/DroidsOnRoids/chuck</url>
+  <description>Android in-app HTTP inspector</description>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://github.com/DroidsOnRoids/chuck/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/DroidsOnRoids/chuck.git</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/DroidsOnRoids/chuck/issues</url>
+    <system>GitHub issues</system>
+  </issueManagement>
+  <ciManagement>
+    <url>https://travis-ci.org/DroidsOnRoids/chuck</url>
+    <system>TravisCI</system>
+  </ciManagement>
+  <developers>
+    <developer>
+      <id>koral--</id>
+      <name>Karol Wrótniak</name>
+      <roles>
+        <role>Core developer</role>
+      </roles>
+      <url>https://github.com/koral--</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Jeff Gilfelt</name>
+      <url>https://github.com/jgilfelt</url>
+    </contributor>
+    <contributor>
+      <name>shipkit.org automated bot</name>
+      <url>https://github.com/shipkit-org</url>
+    </contributor>
+    <contributor>
+      <name>Eric Schlenz</name>
+      <url>https://github.com/eschlenz</url>
+    </contributor>
+    <contributor>
+      <name>jonathan-caryl</name>
+      <url>https://github.com/jonathan-caryl</url>
+    </contributor>
+    <contributor>
+      <name>Simon Marquis</name>
+      <url>https://github.com/SimonMarquis</url>
+    </contributor>
+    <contributor>
+      <name>Bernat Borrás Paronella</name>
+      <url>https://github.com/alorma</url>
+    </contributor>
+  </contributors>
+</project>

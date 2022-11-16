@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.braintreepayments.api</groupId>
+  <artifactId>samsung-pay</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>samsung-pay</name>
+  <description>Samsung Pay Module for Braintree's Android SDK.</description>
+  <url>https://github.com/braintree/braintree-android-samsung-pay</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>devs</id>
+      <name>Braintree Payments</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:braintree/braintree-android-samsung-pay.git</connection>
+    <developerConnection>scm:git@github.com:braintree/braintree-android-samsung-pay.git</developerConnection>
+    <url>scm:git@github.com:braintree/braintree-android-samsung-pay.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.2.70</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.braintreepayments.api</groupId>
+      <artifactId>braintree</artifactId>
+      <version>2.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lakehubo</groupId>
+  <artifactId>hbanner</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>This is video image mix banner sdk</name>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lakehubo</id>
+      <name>hubo</name>
+      <email>huboa1234@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lakehubo/HBanner.git</connection>
+    <developerConnection>https://github.com/lakehubo/HBanner.git</developerConnection>
+    <url>https://github.com/lakehubo/HBanner</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

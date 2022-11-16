@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lsjwzh.fonts</groupId>
+  <artifactId>DownloadableFontsProvider</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <description>Your description of the lib</description>
+  <name>Your name of the lib</name>
+  <url>https://site_for_lib.tld</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lsjwzh</id>
+      <name>lsjwzh</name>
+      <email>lsjwzh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/lsjwzh/DownloadableFontsProvider</url>
+  </scm>
+</project>

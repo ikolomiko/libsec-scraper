@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sharetrace</groupId>
+  <artifactId>sharetrace-android-sdk</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>sharetrace-android-sdk</name>
+  <description>ShareTrace focuses on providing technical solutions for app promotion. Carry parameters to install the app, accurately track the source of app installation, achieve no fill-in invitation code, distinguish promotion channels and other common app Promotion Scenario. Make app promotion more efficient at a low cost.</description>
+  <url>https://github.com/sharetrace/sharetrace-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sharetrace</id>
+      <name>sharetrace</name>
+      <email>sharetrace@shoot.net.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/sharetrace/sharetrace-android-sdk</connection>
+    <developerConnection>scm:git:https://github.com/sharetrace/sharetrace-android-sdk</developerConnection>
+    <url>https://github.com/sharetrace/sharetrace-android-sdk</url>
+  </scm>
+  <dependencies/>
+</project>

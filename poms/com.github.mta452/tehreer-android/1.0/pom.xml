@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mta452</groupId>
+  <artifactId>tehreer-android</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Tehreer-Android</name>
+  <description>A library that gives full control over text related technologies such as bidirectional algorithm, open type shaping, text typesetting and text rendering.</description>
+  <url>https://github.com/mta452/Tehreer-Android</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mta452</id>
+      <name>Muhammad Tayyab Akram</name>
+      <email>dear_tayyab@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mta452/Tehreer-Android.git</connection>
+    <developerConnection>https://github.com/mta452/Tehreer-Android.git</developerConnection>
+    <url>https://github.com/mta452/Tehreer-Android</url>
+  </scm>
+</project>

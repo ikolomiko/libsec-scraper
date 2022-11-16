@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twotoasters.GridViewPager</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>GridViewPager Library</name>
+  <description>Android Wear's GridViewPager rebuilt for phone and tablet use. Then beefed up.</description>
+  <url>https://github.com/TicketmasterMobileStudio/GridViewPager</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>minceman</id>
+      <name>Chris Pierick</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:TicketmasterMobileStudio/GridViewPager.git</connection>
+    <developerConnection>git@github.com:TicketmasterMobileStudio/GridViewPager.git</developerConnection>
+    <url>https://github.com/TicketmasterMobileStudio/GridViewPager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

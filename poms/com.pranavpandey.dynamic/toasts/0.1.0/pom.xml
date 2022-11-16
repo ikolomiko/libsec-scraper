@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pranavpandey.dynamic</groupId>
+  <artifactId>toasts</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>DynamicAppSupport</name>
+  <description>A collection of various functions and utilities to build Android apps efficiently and quickly.</description>
+  <url>https://github.com/pranavpandey/dynamic-app-support</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pranavpandey</id>
+      <name>Pranav Pandey</name>
+      <email>pranavpande92@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/pranavpandey/dynamic-app-support.git</connection>
+    <developerConnection>https://github.com/pranavpandey/dynamic-app-support</developerConnection>
+    <url>https://github.com/pranavpandey/dynamic-app-support</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pranavpandey.dynamic</groupId>
+      <artifactId>utils</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

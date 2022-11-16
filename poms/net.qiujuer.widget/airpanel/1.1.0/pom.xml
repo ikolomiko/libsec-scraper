@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.qiujuer.widget</groupId>
+  <artifactId>airpanel</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Widget</name>
+  <description>Help soft keyboard and face panel switch.</description>
+  <url>https://github.com/qiujuer/AirPanel</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qiujuer</id>
+      <name>Qiu Ju</name>
+      <email>qiujuer@live.cn</email>
+      <url>http://www.qiujuer.net</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:qiujuer/AirPanel.git</connection>
+    <developerConnection>scm:git@github.com:qiujuer/AirPanel.git</developerConnection>
+    <url>https://github.com/qiujuer/AirPanel</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/qiujuer/AirPanel/issues</url>
+  </issueManagement>
+</project>

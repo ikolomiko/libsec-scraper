@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>furdroid</artifactId>
+        <groupId>systems.furdei</groupId>
+        <version>1.1.1</version>
+    </parent>
+    <artifactId>furdroid-security</artifactId>
+    <version>1.1.1</version>
+    <packaging>aar</packaging>
+    <name>furdroid-security</name>
+    <description>Android secure file and database storage</description>
+    <url>http://www.furdei.systems</url>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/furdei/furdroid-security</url>
+        <connection>scm:git:git://github.com/furdei/furdroid-security.git</connection>
+        <developerConnection>scm:git:https://github.com/furdei/furdroid-security.git</developerConnection>
+        <tag>furdroid-security-1.1.1</tag>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

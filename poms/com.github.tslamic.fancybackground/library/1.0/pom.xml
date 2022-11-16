@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tslamic.fancybackground</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>FancyBackground Library</name>
+  <description>FancyBackground is an Android library capable of memory-efficiently loading and animating through a set of resource Drawables. </description>
+  <url>https://github.com/tslamic/FancyBackground</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tslamic</id>
+      <name>Tadej Slamic</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tslamic/FancyBackground.git</connection>
+    <developerConnection>scm:git@github.com:tslamic/FancyBackground.git</developerConnection>
+    <url>https://github.com/tslamic/FancyBackground</url>
+  </scm>
+</project>

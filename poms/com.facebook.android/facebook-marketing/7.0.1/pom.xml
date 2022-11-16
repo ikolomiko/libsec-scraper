@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.android</groupId>
+  <artifactId>facebook-marketing</artifactId>
+  <version>7.0.1</version>
+  <packaging>aar</packaging>
+  <name>Facebook-Marketing-Android-SDK</name>
+  <description>Facebook Marketing Android SDK</description>
+  <url>https://github.com/facebook/facebook-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Facebook Platform License</name>
+      <url>https://github.com/facebook/facebook-android-sdk/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>Facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:facebook/facebook-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:facebook/facebook-android-sdk.git</developerConnection>
+    <url>https://github.com/facebook/facebook-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-core</artifactId>
+      <version>7.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
+    <relocation>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>facebook-core</artifactId>
+      <version>7.0.1</version>
+      <message>facebook-marketing is migrated to facebook-core</message>
+    </relocation>
+  </distributionManagement>
+</project>

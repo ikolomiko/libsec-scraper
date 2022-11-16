@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oneclickaway.opensource.formvalidationsexample</groupId>
+  <artifactId>validation</artifactId>
+  <version>1.1.3</version>
+  <packaging>aar</packaging>
+  <name>FormValidator</name>
+  <description>This library allows you to validate huge forms containing fields in android just by a single line, It saves you from the hassle of checking individual edit text boxes one by one then setting the error.
+This library supports edit texts view and no custom view is requred. it also supports error validation for TextInputLayouts. 
+
+The library is written in kotlin and is build on top of RX Java and it provides methods for error handling as well. </description>
+  <url>https://github.com/drabu/FormValidator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drabu</id>
+      <name>Burhan ud din Drabu</name>
+      <email>burhan.drabu@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/drabu/FormValidator</connection>
+    <developerConnection>https://github.com/drabu/FormValidator</developerConnection>
+    <url>https://github.com/drabu/FormValidator</url>
+  </scm>
+</project>

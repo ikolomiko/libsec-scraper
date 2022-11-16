@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rest.bef</groupId>
+  <artifactId>befrest</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>Befrest</name>
+  <description>Simple PUSH Notification Library For Android</description>
+  <url>http://bef.rest</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>befrest</id>
+      <name>Befrest</name>
+      <email>tech@bef,rest</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hojjat-imani/Befrest.git</connection>
+    <developerConnection>https://github.com/hojjat-imani/Befrest.git</developerConnection>
+    <url>http://bef.rest</url>
+  </scm>
+</project>

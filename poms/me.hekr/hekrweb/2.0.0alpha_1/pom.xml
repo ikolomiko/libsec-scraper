@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.hekr</groupId>
+  <artifactId>hekrweb</artifactId>
+  <version>2.0.0alpha_1</version>
+  <packaging>aar</packaging>
+  <name>hekrsdk2_web</name>
+  <url>http://docs.hekr.me/v4/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/APP%20%E5%BC%80%E5%8F%91/Android%20%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>me.hekr</id>
+      <name>hekr</name>
+      <email>app@hekr.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://git.oschina.net/hekr/HekrSDKDemo</connection>
+    <developerConnection>http://git.oschina.net/hekr/HekrSDKDemo</developerConnection>
+    <url>http://docs.hekr.me/v4/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/APP%20%E5%BC%80%E5%8F%91/Android%20%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.hekr</groupId>
+      <artifactId>hekrsdkrefactoring</artifactId>
+      <version>2.0.0alpha</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xwalk</groupId>
+      <artifactId>xwalk_core_library</artifactId>
+      <version>23.53.589.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

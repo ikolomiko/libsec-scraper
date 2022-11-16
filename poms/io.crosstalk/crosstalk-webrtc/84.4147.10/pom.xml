@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.crosstalk</groupId>
+  <artifactId>crosstalk-webrtc</artifactId>
+  <version>84.4147.10</version>
+  <packaging>aar</packaging>
+
+  <name>Google's WebRTC Android library</name>
+  <url>https://webrtc.org/</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.commitid>758c388d3fedac4a474b48a240af83dd3f6a5fc5</project.build.commitid>
+  </properties>
+
+</project>

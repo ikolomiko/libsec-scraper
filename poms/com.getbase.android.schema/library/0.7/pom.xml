@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.getbase.android.schema</groupId>
+  <artifactId>library</artifactId>
+  <version>0.7</version>
+  <packaging>aar</packaging>
+  <name>android-schema-utils</name>
+  <description>Android library for simplifying database schema and migrations management.</description>
+  <url>https://github.com/futuresimple/android-schema-utils</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://github.com/futuresimple/android-schema-utils/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chalup</id>
+      <name>Jerzy Chalupski</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/futuresimple/android-schema-utils.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/futuresimple/android-schema-utils.git</developerConnection>
+    <url>https://github.com/futuresimple/android-schema-utils</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.chalup.thneed</groupId>
+      <artifactId>thneed</artifactId>
+      <version>0.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>16.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>th.or.nectec.android</groupId>
+  <artifactId>marlo</artifactId>
+  <version>0.5.3</version>
+  <packaging>aar</packaging>
+  <name>Marlo</name>
+  <description>Helper to create awesome android app with location marking feature on google's map.</description>
+  <url>https://github.com/nectec-opensource/marlo</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>piruin</id>
+      <name>Blast Piruin Panichphol</name>
+      <email>piruin.p@gmail.com</email>
+      <url>https://piruin.me</url>
+    </developer>
+    <developer>
+      <id>chncs23</id>
+      <name>N. Choatravee</name>
+      <email>ch.n.17699@gmail.com</email>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Yahfard</name>
+      <url>https://github.com/yahfard007</url>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>https://github.com/nectec-opensource/marlo.git</connection>
+    <developerConnection>https://github.com/nectec-opensource/marlo.git</developerConnection>
+    <url>https://github.com/nectec-opensource/marlo</url>
+  </scm>
+</project>

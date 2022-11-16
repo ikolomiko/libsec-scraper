@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.peilicke.sascha</groupId>
+  <artifactId>android-social-fragment</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>Android Social Fragment</name>
+  <description>Social Network Fragment for Android.</description>
+  <url>https://github.com/saschpe/android-social-fragment</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saschpe</id>
+      <name>Sascha Peilicke</name>
+      <email>sascha@peilicke.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/saschpe/android-social-fragment.git</connection>
+    <developerConnection>scm:git:ssh://github.com/saschpe/android-social-fragment.git</developerConnection>
+    <url>https://github.com/saschpe/android-social-fragment</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

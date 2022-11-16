@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.timos.thuanle</groupId>
+  <artifactId>fb-native-ad-adapter</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>FB Native Ad Adapter</name>
+  <description>An adapter wrapper for Facebook Native Ad on Android</description>
+  <url>https://github.com/ldt116/FBNativeAdAdapter</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/ldt116/FBNativeAdAdapter/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ldt116</id>
+      <name>Thuan Le</name>
+      <email>ldt116@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ldt116/FBNativeAdAdapter.git</connection>
+    <developerConnection>https://github.com/ldt116/FBNativeAdAdapter.git</developerConnection>
+    <url>https://github.com/ldt116/FBNativeAdAdapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>audience-network-sdk</artifactId>
+      <version>4.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.rockerhieu</groupId>
+      <artifactId>rv-adapter</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

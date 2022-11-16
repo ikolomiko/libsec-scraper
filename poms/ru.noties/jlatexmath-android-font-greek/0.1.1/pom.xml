@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.noties</groupId>
+  <artifactId>jlatexmath-android-font-greek</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>jlatexmath-android-font-greek</name>
+  <description>JLatexMath-Android</description>
+  <url>https://github.com/noties/jlatexmath-android</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 2</name>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>noties</id>
+      <name>Dimitry Ivanov</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/noties/jlatexmath-android.git</connection>
+    <developerConnection>scm:git:git://github.com/noties/jlatexmath-android.git</developerConnection>
+    <url>https://github.com/noties/jlatexmath-android</url>
+  </scm>
+</project>

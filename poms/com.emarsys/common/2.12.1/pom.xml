@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.emarsys</groupId>
+  <artifactId>common</artifactId>
+  <version>2.12.1</version>
+  <packaging>aar</packaging>
+
+  <name>common</name>
+  <description>common module of the EmarsysSDK</description>
+  <url>https://github.com/emartech/android-emarsys-sdk</url>
+
+
+  <licenses>
+    <license>
+      <name>Mozilla Public License 2.0</name>
+      <url>https://github.com/emartech/android-emarsys-sdk/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Emarsys</name>
+    <url>https://emarsys.com</url>
+  </organization>
+
+   <developers>
+    <developer>
+      <organization>Emarsys</organization>
+      <organizationUrl>https://emarsys.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/emartech/android-emarsys-sdk.git</connection>
+    <developerConnection>scm:git:https://github.com/emartech/android-emarsys-sdk.git</developerConnection>
+    <url>https://github.com/emartech/android-emarsys-sdk</url>
+  </scm>
+  
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.4.30</version>
+    </dependency>
+    <dependency>
+      <groupId>com.emarsys</groupId>
+      <artifactId>core-api</artifactId>
+      <version>2.12.1</version>
+    </dependency>
+  </dependencies>
+</project>

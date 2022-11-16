@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dji</groupId>
+  <artifactId>dji-sdk-v5-networkImp</artifactId>
+  <version>5.0.0</version>
+  <packaging>aar</packaging>
+  <name>DJI Mobile SDK For Network Library</name>
+  <description>DJI access the network through the network library.</description>
+  <url>http://www.dji.com/</url>
+  <licenses>
+    <license>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dji</id>
+      <name>DJI-dev</name>
+      <email>dev@dji.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/dji-sdk/Mobile-SDK-Android-V5</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.9</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+</project>

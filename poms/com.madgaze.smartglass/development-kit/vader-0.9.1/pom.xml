@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.madgaze.smartglass</groupId>
+  <artifactId>development-kit</artifactId>
+  <version>vader-0.9.1</version>
+  <packaging>aar</packaging>
+  <name>Development Kit for MAD Gaze Vader</name>
+  <description>Developer Kit for MAD Gaze, API Reference: http://madgaze.com/sdk/</description>
+  <url>http://madgaze.com/sdk/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madgazesdk</id>
+      <name>MAD Gaze</name>
+      <email>info@madgaze.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://madgaze.com/sdk/</connection>
+    <developerConnection>http://madgaze.com/sdk/</developerConnection>
+    <url>http://madgaze.com/sdk/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>oss-parent</artifactId>
+    <groupId>org.sonatype.oss</groupId>
+    <version>7</version>
+  </parent>
+  <groupId>com.yandex.android</groupId>
+  <artifactId>mobileads</artifactId>
+  <version>2.00-beta-1</version>
+  <name>Yandex Mobile Ads</name>
+  <description>Yandex Mobile Ads is SDK for monetization Android apps.</description>
+  <url>https://tech.yandex.com/mobile-ads-sdk/</url>
+  <licenses>
+    <license>
+      <name>Terms of Use of Yandex Advertising Network</name>
+      <url>https://legal.yandex.com/partner_ch/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Yandex</name>
+      <url>https://tech.yandex.com/mobile-ads-sdk/</url>
+      <roles>
+        <role>Developer</role>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com:yandexmobile/yandex-ads-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com:yandexmobile/yandex-ads-sdk-android.git</developerConnection>
+    <url>https://github.com:yandexmobile/yandex-ads-sdk-android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>software.amazon.freertos</groupId>
+  <artifactId>amazonfreertossdk</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>amazonfreertossdk</name>
+  <description>Android SDK for FreeRTOS.</description>
+  <url>https://github.com/aws/amazon-freertos-ble-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>amazon freertos</id>
+      <name>FreeRTOS</name>
+      <email>aws-iot-device-ble@amazon.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/aws/amazon-freertos-ble-android-sdk.git</connection>
+    <developerConnection>https://github.com/aws/amazon-freertos-ble-android-sdk.git</developerConnection>
+    <url>https://github.com/aws/amazon-freertos-ble-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>co.nstant.in</groupId>
+      <artifactId>cbor</artifactId>
+      <version>0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-android-sdk-iot</artifactId>
+      <version>2.13.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

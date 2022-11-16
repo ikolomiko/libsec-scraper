@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.whispersystems</groupId>
+  <artifactId>signal-client-android</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>signal-client-android</name>
+  <description>Signal Protocol cryptography library for Android</description>
+  <url>https://github.com/signalapp/libsignal-client</url>
+  <licenses>
+    <license>
+      <name>AGPLv3</name>
+      <url>https://www.gnu.org/licenses/agpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Signal Messenger LLC</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:signalapp/libsignal-client.git</connection>
+    <developerConnection>scm:git@github.com:signalapp/libsignal-client.git</developerConnection>
+    <url>scm:git@github.com:signalapp/libsignal-client.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.whispersystems</groupId>
+      <artifactId>signal-client-java</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

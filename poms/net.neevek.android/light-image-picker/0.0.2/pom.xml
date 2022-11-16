@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.neevek.android</groupId>
+  <artifactId>light-image-picker</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>LightImagePicker</name>
+  <description>An image picker for Android</description>
+  <url>https://github.com/neevek/light-image-picker</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>neevek</id>
+      <name>Jiamin Xie (neevek)</name>
+      <email>i@neevek.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/neevek/light-image-picker.git</connection>
+    <developerConnection>https://github.com/neevek/light-image-picker.git</developerConnection>
+    <url>https://github.com/neevek/light-image-picker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.neevek.android</groupId>
+      <artifactId>paginize</artifactId>
+      <version>0.6.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alexvasilkov</groupId>
+      <artifactId>gesture-views</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

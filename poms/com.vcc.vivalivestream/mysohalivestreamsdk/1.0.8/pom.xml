@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vcc.vivalivestream</groupId>
+  <artifactId>mysohalivestreamsdk</artifactId>
+  <version>1.0.8</version>
+  <packaging>aar</packaging>
+  <name>mysohalivestreamsdk</name>
+  <description>A library which help you stream to rtmp server.</description>
+  <url>https://github.com/nguyenduyphuonghh</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nguyenduyphuonghh</id>
+      <name>NguyenDuyPhuong</name>
+      <email>nguyenduyphuonghh@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nguyenduyphuonghh</connection>
+    <developerConnection>https://github.com/nguyenduyphuonghh</developerConnection>
+    <url>https://github.com/nguyenduyphuonghh</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.vcc.securitysdk</groupId>
+      <artifactId>securitySDK</artifactId>
+      <version>1.0.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

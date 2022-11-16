@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hiafi.android.widget</groupId>
+  <artifactId>sliding-drawer</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>sliding-drawer</name>
+  <description>Enhancement for the deprecated android.widget.SlidingDrawer class</description>
+  <url>https://github.com/xni06/SlidingDrawer</url>
+  <licenses>
+    <license>
+      <name>[Apache-2.0]</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer />
+  </developers>
+  <scm>
+    <connection>https://github.com/xni06/SlidingDrawer.git</connection>
+    <url>https://github.com/xni06/SlidingDrawer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

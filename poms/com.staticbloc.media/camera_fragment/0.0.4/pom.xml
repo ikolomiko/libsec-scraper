@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.staticbloc.media</groupId>
+  <artifactId>camera_fragment</artifactId>
+  <version>0.0.4</version>
+  <packaging>aar</packaging>
+  <name>SimpleCameraFragment</name>
+  <description>A Fragment that provides easy access to camera functionality</description>
+  <url>https://github.com/staticbloc/media/fragment</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>eygraber</id>
+      <name>Eliezer Graber</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/staticbloc/media.git</connection>
+    <url>https://github.com/staticbloc/media/fragment</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.staticbloc.media</groupId>
+      <artifactId>camera</artifactId>
+      <version>0.0.4</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

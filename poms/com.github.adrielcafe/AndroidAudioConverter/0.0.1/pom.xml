@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.adrielcafe</groupId>
+  <artifactId>AndroidAudioConverter</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>adrielcafe/AndroidAudioConverter</name>
+  <description>Convert audio files inside your Android app easily. Supported formats: WAV, AAC, MP3, M4A, WMA and FLAC.</description>
+  <url>https://github.com/adrielcafe/AndroidAudioConverter</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>adrielcafe</id>
+      <name>Adriel Café</name>
+      <email>me@adriel.cafe</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/adrielcafe/AndroidAudioConverter.git</connection>
+    <developerConnection>scm:git://github.com/adrielcafe/AndroidAudioConverter.git</developerConnection>
+    <url>git://github.com/adrielcafe/AndroidAudioConverter.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.writingminds</groupId>
+      <artifactId>FFmpegAndroid</artifactId>
+      <version>0.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

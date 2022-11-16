@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.polestar</groupId>
+  <artifactId>naosdk</artifactId>
+  <version>4.0.2</version>
+  <packaging>aar</packaging>
+  <name>eu.polestar:naosdk</name>
+  <description>Pole Star is a global leader in indoor positioning with ten years industry experience, an impressive customer portfolio and over 43 million square feet covered in the world. The most mature indoor positioning solution on the market, NAO Campus is compatible with OS Android and iPhone, which together comprise 80% of the mobile market. Highly accurate, easy to set up and scalable, NAO Campus leads the way in terms of cost-effective, indoor positioning services designed to be deployed on a wide-scale, multi-venue basis.</description>
+  <url>http://www.polestar.eu/</url>
+  <licenses>
+    <license>
+      <name>APL-1.0</name>
+      <url>https://www.nao-cloud.com/TermsOfService.pdf</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>polestar</id>
+      <name>Pole Star</name>
+      <email>jaouad.chouki@polestar.eu</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://www.polestar.eu/</connection>
+    <developerConnection>http://www.polestar.eu/</developerConnection>
+    <url>http://www.polestar.eu/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>8.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

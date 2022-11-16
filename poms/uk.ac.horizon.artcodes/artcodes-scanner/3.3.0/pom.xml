@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uk.ac.horizon.artcodes</groupId>
+  <artifactId>artcodes-scanner</artifactId>
+  <version>3.3.0</version>
+  <packaging>aar</packaging>
+  <name>Artcodes Scanner</name>
+  <description>Artcodes recognises a different marker scheme that allows the creation of aesthetically pleasing, even beautiful, codes.</description>
+  <url>http://www.artcodes.co.uk/</url>
+  <licenses>
+    <license>
+      <name>GNU Affero General Public License v3.0</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ktg</id>
+      <name>Kevin Glover</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:horizon-institute/artcodes-android.git</connection>
+    <developerConnection>scm:git@github.com:horizon-institute/artcodes-android.git</developerConnection>
+    <url>https://github.com/horizon-institute/artcodes-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

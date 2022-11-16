@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.device.dualscreen.testing</groupId>
+  <artifactId>testing-compose</artifactId>
+  <version>1.0.0-alpha02</version>
+  <packaging>aar</packaging>
+  <name>testing-compose</name>
+  <description>ComposeTesting library</description>
+  <url>https://github.com/microsoft/surface-duo-compose-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MicrosoftSurfaceDuoDevX</id>
+      <name>Microsoft Surface Duo DevX team</name>
+      <email>surfaceduo-devx-libs@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/microsoft/surface-duo-compose-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/microsoft/surface-duo-compose-sdk.git</developerConnection>
+    <url>https://github.com/microsoft/surface-duo-compose-sdk/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-test-junit4</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.window</groupId>
+      <artifactId>window-testing</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.uiautomator</groupId>
+      <artifactId>uiautomator</artifactId>
+      <version>2.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.6.10</version>
+    </dependency>
+  </dependencies>
+</project>

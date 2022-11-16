@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.auth0.android</groupId>
+  <artifactId>core</artifactId>
+  <version>1.9.6</version>
+  <packaging>aar</packaging>
+  <name>Lock for Android</name>
+  <description>The easiest way of securing your Android mobile apps with Auth0 &amp; Lock</description>
+  <url>https://github.com/auth0/Lock.Android</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/auth0/Lock.Android/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hzalaz</id>
+      <name>Hernan Zalazar</name>
+      <email>hernan@auth0.com</email>
+    </developer>
+    <developer>
+      <id>mgonto</id>
+      <name>Martin Gontovnikas</name>
+      <email>gonto@auth0.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:auth0/Lock.Android.git</connection>
+    <developerConnection>scm:git@github.com:auth0/Lock.Android.git</developerConnection>
+    <url>https://github.com/auth0/Lock.Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.loopj.android</groupId>
+      <artifactId>android-async-http</artifactId>
+      <version>1.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

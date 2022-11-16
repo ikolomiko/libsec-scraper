@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.muditsen.multilevelrecyclerview</groupId>
+  <artifactId>multilevelview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>multilevelview</name>
+  <description>A library to create multi level expandable recycler view.</description>
+  <url>https://github.com/muditsen/multilevelrecyclerview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software Licence, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>iammuditsen</id>
+      <name>Mudit Sen</name>
+      <email>iammuditsen@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/muditsen/multilevelrecyclerview.git</connection>
+    <developerConnection>https://github.com/muditsen/multilevelrecyclerview.git</developerConnection>
+    <url>https://github.com/muditsen/multilevelrecyclerview</url>
+  </scm>
+</project>

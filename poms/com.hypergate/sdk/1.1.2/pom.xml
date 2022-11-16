@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hypergate</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>HypergateSDK</name>
+  <description>Hypergate integration SDK</description>
+  <url>https://github.com/hypergate-com/hypergate-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hypergate-sdk</id>
+      <name>Papers GmbH</name>
+      <email>support@hypergate.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hypergate-com/hypergate-sdk.git</connection>
+    <developerConnection>https://github.com/hypergate-com/hypergate-sdk.git</developerConnection>
+    <url>https://github.com/hypergate-com/hypergate-sdk</url>
+  </scm>
+</project>

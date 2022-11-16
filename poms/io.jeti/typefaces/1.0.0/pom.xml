@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.jeti</groupId>
+  <artifactId>typefaces</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>typefaces</name>
+  <description>A simple class for dealing with Typefaces in Android. Although you typically will put ttf files in your assets folder, this class lets you put them in res/raw, which is necessary if you want to ship fonts in libraries.</description>
+  <url>https://github.com/jeti/typefaces</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jeti</id>
+      <name>Matthew Holzel</name>
+      <email>matthew.holzel@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jeti/typefaces.git</connection>
+    <developerConnection>https://github.com/jeti/typefaces.git</developerConnection>
+    <url>https://github.com/jeti/typefaces</url>
+  </scm>
+</project>

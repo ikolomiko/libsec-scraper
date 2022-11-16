@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.slezadav</groupId>
+  <artifactId>backgroundTasks</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>backgroundTasks</name>
+  <description>Library providing solution to Android asynchronous request dealing with leaks and configuration changes</description>
+  <url>https://github.com/slezadav/backgroundTasks</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>slezadav</id>
+      <name>slezadav</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/slezadav/backgroundTasks</connection>
+    <developerConnection>scm:hg:https://github.com/slezadav/backgroundTasks</developerConnection>
+    <url>https://github.com/slezadav/backgroundTasks</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.theguardian</groupId>
+  <artifactId>android-subtle-prompts</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>android-subtle-prompts</name>
+  <description>Android library which enables the creation of user information prompts similar to those in the Guardian Android app</description>
+  <url>https://github.com/guardian/android-subtle-prompts</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jegumi</id>
+      <name>jegumi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/guardian/android-subtle-prompts</connection>
+    <developerConnection>scm:hg:https://github.com/guardian/android-subtle-prompts</developerConnection>
+    <url>https://github.com/guardian/android-subtle-prompts</url>
+  </scm>
+</project>

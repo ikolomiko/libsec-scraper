@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nexmo</groupId>
+  <artifactId>verify</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Nexmo Verify Library</name>
+  <description>Nexmo Verify enables you to verify whether one of your end users has access to a specific phone number by challenging them with a PIN code to enter into your application.</description>
+  <url>https://github.com/Nexmo/verify-android-sdk.git</url>
+  <licenses>
+    <license>
+      <name>Nexmo Verify SDK License Agreement</name>
+      <url>https://www.nexmo.com/terms-use/verify-sdk/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Nexmo</id>
+      <name>Emma Tresanszki</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Nexmo/verify-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:Nexmo/verify-android-sdk.git</developerConnection>
+    <url>https://github.com/Nexmo/verify-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>9.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

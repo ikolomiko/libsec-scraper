@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wire</groupId>
+    <artifactId>avs</artifactId>
+    <version>7.1.140</version>
+    <packaging>aar</packaging>
+
+    <name>wire-avs</name>
+    <description>Wire - Audio, Video, and Signaling (AVS)</description>
+    <organization>
+        <name>com.wire</name>
+    </organization>
+
+    <url>https://github.com/wireapp/wire-avs</url>
+
+    <scm>
+        <connection>scm:git:git://github.com/wireapp/wire-avs</connection>
+        <developerConnection>scm:git:git://github.com/wireapp/wire-avs</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/wireapp/wire-avs</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>GPL-3.0</name>
+            <url>https://opensource.org/licenses/GPL-3.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>svenwire</id>
+            <name>Sven Jost</name>
+            <email>sven@wire.com</email>
+            <organization>Wire Swiss GmbH</organization>
+            <organizationUrl>https://wire.com</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+</project>
+

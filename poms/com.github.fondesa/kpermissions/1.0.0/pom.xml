@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.fondesa</groupId>
+  <artifactId>kpermissions</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>KPermissions</name>
+  <description>A Kotlin library that helps to request runtime permissions in Android.</description>
+  <url>https://github.com/Fondesa/KPermissions</url>
+  <licenses>
+    <license>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fondesa</id>
+      <name>Giorgio Antonioli</name>
+      <email>giorgio.antonioli.dev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Fondesa/KPermissions.git</connection>
+    <developerConnection>https://github.com/Fondesa/KPermissions.git</developerConnection>
+    <url>https://github.com/Fondesa/KPermissions</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.2.10</version>
+    </dependency>
+  </dependencies>
+</project>

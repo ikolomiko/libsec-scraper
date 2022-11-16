@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.theDazzler</groupId>
+  <artifactId>droidicon</artifactId>
+  <version>0.1.9</version>
+  <packaging>aar</packaging>
+  <name>droidicon</name>
+  <description>Over 1600 customizable icons for Android including 750+ Google Material Design icons, 25 ready-made social badges, and more!</description>
+  <url>https://github.com/theDazzler/droidicon</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thedazzler</id>
+      <name>Devon Guinane</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:theDazzler/droidicon.git</connection>
+    <developerConnection>scm:git@github.com:theDazzler/droidicon.git</developerConnection>
+    <url>https://github.com/theDazzler/droidicon</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>[21, 22)</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

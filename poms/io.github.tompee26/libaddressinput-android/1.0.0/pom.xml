@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.tompee26</groupId>
+  <artifactId>libaddressinput-android</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>libaddressinput-android</name>
+  <description>A library that assist application developers in collecting and handling postal addresses from all over the world.</description>
+  <url>https://github.com/tompee26/libaddressinput</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://github.com/tompee26/libaddressinput/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <organization>Google Inc</organization>
+    </developer>
+    <developer>
+      <id>tompee26</id>
+      <name>Tompee Balauag</name>
+      <email>tompee26@gmail.com</email>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>David Beaumont</name>
+      <email>dbeaumont@google.com</email>
+    </contributor>
+    <contributor>
+      <name>David Yonge-Mallo</name>
+      <email>davinci@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Dong Zhou</name>
+      <email>dongzhou@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Fredrik Roubert</name>
+      <email>roubert@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Jeanine Lilleng</name>
+      <email>jeanine@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Keghani Kouzoujian</name>
+      <email>keghani@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Lara Scheidegger</name>
+      <email>lararennie@google.com</email>
+    </contributor>
+    <contributor>
+      <name>Rouslan Solomakhin</name>
+      <email>rouslan@chromium.org</email>
+    </contributor>
+    <contributor>
+      <name>Shaopeng Jia</name>
+      <email>shaopengjia@google.com</email>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:git:github.com/tompee26/libaddressinput.git</connection>
+    <developerConnection>scm:git:ssh://github.com/tompee26/libaddressinput.git</developerConnection>
+    <url>https://github.com/tompee26/libaddressinput/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.tompee26</groupId>
+      <artifactId>libaddressinput-common</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>18.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-places</artifactId>
+      <version>17.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava-gwt</artifactId>
+      <version>18.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

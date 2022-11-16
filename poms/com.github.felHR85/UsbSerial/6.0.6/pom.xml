@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.felHR85</groupId>
+  <artifactId>UsbSerial</artifactId>
+  <version>6.0.6</version>
+  <packaging>aar</packaging>
+  <name>felHR85/UsbSerial</name>
+  <description>Usb serial controller for Android</description>
+  <url>https://github.com/felHR85/UsbSerial</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>felHR85</id>
+      <name>Felipe Herranz</name>
+      <email>felhr85@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/felHR85/UsbSerial.git</connection>
+    <developerConnection>scm:git://github.com/felHR85/UsbSerial.git</developerConnection>
+    <url>git://github.com/felHR85/UsbSerial.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.annimon</groupId>
+      <artifactId>stream</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

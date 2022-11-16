@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thebluealliance</groupId>
+  <artifactId>spectrum</artifactId>
+  <version>0.7.0</version>
+  <packaging>aar</packaging>
+  <name>Spectrum</name>
+  <description>A color selection library for Android</description>
+  <url>https://github.com/the-blue-alliance/spectrum/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/the-blue-alliance/spectrum/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nwalters512</id>
+      <name>Nathan Walters</name>
+      <email>nwalters512@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/the-blue-alliance/spectrum.git</connection>
+    <developerConnection>https://github.com/the-blue-alliance/spectrum.git</developerConnection>
+    <url>https://github.com/the-blue-alliance/spectrum/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>preference-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

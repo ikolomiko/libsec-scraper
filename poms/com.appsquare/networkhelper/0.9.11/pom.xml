@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appsquare</groupId>
+  <artifactId>networkhelper</artifactId>
+  <version>0.9.11</version>
+  <packaging>aar</packaging>
+  <name>NetworkHelper-Volley</name>
+  <description>A networking library that builds on top of Volley from Google.</description>
+  <url>https://github.com/szantogab/NetworkHelper-Volley</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>szantogab</id>
+      <name>Gabor Szanto</name>
+      <email>szantogab@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/szantogab/NetworkHelper-Volley.git</connection>
+    <developerConnection>https://github.com/szantogab/NetworkHelper-Volley.git</developerConnection>
+    <url>https://github.com/szantogab/NetworkHelper-Volley</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

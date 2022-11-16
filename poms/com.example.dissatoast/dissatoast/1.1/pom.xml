@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.dissatoast</groupId>
+  <artifactId>dissatoast</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>dissatoast</name>
+  <description>DissaToaster for toast messages</description>
+  <url>https://github.com/dissa92/DissaToaster</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dissajana</id>
+      <name>Dissa Jana</name>
+      <email>dissajana@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dissa92/DissaToaster.git</connection>
+    <developerConnection>https://github.com/dissa92/DissaToaster.git</developerConnection>
+    <url>https://github.com/dissa92/DissaToaster</url>
+  </scm>
+</project>

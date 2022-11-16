@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.siaray</groupId>
+  <artifactId>downloadmanagerplus</artifactId>
+  <version>1.1.2</version>
+  <packaging>aar</packaging>
+  <name>downloadmanagerplus</name>
+  <description>Using faster and easier than Android Download Manager.</description>
+  <url>https://github.com/SIARAY/DownloadManagerPlus</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>siaray</id>
+      <name>Siamak Rayeji</name>
+      <email>siamak.rayeji@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/SIARAY/DownloadManagerPlus.git</connection>
+    <developerConnection>https://github.com/SIARAY/DownloadManagerPlus.git</developerConnection>
+    <url>https://github.com/SIARAY/DownloadManagerPlus.git</url>
+  </scm>
+</project>

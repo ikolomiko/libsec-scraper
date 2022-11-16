@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.branch.sdk.android</groupId>
+  <artifactId>search</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>Branch Android Search SDK</name>
+  <description>This SDK is a thin wrapper with helper classes to assist in building search user experiences on top of the Branch Search API. This SDK and API allow your users to search through the tens of billions of deep links to app pages that Branch has indexed from its core linking platform used by tens of thousands of mobile applications and websites.</description>
+  <url>https://github.com/BranchMetrics/android-branch-search/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>branch</id>
+      <name>Branch Metrics</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:BranchMetrics/android-branch-search.git</connection>
+    <developerConnection>scm:git@github.com:BranchMetrics/android-branch-search.git</developerConnection>
+    <url>https://github.com/BranchMetrics/android-branch-search/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>11.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

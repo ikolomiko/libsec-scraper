@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.netcosports.compositeadapter</groupId>
+  <artifactId>composite-adapter</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>CompositeAdapter</name>
+  <description>RecyclerView Adapter that delegates all UI logic to a Cell&lt;T> created by the ViewModel</description>
+  <url>https://github.com/netcosports/CompositeAdapter_Android</url>
+  <organization>
+    <name>ORIGINS Digital</name>
+    <url>https://github.com/netcosports</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Woffkaa</id>
+      <name>Vladimir Garkovich</name>
+      <email>vladimir.garkovich@gmail.com</email>
+      <url>https://github.com/Woffkaa</url>
+      <organization>ORIGINS Digital</organization>
+      <organizationUrl>https://github.com/netcosports</organizationUrl>
+    </developer>
+    <developer>
+      <id>zakharchanka</id>
+      <name>Yaroslav Zakharchenko</name>
+      <email>yaraslau.zakharchanka@origins-digital.com</email>
+      <url>https://github.com/zakharchanka</url>
+      <organization>ORIGINS Digital</organization>
+      <organizationUrl>https://github.com/netcosports</organizationUrl>
+    </developer>
+    <developer>
+      <id>alexanderbliznyuk</id>
+      <name>Alexander Blizniuk</name>
+      <email>bliznyuk.alexander@gmail.com</email>
+      <url>https://github.com/alexanderbliznyuk</url>
+      <organization>ORIGINS Digital</organization>
+      <organizationUrl>https://github.com/netcosports</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/netcosports/CompositeAdapter_Android.git</connection>
+    <developerConnection>scm:git:git://github.com/netcosports/CompositeAdapter_Android.git</developerConnection>
+    <url>https://github.com/netcosports/CompositeAdapter_Android</url>
+  </scm>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nukc</groupId>
+  <artifactId>StateView</artifactId>
+  <version>v3.0.2</version>
+  <packaging>aar</packaging>
+  <name>StateView is an invisible, zero-sized View that can be used to lazily inflate loadingView/emptyView/retryView at runtime.</name>
+  <url>https://github.com/nukc/StateView</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://www.opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nukc</id>
+      <name>c</name>
+      <email>353932158@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/nukc/StateView.git</connection>
+    <developerConnection>https://github.com/nukc/StateView.git</developerConnection>
+    <url>https://github.com/nukc/StateView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

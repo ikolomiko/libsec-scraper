@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sephiroth.hunter</groupId>
+  <artifactId>hunter-debug-library</artifactId>
+  <version>1.2.5</version>
+  <packaging>aar</packaging>
+  <name>hunter-debug-library</name>
+  <description>Transform plugin for android projects</description>
+  <url>https://github.com/sephiroth74/Hunter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Leaking</id>
+      <name>QuinnChen</name>
+      <email>chenhuazhaoao@gmail.com</email>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Alessandro Crugnola</name>
+      <email>alessandro.crugnola@gmail.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:https://git@github.com/sephiroth74/Hunter.git</connection>
+    <developerConnection>scm:git://github.com/sephiroth74/Hunter.git</developerConnection>
+    <url>https://github.com/sephiroth74/Hunter</url>
+  </scm>
+</project>

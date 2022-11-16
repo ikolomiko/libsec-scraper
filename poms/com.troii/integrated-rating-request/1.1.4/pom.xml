@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.troii</groupId>
+  <artifactId>integrated-rating-request</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>Integrated Rating Request</name>
+  <description>A polite way to ask for ratings.</description>
+  <url>https://github.com/troii/integrated-rating-request</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>daberni</id>
+      <name>Bernhard Danecker</name>
+      <email>bernhard.danecker@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:troii/integrated-rating-request.git</connection>
+    <url>https://github.com/troii/integrated-rating-request</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.mediavrog</groupId>
+      <artifactId>ruli</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

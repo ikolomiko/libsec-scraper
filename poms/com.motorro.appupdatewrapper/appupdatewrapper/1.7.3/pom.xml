@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.motorro.appupdatewrapper</groupId>
+  <artifactId>appupdatewrapper</artifactId>
+  <version>1.7.3</version>
+  <packaging>aar</packaging>
+  <name>appupdatewrapper</name>
+  <description>A wrapper for Android `AppUpdateManager` to encapsulate update workflow.</description>
+  <url>https://github.com/motorro/AppUpdateWrapper</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>motorro</id>
+      <name>Nikolai Kotchetkov</name>
+      <email>motorro@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/motorro/AppUpdateWrapper.git</connection>
+    <developerConnection>https://github.com/motorro/AppUpdateWrapper.git</developerConnection>
+    <url>https://github.com/motorro/AppUpdateWrapper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-common</artifactId>
+      <version>2.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.play</groupId>
+      <artifactId>core</artifactId>
+      <version>1.10.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>5.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

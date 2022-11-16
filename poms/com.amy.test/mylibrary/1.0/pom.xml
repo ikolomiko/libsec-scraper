@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amy.test</groupId>
+  <artifactId>mylibrary</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>This is a lightweight SQLite database framework</name>
+  <url>https://github.com/zfengamy/mylibrary</url>
+  <licenses>
+    <license>
+      <name>This is a lightweight SQLite database framework</name>
+      <url>https://github.com/zfengamy/mylibrary</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zfengamy</id>
+      <name>zengfeng</name>
+      <email>20000263@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zfengamy/mylibrary.git</connection>
+    <developerConnection>https://github.com/zfengamy/mylibrary.git</developerConnection>
+    <url>https://github.com/zfengamy/mylibrary</url>
+  </scm>
+</project>

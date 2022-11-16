@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hqq</groupId>
+  <artifactId>HUtils</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>A colorful circle view with text.</name>
+  <url>https://github.com/huangqiqiang/HUtilsExample</url>
+  <licenses>
+    <license>
+      <name>Massachusetts Institute of Technology</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hqq</id>
+      <name>huangqiqiang</name>
+      <email>593979591@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/huangqiqiang/HUtilsExample.git</connection>
+    <developerConnection>https://github.com/huangqiqiang/HUtilsExample.git</developerConnection>
+    <url>https://github.com/huangqiqiang/HUtilsExample</url>
+  </scm>
+</project>

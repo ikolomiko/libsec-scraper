@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>team.fastflow.kusu</groupId>
+  <artifactId>ui-progressline</artifactId>
+  <version>1.0.0-BETA</version>
+  <packaging>aar</packaging>
+  <name>ProgressLineLib</name>
+  <description>Progress line with timer</description>
+  <url>https://github.com/KuznetsSudby/ProgressLineLib</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/KuznetsSudby/ProgressLineLib/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kusu</id>
+      <name>Mikhail Chvarkou</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:KuznetsSudby/ProgressLineLib.git</connection>
+    <developerConnection>git@github.com:KuznetsSudby/ProgressLineLib.git</developerConnection>
+    <url>https://github.com/KuznetsSudby/ProgressLineLib.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

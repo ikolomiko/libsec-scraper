@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mr5</groupId>
+  <artifactId>icarus</artifactId>
+  <version>0.1.14</version>
+  <packaging>aar</packaging>
+  <name>icarus</name>
+  <description>One of the best rich text editor for android platform.</description>
+  <url>https://github.com/mr5/icarus-android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mr5</id>
+      <name>Decent Woo</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mr5/icarus-android</connection>
+    <developerConnection>scm:git@github.com:mr5/icarus-android</developerConnection>
+    <url>scm:git@github.com:mr5/icarus-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

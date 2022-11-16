@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.mrmaffen</groupId>
+  <artifactId>vlc-android-sdk</artifactId>
+  <version>2.0.6</version>
+  <packaging>aar</packaging>
+  <name>VLC Android SDK</name>
+  <description>VLC Android SDK. Primarily used in project tomahawk-android.</description>
+  <url>https://github.com/mrmaffen/vlc-android-sdk</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 2.1 or later</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mrmaffen</id>
+      <name>Enno Gottschalk</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/mrmaffen/vlc-android-sdk.git</connection>
+    <developerConnection>scm:git:git://github.com/mrmaffen/vlc-android-sdk.git</developerConnection>
+    <url>https://github.com/mrmaffen/vlc-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

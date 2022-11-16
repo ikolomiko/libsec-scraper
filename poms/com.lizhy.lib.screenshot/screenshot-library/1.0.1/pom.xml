@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lizhy.lib.screenshot</groupId>
+  <artifactId>screenshot-library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>An Android Screenshot Util, monitor Android phone's screenshot event and return the bitmap.Also you can splice your own bitmap with screenshot bitmap</name>
+  <url>https://github.com/Lizhny/AndroidScreenshotUtils</url>
+  <licenses>
+    <license>
+      <name>An Android Screenshot Util, monitor Android phone's screenshot event and return the bitmap.Also you can splice your own bitmap with screenshot bitmap</name>
+      <url>https://github.com/Lizhny/AndroidScreenshotUtils</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lizhy</id>
+      <name>Bill Li</name>
+      <email>lizhy@live.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Lizhny/AndroidScreenshotUtils.git</connection>
+    <developerConnection>https://github.com/Lizhny/AndroidScreenshotUtils.git</developerConnection>
+    <url>https://github.com/Lizhny/AndroidScreenshotUtils</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

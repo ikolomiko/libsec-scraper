@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.skgmn</groupId>
+  <artifactId>mochka</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Mochka</name>
+  <description>Android Bitmap Decoder</description>
+  <url>https://github.com/skgmn/mochka</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>skgmn</id>
+      <name>skgmn</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:skgmn/Mochka.git</connection>
+    <developerConnection>scm:git@github.com:skgmn/Mochka.git</developerConnection>
+    <url>https://github.com/skgmn/Mochka</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.61</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

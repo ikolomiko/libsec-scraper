@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.smartydroid</groupId>
+  <artifactId>support-ui-widget</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Support Ui Widget</name>
+  <description>android support ui widget</description>
+  <url>https://github.com/qijitech/android-starter-kit</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>smartydroid</id>
+      <name>æ¨çå</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/qijitech/android-starter-kit.git</connection>
+    <developerConnection>scm:git@github.com/qijitech/android-starter-kit.git</developerConnection>
+    <url>https://github.com/qijitech/android-starter-kit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.smartydroid</groupId>
+      <artifactId>support-ui-core</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>butterknife</artifactId>
+      <version>8.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pnikosis</groupId>
+      <artifactId>materialish-progress</artifactId>
+      <version>1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Commit451</groupId>
+      <artifactId>ForegroundViews</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

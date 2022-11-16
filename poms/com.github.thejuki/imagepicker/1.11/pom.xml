@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.thejuki</groupId>
+  <artifactId>imagepicker</artifactId>
+  <version>1.11</version>
+  <packaging>aar</packaging>
+  <name>imagepicker</name>
+  <description>Easily build generic forms with minimal effort (A Kotlin port of FormMaster)</description>
+  <url>https://github.com/TheJuki/KFormMaster</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/Dhaval2404/ImagePicker/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Dhaval2404</id>
+      <name>Dhaval Patel</name>
+      <email>dhavalpatel244@gmail.com</email>
+    </developer>
+    <developer>
+      <id>thejuki</id>
+      <name>Justin Kirk</name>
+      <email>thejuki@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/TheJuki/ImagePicker.git</connection>
+    <developerConnection>scm:git:ssh://github.com/TheJuki/ImagePicker.git</developerConnection>
+    <url>https://github.com/TheJuki/ImagePicker/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.72</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yalantis</groupId>
+      <artifactId>ucrop</artifactId>
+      <version>2.2.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

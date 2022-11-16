@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bingzer.android.cloudy</groupId>
+  <artifactId>cloudy</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Cloudy</name>
+  <description>FAT Client syncing library</description>
+  <url>https://github.com/bingzer/cloudy</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bingzer</id>
+      <name>Ricky Tobing</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:bingzer/cloudy.git</connection>
+    <developerConnection>scm:git@github.com:bingzer/cloudy.git</developerConnection>
+    <url>https://github.com/bingzer/cloudy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.bingzer.android.driven</groupId>
+      <artifactId>driven-gdrive</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bingzer.android.dbv</groupId>
+      <artifactId>dbquery</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bingzer.android</groupId>
+      <artifactId>butler</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bingzer.android.driven</groupId>
+      <artifactId>driven</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bingzer.android.driven</groupId>
+      <artifactId>driven-ext-drive</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bingzer.android.driven</groupId>
+      <artifactId>driven-dropbox</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

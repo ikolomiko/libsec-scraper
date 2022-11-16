@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.bosphere.android-filelogger</groupId>
+  <artifactId>filelogger</artifactId>
+  <version>1.0.7</version>
+  <packaging>aar</packaging>
+  <name>Android-FileLogger</name>
+  <description>A general-purpose logging library with built-in support to save logs to file.</description>
+  <url>https://github.com/bosphere/Android-FileLogger</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bosphere</id>
+      <name>Yang Bo</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bosphere/Android-FileLogger.git</connection>
+    <developerConnection>https://github.com/bosphere/Android-FileLogger.git</developerConnection>
+    <url>https://github.com/bosphere/Android-FileLogger</url>
+  </scm>
+</project>

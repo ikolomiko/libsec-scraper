@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.viliussutkus89.licenseOnly</groupId>
+  <artifactId>libtool</artifactId>
+  <version>2.4.6</version>
+  <packaging>aar</packaging>
+  <name>libtool</name>
+  <description>GNU Libtool in computer programming is a software development tool that is part of the GNU build system.</description>
+  <url>https://www.gnu.org/software/libtool</url>
+  <inceptionYear>1996</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv2-or-later</name>
+      <url>http://git.savannah.gnu.org/cgit/libtool.git/tree/AUTHORS?h=v2.4.6</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Gordon Matzigkeit</name>
+      <email>gord@gnu.org</email>
+    </developer>
+    <developer>
+      <name>Thomas Tanner</name>
+      <email>tanner@ffii.org</email>
+    </developer>
+    <developer>
+      <name>Alexandre Oliva</name>
+      <email>oliva@dcc.unicamp.br</email>
+    </developer>
+    <developer>
+      <name>Ossama Othman</name>
+      <email>ossama@debian.org</email>
+    </developer>
+    <developer>
+      <name>Robert Boehne</name>
+      <email>rboehne@ricardo-us.com</email>
+    </developer>
+    <developer>
+      <name>Scott James Remnant</name>
+      <email>scott@netsplit.com</email>
+    </developer>
+    <developer>
+      <name>Peter O'Gorman</name>
+      <email>peter@pogma.com</email>
+    </developer>
+    <developer>
+      <name>Ralf Wildenhues</name>
+      <email>Ralf.Wildenhues@gmx.de</email>
+    </developer>
+    <developer>
+      <name>Gary V. Vaughan</name>
+      <email>gary@gnu.org</email>
+    </developer>
+    <developer>
+      <name>Bob Friesenhahn</name>
+      <email>bfriesen@simple.dallas.tx.us</email>
+    </developer>
+    <developer>
+      <name>Peter Rosin</name>
+      <email>peda@lysator.liu.se</email>
+    </developer>
+    <developer>
+      <name>Noah Misch</name>
+      <email>noah@cs.caltech.edu</email>
+    </developer>
+    <developer>
+      <name>Charles Wilson</name>
+      <email>libtool@cwilson.fastmail.fm</email>
+    </developer>
+    <developer>
+      <name>Brooks Moses</name>
+      <email>bmoses@google.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://git.savannah.gnu.org/git/libtool.git</connection>
+    <url>http://git.savannah.gnu.org/cgit/libtool.git</url>
+  </scm>
+</project>

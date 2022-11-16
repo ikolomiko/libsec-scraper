@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mancj</groupId>
+  <artifactId>SlideUp-Android</artifactId>
+  <version>2.2.7.1</version>
+  <packaging>aar</packaging>
+  <name>mancj/SlideUp-Android</name>
+  <description>SlideUp is a small library that allows you to add sweet slide effect to any view.</description>
+  <url>https://github.com/mancj/SlideUp-Android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mancj</id>
+      <name>Mansour</name>
+      <email>mancjone@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/mancj/SlideUp-Android.git</connection>
+    <developerConnection>scm:git://github.com/mancj/SlideUp-Android.git</developerConnection>
+    <url>git://github.com/mancj/SlideUp-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

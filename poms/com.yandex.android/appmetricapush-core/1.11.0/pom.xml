@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yandex.android</groupId>
+  <artifactId>appmetricapush-core</artifactId>
+  <version>1.11.0</version>
+  <packaging>aar</packaging>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <name>Yandex AppMetrica Push SDK</name>
+  <url>http://appmetrica.yandex.com/</url>
+  <licenses>
+    <license>
+      <name>Terms of Use of Yandex.Metrica service</name>
+      <url>http://legal.yandex.com/metrica_termsofuse/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git://github.com/yandexmobile/metrica-push-sdk-android.git</connection>
+    <developerConnection>scm:git:git@github.com/yandexmobile/metrica-push-sdk-android.git</developerConnection>
+    <url>https://github.com/yandexmobile/metrica-sdk-android.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Yandex</name>
+      <url>http://appmetrica.yandex.com/</url>
+      <roles>
+        <role>Developer</role>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+</project>

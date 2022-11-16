@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vk.knet</groupId>
+  <artifactId>core</artifactId>
+  <version>1.0-alpha02</version>
+  <packaging>aar</packaging>
+  <name>Knet Core</name>
+  <description>Engine and Request wrapper for KNet</description>
+  <url>https://github.com/VKCOM/KNet</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/VKCOM/KNet/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vk</id>
+      <name>vk.com</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/VKCOM/KNet.git</connection>
+    <developerConnection>scm:git:git://github.com/VKCOM/KNet.git</developerConnection>
+    <url>https://github.com/VKCOM/KNet</url>
+  </scm>
+</project>

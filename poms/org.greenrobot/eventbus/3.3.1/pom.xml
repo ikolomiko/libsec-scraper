@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.greenrobot</groupId>
+  <artifactId>eventbus</artifactId>
+  <version>3.3.1</version>
+  <packaging>aar</packaging>
+  <name>EventBus</name>
+  <description>EventBus is a publish/subscribe event bus optimized for Android.</description>
+  <url>https://greenrobot.org/eventbus/</url>
+  <organization>
+    <name>greenrobot</name>
+    <url>https://greenrobot.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>greenrobot</id>
+      <name>greenrobot</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:greenrobot/EventBus.git</connection>
+    <developerConnection>scm:git@github.com:greenrobot/EventBus.git</developerConnection>
+    <url>https://github.com/greenrobot/EventBus</url>
+  </scm>
+  <issueManagement>
+    <system>https://github.com/greenrobot/EventBus/issues</system>
+    <url>https://github.com/greenrobot/EventBus/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus-java</artifactId>
+      <version>3.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

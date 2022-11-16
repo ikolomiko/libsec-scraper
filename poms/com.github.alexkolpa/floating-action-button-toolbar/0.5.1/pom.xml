@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.alexkolpa</groupId>
+  <artifactId>floating-action-button-toolbar</artifactId>
+  <version>0.5.1</version>
+  <packaging>aar</packaging>
+  <name>Float Action Button Toolbar</name>
+  <description>A toolbar menu extension for the Floating Action Button</description>
+  <url>https://github.com/AlexKolpa/fab-toolbar</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AlexKolpa</id>
+      <name>Alex Kolpa</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:AlexKolpa/fab-toolbar.git</connection>
+    <developerConnection>scm:git@github.com:AlexKolpa/fab-toolbar.git</developerConnection>
+    <url>https://github.com/AlexKolpa/fab-toolbar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.ozodrukh</groupId>
+      <artifactId>CircularReveal</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.melnykov</groupId>
+      <artifactId>floatingactionbutton</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

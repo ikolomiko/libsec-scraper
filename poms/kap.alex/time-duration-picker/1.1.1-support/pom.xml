@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kap.alex</groupId>
+  <artifactId>time-duration-picker</artifactId>
+  <version>1.1.1-support</version>
+  <packaging>aar</packaging>
+  <name>time-duration-picker</name>
+  <description>An Android library, that provides a component which makes it quick and easy for a user to enter a time duration in hours, minutes and seconds, similar to Android Lollipop's stock timer app.</description>
+  <url>https://github.com/kaplanalexander/time-duration-picker</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/kaplanalexander/time-duration-picker/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>svenwiegand</id>
+      <name>Sven Wiegand</name>
+      <email>source@sven-wiegand.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kaplanalexander/time-duration-picker.git</connection>
+    <developerConnection>https://github.com/kaplanalexander/time-duration-picker.git</developerConnection>
+    <url>https://github.com/kaplanalexander/time-duration-picker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

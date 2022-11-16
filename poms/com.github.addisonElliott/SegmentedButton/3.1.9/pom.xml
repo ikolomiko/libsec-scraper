@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.addisonElliott</groupId>
+  <artifactId>SegmentedButton</artifactId>
+  <version>3.1.9</version>
+  <packaging>aar</packaging>
+  <name>addisonElliott/SegmentedButton</name>
+  <description>Segmented Control/Button with animation for Android API 16+</description>
+  <url>https://github.com/addisonElliott/SegmentedButton</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>addisonElliott</id>
+      <name>Addison Elliott</name>
+      <email>addison.elliott@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/addisonElliott/SegmentedButton.git</connection>
+    <developerConnection>scm:git://github.com/addisonElliott/SegmentedButton.git</developerConnection>
+    <url>git://github.com/addisonElliott/SegmentedButton.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.addisonElliott</groupId>
+      <artifactId>RippleDrawable</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.interpolator</groupId>
+      <artifactId>interpolator</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13-beta-3</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

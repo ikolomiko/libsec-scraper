@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.AgoraIO-Usecase</groupId>
+  <artifactId>Tools</artifactId>
+  <version>test_0.0.0.1</version>
+  <packaging>aar</packaging>
+  <name>AgoraIO-Usecase/Tools</name>
+  <url>https://github.com/AgoraIO-Usecase/Tools</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AgoraIO-Usecase</id>
+      <name>Agora.io Usecase</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/AgoraIO-Usecase/Tools.git</connection>
+    <developerConnection>scm:git://github.com/AgoraIO-Usecase/Tools.git</developerConnection>
+    <url>git://github.com/AgoraIO-Usecase/Tools.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.elvishew</groupId>
+      <artifactId>xlog</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

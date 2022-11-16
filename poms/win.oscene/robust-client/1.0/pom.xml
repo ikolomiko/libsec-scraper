@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>win.oscene</groupId>
+  <artifactId>robust-client</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>robust-client</name>
+  <description>robust client</description>
+  <url>https://github.com/swiftloop/robust-client</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>sorata</name>
+      <email>904198187@qq.com</email>
+      <url>https://github.com/swiftloop</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/swiftloop/robust-client.git</connection>
+    <url>https://github.com/swiftloop/robust-client.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.meituan.robust</groupId>
+      <artifactId>robust</artifactId>
+      <version>0.4.99</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

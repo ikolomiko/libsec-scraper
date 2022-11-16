@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.risesoftware.rsciv</groupId>
+  <artifactId>RSCircularImageView</artifactId>
+  <version>0.2.1</version>
+  <packaging>aar</packaging>
+  <name>RSCircularImageView</name>
+  <description>RSCircularImageView is an Android widget derived from ImageView which displays its image cropped like a circle</description>
+  <url>git@bitbucket.org:risesoftware/rscircularimageview.git</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Rise Software</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@bitbucket.org:risesoftware/rscircularimageview.git</connection>
+    <url>http://www.risesoftware.com</url>
+  </scm>
+</project>

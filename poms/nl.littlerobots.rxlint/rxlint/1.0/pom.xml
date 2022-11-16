@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.littlerobots.rxlint</groupId>
+  <artifactId>rxlint</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Packaged lint rule</name>
+  <description>The lint rule for rxjava packaged as an AAR</description>
+  <url>https://bitbucket.org/littlerobots/rxlint</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>littlerobots</id>
+      <name>Hugo Visser</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://bitbucket.org/littlerobots/rxlint</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/littlerobots/rxlint</developerConnection>
+    <url>https://bitbucket.org/littlerobots/rxlint</url>
+  </scm>
+</project>

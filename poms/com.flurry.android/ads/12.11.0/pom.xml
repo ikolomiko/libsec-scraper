@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flurry.android</groupId>
+  <artifactId>ads</artifactId>
+  <version>12.11.0</version>
+  <packaging>aar</packaging>
+  <name>com.flurry.android</name>
+  <description>Flurry Analytics Android SDK</description>
+  <url>https://github.com/flurry/flurry-android-sdk</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/flurry/flurry-android-sdk/blob/gh-pages/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hsingh02</id>
+      <name>Harmanpreet Singh</name>
+      <email>harmanpreet.singh@verizonmedia.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:flurry/flurry-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:flurry/flurry-android-sdk.git</developerConnection>
+    <url>https://github.com/flurry/flurry-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.flurry.android</groupId>
+      <artifactId>analytics</artifactId>
+      <version>12.11.0</version>
+    </dependency>
+  </dependencies>
+</project>

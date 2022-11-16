@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gbsys.card-reader-util</groupId>
+  <artifactId>card-reader-util</artifactId>
+  <version>0.2.0</version>
+  <packaging>aar</packaging>
+  <name>card-reader-util</name>
+  <description>Tool created to read credit card's information using NFC</description>
+  <url>https://github.com/JulianSalinas/card-reader-util</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>julian10201</id>
+      <name>Julian Salinas</name>
+      <email>july12sali@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/JulianSalinas/card-reader-util.git</connection>
+    <developerConnection>https://github.com/JulianSalinas/card-reader-util.git</developerConnection>
+    <url>https://github.com/JulianSalinas/card-reader-util</url>
+  </scm>
+</project>

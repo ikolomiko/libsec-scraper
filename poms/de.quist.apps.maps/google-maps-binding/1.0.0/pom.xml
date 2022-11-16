@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.quist.apps.maps</groupId>
+  <artifactId>google-maps-binding</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Maps abstraction Google-Maps-Binding</name>
+  <description>Binding for Google-Maps Android API to use with android-maps-abstraction</description>
+  <url>https://github.com/tomquist/android-maps-abstraction</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tomquist</id>
+      <name>Tom Quist</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tomquist/android-maps-abstraction.git</connection>
+    <developerConnection>scm:git@github.com:tomquist/android-maps-abstraction.git</developerConnection>
+    <url>scm:git@github.com:tomquist/android-maps-abstraction.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.quist.apps.maps</groupId>
+      <artifactId>android-maps-abstraction</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

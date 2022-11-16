@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.andreasen.pay-me</groupId>
+  <artifactId>library</artifactId>
+  <version>1.4</version>
+  <packaging>aar</packaging>
+  <name>pay-me</name>
+  <description>Library for Android in-app billing</description>
+  <url>https://github.com/MadsAndreasen/pay-me</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>madsandreasen</id>
+      <name>Mads Andreasen</name>
+      <email>github@andreasen.cc</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/MadsAndreasen/pay-me.git</connection>
+    <developerConnection>https://github.com/MadsAndreasen/pay-me.git</developerConnection>
+    <url>https://github.com/MadsAndreasen/pay-me</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.billingclient</groupId>
+      <artifactId>billing</artifactId>
+      <version>dp-1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pushtorefresh.storio3</groupId>
+  <artifactId>sqlite</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>sqlite</name>
+  <description>Modern API for SQLiteDatabase and ContentResolver</description>
+  <url>https://github.com/pushtorefresh/storio</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>https://github.com/pushtorefresh/storio/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pushtorefresh</id>
+      <name>Pushtorefresh</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:pushtorefresh/storio.git</connection>
+    <developerConnection>scm:git@github.com:pushtorefresh/storio.git</developerConnection>
+    <url>https://github.com/pushtorefresh/storio</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.pushtorefresh.storio3</groupId>
+      <artifactId>common</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

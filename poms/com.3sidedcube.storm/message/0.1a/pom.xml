@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.3sidedcube.storm</groupId>
+  <artifactId>message</artifactId>
+  <version>0.1a</version>
+  <packaging>aar</packaging>
+  <name>LightningMessage</name>
+  <description>Messaging module of the Storm Framework</description>
+  <url>https://github.com/3sidedcube/Android-LightningMessage.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scruffyfox</id>
+      <name>Callum Taylor</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:3sidedcube/Android-LightningMessage.git</connection>
+    <developerConnection>scm:git@github.com:3sidedcube/Android-LightningMessage.git</developerConnection>
+    <url>https://github.com/3sidedcube/Android-LightningMessage.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>6.1.71</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.3sidedcube.storm</groupId>
+      <artifactId>util</artifactId>
+      <version>0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.14.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

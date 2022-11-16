@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.videoup</groupId>
+  <artifactId>feed-data</artifactId>
+  <version>0.9.4</version>
+  <packaging>aar</packaging>
+  <name>vp-feed-data-sdk</name>
+  <url>https://www.videoup.ai</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://mit-license.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>videoup</id>
+      <name>videoup</name>
+      <email>contact@videoup.tv</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

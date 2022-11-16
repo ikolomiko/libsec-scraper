@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.kdk96</groupId>
+  <artifactId>gemini-store-keeper</artifactId>
+  <version>2.0.0-alpha5-native-mt</version>
+  <packaging>aar</packaging>
+  <name>gemini</name>
+  <description>simplify build the MVI architecture</description>
+  <url>https://github.com/kdk96/gemini</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kdk96</id>
+      <name>Dias Kinayatov</name>
+      <email>kdk96s@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/kdk96/gemini.git</connection>
+    <developerConnection>scm:git:ssh://github.com/kdk96/gemini.git</developerConnection>
+    <url>https://github.com/kdk96/gemini</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.kdk96</groupId>
+      <artifactId>gemini-core</artifactId>
+      <version>2.0.0-alpha5-native-mt</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.5.0-native-mt</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel</artifactId>
+      <version>2.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

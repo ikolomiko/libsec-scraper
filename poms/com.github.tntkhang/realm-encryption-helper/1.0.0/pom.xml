@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tntkhang</groupId>
+  <artifactId>realm-encryption-helper</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>realm-encryption-helper</name>
+  <description>A lightweight library for generate encrypt key and save to KeyStore for Realm</description>
+  <url>https://github.com/tntkhang/realm-encryption-helper</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tntkhang</id>
+      <name>KhangTran</name>
+      <email>tntkhang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tntkhang/realm-encryption-helper.git</connection>
+    <developerConnection>https://github.com/tntkhang/realm-encryption-helper.git</developerConnection>
+    <url>https://github.com/tntkhang/realm-encryption-helper</url>
+  </scm>
+</project>

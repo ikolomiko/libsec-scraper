@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qinxiang.httplib</groupId>
+  <artifactId>HttpX</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>HttpX</name>
+  <description>��Ŀ����</description>
+  <url>http://www.kinsoo.com/</url>
+  <issueManagement>
+    <system>github</system>
+    <url>http://www.kinsoo.com/</url>
+  </issueManagement>
+  <scm>
+    <url>http://www.kinsoo.com/</url>
+    <connection>scm:git:git://github.com/BaronZ/android-common-library.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/BaronZ/android-common-library.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

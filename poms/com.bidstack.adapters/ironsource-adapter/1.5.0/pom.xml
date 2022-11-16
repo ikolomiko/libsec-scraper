@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bidstack.adapters</groupId>
+  <artifactId>ironsource-adapter</artifactId>
+  <version>1.5.0</version>
+  <packaging>aar</packaging>
+  <name>ironsource-adapter</name>
+  <description>Bidstack ironSource adapter</description>
+  <url>https://www.bidstack.com/</url>
+  <organization>
+    <name>Bidstack</name>
+    <url>https://www.bidstack.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Bidstack License</name>
+      <url>https://github.com/bidstack-group/bidstack-custom-adapter-ironsource-android/blob/main/LICENSE.TXT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>256p</id>
+      <name>Staņislavs Petkevičs</name>
+      <email>stanislavs.petkevics@bidstack.com</email>
+    </developer>
+    <developer>
+      <id>CannibalChoco</id>
+      <name>Kristine Glazuna</name>
+      <email>kristine.glazuna@bidstack.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/bidstack-group/bidstack-custom-adapter-ironsource-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/bidstack-group/bidstack-custom-adapter-ironsource-android.git</developerConnection>
+    <url>https://github.com/bidstack-group/bidstack-custom-adapter-ironsource-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ironsource.sdk</groupId>
+      <artifactId>mediationsdk</artifactId>
+      <version>7.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-appset</artifactId>
+      <version>16.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>18.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-basement</artifactId>
+      <version>18.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bidstack</groupId>
+      <artifactId>mobile-ads-sdk</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

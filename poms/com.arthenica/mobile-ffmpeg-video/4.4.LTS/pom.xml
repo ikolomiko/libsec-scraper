@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arthenica</groupId>
+  <artifactId>mobile-ffmpeg-video</artifactId>
+  <version>4.4.LTS</version>
+  <packaging>aar</packaging>
+  <name>mobile-ffmpeg-video</name>
+  <description>Includes FFmpeg v4.4-dev-416 with fontconfig v2.13.92, freetype v2.10.2, fribidi v1.0.9, kvazaar v2.0.0, libaom v1.0.0-errata1-avif-110, libass v0.14.0, libiconv v1.16, libtheora v1.1.1, libvpx v1.8.2, snappy v1.1.8 and libwebp v1.1.0 libraries enabled.</description>
+  <url>https://github.com/tanersener/mobile-ffmpeg</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License, Version 3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tanersener</id>
+      <name>Taner Sener</name>
+      <email>tanersener@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tanersener/mobile-ffmpeg.git</connection>
+    <developerConnection>https://github.com/tanersener/mobile-ffmpeg.git</developerConnection>
+    <url>https://github.com/tanersener/mobile-ffmpeg</url>
+  </scm>
+</project>

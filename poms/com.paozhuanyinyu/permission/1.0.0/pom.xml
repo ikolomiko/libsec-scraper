@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.paozhuanyinyu</groupId>
+  <artifactId>permission</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>This is a Android runtime-permission library</name>
+  <url>https://github.com/paozhuanyinyu/XPermission</url>
+  <licenses>
+    <license>
+      <name>This is a Android runtime-permission library</name>
+      <url>https://github.com/paozhuanyinyu/XPermission</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>paozhuanyinyu92</id>
+      <name>Kai Yu</name>
+      <email>wuhuissds@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/paozhuanyinyu/XPermission.git</connection>
+    <developerConnection>https://github.com/paozhuanyinyu/XPermission.git</developerConnection>
+    <url>https://github.com/paozhuanyinyu/XPermission</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.0.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

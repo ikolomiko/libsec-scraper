@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>any.com.rxbus</groupId>
+  <artifactId>rxbus</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>rxbus</name>
+  <description>Page interaction, easy to pass data.</description>
+  <url>https://github.com/anyrsan/AnyRxBus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anyrsan</id>
+      <name>any</name>
+      <email>raosanpig@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/anyrsan/AnyRxBus.git</connection>
+    <developerConnection>https://github.com/anyrsan/AnyRxBus.git</developerConnection>
+    <url>https://github.com/anyrsan/AnyRxBus</url>
+  </scm>
+</project>

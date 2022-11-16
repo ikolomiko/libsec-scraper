@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.intercom.android</groupId>
+  <artifactId>intercom-sdk-fcm</artifactId>
+  <version>3.0.4</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.intercom.android</groupId>
+      <artifactId>intercom-sdk-base</artifactId>
+      <version>3.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+<url>https://github.com/intercom/intercom-android</url><licenses><license><name>The Apache Software License, Version 2.0</name><url>http://www.apache.org/licenses/LICENSE-2.0.txt</url></license></licenses><scm><url>http://github.com/intercom/intercom-android/tree/master</url></scm><developers><developer><name>Prithivraj Selvaraj</name></developer></developers><name>intercom-sdk-fcm</name><description>Intercom SDK for Android</description></project>

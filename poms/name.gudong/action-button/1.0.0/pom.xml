@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>name.gudong</groupId>
+  <artifactId>action-button</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>ActionButton</name>
+  <description>Use TextView as a ActionButton with left icon</description>
+  <url>https://github.com/maoruibin/ActionButton</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maoruibin</id>
+      <name>gudong</name>
+      <email>gudong.name@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/maoruibin/ActionButton.git</connection>
+    <developerConnection>https://github.com/maoruibin/ActionButton.git</developerConnection>
+    <url>https://github.com/maoruibin/ActionButton</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>name.gudong</groupId>
+      <artifactId>loading</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.lattekit</groupId>
+  <artifactId>lattekit-core</artifactId>
+  <version>0.9.2</version>
+  <packaging>aar</packaging>
+  <name>LatteKit</name>
+  <description>Android framework for building UI quickly in Kotlin, inspired by React</description>
+  <url>https://github.com/maannajjar/lattekit</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maannajjar</id>
+      <name>Maan Najjar</name>
+      <email>maan.najjar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/maannajjar/lattekit.git</connection>
+    <developerConnection>https://github.com/maannajjar/lattekit.git</developerConnection>
+    <url>https://github.com/maannajjar/lattekit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>3.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.0.1-2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

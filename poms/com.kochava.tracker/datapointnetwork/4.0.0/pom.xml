@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kochava.tracker</groupId>
+  <artifactId>datapointnetwork</artifactId>
+  <version>4.0.0</version>
+  <packaging>aar</packaging>
+  <name>Kochava Tracker Datapoint Network</name>
+  <description>Kochava Tracker optional networking datapoints</description>
+  <url>https://www.kochava.com</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>https://www.kochava.com/terms-of-service</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sdkdev</id>
+      <name>SDK Dev</name>
+      <email>sdkdev@kochava.com</email>
+    </developer>
+    <developer>
+      <id>jmorris</id>
+      <name>James Morris</name>
+      <email>jmorris@kochava.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/Kochava/Android-KochavaTracker-Releases.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Kochava/Android-KochavaTracker-Releases.git</developerConnection>
+    <url>https://github.com/Kochava/Android-KochavaTracker-Releases</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.kochava.core</groupId>
+      <artifactId>core</artifactId>
+      <version>[2.0.0,3.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>com.kochava.tracker</groupId>
+      <artifactId>tracker</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

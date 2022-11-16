@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.drakeet.library</groupId>
+  <artifactId>crashwoodpechker</artifactId>
+  <version>0.9</version>
+  <packaging>aar</packaging>
+  <name>CrashWoodpechker</name>
+  <description>A uncaught exception handler library like as Square's LeakCanary.</description>
+  <url>https://github.com/drakeet/CrashWoodpechker</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drakeet</id>
+      <name>drakeet</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:drakeet/CrashWoodpechker.git</connection>
+    <developerConnection>scm:git@github.com:drakeet/CrashWoodpechker.git</developerConnection>
+    <url>https://github.com/drakeet/CrashWoodpechker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

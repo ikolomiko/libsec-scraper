@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rtugeek.android</groupId>
+  <artifactId>colorseekbar</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>A colorful SeekBar for picking color</name>
+  <url>https://github.com/rtugeek/ColorSeekBar</url>
+  <licenses>
+    <license>
+      <name>WTFPL</name>
+      <url>http://www.wtfpl.net/txt/copying/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rtugeek</id>
+      <name>Fu Weicheng</name>
+      <email>rtugeek@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rtugeek/ColorSeekBar.git</connection>
+    <developerConnection>https://github.com/rtugeek/ColorSeekBar.git</developerConnection>
+    <url>https://github.com/rtugeek/ColorSeekBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

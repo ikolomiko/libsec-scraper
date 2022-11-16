@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.charlex.compose</groupId>
+  <artifactId>settings-datastore</artifactId>
+  <version>1.0.0-rc01</version>
+  <packaging>aar</packaging>
+  <name>settings-datastore</name>
+  <description>Jetpack Compose HtmlText</description>
+  <url>https://github.com/ch4rl3x/HtmlText</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ch4rl3x</id>
+      <name>Alexander Karkossa</name>
+      <email>alexander.karkossa@googlemail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/ch4rl3x/HtmlText.git</connection>
+    <developerConnection>scm:git:ssh://github.com/ch4rl3x/HtmlText.git</developerConnection>
+    <url>https://github.com/ch4rl3x/HtmlText/tree/main</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.foundation</groupId>
+      <artifactId>foundation</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-util</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-tooling</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.charlex.settings</groupId>
+      <artifactId>settings-datastore</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.6.10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+  </dependencies>
+</project>

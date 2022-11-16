@@ -1,0 +1,103 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.tensorflow</groupId>
+  <artifactId>tensorflow-lite-task-audio-play-services</artifactId>
+  <version>0.4.1-beta02</version>
+  <packaging>aar</packaging>
+
+  <name>TensorFlow Lite Audio Tasks Play Services</name>
+  <url>https://tensorflow.org/lite/</url>
+  <description>A library to integrate TFLite models on-device for popular Audio Tasks related machine learning use cases</description>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>TensorFlow Authors</name>
+      <organization>TensorFlow</organization>
+      <organizationUrl>https://tensorflow.org</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/tensorflow/tflite-support.git</connection>
+    <developerConnection>scm:git:ssh://github.com:tensorflow/tflite-support.git</developerConnection>
+    <url>https://github.com/tensorflow/tflite-support/tree/master</url>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-tasks</artifactId>
+      <version>18.0.1</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-tflite-impl</artifactId>
+      <version>16.0.0-beta02</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-tflite-support</artifactId>
+      <version>16.0.0-beta02</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.odml</groupId>
+      <artifactId>image</artifactId>
+      <version>1.0.0-beta1</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite-api</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite-support-api</artifactId>
+      <version>0.4.1</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.tensorflow</groupId>
+      <artifactId>tensorflow-lite-task-base</artifactId>
+      <version>0.4.1</version>
+      <scope>compile</scope>
+      <type>aar</type>
+    </dependency>
+  </dependencies>
+</project>

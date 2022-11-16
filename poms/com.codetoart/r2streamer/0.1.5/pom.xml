@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.codetoart</groupId>
+  <artifactId>r2streamer</artifactId>
+  <version>0.1.5</version>
+  <packaging>aar</packaging>
+  <name>r2streamer</name>
+  <description>Readium 2 streamer architecture for epub</description>
+  <url>https://github.com/codetoart/r2-streamer-java.git</url>
+  <licenses>
+    <license>
+      <name>FreeBSD License</name>
+      <url>https://en.wikipedia.org/wiki/FreeBSD_Documentation_License#License</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>codetoart</id>
+      <name>CodeToArt Technology Pvt. Ltd.</name>
+      <email>mahavir@codetoart.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/codetoart/r2-streamer-java.git</connection>
+    <developerConnection>https://github.com/codetoart/r2-streamer-java.git</developerConnection>
+    <url>https://github.com/codetoart/r2-streamer-java.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd-nanolets</artifactId>
+      <version>2.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.10.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

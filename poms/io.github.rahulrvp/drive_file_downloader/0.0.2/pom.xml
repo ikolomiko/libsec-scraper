@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.rahulrvp</groupId>
+  <artifactId>drive_file_downloader</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>G-Drive File Downloader</name>
+  <description>A sample lib to download google-drive files using content uri</description>
+  <url>https://github.com/rahulrvp/Remote-File-Download-And-Preview</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rahulrvp</id>
+      <name>Rahul Raveendran</name>
+      <email>rahu.pmna@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/rahulrvp/Remote-File-Download-And-Preview.git</connection>
+    <developerConnection>https://github.com/rahulrvp/Remote-File-Download-And-Preview.git</developerConnection>
+    <url>https://github.com/rahulrvp/Remote-File-Download-And-Preview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

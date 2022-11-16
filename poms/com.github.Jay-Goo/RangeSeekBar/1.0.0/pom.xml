@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Jay-Goo</groupId>
+  <artifactId>RangeSeekBar</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Jay-Goo/RangeSeekBar</name>
+  <description> A beautiful and powerful SeekBar that supports  range and vetical（ 一款美观强大的支持双向范围选择和垂直的SeekBar)</description>
+  <url>https://github.com/Jay-Goo/RangeSeekBar</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Jay-Goo</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Jay-Goo/RangeSeekBar.git</connection>
+    <developerConnection>scm:git://github.com/Jay-Goo/RangeSeekBar.git</developerConnection>
+    <url>git://github.com/Jay-Goo/RangeSeekBar.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

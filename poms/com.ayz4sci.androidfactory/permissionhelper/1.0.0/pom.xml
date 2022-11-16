@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ayz4sci.androidfactory</groupId>
+  <artifactId>permissionhelper</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PermissionHelper</name>
+  <description>A permission helper library that simplifies asking user for permission in Android M</description>
+  <url>https://github.com/ayz4sci/permissionHelper</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ayz4sci</id>
+      <name>Ayoola Ajebeku</name>
+      <email>ayz4sci@yahoo.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ayz4sci/permissionHelper.git</connection>
+    <developerConnection>https://github.com/ayz4sci/permissionHelper.git</developerConnection>
+    <url>https://github.com/ayz4sci/permissionHelper</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.tajchert</groupId>
+      <artifactId>nammu</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

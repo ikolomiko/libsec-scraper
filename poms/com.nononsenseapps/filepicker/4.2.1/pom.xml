@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nononsenseapps</groupId>
+  <artifactId>filepicker</artifactId>
+  <version>4.2.1</version>
+  <packaging>aar</packaging>
+  <name>NoNonsense Filepicker</name>
+  <description>An extendable Android file/directory-picker you can include in your app</description>
+  <url>https://github.com/spacecowboy/NoNonsense-FilePicker</url>
+  <licenses>
+    <license>
+      <name>Mozilla Public License Version 2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>spacecowboy</id>
+      <name>Jonas Kalderstam</name>
+      <email>jonas@cowboyprogrammer.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/spacecowboy/NoNonsense-FilePicker.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:spacecowboy/NoNonsense-FilePicker.git</developerConnection>
+    <url>https://github.com/spacecowboy/NoNonsense-FilePicker</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>24.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>24.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

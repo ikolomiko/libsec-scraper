@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tofik.coolexoplayer</groupId>
+  <artifactId>coolexoplayer</artifactId>
+  <version>1.2.1</version>
+  <packaging>aar</packaging>
+  <name>coolexoplayer</name>
+  <description>This view is a container that supports diagonal scroll and fling gesture. It is based on AOSP HorizontalScrollView.</description>
+  <url>https://github.com/tofikcool/CoolExoplayer-in-recyclerview-using-mvvm-livedata-</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>cool</id>
+      <name>tofik kazi</name>
+      <email>tofik.kazi18@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tofikcool/CoolExoplayer-in-recyclerview-using-mvvm-livedata-.git</connection>
+    <developerConnection>https://github.com/tofikcool/CoolExoplayer-in-recyclerview-using-mvvm-livedata-.git</developerConnection>
+    <url>https://github.com/tofikcool/CoolExoplayer-in-recyclerview-using-mvvm-livedata-</url>
+  </scm>
+</project>

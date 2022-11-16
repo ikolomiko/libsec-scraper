@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.haventec.common.android.sdk</groupId>
+  <artifactId>common-android-sdk</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>common-android-sdk</name>
+  <description>A collection of functions used by the android Haventec SDKs.</description>
+  <url>https://github.com/Haventec/common-android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://tldrlegal.com/license/mit-license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Haventec</id>
+      <name>Haventec</name>
+      <email>info@haventec.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Haventec/common-android-sdk.git</connection>
+    <developerConnection>https://github.com/Haventec/common-android-sdk.git</developerConnection>
+    <url>https://github.com/Haventec/common-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.24.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

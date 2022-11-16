@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.aerogear</groupId>
+  <artifactId>android-sync</artifactId>
+  <version>2.1.0-alpha.1</version>
+  <packaging>aar</packaging>
+  <name>AeroGear Android Sync SDK</name>
+  <description>AeroGear Android SDK</description>
+  <url>http://aerogear.org</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aerogear</id>
+      <name>aerogear</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:aerogear/aerogear-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:aerogear/aerogear-android-sdk.git</developerConnection>
+    <url>https://github.com/aerogear/aerogear-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aerogear</groupId>
+      <artifactId>android-core</artifactId>
+      <version>2.1.0-alpha.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.apollographql.apollo</groupId>
+      <artifactId>apollo-runtime</artifactId>
+      <version>1.0.0-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.apollographql.apollo</groupId>
+      <artifactId>apollo-android-support</artifactId>
+      <version>1.0.0-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>1.0.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>rules</artifactId>
+      <version>1.0.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

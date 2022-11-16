@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.duduhuo</groupId>
+  <artifactId>search-view</artifactId>
+  <version>1.1.6</version>
+  <packaging>aar</packaging>
+  <name>search-view</name>
+  <description>A SearchView for Android (Improved Version) .</description>
+  <url>https://github.com/liying2008/Search_Layout</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/liying2008/Search_Layout/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>liying2008</id>
+      <name>LiYing</name>
+      <email>liruoer2008@yeah.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/liying2008/Search_Layout</connection>
+    <developerConnection>https://github.com/liying2008/Search_Layout.git</developerConnection>
+    <url>https://github.com/liying2008/Search_Layout</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>28.0.0-rc02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

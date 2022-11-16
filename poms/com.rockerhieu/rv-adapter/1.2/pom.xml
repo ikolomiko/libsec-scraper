@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rockerhieu</groupId>
+  <artifactId>rv-adapter</artifactId>
+  <version>1.2</version>
+  <packaging>aar</packaging>
+  <name>RecyclerViewAdapterWrapper</name>
+  <description>A wrapper for RecyclerView.Adapter</description>
+  <url>http://rockerhieu.com/rv-adapter</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rockerhieu</id>
+      <name>Hieu Rocker</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:rockerhieu/rv-adapter.git</connection>
+    <developerConnection>scm:git@github.com:rockerhieu/rv-adapter.git</developerConnection>
+    <url>https://github.com/rockerhieu/rv-adapter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

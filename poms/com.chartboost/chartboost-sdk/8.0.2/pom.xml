@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chartboost</groupId>
+  <artifactId>chartboost-sdk</artifactId>
+  <version>8.0.2</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads-identifier</artifactId>
+      <version>17.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <description>Chartboost Android SDK</description>
+  <name>Chartboost</name>
+  <url>https://chartboost.com</url>
+  <licenses>
+    <license>
+      <name>https://answers.chartboost.com/en-us/articles/200780239</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chartboostmobile</id>
+      <name>chartboost mobile</name>
+      <email>mobile@chartboost.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/ChartBoost/android-sdk</url>
+    <connection>https://github.com/ChartBoost/android-sdk</connection>
+    <developerConnection>https://github.com/ChartBoost/android-sdk</developerConnection>
+  </scm>
+</project>

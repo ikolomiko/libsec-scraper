@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wnafee</groupId>
+  <artifactId>vector-compat</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>vector-compat library</name>
+  <description>A support library for VectorDrawable and AnimatedVectorDrawable introduced in Lollipop</description>
+  <url>https://github.com/wnafee/vector-compat</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wnafee</id>
+      <name>Wael Nafee</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:wnafee/vector-compat.git</connection>
+    <developerConnection>scm:git@github.com:wnafee/vector-compat.git</developerConnection>
+    <url>https://github.com/wnafee/vector-compat</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>top.52lixian.www</groupId>
+  <artifactId>pagerslidingtabstriplib</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>PagerSlidingTabStrip</name>
+  <description>Custom horizontal scroll bar</description>
+  <url>https://github.com/lixian5968/PagerSlidingTabStrip</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://raw.githubusercontent.com/minggo620/Pluto-Android/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lixian5968</id>
+      <name>i52lixian</name>
+      <email>i52lixian@yeah.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/lixian5968/PagerSlidingTabStrip.git</connection>
+    <developerConnection>https://github.com/lixian5968/PagerSlidingTabStrip.git</developerConnection>
+    <url>https://github.com/lixian5968/PagerSlidingTabStrip</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easylibs</groupId>
+  <artifactId>easy-http-volley</artifactId>
+  <version>1.0.3.4</version>
+  <packaging>aar</packaging>
+  <name>Easy Http - Volley</name>
+  <description>A set of classes to connect volley with easy-http</description>
+  <url>https://github.com/Easy-Libs</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>easy-libs</id>
+      <name>Easy Libs</name>
+      <email>easy.libraries@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Easy-Libs</connection>
+    <developerConnection>https://github.com/Easy-Libs</developerConnection>
+    <url>https://github.com/Easy-Libs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.easylibs</groupId>
+      <artifactId>easy-http</artifactId>
+      <version>1.0.3.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>16.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

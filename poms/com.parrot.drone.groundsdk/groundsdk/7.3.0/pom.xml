@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.parrot.drone.groundsdk</groupId>
+  <artifactId>groundsdk</artifactId>
+  <version>7.3.0</version>
+  <packaging>aar</packaging>
+  <name>com.parrot.drone.groundsdk:groundsdk</name>
+  <description>groundsdk module is part of Parrot Ground SDK for Android</description>
+  <url>https://developer.parrot.com</url>
+  <licenses>
+    <license>
+      <name>The 3-Clause BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Parrot developers</name>
+      <email>developer@parrot.com</email>
+      <organization>Parrot Drone SAS</organization>
+      <organizationUrl>https://parrot.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Parrot-Developers/groundsdk-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:Parrot-Developers/groundsdk-android.git</developerConnection>
+    <url>https://github.com/Parrot-Developers/groundsdk-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.parrot.drone.groundsdk</groupId>
+      <artifactId>video-metadata</artifactId>
+      <version>7.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parrot.drone.groundsdk</groupId>
+      <artifactId>sdkcore</artifactId>
+      <version>7.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>19.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-scalars</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>4.9.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.3.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-collections-immutable</artifactId>
+      <version>0.3.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

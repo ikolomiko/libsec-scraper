@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.nikonorov</groupId>
+  <artifactId>recycler-pager-adapter</artifactId>
+  <version>0.5.1</version>
+  <packaging>aar</packaging>
+  <name>recycler-pager-adapter</name>
+  <description>Adoptation of ViewPager for RecyclerView API</description>
+  <url>https://github.com/VitalyNikonorov/RecyclerPagerAdapter</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://raw.githubusercontent.com/VitalyNikonorov/RecyclerPagerAdapter/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vitalynikonorov</id>
+      <name>Vitaly Nikonorov</name>
+      <email>email@nikonorov.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/VitalyNikonorov/RecyclerPagerAdapter.git</connection>
+    <developerConnection>https://github.com/VitalyNikonorov/RecyclerPagerAdapter.git</developerConnection>
+    <url>https://github.com/VitalyNikonorov/RecyclerPagerAdapter</url>
+  </scm>
+</project>

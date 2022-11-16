@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.salah.rxdatetimepicker</groupId>
+  <artifactId>rxdatetimepicker</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>RxDateTimePicker</name>
+  <description>RxJava extension for Android to pick date and time</description>
+  <url>https://github.com/thesalah/RxDateTimePicker</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>salah49</id>
+      <name>Salah</name>
+      <email>nh.salah@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/thesalah/RxDateTimePicker.git</connection>
+    <developerConnection>https://github.com/thesalah/RxDateTimePicker.git</developerConnection>
+    <url>https://github.com/thesalah/RxDateTimePicker</url>
+  </scm>
+</project>

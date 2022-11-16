@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fourthstatelab.easypreference</groupId>
+  <artifactId>easypreference</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Easy Preference</name>
+  <description>Shared Preference Simplified</description>
+  <url>https://github.com/sridharswain/EasyPreferences</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sridharswain25</id>
+      <name>Sridhar Swain</name>
+      <email>sridharswai25@hotmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sridharswain/EasyPreferences.git</connection>
+    <developerConnection>https://github.com/sridharswain/EasyPreferences.git</developerConnection>
+    <url>https://github.com/sridharswain/EasyPreferences</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

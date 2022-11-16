@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ashokvarma.android</groupId>
+  <artifactId>gander-persistence</artifactId>
+  <version>3.0.0</version>
+  <packaging>aar</packaging>
+  <name>GanderPersistence</name>
+  <description>Gander is a simple in-app HTTP inspector for Android OkHttp clients. Gander intercepts and persists all HTTP requests and responses inside your application, and provides a UI for inspecting their content.</description>
+  <url>https://github.com/Ashok-Varma/Gander</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Ashok-Varma</id>
+      <name>Ashok Varma</name>
+      <email>ashokvitece@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Ashok-Varma/Gander.git</connection>
+    <developerConnection>https://github.com/Ashok-Varma/Gander.git</developerConnection>
+    <url>https://github.com/Ashok-Varma/Gander</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.ashokvarma.android</groupId>
+      <artifactId>gander</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.paging</groupId>
+      <artifactId>paging-runtime</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

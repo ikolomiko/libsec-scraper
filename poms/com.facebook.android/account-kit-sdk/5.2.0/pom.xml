@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.android</groupId>
+  <artifactId>account-kit-sdk</artifactId>
+  <version>5.2.0</version>
+  <packaging>aar</packaging>
+  <name>Account-Kit-SDK</name>
+  <description>Account Kit SDK</description>
+  <url>https://developers.facebook.com/docs/accountkit</url>
+  <licenses>
+    <license>
+      <name>Facebook Platform License</name>
+      <url>https://github.com/facebook/facebook-android-sdk/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>Facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://developers.facebook.com/docs/android/downloads</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-auth-api-phone</artifactId>
+      <version>16.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-auth</artifactId>
+      <version>16.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.googlecode.libphonenumber</groupId>
+      <artifactId>libphonenumber</artifactId>
+      <version>8.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

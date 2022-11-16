@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <name>LWAYVE ProxSee SDK module</name>
+  <description>LWAYVE SDK ProxSee SDK integration module</description>
+  <url>https://github.com/LWAYVE/android-sdk</url>
+  <organization>
+    <name>Lixar IT</name>
+    <url>http://lixar.com</url>
+  </organization>
+  <scm>
+    <connection> </connection>
+    <developerConnection> </developerConnection>
+    <url>https://github.com/LWAYVE/android-sdk</url>
+  </scm>
+  <licenses>
+    <license>
+      <name> </name>
+      <url> </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>LWAYVE</name>
+      <email>support@lwayve.com</email>
+    </developer>
+  </developers>
+  <groupId>com.lixar.lwayve</groupId>
+  <artifactId>lwayve-proxsee</artifactId>
+  <version>2.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.proxsee</groupId>
+      <artifactId>proxsee-sdk</artifactId>
+      <version>2.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.4.2</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.epicprojects.glider</groupId>
+  <artifactId>glider</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Glider</name>
+  <description>A parallex view pager with gliding animations</description>
+  <url>https://github.com/epicprojects/glider</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License v2</name>
+      <url>http://opensource.org/licenses/GPL-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>omer.shafiq2</id>
+      <name>Omer Shafiq</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/epicprojects/glider</connection>
+    <developerConnection>scm:hg:https://github.com/epicprojects/glider</developerConnection>
+    <url>https://github.com/epicprojects/glider</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>18.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viewpagerindicator</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

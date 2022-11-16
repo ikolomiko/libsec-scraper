@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ro.mirceanistor</groupId>
+  <artifactId>run-on-glthread</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>RunOnGlThread</name>
+  <description>an attempt to minimize the boilerplate needed to run OpenGL commands in an android test</description>
+  <url>https://github.com/mirceanis/run-on-glthread</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://mitlicense.org</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mirceanis</id>
+      <name>Mircea Nistor</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mirceanis/run-on-glthread.git</connection>
+    <developerConnection>scm:git@github.com:mirceanis/run-on-glthread.git</developerConnection>
+    <url>https://github.com/mirceanis/run-on-glthread</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

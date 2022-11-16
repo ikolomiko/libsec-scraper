@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.projectoxford</groupId>
+  <artifactId>speechrecognition</artifactId>
+  <version>1.2.2</version>
+  <packaging>aar</packaging>
+  <name>Microsoft Project Cognitive Services Speech Recognition Client Library</name>
+  <description>This client library allows the use of Microsoft's state-of-the-art cloud-based algorithms to process spoken language. See https://github.com/Microsoft/Cognitive-Speech-STT-Android/tree/master/Speech for more information.</description>
+  <url>https://github.com/Microsoft/Cognitive-Speech-STT-Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Microsoft/Cognitive-Speech-STT-Android/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>projectoxfordSDK</id>
+      <name>Project Oxford Client SDK</name>
+      <email>projectoxfordsdk@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Microsoft/Cognitive-Speech-STT-Android</connection>
+    <developerConnection>scm:git:https://github.com/Microsoft/Cognitive-Speech-STT-Android</developerConnection>
+    <url>scm:git:https://github.com/Microsoft/Cognitive-Speech-STT-Android</url>
+  </scm>
+</project>

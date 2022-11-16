@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dji</groupId>
+  <artifactId>dji-uilibrary</artifactId>
+  <version>4.2.1</version>
+  <packaging>aar</packaging>
+  <name>DJI UI Library for Android</name>
+  <description>The DJI UI Library provides UI elements that have core functionalities, hence can be used to speed up development time. Developers can pick and choose which parts of the UI Library they want to include, exclude and customize.</description>
+  <url>http://www.dji.com/</url>
+  <licenses>
+    <license>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dji</id>
+      <name>DJI-dev</name>
+      <email>devd@dji.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/dji-sdk/Mobile-UILibrary-Android.git</url>
+  </scm>
+</project>

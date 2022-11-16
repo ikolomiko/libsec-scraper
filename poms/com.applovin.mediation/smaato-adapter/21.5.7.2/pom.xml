@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.applovin.mediation</groupId>
+  <artifactId>smaato-adapter</artifactId>
+  <version>21.5.7.2</version>
+  <packaging>aar</packaging>
+  <name>smaato-adapter</name>
+  <description>Smaato adapter for AppLovin mediation</description>
+  <url>https://www.applovin.com/</url>
+  <licenses>
+    <license>
+      <name>AppLovin Corporation Mediation Adapter EULA</name>
+      <url>https://www.applovin.com/eula</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:github.com/AppLovin/AppLovin-MAX-SDK-Android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/AppLovin/AppLovin-MAX-SDK-Android.git</developerConnection>
+    <url>https://github.com/AppLovin/AppLovin-MAX-SDK-Android</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>AppLovin</name>
+      <url>https://www.applovin.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.smaato.android.sdk</groupId>
+      <artifactId>smaato-sdk</artifactId>
+      <version>21.5.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.smaato.android.sdk</groupId>
+      <artifactId>smaato-sdk-in-app-bidding</artifactId>
+      <version>21.5.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

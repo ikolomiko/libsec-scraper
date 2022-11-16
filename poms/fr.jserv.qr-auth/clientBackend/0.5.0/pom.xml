@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.jserv.qr-auth</groupId>
+  <artifactId>clientBackend</artifactId>
+  <version>0.5.0</version>
+  <packaging>aar</packaging>
+  <name>fr.jserv.qr-auth</name>
+  <description>QR Authentication module for Android clients</description>
+  <url>https://github.com/moutonjr/qr-auth</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>moutonjr</id>
+      <name>Geoff Montel</name>
+      <email>geoff@jserv.fr</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/moutonjr/qr-auth.git</connection>
+    <developerConnection>https://github.com/moutonjr/qr-auth.git</developerConnection>
+    <url>https://github.com/moutonjr/qr-auth</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.socket</groupId>
+      <artifactId>socket.io-client</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>me.dm7.barcodescanner</groupId>
+      <artifactId>zxing</artifactId>
+      <version>1.9.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jbundle.util.osgi.wrapped</groupId>
+      <artifactId>org.jbundle.util.osgi.wrapped.org.apache.http.client</artifactId>
+      <version>4.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

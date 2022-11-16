@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mi.dev.mint</groupId>
+  <artifactId>facebook-adapter</artifactId>
+  <version>6.2.0_4</version>
+  <packaging>aar</packaging>
+  <name>facebook-adapter</name>
+  <description>mint mediation</description>
+  <url>https://github.com/miui-globalads</url>
+  <licenses>
+    <license>
+      <name>Mint SDK License</name>
+      <url>http://ads.mi.com/mediation/#/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>miui-globalads</id>
+      <name>miui-globalads</name>
+      <email>miui-globalads@xiaomi.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:miui-globalads/MintMediation-Unity.git</connection>
+    <developerConnection>scm:git:ssh://github.com/miui-globalads/MintMediation-Unity.git</developerConnection>
+    <url>https://github.com/miui-globalads/MintMediation-Unity/tree/master</url>
+  </scm>
+  <dependencies/>
+</project>

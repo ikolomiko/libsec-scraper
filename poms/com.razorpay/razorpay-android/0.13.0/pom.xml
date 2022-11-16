@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    >
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.razorpay</groupId>
+    <artifactId>razorpay-android</artifactId>
+    <version>0.13.0</version>
+    <packaging>jar</packaging>
+    
+    <name>Razorpay Android SDK</name>
+    <description>
+        Razorpay's easy to integrate and lightweight SDK to accept payments on Android devices.
+    </description>
+    <url>https://razorpay.com/mobile</url>
+    
+    <licenses>
+        <license>
+            <name>Proprietary</name>
+            <url></url>
+        </license>
+    </licenses>
+    
+    <scm>
+        <url>git@github.com:razorpay/razorpay-android-sample-app.git</url>
+    </scm>
+    
+    <developers>
+        <developer>
+            <name>Team Razorpay</name>
+            <email>developers@razorpay.com</email>
+            <organization>Razorpay</organization>
+            <organizationUrl>https://razorpay.com</organizationUrl>
+        </developer>
+    </developers>
+</project>
+

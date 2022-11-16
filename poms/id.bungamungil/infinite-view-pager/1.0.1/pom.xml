@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>id.bungamungil</groupId>
+  <artifactId>infinite-view-pager</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>infinite-view-pager</name>
+  <description>A circular View Pager for Android</description>
+  <url>https://github.com/bungamungil/android-infinite-view-pager</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>naufalfachrian</id>
+      <name>Naufal Fachrian</name>
+      <email>naufal.fachrian@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/bungamungil/android-infinite-view-pager.git</connection>
+    <developerConnection>https://github.com/bungamungil/android-infinite-view-pager.git</developerConnection>
+    <url>https://github.com/bungamungil/android-infinite-view-pager</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

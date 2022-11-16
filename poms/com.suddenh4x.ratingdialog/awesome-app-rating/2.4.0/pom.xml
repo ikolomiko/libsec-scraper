@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.suddenh4x.ratingdialog</groupId>
+  <artifactId>awesome-app-rating</artifactId>
+  <version>2.4.0</version>
+  <packaging>aar</packaging>
+  <name>awesome-app-rating</name>
+  <description>A highly customizable Android library providing a dialog, which asks the user to rate the app or give feedback. You can also use the library to show the Google in-app review easily under certain conditions.</description>
+  <url>https://github.com/SuddenH4X/awesome-app-rating</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>https://github.com/SuddenH4X/awesome-app-rating/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>SuddenH4X</id>
+      <name>Sascha Kühne</name>
+      <email>SuddenH4X@users.noreply.github.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/SuddenH4X/awesome-app-rating.git</connection>
+    <developerConnection>scm:git:ssh://github.com:SuddenH4X/awesome-app-rating.git</developerConnection>
+    <url>https://github.com/SuddenH4X/awesome-app-rating/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.5.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-android-extensions-runtime</artifactId>
+      <version>1.5.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.play</groupId>
+      <artifactId>core</artifactId>
+      <version>1.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.play</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

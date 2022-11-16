@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>yazon-maven</groupId>
+  <artifactId>linkedin-sdk</artifactId>
+  <version>1.1.4</version>
+  <packaging>aar</packaging>
+  <name>LinkedIn Android SDK</name>
+  <url>https://github.com/izacus/FuzzyDateFormatter</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yazon2006</id>
+      <name>Yazon_dinAlt</name>
+      <email>Yazon2006@yandex.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/izacus/FuzzyDateFormatter.git</connection>
+    <developerConnection>https://github.com/izacus/FuzzyDateFormatter.git</developerConnection>
+    <url>https://github.com/izacus/FuzzyDateFormatter</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>20.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>21.0.+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

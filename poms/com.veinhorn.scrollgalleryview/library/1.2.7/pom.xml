@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.veinhorn.scrollgalleryview</groupId>
+  <artifactId>library</artifactId>
+  <version>1.2.7</version>
+  <packaging>aar</packaging>
+  <name>ScrollGalleryView</name>
+  <description>Create awesome image gallery using ScrollGalleryView. Just add your images.</description>
+  <url>https://github.com/VEINHORN/ScrollGalleryView</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>veinhorn</id>
+      <name>Boris Korogvich</name>
+      <email>b.korogvich@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/VEINHORN/ScrollGalleryView.git</connection>
+    <developerConnection>https://github.com/VEINHORN/ScrollGalleryView.git</developerConnection>
+    <url>https://github.com/VEINHORN/ScrollGalleryView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>transition</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.chrisbanes</groupId>
+      <artifactId>PhotoView</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

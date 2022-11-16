@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.supasintatiyanupanwong.libraries.android.kits.location</groupId>
+  <artifactId>location-huawei</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Location Kit (Huawei)</name>
+  <description>Provides HUAWEI Location Kit integration to Location Kit.</description>
+  <url>https://github.com/SupasinTatiyanupanwong/location-kit-android/</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>supasintatiyanupanwong</id>
+      <name>Supasin Tatiyanupanwong</name>
+      <url>https://supasin.tatiyanupanwong.me</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SupasinTatiyanupanwong/location-kit-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/SupasinTatiyanupanwong/location-kit-android.git</developerConnection>
+    <url>https://github.com/SupasinTatiyanupanwong/location-kit-android/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.supasintatiyanupanwong.libraries.android.kits.location</groupId>
+      <artifactId>location-core</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.supasintatiyanupanwong.libraries.android.kits.base</groupId>
+      <artifactId>base-huawei</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>location</artifactId>
+      <version>5.1.0.303</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

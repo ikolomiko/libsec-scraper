@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.rajawali3d</groupId>
+  <artifactId>vr</artifactId>
+  <version>1.1.668</version>
+  <packaging>aar</packaging>
+  <name>Rajawali VR</name>
+  <description>Android OpenGL ES 2.0/3.0 Engine, Cardboard VR Integration</description>
+  <url>https://github.com/Rajawali/Rajawali</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Rajawali</id>
+      <name>Rajawali Development Team</name>
+      <email>rajawali.framework@gmail.com</email>
+      <organization>org.apache.maven.model.Organization@1361e880</organization>
+      <organizationUrl>https://plus.google.com/u/0/communities/116529974266844528013</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Rajawali/Rajawali.git</connection>
+    <developerConnection>scm:git@github.com:Rajawali/Rajawali.git</developerConnection>
+    <url>https://github.com/Rajawali/Rajawali.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v13</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.rajawali3d</groupId>
+      <artifactId>rajawali</artifactId>
+      <version>1.1.668</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

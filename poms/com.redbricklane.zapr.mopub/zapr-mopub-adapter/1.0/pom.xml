@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.redbricklane.zapr.mopub</groupId>
+  <artifactId>zapr-mopub-adapter</artifactId>
+  <version>1.0</version>
+  <name>Zapr MoPub Adapter</name>
+  <description>Zapr SDK Adapter for MoPub SDK</description>
+  <url>http://zapr.in</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ud-zapr</id>
+      <name>Udayan Warnekar</name>
+      <email>udayan@zapr.in</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/zapr</connection>
+    <developerConnection>https://bitbucket.org/zapr</developerConnection>
+    <url>http://zapr.in</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mopub</groupId>
+      <artifactId>mopub-sdk</artifactId>
+      <version>4.7.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.redbricklane.zapr.banner</groupId>
+      <artifactId>zapr-banner-sdk</artifactId>
+      <version>1.9.3</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.aad</groupId>
+  <artifactId>adal</artifactId>
+  <version>1.16.3-hf1</version>
+  <packaging>aar</packaging>
+  <name>adal</name>
+  <description>Azure active directory library for Android gives you the ability to add Windows Azure Active Directory authentication to your application with just a few lines of additional code. Using our ADAL SDKs you can quickly and easily extend your existing application to all the employees that use Windows Azure AD and Active Directory on-premises using Active Directory Federation Services, including Office365 customers.</description>
+  <url>https://github.com/AzureAD/azure-activedirectory-library-for-android</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>microsoft</id>
+      <name>Microsoft</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/AzureAD/azure-activedirectory-library-for-android/tree/master</url>
+  </scm>
+  <properties>
+    <branch>master</branch>
+    <version>1.16.3-hf1</version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.nimbusds</groupId>
+      <artifactId>nimbus-jose-jwt</artifactId>
+      <version>8.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.identity</groupId>
+      <artifactId>common</artifactId>
+      <version>0.0.10-hf1</version>
+    </dependency>
+  </dependencies>
+</project>

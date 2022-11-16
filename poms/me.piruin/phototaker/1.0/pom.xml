@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.piruin</groupId>
+  <artifactId>phototaker</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>PhotoTaker</name>
+  <description>Android library for handle about Take a Photo from camera or pick from gallery </description>
+  <url>https://github.com/piruin/phototaker</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>piruin</id>
+      <name>Blast Piruin Panichphol</name>
+      <email>piruin.p@gmail</email>
+      <url>https://piruin.me</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/piruin/phototaker.git</connection>
+    <developerConnection>https://github.com/piruin/phototaker.git</developerConnection>
+    <url>https://github.com/piruin/phototaker</url>
+  </scm>
+</project>

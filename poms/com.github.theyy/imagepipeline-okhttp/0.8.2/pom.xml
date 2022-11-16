@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.theyy</groupId>
+  <artifactId>imagepipeline-okhttp</artifactId>
+  <version>0.8.2</version>
+  <packaging>aar</packaging>
+  <name>ImagePipeline-OkHttp Integration</name>
+  <description>An integration library to use OkHttp as the networking layer in ImagePipeline</description>
+  <url>https://github.com/theYY/fresco</url>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://github.com/facebook/fresco/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yangyang</id>
+      <name>yangyang</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/theYY/fresco.git</connection>
+    <developerConnection>scm:git:git@github.com:theYY/fresco.git</developerConnection>
+    <url>https://github.com/theYY/fresco.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.theyy</groupId>
+      <artifactId>imagepipeline</artifactId>
+      <version>0.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.theyy</groupId>
+      <artifactId>fbcore</artifactId>
+      <version>0.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

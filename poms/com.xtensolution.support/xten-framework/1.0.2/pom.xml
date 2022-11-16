@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xtensolution.support</groupId>
+  <artifactId>xten-framework</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>XtenFramework</name>
+  <description>The purpose of this framework only to reduce the complexity of development.
+This framework contain the many android basic component which are we often
+use in our android project like RecyclerView, FloatingActionButton, DrawerLayout,
+SwipeRefreshLayout, Fragment, ActionBar, Snackbar and Toolbar.</description>
+  <url>https://github.com/riontech-xten/XtenFramework</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vaghelamithun</id>
+      <name>Vaghela Mithun</name>
+      <email>vaghela.mithun@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/riontech-xten/XtenFramework.git</connection>
+    <developerConnection>https://github.com/riontech-xten/XtenFramework.git</developerConnection>
+    <url>https://github.com/riontech-xten/XtenFramework</url>
+  </scm>
+</project>

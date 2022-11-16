@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.andrewlord1990</groupId>
+  <artifactId>snackbarbuilder</artifactId>
+  <version>0.3</version>
+  <packaging>aar</packaging>
+  <name>SnackbarBuilder</name>
+  <description>The Android Design Support library introduced a Snackbar class. SnackbarBuilder is a builder pattern that makes Snackbars easier to make and customise.</description>
+  <url>https://github.com/andrewlord1990/SnackbarBuilder</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andrewlord1990</id>
+      <name>Andrew Lord</name>
+      <email>andrewlord1990@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/andrewlord1990/SnackbarBuilder.git</connection>
+    <developerConnection>https://github.com/andrewlord1990/SnackbarBuilder.git</developerConnection>
+    <url>https://github.com/andrewlord1990/SnackbarBuilder</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

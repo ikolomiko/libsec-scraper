@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazon.android</groupId>
+  <artifactId>aps-sdk</artifactId>
+  <version>9.2.1</version>
+  <packaging>aar</packaging>
+  <name>aps-android-sdk</name>
+  <description>The Amazon Publisher Services SDK helps publishers increase revenue by enabling incremental bidding alongside your waterfall</description>
+  <url>https://aps.amazon.com/aps/solutions-for-mobile-app-developers</url>
+  <licenses>
+    <license>
+      <name>APS Mobile Engineering License</name>
+      <url>https://mdtb-sdk-packages.s3-us-west-2.amazonaws.com/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>ssh://git.amazon.com/pkg/DTBAndroidSDK</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>aps-mobile-engineering</id>
+      <name>Amazon Publisher Services</name>
+      <email>aps-mobile-engineering@amazon.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+  </dependencies>
+</project>

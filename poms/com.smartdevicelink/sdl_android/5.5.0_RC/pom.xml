@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.smartdevicelink</groupId>
+  <artifactId>sdl_android</artifactId>
+  <version>5.5.0_RC</version>
+  <packaging>aar</packaging>
+  <name>sdl_android</name>
+  <description>The app library component of SDL is meant to run on the end userâs smart-device from within SDL enabled apps, as an embedded app, or connected to the cloud. App libraries allow the apps to connect to SDL enabled head-units and hardware through bluetooth, USB, and TCP for Android, and cloud and embedded apps can connect through web sockets, Java Beans, and other custom transports. Once the library establishes a connection between the smart device and head-unit through the preferred method of transport, the two components are able to communicate using the SDL defined protocol. The app integrating this library project is then able to expose its functionality to the head-unit through text, media, and other interactive elements.</description>
+  <url>https://github.com/smartdevicelink/sdl_java_suite</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JulianKast</id>
+      <name>Julian Kast</name>
+      <url>https://github.com/JulianKast</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:smartdevicelink/sdl_java_suite.git</connection>
+    <developerConnection>scm:git@github.com:smartdevicelink/sdl_java_suite.git</developerConnection>
+    <url>https://github.com/smartdevicelink/sdl_java_suite</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.smartdevicelink</groupId>
+      <artifactId>bson_java_port</artifactId>
+      <version>1.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

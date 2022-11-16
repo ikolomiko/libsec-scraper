@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twilio</groupId>
+  <artifactId>conversations-android</artifactId>
+  <version>1.3.0</version>
+  <packaging>aar</packaging>
+  <name>Programmable Conversations Android SDK</name>
+  <description>An Android library for text communications between participants using different channels (SMS, WhatsApp, Twilio Programmsble Chat etc)</description>
+  <url>https://www.twilio.com/docs/conversations</url>
+  <licenses>
+    <license>
+      <name>TWILIO-TOS</name>
+      <url>https://www.twilio.com/legal/tos</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Twilio</id>
+      <name>Twiilio</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:twilio/twilio-chat-demo-kotlin.git</connection>
+    <developerConnection>scm:git:ssh://github.com:twilio/twilio-chat-demo-kotlin.git</developerConnection>
+    <url>https://github.com/twilio/twilio-chat-demo-kotlin/tree/main</url>
+  </scm>
+</project>

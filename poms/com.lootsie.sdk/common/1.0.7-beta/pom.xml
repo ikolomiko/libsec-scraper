@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lootsie.sdk</groupId>
+  <artifactId>common</artifactId>
+  <version>1.0.7-beta</version>
+  <packaging>aar</packaging>
+  <name>LootsieCommon</name>
+  <description>Lootsie Common Module</description>
+  <url>https://bitbucket.org/lootsie/android-sdk-5</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url></url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dmitriy-druchinin</id>
+      <name>Dmitriy Druchinin</name>
+      <email>dmitriy.druchinin@consulti.ca</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://bitbucket.org/lootsie/android-sdk-5.git</connection>
+    <developerConnection>https://bitbucket.org/lootsie/android-sdk-5.git</developerConnection>
+    <url>https://bitbucket.org/lootsie/android-sdk-5</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

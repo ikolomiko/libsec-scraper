@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.aiq</groupId>
+  <artifactId>aiq-fashion-api</artifactId>
+  <version>0.9.0</version>
+  <packaging>aar</packaging>
+  <name>AIQ fashion search api</name>
+  <description>the AIQ's fashion seach sdk for android.</description>
+  <url>https://github.com/aiq-tech/aiq-fashion-api</url>
+  <licenses>
+    <license>
+      <name>The AIQ Software License, Version 1.0</name>
+      <url>https://github.com/aiq-tech/aiq-fashion-api/blob/master/AIQ_License.doc</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>AIQ</name>
+      <email>admin@aiq.tech</email>
+      <organization>AIQ Pte. Ltd.</organization>
+      <organizationUrl>https://aiq.tech</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:aiq-tech/aiq-fashion-api.git</connection>
+    <developerConnection>scm:git:git@github.com:aiq-tech/aiq-fashion-api.git</developerConnection>
+    <url>git@github.com:aiq-tech/aiq-fashion-api.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.immutables</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.parceler</groupId>
+      <artifactId>parceler-api</artifactId>
+      <version>1.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

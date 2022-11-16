@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.thomas-bouvier</groupId>
+  <artifactId>persistent-cookie-jar-okhttp</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>thomas-bouvier/persistent-cookie-jar-okhttp</name>
+  <description>A persistent CookieJar implementation for OkHttp 3 based on SharedPreferences</description>
+  <url>https://github.com/thomas-bouvier/persistent-cookie-jar-okhttp</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>thomas-bouvier</id>
+      <name>Thomas Bouvier</name>
+      <email>contact@thomas-bouvier.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/thomas-bouvier/persistent-cookie-jar-okhttp.git</connection>
+    <developerConnection>scm:git://github.com/thomas-bouvier/persistent-cookie-jar-okhttp.git</developerConnection>
+    <url>git://github.com/thomas-bouvier/persistent-cookie-jar-okhttp.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.10.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.robolectric</groupId>
+      <artifactId>robolectric</artifactId>
+      <version>4.2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.2.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

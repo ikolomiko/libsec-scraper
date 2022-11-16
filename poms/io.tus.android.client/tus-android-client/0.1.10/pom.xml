@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.tus.android.client</groupId>
+  <artifactId>tus-android-client</artifactId>
+  <version>0.1.10</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.tus.java.client</groupId>
+      <artifactId>tus-java-client</artifactId>
+      <version>0.4.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <description>[:]</description>
+  <name>tus-android-client</name>
+  <url>http://tus.io</url>
+  <developers>
+    <developer>
+      <id>acconut</id>
+      <name>Marius Kleidl</name>
+      <email>marius@transloadit.com</email>
+    </developer>
+  </developers>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/tus/tus-android-client</url>
+    <connection>https://github.com/tus/tus-android-client</connection>
+    <developerConnection>https://github.com/tus/tus-android-client</developerConnection>
+  </scm>
+</project>

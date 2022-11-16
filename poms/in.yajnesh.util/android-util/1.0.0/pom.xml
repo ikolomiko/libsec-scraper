@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.yajnesh.util</groupId>
+  <artifactId>android-util</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>android-util</name>
+  <description>Most used short code snippets generically designed</description>
+  <url>https://github.com/yajnesh/android-util</url>
+  <licenses>
+    <license>
+      <name>GNU Public Licence, Version 2.0</name>
+      <url>https://www.gnu.org/licenses/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yajnesh</id>
+      <name>Yajnesh T</name>
+      <email>yajnesh.t@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yajnesh/android-util.git</connection>
+    <developerConnection>https://github.com/yajnesh/android-util.git</developerConnection>
+    <url>https://github.com/yajnesh/android-util</url>
+  </scm>
+</project>

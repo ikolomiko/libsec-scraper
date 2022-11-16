@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.radar</groupId>
+  <artifactId>sdk</artifactId>
+  <version>2.0.0</version>
+  <packaging>aar</packaging>
+
+  <name>Radar Android SDK</name>
+  <description>Android SDK for Radar, the leading geofencing and location tracking platform</description>
+  <url>https://radar.io</url>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Radar Labs, Inc.</name>
+    <url>https://radar.io</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <organization>Radar Labs, Inc.</organization>
+      <organizationUrl>https://radar.io</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com:radarlabs/radar-sdk-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com:radarlabs/radar-sdk-android.git</developerConnection>
+    <url>https://github.com/radarlabs/radar-sdk-android</url>
+  </scm>
+  
+
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>11.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.16</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.2.31</version>
+    </dependency>
+  </dependencies>
+</project>

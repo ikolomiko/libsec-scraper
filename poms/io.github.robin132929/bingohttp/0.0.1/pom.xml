@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.robin132929</groupId>
+  <artifactId>bingohttp</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>bingohttp</name>
+  <description>bingo http组件</description>
+  <url>https://github.com/Robin132929/BingoUtils</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT </url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>robin132929</id>
+      <name>robin132929</name>
+      <email>531031061@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Robin132929/BingoUtils</connection>
+    <developerConnection>scm:git:https://github.com/Robin132929/BingoUtils</developerConnection>
+    <url>https://github.com/Robin132929/BingoUtils</url>
+  </scm>
+  <dependencies/>
+</project>

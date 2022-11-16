@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.appsflyer</groupId>
+  <artifactId>af-android-sdk</artifactId>
+  <version>4.3.4</version>
+  <name>AppsFlyer SDK</name>
+  <description>AppsFlyer's official Android SDK for Mobile Advertising Attribution &amp; Analytics.</description>
+  <url>http://www.AppsFlyer.com/</url>
+  <licenses>
+    <license>
+      <name>Proprietary</name>
+      <url>http://www.appsflyer.com</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Gil</id>
+      <name>Gil Meroz</name>
+      <email>gil@appsflyer.com</email>
+    </developer>
+    <developer>
+      <id>Golan</id>
+      <name>Golan Malki</name>
+      <email>golan@appsflyer.com</email>
+    </developer>
+    <developer>
+      <id>Shachar</id>
+      <name>Shachar Aharon</name>
+      <email>shachar@appsflyer.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:http://bitbucket.org/appsflyer/appsflyer-android-sdk</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/appsflyer/appsflyer-android-sdk</developerConnection>
+    <url>http://bitbucket.org/appsflyer/appsflyer-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>8.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

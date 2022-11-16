@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sf</groupId>
+  <artifactId>encryption</artifactId>
+  <version>0.0.17</version>
+  <packaging>aar</packaging>
+  <name>SF_Encryption For Android</name>
+  <description></description>
+  <url>https://gitee.com/zrina1314/SF_Utils</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zrina1314</id>
+      <name>花心大萝卜</name>
+      <email>zrina1314@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/zrina1314/SF_Utils.git</connection>
+    <developerConnection>https://gitee.com/zrina1314/SF_Utils.git</developerConnection>
+    <url>https://gitee.com/zrina1314/SF_Utils</url>
+  </scm>
+</project>

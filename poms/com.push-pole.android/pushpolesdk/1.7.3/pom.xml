@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.push-pole.android</groupId>
+  <artifactId>pushpolesdk</artifactId>
+  <version>1.7.3</version>
+  <packaging>aar</packaging>
+  <name>pushpolesdk</name>
+  <description>Push Pole SDK</description>
+  <url>https://push-pole.com</url>
+  <licenses>
+    <license>
+      <name>Apache License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Push Pole</id>
+      <name>Push Pole</name>
+      <email>admin@push-pole.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/push-pole-git/pole-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com/push-pole-git/pole-sdk.git</developerConnection>
+    <url>https://github.com/push-pole-git/pole-sdk/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.evernote</groupId>
+      <artifactId>android-job</artifactId>
+      <version>1.2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-compat</artifactId>
+      <version>26.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>17.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-gcm</artifactId>
+      <version>16.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

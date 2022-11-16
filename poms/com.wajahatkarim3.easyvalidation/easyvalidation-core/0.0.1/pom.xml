@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wajahatkarim3.easyvalidation</groupId>
+  <artifactId>easyvalidation-core</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>easyvalidation-core</name>
+  <description>A text and input validation library in Kotlin for Android </description>
+  <url>https://github.com/wajahatkarim3/EasyValidation</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wajahatkarim3</id>
+      <name>Wajahat Karim</name>
+      <email>wajahatkarim3@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/wajahatkarim3/EasyValidation.git</connection>
+    <developerConnection>https://github.com/wajahatkarim3/EasyValidation.git</developerConnection>
+    <url>https://github.com/wajahatkarim3/EasyValidation</url>
+  </scm>
+</project>

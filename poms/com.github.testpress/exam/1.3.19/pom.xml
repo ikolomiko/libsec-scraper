@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.testpress</groupId>
+  <artifactId>exam</artifactId>
+  <version>1.3.19</version>
+  <packaging>aar</packaging>
+  <name>Testpress Exam</name>
+  <description>Used to integrate android apps with Testpress Platform</description>
+  <url>https://github.com/testpress/android-sdk/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vignesh-s</id>
+      <name>Vignesh Sundar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@https://github.com/testpress/android-sdk.git</connection>
+    <developerConnection>scm:git@https://github.com/testpress/android-sdk.git</developerConnection>
+    <url>https://github.com/testpress/android-sdk/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.testpress</groupId>
+      <artifactId>core</artifactId>
+      <version>1.3.19</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>27.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.testpress</groupId>
+      <artifactId>MPAndroidChart</artifactId>
+      <version>v3.0.0-beta2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.theartofdev.edmodo</groupId>
+      <artifactId>android-image-cropper</artifactId>
+      <version>2.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>lottie</artifactId>
+      <version>2.5.4</version>
+    </dependency>
+  </dependencies>
+</project>

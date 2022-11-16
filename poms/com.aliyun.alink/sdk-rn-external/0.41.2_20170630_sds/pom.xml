@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aliyun.alink</groupId>
+  <artifactId>sdk-rn-external</artifactId>
+  <version>0.41.2_20170630_sds</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.aliyun.alink.external</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.41.2-20170526-excludeimage</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.aliyun.alink.external</groupId>
+      <artifactId>widget</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.airbnb.android</groupId>
+      <artifactId>lottie</artifactId>
+      <version>1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

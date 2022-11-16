@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ederdoski.ble</groupId>
+  <artifactId>simpleble</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>Simple Ble</name>
+  <description>This project is a simple interface to facilitate the use of the native Android API, Bluetooth le (BLE), which allows basic operations with BLE.</description>
+  <url>https://github.com/ederdoski/SimpleBle</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ederdoski</id>
+      <name>Edermar Dominguez</name>
+      <email>ederdoski19@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/ederdoski/SimpleBle</connection>
+    <developerConnection>https://github.com/ederdoski/SimpleBle</developerConnection>
+    <url>https://github.com/ederdoski/SimpleBle</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

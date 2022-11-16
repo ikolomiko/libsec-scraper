@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.microsoft.projectoxford</groupId>
+  <artifactId>vision</artifactId>
+  <version>0.4.9</version>
+  <packaging>aar</packaging>
+  <name>Microsoft Project Oxford Vision API Client Library</name>
+  <description>This client library allows the use of Microsoft's state-of-the-art cloud-based computer vision algorithms to return information based on the visual content, and to generate your ideal thumbnail. See https://github.com/Microsoft/ProjectOxford-ClientSDK/tree/master/Vision for more information.</description>
+  <url>https://github.com/Microsoft/ProjectOxford-ClientSDK</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Microsoft/ProjectOxford-ClientSDK/blob/master/LICENSE.md</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>projectoxfordSDK</id>
+      <name>Project Oxford Client SDK</name>
+      <email>projectoxfordsdk@microsoft.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Microsoft/ProjectOxford-ClientSDK</connection>
+    <developerConnection>scm:git:https://github.com/Microsoft/ProjectOxford-ClientSDK</developerConnection>
+    <url>scm:git:https://github.com/Microsoft/ProjectOxford-ClientSDK</url>
+  </scm>
+</project>

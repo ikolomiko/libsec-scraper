@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Kennyc1012</groupId>
+  <artifactId>MultiStateView</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>Kennyc1012/MultiStateView</name>
+  <description>Android View that displays different content based on its state</description>
+  <url>https://github.com/Kennyc1012/MultiStateView</url>
+  <inceptionYear>2015</inceptionYear>
+  <developers>
+    <developer>
+      <id>Kennyc1012</id>
+      <name>Kenny</name>
+      <email>kennyc.developer@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Kennyc1012/MultiStateView.git</connection>
+    <developerConnection>scm:git://github.com/Kennyc1012/MultiStateView.git</developerConnection>
+    <url>git://github.com/Kennyc1012/MultiStateView.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

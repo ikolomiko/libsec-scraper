@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vox-cpaas</groupId>
+  <artifactId>chatsdk</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>chatsdk</name>
+  <description>chatsdk is a client-side SDK for Android to enable Messaging, Presence, Collaboration &amp; more.</description>
+  <url>https://voxvalley.com/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>srinivasarao</id>
+      <name>srinivasarao</name>
+      <email>srinivasarao@voxvalley.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://voxvalley.com/</connection>
+    <developerConnection>https://voxvalley.com/</developerConnection>
+    <url>https://voxvalley.com/</url>
+  </scm>
+  <dependencies>
+  <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>11.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

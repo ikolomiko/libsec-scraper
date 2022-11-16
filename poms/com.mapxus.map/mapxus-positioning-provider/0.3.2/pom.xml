@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mapxus.map</groupId>
+  <artifactId>mapxus-positioning-provider</artifactId>
+  <version>0.3.2</version>
+  <packaging>aar</packaging>
+  <name>mapxus-positioning-provider</name>
+  <description>mapxus-positioning-provider</description>
+  <url>https://github.com/Mapxus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Mapxus</id>
+      <name>Mapxus</name>
+      <email>info@mapxus.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/https://github.com/Mapxus/mapxus-map-sample-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/https://github.com/Mapxus/mapxus-map-sample-android.git</developerConnection>
+    <url>https://github.com/Mapxus/mapxus-map-sample-android/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.mapxus.map</groupId>
+      <artifactId>positioning-provider-api</artifactId>
+      <version>0.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mapxus.positioning</groupId>
+      <artifactId>positioning</artifactId>
+      <version>0.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.amartinz</groupId>
+  <artifactId>execution</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>execution-library</name>
+  <description>Easy execution of commands on rooted and unrooted devices</description>
+  <url>https://github.com/Evisceration/ExecutionLibrary</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>evisceration</id>
+      <name>Alexander Martinz</name>
+      <email>eviscerationls@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Evisceration/ExecutionLibrary.git</connection>
+    <developerConnection>git@github.com:Evisceration/ExecutionLibrary.git</developerConnection>
+    <url>https://github.com/Evisceration/ExecutionLibrary</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>24.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.tac</groupId>
+  <artifactId>tac-social</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>tac-social</name>
+  <description>the social module for tencent application cloud</description>
+  <url>https://cloud.tencent.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/tencentyun/qcloud-sdk-android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencentqcloud</id>
+      <name>tencentqcloudterminal</name>
+      <email>qcloudterminal@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/qcloud-sdk-android.git</connection>
+    <developerConnection>https://github.com/tencentyun/qcloud-sdk-android.git</developerConnection>
+    <url>https://cloud.tencent.com/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.tac</groupId>
+      <artifactId>tac-core</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mm.opensdk</groupId>
+      <artifactId>wechat-sdk-android-without-mta</artifactId>
+      <version>5.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

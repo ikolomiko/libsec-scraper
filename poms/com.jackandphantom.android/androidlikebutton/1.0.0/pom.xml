@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jackandphantom.android</groupId>
+  <artifactId>androidlikebutton</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>androidlikebutton</name>
+  <description>This library will help you to create animation like twitter heart and facebook like and smiley animation in simplest way Edit</description>
+  <url>https://github.com/sparrow007/AndroidLikeButton</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sparrow007</id>
+      <name>Ankit kumar</name>
+      <email>ankit.steven007@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sparrow007/AndroidLikeButton.git</connection>
+    <developerConnection>https://github.com/sparrow007/AndroidLikeButton.git</developerConnection>
+    <url>https://github.com/sparrow007/AndroidLikeButton</url>
+  </scm>
+</project>

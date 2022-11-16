@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xuqi</groupId>
+  <artifactId>androidutillib</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>androidutillib</name>
+  <description>This xuqi personal practice android maven lib demo.</description>
+  <url>https://github.com/Kirito0512/AndroidMavenLib</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kirito0512</id>
+      <name>kirito0512</name>
+      <email>xuqi19950424@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Kirito0512/AndroidMavenLib.git</connection>
+    <developerConnection>https://github.com/Kirito0512/AndroidMavenLib.git</developerConnection>
+    <url>https://github.com/Kirito0512/AndroidMavenLib</url>
+  </scm>
+</project>

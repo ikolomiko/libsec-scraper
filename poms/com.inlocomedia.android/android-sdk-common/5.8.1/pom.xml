@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.inlocomedia.android</groupId>
+  <artifactId>android-sdk-common</artifactId>
+  <version>5.8.1</version>
+  <packaging>aar</packaging>
+  <name>InLocoMedia-Android-SDK-Common</name>
+  <description>In Loco Media Android Common SDK</description>
+  <url>https://github.com/in-loco-media/inlocomedia-android-sdk/</url>
+  <licenses>
+    <license>
+      <name>Copyright (c) 2013-2014 Ubee Desenvolvimento de Software SA.</name>
+      <url>https://github.com/In-Loco-Media/inlocomedia-android-sdk/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gafm</id>
+      <name>In Loco Media</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:in-loco-media/inlocomedia-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:in-loco-media/inlocomedia-android-sdk.git</developerConnection>
+    <url>https://github.com/in-loco-media/inlocomedia-android-sdk/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.inlocomedia.android</groupId>
+      <artifactId>android-sdk-core</artifactId>
+      <version>5.8.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

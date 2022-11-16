@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.budiyev.android</groupId>
+  <artifactId>image-loader</artifactId>
+  <version>2.5.6</version>
+  <packaging>aar</packaging>
+  <name>ImageLoader</name>
+  <description>Image loader tool for Android</description>
+  <url>https://github.com/yuriy-budiyev/image-loader</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yuriy-budiyev</id>
+      <name>Yuriy Budiyev</name>
+      <email>yuriy.budiyev@yandex.ru</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yuriy-budiyev/image-loader.git</connection>
+    <developerConnection>https://github.com/yuriy-budiyev/image-loader.git</developerConnection>
+    <url>https://github.com/yuriy-budiyev/image-loader</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.exifinterface</groupId>
+      <artifactId>exifinterface</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

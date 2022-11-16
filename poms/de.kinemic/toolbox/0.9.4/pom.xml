@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.kinemic</groupId>
+  <artifactId>toolbox</artifactId>
+  <version>0.9.4</version>
+  <packaging>aar</packaging>
+  <name>KinemicToolbox</name>
+  <description>A Collection of classes, templates and utilities that help you interact with Kinemic's services</description>
+  <url>https://github.com/kinemic/kinemic-toolbox-android</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fwinnen</id>
+      <name>Fabian Winnen</name>
+      <email>f.winnen@kinemic.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/kinemic/kinemic-toolbox-android.git</connection>
+    <developerConnection>https://github.com/kinemic/kinemic-toolbox-android.git</developerConnection>
+    <url>https://github.com/kinemic/kinemic-toolbox-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.zeromq</groupId>
+      <artifactId>jeromq</artifactId>
+      <version>0.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

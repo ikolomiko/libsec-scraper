@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.celerysoft</groupId>
+  <artifactId>imagepager</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <description>Implementation of ViewPager for Android that supports sliding to change picture, zooming picture by various touch gestures.</description>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/celerysoft/MaterialDesignDialog/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>celerysoft</id>
+      <name>Celery Qin</name>
+      <email>celerysoft@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.commit451</groupId>
+      <artifactId>PhotoView</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+  </dependencies>
+</project>

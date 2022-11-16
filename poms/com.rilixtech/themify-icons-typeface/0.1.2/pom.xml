@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rilixtech</groupId>
+  <artifactId>themify-icons-typeface</artifactId>
+  <version>0.1.2</version>
+  <packaging>aar</packaging>
+  <name>themify-icons-typeface</name>
+  <description>themify Icons Typeface for MaterialFancyButtons. Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7</description>
+  <url>https://github.com/joielechong/MaterialFancyButtons</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rilixtech</id>
+      <name>Joielechong</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/joielechong/MaterialFancyButtons.git</connection>
+    <developerConnection>https://github.com/joielechong/MaterialFancyButtons.git</developerConnection>
+    <url>https://github.com/joielechong/MaterialFancyButtons</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.rilixtech</groupId>
+      <artifactId>materialfancybuttons</artifactId>
+      <version>1.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

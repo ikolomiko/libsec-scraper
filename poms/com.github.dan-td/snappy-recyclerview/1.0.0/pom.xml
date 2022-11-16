@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dan-td</groupId>
+  <artifactId>snappy-recyclerview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>SnappyRecyclerView</name>
+  <description>An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.</description>
+  <url>https://github.com/Dan-TD/SnappyRecyclerView</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dan-td</id>
+      <name>Daniel Tanner-Davies</name>
+      <email>daniel.tannerdavies@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Dan-TD/SnappyRecyclerView.git</connection>
+    <developerConnection>https://github.com/Dan-TD/SnappyRecyclerView.git</developerConnection>
+    <url>https://github.com/Dan-TD/SnappyRecyclerView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.android.thinkfactory</groupId>
+  <artifactId>timehelper</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>TIME_HELPER</name>
+  <description>simple lib to get current system in milliseconds</description>
+  <url>https://github.com/benjamin31051997/TimeAssist</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ben</id>
+      <name>Benjamin J</name>
+      <email>benjamincherylabs@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/benjamin31051997/TimeAssist.git</connection>
+    <developerConnection>https://github.com/benjamin31051997/TimeAssist.git</developerConnection>
+    <url>https://github.com/benjamin31051997/TimeAssist</url>
+  </scm>
+</project>

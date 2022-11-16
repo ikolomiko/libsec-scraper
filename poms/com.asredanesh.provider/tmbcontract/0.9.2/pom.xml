@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.asredanesh.provider</groupId>
+  <artifactId>tmbcontract</artifactId>
+  <version>0.9.2</version>
+  <packaging>aar</packaging>
+  <name>tmbcontract</name>
+  <description>A helper library to use Tejarat Mobile Bank provider</description>
+  <url>https://github.com/tejaratmobilebank/TMBContract</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Farid</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tejaratmobilebank/TMBContract.git</connection>
+    <url>https://github.com/tejaratmobilebank/TMBContract</url>
+  </scm>
+</project>

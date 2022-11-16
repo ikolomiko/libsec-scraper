@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.eselltech</groupId>
+  <artifactId>component_log</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>component_log</name>
+  <description>component_log</description>
+  <url>https://github.com/eselltech/YXFSDKSimple</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>eselltech</id>
+      <name>esell</name>
+      <email>niulei@eselltech.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/eselltech/YXFSDKSimple.git</connection>
+    <developerConnection>scm:git:ssh://github.com/eselltech/YXFSDKSimple.git</developerConnection>
+    <url>https://github.com/eselltech/YXFSDKSimple/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId/>
+      <artifactId>unspecified</artifactId>
+      <version/>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

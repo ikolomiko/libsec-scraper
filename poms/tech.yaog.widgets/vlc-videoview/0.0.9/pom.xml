@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.yaog.widgets</groupId>
+  <artifactId>vlc-videoview</artifactId>
+  <version>0.0.9</version>
+  <packaging>aar</packaging>
+  <name>VlcVideoView</name>
+  <description>A simple video view implement of libvlc</description>
+  <url>https://github.com/mutoukenji/VLCPlayer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/mutoukenji/VLCPlayer/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mutoukenji</id>
+      <name>MutouKenji</name>
+      <email>mutoukenji@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/mutoukenji/VLCPlayer.git</connection>
+    <developerConnection>https://github.com/mutoukenji/VLCPlayer.git</developerConnection>
+    <url>https://github.com/mutoukenji/VLCPlayer</url>
+  </scm>
+</project>

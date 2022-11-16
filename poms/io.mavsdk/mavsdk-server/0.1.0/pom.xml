@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.mavsdk</groupId>
+  <artifactId>mavsdk-server</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>MAVSDK-Server</name>
+  <description>MAVSDK server for Android.</description>
+  <url>https://github.com/mavlink/MAVSDK-Java</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause "New"</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jonasvautherin</id>
+      <name>Jonas Vautherin</name>
+      <email>jonas.vautherin@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/mavlink/MAVSDK-Java</connection>
+    <developerConnection>scm:git:https://github.com/mavlink/MAVSDK-Java</developerConnection>
+    <url>https://github.com/mavlink/MAVSDK-Java</url>
+  </scm>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.schroepf</groupId>
+  <artifactId>android-xml-run-listener</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>de.schroepf:android-xml-run-listener</name>
+  <description>JUnit XML RunListener for android instrumentation tests</description>
+  <url>https://github.com/schroepf/TestLab/tree/master/android/android-xml-run-listener</url>
+  <licenses>
+    <license>
+      <name>The Unlicense</name>
+      <url>http://unlicense.org/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>schroepf</id>
+      <name>Tobias Schröpf</name>
+      <email>schroepf@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/schroepf/TestLab</connection>
+    <developerConnection>https://github.com/schroepf/TestLab</developerConnection>
+    <url>https://github.com/schroepf/TestLab/tree/master/android/android-xml-run-listener</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support.test</groupId>
+      <artifactId>runner</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

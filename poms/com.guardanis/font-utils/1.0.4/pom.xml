@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.guardanis</groupId>
+  <artifactId>font-utils</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <name>font-utils</name>
+  <description>A library to help with custom fonts and text sizes</description>
+  <url>https://github.com/mattsilber/font-utils</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mattsilber</id>
+      <name>Matt Silber</name>
+      <email>matt@guardanis.com</email>
+      <organization>Guardanis</organization>
+      <organizationUrl>https://guardanis.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com:mattsilber/font-utils.git</connection>
+    <developerConnection>scm:git:ssh://github.com:mattsilber/font-utils.git</developerConnection>
+    <url>https://github.com/mattsilber/font-utils.git</url>
+  </scm>
+</project>

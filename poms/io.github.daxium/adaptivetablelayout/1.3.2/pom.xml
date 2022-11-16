@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.daxium</groupId>
+  <artifactId>adaptivetablelayout</artifactId>
+  <version>1.3.2</version>
+  <packaging>aar</packaging>
+  <name>Adaptive Table Layout</name>
+  <description>The main goal of the library is to work with CSV files.</description>
+  <url>https://github.com/daxium/AdaptiveTableLayout.git</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Daxium</id>
+      <name>Daxium</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:daxium/AdaptiveTableLayout.git</connection>
+    <developerConnection>scm:git@github.com:daxium/AdaptiveTableLayout.git</developerConnection>
+    <url>https://github.com/daxium/AdaptiveTableLayout</url>
+  </scm>
+</project>

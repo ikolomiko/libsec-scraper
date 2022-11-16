@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jmarquezt.jtm-qr-code-decoder-encoder</groupId>
+  <artifactId>android-quick-response-code</artifactId>
+  <version>2.0.2</version>
+  <packaging>aar</packaging>
+  <name>android-quick-response-code</name>
+  <description>Librer�a para leer / escribir qr en Android</description>
+  <developers>
+    <developer>
+      <id>jmarquezt</id>
+      <name>Jorge M�rquez Torres</name>
+      <email>imasjorge@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+</project>

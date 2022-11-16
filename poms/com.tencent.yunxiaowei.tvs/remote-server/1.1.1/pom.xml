@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tencent.yunxiaowei.tvs</groupId>
+  <artifactId>remote-server</artifactId>
+  <version>1.1.1</version>
+  <packaging>aar</packaging>
+  <name>YunXiaoWei TVS Remote Server Library</name>
+  <description>Voice Control other Apps like Tencent Video</description>
+  <url>https://git.woa.com/AI-Assistant/Common/tvs-remote-service.git</url>
+  <licenses>
+    <license>
+      <name>Tencent Binary License</name>
+      <url>https://tencentdingdang.github.io/dmsdk/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tencent_yunxiaowei</id>
+      <name>Tencent YunXiaoWei</name>
+      <email>dingdang@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@git.woa.com:AI-Assistant/Common/tvs-remote-service.git</connection>
+    <developerConnection>scm:git@git.woa.com:AI-Assistant/Common/tvs-remote-service.git</developerConnection>
+    <url>scm:git@git.woa.com:AI-Assistant/Common/tvs-remote-service.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.tencent.yunxiaowei.speech</groupId>
+      <artifactId>tools</artifactId>
+      <version>1.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

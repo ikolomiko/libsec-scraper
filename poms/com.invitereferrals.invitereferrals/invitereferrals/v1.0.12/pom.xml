@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.invitereferrals.invitereferrals</groupId>
+  <artifactId>invitereferrals</artifactId>
+  <version>v1.0.12</version>
+  <packaging>aar</packaging>
+  <name>invitereferrals</name>
+  <description>Invitereferrals Native SDK for AndroidX Platforms.</description>
+  <url>https://github.com/tagnpin/invitereferrals-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tagnpin</id>
+      <name>Aman Gupta</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:tagnpin/invitereferrals-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:tagnpin/invitereferrals-android-sdk.git</developerConnection>
+    <url>https://github.com/tagnpin/invitereferrals-android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

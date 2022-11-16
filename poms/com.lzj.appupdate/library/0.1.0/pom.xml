@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lzj.appupdate</groupId>
+  <artifactId>library</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>an independent util library for checking app update info and hint message by dialog,download latest version with notification progress.</name>
+  <url>https://github.com/Leo0618/AppUpdate</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Leo0618</id>
+      <name>Leo</name>
+      <email>leo0618@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git@github.com:Leo0618/AppUpdate.git</connection>
+    <developerConnection>git@github.com:Leo0618/AppUpdate.git</developerConnection>
+    <url>https://github.com/Leo0618/AppUpdate</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

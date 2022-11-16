@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cscao.libs</groupId>
+  <artifactId>mlog</artifactId>
+  <version>1.61</version>
+  <packaging>aar</packaging>
+  <name>MLog</name>
+  <description>Simple Android Log Library with class name and method name display</description>
+  <url>https://github.com/csarron/MLog</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/csarron/MLog/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>csarron</id>
+      <name>Arron Cao</name>
+      <email>qqcao.cs@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/csarron/MLog.git</connection>
+    <developerConnection>https://github.com/csarron/MLog.git</developerConnection>
+    <url>https://github.com/csarron/MLog</url>
+  </scm>
+</project>

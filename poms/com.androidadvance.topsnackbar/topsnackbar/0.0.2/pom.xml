@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.androidadvance.topsnackbar</groupId>
+  <artifactId>tsnackbar</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>tsnackbar</name>
+  <description>A Snackbar showing on top (Android).</description>
+  <url>https://github.com/AndreiD/TSnackBar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andreid</id>
+      <name>Andrei Dan</name>
+      <email>danandreist@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AndreiD/TSnackBar.git</connection>
+    <developerConnection>https://github.com/AndreiD/TSnackBar.git</developerConnection>
+    <url>https://github.com/AndreiD/TSnackBar</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>23+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.agorabuilder</groupId>
+  <artifactId>rtm-sdk</artifactId>
+  <version>1.4.4</version>
+  <packaging>aar</packaging>
+  <name>agorabuilder/rtm-sdk</name>
+  <url>https://github.com/agorabuilder/rtm-sdk</url>
+  <inceptionYear>2021</inceptionYear>
+  <developers>
+    <developer>
+      <id>agorabuilder</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/agorabuilder/rtm-sdk.git</connection>
+    <developerConnection>scm:git://github.com/agorabuilder/rtm-sdk.git</developerConnection>
+    <url>git://github.com/agorabuilder/rtm-sdk.git</url>
+  </scm>
+</project>

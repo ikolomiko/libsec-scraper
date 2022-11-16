@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.zeroflops</groupId>
+  <artifactId>material-dialogs</artifactId>
+  <version>0.8.5.8</version>
+  <packaging>aar</packaging>
+  <name>Material Dialogs</name>
+  <description>Material Themed Android Dialogs</description>
+  <url>https://github.com/zeroFlops/material-dialogs</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>afollestad</id>
+      <name>Aidan Follestad</name>
+      <email>drummer.aidan@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/zeroFlops/material-dialogs.git</connection>
+    <developerConnection>https://github.com/zeroFlops/material-dialogs.git</developerConnection>
+    <url>https://github.com/zeroFlops/material-dialogs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.zhanghai.android.materialprogressbar</groupId>
+      <artifactId>library</artifactId>
+      <version>1.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.littlechoc.flowlayout</groupId>
+  <artifactId>flowlayout</artifactId>
+  <version>0.0.2</version>
+  <packaging>aar</packaging>
+  <name>Android FlowLayout Widget</name>
+  <url>https://github.com/junhaozhou/android-flow-layout</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>littlechoc</id>
+      <name>Junhao Zhou</name>
+      <email>junhao.zhou@foxmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/junhaozhou/android-flow-layout.git</connection>
+    <developerConnection>https://github.com/junhaozhou/android-flow-layout.git</developerConnection>
+    <url>https://github.com/junhaozhou/android-flow-layout</url>
+  </scm>
+  <properties>
+    <sourceEncoding>UTF-8</sourceEncoding>
+  </properties>
+</project>

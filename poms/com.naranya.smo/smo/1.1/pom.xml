@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.naranya.smo</groupId>
+  <artifactId>smo</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>SMOSilent</name>
+  <description>Librería para obtener números telefónicos mediante el uso de navegación wifi.</description>
+  <url>http://git.naranya.net/anselmo.hernandez/silentmo</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>naranya</id>
+      <name>Anselmo Hernandez Bazaldua</name>
+      <email>humberto.contreras@naranya.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://git.naranya.net/anselmo.hernandez/silentmo.git</connection>
+    <developerConnection>http://git.naranya.net/anselmo.hernandez/silentmo.git</developerConnection>
+    <url>http://git.naranya.net/anselmo.hernandez/silentmo</url>
+  </scm>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.15198184721</groupId>
+  <artifactId>model_dncd_sdk</artifactId>
+  <version>2.0.3</version>
+  <packaging>aar</packaging>
+  <name>model_dncd_sdk</name>
+  <description>多牛公司成都分部。基础组件，仅限多牛公司内部使用</description>
+  <url>https://github.com/15198184721/DNCDLibApp.git</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>15198184721</id>
+      <name>15198184721</name>
+      <email>302748574@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:15198184721/DNCDLibApp.git</connection>
+    <developerConnection>scm:git@github.com:15198184721/DNCDLibApp.git</developerConnection>
+    <url>https://github.com/15198184721/DNCDLibApp.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.10</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.blankj</groupId>
+      <artifactId>utilcodex</artifactId>
+      <version>1.30.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.15198184721</groupId>
+      <artifactId>AndroidSandHook</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+</project>

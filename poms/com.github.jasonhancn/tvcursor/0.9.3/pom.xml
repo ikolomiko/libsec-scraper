@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jasonhancn</groupId>
+  <artifactId>tvcursor</artifactId>
+  <version>0.9.3</version>
+  <packaging>aar</packaging>
+  <name>AndroidTVCursor</name>
+  <description>Use remote controller to emulate mouse cursor on non-touch Android devices such like smart TV.</description>
+  <url>https://github.com/jasonhancn/AndroidTVCursor</url>
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Jason Han</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jasonhancn/AndroidTVCursor.git</connection>
+    <url>https://github.com/jasonhancn/AndroidTVCursor</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

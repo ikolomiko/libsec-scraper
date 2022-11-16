@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.dex.dexmovingimageview</groupId>
+  <artifactId>dexmovingimageviewlib</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>DexMovingImageView</name>
+  <description>DMIV aims to provide a flexible and customizable instrument for automated images moving on display. It provides scroll, gyroscope or time based moving. But you can create your own evaluator.</description>
+  <url>https://github.com/dexlex/DexMovingImageView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dexlex</id>
+      <name>Diego Grancini</name>
+      <email>dexlex84@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dexlex/DexMovingImageView.git</connection>
+    <developerConnection>https://github.com/dexlex/DexMovingImageView.git</developerConnection>
+    <url>https://github.com/dexlex/DexMovingImageView</url>
+  </scm>
+</project>

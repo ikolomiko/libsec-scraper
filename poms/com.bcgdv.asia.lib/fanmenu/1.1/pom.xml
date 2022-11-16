@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bcgdv.asia.lib</groupId>
+  <artifactId>fanmenu</artifactId>
+  <version>1.1</version>
+  <packaging>aar</packaging>
+  <name>FanMenu</name>
+  <description>A simple widget that can be used to display menu's which can be animated in and out.</description>
+  <url>https://github.com/BCGDV-ASIA/android-widget-fanmenu</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bcgdv</id>
+      <name>BCGDV Asia</name>
+      <email>support@bcgdv.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/BCGDV-ASIA/android-widget-fanmenu.git</connection>
+    <developerConnection>https://github.com/BCGDV-ASIA/android-widget-fanmenu.git</developerConnection>
+    <url>https://github.com/BCGDV-ASIA/android-widget-fanmenu</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

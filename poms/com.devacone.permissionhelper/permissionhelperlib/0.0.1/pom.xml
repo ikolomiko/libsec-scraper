@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.devacone.permissionhelper</groupId>
+  <artifactId>permissionhelperlib</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>permissionhelperlib</name>
+  <description>A permission helper to handle android M permission</description>
+  <developers>
+    <developer>
+      <id>devacone</id>
+      <name>Marzella Alfa Mega</name>
+      <email>alfa.marzella@gmail.com</email>
+    </developer>
+  </developers>
+  <scm />
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
