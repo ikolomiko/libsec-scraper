@@ -45,10 +45,10 @@ def main():
     average = total_vers / 22200
     max_vers = sorted_vers[0][1]
 
-    print(f"{total_vers = }")
-    print(f"{max_vers   = }")
-    print(f"{average    = :.2f}")
-    print(f"{median     = }")
+    print(f"total_vers = {total_vers}")
+    print(f"max_vers   = {max_vers}")
+    print(f"average    = {average:.2f}")
+    print(f"median     = {median}")
 
     
 
